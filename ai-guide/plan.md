@@ -60,75 +60,88 @@ When writing planned files, reference these original OMT files:
 
 ## Related Score Images
 
+**Image Types:**
+- 🎼 **Real composition** - Requires corresponding MusicXML from IMSLP
+- 📝 **Teaching example** - Short examples created for illustration, can be recreated with LilyPond
+- 📊 **Structural diagram** - Not a score, text/graphic illustration only
+
 ### augmented-sixths.md & neapolitan.md
 
 From `alteredSubdominants.md`:
 
-| Image | Description |
-|-------|-------------|
-| `Graphics/N-AugSixths.png` | Neapolitan and +6 chord notation |
-| `Graphics/DMUDB.png` | Schubert "Der Müller und der Bach" Neapolitan example |
-| `Graphics/Op119-1.png` | Beethoven Op. 119/1 Italian +6 example |
-| `Graphics/K465-iv.png` | Mozart K. 465 French +6 example |
-| `Graphics/Op109-iii.png` | Beethoven Op. 109 German +6 example |
+| Image | Description | Type |
+|-------|-------------|------|
+| [N-AugSixths.png](../Graphics/N-AugSixths.png) | Neapolitan and +6 chord notation | 📝 Teaching |
+| [DMUDB.png](../Graphics/DMUDB.png) | Schubert "Der Müller und der Bach" Neapolitan | 🎼 Real |
+| [Op119-1.png](../Graphics/Op119-1.png) | Beethoven Op. 119/1 Italian +6 | 🎼 Real |
+| [K465-iv.png](../Graphics/K465-iv.png) | Mozart K. 465 French +6 | 🎼 Real |
+| [Op109-iii.png](../Graphics/Op109-iii.png) | Beethoven Op. 109 German +6 | 🎼 Real |
 
 ### modulation.md
 
 From `Modulation.md`:
 
-| Image | Description |
-|-------|-------------|
-| `Graphics/harmony/pivot.png` | Pivot chord bracket notation |
+| Image | Description | Type |
+|-------|-------------|------|
+| [pivot.png](../Graphics/harmony/pivot.png) | Pivot chord bracket notation | 📊 Diagram |
 
 ### hybrid-themes.md
 
 From `hybridThemes.md`:
 
-| Image | Description |
-|-------|-------------|
-| `Graphics/ClassicalThemes/hybrid1.svg` | Hybrid 1 diagram (antecedent + continuation) |
-| `Graphics/ClassicalThemes/hybrid2.svg` | Hybrid 2 diagram (antecedent + cadential) |
-| `Graphics/ClassicalThemes/hybrid3.svg` | Hybrid 3 diagram (CBI + continuation) |
-| `Graphics/ClassicalThemes/hybrid4.svg` | Hybrid 4 diagram (CBI + consequent) |
-| `Graphics/form/k330-ii.png` | Mozart K. 330 II - Hybrid 1 example |
-| `Graphics/form/haydn-III-66-ii.png` | Haydn Hob. III:66 II - Hybrid 2 example |
-| `Graphics/form/beethoven_op30.png` | Beethoven Op. 30/2 III - Hybrid 3 example |
-| `Graphics/form/beethoven_18_2.png` | Beethoven Op. 18/2 IV - Hybrid 4 example |
+| Image | Description | Type |
+|-------|-------------|------|
+| [hybrid1.svg](../Graphics/ClassicalThemes/hybrid1.svg) | Hybrid 1 diagram (Ant. + Cont.) | 📊 Diagram |
+| [hybrid2.svg](../Graphics/ClassicalThemes/hybrid2.svg) | Hybrid 2 diagram (Ant. + Cad.) | 📊 Diagram |
+| [hybrid3.svg](../Graphics/ClassicalThemes/hybrid3.svg) | Hybrid 3 diagram (CBI + Cont.) | 📊 Diagram |
+| [hybrid4.svg](../Graphics/ClassicalThemes/hybrid4.svg) | Hybrid 4 diagram (CBI + Cons.) | 📊 Diagram |
+| [k330-ii.png](../Graphics/form/k330-ii.png) | Mozart K. 330 II - Hybrid 1 | 🎼 Real |
+| [haydn-III-66-ii.png](../Graphics/form/haydn-III-66-ii.png) | Haydn Hob. III:66 II - Hybrid 2 | 🎼 Real |
+| [beethoven_op30.png](../Graphics/form/beethoven_op30.png) | Beethoven Op. 30/2 III - Hybrid 3 | 🎼 Real |
+| [beethoven_18_2.png](../Graphics/form/beethoven_18_2.png) | Beethoven Op. 18/2 IV - Hybrid 4 | 🎼 Real |
 
 ### phrase-expansion.md
 
 From `internalExpansions.md`:
 
-| Image | Description |
-|-------|-------------|
-| `Graphics/form/k494.png` | Mozart K. 494 - Sub-phrase expansion |
-| `Graphics/form/op2no3.png` | Beethoven Op. 2/3 - Phrase expansion |
-| `Graphics/form/k309.png` | Mozart K. 309 III - Evaded cadence |
+| Image | Description | Type |
+|-------|-------------|------|
+| [k494.png](../Graphics/form/k494.png) | Mozart K. 494 - Sub-phrase expansion | 🎼 Real |
+| [op2no3.png](../Graphics/form/op2no3.png) | Beethoven Op. 2/3 - Phrase expansion | 🎼 Real |
+| [k309.png](../Graphics/form/k309.png) | Mozart K. 309 III - Evaded cadence | 🎼 Real |
 
 From `externalExpansions.md`:
 
-| Image | Description |
-|-------|-------------|
-| `Graphics/form/sym101.png` | Haydn Sym. 101 "Clock" - Prefix |
-| `Graphics/form/k330.png` | Mozart K. 330 - Closing section |
-| `Graphics/form/sym40.png` | Mozart Sym. 40 - Standing on dominant |
+| Image | Description | Type |
+|-------|-------------|------|
+| [sym101.png](../Graphics/form/sym101.png) | Haydn Sym. 101 "Clock" - Prefix | 🎼 Real |
+| [k330.png](../Graphics/form/k330.png) | Mozart K. 330 - Closing section | 🎼 Real |
+| [sym40.png](../Graphics/form/sym40.png) | Mozart Sym. 40 - Standing on dominant | 🎼 Real |
 
 ### embellishing-tones.md
 
 From `embellishingTones.md`:
 
-| Image | Description |
-|-------|-------------|
-| `Graphics/embellishingTones/passingTone.png` | Passing tone example |
-| `Graphics/embellishingTones/neighborTone.png` | Neighbor tone example |
-| `Graphics/embellishingTones/doubleNeighbor.png` | Double neighbor figure |
-| `Graphics/embellishingTones/INT.png` | Incomplete neighbor tone |
-| `Graphics/embellishingTones/appoggiatura.png` | Appoggiatura example |
-| `Graphics/embellishingTones/escapeTone.png` | Escape tone example |
-| `Graphics/embellishingTones/anticipation.png` | Anticipation example |
-| `Graphics/embellishingTones/syncopatedNote.png` | Syncopation example |
-| `Graphics/embellishingTones/suspension.png` | Suspension example |
-| `Graphics/embellishingTones/retardation.png` | Retardation example |
+| Image | Description | Type |
+|-------|-------------|------|
+| [passingTone.png](../Graphics/embellishingTones/passingTone.png) | Passing tone example | 📝 Teaching |
+| [neighborTone.png](../Graphics/embellishingTones/neighborTone.png) | Neighbor tone example | 📝 Teaching |
+| [doubleNeighbor.png](../Graphics/embellishingTones/doubleNeighbor.png) | Double neighbor figure | 📝 Teaching |
+| [INT.png](../Graphics/embellishingTones/INT.png) | Incomplete neighbor tone | 📝 Teaching |
+| [appoggiatura.png](../Graphics/embellishingTones/appoggiatura.png) | Appoggiatura example | 📝 Teaching |
+| [escapeTone.png](../Graphics/embellishingTones/escapeTone.png) | Escape tone example | 📝 Teaching |
+| [anticipation.png](../Graphics/embellishingTones/anticipation.png) | Anticipation example | 📝 Teaching |
+| [syncopatedNote.png](../Graphics/embellishingTones/syncopatedNote.png) | Syncopation example | 📝 Teaching |
+| [suspension.png](../Graphics/embellishingTones/suspension.png) | Suspension example | 📝 Teaching |
+| [retardation.png](../Graphics/embellishingTones/retardation.png) | Retardation example | 📝 Teaching |
+
+### Summary
+
+| Type | Count | Notes |
+|------|-------|-------|
+| 🎼 Real composition | 14 | Need MusicXML from IMSLP or other sources |
+| 📝 Teaching example | 11 | No MusicXML needed, can recreate with LilyPond |
+| 📊 Structural diagram | 5 | Not a score, no MusicXML needed |
 
 ### No Images Required
 
