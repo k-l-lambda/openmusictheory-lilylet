@@ -51,4 +51,23 @@ Before composing a *cantus firmus* from scratch, try building a well formed *can
 
 <iframe class="trinket" src="https://trinket.io/embed/music/2df65adf8b" width="100%" height="240" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe><br/>
 
+## Downloadable Cantus Firmi
+
+All distinct cantus firmi from Fux's *Gradus ad Parnassum* are available in editable formats:
+
+| Voices | PDF | MuseScore | MusicXML |
+|--------|-----|-----------|----------|
+| Two-voice | [Download][I-Distinct-pdf] | [Download][I-Distinct-mscz] | [Download][I-Distinct-mxl] |
+| Three-voice | [Download][II-Distinct-pdf] | [Download][II-Distinct-mscz] | [Download][II-Distinct-mxl] |
+| Four-voice | [Download][III-Distinct-pdf] | [Download][III-Distinct-mscz] | [Download][III-Distinct-mxl] |
+
 [CFs]: {{ site.url }}/Graphics/counterpoint/cantusFirmi.pdf
+[I-Distinct-pdf]: {{ site.url }}/Graphics/counterpoint/species/I/I-Distinct.pdf
+[I-Distinct-mscz]: {{ site.url }}/Graphics/counterpoint/species/I/I-Distinct.mscz
+[I-Distinct-mxl]: {{ site.url }}/Graphics/counterpoint/species/I/I-Distinct.mxl
+[II-Distinct-pdf]: {{ site.url }}/Graphics/counterpoint/species/II/II-Distinct.pdf
+[II-Distinct-mscz]: {{ site.url }}/Graphics/counterpoint/species/II/II-Distinct.mscz
+[II-Distinct-mxl]: {{ site.url }}/Graphics/counterpoint/species/II/II-Distinct.mxl
+[III-Distinct-pdf]: {{ site.url }}/Graphics/counterpoint/species/III/III-Distinct.pdf
+[III-Distinct-mscz]: {{ site.url }}/Graphics/counterpoint/species/III/III-Distinct.mscz
+[III-Distinct-mxl]: {{ site.url }}/Graphics/counterpoint/species/III/III-Distinct.mxl

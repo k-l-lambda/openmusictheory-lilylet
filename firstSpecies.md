@@ -70,4 +70,23 @@ Before composing a first-species exercise from scratch, try the following practi
 
 <iframe class="trinket" src="https://trinket.io/embed/music/585810f762" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe><br/>
 
+## Downloadable Exercises
+
+First-species exercises from Fux's *Gradus ad Parnassum* (Part I, two voices):
+
+| Type | PDF | MuseScore | MusicXML |
+|------|-----|-----------|----------|
+| Exercises | [Download][I-Ex-pdf] | [Download][I-Ex-mscz] | [Download][I-Ex-mxl] |
+| Solutions | [Download][I-Sol-pdf] | [Download][I-Sol-mscz] | [Download][I-Sol-mxl] |
+| Annotated | [Download][I-Ann-pdf] | [Download][I-Ann-mscz] | [Download][I-Ann-mxl] |
+
 [CF]: cantusFirmus.html
+[I-Ex-pdf]: {{ site.url }}/Graphics/counterpoint/species/I/I-Exercises.pdf
+[I-Ex-mscz]: {{ site.url }}/Graphics/counterpoint/species/I/I-Exercises.mscz
+[I-Ex-mxl]: {{ site.url }}/Graphics/counterpoint/species/I/I-Exercises.mxl
+[I-Sol-pdf]: {{ site.url }}/Graphics/counterpoint/species/I/I-Solutions.pdf
+[I-Sol-mscz]: {{ site.url }}/Graphics/counterpoint/species/I/I-Solutions.mscz
+[I-Sol-mxl]: {{ site.url }}/Graphics/counterpoint/species/I/I-Solutions.mxl
+[I-Ann-pdf]: {{ site.url }}/Graphics/counterpoint/species/I/I-Annotations.pdf
+[I-Ann-mscz]: {{ site.url }}/Graphics/counterpoint/species/I/I-Annotations.mscz
+[I-Ann-mxl]: {{ site.url }}/Graphics/counterpoint/species/I/I-Annotations.mxl

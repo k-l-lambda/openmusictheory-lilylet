@@ -30,3 +30,30 @@ These traits are based in human perception and cognition, but they are often in 
 Also, note Schenker's expression "lead the ear." Counterpoint is not a pencil-and-paper (or lecture-and-homework) study. Rather, the exercises are mini- (micro-? nano-?) compositions that must be *performed*—with voice and/or keyboard, often with a partner—so that the ear, the fingers, the throat, and ultimately the mind can internalize the sound, sight, and feel of good (and bad) musical lines, and good (and bad) combinations of musical lines.
 
 The specific method we will use is called *species counterpoint*—so called because the study progresses through stages, or species, where one or two new musical "problems" are introduced. This approach has existed in some form since the early seventeenth century. The specific method we will use is very close to that articulated by Johann Joseph Fux, in his *Gradus ad parnassum* (*Steps to Parnassus*, 1725). Master composers from the eighteenth to the twenty-first centuries have used this method, or some variation on it. While Fux proposed five species, moving from two-voice combinations up to six- and eight-voice combinations, we will focus on species one through four, in two voices only.
+
+## Downloadable Resources
+
+Complete exercises from Fux's *Gradus ad Parnassum* are available for download in editable notation formats:
+
+| Part | Voices | Exercises | PDF | MuseScore | MusicXML |
+|------|--------|-----------|-----|-----------|----------|
+| I | Two | 46 | [Download][I-pdf] | [Download][I-mscz] | [Download][I-mxl] |
+| II | Three | 44 | [Download][II-pdf] | [Download][II-mscz] | [Download][II-mxl] |
+| III | Four | 32 | [Download][III-pdf] | [Download][III-mscz] | [Download][III-mxl] |
+
+Each download includes:
+- **Exercises** – Cantus firmus only (for student practice)
+- **Solutions** – Fux's complete solutions
+- **Annotations** – Solutions with interval markings
+
+Source: [MarkGotham/species](https://github.com/MarkGotham/species) (CC0 Public Domain)
+
+[I-pdf]: {{ site.url }}/Graphics/counterpoint/species/I/I-Exercises.pdf
+[I-mscz]: {{ site.url }}/Graphics/counterpoint/species/I/I-Exercises.mscz
+[I-mxl]: {{ site.url }}/Graphics/counterpoint/species/I/I-Exercises.mxl
+[II-pdf]: {{ site.url }}/Graphics/counterpoint/species/II/II-Exercises.pdf
+[II-mscz]: {{ site.url }}/Graphics/counterpoint/species/II/II-Exercises.mscz
+[II-mxl]: {{ site.url }}/Graphics/counterpoint/species/II/II-Exercises.mxl
+[III-pdf]: {{ site.url }}/Graphics/counterpoint/species/III/III-Exercises.pdf
+[III-mscz]: {{ site.url }}/Graphics/counterpoint/species/III/III-Exercises.mscz
+[III-mxl]: {{ site.url }}/Graphics/counterpoint/species/III/III-Exercises.mxl

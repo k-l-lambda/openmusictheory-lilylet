@@ -65,3 +65,23 @@ In the following videos, I illustrate the process of composing a fourth-species 
 The following is a model fourth-species composition. In it, there is a single example of a "rule" being "broken." Find it, and attempt to recompose the exercise. Can you make a "correct" solution that is more musically satisfying than the original? If not, why do you think that is?
 
 <iframe src="https://trinket.io/embed/music/22aa934458" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe><br/>
+
+## Downloadable Exercises
+
+Fourth-species exercises from Fux's *Gradus ad Parnassum* (Part I, two voices):
+
+| Type | PDF | MuseScore | MusicXML |
+|------|-----|-----------|----------|
+| Exercises | [Download][I-Ex-pdf] | [Download][I-Ex-mscz] | [Download][I-Ex-mxl] |
+| Solutions | [Download][I-Sol-pdf] | [Download][I-Sol-mscz] | [Download][I-Sol-mxl] |
+| Annotated | [Download][I-Ann-pdf] | [Download][I-Ann-mscz] | [Download][I-Ann-mxl] |
+
+[I-Ex-pdf]: {{ site.url }}/Graphics/counterpoint/species/I/I-Exercises.pdf
+[I-Ex-mscz]: {{ site.url }}/Graphics/counterpoint/species/I/I-Exercises.mscz
+[I-Ex-mxl]: {{ site.url }}/Graphics/counterpoint/species/I/I-Exercises.mxl
+[I-Sol-pdf]: {{ site.url }}/Graphics/counterpoint/species/I/I-Solutions.pdf
+[I-Sol-mscz]: {{ site.url }}/Graphics/counterpoint/species/I/I-Solutions.mscz
+[I-Sol-mxl]: {{ site.url }}/Graphics/counterpoint/species/I/I-Solutions.mxl
+[I-Ann-pdf]: {{ site.url }}/Graphics/counterpoint/species/I/I-Annotations.pdf
+[I-Ann-mscz]: {{ site.url }}/Graphics/counterpoint/species/I/I-Annotations.mscz
+[I-Ann-mxl]: {{ site.url }}/Graphics/counterpoint/species/I/I-Annotations.mxl

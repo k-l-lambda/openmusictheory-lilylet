@@ -75,3 +75,23 @@ The counterpoint can move in and out of consonant tones freely by step, as well 
 ***Video demonstration***
 
 ***Add trinkets above to have students construct the schemas***
+
+## Downloadable Exercises
+
+Third-species exercises from Fux's *Gradus ad Parnassum* (Part I, two voices):
+
+| Type | PDF | MuseScore | MusicXML |
+|------|-----|-----------|----------|
+| Exercises | [Download][I-Ex-pdf] | [Download][I-Ex-mscz] | [Download][I-Ex-mxl] |
+| Solutions | [Download][I-Sol-pdf] | [Download][I-Sol-mscz] | [Download][I-Sol-mxl] |
+| Annotated | [Download][I-Ann-pdf] | [Download][I-Ann-mscz] | [Download][I-Ann-mxl] |
+
+[I-Ex-pdf]: {{ site.url }}/Graphics/counterpoint/species/I/I-Exercises.pdf
+[I-Ex-mscz]: {{ site.url }}/Graphics/counterpoint/species/I/I-Exercises.mscz
+[I-Ex-mxl]: {{ site.url }}/Graphics/counterpoint/species/I/I-Exercises.mxl
+[I-Sol-pdf]: {{ site.url }}/Graphics/counterpoint/species/I/I-Solutions.pdf
+[I-Sol-mscz]: {{ site.url }}/Graphics/counterpoint/species/I/I-Solutions.mscz
+[I-Sol-mxl]: {{ site.url }}/Graphics/counterpoint/species/I/I-Solutions.mxl
+[I-Ann-pdf]: {{ site.url }}/Graphics/counterpoint/species/I/I-Annotations.pdf
+[I-Ann-mscz]: {{ site.url }}/Graphics/counterpoint/species/I/I-Annotations.mscz
+[I-Ann-mxl]: {{ site.url }}/Graphics/counterpoint/species/I/I-Annotations.mxl
