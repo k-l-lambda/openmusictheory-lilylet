@@ -21,4 +21,16 @@ Chords borrowed from parallel keys are chromatically altered chords, and therefo
 
 If the bass note is chromatically altered, that must be reflected in the functional bass with a plus or minus before the numeral (as well as the square brackets). For example, if a passage in a major key incorporates a 5/3 chord over *le* (*le–do–me* instead of *la–do–mi*), the functional bass is **\[Tx–6\]**.
 
+## Anthology Examples
 
+The [When-in-Rome corpus](https://github.com/MarkGotham/When-in-Rome) provides over 560 examples of modal mixture from the OpenScore Lieder Corpus. Browse the index to find examples by composer, key, and chord type (bVI, iv, etc.).
+
+| Resource | Description |
+|----------|-------------|
+| [Index (CSV)][mixture-index] | Searchable catalog of all examples |
+| [Score Files][anthology-scores] | MusicXML files for notation software |
+
+Source: [MarkGotham/When-in-Rome](https://github.com/MarkGotham/When-in-Rome) (CC BY-SA 4.0)
+
+[mixture-index]: {{ site.url }}/Graphics/harmony/anthology/Modal_Mixture/index.csv
+[anthology-scores]: {{ site.url }}/Graphics/harmony/anthology/scores/

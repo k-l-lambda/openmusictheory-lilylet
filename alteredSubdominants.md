@@ -77,5 +77,28 @@ In a Roman numeral analysis, **Sw.** replaces a Roman numeral. The figured bass 
 
 When *le* occurs in the bass, the functional-bass designation is **[S6]**. Under that functional bass symbol, we also label the chord **Sw.**
 
-Like the German sixth, the Swiss augmented-sixth is almost always followed by a cadential 6/4 chord. However, the Swiss chord tends to appear in major keys, with *ri* proceeding to *mi* and *do* carrying over into the cadential 6/4. 
+Like the German sixth, the Swiss augmented-sixth is almost always followed by a cadential 6/4 chord. However, the Swiss chord tends to appear in major keys, with *ri* proceeding to *mi* and *do* carrying over into the cadential 6/4.
 
+## Anthology Examples
+
+The [When-in-Rome corpus](https://github.com/MarkGotham/When-in-Rome) provides examples of Neapolitan and augmented-sixth chords from the OpenScore Lieder Corpus.
+
+### Neapolitan Sixths
+
+| Resource | Examples | Description |
+|----------|----------|-------------|
+| [Index (CSV)][neapolitan-index] | 73 | bII and bII6 chord examples |
+
+### Augmented Sixths
+
+| Resource | Examples | Description |
+|----------|----------|-------------|
+| [Index (CSV)][aug6-index] | 184 | Italian, French, German +6 examples |
+
+| [Score Files][anthology-scores] | MusicXML files for notation software |
+
+Source: [MarkGotham/When-in-Rome](https://github.com/MarkGotham/When-in-Rome) (CC BY-SA 4.0)
+
+[neapolitan-index]: {{ site.url }}/Graphics/harmony/anthology/Neapolitan_Sixths/index.csv
+[aug6-index]: {{ site.url }}/Graphics/harmony/anthology/Augmented_Sixths/index.csv
+[anthology-scores]: {{ site.url }}/Graphics/harmony/anthology/scores/

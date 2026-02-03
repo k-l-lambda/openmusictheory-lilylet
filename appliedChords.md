@@ -89,3 +89,17 @@ In functional bass, use the functional label before the slash and the Roman nume
 [D7ofV]: {{ site.url }}/Graphics/D7ofV.png
 [alteredSubdominants]: alteredSubdominants.html
 [appliedBassLine]: {{ site.url }}/Graphics/appliedChordBassLine.png
+
+## Anthology Examples
+
+The [When-in-Rome corpus](https://github.com/MarkGotham/When-in-Rome) provides over 1,200 examples of applied chords from the OpenScore Lieder Corpus. Browse the index to find examples by composer, key, and chord type.
+
+| Resource | Description |
+|----------|-------------|
+| [Index (CSV)][applied-index] | Searchable catalog of all examples |
+| [Score Files][applied-scores] | MusicXML files for notation software |
+
+Source: [MarkGotham/When-in-Rome](https://github.com/MarkGotham/When-in-Rome) (CC BY-SA 4.0)
+
+[applied-index]: {{ site.url }}/Graphics/harmony/anthology/Applied_Chords/index.csv
+[applied-scores]: {{ site.url }}/Graphics/harmony/anthology/scores/
