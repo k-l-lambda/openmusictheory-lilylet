@@ -176,7 +176,7 @@ Source: MarkGotham/When-in-Rome (CC BY-SA 4.0)
 
 ## Constraints
 
-1. **le always in bass** (standard position)
+1. **le in bass** (standard position)
 2. **Resolves to V** (directly or via cad. 6/4)
 3. **Do not double fi** (chromatic alteration)
 4. **German sixth requires cad. 6/4** (parallel 5ths otherwise)

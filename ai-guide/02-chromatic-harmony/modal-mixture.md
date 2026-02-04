@@ -34,7 +34,7 @@ When the chord root belongs to the home key but quality changes:
 
 | Home Key | Borrowed Chord | RN | Example in C Major |
 |----------|----------------|----|--------------------|
-| Major | Minor tonic | i | C-Eb-G (Picardy inverse) |
+| Major | Minor tonic | i | C-Eb-G |
 | Major | Minor subdominant | iv | F-Ab-C |
 | Minor | Major tonic | I | C-E-G (Picardy third) |
 

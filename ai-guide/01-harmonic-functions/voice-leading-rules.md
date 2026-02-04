@@ -23,7 +23,7 @@ A **tendency tone** is a scale degree that naturally progresses to specific pitc
 | Scale Degree | Tendency | Resolution | Context |
 |--------------|----------|------------|---------|
 | ti (leading tone) | Strong upward | → do | Strongest in D function |
-| le (lowered 6) | Downward | → sol | Less function-dependent |
+| le (lowered 6) | Often downward | → sol | Context-dependent |
 
 ### Ti Resolution Rules
 

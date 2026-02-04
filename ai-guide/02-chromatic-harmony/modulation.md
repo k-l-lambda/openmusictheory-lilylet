@@ -10,7 +10,7 @@ difficulty: advanced
 
 ## Summary
 
-Modulation is a change of key confirmed by a cadence in the new key. Unlike tonicization (brief emphasis without cadence), modulation establishes a new tonic through cadential confirmation (PAC, IAC, or HC).
+Modulation is a change of key confirmed by a cadence in the new key. Unlike tonicization (brief emphasis without cadence), modulation establishes a new tonic through cadential confirmation (typically PAC or IAC).
 
 ## Core Concept
 
@@ -78,13 +78,13 @@ Old key: I → New key: V → New key: I
 
 ### Requirements
 
-1. Chord must be **diatonic to both keys**
-2. Must NOT be an applied chord in the old key
+1. Chord should be **diatonic to both keys**
+2. Typically not heard as an applied chord in the old key
 3. In minor: both la/le and ti/te are considered "native"
 
-### What is NOT a Pivot Chord
+### Pivot vs. Direct Modulation
 
-If a chord functions as V in the new key but is an applied chord (V/x) in the old key, it's effecting a **direct modulation**, not a pivot-chord modulation.
+If a chord is clearly heard as V/x (applied chord) in the old key before becoming V in the new key, it's typically analyzed as a **direct modulation**. However, the distinction can be perceptual/contextual.
 
 ### Notation
 
@@ -142,9 +142,9 @@ Two-layer analysis overlaps on the pivot chord.
 ## Constraints
 
 1. **Cadence required** — No cadence = tonicization, not modulation
-2. **Pivot must be diatonic to both keys** — Applied chords don't count
+2. **Pivot should be diatonic to both keys** — Applied chords typically indicate direct modulation
 3. **Functional coherence** — Smoothest pivots maintain function
-4. **Confirm new key** — At least one clear cadence (PAC, IAC, or HC)
+4. **Confirm new key** — At least one cadence affirming new tonic (PAC or IAC preferred)
 
 ## Related Topics
 

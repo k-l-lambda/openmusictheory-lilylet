@@ -60,14 +60,17 @@ N.6 → V (or cad. 6/4 → V)
 N.6        →    V
 ra-fa-le   →    sol-ti-re
   ↓
-ra → ti (down by half step, dramatic)
+ra → do → ti (♭2 moves to 1, then to leading tone in inner voice)
 le → sol (down by half step)
 fa → sol (up by step, or fa → fi → sol via cad. 6/4)
 ```
 
 ### Characteristic Motion
 
-The **ra → ti** motion (lowered 2 to leading tone) creates a striking descending half step, one of the most expressive voice-leading gestures in tonal music.
+The hallmark voice-leading involves:
+- **ra → do** (♭2 → 1) in an upper voice — the expressive chromatic descent
+- **le → sol** (♭6 → 5) — standard resolution
+- Often via **cadential 6/4**: N.6 → cad. 6/4 → V, where ra moves to sol (of cad. 6/4) then ti
 
 ## Compositional Application
 
@@ -136,7 +139,7 @@ Source: MarkGotham/When-in-Rome (CC BY-SA 4.0)
 2. **Double fa** (the bass note)
 3. **Resolves to V** (directly or via cad. 6/4)
 4. **Minor key preferred** - Major key possible but less common
-5. **ra resolves to ti** - The defining voice-leading motion
+5. **ra resolves to do (or sol)** - ♭2 moves down to 1 or up to cad. 6/4
 
 ## Related Topics
 

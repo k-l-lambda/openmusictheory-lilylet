@@ -147,7 +147,7 @@ V  →  I
 | 7-6 | 7th resolves to 6th |
 | 4-3 | 4th resolves to 3rd |
 
-**Rule:** Resolution pitch class should not sound in another voice simultaneously (except 9-8).
+**Guideline:** For best voice-leading, avoid having resolution pitch class sound in another voice simultaneously (except 9-8).
 
 ## Retardation (RET)
 
