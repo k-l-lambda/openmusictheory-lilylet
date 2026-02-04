@@ -16,6 +16,9 @@ Binary and ternary forms are two- and three-part structures used as standalone t
 
 Two-part form without recapitulation of first-part material.
 
+![Small binary form diagram](../../Graphics/ClassicalThemes/smallBinary.svg)
+<!-- TODO: Convert to lilylet format -->
+
 ### Structure
 
 ```
@@ -52,6 +55,9 @@ Two-part form without recapitulation of first-part material.
 ## Small Ternary
 
 Three-part form with exposition, contrasting middle, and recapitulation.
+
+![Small ternary form diagram](../../Graphics/ClassicalThemes/smallTernary.svg)
+<!-- TODO: Convert to lilylet format -->
 
 ### Structure
 

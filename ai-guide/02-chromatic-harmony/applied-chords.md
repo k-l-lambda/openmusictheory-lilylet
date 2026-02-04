@@ -18,6 +18,28 @@ Applied chords temporarily emphasize non-tonic diatonic chords by borrowing domi
 - **Tonicization** = momentary emphasis without modulation
 - **No cadence** in the borrowed key = still in home key
 
+### Two Invariants
+
+Applied chords always satisfy two conditions:
+
+1. **Dominant in borrowed key**: Functions as V or vii° in the target chord's key
+2. **Altered function in home key**: Is a chromatic alteration of the function that *logically precedes* the target's function
+
+### Function Alteration Rule
+
+| Applied Chord | → | Target Function |
+|:-------------:|:-:|:---------------:|
+| altered T | → | S |
+| altered S | → | D |
+| altered D | → | T |
+
+**Example:** V/V in C major (D7 chord):
+- In key of V (G major): Functions as V
+- In home key (C): Altered subdominant (raised fa → fi)
+- Progression: altered S → D is correct (S precedes D)
+
+This explains why applied chords maintain tonal coherence despite chromaticism—they fulfill the same functional role as their diatonic counterparts.
+
 ## Applied Chord Types
 
 ### Applied Dominant (V/x)
@@ -125,6 +147,6 @@ Applied chords are marked with brackets and slash notation:
 
 ## Related Topics
 
-- [Modal Mixture](modal-mixture.md) - Borrowing from parallel mode
-- [Modulation](modulation.md) - When tonicization becomes key change
-- [Voice-Leading Rules](../01-harmonic-functions/voice-leading-rules.md) - Tendency tones
+- [Modal Mixture](modal-mixture.md) - Borrowing from parallel mode *(planned)*
+- [Modulation](modulation.md) - When tonicization becomes key change *(planned)*
+- [Voice-Leading Rules](../01-harmonic-functions/voice-leading-rules.md) - Tendency tones *(planned)*

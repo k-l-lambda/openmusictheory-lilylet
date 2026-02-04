@@ -22,6 +22,9 @@ Opening schemas are 4-stage melodic-harmonic patterns used at phrase beginnings,
 | **RN** | I | V | V | I |
 | **Function** | T | D | D | T |
 
+![Meyer schema diagram](../../Graphics/form/meyer.png)
+<!-- TODO: Convert to lilylet format -->
+
 **Character**: Descending then ascending melody, common opening gesture.
 
 ## The Jupiter

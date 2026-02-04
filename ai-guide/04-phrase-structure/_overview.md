@@ -44,5 +44,5 @@ Phrase structure describes how melodic and harmonic elements combine to create 8
 
 - [Sentence](sentence.md) - Presentation + Continuation structure
 - [Period](period.md) - Antecedent + Consequent structure
-- [Hybrid Themes](hybrid-themes.md) - Mixed structures
-- [Phrase Expansion](phrase-expansion.md) - Internal/external expansion
+- [Hybrid Themes](hybrid-themes.md) - Mixed structures *(planned)*
+- [Phrase Expansion](phrase-expansion.md) - Internal/external expansion *(planned)*

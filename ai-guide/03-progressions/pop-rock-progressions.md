@@ -160,6 +160,6 @@ All cyclical progressions can begin on any chord:
 
 ## Related Topics
 
-- [Blues Progressions](blues-progressions.md) - 12/16-bar structures
-- [Everett Tonal Systems](everett-tonal-systems.md) - Modal systems in pop
-- [Classical Progressions](classical-progressions.md) - Function-based patterns
+- [Blues Progressions](blues-progressions.md) - 12/16-bar structures *(planned)*
+- [Everett Tonal Systems](everett-tonal-systems.md) - Modal systems in pop *(planned)*
+- [Classical Progressions](classical-progressions.md) - Function-based patterns *(planned)*

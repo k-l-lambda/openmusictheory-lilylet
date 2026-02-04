@@ -42,7 +42,7 @@ Chromatic harmony provides:
 ## Section Contents
 
 - [Applied Chords](applied-chords.md) - Secondary dominants (V/x)
-- [Modal Mixture](modal-mixture.md) - Borrowing from parallel mode
-- [Augmented Sixths](augmented-sixths.md) - It, Fr, Ger, Sw +6
-- [Neapolitan](neapolitan.md) - bII chord
-- [Modulation](modulation.md) - Changing keys
+- [Modal Mixture](modal-mixture.md) - Borrowing from parallel mode *(planned)*
+- [Augmented Sixths](augmented-sixths.md) - It, Fr, Ger, Sw +6 *(planned)*
+- [Neapolitan](neapolitan.md) - bII chord *(planned)*
+- [Modulation](modulation.md) - Changing keys *(planned)*

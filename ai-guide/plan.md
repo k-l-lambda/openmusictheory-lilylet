@@ -5,12 +5,13 @@
 | Status | Count |
 |--------|-------|
 | Completed | 28 |
-| Planned | 12 |
+| Planned | 13 |
 
 ## Planned Files
 
 ### 01-harmonic-functions/
 
+- [ ] `prolongation.md` - Tonic prolongation, pedal points, neighboring chords
 - [ ] `voice-leading-rules.md` - Tendency tones, parallel motion, resolution rules
 
 ### 02-chromatic-harmony/
@@ -46,6 +47,7 @@ When writing planned files, reference these original OMT files:
 
 | Planned File | Source |
 |--------------|--------|
+| prolongation.md | `harmonicSyntax1.md`, `harmonicSyntax2.md` |
 | voice-leading-rules.md | `tendencyTonesFunctionalDissonances.md` |
 | modal-mixture.md | `modalMixture.md` |
 | augmented-sixths.md | `alteredSubdominants.md` |
@@ -153,6 +155,41 @@ The following source files contain no score images (only Spotify iframes or text
 - `popRockHarmony-EverettSystem*.md` → everett-tonal-systems.md
 - `popRockForm-*.md` → pop-rock-form.md
 
+## Images Added to AI Guide (Pending Conversion)
+
+The following PNG/SVG images have been referenced in ai-guide files and should be converted to machine-readable formats (MusicXML/Lilylet) for optimal AI usage:
+
+### Structural Diagrams
+
+| Image | Description | Type |
+|-------|-------------|------|
+| [sentence.svg](../Graphics/ClassicalThemes/sentence.svg) | Sentence structure diagram | 📊 Diagram |
+| [period.svg](../Graphics/ClassicalThemes/period.svg) | Period structure diagram | 📊 Diagram |
+| [smallBinary.svg](../Graphics/ClassicalThemes/smallBinary.svg) | Binary form diagram | 📊 Diagram |
+| [smallTernary.svg](../Graphics/ClassicalThemes/smallTernary.svg) | Ternary form diagram | 📊 Diagram |
+
+### Schema Examples
+
+| Image | Description | Type |
+|-------|-------------|------|
+| [meyer.png](../Graphics/form/meyer.png) | Meyer schema example | 📝 Teaching |
+| [prinner.png](../Graphics/form/prinner.png) | Prinner schema example | 📝 Teaching |
+| [fonte.png](../Graphics/form/fonte.png) | Fonte schema example | 📝 Teaching |
+| [monte.png](../Graphics/form/monte.png) | Monte schema example | 📝 Teaching |
+
+### Real Compositions
+
+| Image | Description | Type |
+|-------|-------------|------|
+| [k283.png](../Graphics/form/k283.png) | Mozart K. 283 sentence example | 🎼 Real |
+| [xv27.png](../Graphics/form/xv27.png) | Haydn XV:27 period example | 🎼 Real |
+
+### Conversion Workflow
+
+1. **📊 SVG diagrams** → Parse SVG, recreate in Lilylet notation
+2. **📝 PNG teaching examples** → Recreate from scratch in Lilylet (short examples)
+3. **🎼 Real compositions** → Download MusicXML from IMSLP, convert to Lilylet
+
 ## File Template
 
 ```markdown
@@ -182,5 +219,5 @@ difficulty: foundational/intermediate/advanced
 [Voice-leading rules, requirements]
 
 ## Related Topics
-- [Link to existing file](path.md)
+- `[Link to existing file](path.md)` <!-- template placeholder -->
 ```

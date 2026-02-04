@@ -135,5 +135,5 @@ V5/3 → V6/4 → V5/4 → V5/3 → I
 ## Related Topics
 
 - [Phrase Structure](../04-phrase-structure/_overview.md) - Periods and sentences
-- [Prolongation](prolongation.md) - Extending functions before cadence
+- [Prolongation](prolongation.md) - Extending functions before cadence *(planned)*
 - [Formal Schemas](../05-formal-schemas/_overview.md) - Cadential patterns in schemas

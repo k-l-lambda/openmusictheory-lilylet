@@ -107,6 +107,6 @@ Combine function + bass scale degree:
 
 ## Related Topics
 
-- [Prolongation](prolongation.md) - Extending functions over multiple chords
+- [Prolongation](prolongation.md) - Extending functions over multiple chords *(planned)*
 - [Cadences](cadences.md) - How functions create phrase endings
-- [Voice-Leading Rules](voice-leading-rules.md) - How functional dissonances resolve
+- [Voice-Leading Rules](voice-leading-rules.md) - How functional dissonances resolve *(planned)*

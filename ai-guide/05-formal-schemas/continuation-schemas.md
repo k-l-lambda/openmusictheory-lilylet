@@ -16,6 +16,9 @@ Continuation schemas are melodic-harmonic patterns used after opening gambits, t
 
 The Prinner is the quintessential response to an opening schema, functioning as a closing gesture.
 
+![Prinner schema diagram](../../Graphics/form/prinner.png)
+<!-- TODO: Convert to lilylet format -->
+
 | Stage | 1 | 2 | 3 | 4 |
 |-------|---|---|---|---|
 | **Melody** | la | sol | fa | mi |
@@ -85,6 +88,9 @@ First two stages of a Prinner, often elided to make room for a cadence.
 
 A **model-sequence** schema that descends by step. Italian for "fountain" (going down).
 
+![Fonte schema diagram](../../Graphics/form/fonte.png)
+<!-- TODO: Convert to lilylet format -->
+
 **Structure**: 2-bar model + 2-bar sequence (one step lower)
 
 | Unit | Model | Sequence |
@@ -114,6 +120,9 @@ A **model-sequence** schema that descends by step. Italian for "fountain" (going
 ## The Monte
 
 A **model-sequence** schema that ascends by step. Italian for "mountain" (going up).
+
+![Monte schema diagram](../../Graphics/form/monte.png)
+<!-- TODO: Convert to lilylet format -->
 
 **Structure**: 2-bar model + 2-bar (or more) sequence (one step higher)
 

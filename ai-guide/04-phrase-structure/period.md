@@ -24,6 +24,16 @@ Period (8 bars)
     └── Contrasting Idea (mm. 7-8) → Strong cadence
 ```
 
+### Structural Diagram
+
+![Period structure diagram](../../Graphics/ClassicalThemes/period.svg)
+<!-- TODO: Convert to lilylet format -->
+
+### Score Example: Haydn XV:27, III
+
+![Haydn XV:27 period example](../../Graphics/form/xv27.png)
+<!-- TODO: Convert to MusicXML/lilylet from IMSLP source -->
+
 ## Antecedent Phrase (mm. 1-4)
 
 ### Melodic Content
@@ -127,5 +137,5 @@ The consequent **must** end with PAC:
 ## Related Topics
 
 - [Sentence](sentence.md) - Alternative structure
-- [Hybrid Themes](hybrid-themes.md) - Mixed period/sentence
+- [Hybrid Themes](hybrid-themes.md) - Mixed period/sentence *(planned)*
 - [Cadences](../01-harmonic-functions/cadences.md) - Cadence types

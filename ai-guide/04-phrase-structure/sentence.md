@@ -24,6 +24,16 @@ Sentence (8 bars)
     └── Cadence (mm. 7-8)
 ```
 
+### Structural Diagram
+
+![Sentence structure diagram](../../Graphics/ClassicalThemes/sentence.svg)
+<!-- TODO: Convert to lilylet format -->
+
+### Score Example: Mozart K. 283, I, mm. 1-8
+
+![Mozart K. 283 sentence example](../../Graphics/form/k283.png)
+<!-- TODO: Convert to MusicXML/lilylet from IMSLP source -->
+
 ## Presentation Phrase (mm. 1-4)
 
 ### Melodic Content
@@ -128,4 +138,4 @@ Continuations are often 6 bars (not 4):
 
 - [Period](period.md) - Alternative 8-bar structure
 - [Cadences](../01-harmonic-functions/cadences.md) - Phrase endings
-- [Phrase Expansion](phrase-expansion.md) - Extending sentences
+- [Phrase Expansion](phrase-expansion.md) - Extending sentences *(planned)*

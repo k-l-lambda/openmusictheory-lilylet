@@ -230,4 +230,4 @@ Two sets with the same interval vector but not related by Tn or TnI.
 ## Related Topics
 
 - [Twelve-Tone Technique](twelve-tone.md) - Ordered use of all 12 PCs
-- [Augmented Sixths](../02-chromatic-harmony/augmented-sixths.md) - (0268) in tonal context
+- [Augmented Sixths](../02-chromatic-harmony/augmented-sixths.md) - (0268) in tonal context *(planned)*

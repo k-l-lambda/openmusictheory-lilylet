@@ -52,6 +52,6 @@ This can be expanded:
 ## Section Contents
 
 - [Tonic-Subdominant-Dominant](tonic-subdominant-dominant.md) - Detailed function theory
-- [Prolongation](prolongation.md) - Extending harmonic functions
+- [Prolongation](prolongation.md) - Extending harmonic functions *(planned)*
 - [Cadences](cadences.md) - Phrase endings
-- [Voice-Leading Rules](voice-leading-rules.md) - Tendency tones and dissonances
+- [Voice-Leading Rules](voice-leading-rules.md) - Tendency tones and dissonances *(planned)*

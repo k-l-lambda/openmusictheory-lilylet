@@ -48,7 +48,7 @@ Stock progressions are recurring chord patterns that form the harmonic foundatio
 
 ## Section Contents
 
-- [Classical Progressions](classical-progressions.md) - Common-practice patterns
+- [Classical Progressions](classical-progressions.md) - Common-practice patterns *(planned)*
 - [Pop-Rock Progressions](pop-rock-progressions.md) - Stock progressions in popular music
-- [Blues Progressions](blues-progressions.md) - 12/16-bar structures
-- [Everett Tonal Systems](everett-tonal-systems.md) - Six systems for pop/rock tonality
+- [Blues Progressions](blues-progressions.md) - 12/16-bar structures *(planned)*
+- [Everett Tonal Systems](everett-tonal-systems.md) - Six systems for pop/rock tonality *(planned)*
