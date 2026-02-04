@@ -308,16 +308,53 @@ Post-accuracy review verification found 3 remaining issues.
 
 | File | Issue | Fix Applied |
 |------|-------|-------------|
-| `twelve-tone.md` | R/RI OPCI relationships swapped | R = reversed only; RI = reversed AND negated |
-| `pitch-class-sets.md` | Prime form: compare before transpose | Transpose both to 0 BEFORE comparing |
-| `pop-rock-progressions.md` | "raised ^5 in III" confusing | "chromatic mediant III (contains #^5 relative to the key)" |
+| `twelve-tone.md` | R/RI OPCI relationships | *(See Session 6 correction below)* |
+| `pitch-class-sets.md` | Prime form: compare before transpose | Transpose both to 0 BEFORE comparing ✓ |
+| `pop-rock-progressions.md` | "raised ^5 in III" confusing | "chromatic mediant III (contains #^5 relative to the key)" ✓ |
+
+*Updated 2026-02-04 Session 5*
+
+---
+
+## OMT Source Verification (2026-02-04 Session 6)
+
+Verified all Session 4-5 changes against original OMT source files.
+
+### Critical Finding: Session 5 twelve-tone fix was INCORRECT
+
+The codex verification review in Session 5 **incorrectly** claimed R/RI relationships should be swapped. Direct verification against `twelveToneIntervallicStructure.md` confirms Session 4 was correct:
+
+**From OMT source:**
+> "Rows that are **retrograde-related** have ordered pitch-class intervals that are _reverse complements_."
+> "Rows that are **retrograde-inversion related** have ordered pitch-class intervals that are _reverses_ of one another."
+
+**Correct relationships (matching OMT):**
+
+| Relationship | OPCI Pattern |
+|--------------|--------------|
+| **R** (Retrograde) | Reversed AND negated (reverse complements) |
+| **RI** (Retrograde-Inversion) | Reversed only |
+
+### Verified Against OMT Sources
+
+| File | OMT Source | Status |
+|------|------------|--------|
+| `twelve-tone.md` | `twelveToneIntervallicStructure.md` | ✅ Corrected to match OMT |
+| `pitch-class-sets.md` | `setClassAndPrimeForm1.md` | ✅ Matches OMT (transpose before compare) |
+| `pop-rock-progressions.md` | `popRockHarmony-puff.md` | ✅ Matches OMT (III harmonization) |
+
+### Lesson Learned
+
+Codex (AI) review should be verified against authoritative sources. The Session 5 verification codex gave incorrect advice about twelve-tone interval relationships. Always cross-check music theory claims against OMT original text.
 
 ### Final Accuracy Status
 
-All music theory content has been verified through two rounds of codex review:
-- Round 1: 22 issues fixed
-- Round 2: 3 issues fixed
+| Round | Issues | Notes |
+|-------|--------|-------|
+| Session 4 | 22 fixed | Initial accuracy review |
+| Session 5 | 2 fixed, 1 incorrect | pitch-class-sets ✓, pop-rock ✓, **twelve-tone ✗** |
+| Session 6 | 1 corrected | Reverted twelve-tone to Session 4 version |
 
-**Total: 25 accuracy corrections applied**
+**Total: 24 valid corrections applied**
 
-*Updated 2026-02-04 Session 5*
+*Updated 2026-02-04 Session 6*
