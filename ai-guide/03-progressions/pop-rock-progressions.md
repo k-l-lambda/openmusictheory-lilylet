@@ -60,7 +60,7 @@ Pop/rock harmony is characterized by cyclical four-chord progressions (loops) th
 
 **Inverted variant:** `I - V6 - vi - iii6 - IV - I6 - IV - V`
 
-### Puff (I-IV)
+### Plagal Oscillation (I-IV)
 
 **Pattern:** `I - IV` (two-chord oscillation)
 
@@ -68,7 +68,51 @@ Pop/rock harmony is characterized by cyclical four-chord progressions (loops) th
 |---------|-------------|
 | Function | T - S |
 | Character | Simple, folk-like |
-| Motion | Plagal |
+| Origin | Shuffle-blues guitar patterns |
+
+**Examples:** "Soul Man" (Sam & Dave), "In the Midnight Hour" (Wilson Pickett)
+
+### Double-Plagal
+
+**Pattern:** `bVII - IV - I`
+
+| Feature | Description |
+|---------|-------------|
+| Function | IV/IV - S - T |
+| Character | Expansive, triumphant |
+| Theory | bVII acts as "IV of IV" |
+
+**In minor:** `VII - iv - i`
+
+**Example:** "Hey Jude" coda (The Beatles)
+
+### Extended Plagal
+
+**Pattern:** `bVI - bIII - bVII - IV - I`
+
+| Feature | Description |
+|---------|-------------|
+| Function | Chained "applied IV" |
+| Motion | Descending fourths |
+| Character | Epic, building |
+
+**Example:** "Hey Joe" verse (Jimi Hendrix)
+
+### Puff (I-III-IV)
+
+**Pattern:** `I - III - IV...` (phrase opener)
+
+| Feature | Description |
+|---------|-------------|
+| Function | T - T - S |
+| Position | Beginning of phrases only |
+| Character | Folk, narrative |
+
+**Key feature:** Bass moves do-mi-fa, harmonized as III (not I6)
+
+**In minor:** `i - III - iv` (do-me-fa)
+
+**Examples:** "Puff the Magic Dragon," "House of the Rising Sun"
 
 ### Circle of Fifths
 
@@ -131,8 +175,11 @@ All cyclical progressions can begin on any chord:
 | Nostalgic/classic | 50s Doo-wop |
 | Emotional/modern | Singer/Songwriter |
 | Grand/epic | Pachelbel |
-| Simple/folk | I-IV (Puff) |
+| Simple/folk | Plagal oscillation (I-IV) |
+| Triumphant/anthemic | Double-plagal (bVII-IV-I) |
+| Building/climactic | Extended plagal |
 | Dark/heavy | Lament, Aeolian |
+| Narrative/opening | Puff (I-III-IV) |
 | Sophisticated | Circle of fifths |
 
 ### Extending Progressions
@@ -158,8 +205,21 @@ All cyclical progressions can begin on any chord:
 3. **7th chords:** Less common than classical
 4. **Voice-leading:** Less strict than classical
 
+## Sources
+
+Based on Open Music Theory materials:
+- `popRockHarmony-dooWop.md` - 50s doo-wop progression
+- `popRockHarmony-sscp.md` - Singer/songwriter chord progression
+- `popRockHarmony-pachelbel.md` - Pachelbel progression
+- `popRockHarmony-lament.md` - Lament bass progression
+- `popRockHarmony-plagal.md` - Plagal and double-plagal
+- `popRockHarmony-puff.md` - Puff progression
+- `popRockHarmony-fifths.md` - Circle of fifths in pop
+
+Walter Everett's terminology: [Making Sense of Rock's Tonal Systems](http://www.mtosmt.org/issues/mto.04.10.4/mto.04.10.4.w_everett.html)
+
 ## Related Topics
 
-- [Blues Progressions](blues-progressions.md) - 12/16-bar structures *(planned)*
-- [Everett Tonal Systems](everett-tonal-systems.md) - Modal systems in pop *(planned)*
-- [Classical Progressions](classical-progressions.md) - Function-based patterns *(planned)*
+- [Blues Progressions](blues-progressions.md) - 12/16-bar structures
+- [Everett Tonal Systems](everett-tonal-systems.md) - Modal systems in pop
+- [Classical Progressions](classical-progressions.md) - Function-based patterns

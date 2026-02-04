@@ -98,6 +98,33 @@ P5   5   6   9   7   2   10  4   8   1   3   0   11
 P6   6   7   10  8   3   11  5   9   2   4   1   0
 ```
 
+## Intervallic Structure
+
+A row is also an ordered collection of intervals. Understanding intervallic relationships helps predict how row forms will sound.
+
+### Interval Relationships Between Forms
+
+| Relationship | Interval Pattern |
+|--------------|------------------|
+| **Transpositionally-related** (P and P) | Same intervals |
+| **Inversionally-related** (P and I) | Complementary (sum to 12) |
+| **Retrograde-related** (P and R) | Reverse complements |
+| **RI-related** (P and RI) | Reverses of each other |
+
+### Example
+
+For P10 with intervals `8 11 4 3 5 2 6 1 9 7 10`:
+
+| Form | Interval Pattern |
+|------|------------------|
+| P10 | 8 11 4 3 5 2 6 1 9 7 10 |
+| I0 | 4 1 8 9 7 10 6 11 3 5 2 |
+| R10 | 2 5 3 11 6 10 7 9 8 1 4 |
+| RI0 | 10 7 9 1 6 2 5 3 4 11 8 |
+
+**P and I**: Corresponding intervals sum to 12 (e.g., 8+4=12)
+**P and RI**: Reverse of each other
+
 ## Row Properties
 
 ### Combinatoriality
@@ -207,6 +234,13 @@ Built from repetitions of a smaller cell.
 4. Note segmentation and partitioning
 5. Find invariants between forms
 6. Examine combinatorial relationships
+
+## Sources
+
+Based on Open Music Theory materials:
+- `twelveToneBasics.md` - Row fundamentals, P/I/R/RI forms
+- `twelveToneIntervallicStructure.md` - Interval relationships between forms
+- `twelveToneOperations.md` - Transformational operations
 
 ## Related Topics
 

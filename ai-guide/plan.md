@@ -7,6 +7,15 @@
 | Completed | 45 |
 | Planned | 0 |
 
+## Recently Completed (2026-02-04 Session 3)
+
+### 03-progressions/
+- [x] `pop-rock-progressions.md` - Expanded with double-plagal (bVII-IV-I), extended plagal, and I-III-IV "puff" phrase opener
+
+### 08-post-tonal/
+- [x] `pitch-class-sets.md` - Added 6-step analysis procedure with JSON output schema
+- [x] `twelve-tone.md` - Added intervallic structure section (P/I/R/RI interval relationships)
+
 ## Recently Completed (2026-02-04 Session 2)
 
 ### 01-harmonic-functions/

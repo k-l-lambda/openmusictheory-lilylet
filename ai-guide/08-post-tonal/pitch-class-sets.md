@@ -220,6 +220,66 @@ Two sets with the same interval vector but not related by Tn or TnI.
 - High ic5: Open, hollow sound
 - High ic6: Tension, instability
 
+## Analysis Procedure
+
+### Step 1: Segment the Music
+
+Identify discrete pitch collections based on:
+- Simultaneities (chords)
+- Melodic units (phrases, motives)
+- Rhythmic groupings
+- Registral separation
+
+### Step 2: Convert to Pitch Classes
+
+| Note | → PC |
+|------|------|
+| C, B#, Dbb | 0 |
+| D | 2 |
+| E | 4 |
+| ... | ... |
+
+### Step 3: Find Normal Form
+
+1. List PCs in ascending order
+2. Calculate all rotations
+3. Choose rotation with smallest outer interval
+4. If tied, compare inner intervals from left
+
+### Step 4: Find Prime Form
+
+1. Transpose normal form to start on 0
+2. Calculate inversion's normal form
+3. Choose the more compact form
+4. Look up in set-class table
+
+### Step 5: Calculate Interval Vector
+
+1. Find all pairs of PCs
+2. Calculate interval class for each pair
+3. Tally into six-digit vector
+
+### Step 6: Analyze Relationships
+
+- Find recurring set classes
+- Identify subset/superset relationships
+- Note Z-relations if present
+- Map transformational relationships (Tn, TnI)
+
+### Analysis Output Example
+
+```json
+{
+  "segment": {"measure": 1, "beats": "1-2"},
+  "pitches": ["E", "G#", "C"],
+  "pitch_classes": [4, 8, 0],
+  "normal_form": "[0, 4, 8]",
+  "prime_form": "(048)",
+  "set_class_name": "Augmented triad",
+  "interval_vector": "<000300>"
+}
+```
+
 ## Constraints
 
 1. **Pitch class = mod 12**: All calculations reduce mod 12
@@ -227,7 +287,15 @@ Two sets with the same interval vector but not related by Tn or TnI.
 3. **Enharmonic equivalence**: C# = Db
 4. **Octave equivalence**: All C's are PC 0
 
+## Sources
+
+Based on Open Music Theory materials:
+- `setClassAndPrimeForm1.md` - Basic definitions
+- `setClassAndPrimeForm2.md` - Set class lists and IC vectors
+
+Allen Forte's set-class numbering system provides standard catalog numbers (3-1, 4-Z15, etc.).
+
 ## Related Topics
 
 - [Twelve-Tone Technique](twelve-tone.md) - Ordered use of all 12 PCs
-- [Augmented Sixths](../02-chromatic-harmony/augmented-sixths.md) - (0268) in tonal context *(planned)*
+- [Augmented Sixths](../02-chromatic-harmony/augmented-sixths.md) - (0268) in tonal context
