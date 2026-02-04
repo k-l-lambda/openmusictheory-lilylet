@@ -28,9 +28,9 @@ Harmonic analysis involves identifying chords, interpreting their functions, and
 
 | Cadence Type | Ending | Function |
 |--------------|--------|----------|
-| PAC | V(7)→I, root position, soprano on 1 | Strong close |
+| PAC | V(7)→I, both root position, bass and soprano on 1 | Strong close |
 | IAC | V(7)→I, with inversion or soprano not on 1 | Weak close |
-| HC | Phrase ends on V | Half close |
+| HC | Phrase ends on V (root position) | Half close |
 | DC | V→vi (or other) | Evaded close |
 
 ### Consider Theme Types
@@ -45,7 +45,9 @@ Harmonic analysis involves identifying chords, interpreting their functions, and
 
 #### Root Position (5/3 or 7)
 
-Bass note = root. Roman numeral = scale degree of bass.
+In root position, bass note = root. Roman numeral = scale degree of bass.
+
+*Note: This applies to standard triads and seventh chords; diminished seventh chords (viio7) follow different conventions.*
 
 | Bass | Figure | Root | RN |
 |------|--------|------|-----|
@@ -93,15 +95,17 @@ Root is a 2nd above bass.
 
 ### Basic Function Assignment
 
-| Scale Degree (bass) | Typical Function |
-|---------------------|------------------|
-| 1 | T |
-| 2 | S (as ii) |
-| 3 | T (as I6 or iii) |
-| 4 | S |
-| 5 | D |
-| 6 | T or S (as vi or IV6) |
-| 7 | D (as viio or V6) |
+*Note: Bass scale degree provides a starting point; the actual chord quality and context determine function. Inversions share the function of their root-position form.*
+
+| Scale Degree (bass) | Common Function | Examples |
+|---------------------|-----------------|----------|
+| 1 | T | I, I7 |
+| 2 | S | ii, ii7, V43 |
+| 3 | T | I6, iii |
+| 4 | S | IV, ii65, V42 |
+| 5 | D | V, V7, I64 (cadential) |
+| 6 | T or S | vi, IV6 |
+| 7 | D | viio, V6 |
 
 ### Functional Bass Notation
 
@@ -197,7 +201,7 @@ Cadence type: PAC
 | Labeling every chord's function individually | Group into prolongation zones |
 | Missing cadential 6/4 as separate entity | Cadential 6/4 is part of D, not T |
 | Confusing ii6 and IV | Both are S function, check bass |
-| Calling V6 a cadential chord | V6 is typically prolongational, not cadential |
+| Assuming V6 is cadential | V6 is often prolongational; context-dependent |
 
 ## Constraints
 

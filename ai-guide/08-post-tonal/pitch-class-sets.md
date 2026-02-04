@@ -241,17 +241,18 @@ Identify discrete pitch collections based on:
 
 ### Step 3: Find Normal Form
 
-1. List PCs in ascending order
+1. List PCs in ascending order (circular arrangement)
 2. Calculate all rotations
-3. Choose rotation with smallest outer interval
-4. If tied, compare inner intervals from left
+3. Choose rotation with smallest outer interval (span)
+4. If tied, compare successively from left: choose rotation where first interval is smallest, then second, etc.
 
 ### Step 4: Find Prime Form
 
-1. Transpose normal form to start on 0
-2. Calculate inversion's normal form
-3. Choose the more compact form
-4. Look up in set-class table
+1. Find normal form of the set
+2. Find normal form of the inversion (invert around 0, then find normal form)
+3. Compare the two: choose the more compact (using Step 3 criteria)
+4. Transpose chosen form to start on 0
+5. Look up in set-class table
 
 ### Step 5: Calculate Interval Vector
 

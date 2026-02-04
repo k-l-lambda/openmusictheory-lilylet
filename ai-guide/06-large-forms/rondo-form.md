@@ -70,8 +70,8 @@ A - B - A - C - A - B' - A
 
 ### Key
 
-- ALWAYS in tonic
-- No exceptions—this is definitive of rondo
+- Typically in tonic
+- Rare exceptions: variant modes (minore/maggiore), later 19th-century deformations
 
 ### Variations
 
@@ -180,6 +180,8 @@ Coda:
 
 ## Episode Types (Detail)
 
+*Based on Hepokoski/Darcy's sonata-theory terminology. Traditional approaches may simply distinguish episodes by key/character.*
+
 ### Interior Theme
 
 The simpler episode type, resembling a Minuet's Trio.
@@ -200,7 +202,7 @@ More complex episode resembling sonata exposition zones (TR → S → CL → RT)
 
 | Zone | Function | Key |
 |------|----------|-----|
-| TR | Modulate to subordinate key | Pivot |
+| TR | Modulate to subordinate key | Transitional (unstable) |
 | S | Confirm subordinate key with PAC | V or III |
 | CL | Post-cadential | Subordinate |
 | RT | Return to tonic dominant | → I:HC |
@@ -254,8 +256,8 @@ More complex episode resembling sonata exposition zones (TR → S → CL → RT)
 
 ## Constraints
 
-1. **Refrain key**: Always tonic—no exceptions
-2. **Episode contrast**: Must differ from refrain in key
+1. **Refrain key**: Typically tonic (rare exceptions in later repertories)
+2. **Episode contrast**: Should differ from refrain in key or mode
 3. **Minimum refrains**: At least 3 appearances of A
 4. **B ≠ C**: Episodes should have distinct material
 

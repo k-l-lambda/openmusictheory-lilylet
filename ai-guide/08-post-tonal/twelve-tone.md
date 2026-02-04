@@ -102,28 +102,29 @@ P6   6   7   10  8   3   11  5   9   2   4   1   0
 
 A row is also an ordered collection of intervals. Understanding intervallic relationships helps predict how row forms will sound.
 
+### Ordered Pitch-Class Intervals (OPCIs)
+
+For any row, calculate the interval from each PC to the next (mod 12). A 12-note row has 11 OPCIs.
+
+**Example:** Row `0 1 4 2 9 5 11 3 8 10 7 6`
+- 0→1 = 1, 1→4 = 3, 4→2 = 10, 2→9 = 7, etc.
+- OPCIs: `1 3 10 7 8 6 4 5 2 9 11`
+
 ### Interval Relationships Between Forms
 
-| Relationship | Interval Pattern |
-|--------------|------------------|
-| **Transpositionally-related** (P and P) | Same intervals |
-| **Inversionally-related** (P and I) | Complementary (sum to 12) |
-| **Retrograde-related** (P and R) | Reverse complements |
-| **RI-related** (P and RI) | Reverses of each other |
+| Relationship | OPCI Pattern |
+|--------------|--------------|
+| **Transposition** (Pn to Pm) | Identical OPCIs |
+| **Inversion** (P to I) | Each OPCI negated (12 - interval) |
+| **Retrograde** (P to R) | OPCIs reversed AND negated |
+| **Retrograde-Inversion** (P to RI) | OPCIs reversed |
 
-### Example
+### How to Use This
 
-For P10 with intervals `8 11 4 3 5 2 6 1 9 7 10`:
-
-| Form | Interval Pattern |
-|------|------------------|
-| P10 | 8 11 4 3 5 2 6 1 9 7 10 |
-| I0 | 4 1 8 9 7 10 6 11 3 5 2 |
-| R10 | 2 5 3 11 6 10 7 9 8 1 4 |
-| RI0 | 10 7 9 1 6 2 5 3 4 11 8 |
-
-**P and I**: Corresponding intervals sum to 12 (e.g., 8+4=12)
-**P and RI**: Reverse of each other
+- **Same OPCIs**: Transposed rows sound similar melodically
+- **Negated OPCIs**: Inverted rows mirror the contour
+- **Reversed OPCIs**: RI rows share the "shape" of P in reverse
+- **Reversed + negated**: R rows are the most transformed
 
 ## Row Properties
 

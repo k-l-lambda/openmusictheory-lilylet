@@ -159,6 +159,15 @@ difficulty: foundational
 
 Standardized fields for AI-generated harmonic analysis.
 
+### Schema Conventions
+
+| Convention | Format | Example |
+|------------|--------|---------|
+| Measure ranges | `[start, end]` as 2-element array | `[1, 8]` = mm. 1-8 |
+| Single measures | `"measure": n` as integer | `"measure": 28` |
+| Scale degrees | Integer 1-7 | `"soprano_ending": 1` |
+| Pitch classes | Integer 0-11 | `"pc": 0` = C |
+
 ### Chord Analysis
 
 ```json
@@ -181,12 +190,14 @@ Standardized fields for AI-generated harmonic analysis.
 ```json
 {
   "roman_numeral": "V7/V",
-  "function": "[S+4]",
-  "home_key_function": "altered_subdominant",
-  "target_key": "G",
-  "target_function": "D7"
+  "functional_bass": "[S+4]",
+  "home_key_role": "altered_subdominant",
+  "target_chord": "V",
+  "target_key_function": "D7"
 }
 ```
+
+*Note: `functional_bass` uses bracket notation for chromatic alterations. `home_key_role` describes the chord's function in the home key.*
 
 ### Cadence Analysis
 
@@ -201,6 +212,8 @@ Standardized fields for AI-generated harmonic analysis.
   "strength": "strong"
 }
 ```
+
+*Note: `soprano_ending` and `bass_ending` are scale degrees (1-7), not pitch classes.*
 
 ### Phrase Analysis
 
@@ -238,6 +251,8 @@ Standardized fields for AI-generated harmonic analysis.
   ]
 }
 ```
+
+*Note: Spans use `"measures": [start, end]` (2-element array). Point events (MC, EEC) use `"measure": n` (single integer).*
 
 ### Key Encoding
 

@@ -78,11 +78,16 @@ Pop/rock harmony is characterized by cyclical four-chord progressions (loops) th
 
 | Feature | Description |
 |---------|-------------|
-| Function | IV/IV - S - T |
+| Function | S - S - T |
 | Character | Expansive, triumphant |
-| Theory | bVII acts as "IV of IV" |
+| Motion | Descending fourths (bVII→IV→I) |
 
-**In minor:** `VII - iv - i`
+**Alternative interpretations:**
+- "IV of IV" (applied subdominant)
+- Modal mixture (borrowed from Mixolydian)
+- Plagal chain by root motion
+
+**In minor:** `bVII - iv - i` (bVII is major, borrowed)
 
 **Example:** "Hey Jude" coda (The Beatles)
 
@@ -92,9 +97,11 @@ Pop/rock harmony is characterized by cyclical four-chord progressions (loops) th
 
 | Feature | Description |
 |---------|-------------|
-| Function | Chained "applied IV" |
-| Motion | Descending fourths |
+| Motion | Descending fourths chain |
 | Character | Epic, building |
+| Theory | Series of borrowed major chords / modal mixture |
+
+*Note: Sometimes described as "chained applied IV" but more commonly viewed as modal borrowing or circle-of-fourths motion.*
 
 **Example:** "Hey Joe" verse (Jimi Hendrix)
 
@@ -108,9 +115,13 @@ Pop/rock harmony is characterized by cyclical four-chord progressions (loops) th
 | Position | Beginning of phrases only |
 | Character | Folk, narrative |
 
-**Key feature:** Bass moves do-mi-fa, harmonized as III (not I6)
+**Key feature:** Bass moves 1-3-4, with 3 harmonized as III chord (not I6)
 
-**In minor:** `i - III - iv` (do-me-fa)
+**Minor/modal context (most common):** `i - III - iv`
+- "House of the Rising Sun" is in minor, where III is diatonic
+
+**Major context:** `I - III - IV` requires chromatic alteration (raised ^5 in III)
+- "Puff the Magic Dragon" uses this in major
 
 **Examples:** "Puff the Magic Dragon," "House of the Rising Sun"
 

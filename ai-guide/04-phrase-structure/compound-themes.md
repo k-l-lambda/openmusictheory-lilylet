@@ -16,9 +16,11 @@ Compound themes (also called 16-bar themes) expand the basic 8-bar theme types t
 
 | Simple Theme | Compound Theme |
 |--------------|----------------|
-| 8 bars | 16 bars |
+| ~8 bars (4+4) | ~16 bars (8+8) |
 | Two 4-bar phrases | Two 8-bar themes |
-| Basic idea (2 bars) | Compound basic idea (4 bars) |
+| Basic idea (~2 bars) | Compound basic idea (~4 bars) |
+
+*Note: Bar counts are typical proportions, not absolute requirements. Tempo and expansions affect actual length.*
 
 ## Compound Period
 
@@ -33,10 +35,12 @@ Large Antecedent (8 bars) → Large Consequent (8 bars)
 
 ### Requirements
 
-| Half | Function | Initiating Phrase | Concluding Phrase | Cadence |
-|------|----------|-------------------|-------------------|---------|
-| Large antecedent | Question | Presentation, Antecedent, or CBI | Continuation | Weak (HC) |
-| Large consequent | Answer | Returns BI (varied) | Continuation → Cadential | Strong (PAC) |
+| Half | Function | Initiating Phrase | Cadence |
+|------|----------|-------------------|---------|
+| Large antecedent | Question | Presentation, Antecedent, or CBI | Weak (typically HC) |
+| Large consequent | Answer | Returns BI (varied) | Strong (typically PAC) |
+
+*Note: Each 8-bar half can be any complete theme type (sentence, period, or hybrid). The large antecedent closes with its own cadential function leading to HC.*
 
 ### Types of Compound Period
 
@@ -135,11 +139,11 @@ The 8-bar continuation has more flexibility than a simple sentence:
 
 | Feature | Compound Period | Compound Sentence |
 |---------|-----------------|-------------------|
-| Total length | 16 bars | 16 bars |
+| Total length | Typically 16 bars (varies with expansion) | Typically 16 bars |
 | Two halves | Large ant. + Large cons. | Expanded pres. + Expanded cont. |
 | Opening function | Antecedent-like themes | Presentation (CBI + CBI) |
-| Middle cadence | HC (required) | None |
-| Final cadence | PAC | PAC |
+| Middle cadence | Typically HC | None |
+| Final cadence | Typically PAC | Typically PAC |
 | BI return | In large consequent | N/A (presentation function) |
 
 ## Identification Checklist
@@ -190,10 +194,10 @@ The 8-bar continuation has more flexibility than a simple sentence:
 
 ## Constraints
 
-1. **Compound period requires middle cadence**: HC around bar 8
+1. **Compound period requires middle cadence**: Typically HC around bar 8
 2. **Compound sentence avoids middle cadence**: Presentation function throughout first half
 3. **Large consequent returns BI**: Essential for period identity
-4. **Both end with PAC**: Strong cadential closure required
+4. **Final cadence typically strong**: Usually PAC, sometimes IAC
 
 ## Sources
 

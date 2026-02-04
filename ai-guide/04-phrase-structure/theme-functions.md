@@ -20,9 +20,11 @@ Initiating → Medial → Closing
 
 | Category | Functions | Position |
 |----------|-----------|----------|
-| Initiating | Presentation, Antecedent | Beginning |
+| Initiating | Presentation, Antecedent, Compound BI | Beginning |
 | Medial | Continuation | Middle |
-| Closing | Cadential, Consequent | End |
+| Closing | Cadential | End |
+
+*Note: Consequent is a phrase type (like antecedent), not a function category. It contains both initiating function (BI return) and closing function (cadential).*
 
 ## Initiating Functions
 
@@ -114,8 +116,8 @@ Initiating → Medial → Closing
 **Requirements**:
 - Begins with last chord of tonic prolongation
 - Ends with cadential arrival (PAC, IAC, or HC)
-- D5 = V or V7 (always)
-- T1 = I (for authentic cadences)
+- D5 = typically V or V7 (viio7 also possible)
+- T1 = I for PAC; I or I6 for IAC
 
 **Found in**: Sentence (end), after continuation
 
@@ -185,11 +187,11 @@ Antecedent (4 bars) → Consequent (4 bars)
 
 ## Constraints
 
-1. **Every cadence requires function progression**: Initiating → (Medial) → Closing
+1. **Standard themes follow function progression**: Initiating → (Medial) → Closing (exceptions exist in transitions, developments)
 2. **Presentation never cadences**: Only establishes tonic
 3. **Antecedent requires weak cadence**: HC or IAC
-4. **Consequent requires strong cadence**: Usually PAC
-5. **Continuation accelerates**: Must show fragmentation, liquidation, or acceleration
+4. **Consequent typically ends with strong cadence**: Usually PAC, sometimes IAC
+5. **Continuation shows destabilization**: Fragmentation, liquidation, or acceleration (at least one)
 
 ## Sources
 
