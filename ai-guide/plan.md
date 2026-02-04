@@ -4,13 +4,14 @@
 
 | Status | Count |
 |--------|-------|
-| Completed | 40 |
-| Planned | 2 |
+| Completed | 42 |
+| Planned | 0 |
 
 ## Recently Completed (2026-02-04)
 
 ### 01-harmonic-functions/
 - [x] `voice-leading-rules.md` - Tendency tones, parallel motion, resolution rules
+- [x] `prolongation.md` - Tonic prolongation, pedal points, neighboring chords
 
 ### 02-chromatic-harmony/
 - [x] `modal-mixture.md` - Borrowing from parallel major/minor
@@ -21,6 +22,7 @@
 ### 03-progressions/
 - [x] `blues-progressions.md` - 12-bar, 16-bar blues structures
 - [x] `everett-tonal-systems.md` - Six tonal systems for pop/rock analysis
+- [x] `classical-progressions.md` - Common-practice T-S-D patterns
 
 ### 04-phrase-structure/
 - [x] `hybrid-themes.md` - Compound themes, mixed structures
@@ -33,15 +35,9 @@
 - [x] `_overview.md` - Embellishing tones overview
 - [x] `embellishing-tones.md` - PT, NT, SUS, APP, ANT, etc.
 
-## Planned Files
+## All Planned Files Complete
 
-### 01-harmonic-functions/
-
-- [ ] `prolongation.md` - Tonic prolongation, pedal points, neighboring chords
-
-### 03-progressions/
-
-- [ ] `classical-progressions.md` - Common-practice T-S-D patterns
+All 14 planned documentation files have been written.
 
 ## Source Files for Reference
 

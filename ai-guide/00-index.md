@@ -14,9 +14,9 @@ tags: [index, navigation, toc]
 
 | Topic | Section | Key Concepts |
 |-------|---------|--------------|
-| Functions | 01 | T-S-D, triggers, voice-leading |
+| Functions | 01 | T-S-D, triggers, voice-leading, prolongation |
 | Chromaticism | 02 | Applied chords, mixture, Aug6, Neapolitan, modulation |
-| Progressions | 03 | Stock patterns, loops, blues, Everett systems |
+| Progressions | 03 | Classical, pop-rock, blues, Everett systems |
 | Phrases | 04 | Sentence, period, hybrid, expansion |
 | Schemas | 05 | Meyer, Prinner, Fonte |
 | Forms | 06 | Binary, sonata, rondo, pop/rock |
@@ -35,7 +35,9 @@ tags: [index, navigation, toc]
 **Intermediate:**
 - [Applied Chords](02-chromatic-harmony/applied-chords.md)
 - [Modal Mixture](02-chromatic-harmony/modal-mixture.md)
+- [Prolongation](01-harmonic-functions/prolongation.md)
 - [Voice-Leading Rules](01-harmonic-functions/voice-leading-rules.md)
+- [Classical Progressions](03-progressions/classical-progressions.md)
 - [Sentence](04-phrase-structure/sentence.md)
 - [Period](04-phrase-structure/period.md)
 - [Hybrid Themes](04-phrase-structure/hybrid-themes.md)
@@ -64,6 +66,7 @@ Core framework for understanding chord roles in tonal music.
 - [Overview](01-harmonic-functions/_overview.md)
 - [T-S-D Functions](01-harmonic-functions/tonic-subdominant-dominant.md)
 - [Cadences](01-harmonic-functions/cadences.md)
+- [Prolongation](01-harmonic-functions/prolongation.md)
 - [Voice-Leading Rules](01-harmonic-functions/voice-leading-rules.md)
 
 ### 02 - Chromatic Harmony
@@ -78,6 +81,7 @@ Extensions beyond diatonic harmony.
 ### 03 - Progressions
 Stock chord patterns for composition.
 - [Overview](03-progressions/_overview.md)
+- [Classical Progressions](03-progressions/classical-progressions.md)
 - [Pop-Rock Progressions](03-progressions/pop-rock-progressions.md)
 - [Blues Progressions](03-progressions/blues-progressions.md)
 - [Everett's Tonal Systems](03-progressions/everett-tonal-systems.md)
