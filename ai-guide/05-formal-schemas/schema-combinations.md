@@ -214,6 +214,18 @@ mm. 5-8: Modulating Prinner → PAC in V
 | Fonte | HC, then Compound PAC |
 | Monte | Dominant arrival |
 
+## Sources
+
+Based on Robert Gjerdingen's galant schemata as presented in OMT:
+
+| Source File | Content |
+|-------------|---------|
+| `schemataSummary.md` | Schema overview and combinations |
+| `KBVLschemata.md` | Keyboard voice-leading schemata |
+| `schemata-improv.md` | Schema improvisation and combination |
+
+**Primary theoretical reference**: Gjerdingen, Robert. *Music in the Galant Style*. Oxford University Press, 2007.
+
 ## Related Topics
 
 - [Opening Schemas](opening-schemas.md) - Meyer, Jupiter, Aprile

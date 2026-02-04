@@ -267,6 +267,20 @@ Bars 81-88:  C (transposed to I)
 3. **ESC**: Must be I:PAC
 4. **Recapitulation**: S and C must be in tonic
 
+## Sources
+
+This content synthesizes the Hepokoski/Darcy "sonata theory" framework as presented in the Open Music Theory (OMT) source files:
+
+| Source File | Content |
+|-------------|---------|
+| `sonataThematicModules.md` | P, TR, S, C module definitions |
+| `sonataStructuralPointsOfArrival.md` | MC, EEC, ESC concepts |
+| `sonataDevelopment.md` | Development section organization |
+| `sonataRecap.md` | Recapitulation recomposition |
+| `sonataFramingModules.md` | Introduction and coda |
+
+**Primary theoretical reference**: Hepokoski, James, and Warren Darcy. *Elements of Sonata Theory*. Oxford University Press, 2006.
+
 ## Related Topics
 
 - [Binary and Ternary](binary-ternary.md) - Smaller application of same principles

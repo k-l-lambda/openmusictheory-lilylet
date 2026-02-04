@@ -182,6 +182,17 @@ Continuation: Prinner or fragmentation → PAC
 3. **Cadential 6/4**: Always dominant function, always on strong beat
 4. **fa-fi-sol**: Chromatic bass requires careful voice-leading to avoid parallels
 
+## Sources
+
+Based on Robert Gjerdingen's galant schemata as presented in OMT:
+
+| Source File | Content |
+|-------------|---------|
+| `schemataOpensAndCloses.md` | Cadential schema definitions |
+| `schemataSummary.md` | Schema overview and catalog |
+
+**Primary theoretical reference**: Gjerdingen, Robert. *Music in the Galant Style*. Oxford University Press, 2007.
+
 ## Related Topics
 
 - [Cadences](../01-harmonic-functions/cadences.md) - Functional cadence types

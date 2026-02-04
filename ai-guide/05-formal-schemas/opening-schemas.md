@@ -133,6 +133,17 @@ All opening schemas share:
 3. **Begin and end on tonic**
 4. **Bass moves by step** (mostly)
 
+## Sources
+
+Based on Robert Gjerdingen's galant schemata as presented in OMT:
+
+| Source File | Content |
+|-------------|---------|
+| `schemataOpensAndCloses.md` | Opening and closing schema definitions |
+| `schemataSummary.md` | Schema overview and catalog |
+
+**Primary theoretical reference**: Gjerdingen, Robert. *Music in the Galant Style*. Oxford University Press, 2007.
+
 ## Related Topics
 
 - [Continuation Schemas](continuation-schemas.md) - Prinner, Fonte, Monte

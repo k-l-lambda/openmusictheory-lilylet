@@ -195,6 +195,17 @@ A' (recap): Opening → Cadence in I
 3. **Ponte**: No harmonic progression—dominant arrival, not half cadence
 4. **Modulating Prinner**: First chord (fa bass in new key) = tonic of old key
 
+## Sources
+
+Based on Robert Gjerdingen's galant schemata as presented in OMT:
+
+| Source File | Content |
+|-------------|---------|
+| `schemataContinuationPatterns.md` | Prinner, Fonte, Monte, Ponte definitions |
+| `schemataSummary.md` | Schema overview and catalog |
+
+**Primary theoretical reference**: Gjerdingen, Robert. *Music in the Galant Style*. Oxford University Press, 2007.
+
 ## Related Topics
 
 - [Opening Schemas](opening-schemas.md) - Meyer, Jupiter, Aprile
