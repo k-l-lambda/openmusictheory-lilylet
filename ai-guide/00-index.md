@@ -14,7 +14,7 @@ tags: [index, navigation, toc]
 
 | Topic | Section | Key Concepts |
 |-------|---------|--------------|
-| Functions | 01 | T-S-D, triggers, voice-leading, prolongation |
+| Functions | 01 | T-S-D, triggers, voice-leading, prolongation, analysis |
 | Chromaticism | 02 | Applied chords, mixture, Aug6, Neapolitan, modulation |
 | Progressions | 03 | Classical, pop-rock, blues, Everett systems |
 | Phrases | 04 | Sentence, period, hybrid, compound, theme functions |
@@ -37,6 +37,7 @@ tags: [index, navigation, toc]
 - [Modal Mixture](02-chromatic-harmony/modal-mixture.md)
 - [Prolongation](01-harmonic-functions/prolongation.md)
 - [Voice-Leading Rules](01-harmonic-functions/voice-leading-rules.md)
+- [Harmonic Analysis](01-harmonic-functions/harmonic-analysis.md)
 - [Classical Progressions](03-progressions/classical-progressions.md)
 - [Sentence](04-phrase-structure/sentence.md)
 - [Period](04-phrase-structure/period.md)
@@ -70,6 +71,7 @@ Core framework for understanding chord roles in tonal music.
 - [Cadences](01-harmonic-functions/cadences.md)
 - [Prolongation](01-harmonic-functions/prolongation.md)
 - [Voice-Leading Rules](01-harmonic-functions/voice-leading-rules.md)
+- [Harmonic Analysis](01-harmonic-functions/harmonic-analysis.md)
 
 ### 02 - Chromatic Harmony
 Extensions beyond diatonic harmony.

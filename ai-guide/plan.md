@@ -4,10 +4,13 @@
 
 | Status | Count |
 |--------|-------|
-| Completed | 44 |
+| Completed | 45 |
 | Planned | 0 |
 
 ## Recently Completed (2026-02-04 Session 2)
+
+### 01-harmonic-functions/
+- [x] `harmonic-analysis.md` - Step-by-step analysis procedure, RN from figured bass
 
 ### 04-phrase-structure/
 - [x] `theme-functions.md` - Presentation, continuation, cadential, antecedent, consequent
