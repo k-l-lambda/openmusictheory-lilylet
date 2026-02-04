@@ -241,3 +241,79 @@ difficulty: foundational/intermediate/advanced
 ## Related Topics
 - `[Link to existing file](path.md)` <!-- template placeholder -->
 ```
+
+---
+
+## 五线谱图片列表 (Music Staff Images Only)
+
+Filtered from all images above - only includes actual music notation on staff lines.
+
+### Real Compositions (🎼)
+
+Require MusicXML source from IMSLP for conversion.
+
+| Image | Description | Source Composition |
+|-------|-------------|-------------------|
+| [DMUDB.png](../Graphics/DMUDB.png) | Neapolitan chord | Schubert "Der Müller und der Bach" |
+| [Op119-1.png](../Graphics/Op119-1.png) | Italian +6 | Beethoven Op. 119/1 |
+| [K465-iv.png](../Graphics/K465-iv.png) | French +6 | Mozart K. 465 |
+| [Op109-iii.png](../Graphics/Op109-iii.png) | German +6 | Beethoven Op. 109 |
+| [k330-ii.png](../Graphics/form/k330-ii.png) | Hybrid 1 | Mozart K. 330 II |
+| [haydn-III-66-ii.png](../Graphics/form/haydn-III-66-ii.png) | Hybrid 2 | Haydn Hob. III:66 II |
+| [beethoven_op30.png](../Graphics/form/beethoven_op30.png) | Hybrid 3 | Beethoven Op. 30/2 III |
+| [beethoven_18_2.png](../Graphics/form/beethoven_18_2.png) | Hybrid 4 | Beethoven Op. 18/2 IV |
+| [k494.png](../Graphics/form/k494.png) | Sub-phrase expansion | Mozart K. 494 |
+| [op2no3.png](../Graphics/form/op2no3.png) | Phrase expansion | Beethoven Op. 2/3 |
+| [k309.png](../Graphics/form/k309.png) | Evaded cadence | Mozart K. 309 III |
+| [sym101.png](../Graphics/form/sym101.png) | Prefix | Haydn Sym. 101 "Clock" |
+| [k330.png](../Graphics/form/k330.png) | Closing section | Mozart K. 330 |
+| [sym40.png](../Graphics/form/sym40.png) | Standing on dominant | Mozart Sym. 40 |
+| [k283.png](../Graphics/form/k283.png) | Sentence example | Mozart K. 283 |
+| [xv27.png](../Graphics/form/xv27.png) | Period example | Haydn XV:27 |
+
+**Total: 16 real composition excerpts**
+
+### Teaching Examples (📝)
+
+Short examples created for illustration - can be recreated with LilyPond.
+
+| Image | Description | Topic |
+|-------|-------------|-------|
+| [N-AugSixths.png](../Graphics/N-AugSixths.png) | Neapolitan & +6 notation | Chromatic harmony |
+| [passingTone.png](../Graphics/embellishingTones/passingTone.png) | Passing tone | Embellishing tones |
+| [neighborTone.png](../Graphics/embellishingTones/neighborTone.png) | Neighbor tone | Embellishing tones |
+| [doubleNeighbor.png](../Graphics/embellishingTones/doubleNeighbor.png) | Double neighbor | Embellishing tones |
+| [INT.png](../Graphics/embellishingTones/INT.png) | Incomplete neighbor | Embellishing tones |
+| [appoggiatura.png](../Graphics/embellishingTones/appoggiatura.png) | Appoggiatura | Embellishing tones |
+| [escapeTone.png](../Graphics/embellishingTones/escapeTone.png) | Escape tone | Embellishing tones |
+| [anticipation.png](../Graphics/embellishingTones/anticipation.png) | Anticipation | Embellishing tones |
+| [syncopatedNote.png](../Graphics/embellishingTones/syncopatedNote.png) | Syncopation | Embellishing tones |
+| [suspension.png](../Graphics/embellishingTones/suspension.png) | Suspension | Embellishing tones |
+| [retardation.png](../Graphics/embellishingTones/retardation.png) | Retardation | Embellishing tones |
+
+**Total: 15 teaching examples**
+
+### Excluded (Not 五线谱)
+
+The following are structural diagrams (text/boxes), NOT music staff notation:
+
+| Image | Type |
+|-------|------|
+| [sentence.svg](../Graphics/ClassicalThemes/sentence.svg) | Form structure diagram |
+| [period.svg](../Graphics/ClassicalThemes/period.svg) | Form structure diagram |
+| [smallBinary.svg](../Graphics/ClassicalThemes/smallBinary.svg) | Form structure diagram |
+| [smallTernary.svg](../Graphics/ClassicalThemes/smallTernary.svg) | Form structure diagram |
+| [hybrid1-4.svg](../Graphics/ClassicalThemes/) | Hybrid theme diagrams |
+| [pivot.png](../Graphics/harmony/pivot.png) | Pivot chord bracket notation |
+| [meyer.png](../Graphics/form/meyer.png) | Meyer schema | Galant schemata |
+| [prinner.png](../Graphics/form/prinner.png) | Prinner schema | Galant schemata |
+| [fonte.png](../Graphics/form/fonte.png) | Fonte schema | Galant schemata |
+| [monte.png](../Graphics/form/monte.png) | Monte schema | Galant schemata |
+
+### Summary
+
+| Type | Count | Conversion Method |
+|------|-------|-------------------|
+| 🎼 Real compositions | 16 | MusicXML from IMSLP → Lilylet |
+| 📝 Teaching examples | 15 | Recreate in LilyPond → Lilylet |
+| **Total 五线谱** | **31** | |
