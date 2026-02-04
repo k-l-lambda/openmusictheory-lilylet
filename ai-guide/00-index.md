@@ -14,12 +14,13 @@ tags: [index, navigation, toc]
 
 | Topic | Section | Key Concepts |
 |-------|---------|--------------|
-| Functions | 01 | T-S-D, triggers, prolongation |
-| Chromaticism | 02 | Applied chords, mixture, Aug6 |
-| Progressions | 03 | Stock patterns, loops, blues |
-| Phrases | 04 | Sentence, period, hybrid |
+| Functions | 01 | T-S-D, triggers, voice-leading |
+| Chromaticism | 02 | Applied chords, mixture, Aug6, Neapolitan, modulation |
+| Progressions | 03 | Stock patterns, loops, blues, Everett systems |
+| Phrases | 04 | Sentence, period, hybrid, expansion |
 | Schemas | 05 | Meyer, Prinner, Fonte |
-| Forms | 06 | Binary, sonata, rondo |
+| Forms | 06 | Binary, sonata, rondo, pop/rock |
+| Melody | 07 | Embellishing tones, NCTs |
 | Post-tonal | 08 | Pitch-class sets, twelve-tone |
 
 ### By Difficulty
@@ -33,13 +34,24 @@ tags: [index, navigation, toc]
 
 **Intermediate:**
 - [Applied Chords](02-chromatic-harmony/applied-chords.md)
+- [Modal Mixture](02-chromatic-harmony/modal-mixture.md)
+- [Voice-Leading Rules](01-harmonic-functions/voice-leading-rules.md)
 - [Sentence](04-phrase-structure/sentence.md)
 - [Period](04-phrase-structure/period.md)
+- [Hybrid Themes](04-phrase-structure/hybrid-themes.md)
+- [Phrase Expansion](04-phrase-structure/phrase-expansion.md)
+- [Embellishing Tones](07-melodic-elaboration/embellishing-tones.md)
+- [Blues Progressions](03-progressions/blues-progressions.md)
+- [Everett's Tonal Systems](03-progressions/everett-tonal-systems.md)
+- [Pop/Rock Form](06-large-forms/pop-rock-form.md)
 - [Opening Schemas](05-formal-schemas/opening-schemas.md)
 - [Continuation Schemas](05-formal-schemas/continuation-schemas.md)
 - [Binary and Ternary](06-large-forms/binary-ternary.md)
 
 **Advanced:**
+- [Augmented-Sixth Chords](02-chromatic-harmony/augmented-sixths.md)
+- [Neapolitan Chord](02-chromatic-harmony/neapolitan.md)
+- [Modulation](02-chromatic-harmony/modulation.md)
 - [Sonata Form](06-large-forms/sonata-form.md)
 - [Rondo Form](06-large-forms/rondo-form.md)
 - [Pitch-Class Sets](08-post-tonal/pitch-class-sets.md)
@@ -52,22 +64,31 @@ Core framework for understanding chord roles in tonal music.
 - [Overview](01-harmonic-functions/_overview.md)
 - [T-S-D Functions](01-harmonic-functions/tonic-subdominant-dominant.md)
 - [Cadences](01-harmonic-functions/cadences.md)
+- [Voice-Leading Rules](01-harmonic-functions/voice-leading-rules.md)
 
 ### 02 - Chromatic Harmony
 Extensions beyond diatonic harmony.
 - [Overview](02-chromatic-harmony/_overview.md)
 - [Applied Chords](02-chromatic-harmony/applied-chords.md)
+- [Modal Mixture](02-chromatic-harmony/modal-mixture.md)
+- [Augmented-Sixth Chords](02-chromatic-harmony/augmented-sixths.md)
+- [Neapolitan Chord](02-chromatic-harmony/neapolitan.md)
+- [Modulation](02-chromatic-harmony/modulation.md)
 
 ### 03 - Progressions
 Stock chord patterns for composition.
 - [Overview](03-progressions/_overview.md)
 - [Pop-Rock Progressions](03-progressions/pop-rock-progressions.md)
+- [Blues Progressions](03-progressions/blues-progressions.md)
+- [Everett's Tonal Systems](03-progressions/everett-tonal-systems.md)
 
 ### 04 - Phrase Structure
 Small-scale formal units.
 - [Overview](04-phrase-structure/_overview.md)
 - [Sentence](04-phrase-structure/sentence.md)
 - [Period](04-phrase-structure/period.md)
+- [Hybrid Themes](04-phrase-structure/hybrid-themes.md)
+- [Phrase Expansion](04-phrase-structure/phrase-expansion.md)
 
 ### 05 - Formal Schemas
 Named melodic-harmonic patterns (Galant).
@@ -83,6 +104,12 @@ Multi-section structures.
 - [Binary and Ternary](06-large-forms/binary-ternary.md)
 - [Sonata Form](06-large-forms/sonata-form.md)
 - [Rondo Form](06-large-forms/rondo-form.md)
+- [Pop/Rock Form](06-large-forms/pop-rock-form.md)
+
+### 07 - Melodic Elaboration
+Non-chord tones and embellishments.
+- [Overview](07-melodic-elaboration/_overview.md)
+- [Embellishing Tones](07-melodic-elaboration/embellishing-tones.md)
 
 ### 08 - Post-Tonal
 Beyond common practice.

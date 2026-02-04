@@ -4,42 +4,44 @@
 
 | Status | Count |
 |--------|-------|
-| Completed | 28 |
-| Planned | 13 |
+| Completed | 40 |
+| Planned | 2 |
+
+## Recently Completed (2026-02-04)
+
+### 01-harmonic-functions/
+- [x] `voice-leading-rules.md` - Tendency tones, parallel motion, resolution rules
+
+### 02-chromatic-harmony/
+- [x] `modal-mixture.md` - Borrowing from parallel major/minor
+- [x] `augmented-sixths.md` - Italian, French, German +6 chords
+- [x] `neapolitan.md` - bII chord usage
+- [x] `modulation.md` - Key change techniques (pivot chord, direct, chromatic)
+
+### 03-progressions/
+- [x] `blues-progressions.md` - 12-bar, 16-bar blues structures
+- [x] `everett-tonal-systems.md` - Six tonal systems for pop/rock analysis
+
+### 04-phrase-structure/
+- [x] `hybrid-themes.md` - Compound themes, mixed structures
+- [x] `phrase-expansion.md` - Internal/external phrase expansion techniques
+
+### 06-large-forms/
+- [x] `pop-rock-form.md` - Verse-chorus, AABA, strophic forms
+
+### 07-melodic-elaboration/
+- [x] `_overview.md` - Embellishing tones overview
+- [x] `embellishing-tones.md` - PT, NT, SUS, APP, ANT, etc.
 
 ## Planned Files
 
 ### 01-harmonic-functions/
 
 - [ ] `prolongation.md` - Tonic prolongation, pedal points, neighboring chords
-- [ ] `voice-leading-rules.md` - Tendency tones, parallel motion, resolution rules
-
-### 02-chromatic-harmony/
-
-- [ ] `modal-mixture.md` - Borrowing from parallel major/minor
-- [ ] `augmented-sixths.md` - Italian, French, German +6 chords
-- [ ] `neapolitan.md` - bII chord usage
-- [ ] `modulation.md` - Key change techniques (pivot chord, direct, chromatic)
 
 ### 03-progressions/
 
 - [ ] `classical-progressions.md` - Common-practice T-S-D patterns
-- [ ] `blues-progressions.md` - 12-bar, 16-bar blues structures
-- [ ] `everett-tonal-systems.md` - Six tonal systems for pop/rock analysis
-
-### 04-phrase-structure/
-
-- [ ] `hybrid-themes.md` - Compound themes, mixed structures
-- [ ] `phrase-expansion.md` - Internal/external phrase expansion techniques
-
-### 06-large-forms/
-
-- [ ] `pop-rock-form.md` - Verse-chorus, AABA, strophic forms
-
-### 07-melodic-elaboration/
-
-- [ ] `_overview.md` - Embellishing tones overview
-- [ ] `embellishing-tones.md` - PT, NT, SUS, APP, ANT, etc.
 
 ## Source Files for Reference
 
