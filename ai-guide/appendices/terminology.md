@@ -154,3 +154,116 @@ difficulty: foundational
 | PC | Pitch class |
 | IC | Interval class |
 | P/I/R/RI | Prime/Inversion/Retrograde/Retrograde Inversion |
+
+## Analysis Output Schema
+
+Standardized fields for AI-generated harmonic analysis.
+
+### Chord Analysis
+
+```json
+{
+  "measure": 4,
+  "beat": 1,
+  "roman_numeral": "V7",
+  "function": "D",
+  "bass_scale_degree": 5,
+  "inversion": "root",
+  "key": "C",
+  "mode": "major",
+  "applied_to": null,
+  "notes": ["G", "B", "D", "F"]
+}
+```
+
+### Applied Chord Analysis
+
+```json
+{
+  "roman_numeral": "V7/V",
+  "function": "[S+4]",
+  "home_key_function": "altered_subdominant",
+  "target_key": "G",
+  "target_function": "D7"
+}
+```
+
+### Cadence Analysis
+
+```json
+{
+  "type": "PAC",
+  "measure": 8,
+  "key": "G",
+  "approach_chords": ["ii6", "V7"],
+  "soprano_ending": 1,
+  "bass_ending": 1,
+  "strength": "strong"
+}
+```
+
+### Phrase Analysis
+
+```json
+{
+  "type": "sentence",
+  "measures": [1, 8],
+  "sections": [
+    {"function": "presentation", "measures": [1, 4], "content": "BI + BI'"},
+    {"function": "continuation", "measures": [5, 6]},
+    {"function": "cadential", "measures": [7, 8]}
+  ],
+  "cadence": {"type": "PAC", "measure": 8}
+}
+```
+
+### Form Analysis
+
+```json
+{
+  "form": "sonata",
+  "sections": [
+    {
+      "name": "exposition",
+      "measures": [1, 60],
+      "modules": [
+        {"name": "P", "measures": [1, 16], "key": "I"},
+        {"name": "TR", "measures": [17, 28], "type": "dissolving"},
+        {"name": "MC", "measure": 28, "type": "V:HC"},
+        {"name": "S", "measures": [29, 48], "key": "V"},
+        {"name": "EEC", "measure": 48},
+        {"name": "C", "measures": [49, 60], "key": "V"}
+      ]
+    }
+  ]
+}
+```
+
+### Key Encoding
+
+| Field | Format | Examples |
+|-------|--------|----------|
+| key | Letter + accidental | "C", "F#", "Bb" |
+| mode | "major" or "minor" | "major" |
+| relative_key | Roman numeral | "V", "vi", "III" |
+
+### Cadence Type Encoding
+
+| Type | Code | Strength |
+|------|------|----------|
+| Perfect Authentic | PAC | strong |
+| Imperfect Authentic | IAC | moderate |
+| Half Cadence | HC | weak |
+| Deceptive | DC | evaded |
+| Plagal | PC | weak |
+
+### Function Encoding
+
+| Function | Code | Context |
+|----------|------|---------|
+| Tonic | T | home key |
+| Subdominant | S | pre-dominant |
+| Dominant | D | tension |
+| Tonic-substitute | Tx | vi function |
+| Chromatic | [X] | bracketed |
+| Applied | D/x, S/x | two-layer |

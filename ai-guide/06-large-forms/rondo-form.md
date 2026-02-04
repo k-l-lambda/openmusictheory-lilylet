@@ -178,6 +178,54 @@ Coda:
 2. **Tension**: Move away from tonic
 3. **Development**: Transform material (especially C)
 
+## Episode Types (Detail)
+
+### Interior Theme
+
+The simpler episode type, resembling a Minuet's Trio.
+
+| Aspect | Description |
+|--------|-------------|
+| **Tonality** | Modal contrast (*minore*/*maggiore*) or tonal contrast |
+| **Structure** | Usually rounded binary, may have repeats |
+| **Ending** | May include retransition to dominant |
+
+**Complications:**
+- Recapitulation may not return (AAB + retransition)
+- Recapitulation may merge into retransition without PAC
+
+### Second-Theme Complex
+
+More complex episode resembling sonata exposition zones (TR → S → CL → RT).
+
+| Zone | Function | Key |
+|------|----------|-----|
+| TR | Modulate to subordinate key | Pivot |
+| S | Confirm subordinate key with PAC | V or III |
+| CL | Post-cadential | Subordinate |
+| RT | Return to tonic dominant | → I:HC |
+
+**Cadential Analysis Tips:**
+
+| Situation | Interpretation |
+|-----------|----------------|
+| Phrase ends with PAC in subordinate key | S function |
+| Phrase modulates but ends HC | TR function |
+| Phrase follows subordinate PAC | CL function |
+| Phrase contains I:HC + standing on V | RT function |
+
+**Complications:**
+- **TR⇒S merger**: Single phrase modulates AND confirms subordinate key with PAC
+- **No TR**: Direct modulation, S appears immediately
+- **S⇒RT merger**: S never achieves PAC, merges into retransition
+
+### Episode Type Summary
+
+| Type | Complexity | Key Relationship | Typical Structure |
+|------|------------|------------------|-------------------|
+| Interior theme | Simple | Modal (*minore*) | Rounded binary |
+| Second-theme complex | Complex | Tonal (V, III) | TR-S-CL-RT zones |
+
 ## Compositional Application
 
 ### Designing a Five-Part Rondo

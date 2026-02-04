@@ -17,7 +17,7 @@ tags: [index, navigation, toc]
 | Functions | 01 | T-S-D, triggers, voice-leading, prolongation |
 | Chromaticism | 02 | Applied chords, mixture, Aug6, Neapolitan, modulation |
 | Progressions | 03 | Classical, pop-rock, blues, Everett systems |
-| Phrases | 04 | Sentence, period, hybrid, expansion |
+| Phrases | 04 | Sentence, period, hybrid, compound, theme functions |
 | Schemas | 05 | Meyer, Prinner, Fonte |
 | Forms | 06 | Binary, sonata, rondo, pop/rock |
 | Melody | 07 | Embellishing tones, NCTs |
@@ -42,6 +42,8 @@ tags: [index, navigation, toc]
 - [Period](04-phrase-structure/period.md)
 - [Hybrid Themes](04-phrase-structure/hybrid-themes.md)
 - [Phrase Expansion](04-phrase-structure/phrase-expansion.md)
+- [Compound Themes](04-phrase-structure/compound-themes.md)
+- [Theme Functions](04-phrase-structure/theme-functions.md)
 - [Embellishing Tones](07-melodic-elaboration/embellishing-tones.md)
 - [Blues Progressions](03-progressions/blues-progressions.md)
 - [Everett's Tonal Systems](03-progressions/everett-tonal-systems.md)
@@ -92,6 +94,8 @@ Small-scale formal units.
 - [Sentence](04-phrase-structure/sentence.md)
 - [Period](04-phrase-structure/period.md)
 - [Hybrid Themes](04-phrase-structure/hybrid-themes.md)
+- [Compound Themes](04-phrase-structure/compound-themes.md)
+- [Theme Functions](04-phrase-structure/theme-functions.md)
 - [Phrase Expansion](04-phrase-structure/phrase-expansion.md)
 
 ### 05 - Formal Schemas

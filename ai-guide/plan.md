@@ -4,10 +4,20 @@
 
 | Status | Count |
 |--------|-------|
-| Completed | 42 |
+| Completed | 44 |
 | Planned | 0 |
 
-## Recently Completed (2026-02-04)
+## Recently Completed (2026-02-04 Session 2)
+
+### 04-phrase-structure/
+- [x] `theme-functions.md` - Presentation, continuation, cadential, antecedent, consequent
+- [x] `compound-themes.md` - Compound period, compound sentence (16-bar forms)
+
+### Expanded Files
+- [x] `06-large-forms/rondo-form.md` - Added episode types (interior theme, second-theme complex)
+- [x] `appendices/terminology.md` - Added analysis output schema (JSON format)
+
+## Recently Completed (2026-02-04 Session 1)
 
 ### 01-harmonic-functions/
 - [x] `voice-leading-rules.md` - Tendency tones, parallel motion, resolution rules
