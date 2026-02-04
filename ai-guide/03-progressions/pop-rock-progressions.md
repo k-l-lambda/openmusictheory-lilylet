@@ -120,7 +120,7 @@ Pop/rock harmony is characterized by cyclical four-chord progressions (loops) th
 **Minor/modal context (most common):** `i - III - iv`
 - "House of the Rising Sun" is in minor, where III is diatonic
 
-**Major context:** `I - III - IV` requires chromatic alteration (raised ^5 in III)
+**Major context:** `I - III - IV` uses chromatic mediant III (contains #^5 relative to the key)
 - "Puff the Magic Dragon" uses this in major
 
 **Examples:** "Puff the Magic Dragon," "House of the Rising Sun"

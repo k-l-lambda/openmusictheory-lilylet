@@ -249,10 +249,11 @@ Identify discrete pitch collections based on:
 ### Step 4: Find Prime Form
 
 1. Find normal form of the set
-2. Find normal form of the inversion (invert around 0, then find normal form)
-3. Compare the two: choose the more compact (using Step 3 criteria)
-4. Transpose chosen form to start on 0
-5. Look up in set-class table
+2. Transpose normal form to start on 0
+3. Find normal form of the inversion (invert around 0, then find normal form)
+4. Transpose inverted normal form to start on 0
+5. Compare the two transposed forms: choose the more compact (using Step 3 criteria)
+6. Look up in set-class table
 
 ### Step 5: Calculate Interval Vector
 

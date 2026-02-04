@@ -116,15 +116,15 @@ For any row, calculate the interval from each PC to the next (mod 12). A 12-note
 |--------------|--------------|
 | **Transposition** (Pn to Pm) | Identical OPCIs |
 | **Inversion** (P to I) | Each OPCI negated (12 - interval) |
-| **Retrograde** (P to R) | OPCIs reversed AND negated |
-| **Retrograde-Inversion** (P to RI) | OPCIs reversed |
+| **Retrograde** (P to R) | OPCIs reversed (not negated) |
+| **Retrograde-Inversion** (P to RI) | OPCIs reversed AND negated |
 
 ### How to Use This
 
 - **Same OPCIs**: Transposed rows sound similar melodically
 - **Negated OPCIs**: Inverted rows mirror the contour
-- **Reversed OPCIs**: RI rows share the "shape" of P in reverse
-- **Reversed + negated**: R rows are the most transformed
+- **Reversed OPCIs**: R rows share the "shape" of P in reverse
+- **Reversed + negated**: RI rows combine both transformations
 
 ## Row Properties
 
