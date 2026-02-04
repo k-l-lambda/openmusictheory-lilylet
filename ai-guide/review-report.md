@@ -135,9 +135,9 @@ These are linked but not present:
 | Issue | Status | Notes |
 |-------|--------|-------|
 | **Broken links to planned files** | ⏳ Expected | 13 files are planned but not yet written |
-| **1B) Functional bass two-layer** | ⏳ Low | Detail enhancement, not critical |
-| **2B) Terminology appendix** | ⏳ Low | Nice-to-have standardization |
-| **2D) Index truncation** | ⏳ Low | Structural improvement |
+| **1B) Functional bass two-layer** | ✅ Done | Added complete two-layer notation with examples |
+| **2B) Terminology appendix** | ✅ Done | Added functional bass symbols section |
+| **2D) Index truncation** | ✅ Done | Added nav-only header, appendices linked |
 
 ### Link Check Summary
 

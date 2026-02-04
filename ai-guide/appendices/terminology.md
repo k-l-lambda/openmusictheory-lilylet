@@ -114,6 +114,26 @@ difficulty: foundational
 | **Voice exchange** | Two voices swap pitches |
 | **Tendency tone** | Scale degree requiring resolution |
 
+## Functional Bass Symbols
+
+| Symbol | Meaning |
+|--------|---------|
+| T1 | Tonic with bass on scale degree 1 |
+| D5 | Dominant with bass on scale degree 5 |
+| S4 | Subdominant with bass on scale degree 4 |
+| Tx | Tonic-substitute function |
+| [S+4] | Chromatically altered S (raised 4 in bass) |
+| D7/V | Dominant 7th in the key of V |
+| n | Neighbor (passing function) |
+| p | Passing (prolongational motion) |
+
+### Two-Layer Applied Chord Notation
+
+```
+[S+4]   ← Layer 1: function in home key
+ D7/V   ← Layer 2: function in borrowed key
+```
+
 ## Abbreviations
 
 | Abbrev. | Meaning |
@@ -121,6 +141,7 @@ difficulty: foundational
 | T | Tonic function |
 | S | Subdominant function |
 | D | Dominant function |
+| Tx | Tonic-substitute (vi function) |
 | RN | Roman numeral |
 | BI | Basic idea |
 | CI | Contrasting idea |

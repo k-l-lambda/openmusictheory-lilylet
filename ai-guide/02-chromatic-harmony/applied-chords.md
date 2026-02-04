@@ -129,14 +129,47 @@ I - V/vi - vi - IV - V - I  (T - [D] - T - S - D - T)
 
 ## Functional Bass Notation
 
-Applied chords are marked with brackets and slash notation:
+Applied chords use a **two-layer** notation system:
 
-| Chord | Roman Numeral | Functional Bass |
-|-------|---------------|-----------------|
-| V/V | V/V | [S+4] or [S2] |
-| V7/V | V7/V | [S+4] |
-| V/ii | V/ii | [T+1] |
-| vii°/V | vii°/V | [S+4] |
+### Layer Structure
+
+```
+Layer 1 (top):    [S+4]     ← Function in HOME key (brackets = chromatic)
+Layer 2 (bottom):  D7/V     ← Function in BORROWED key (slash = "in key of")
+```
+
+### Two-Layer Examples
+
+| Chord | Layer 1 (Home Key) | Layer 2 (Borrowed Key) | Explanation |
+|-------|-------------------|------------------------|-------------|
+| V/V | [S+4] | D5/V | Altered S in C; D5 in G |
+| V7/V | [S+4] | D7/V | Altered S in C; D7 in G |
+| V/ii | [T+1] | D5/ii | Altered T in C; D5 in Dm |
+| V7/ii | [T+1] | D7/ii | Altered T in C; D7 in Dm |
+| vii°/V | [S+4] | D7/V | Altered S in C; D7 in G |
+| V/vi | [D+5] | D5/vi | Altered D in C; D5 in Am |
+
+### Reading the Notation
+
+**Layer 1** shows home-key function:
+- Square brackets `[ ]` indicate chromatic alteration
+- `+` or `-` shows raised/lowered bass scale degree
+- Number shows bass scale degree
+
+**Layer 2** shows borrowed-key function:
+- Letter before slash = function (D, S, T)
+- Number = figured bass
+- Roman numeral after slash = temporary tonic
+
+### Functional Dissonance Rule
+
+Use **Layer 2** to determine functional dissonances:
+
+**Example:** D7/V in C major contains D-F#-A-C
+- In home key (C): *re-fi-la-do*
+- In borrowed key (G): *sol-ti-re-fa*
+- The C (*fa* in G) is the functional dissonance → resolves down
+- The F# (*ti* in G) is the leading tone → resolves up
 
 ## Constraints
 

@@ -6,7 +6,9 @@ tags: [index, navigation, toc]
 
 # AI Harmony & Form Guide - Index
 
-## Quick Reference
+*Navigation index only. For detailed reference tables, see [Appendices](#appendices).*
+
+## Quick Navigation
 
 ### By Topic
 
