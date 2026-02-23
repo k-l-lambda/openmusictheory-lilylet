@@ -11,16 +11,16 @@
 \staff "2" \stemDown fs,8([ a d a d a)] | %4
 
 \staff "1" \stemDown b'4) b\rest g'8.([ fs16)] \\
-\staff "2" \clef "treble" \stemDown g8([ b d b)] g4 | %5
+\staff "2" \stemDown g8([ b d b)] g4 | %5
 
 \staff "1" \stemDown fs'8([ e)] e4 g8.([ e16)] \\
-\staff "2" \stemUp <c g'>2 b'4\rest | %6
+\staff "2" \clef "treble" \stemUp <c g'>2 b'4\rest | %6
 
 \staff "1" \ottava #0 \stemDown e'8([ d)] d4 g8.(\f[ d16)] \\
-\staff "2" \clef "bass" \ottava #0 \stemUp <b g'>2-. b'4\rest | %7
+\staff "2" \ottava #0 \stemUp <b g'>2-. b'4\rest | %7
 
 \staff "1" \stemDown d'4 d d \\
-\staff "2" \stemDown <a c>4(\f <g b> <fs a>) | %8
+\staff "2" \clef "bass" \stemDown <a c>4(\f <g b> <fs a>) | %8
 
 \staff "1" \stemDown d'16[ e fs g] a[ b c d] c[ b a g] \\
 \staff "2" \stemDown <g b>4 d\rest <e g> | %9

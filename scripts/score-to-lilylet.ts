@@ -21,7 +21,11 @@ const score = starry.recoverJSON(JSON.stringify(scoreData), starry);
 
 score.assemble(score.settings?.semanticConfidenceThreshold ?? 1);
 
+// Suppress console output during makeMusicSheet (it logs warnings to stdout)
+const _log = console.log, _warn = console.warn;
+console.log = console.warn = () => {};
 const sheet = score.makeMusicSheet();
+console.log = _log; console.warn = _warn;
 const doc = encode(sheet);
 const code = serializeLilyletDoc(doc);
 
