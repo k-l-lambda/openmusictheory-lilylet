@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "score-to-lilylet": "tsx scripts/score-to-lilylet.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4"
+  }
+}
