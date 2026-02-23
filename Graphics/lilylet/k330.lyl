@@ -33,11 +33,11 @@
 \staff "1" \stemDown e'8.([ f32 g)] c,8[ <b d>-.] \\
 \staff "2" \stemUp c,,16([ e g c] e,[ e' g, g'] | %11
 
-\staff "1" \stemDown <d' f>8([ <c e>)] \stemUp <b d>4\trill \\
+\staff "1" \stemDown <d' f>8([ <c e>)]\trill \stemUp <b d>4 \\
 \staff "2" \stemDown c,16[ e g c] \stemUp g,[ b d g)] | %12
 
 \staff "1" \stemDown f'8.([ g32 f)] e8[ e-.] \\
-\staff "2" \stemDown a16([ c a c] g[ c g c)] | %13
+\staff "2" \stemDown a16([ c a c] g[ c g c] | %13
 
 \staff "1" \ottava #0 \stemDown a''8.([ b32 c] g8)[ g-.] \\
 \staff "2" \ottava #0 \stemDown f,16[ c' f, c'] e,[ c' e, c')] | %14
@@ -51,13 +51,13 @@
 
 \staff "1" \times 2/3 { cs'16[ d f] a[ f d] g[ e c] f[ d b] } \\
 \staff "2" d,8\rest \stemDown <f a> g4 \\
-\staff "2" s8 \stemUp d <c e>[ <d f>)] | %17
+\staff "2" s8 \stemUp d <c e>[( <d f>)] | %17
 
 \staff "1" \ottava #0 \times 2/3 { c'16[ g e'] c[ g' e] c'[ b a] g[ f e] } \\
 \staff "2" \ottava #0 \stemDown <c e>4 d,\rest | %18
 
 \staff "1" \times 2/3 { cs'16[ d f] a[ f d] g[ e c] f[ d b] } \\
-\staff "2" s8 \stemUp d <c e>[ <d f>)] \\
+\staff "2" s8 \stemUp d <c e>[( <d f>)] \\
 \staff "2" d,8\rest \stemDown <f a> g4 | %19
 
 \staff "1" \stemUp c'8[ g-.] c,4 \\
