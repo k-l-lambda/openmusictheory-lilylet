@@ -1,0 +1,61 @@
+\staff "1" \key c \major \time 2/4 \tempo "Allegretto grazioso" \clef "treble" \ottava #0 \stemDown g''8 \\
+\staff "2" \clef "bass" \ottava #0 d,8\rest | %1
+
+\staff "1" \stemDown e'8)[ d16 c] c8[ c] \\
+\staff "2" \clef "treble" \stemUp c16\p[ e g e] c[ e g e] | %2
+
+\staff "1" \stemDown c'4. c'8 \\
+\staff "2" \stemUp c16[ e g e] c[ e g e] | %3
+
+\staff "1" \stemDown a''8)[ g16 f] f8[ f] \\
+\staff "2" \stemUp c16[ f a f] c[ f a f] | %4
+
+\staff "1" \stemDown f'4. a8 \\
+\staff "2" \stemUp c16[ f a f] c[ f a f] | %5
+
+\staff "1" \stemDown g''8)[ f16 e] e8([ g)] \\
+\staff "2" \stemUp c16[ e g e] c[ e g e] | %6
+
+\staff "1" \stemDown f'8)[ e16 d] d8[ f] \\
+\staff "2" \stemUp b16[ d g d] b[ d g d] | %7
+
+\staff "1" \ottava #0 \stemDown e'8)[ d16 c-.] b8[ c-.] \\
+\staff "2" \ottava #0 \stemUp c8 <e g>[ <d f> <c e>] | %8
+
+\staff "1" \stemDown e'4( d8)[ g-.] \\
+\staff "2" \stemUp <g c>4~ <g b>8 b'\rest | %9
+
+\staff "1" \stemDown e'8)[ d16 c] c8[ c] \\
+\staff "2" \stemUp c16[ e g e] c[ e g e] | %10
+
+\staff "1" \stemDown c'4. c'8 \\
+\staff "2" \stemUp c16[ e g e] c[ e g e] | %11
+
+\staff "1" \stemDown a''8)[ g16 f] f8[ f] \\
+\staff "2" \stemUp c16[ f a f] c[ f a f] | %12
+
+\staff "1" \stemDown f'4. a8 \\
+\staff "2" \stemUp c16[ f a f] c[ f a f] | %13
+
+\staff "1" \stemDown g''8)[ f16 e] e8([ g)] \\
+\staff "2" \stemUp c16[ e g e] cs[ e a e] | %14
+
+\staff "1" \ottava #0 \stemDown f'8)[ e16 d] d8[ f] \\
+\staff "2" \ottava #0 \stemUp d16[ f a f] b,[ d g d] | %15
+
+\staff "1" \stemDown e'8)[ f16 d] \times 2/3 { c8[ b4\trill } \\
+\staff "2" \clef "bass" s8 \stemDown f, g4 \\
+\staff "2" \stemUp <c g'>8 d e d] | %16
+
+\staff "1" \stemDown g''8)[ f16 e] e'[ cs a g] \\
+\staff "2" \clef "treble" \stemUp c16[ e g e] cs[ e a e] | %17
+
+\staff "1" \stemDown f'8)[ e16 d] d'[ b g f] \\
+\staff "2" \stemUp d16[ f a f] b,[ d g d] | %18
+
+\staff "1" \stemDown e'8)[ a16 f] e[ g f d] \\
+\staff "2" \clef "bass" s8 \stemDown f, g4 \\
+\staff "2" \stemUp <c g'>8 d e[ d] | %19
+
+\staff "1" \stemDown c'8 \\
+\staff "2" \stemDown c8 | %20

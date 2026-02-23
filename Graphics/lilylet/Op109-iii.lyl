@@ -1,0 +1,33 @@
+\staff "1" \key e \major \time 3/4 \tempo "Andante molto cantabile ed espressivo" \clef "treble" \ottava #0 \markup "mezza voce" \stemUp gs'4( es4. f8) \\
+\staff "1" \ottava #0 \stemDown b4 b cs \\\\
+\staff "2" \clef "bass" \ottava #0 s4 \stemDown ds' \stemUp a,, \\
+\staff "2" \ottava #0 \stemUp e,,4( gs s | %1
+
+\staff "1" \stemUp <f, ds'>4 <a b>2 \\\\
+\staff "2" \stemUp b,4 cs ds) | %2
+
+\staff "1" \stemUp <gs b gs'>4( es'4. f8) \\
+\staff "1" s4 \stemDown b cs \\\\
+\staff "2" \stemDown e,4( gs as | %3
+
+\staff "1" \stemUp f4( as b) \\
+\staff "1" \stemDown ds4\< <cs es> <ds f> \\\\
+\staff "2" \stemDown b4 fs \stemUp b,8[ a] | %4
+
+\staff "1" \stemUp b'4 es,4. gs16[ f)\!] \\
+\staff "1" b4\rest \stemDown b cs \\
+\staff "2" \stemUp gs,4((( gs') a, \\\\
+\staff "2" \stemDown gs,2 s4 \\
+\staff "2" \stemUp gs,2 s4 | %5
+
+\staff "1" \stemUp ds4( b a) \\\\
+\staff "2" \stemDown <b, fs'>4 <cs e> <ds fs>) | %6
+
+\staff "1" \markup "crescendo" \stemUp gs4( es'4. as,8) \\\\
+\staff "2" s4 \stemDown <cs,, cs'> <c c'> \\
+\staff "2" \stemDown e,4 \stemUp e2 | %7
+
+\staff "1" \clef "bass" \stemUp as2( b4) \\
+\staff "1" \stemDown g4(\p es ds) \\\\
+\staff "2" \stemDown c,,2 gs4 \\
+\staff "2" \stemUp e,,4( g b) | %8

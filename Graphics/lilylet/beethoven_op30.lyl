@@ -1,0 +1,27 @@
+\staff "1" \key c \major \time 3/4 \tempo "Allegro" \clef "treble" \ottava #0 \stemDown c'8.\p-.[ b16-.] \\
+\staff "2" \clef "bass" \ottava #0 d,4\rest | %1
+
+\staff "1" \stemDown c'4-. \stemUp g-. a-. \\
+\staff "2" d,4\rest \stemDown <c' e> <c f> | %2
+
+\staff "1" \stemUp g'2 \stemDown c8.)-.[ b16-.] \\
+\staff "2" \ottava #0 \stemDown <c e>4 \stemUp c, d\rest | %3
+
+\staff "1" \stemDown c'4-. c-. d-. \\
+\staff "2" \clef "treble" b'4\rest \stemUp <e, g>-. <b g'> | %4
+
+\staff "1" \stemDown e'4(\sf c8) b\rest c8.)-.[ b16-.] \\
+\staff "2" \stemUp g'4. s8 \\
+\staff "2" \stemDown c4( e8) b'\rest b4\rest | %5
+
+\staff "1" \ottava #0 \stemDown c'4-. \stemUp g-. a-. \\
+\staff "2" \ottava #0 b'4\rest \stemUp <b, d>-. <c e>-. | %6
+
+\staff "1" \stemUp fs4-. g-. a-. \\
+\staff "2" \stemUp <a c>4-. <b d>-. <c e>-. | %7
+
+\staff "1" \stemUp d2 fs4\trill \\
+\staff "2" \clef "bass" d,4\rest \stemDown <d g b>-. <d a' c>-. | %8
+
+\staff "1" \stemUp g'4 b\rest b\rest \\
+\staff "2" \stemDown <g b>4 \stemUp g, d'\rest | %9

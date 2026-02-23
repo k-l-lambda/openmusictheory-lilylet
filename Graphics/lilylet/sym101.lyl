@@ -1,0 +1,15 @@
+\staff "1" \key g \major \time 2/4 \tempo "Andante" s2 \\\\
+\staff "2" \clef "bass" \ottava #0 \stemDown <g b>8-.\p[ <b d>-. <g b>-. <b d>-.] | %1
+
+\staff "1" \markup "dolce" s4 \stemDown g''8~[ g] \\
+\staff "1" \stemDown d'8.([ b32)] s \\\\
+\staff "2" \stemDown <g b>8-.[ <b d>-. <g b>-. <b d>-.] | %2
+
+\staff "1" \stemDown b''8)[ a32 g fs e] d8..)[ e32(] \\\\
+\staff "2" \stemDown <g b>8-.[ <b d>-. <g b>-. <b d>-.] | %3
+
+\staff "1" \stemDown c'16.[ d32 b16. c32] \stemUp <e, a>16.[ b'32 <e, g>16. a32] \\\\
+\staff "2" \stemDown <fs, a d>8-.[ <g b d>-.] <c, c'>-.[ <cs cs'>-.] | %4
+
+\staff "1" \stemUp fs8.[ g16)] b4\rest \\\\
+\staff "2" \stemDown <d, d'>8-.[ d,] d'4\rest | %5

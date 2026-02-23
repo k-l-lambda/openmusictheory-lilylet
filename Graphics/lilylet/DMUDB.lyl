@@ -1,0 +1,11 @@
+\staff "1" \key bf \major \time 4/4 \clef "treble" \ottava #0 \stemDown d'4 c16 bf \\\\
+\staff "2" \clef "treble" \ottava #0 bf'8\rest \stemUp <bf, g'>4 \\\\
+\staff "3" \clef "bass" \ottava #0 \stemUp <g, d'>4. | %1
+
+\staff "1" \stemDown af'16[ ef'] \stemUp af,8 g16 s \\\\
+\staff "2" bf'8\rest \stemUp <af, ef' af>4 \\\\
+\staff "3" \stemUp <c,, c'>4. | %2
+
+\staff "1" \times 2/3 { fs16[ a8 d c] bf16[ a] } \\\\
+\staff "2" bf'8\rest \stemUp <a, fs'>4 \\\\
+\staff "3" \stemUp <d,, d'>4. | %3

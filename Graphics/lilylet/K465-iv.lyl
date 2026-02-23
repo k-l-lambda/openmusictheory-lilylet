@@ -1,0 +1,29 @@
+\staff "1" \key c \major \time 4/4 \clef "treble" \ottava #0 \stemDown c''4. f,8 \\\\
+\staff "2" \clef "treble" \ottava #0 \stemUp f16([ d f d] f8) b\rest \\\\
+\staff "3" \clef "alto" \ottava #0 \stemDown d16([ b d b] d8) c\rest \\\\
+\staff "4" \clef "bass" \ottava #0 \stemDown g8[ g] g d\rest | %1
+
+\staff "1" \stemDown e'8([ c a d)] \\\\
+\staff "2" b'8\rest \stemUp g([ c, a')] \\\\
+\staff "3" s1 \\\\
+\staff "4" \stemDown c8[ e,( f fs)] | %2
+
+\staff "1" \stemDown c'8([ b)] c-.[ c-.] \\\\
+\staff "2" \stemUp e8([ d)] c[ c] \\\\
+\staff "3" c4\rest \stemUp g8-.[ g-.] \\\\
+\staff "4" \stemDown g8([ f)] e-.[ e-.] | %3
+
+\staff "1" \stemDown d'8-.[ d-. e-. e-.] \\\\
+\staff "2" \stemUp c8-.[ c c-. c-.] \\\\
+\staff "3" \stemUp a8-.[ a-. bf-. bf-.] \\\\
+\staff "4" \stemDown f,8-.[ f-. g-. g-.] | %4
+
+\staff "1" \stemDown f'8-.[ f fs-. fs-.] \\\\
+\staff "2" \stemDown c'8-.[ c-. c-. c-.] \\\\
+\staff "3" \stemDown c8-.[ c-. d-. d-.] \\\\
+\staff "4" \stemDown a8[ a-. af-. af] | %5
+
+\staff "1" \stemDown g''8([ e] f[ e16 d] \\\\
+\staff "2" \stemDown c'4 d8[ c16 b] \\\\
+\staff "3" \stemDown e8([ c)] g'[ g] \\\\
+\staff "4" \stemDown g8[ g g g] | %6

@@ -1,0 +1,31 @@
+\staff "1" \key f \major \time 3/4 \tempo "Andante cantabile" \clef "treble" \ottava #0 \markup "dolce" \stemDown c'8(-.[ c-. c)-.] \\
+\staff "2" \clef "bass" \ottava #0 d,8\rest d4\rest | %1
+
+\staff "1" \stemDown c'8.[ f16] \stemUp c8[ a( c e,)] \\
+\staff "2" \stemDown <f, a c>2\p <c g' bf>4 | %2
+
+\staff "1" \stemUp g'4( f8)\f f([ <e g> <f a>)] \\
+\staff "2" \stemDown d,4. c'4 c8 \\
+\staff "2" \stemUp bf4( a8)[ <a, a'>( <g g'> <f f'>)] | %3
+
+\staff "1" \stemUp bf'8.[ c32 d] c8[ f,( e f] \\
+\staff "1" \stemDown f4. a,8\rest b4 \\
+\staff "2" \stemDown <d, d'>8([ <bf bf'>)] <a a'> d\rest d4\p | %4
+
+\staff "1" \stemUp <e g>8) g[ g g] \\
+\staff "1" \stemDown c2 \\
+\staff "1" \stemUp <f a>4( \stemDown <c e>\f \\
+\staff "2" \stemUp c,2 | %5
+
+\staff "1" \ottava #0 \stemUp g''8.([ d32 b] g8[ g(-. g-. g-.] \\
+\staff "1" \ottava #0 \stemDown <b d f>2 <c e>4 | %6
+
+\staff "1" \stemDown g''4()~ g16.[ a64( b c16) b-.] a-.[ g-. f-. e-.] \\
+\staff "2" \stemDown <d, f b>4( <e g c>) d\rest | %7
+
+\staff "1" \stemDown cs'16([ d f a)] c,4.( b8 \\
+\staff "2" s8 \stemUp d \times 3/4 { <c e>4( <d f>) } e'16[ d)] \\
+\staff "2" d,8\rest \stemDown <f a>\p g2 | %8
+
+\staff "1" \stemDown c'4 \stemUp c bf\rest \\
+\staff "2" \stemDown c4 \stemUp e c,8 d\rest | %9
