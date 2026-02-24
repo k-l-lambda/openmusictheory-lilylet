@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OMT Lilylet Score Comparison</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: system-ui, -apple-system, sans-serif; background: #f5f5f5; color: #333; }
+
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 12px 20px; background: #2c3e50; color: #ecf0f1;
+    }
+    header h1 { font-size: 1.2rem; font-weight: 600; }
+    header select {
+      padding: 6px 12px; font-size: 0.95rem; border-radius: 4px;
+      border: 1px solid #7f8c8d; background: #34495e; color: #ecf0f1;
+      cursor: pointer; min-width: 220px;
+    }
+
+    .panels {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 0; height: calc(55vh - 56px); min-height: 300px;
+    }
+    .panel {
+      overflow: auto; padding: 12px; border-bottom: 1px solid #ddd;
+    }
+    .panel:first-child { border-right: 1px solid #ddd; }
+    .panel-label {
+      font-size: 0.75rem; font-weight: 600; text-transform: uppercase;
+      color: #7f8c8d; margin-bottom: 8px; letter-spacing: 0.05em;
+    }
+    .panel img { max-width: 100%; height: auto; display: block; }
+    #svg-container { width: 100%; }
+    #svg-container svg { width: 100%; height: auto; }
+
+    .editor-section {
+      height: 45vh; display: flex; flex-direction: column;
+      border-top: 2px solid #2c3e50;
+    }
+    .editor-header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 8px 20px; background: #ecf0f1;
+    }
+    .editor-header .label {
+      font-size: 0.75rem; font-weight: 600; text-transform: uppercase;
+      color: #7f8c8d; letter-spacing: 0.05em;
+    }
+    #status {
+      font-size: 0.8rem; color: #7f8c8d;
+    }
+    #status.error { color: #e74c3c; }
+    #status.ok { color: #27ae60; }
+
+    #code-editor {
+      flex: 1; width: 100%; resize: none; border: none; outline: none;
+      padding: 12px 20px; font-family: 'Fira Code', 'Cascadia Code', 'Consolas', monospace;
+      font-size: 0.9rem; line-height: 1.5; background: #fafafa;
+      tab-size: 4;
+    }
+
+    .loading-overlay {
+      position: fixed; inset: 0; background: rgba(255,255,255,0.9);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.1rem; color: #7f8c8d; z-index: 100;
+    }
+    .loading-overlay.hidden { display: none; }
+  </style>
+</head>
+<body>
+  <div id="loading" class="loading-overlay">Initializing Verovio...</div>
+
+  <header>
+    <h1>OMT Lilylet Score Comparison</h1>
+    <select id="score-select"></select>
+  </header>
+
+  <div class="panels">
+    <div class="panel">
+      <div class="panel-label">Original Image</div>
+      <img id="original-image" alt="Original score" />
+    </div>
+    <div class="panel">
+      <div class="panel-label">Verovio SVG Preview</div>
+      <div id="svg-container"></div>
+    </div>
+  </div>
+
+  <div class="editor-section">
+    <div class="editor-header">
+      <span class="label">Lilylet Code Editor</span>
+      <span id="status"></span>
+    </div>
+    <textarea id="code-editor" spellcheck="false"></textarea>
+  </div>
+
+  <script type="module" src="./main.ts"></script>
+</body>
+</html>
