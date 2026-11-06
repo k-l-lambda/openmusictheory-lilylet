@@ -1,0 +1,8 @@
+[title "Oblique motion"]
+[staves "{-}"]
+
+\staff "1" \omit Score.TimeSignature \key c \major \clef "treble" g'1 \\
+\staff "2" \clef "alto" c1 | %1
+
+\staff "1" g'1 \\
+\staff "2" b1 \bar "||" | %2

@@ -1,0 +1,3 @@
+[title "Dorian mode"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" d1 e f g a b c d \undo \omit Score.BarLine \bar "|." | %1

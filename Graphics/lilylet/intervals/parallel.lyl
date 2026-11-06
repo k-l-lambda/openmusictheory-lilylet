@@ -1,0 +1,8 @@
+[title "Parallel motion"]
+[staves "{-}"]
+
+\staff "1" \omit Score.TimeSignature \key c \major \clef "treble" a'1 \\
+\staff "2" \clef "alto" c1 | %1
+
+\staff "1" b'1 \\
+\staff "2" d1 \bar "||" | %2

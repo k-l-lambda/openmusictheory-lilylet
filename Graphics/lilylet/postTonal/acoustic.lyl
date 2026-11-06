@@ -1,0 +1,3 @@
+[title "Acoustic scale"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" c1 d e fs g a bf c \undo \omit Score.BarLine \bar "|." | %1

@@ -1,0 +1,41 @@
+[title "Figured bass: full figures"]
+[staves "{-}"]
+
+\staff "1" \omit Score.TimeSignature \key c \major \clef "treble" <e g c>1
+\addlyrics { 5 }
+\addlyrics { 3 } \\
+\staff "2" \clef "bass" c1 | %1
+
+\staff "1" <e a c>1
+\addlyrics { 6 }
+\addlyrics { 3 } \\
+\staff "2" c1 | %2
+
+\staff "1" <f a c>1
+\addlyrics { 6 }
+\addlyrics { 4 } \\
+\staff "2" c1 \bar "||" | %3
+
+\staff "1" <e g b>1
+\addlyrics { 7 }
+\addlyrics { 5 }
+\addlyrics { 3 } \\
+\staff "2" c1 | %4
+
+\staff "1" <e g a>1
+\addlyrics { 6 }
+\addlyrics { 5 }
+\addlyrics { 3 } \\
+\staff "2" c1 | %5
+
+\staff "1" <e f a>1
+\addlyrics { 6 }
+\addlyrics { 4 }
+\addlyrics { 3 } \\
+\staff "2" c1 | %6
+
+\staff "1" <d f a>1
+\addlyrics { 6 }
+\addlyrics { 4 }
+\addlyrics { 2 } \\
+\staff "2" c1 \bar "|." | %7

@@ -1,0 +1,18 @@
+[title "Haydn, Piano Sonata in G major, Hob. XVI:27, III (Fonte, annotated)"]
+[composer "Joseph Haydn"]
+[staves "{-}"]
+
+\staff "1" \omit Score.TimeSignature \key g \major \partial 8 \clef "treble" \stemDown d8-.\mp \\
+\staff "2" \clef "bass" r8 | %1
+
+\staff "1" \stemUp d'8([ b gs e)] \\
+\staff "2" R2 | %2
+
+\staff "1" \stemDown d4(-3 cs8)[ c!-.] \\
+\staff "2" r8 gs([_\markup "Am: D7  T1" a) a,-.] | %3
+
+\staff "1" \stemUp c'8([ a fs d)] \\
+\staff "2" R2 | %4
+
+\staff "1" \stemDown c4(-3 b8) s \\
+\staff "2" r8 fs,([_\markup "G: D7  T1" g)] s | %5

@@ -1,0 +1,3 @@
+[title "Y-cell (C D E F#)"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" c1 d e fs \undo \omit Score.BarLine \bar "|." | %1

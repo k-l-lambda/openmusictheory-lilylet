@@ -1,0 +1,13 @@
+[title "Modulation example (F major to C major)"]
+
+\omit Score.TimeSignature \key f \major \clef "bass" f,2 e^\markup "6"
+\addlyrics { "F: T(1" "D7p" }
+\addlyrics { _ _ } | %1
+
+d,2 g^\markup "♯"^\markup "7"
+\addlyrics { x6) _ }
+\addlyrics { "C: S2" D5 } | %2
+
+c,1 \bar "|."
+\addlyrics { _ }
+\addlyrics { T1 } | %3

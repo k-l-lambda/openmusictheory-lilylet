@@ -1,0 +1,7 @@
+[title "D5 problem: D5 T1"]
+[staves "{-}"]
+
+\staff "1" \omit Score.TimeSignature \key g \major \clef "treble" <a' c fs>2 <b d g>
+\addlyrics { 7 _ } \\
+\staff "2" \clef "bass" d,2 g, \bar "|."
+\addlyrics { D5 T1 } | %1

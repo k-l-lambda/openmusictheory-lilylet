@@ -1,0 +1,8 @@
+[title "Parallel tenths: T(1 D2p 3)"]
+[staves "{-}"]
+
+\staff "1" \omit Score.TimeSignature \key g \major \clef "treble" <d g b>2 <d fs c'> <d g d'>
+\addlyrics { _ 4 6 }
+\addlyrics { _ 3 _ } \\
+\staff "2" \clef "bass" g,2 a b \bar "|."
+\addlyrics { T(1 D2p 3) } | %1

@@ -1,0 +1,3 @@
+[title "French sixth collection (C D F# G#)"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" c1 d fs gs \undo \omit Score.BarLine \bar "|." | %1

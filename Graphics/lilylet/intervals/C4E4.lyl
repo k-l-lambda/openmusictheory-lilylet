@@ -1,0 +1,3 @@
+[title "C4 to E4, chromatic, in alto clef"]
+
+\omit Score.TimeSignature \omit Score.BarLine \clef "alto" c2 cs4 d ds e2 \undo \omit Score.BarLine \bar "|" | %1

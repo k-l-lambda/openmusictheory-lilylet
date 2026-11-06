@@ -1,0 +1,3 @@
+[title "Natural minor scale"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" a'1 b c d e f g a \undo \omit Score.BarLine \bar "|." | %1

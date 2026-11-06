@@ -1,0 +1,4 @@
+[title "Triad qualities"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" <c e g>1 <c ef g> <c ef gf> <c e! gs>
+\addlyrics { major minor diminished augmented } | %1

@@ -1,0 +1,5 @@
+[title "Oblique motion (one voice holds)"]
+[staves "{-}"]
+
+\staff "1" \omit Score.TimeSignature \key c \major \clef "treble" g'1 \\
+\staff "2" \clef "alto" c2 b \bar "||" | %1

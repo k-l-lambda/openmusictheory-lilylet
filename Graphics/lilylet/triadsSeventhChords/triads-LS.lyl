@@ -1,0 +1,4 @@
+[title "Triad qualities: lead-sheet symbols"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" <c e g>1 <ef g c> <gf c ef> <c, gs' e'!>
+\addlyrics { C Cm/E♭ Cdim/G♭ Caug } | %1

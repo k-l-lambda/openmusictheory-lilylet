@@ -1,0 +1,8 @@
+[title "D4i: T(1 D4i 3)"]
+[staves "{-}"]
+
+\staff "1" \omit Score.TimeSignature \key g \major \clef "treble" <d g b>2 <d fs a> <d g>
+\addlyrics { _ 4 6 }
+\addlyrics { _ 2 _ } \\
+\staff "2" \clef "bass" g,2 c b \bar "|."
+\addlyrics { T(1 D4i 3) } | %1

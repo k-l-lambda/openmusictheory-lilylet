@@ -1,0 +1,3 @@
+[title "Ionian mode"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" c1 d e f g a b c \undo \omit Score.BarLine \bar "|." | %1

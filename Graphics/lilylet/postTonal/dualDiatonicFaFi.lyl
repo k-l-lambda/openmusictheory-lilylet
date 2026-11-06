@@ -1,0 +1,3 @@
+[title "Dual diatonic (fa/fi)"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" c1 d e f fs g a b c \undo \omit Score.BarLine \bar "|." | %1

@@ -1,0 +1,3 @@
+[title "Pentatonic scale (black keys)"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" gf'1 af bf df ef gf \undo \omit Score.BarLine \bar "|." | %1

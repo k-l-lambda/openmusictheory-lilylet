@@ -1,0 +1,8 @@
+[title "Contrary motion"]
+[staves "{-}"]
+
+\staff "1" \omit Score.TimeSignature \key c \major \clef "treble" e1 \\
+\staff "2" \clef "alto" c1 | %1
+
+\staff "1" f1 \\
+\staff "2" a1 \bar "||" | %2

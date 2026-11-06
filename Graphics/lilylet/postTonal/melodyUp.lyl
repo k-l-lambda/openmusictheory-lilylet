@@ -1,0 +1,3 @@
+[title "Melody (ascending)"]
+
+\omit Score.TimeSignature \key c \major \clef "treble" g'4. a8 b4 ef \bar "|." | %1

@@ -1,0 +1,4 @@
+[title "Row family: P11, R11, I0, RI0"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" b'4^\markup "P₁₁ →" g fs bf a gs d' c ef cs f e^\markup "← R₁₁" \\\\
+\clef "treble" c'4^\markup "I₀ →" e f cs d ef a, b gs bf fs g^\markup "← RI₀" | %1

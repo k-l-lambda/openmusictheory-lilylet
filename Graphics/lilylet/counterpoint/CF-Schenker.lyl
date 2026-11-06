@@ -1,0 +1,13 @@
+[title "Cantus firmus (Schenker)"]
+
+\omit Score.TimeSignature \key c \major \clef "alto" c1 | %1
+d1 | %2
+f1 | %3
+e1 | %4
+f1 | %5
+g'1 | %6
+a'1 | %7
+g'1 | %8
+e1 | %9
+d1 | %10
+c1 \bar "|." | %11

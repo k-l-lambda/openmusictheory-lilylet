@@ -1,0 +1,3 @@
+[title "Locrian mode"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" b'1 c d e f g a b \undo \omit Score.BarLine \bar "|." | %1

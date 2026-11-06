@@ -1,0 +1,5 @@
+[title "Simple and compound intervals"]
+
+\omit Score.TimeSignature \key c \major \clef "treble" c1 e | %1
+
+c1 e' | %2

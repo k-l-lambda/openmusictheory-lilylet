@@ -1,0 +1,7 @@
+[title "Thirds with accidentals"]
+
+\omit Score.TimeSignature \key c \major \clef "alto" c1 e | %1
+
+cs1 e | %2
+
+cf1 es | %3

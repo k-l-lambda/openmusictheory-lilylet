@@ -1,0 +1,9 @@
+[title "Voice exchange with passing 6/4"]
+[staves "{-}"]
+
+\staff "1" \omit Score.TimeSignature \key g \major \clef "treble" \stemUp b'2 a g
+\addlyrics { _ 6 6 }
+\addlyrics { _ 4 _ } \\
+\staff "1" \stemDown <d g>2 <d fs> <d g> \\
+\staff "2" \clef "bass" g,2 a b \bar "|."
+\addlyrics { "T(1" D2p "3)" } | %1
