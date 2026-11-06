@@ -6,30 +6,30 @@
 [instrument-va "Viola" "Va."]
 [instrument-vc "Violoncello" "Vc."]
 
-\key c \major \time 2/4 \clef "treble" \ottava #0 \stemDown c''4. f,8 \\\\
+\key c \major \time 2/4 \clef "treble" \ottava #0 \stemDown c''4.( f,8) \\\\
 \clef "treble" \ottava #0 \stemUp f16([ d f d] f8) b\rest \\\\
 \clef "alto" \ottava #0 \stemDown d16([ b d b] d8) c\rest \\\\
 \clef "bass" \ottava #0 \stemDown g8[ g] g d\rest | %1
 
 \stemDown e'8([ c a d)] \\\\
 b'8\rest \stemUp g([ c, a')] \\\\
-s2 \\\\
+R2 \\\\
 \stemDown c8[ e,( f fs)] | %2
 
 \stemDown c'8([ b)] c-.[ c-.] \\\\
-\stemUp e8([ d)] c[ c] \\\\
+\stemUp e8([ d)] c-.[ c-.] \\\\
 c4\rest \stemUp g8-.[ g-.] \\\\
 \stemDown g8([ f)] e-.[ e-.] | %3
 
 \stemDown d'8-.[ d-. e-. e-.] \\\\
-\stemUp c8-.[ c c-. c-.] \\\\
+\stemUp c8-.[ c-. c-. c-.] \\\\
 \stemUp a8-.[ a-. bf-. bf-.] \\\\
 \stemDown f,8-.[ f-. g-. g-.] | %4
 
-\stemDown f'8-.[ f fs-. fs-.] \\\\
+\stemDown f'8-.[ f-. fs-. fs-.] \\\\
 \stemDown c'8-.[ c-. c-. c-.] \\\\
 \stemDown c8-.[ c-. d-. d-.] \\\\
-\stemDown a8[ a-. af-. af] | %5
+\stemDown a8-.[ a-. af-. af-.] | %5
 
 \stemDown g''8([ e)] \grace g16 f!8[ e16 d] \\\\
 \stemDown c'4 \grace e16 d8[ c16 b] \\\\

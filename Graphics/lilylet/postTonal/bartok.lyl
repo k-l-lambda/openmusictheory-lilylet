@@ -7,7 +7,7 @@
 [instrument-vc "1. Vlc."]
 [instrument-cb "1. Cb."]
 
-\key c \major \time 2/4 \clef "treble" r4 r8 e''8-.\f \\\\
+\omit Score.TimeSignature \key c \major \time 2/4 \clef "treble" r4 r8 e''8-.\f \\\\
 \clef "treble" R2 \\\\
 \clef "alto" R2 \\\\
 \clef "bass" R2 \\\\

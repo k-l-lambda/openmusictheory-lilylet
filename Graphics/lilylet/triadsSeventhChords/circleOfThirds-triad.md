@@ -15,7 +15,7 @@ Beethoven, Piano Sonata in C minor, Op. 13 ("Pathétique"), II, opening. The two
 \staff "1" \stemDown df2 bf4 bf \\
 \staff "2" <bf, f'>2) ef4 <df ef> | %2
 
-\staff "1" \partial 4. \stemUp af'4 ef8 \\
+\staff "1" \partial 4. \stemUp af'4( ef8) \\
 \staff "1" \stemDown c4. \\
 \staff "2" <c, ef>4. | %3
 ```

@@ -66,19 +66,19 @@
 \staff "2" cs1 \\
 \staff "2" \stemUp s2 fs,4 g | %15
 
-\staff "1" \stemUp fs'4) \stemDown <e g bf cs>2(\f s4 \\
+\staff "1" \stemUp fs'4) \stemDown <e g bf cs>2(\sf\> s4 \\
 \staff "2" \stemUp <a d>4 s4 <g bf>2( \\
 \staff "2" \stemDown d,4 r r d8[ d] | %16
 
-\staff "1" \stemDown <fs' a d>4)-. bf,\rest <cs cs'>2( \\
+\staff "1" \stemDown <fs' a d>4)-.\! bf,\rest <cs cs'>2(\sf\> \\
 \staff "2" \stemUp <fs, a d>4)-. s4 <g bf>2( \\
 \staff "2" \stemDown d,4 r r d8[ d] | %17
 
-\staff "1" \ottava #0 \stemDown <fs' a d>4)-. bf,\rest <cs cs'>2(\> \\
+\staff "1" \stemDown <fs' a d>4)-.\! bf,\rest <cs cs'>2(\sf\> \\
 \staff "2" \stemUp <fs, a d>4)-. s4 <g bf>2( \\
 \staff "2" \stemDown d,4 r r d8[ d] | %18
 
-\staff "1" \stemDown <d' d'>4)-. <cs cs'>( <d d'>)-. <cs cs'>( \\
+\staff "1" \stemDown <d' d'>4)-.\! <cs cs'>( <d d'>)-. <cs cs'>( \\
 \staff "2" \stemDown d,4 d d d \\
 \staff "2" \stemUp <fs, a d>4) <g bf>( <fs a d>) <g bf>( | %19
 

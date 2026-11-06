@@ -2,13 +2,13 @@
 [composer "Joseph Haydn"]
 [staves "{-}"]
 
-\staff "1" \key g \major \time 2/4 \partial 8 \bar ".|:" \clef "treble" \stemUp d8-.\mp \\
+\staff "1" \omit Score.TimeSignature \key g \major \time 2/4 \partial 8 \bar ".|:" \clef "treble" \stemUp d8-.\mp \\
 \staff "2" \clef "bass" r8 | %1
 
 \staff "1" \stemUp d'8([ b gs e)] \\
 \staff "2" R2 | %2
 
-\staff "1" \stemUp d4(-3 cs8)[ c] \\
+\staff "1" \stemUp d4(-3 cs8)[ c-.] \\
 \staff "2" r8 \stemDown gs([ a) a,-.] | %3
 
 \staff "1" \stemUp c'8([ a fs d)] \\

@@ -1,6 +1,6 @@
 [title "Modulation example (F major to C major)"]
 
-\omit Score.TimeSignature \key f \major \clef "bass" f,2 e^\markup "6"
+\key f \major \numericTimeSignature \time 2/2 \clef "bass" f,2 e^\markup "6"
 \addlyrics { "F: T(1" "D7p" }
 \addlyrics { _ _ } | %1
 

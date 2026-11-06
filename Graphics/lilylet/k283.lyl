@@ -30,7 +30,8 @@
 \staff "2" \stemDown <g b>4 d\rest <e g> | %9
 
 \staff "1" \stemDown fs'16[ e d c] b[ d b g] \stemUp a[ c a fs] \\
-\staff "2" d,4\rest \stemUp g( c) | %10
+\staff "2" d,4\rest \stemUp g( c) \\
+\staff "2" s4 \stemDown d,2 | %10
 
 \staff "1" g'4 b\rest b\rest \\
 \staff "2" \stemUp b4 g, d'\rest \\

@@ -2,10 +2,10 @@
 [composer "Wolfgang Amadeus Mozart"]
 [staves "{-}"]
 
-\staff "1" \key bf \major \time 4/4 \tempo "Adagio" \clef "treble" \stemDown bf'4(-1\p^\markup "P.T. HS." d8.-2[ ef16] e8.\>[ f16] c8)-. bf\rest \\
+\staff "1" \key bf \major \time 4/4 \tempo "Adagio" \clef "treble" \stemDown bf'4(-1\p^\markup "P.T. HS." d8.-2[ \grace { ef32[ d c d] } ef16] e8.\>[ f16] c8)-. bf\rest \\
 \staff "2" \clef "bass" \stemDown bf16(-4\pp[ f' d f] bf,[ g' d f] a,-5[ f' c f] a,[ f' c f] | %1
 
-\staff "1" \stemDown ef'8.(-2[ f16-1] g8._\markup "cresc."[ a16)] a8.(-2[ bf16] f8) bf,\rest \\
+\staff "1" \stemDown ef'8.(-2[ \grace { f32[ ef d ef] } f16-1] g8._\markup "cresc."[ \grace { a32[ g f g] } a16)] a8.(-2[ bf16] f8) bf,\rest \\
 \staff "2" \stemDown g16-5[ ef' bf ef] ef,16-5[ bf' g bf] d,\<[ bf' f bf] d,[ bf' f bf)\!] | %2
 
 \staff "1" \clef "treble" \stemDown g''8.(-2\p[ af32 g] f16-3[ ef d c)] e(-3->[ f8 g32 f] ef16)-.[ d(-. c-. bf)-2-.] \\
@@ -14,16 +14,16 @@
 \staff "1" \stemDown f'16(-5_\markup "fzp"[ ef8 c16)-.] ef(-4_\markup "fzp"[ d8 bf16)-.] d8.\>[ ef32 d\!] c16-.[ f(-4 ef c)-1] \\
 \staff "2" \stemDown a16(-5->[ f' c f-4] bf,->[ g' d f-5] f,[ ef'-2 bf ef] <f, a c>8) d\rest | %4
 
-\staff "1" \stemDown bf'8.(-2[ c16-1] df8.[ ef16] e8.[ f16)-.] c8 bf\rest \\
+\staff "1" \stemDown bf'8.(-2[ \grace { c32[ bf a bf] } c16-1] df8.[ \grace { ef32[ df c df] } ef16] e8.[ f16)-.] c8 bf\rest \\
 \staff "2" \stemDown bf16(\pp[ f' df f] bf,[ f' df f] af,[ f' c f] af,[ f' c f)] | %5
 
-\staff "1" \clef "treble" \stemDown ef'8.(-2[ f16-1] gf8.[ af16] a8.[ bf16] f8-. bf,\rest \\
+\staff "1" \clef "treble" \stemDown ef'8.(-2[ \grace { f32[ ef d ef] } f16-1] gf8.[ \grace { af32[ gf f gf] } af16] a8.[ bf16] f8-. bf,\rest \\
 \staff "2" \clef "bass" \stemDown gf16([ ef' bf ef] ef,[ bf' gf bf] d,\<-4[ bf' f bf] df,[ bf' f bf)\!] | %6
 
-\staff "1" \stemDown df''4)-5~_\markup "fz" df16[ c32(-3\p bf-. af(-3 g)-3-. f( e)-.] g8->[ f]~ f16([ ef8 df16)] \\
+\staff "1" \grace e'8 \stemDown df'4)-5~_\markup "fz" df16[ c32(-3\p bf-. af(-3 g)-3-. f( e)-.] g8->[ f]~ f16([ ef8 df16)] \\
 \staff "2" \stemDown c,16(\mf\>[ bf' g bf\!] c,\pp[ bf' g! bf] df,->[ af' f af] bf,[ g' df g)] | %7
 
-\staff "1" \stemDown c'8.([ df16] \stemUp f,8-1[ <e af>16 g] f4) r4^\markup "S. T. SS." \\
+\staff "1" \stemDown c'8.([ \grace { df32[ c bf c] } df16] \stemUp f,8-1[ <e af>16 g] f4) r4^\markup "S. T. SS." \\
 \staff "2" s2 \stemUp a16\<[ c-. c-. c\!-.] a\p([ c) bf( c)] \\
 \staff "2" \stemDown c,16([ af' f af] c,[ bf' g bf)] f8 r f([ g] | %8
 

@@ -2,7 +2,7 @@
 [composer "Joseph Haydn"]
 [staves "{-}"]
 
-\staff "1" \omit Score.TimeSignature \key g \major \partial 8 \clef "treble" \stemDown d8-.\mp \\
+\staff "1" \omit Score.TimeSignature \key g \major \partial 8 \bar ".|:" \clef "treble" \stemUp d8-.\mp \\
 \staff "2" \clef "bass" r8 | %1
 
 \staff "1" \stemUp d'8([ b gs e)] \\

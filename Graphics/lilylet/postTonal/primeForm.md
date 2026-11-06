@@ -4,10 +4,10 @@
 [title "Bartók, Mikrokosmos No. 141: right-hand motive"]
 [composer "Béla Bartók"]
 
-\key c \major \time 2/4 \clef "treble" \stemUp bf'8[( c ef d)] \\
+\key c \major \time 2/4 \clef "treble" \stemUp bf'8[( c ef d] \\
 \stemDown bf'2 | %1
 
-\time 5/8 \partial 4 \stemUp f'4 \\
+\time 5/8 \partial 4 \stemUp f'4) \\
 \stemDown bf'4 | %2
 ```
 

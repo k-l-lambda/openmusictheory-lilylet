@@ -35,10 +35,12 @@
 
 \staff "1" b'4\rest \stemDown e,\sf d d \\
 \staff "1" s4 \stemUp g'2( f4) \\
+\staff "2" \stemUp r4 g2( g4) \\
 \staff "2" \stemDown c,2\sf b16([ c b c)] d8-.[ b-.] | %9
 
 \staff "1" \stemDown c4 e\sf d d \\
 \staff "1" \stemUp e4 g2( f4) \\
+\staff "2" \stemUp g4 g2( g4) \\
 \staff "2" \stemDown g,4 c\sf b16([ c b c)] d8-.[ b-.] | %10
 
 \staff "1" \stemUp <c e>4 r <c e a> r \\

@@ -49,7 +49,7 @@
 
 \staff "1" f'16([ e f d)] c8([ b\trill] \grace { a16[ b] } \\
 \staff "2" \stemUp <c! g'>8 \clef "bass" d[ e d] \clef "treble" \\
-\staff "2" \stemDown s8 f,8 g4 | %16
+\staff "2" \stemDown s8 \clef "bass" f,8 g4 \clef "treble" | %16
 
 \staff "1" a''16([ g f e)] e([ cs a) g-.] \\
 \staff "2" c16[( e g e] cs[ e a e] | %17
@@ -59,7 +59,7 @@
 
 \staff "1" f'16([ e a f] e[ g f d)] \\
 \staff "2" \stemUp <c! g'>8 \clef "bass" d[ c b] \\
-\staff "2" \stemDown s8 f,8 g4 | %19
+\staff "2" \stemDown \clef "treble" s8 \clef "bass" f,8 g4 | %19
 
 \staff "1" c'8 r \stemUp c,16(\f[ e g c)] \\
 \staff "2" c8 <g, g'>[ <e e'> <a, a'>] | %20

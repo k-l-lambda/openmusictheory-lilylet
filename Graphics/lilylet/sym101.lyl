@@ -8,7 +8,7 @@
 \staff "1" \markup "dolce" \stemDown d'8..([ b32)] g'8~[ g] \\
 \staff "2" \stemDown <g b>8-.[ <b d>-. <g b>-. <b d>-.] | %2
 
-\staff "1" \stemDown b''8)[ a32 g fs e] d8..)[ e32(] \\
+\staff "1" \grace g''8( \stemDown b8)([ a32 g fs e] d8..)[ e32(] \\
 \staff "2" \stemDown <g b>8-.[ <b d>-. <g b>-. <b d>-.] | %3
 
 \staff "1" \stemDown c'16.[ d32 b16. c32] \stemUp <e, a>16.[ b'32 <e, g>16. a32] \\

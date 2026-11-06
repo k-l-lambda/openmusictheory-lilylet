@@ -20,11 +20,11 @@
 \staff "1" cs'4.\p d32(_\markup "sfp"^\markup "f" [ cs b a)] gs8-.[ gs-.] \\
 \staff "2" r4 <a cs e>4\p <d, e b'>4\f | %6
 
-\staff "1" a'4.\p( <gs b>8_\markup "cresc."[ <a cs> <b d>)] \\
+\staff "1" a'4.\p <gs b>8_\markup "cresc."([ <a cs> <b d>)] \\
 \staff "2" r8 a,8\p cs'[ <d e> <cs e> <b e>] | %7
 
-\staff "1" \stemUp ds'16([ e fs d!] cs4 b) \\
-\staff "1" \stemDown cs'8[ d16\p b] a4 gs \\
+\staff "1" \stemUp ds'16[ e fs d!] cs4( b) \\
+\staff "1" \stemDown cs'8[ d16\p b] a4( gs) \\
 \staff "2" <a e'>8[ d] e4 e, | %8
 
 \staff "1" a'4\f~ \tuplet 3/2 { a8([ e cs')] } \tuplet 3/2 { d8([ b gs)] } \\
@@ -40,13 +40,13 @@
 \staff "1" \grace e'8 d8\p[ d,( cs d cs b)] \\
 \staff "2" r8 b([ as b a gs)] \clef "treble" | %12
 
-\staff "1" e'4~ e16[ es(\sf fs cs] \grace e8 d8)-.\p[ d-.] \\
+\staff "1" e'4~ e16[ es(\sf fs cs)] \grace e8( d8)-.\p[ d-.] \\
 \staff "2" r4 <cs a'>4\f <b gs'>4\p \clef "bass" | %13
 
-\staff "1" cs'4~ cs16[ ds(\sf e a,] \grace a8 gs8)-.\p[ gs-.] \\
+\staff "1" cs'4~ cs16[ ds(\sf e a,)] \grace a8( gs8)-.\p[ gs-.] \\
 \staff "2" r4 <a e'>4\f <d e>4\p | %14
 
-\staff "1" a'16(_\markup "crescendo"[ b cs d] e[ fs gs a)] gs([ fs e d!)] \\
+\staff "1" a'16(_\markup "crescendo"[ b cs d!] e[ fs gs a)] gs([ fs e d)] \\
 \staff "2" \stemUp <cs e>4 a2~ \\
 \staff "2" \stemDown s4 cs,4 d | %15
 

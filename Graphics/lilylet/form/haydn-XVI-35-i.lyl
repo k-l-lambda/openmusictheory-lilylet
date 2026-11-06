@@ -21,10 +21,10 @@
 \staff "2" \clef "treble" \stemUp <b g'>4-! b'\rest <c, g'>-! c'\rest | %6
 
 \staff "1" \stemDown d'4-! d8.(-3[ e16)] c4-! c-! \\
-\staff "2" \stemUp <f g>4-! b\rest <e, g> b'\rest | %7
+\staff "2" \stemUp <f g>4-! b\rest <e, g>-! b'\rest | %7
 
 \staff "1" \stemDown d'4-! d-! b-! b-! \\
-\staff "2" \stemUp <f, f'>4-! <f f'> <g d'>-! <g d'> | %8
+\staff "2" \stemUp <f, f'>4-! <f f'>-! <g d'>-! <g d'>-! | %8
 
 \staff "1" \stemDown c'4 b\rest b\rest c8.(\f[ e16)-2] \\
 \staff "2" \tuplet 3/2 { c8(\f[ e g)] } \tuplet 3/2 { c,8[ e g] } \tuplet 3/2 { c,8[ e g] } \tuplet 3/2 { c,8[ e g] } | %9

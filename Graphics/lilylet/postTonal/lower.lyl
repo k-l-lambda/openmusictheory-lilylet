@@ -4,7 +4,7 @@
 [instrument-va2 "2. Vle."]
 [instrument-vc2 "2. Vlc."]
 
-\key c \major \time 2/4 \clef "alto" R2 \\\\
+\omit Score.TimeSignature \key c \major \time 2/4 \clef "alto" R2 \\\\
 \clef "bass" R2 | %1
 
 r4 b8-.[ fs( \\\\

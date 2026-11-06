@@ -12,7 +12,7 @@
 \staff "2" \ottava #0 \stemDown <c e>4 \stemUp c, d\rest | %3
 
 \staff "1" \stemDown c'4-. c-. d-. \\
-\staff "2" \clef "treble" b'4\rest \stemUp <e, g>-. <b g'> | %4
+\staff "2" \clef "treble" b'4\rest \stemUp <e, g>-. <b g'>-. | %4
 
 \staff "1" \grace { c'16[( d] } \stemDown e4)\sf( c8) b\rest \grace d8( c8.)-.[ b16-.] \\
 \staff "2" \stemUp g'4. s8 \\

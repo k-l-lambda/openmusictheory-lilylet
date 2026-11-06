@@ -48,8 +48,8 @@
 \staff "2" \ottava #0 \stemUp d16[ f a f] b,[ d g d] | %15
 
 \staff "1" \grace f'16( \stemDown e8)[ f16 d] c8[ b\trill] \\
-\staff "2" \clef "bass" s8 \stemDown f, g4 \\
-\staff "2" \stemUp <c g'>8 d e d] | %16
+\staff "2" \stemUp <c g'>8 \clef "bass" d[ e d] \\
+\staff "2" s8 \stemDown f, g4 | %16
 
 \staff "1" \grace a''16( \stemDown g8)[ f16 e] e'[ cs a g] \\
 \staff "2" \clef "treble" \stemUp c16[ e g e] cs[ e a e] | %17
@@ -58,8 +58,8 @@
 \staff "2" \stemUp d16[ f a f] b,[ d g d] | %18
 
 \staff "1" \grace f'16( \stemDown e8)[ a16 f] e[ g f d] \\
-\staff "2" \clef "bass" s8 \stemDown f, g4 \\
-\staff "2" \stemUp <c g'>8 d e[ d] | %19
+\staff "2" \stemUp <c g'>8 \clef "bass" d[ e d] \\
+\staff "2" s8 \stemDown f, g4 | %19
 
 \staff "1" \partial 8 \stemDown c'8 \\
 \staff "2" \stemDown c8 | %20

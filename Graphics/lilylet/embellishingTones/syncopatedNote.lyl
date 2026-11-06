@@ -1,7 +1,7 @@
 [title "Syncopated note (SYN)"]
 
-\omit Score.TimeSignature \omit Score.BarLine \key e \major \clef "treble_8" gs'4 \chords "C#m" gs8[ gs]~ gs gs4 b8~^\markup "SYN"
+\omit Score.TimeSignature \key e \major \clef "treble_8" gs'4 \chords "C#m" gs8[ gs]~ gs gs4 b8~^\markup "SYN"
 \addlyrics { Ba -- by, ba -- _ by, ba -- } | %1
 
-b'8 \chords "Bsus4" b4 b8~ b
+b'8 \chords "Bsus4" b4 b8~ b \bar ""
 \addlyrics { _ by, light _ } | %2

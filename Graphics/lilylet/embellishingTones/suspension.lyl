@@ -1,7 +1,7 @@
 [title "Suspension (SUS)"]
 [staves "{-}"]
 
-\staff "1" \omit Score.TimeSignature \key c \major \clef "treble" c'2 c4^\markup "SUS" b
+\staff "1" \omit Score.TimeSignature \key c \major \clef "treble" c'2 c4 b
 \addlyrics { _ 4 -- 3 } \\
 \staff "2" \clef "bass" f,2 g | %1
 

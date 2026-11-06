@@ -2,7 +2,7 @@
 [composer "Claude Debussy"]
 [staves "{-}"]
 
-\staff "1" \key c \major \time 6/4 \clef "treble" ^\markup "[28]" r2 <c e g c>2\ff^\markup "C, D, G = {0, 2, 7}"( <d f a d>2 \\
+\staff "1" \omit Score.TimeSignature \key c \major \time 6/4 \clef "treble" ^\markup "[28]" r2 <c e g c>2\ff^\markup "C, D, G = {0, 2, 7}"( <d f a d>2 \\
 \staff "2" \clef "bass" r2 <g, c e g>2( <a d f a>2 \\
 \staff "2" c,,1.~_\markup "coll'8" | %1
 

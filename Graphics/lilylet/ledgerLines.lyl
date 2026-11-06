@@ -8,6 +8,6 @@
 \staff "2" \stemUp r4 f8([ ef] \\
 \staff "2" \stemDown g2_\markup "G3"( | %2
 
-\staff "1" \stemDown <d' f>8([ <c ef>)] ef8.(\mf[ f32 g)] \bar "|." \\
+\staff "1" \stemDown <d' f>8([ <c ef>)] ef8.(\mf\turn[ f32 g)] \bar "|." \\
 \staff "2" \stemUp s4 r4 \\
 \staff "2" \stemDown <g b!>8^\markup "B3"[ d')] r4 | %3

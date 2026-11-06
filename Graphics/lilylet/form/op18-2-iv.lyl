@@ -27,7 +27,7 @@ R2 \\\\
 \stemDown c8 d,\rest d4\rest | %4
 
 \stemUp d4-.\p g-. \\\\
-\stemUp b4\p d \\\\
+\stemUp b4-.\p d-. \\\\
 \stemUp b4-.\p b-. \\\\
 \stemDown g4-.\p g-. | %5
 
