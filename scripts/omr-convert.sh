@@ -11,6 +11,7 @@
 set -euo pipefail
 
 API_BASE="${API_BASE:-http://localhost:7860}"
+# OMR_PROCESSES: JSON list of predict processes; default needs all 7 predictors (incl. ocr/brackets on 12027/12028).
 
 # Parse args
 IMAGE_PATH=""
@@ -82,7 +83,7 @@ esac
 # Use predict/pages endpoint with empty sources (let STARRY auto-detect layout)
 PREDICT_RES=$(curl -sf -X POST "$API_BASE/api/predict/pages/$SCORE_ID" \
 	-F "sources=[]" \
-	-F 'processes=["gauge","semantic","mask","brackets","text"]' \
+	-F "processes=${OMR_PROCESSES:-[\"gauge\",\"semantic\",\"mask\",\"brackets\",\"text\"]}" \
 	-F "page0=@$IMAGE_PATH;type=$CT")
 
 TASK_ID=$(echo "$PREDICT_RES" | python3 -c "import json,sys; print(json.load(sys.stdin)['task_id'])")

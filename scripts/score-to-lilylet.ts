@@ -1,11 +1,11 @@
 import * as fs from 'fs';
 import { createRequire } from 'module';
-import { encode } from '../../starry/src/utils/lilyletEncoder';
-import { serializeLilyletDoc } from '../../starry/src/utils/lilyletSerializer';
-
-// Use CJS require for starry (avoids ESM barrel re-export issues)
+// Use CJS require for starry: its package has no "type": "module", so ESM named
+// imports of its .ts files fail ("does not provide an export named ...").
 const require = createRequire(import.meta.url);
 const starry = require('../../starry/src/starry/index');
+const { encode } = require('../../starry/src/utils/lilyletEncoder');
+const { serializeLilyletDoc } = require('../../starry/src/utils/lilyletSerializer');
 
 const jsonPath = process.argv[2];
 if (!jsonPath) {
