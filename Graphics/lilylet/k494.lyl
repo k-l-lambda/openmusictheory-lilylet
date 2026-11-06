@@ -1,3 +1,7 @@
+[title "Rondo in F major, K. 494"]
+[composer "Wolfgang Amadeus Mozart"]
+[staves "{-}"]
+
 \staff "1" \key f \major \time 2/2 \tempo "Allegretto" \clef "treble" \ottava #0 \stemDown f'2\p a \\
 \staff "2" \clef "treble" \ottava #0 \stemUp a'4( \stemDown c \stemUp f, \stemDown c') | %1
 

@@ -1,4 +1,8 @@
-\staff "1" \key c \major \time 2/4 \tempo "Allegretto grazioso" \clef "treble" \ottava #0 \stemDown g''8 \\
+[title "Piano Sonata in C major, K. 309, III"]
+[composer "Wolfgang Amadeus Mozart"]
+[staves "{-}"]
+
+\staff "1" \key c \major \time 2/4 \partial 8 \tempo "Allegretto grazioso" \clef "treble" \ottava #0 \stemDown g''8 \\
 \staff "2" \clef "bass" \ottava #0 d,8\rest | %1
 
 \staff "1" \stemDown e'8)[ d16 c] c8[ c] \\
@@ -57,5 +61,5 @@
 \staff "2" \clef "bass" s8 \stemDown f, g4 \\
 \staff "2" \stemUp <c g'>8 d e[ d] | %19
 
-\staff "1" \stemDown c'8 \\
+\staff "1" \partial 8 \stemDown c'8 \\
 \staff "2" \stemDown c8 | %20

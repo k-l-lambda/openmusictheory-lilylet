@@ -1,3 +1,7 @@
+[title "Piano Sonata in C major, Op. 2 No. 3, I"]
+[composer "Ludwig van Beethoven"]
+[staves "{-}"]
+
 \staff "1" \key c \major \time 4/4 \tempo "Allegro con brio" \clef "treble" \ottava #0 \stemUp <c e>2\p <b d>16([ <c e> <b d> <c e>)] <d f>8-.[ <c e>-.] \\
 \staff "2" \clef "bass" \ottava #0 <c, g'>1 | %1
 

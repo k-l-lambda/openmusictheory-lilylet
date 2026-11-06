@@ -1,3 +1,7 @@
+[title "Symphony No. 40 in G minor, K. 550, I"]
+[composer "Wolfgang Amadeus Mozart"]
+[staves "{-}"]
+
 \staff "1" \key bf \major \time 4/4 \tempo "Allegro molto" \clef "treble" \ottava #0 bf'2\rest bf4\rest \stemDown ef8(\p[ d] \\
 \staff "2" \clef "bass" \ottava #0 \stemDown g4 g,\rest g2\rest \\
 \staff "2" \ottava #0 \stemUp bf8[ d bf d] bf[ d bf d] | %1
@@ -73,6 +77,6 @@
 \staff "2" \stemDown d,4 d d d \\
 \staff "2" \stemUp <fs, a d>4) <g bf>( <fs a d>) <g bf>( | %18
 
-\staff "1" \stemDown <d' d'>2) \\
+\staff "1" \partial 2 \stemDown <d' d'>2) \\
 \staff "2" \stemDown d,2 \\
 \staff "2" \stemUp <fs, a d>2) | %19

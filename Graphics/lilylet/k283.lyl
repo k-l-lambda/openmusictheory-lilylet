@@ -1,4 +1,8 @@
-\staff "1" \key g \major \time 3/4 \tempo "Allegro" \clef "treble" \ottava #0 \stemDown d'8.(\p[ b16)] \\
+[title "Piano Sonata in G major, K. 283, I"]
+[composer "Wolfgang Amadeus Mozart"]
+[staves "{-}"]
+
+\staff "1" \key g \major \time 3/4 \partial 4 \tempo "Allegro" \clef "treble" \ottava #0 \stemDown d'8.(\p[ b16)] \\
 \staff "2" \clef "bass" \ottava #0 d,4\rest | %1
 
 \staff "1" \stemDown d'4 b\rest \stemUp g( \\
