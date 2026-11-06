@@ -4,7 +4,8 @@
   "scripts": {
     "score-to-lilylet": "tsx scripts/score-to-lilylet.ts",
     "comparison": "vite --config comparison/vite.config.ts",
-    "build:comparison": "vite build --config comparison/vite.config.ts"
+    "build:comparison": "vite build --config comparison/vite.config.ts",
+    "omr-review": "node omr-review/build.mjs"
   },
   "devDependencies": {
     "tsx": "^4",
