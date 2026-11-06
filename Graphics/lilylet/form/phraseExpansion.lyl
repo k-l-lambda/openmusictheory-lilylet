@@ -1,0 +1,98 @@
+[title "Piano Sonata in C major, K. 309, III: Rondo (phrase expansion)"]
+[composer "Wolfgang Amadeus Mozart"]
+[staves "{-}"]
+
+\staff "1" \key c \major \time 2/4 \partial 8 \tempo "Allegretto grazioso" \clef "treble" g''8\mf \\
+\staff "2" \clef "bass" r8 \clef "treble" | %1
+
+\staff "1" f'16([ e d c)] c8[ c] \\
+\staff "2" c16[_\markup "legato" e g e] c[ e g e] | %2
+
+\staff "1" c'4. c'8 \\
+\staff "2" c16[ e g e] c[ e g e] | %3
+
+\staff "1" c''16([ a g f)] f8[ f] \\
+\staff "2" c16[ f a f] c[ f a f] | %4
+
+\staff "1" f'4. a8 \\
+\staff "2" c16[ f a f] c[ f a f] | %5
+
+\staff "1" a''16([ g f e)] e8([ g)] \\
+\staff "2" c16[ e g e] c[ e g e] | %6
+
+\staff "1" g''16([ f e d)] d8([ f)] \\
+\staff "2" b16[ d g d] b[ d g d] | %7
+
+\staff "1" f'16([ e d c)] b8-.[ c-.] \\
+\staff "2" c8 <e g>([ <d f> <c e>)] | %8
+
+\staff "1" e'4( d8)[ g] \\
+\staff "2" <g c>4( <g b>8) r | %9
+
+\staff "1" f'16([ e d c)] c8[ c] \\
+\staff "2" c16[_\markup "legato" e g e] c[ e g e] | %10
+
+\staff "1" \grace { b'32[( c d] } c4.) c'8 \\
+\staff "2" c16[ e g e] c[ e g e] | %11
+
+\staff "1" c''16([ a g f)] f8[ f] \\
+\staff "2" c16[ f a f] c[ f a f] | %12
+
+\staff "1" \grace { e'32[( f g] } f4.) a8 \\
+\staff "2" c16[ f a f] c[ f a f] | %13
+
+\staff "1" a''16([ g f e)] e8([ g)] \\
+\staff "2" c16[ e g e] cs[ e a e] | %14
+
+\staff "1" g''16([ f e d)] d8([ f)] \\
+\staff "2" d16[ f a f] b,[ d g d] | %15
+
+\staff "1" f'16([ e f d)] c8([ b\trill] \grace { a16[ b] } \\
+\staff "2" \stemUp <c! g'>8 \clef "bass" d[ e d] \clef "treble" \\
+\staff "2" \stemDown s8 f,8 g4 | %16
+
+\staff "1" a''16([ g f e)] e([ cs a) g-.] \\
+\staff "2" c16[( e g e] cs[ e a e] | %17
+
+\staff "1" g''16([ f e d)] f([ d b) f-.] \\
+\staff "2" d16[ f a f] b,[ d g d)] | %18
+
+\staff "1" f'16([ e a f] e[ g f d)] \\
+\staff "2" \stemUp <c! g'>8 \clef "bass" d[ c b] \\
+\staff "2" \stemDown s8 f,8 g4 | %19
+
+\staff "1" c'8 r \stemUp c,16(\f[ e g c)] \\
+\staff "2" c8 <g, g'>[ <e e'> <a, a'>] | %20
+
+\staff "1" \stemUp c'4 e16([ d c d)] \\
+\staff "1" \stemDown e4 f \\
+\staff "2" <g, g'>8 g'[ g g] | %21
+
+\staff "1" \stemUp c'8 r <c, e>16[ <e g> <g c> <c e>] \\
+\staff "1" \stemDown e8 s4. \\
+\staff "2" c8 <g, g'>[ <e e'> <a, a'>] | %22
+
+\staff "1" <c' e>4 <e g>16([ <d f> <c e> <d f>)] \\
+\staff "2" <g, g'>8 g'[ g g] | %23
+
+\staff "1" <c' e>8 r c16([ e g c)] \\
+\staff "2" c8 <g, g'>[ <e e'> <a, a'>] | %24
+
+\staff "1" gs''8(_\markup "dim." [ a16)] r fs8([ g16)] r \\
+\staff "2" \stemUp c2 \\
+\staff "2" \stemDown f,4( e) | %25
+
+\staff "1" e'8([ f16)] r ds8([ e16)] r \\
+\staff "2" \stemUp c2 \\
+\staff "2" \stemDown a4( g) | %26
+
+\staff "1" cs'16([ d f a] g[ f e d)] \\
+\staff "2" <f, a>4 r8 <f d'>8-- | %27
+
+\staff "1" c'8([ b)] c,16(\f[ e g c)] \\
+\staff "2" \stemUp c8--[ b] s4 \\
+\staff "2" \stemDown g4 r | %28
+
+\staff "1" \stemUp c'4 e16([ d c d)] \\
+\staff "1" \stemDown e4 f \\
+\staff "2" g,16([ c e g)] g8[ g] | %29

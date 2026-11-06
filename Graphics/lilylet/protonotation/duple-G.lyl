@@ -1,0 +1,9 @@
+[title "Protonotation example 1: bass clef, tonic G, bottom number 8"]
+
+\key g \major \time 6/8 \clef "bass" \stemUp g,4. fs | %1
+
+\stemUp g,8 d'\rest a b d\rest c | %2
+
+\stemDown d,4. d\rest | %3
+
+\stemUp g,2. \bar "|." | %4

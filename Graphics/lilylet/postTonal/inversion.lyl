@@ -1,0 +1,15 @@
+[title "Debussy, La cathédrale engloutie, mm. 28–30"]
+[composer "Claude Debussy"]
+[staves "{-}"]
+
+\staff "1" \key c \major \time 6/4 \clef "treble" ^\markup "[28]" r2 <c e g c>2\ff^\markup "C, D, G = {0, 2, 7}"( <d f a d>2 \\
+\staff "2" \clef "bass" r2 <g, c e g>2( <a d f a>2 \\
+\staff "2" c,,1.~_\markup "coll'8" | %1
+
+\staff "1" <g' b d g>2.^\markup "T₄I →" <f a c f>4 <e g b e>4 <d f a d>4 \\
+\staff "2" <d, g b d>2. <c f a c>4 <b e g b>4 <a d f a>4 \\
+\staff "2" c,,1.~ | %2
+
+\staff "1" <d f a d>2^\markup "A, D, E = {9, 2, 4}" <a c e a>2 <e' g b e>2) \\
+\staff "2" <a, d f a>2 <e a c e>2 <b' e g b>2) \\
+\staff "2" c,,1. \bar "|" | %3

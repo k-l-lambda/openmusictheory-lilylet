@@ -1,0 +1,35 @@
+[title "Sonata exposition in D major: medial caesura"]
+[staves "{-}"]
+
+\staff "1" \key d \major \time 4/4 \clef "treble" \stemDown fs'16([ d' fs, d'] fs,[ d' fs, d'] fs,[ d' fs, d'] fs,[ d' fs, d'] \\
+\staff "2" \clef "bass" \stemDown <a, a'>4 <d d'> <c c'> <a a'> | %1
+
+\staff "1" \stemDown g''16[ d' g, d'] g,[ d' g, d'] g,[ d' g, d'] g,[ d' g, d')] \\
+\staff "2" \stemDown <b, b'>4 <g' g'> <d d'> <b b'> | %2
+
+\staff "1" \stemDown <d' gs>16([ d' <d, gs> d'] <d, gs>[ d' <d, gs> d'] <d, gs>[ d' <d, gs> d'] <d, gs>[ d' <d, gs> d')] \\
+\staff "2" \stemDown <bf, bf'>4 <f' f'> <d d'> <bf bf'> \clef "treble" | %3
+
+\staff "1" \stemDown <e' a cs>4 b8\rest a'-. g!-.[ fs-. e-. d-.] \\
+\staff "2" \stemUp a16_\markup "legato"[ a' gs a] b[ a fs a] e[ a d, a'] cs,[ a' b, a'] | %4
+
+\staff "1" \stemDown cs'8-.[ d-. e-. fs-.] a16([ g fs e] g[ fs e d] \\
+\staff "2" \stemUp a16[ a' b, a'] cs,[ a' d, a'] e[ a cs, a'] d,[ a' b, a'] | %5
+
+\staff "1" \stemDown <cs' e a>4) b8\rest a'-. g-.[ fs-. e-. d-.] \\
+\staff "2" \stemUp a16[ a' gs a] b[ a fs a] e[ a d, a'] cs,[ a' b, a'] | %6
+
+\staff "1" \stemDown cs'8-.[ d-. e-. fs-.] a16([ g fs e] g[ fs e d] \\
+\staff "2" \stemUp a16[ a' b, a'] cs,[ a' d, a'] e[ a cs, a'] d,[ a' b, a'] | %7
+
+\staff "1" \stemDown <cs' e a>4) e16([ cs e cs] \stemUp a4) b\rest \\
+\staff "2" \stemUp a4 <a cs e> <a cs e> b'\rest | %8
+
+\staff "1" \stemDown e'4\p a8([ gs] cs[ a gs fs)] \\
+\staff "2" R1 | %9
+
+\staff "1" \stemDown fs'8(\prall[ e)] e4. e16(\prall[ ds] e8)-.[ fs] \\
+\staff "2" \stemUp <gs' b>8[ <gs b> <gs b> <gs b>] <gs b>[ <gs b> <gs b> <gs b>] | %10
+
+\staff "1" \stemDown e'8( d!4 fs8) d( cs4 e8) \\
+\staff "2" \stemUp <fs a>8[ <fs a> <fs a> <fs a>] <e gs>[ <e gs> <e gs> <e gs>] | %11

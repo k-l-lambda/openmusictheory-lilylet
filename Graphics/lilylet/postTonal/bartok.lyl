@@ -1,0 +1,32 @@
+[title "Bartók, Music for Strings, Percussion and Celesta, I (excerpt)"]
+[composer "Béla Bartók"]
+[staves "<v1-v2-va-vc-cb>"]
+[instrument-v1 "1. Vl."]
+[instrument-v2 "2. Vl."]
+[instrument-va "1. Vle."]
+[instrument-vc "1. Vlc."]
+[instrument-cb "1. Cb."]
+
+\key c \major \time 2/4 \clef "treble" r4 r8 e''8-.\f \\\\
+\clef "treble" R2 \\\\
+\clef "alto" R2 \\\\
+\clef "bass" R2 \\\\
+\clef "bass" R2 | %1
+
+b''2~( \\\\
+r4 r8 gs''8-.\f \\\\
+R2 \\\\
+r8 c,8-.\f f4~( \\\\
+r8 c,8-.\f f4~( | %2
+
+b''4. as8) \\\\
+ds'2~( \\\\
+r8 gs8-.\f cs4~( \\\\
+f,2 \\\\
+f,2 | %3
+
+^\markup "[50]" R2 \\\\
+ds'8[ d!8)] r4 \\\\
+cs8[ d8)] r4 \\\\
+fs,4) r4 \\\\
+fs,4) r4 | %4

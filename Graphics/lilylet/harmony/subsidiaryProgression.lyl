@@ -1,0 +1,29 @@
+[title "Subsidiary progression"]
+[staves "{-}"]
+
+\staff "1" \key ef \major \numericTimeSignature \time 2/2 \clef "treble" \stemUp g''2 af \\
+\staff "1" \stemDown <c' ef>2 <c f> \\
+\staff "2" \clef "bass" c,2 f
+\addlyrics { i iv }
+\addlyrics { T — } | %1
+
+\staff "1" \stemUp g''2 g \\
+\staff "1" \stemDown <b'! d>2 c
+\addlyrics { 4̶ _ }
+\addlyrics { 2 6 } \\
+\staff "2" f,2 ef
+\addlyrics { V i }
+\addlyrics { — — } | %2
+
+\staff "1" \stemUp f'4 ef d2 \\
+\staff "1" \stemDown <af' c>2 <g b!>
+\addlyrics { _ _ }
+\addlyrics { _ ♮ } \\
+\staff "2" f,2 g
+\addlyrics { iv V }
+\addlyrics { S D } | %3
+
+\staff "1" <ef g c>1 \bar "|." \\
+\staff "2" c,1 \bar "|."
+\addlyrics { i }
+\addlyrics { T } | %4

@@ -1,0 +1,9 @@
+[title "Protonotation demo melody in staff notation"]
+
+\key d \major \numericTimeSignature \time 4/4 \clef "treble" \stemUp a'2 d, | %1
+
+\stemUp a'4 g fs2 | %2
+
+\stemDown d'4 cs8[ b] \stemUp a2 | %3
+
+\stemUp g'4 fs8[ e] d2 \bar "|." | %4

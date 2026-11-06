@@ -1,0 +1,40 @@
+[title "Haydn, Piano Sonata Hob. XVI:21, I, mm. 1–7"]
+[composer "Joseph Haydn"]
+[staves "{-}"]
+
+\staff "1" \key c \major \time 2/4 \partial 8 \clef "treble" \stemDown c'16.(-1\mf[ e32] \\
+\staff "2" \clef "bass" r8 | %1
+
+\staff "1" \stemDown g''16.)-4[ e32-1( c'8~] c16.[ b32 a16. g32)] \\
+\staff "2" r8 c,8([ c')-1 e-.-2]
+\addlyrics { _ I }
+\addlyrics { _ T }
+\addlyrics { _ T } | %2
+
+\staff "1" \stemDown g''4(-3 f16.)-4\prall[ e32( d16.\prall c32)] \\
+\staff "2" \stemDown d8(-1[ d, d') f-.-2]
+\addlyrics { ii }
+\addlyrics { S }
+\addlyrics { — } | %3
+
+\staff "1" \stemDown c'4(-1 b16.)-3\prall[ a'32(-5 g16. f32] \\
+\staff "2" \stemDown g'8([ g,)] r8 b-2
+\addlyrics { V }
+\addlyrics { D }
+\addlyrics { — } | %4
+
+\staff "1" \stemDown f'4)-3\turn e16.[ g32(-5 c,16. e32-4] \\
+\staff "2" \stemDown c8([ c,)] r8 e-.-2
+\addlyrics { I }
+\addlyrics { T }
+\addlyrics { — } | %5
+
+\staff "1" \stemDown a'16.)[ cs32-2 d16.-2\mordent f32] e16.([ g32-5 b,16.-1 d32] \\
+\staff "2" \stemUp f,8([ f,)] r8 \stemDown <g' f'>8
+\addlyrics { ii _ V }
+\addlyrics { S _ D } | %6
+
+\staff "1" \partial 4. \stemDown c'!4)-1-! r8 \\
+\staff "2" r16. c,32([ e16. g32] c8)-!
+\addlyrics { _ _ I }
+\addlyrics { _ _ T } | %7

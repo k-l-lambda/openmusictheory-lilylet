@@ -1,0 +1,34 @@
+[title "Functional bass: functions"]
+[staves "{-}"]
+
+\staff "1" \key bf \major \numericTimeSignature \time 2/2 \clef "treble" \stemUp d'2 c \\
+\staff "1" \stemDown <f bf>2 <f a>
+\addlyrics { _ _ }
+\addlyrics { _ 4 }
+\addlyrics { _ 2 } \\
+\staff "2" \clef "bass" bf,2 ef
+\addlyrics { T1 D4 }
+\addlyrics { T — } | %1
+
+\staff "1" \stemUp bf'2 bf \\
+\staff "1" \stemDown <f bf>2 ef
+\addlyrics { _ _ }
+\addlyrics { _ _ }
+\addlyrics { 6 6 } \\
+\staff "2" d,2 g
+\addlyrics { T3 S6 }
+\addlyrics { — S } | %2
+
+\staff "1" \stemUp bf'2 a \\
+\staff "1" \stemDown <d f>2 <c ef>
+\addlyrics { 8 7 }
+\addlyrics { 6 5 }
+\addlyrics { 4 3 } \\
+\staff "2" f,2 f,
+\addlyrics { D5 — }
+\addlyrics { D — } | %3
+
+\staff "1" <bf d bf'>1 \bar "|." \\
+\staff "2" bf,1 \bar "|."
+\addlyrics { T1 }
+\addlyrics { T } | %4

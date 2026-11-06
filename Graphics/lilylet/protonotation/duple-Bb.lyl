@@ -1,0 +1,9 @@
+[title "Protonotation example 1: alto clef, tonic B-flat, bottom number 4"]
+
+\key bf \major \time 6/4 \clef "alto" \stemUp bf2. a | %1
+
+\stemUp bf4 c\rest \stemDown c d c\rest ef | %2
+
+\stemDown f2. c\rest | %3
+
+bf1. \bar "|." | %4

@@ -1,0 +1,11 @@
+[title "Bartók, Music for Strings, Percussion and Celesta, I: upper voices"]
+[composer "Béla Bartók"]
+[staves "<v3-v4>"]
+[instrument-v3 "3. Vl."]
+[instrument-v4 "4. Vl."]
+
+\key c \major \time 2/4 \clef "treble" r4 r8 gf''8-.[ \\\\
+\clef "treble" R2 | %1
+
+df'8( c)] r4 \\\\
+r8 e8-.[ a( bf)] | %2

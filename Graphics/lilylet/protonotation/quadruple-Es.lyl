@@ -1,0 +1,9 @@
+[title "Protonotation example 2: treble clef, tonic E-flat, bottom number 4"]
+
+\key ef \major \numericTimeSignature \time 4/4 \clef "treble" \stemUp ef4 bf'\rest f g | %1
+
+\stemDown bf'2 \stemUp af8[ g f ef] | %2
+
+\stemUp bf2 ef4 g | %3
+
+\stemDown bf'8 bf\rest \stemUp g bf\rest ef,2 \bar "|." | %4

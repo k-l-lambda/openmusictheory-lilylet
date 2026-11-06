@@ -1,0 +1,9 @@
+[title "Protonotation example 2: tenor clef, tonic C-sharp, bottom number 8"]
+
+\key cs \major \time 4/8 \clef "tenor" \stemDown cs8 as\rest ds[ es] | %1
+
+\stemDown gs'4 fs16[ es ds cs] | %2
+
+\stemUp gs4 \stemDown cs8[ es] | %3
+
+\stemDown gs'16 as,\rest es' as,\rest cs4 \bar "|." | %4
