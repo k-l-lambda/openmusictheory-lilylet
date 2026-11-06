@@ -15,6 +15,17 @@ import beethoven_18_2 from '../Graphics/lilylet/beethoven_18_2.lyl?raw';
 import beethoven_op30 from '../Graphics/lilylet/beethoven_op30.lyl?raw';
 import op2no3 from '../Graphics/lilylet/op2no3.lyl?raw';
 import Op109iii from '../Graphics/lilylet/Op109-iii.lyl?raw';
+import NAugSixths from '../Graphics/lilylet/N-AugSixths.lyl?raw';
+import et_passingTone from '../Graphics/lilylet/embellishingTones/passingTone.lyl?raw';
+import et_neighborTone from '../Graphics/lilylet/embellishingTones/neighborTone.lyl?raw';
+import et_doubleNeighbor from '../Graphics/lilylet/embellishingTones/doubleNeighbor.lyl?raw';
+import et_INT from '../Graphics/lilylet/embellishingTones/INT.lyl?raw';
+import et_appoggiatura from '../Graphics/lilylet/embellishingTones/appoggiatura.lyl?raw';
+import et_escapeTone from '../Graphics/lilylet/embellishingTones/escapeTone.lyl?raw';
+import et_anticipation from '../Graphics/lilylet/embellishingTones/anticipation.lyl?raw';
+import et_suspension from '../Graphics/lilylet/embellishingTones/suspension.lyl?raw';
+import et_retardation from '../Graphics/lilylet/embellishingTones/retardation.lyl?raw';
+import et_syncopatedNote from '../Graphics/lilylet/embellishingTones/syncopatedNote.lyl?raw';
 
 // Import images as Vite assets (resolves to correct URLs)
 import img_k283 from '../Graphics/form/k283.png';
@@ -33,6 +44,17 @@ import img_op2no3 from '../Graphics/form/op2no3.png';
 import img_Op109iii from '../Graphics/Op109-iii.png';
 import img_Op119_1 from '../Graphics/Op119-1.png';
 import img_DMUDB from '../Graphics/DMUDB.png';
+import img_NAugSixths from '../Graphics/N-AugSixths.png';
+import img_et_passingTone from '../Graphics/embellishingTones/passingTone.png';
+import img_et_neighborTone from '../Graphics/embellishingTones/neighborTone.png';
+import img_et_doubleNeighbor from '../Graphics/embellishingTones/doubleNeighbor.png';
+import img_et_INT from '../Graphics/embellishingTones/INT.png';
+import img_et_appoggiatura from '../Graphics/embellishingTones/appoggiatura.png';
+import img_et_escapeTone from '../Graphics/embellishingTones/escapeTone.png';
+import img_et_anticipation from '../Graphics/embellishingTones/anticipation.png';
+import img_et_suspension from '../Graphics/embellishingTones/suspension.png';
+import img_et_retardation from '../Graphics/embellishingTones/retardation.png';
+import img_et_syncopatedNote from '../Graphics/embellishingTones/syncopatedNote.png';
 
 export interface ScoreEntry {
   id: string;
@@ -56,6 +78,17 @@ export const scores: ScoreEntry[] = [
   { id: 'beethoven_op30', title: 'Beethoven Op.30', imagePath: img_beethoven_op30, code: beethoven_op30 },
   { id: 'op2no3', title: 'Beethoven Op.2 No.3', imagePath: img_op2no3, code: op2no3 },
   { id: 'Op109-iii', title: 'Beethoven Op.109 iii', imagePath: img_Op109iii, code: Op109iii },
-  { id: 'Op119-1', title: 'Brahms Op.119 No.1', imagePath: img_Op119_1, code: Op119_1 },
-  { id: 'DMUDB', title: 'DMUDB', imagePath: img_DMUDB, code: DMUDB },
+  { id: 'Op119-1', title: 'Beethoven Op.119 No.1', imagePath: img_Op119_1, code: Op119_1 },
+  { id: 'DMUDB', title: 'Schubert D.795/19', imagePath: img_DMUDB, code: DMUDB },
+  { id: 'N-AugSixths', title: 'Neapolitan & +6 chords', imagePath: img_NAugSixths, code: NAugSixths },
+  { id: 'passingTone', title: 'Passing tone (PT)', imagePath: img_et_passingTone, code: et_passingTone },
+  { id: 'neighborTone', title: 'Neighbor tone (NT)', imagePath: img_et_neighborTone, code: et_neighborTone },
+  { id: 'doubleNeighbor', title: 'Double neighbor (DN)', imagePath: img_et_doubleNeighbor, code: et_doubleNeighbor },
+  { id: 'INT', title: 'Incomplete neighbor (INT)', imagePath: img_et_INT, code: et_INT },
+  { id: 'appoggiatura', title: 'Appoggiatura (APP)', imagePath: img_et_appoggiatura, code: et_appoggiatura },
+  { id: 'escapeTone', title: 'Escape tone (ESC)', imagePath: img_et_escapeTone, code: et_escapeTone },
+  { id: 'anticipation', title: 'Anticipation (ANT)', imagePath: img_et_anticipation, code: et_anticipation },
+  { id: 'suspension', title: 'Suspension (SUS)', imagePath: img_et_suspension, code: et_suspension },
+  { id: 'retardation', title: 'Retardation (RET)', imagePath: img_et_retardation, code: et_retardation },
+  { id: 'syncopatedNote', title: 'Syncopated note (SYN)', imagePath: img_et_syncopatedNote, code: et_syncopatedNote },
 ];

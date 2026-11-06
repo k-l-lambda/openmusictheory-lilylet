@@ -1,0 +1,5 @@
+[title "Neighbor tone (NT)"]
+[staves "{-}"]
+
+\staff "1" \key c \major \time 4/4 \clef "treble" e'4 f^\markup "NT" e2 \\
+\staff "2" \clef "bass" c,1 \bar "|." | %1

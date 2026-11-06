@@ -1,0 +1,5 @@
+[title "Anticipation (ANT)"]
+[staves "{-}"]
+
+\staff "1" \key c \major \time 4/4 \clef "treble" b'4. c8^\markup "ANT" c2 \\
+\staff "2" \clef "bass" g2 c,2 \bar "|." | %1
