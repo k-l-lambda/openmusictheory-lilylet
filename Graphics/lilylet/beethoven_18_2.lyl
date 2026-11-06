@@ -6,24 +6,24 @@
 [instrument-va "Viola" "Va."]
 [instrument-vc "Violoncello" "Vc."]
 
-\key g \major \time 2/4 \tempo "Allegro molto quasi Presto" s2 \\\\
-s2 \\\\
-\clef "alto" s2 \\\\
+\key g \major \time 2/4 \tempo "Allegro molto quasi Presto" R2 \\\\
+R2 \\\\
+\clef "alto" R2 \\\\
 \clef "bass" \ottava #0 \stemDown d,4-.\p g-. | %1
 
-s2 \\\\
-s2 \\\\
-s2 \\\\
+R2 \\\\
+R2 \\\\
+R2 \\\\
 \stemDown b4.( a16[ g)] | %2
 
-s2 \\\\
-s2 \\\\
-s2 \\\\
-\stemDown f,8-.[ g-. a-. b-.] | %3
+R2 \\\\
+R2 \\\\
+R2 \\\\
+\stemDown fs,8-.[ g-. a-. b-.] | %3
 
-s2 \\\\
-s2 \\\\
-s2 \\\\
+R2 \\\\
+R2 \\\\
+R2 \\\\
 \stemDown c8 d,\rest d4\rest | %4
 
 \stemUp d4-.\p g-. \\\\
@@ -34,14 +34,14 @@ s2 \\\\
 \stemDown b'4.( \stemUp a16[ g)] \\\\
 \stemUp g'4.( fs16[ e)] \\\\
 \stemUp g4.( a16[ b)] \\\\
-\stemDown e,4.( f16[ g)] | %6
+\stemDown e,4.( fs16[ g)] | %6
 
 \stemUp fs8-.[ a-. g-. e-.] \\\\
 \stemUp d8-.[ d-. cs-. cs-.] \\\\
-\stemUp a8-.[ f-. e-. g-.] \\\\
+\stemUp a8-.[ fs-. e-. g-.] \\\\
 \stemUp a8-.[ a,-. a-. a-.] | %7
 
 \stemUp d8 b'\rest b4\rest \\\\
 \stemUp d8 b'\rest b4\rest \\\\
-\stemUp f,8 c'\rest c4\rest \\\\
+\stemUp fs,8 c'\rest c4\rest \\\\
 \stemDown d,8 d\rest d4\rest | %8

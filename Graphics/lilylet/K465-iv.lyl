@@ -31,7 +31,12 @@ c4\rest \stemUp g8-.[ g-.] \\\\
 \stemDown c8-.[ c-. d-. d-.] \\\\
 \stemDown a8[ a-. af-. af] | %5
 
-\stemDown g''8([ e] f[ e16 d] \\\\
-\stemDown c'4 d8[ c16 b] \\\\
+\stemDown g''8([ e)] \grace g16 f!8[ e16 d] \\\\
+\stemDown c'4 \grace e16 d8[ c16 b] \\\\
 \stemDown e8([ c)] g'[ g] \\\\
 \stemDown g8[ g g g] | %6
+
+\partial 8 \stemDown c'8 \\\\
+\stemDown c'8 \\\\
+\stemDown e8 \\\\
+\stemUp c,8 | %7

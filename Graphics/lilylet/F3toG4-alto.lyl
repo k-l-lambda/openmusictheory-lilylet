@@ -1,0 +1,4 @@
+[title "F3 to G4 in alto clef"]
+
+\omit Score.TimeSignature \omit Score.BarLine \clef "alto" f,1 g a b c d e f g \undo \omit Score.BarLine \bar "||"
+\addlyrics { F3 G3 A3 B3 C4 D4 E4 F4 G4 } | %1

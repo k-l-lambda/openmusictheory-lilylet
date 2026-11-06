@@ -1,0 +1,30 @@
+[title "Haydn, Piano Sonata in G major, Hob. XVI:27, III (Finale)"]
+[composer "Joseph Haydn"]
+[staves "{-}"]
+
+\staff "1" \key g \major \time 2/4 \partial 8 \tempo "Presto" \clef "treble" \stemUp d8-.\mf \\
+\staff "2" \clef "bass" r8 | %1
+
+\staff "1" \stemDown g'8(-2[ b-4 d) g,-1-.] \\
+\staff "2" \stemDown <g b>4-5 r8 <b d>-. | %2
+
+\staff "1" \stemUp g'4(-3 fs8)[ d-.] \\
+\staff "2" \stemDown <a c>4 r | %3
+
+\staff "1" \stemDown a'8(-2[ c e) <a, c>-3-.] \\
+\staff "2" r4 r8 \stemDown fs,-. | %4
+
+\staff "1" \stemDown <a' c>4(-4 \stemUp <g b>8)-. \stemDown b-1-. \\
+\staff "2" \stemDown g4( \stemUp g,8) r8 \clef "treble" | %5
+
+\staff "1" \stemDown b''8([ g)-4 ds( e)-1] \\
+\staff "2" \stemUp g'4-2 r8 g-. | %6
+
+\staff "1" \stemDown a''8([ fs)-4 cs( d!)-1] \\
+\staff "2" \stemUp fs4 r8 fs-.-4 | %7
+
+\staff "1" \stemDown e'8-3 g4( cs,8)-2 \\
+\staff "2" \stemUp g'4 a \clef "bass" | %8
+
+\staff "1" \partial 4. \stemDown d'4-3\mordent r8 \bar ":|." \\
+\staff "2" \stemDown d4(-1 d,8) \bar ":|." | %9

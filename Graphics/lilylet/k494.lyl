@@ -15,13 +15,13 @@
 \staff "2" c'1 \\
 \staff "2" \stemDown g'4 e f a | %4
 
-\staff "1" \times 2/3 { d'4. e8 f4 } \stemDown g4 \\
-\staff "2" \stemDown bf'4 \stemUp bf, f'~ \\
-\staff "2" s1 \times 2/3 { d4 } \stemDown b4 | %5
+\staff "1" \stemDown d'4. e8 f4 g4 \\
+\staff "2" \stemDown bf'4 \stemUp bf, d f~ \\
+\staff "2" s2. \stemDown b4 | %5
 
 \staff "1" \stemDown c'2(~ c8[ cs d e)] \\
 \staff "2" \stemUp f4 e8[ d] e4 bf'\rest \\
-\staff "2" \stemUp f4 e8[ d] e4 bf'\rest | %6
+\staff "2" \stemDown c2. s4 | %6
 
 \staff "1" \ottava #0 \stemDown f'2 a \\
 \staff "2" \ottava #0 \stemUp a'4( \stemDown c \stemUp f, \stemDown c' | %7

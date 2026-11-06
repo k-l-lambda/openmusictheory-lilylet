@@ -1,0 +1,23 @@
+[title "Bach, Flute Sonata in C major, BWV 1033, II"]
+[composer "Johann Sebastian Bach"]
+[staves "<fl,bc>"]
+
+\key c \major \time 3/4 \tempo "Allegro" \clef "treble" \stemDown c'16[ g a b] c[ b c d] e[ d c e] \\\\
+\key c \major \clef "bass" \stemDown c,8[ g' e g c, g']
+\addlyrics { _ _ 6 } | %1
+
+\stemDown d'16[ c b a] g[ a b c] d[ e f d] \\\\
+\stemDown b,8[ g' d g b, g']
+\addlyrics { 6 _ 6 _ 6 }
+\addlyrics { 5 _ 4 _ 5 }
+\addlyrics { _ _ 3 } | %2
+
+\stemDown e'16[ g, a b] c[ b c d] e[ d c e] \\\\
+\stemDown c,8[ g' e g c, g']
+\addlyrics { 9 _ 6 } | %3
+
+\stemDown d'16[ c b a] \stemUp g4 r \\\\
+\stemDown g,8[ g' f g d f]
+\addlyrics { 4 (3) 6 _ 6 }
+\addlyrics { _ _ 4 _ 4 }
+\addlyrics { _ _ 2 } | %4

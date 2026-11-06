@@ -19,23 +19,22 @@
 \staff "1" s4 \stemUp d'16([ c] b8\rest \stemDown g s \\
 \staff "2" \stemDown g8-. d\rest e-. d\rest \stemUp c-. d\rest | %4
 
-\staff "1" \times 2/3 { a'2 d,4\p } \\
-\staff "1" \stemDown fs2 \\
-\staff "2" \times 2/3 { d,4-. d'-. d,\rest } | %5
+\staff "1" \stemUp a'2 d,4\p \\
+\staff "1" \stemDown fs2 s4 \\
+\staff "2" \stemDown d,4-. d'-. d,\rest | %5
 
-\staff "1" \ottava #0 \stemUp g'2( b8[ gs] \\
+\staff "1" \ottava #0 \stemUp g'2( b8[ gs)] \\
 \staff "2" \ottava #0 s4 \stemUp <g d'>-. <d' fs>-. \\
 \staff "2" \ottava #0 d,4\rest \stemDown b-.\p b-. | %6
 
 \staff "1" \stemUp b'8([ a)] \stemDown c4-. c8([ b)] \\
-\staff "2" \stemUp e4 e8([ s4 d8] \\
+\staff "2" \stemUp e4 s4 e8([ d)] \\
 \staff "2" \stemDown c,4 d\rest c | %7
 
-\staff "1" \stemUp a'4) a8([ g] a[ d,] \\
+\staff "1" \grace b'8( \stemUp a4) a8([ g] a[ d,)] \\
 \staff "2" \stemUp <c fs>2.( \\
 \staff "2" \stemDown d,4-. d-. d-. | %8
 
-\staff "1" \partial 2 \stemUp g'4 s \\
-\staff "1" b'4\rest b\rest \\
-\staff "2" \stemUp <b g'>4) d,\rest \\
-\staff "2" \stemDown g,4-. g'-. | %9
+\staff "1" \stemUp g'4 r r \\
+\staff "2" \stemUp <b g'>4) s2 \\
+\staff "2" \stemDown g,4-. g'-. r | %9

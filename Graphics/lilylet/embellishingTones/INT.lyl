@@ -1,5 +1,5 @@
 [title "Incomplete neighbor (INT)"]
 [staves "{-}"]
 
-\staff "1" \key c \major \time 4/4 \clef "treble" g''4 d^\markup "INT" e2 \\
+\staff "1" \omit Score.TimeSignature \key c \major \clef "treble" g''4 d^\markup "INT" e2 \\
 \staff "2" \clef "bass" c,1 \bar "|." | %1

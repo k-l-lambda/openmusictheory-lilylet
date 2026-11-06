@@ -1,0 +1,8 @@
+[title "D7/V: [S+4] D5 T1"]
+
+\omit Score.TimeSignature \key c \major \clef "bass" fs,,2 g
+\addlyrics { [S+4] D5 }
+\addlyrics { D7/V } | %1
+
+c,1 \bar "||"
+\addlyrics { T1 } | %2

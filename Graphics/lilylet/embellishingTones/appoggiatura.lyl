@@ -1,5 +1,5 @@
 [title "Appoggiatura (APP)"]
 [staves "{-}"]
 
-\staff "1" \key c \major \time 4/4 \clef "treble" g'2 d'8[^\markup "APP" c] f[^\markup "APP" e] \\
+\staff "1" \omit Score.TimeSignature \key c \major \clef "treble" g'2 d'8[^\markup "APP" c] f[^\markup "APP" e] \\
 \staff "2" \clef "bass" b,4( d) c2 \bar "|." | %1

@@ -8,8 +8,11 @@
 \staff "1" \stemDown d'4-. c-. bf-. \\
 \staff "2" \stemDown <bf ef>4 <a d> <g d'> | %2
 
-\staff "1" \stemUp a'4 c\rest \times 4/5 { a8.[ c8 } \\
+\staff "1" \stemUp a'4 c\rest a8.[ c16] \\
 \staff "2" \stemDown <fs, d'>4 ef\rest ef\rest | %3
 
 \staff "1" \stemUp bf'4 a g \\
-\staff "2" \stemDown <g d'>4 <f ef'> <ef cs'> | %4
+\staff "2" \stemDown <g d'>4 <f! d'> <ef cs'> | %4
+
+\staff "1" \partial 2 \stemUp fs4 r4 \\
+\staff "2" \stemDown <d, d'>4 r4 | %5

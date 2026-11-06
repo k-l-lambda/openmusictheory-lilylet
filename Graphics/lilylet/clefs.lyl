@@ -1,0 +1,3 @@
+[title "Clefs: middle C in treble, bass, alto and tenor clef"]
+
+\omit Score.TimeSignature \omit Score.BarLine \clef "treble" c1^\markup "Treble clef" \clef "bass" c^\markup "Bass clef" \clef "alto" c^\markup "Alto clef" \clef "tenor" c^\markup "Tenor clef" | %1

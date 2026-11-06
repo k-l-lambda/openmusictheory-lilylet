@@ -1,5 +1,5 @@
 [title "Double neighbor (DN)"]
 [staves "{-}"]
 
-\staff "1" \key c \major \time 4/4 \clef "treble" e'4 f8[^\markup "DN" d] e2 \\
+\staff "1" \omit Score.TimeSignature \key c \major \clef "treble" e'4 f8[^\markup "DN" d] e2 \\
 \staff "2" \clef "bass" c,1 \bar "|." | %1

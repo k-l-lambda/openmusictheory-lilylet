@@ -1,0 +1,7 @@
+[title "Triads on each scale degree and their functions"]
+[staves "{-}"]
+
+\staff "1" \omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" <e g c>1 <f a d> <g b e> <a c f> <b d g> <c e a> <d f b> \undo \omit Score.BarLine \bar "||" \\
+\staff "2" \clef "bass" c,1 d e f g a b
+\addlyrics { I II III IV V VI VII }
+\addlyrics { T1 S2 T3 S4 D5 Tx6 D7 } | %1
