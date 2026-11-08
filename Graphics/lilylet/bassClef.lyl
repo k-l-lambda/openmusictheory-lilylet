@@ -1,0 +1,3 @@
+[title "Bass clef: middle C"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "bass" c1 | %1

@@ -1,0 +1,3 @@
+[title "Chromatic scale (ascending, sharps)"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" c1 cs d ds e f fs g gs a as b c \undo \omit Score.BarLine \bar "|" | %1

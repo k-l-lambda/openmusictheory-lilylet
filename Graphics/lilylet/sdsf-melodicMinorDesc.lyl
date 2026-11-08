@@ -1,0 +1,6 @@
+[title "D melodic minor, descending: scale degrees and solfège"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" d'1 c bf a g f e d \undo \omit Score.BarLine \bar "|"
+\addlyrics { D5 C5 B♭4 A4 G4 F4 E4 D4 }
+\addlyrics { 8̂/1̂ 7̂ 6̂ 5̂ 4̂ 3̂ 2̂ 1̂ }
+\addlyrics { do te le sol fa me re do } | %1

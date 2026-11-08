@@ -1,0 +1,4 @@
+[title "C4 up to C5 (treble clef)"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" c1 d e f g a b c \undo \omit Score.BarLine \bar "||"
+\addlyrics { C4 D4 E4 F4 G4 A4 B4 C5 } | %1

@@ -1,0 +1,6 @@
+[title "D harmonic minor: scale degrees and solfège"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" d1 e f g a bf cs d \undo \omit Score.BarLine \bar "|."
+\addlyrics { D4 E4 F4 G4 A4 B♭4 C5 D5 }
+\addlyrics { 1̂ 2̂ 3̂ 4̂ 5̂ 6̂ ↑7̂ 8̂/1̂ }
+\addlyrics { do re me fa sol le ti do } | %1

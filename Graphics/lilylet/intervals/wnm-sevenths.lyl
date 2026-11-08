@@ -1,0 +1,3 @@
+[title "White-note sevenths"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" <d c'>1 <e d'> <f e'>^\markup "□" <g f'> <a g'> <b a'> <c b'>^\markup "□" | %1

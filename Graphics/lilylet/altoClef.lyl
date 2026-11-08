@@ -1,0 +1,3 @@
+[title "Alto clef: middle C"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "alto" c1 | %1

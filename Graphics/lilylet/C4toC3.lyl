@@ -1,0 +1,4 @@
+[title "C4 down to C3 (bass clef)"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "bass" c1 b a g f e d c \undo \omit Score.BarLine \bar "||"
+\addlyrics { C4 B3 A3 G3 F3 E3 D3 C3 } | %1
