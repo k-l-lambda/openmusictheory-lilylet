@@ -175,40 +175,74 @@ The following source files contain no score images (only Spotify iframes or text
 - `popRockHarmony-EverettSystem*.md` → everett-tonal-systems.md
 - `popRockForm-*.md` → pop-rock-form.md
 
-## Images Added to AI Guide (Pending Conversion)
+## Score Examples (done 2026-11-08)
 
-The following PNG/SVG images have been referenced in ai-guide files and should be converted to machine-readable formats (MusicXML/Lilylet) for optimal AI usage:
+The images that used to be here as "Pending Conversion" are resolved:
+- **Real compositions** (k283, xv27): now lilylet examples, linked from sentence.md and period.md.
+- **Structural diagrams** (sentence/period/smallBinary/smallTernary .svg): removed where the topic file already has an equivalent ASCII tree. smallBinary and smallTernary now link to real-piece examples (K. 305, K. 284).
+- **Schema box diagrams** (meyer/prinner/monte .png): kept as images, since they aren't staff notation; only the TODOs were removed. Fonte now links to the Haydn XVI:27 example.
 
-### Structural Diagrams
+`examples/` replaces the planned "links to When-in-Rome corpus". It holds 79 examples drawn from the ~180 lilylet transcriptions in `Graphics/lilylet/`. These were selected per principles 1 and 3: basics such as clefs, intervals, scales and key signatures are skipped, and so are exercises (alteredSExamples).
 
-| Image | Description | Type |
-|-------|-------------|------|
-| [sentence.svg](../Graphics/ClassicalThemes/sentence.svg) | Sentence structure diagram | 📊 Diagram |
-| [period.svg](../Graphics/ClassicalThemes/period.svg) | Period structure diagram | 📊 Diagram |
-| [smallBinary.svg](../Graphics/ClassicalThemes/smallBinary.svg) | Binary form diagram | 📊 Diagram |
-| [smallTernary.svg](../Graphics/ClassicalThemes/smallTernary.svg) | Ternary form diagram | 📊 Diagram |
+### Coverage by topic
 
-### Schema Examples
+| Topic | Examples |
+|-------|----------|
+| `01-harmonic-functions/cadences.md` | 11 |
+| `01-harmonic-functions/harmonic-analysis.md` | 4 |
+| `01-harmonic-functions/prolongation.md` | 11 |
+| `01-harmonic-functions/tonic-subdominant-dominant.md` | 6 |
+| `01-harmonic-functions/voice-leading-rules.md` | 12 |
+| `02-chromatic-harmony/applied-chords.md` | 2 |
+| `02-chromatic-harmony/augmented-sixths.md` | 4 |
+| `02-chromatic-harmony/modal-mixture.md` | — |
+| `02-chromatic-harmony/modulation.md` | 1 |
+| `02-chromatic-harmony/neapolitan.md` | 2 |
+| `03-progressions/blues-progressions.md` | — |
+| `03-progressions/classical-progressions.md` | — |
+| `03-progressions/everett-tonal-systems.md` | — |
+| `03-progressions/pop-rock-progressions.md` | — |
+| `04-phrase-structure/compound-themes.md` | 6 |
+| `04-phrase-structure/hybrid-themes.md` | 5 |
+| `04-phrase-structure/period.md` | 3 |
+| `04-phrase-structure/phrase-expansion.md` | 9 |
+| `04-phrase-structure/sentence.md` | 3 |
+| `04-phrase-structure/theme-functions.md` | 9 |
+| `05-formal-schemas/cadential-schemas.md` | — |
+| `05-formal-schemas/continuation-schemas.md` | 3 |
+| `05-formal-schemas/opening-schemas.md` | 1 |
+| `05-formal-schemas/schema-combinations.md` | 14 |
+| `06-large-forms/binary-ternary.md` | 3 |
+| `06-large-forms/pop-rock-form.md` | — |
+| `06-large-forms/rondo-form.md` | — |
+| `06-large-forms/sonata-form.md` | 2 |
+| `07-melodic-elaboration/embellishing-tones.md` | 10 |
+| `08-post-tonal/pitch-class-sets.md` | 4 |
+| `08-post-tonal/twelve-tone.md` | 5 |
 
-| Image | Description | Type |
-|-------|-------------|------|
-| [meyer.png](../Graphics/form/meyer.png) | Meyer schema example | 📝 Teaching |
-| [prinner.png](../Graphics/form/prinner.png) | Prinner schema example | 📝 Teaching |
-| [fonte.png](../Graphics/form/fonte.png) | Fonte schema example | 📝 Teaching |
-| [monte.png](../Graphics/form/monte.png) | Monte schema example | 📝 Teaching |
+### Gaps (no score example yet)
 
-### Real Compositions
+- `02-chromatic-harmony/modal-mixture.md`
+- `03-progressions/blues-progressions.md`
+- `03-progressions/classical-progressions.md`
+- `03-progressions/everett-tonal-systems.md`
+- `03-progressions/pop-rock-progressions.md`
+- `05-formal-schemas/cadential-schemas.md`
+- `06-large-forms/pop-rock-form.md`
+- `06-large-forms/rondo-form.md`
 
-| Image | Description | Type |
-|-------|-------------|------|
-| [k283.png](../Graphics/form/k283.png) | Mozart K. 283 sentence example | 🎼 Real |
-| [xv27.png](../Graphics/form/xv27.png) | Haydn XV:27 period example | 🎼 Real |
+The candidates for filling these are not yet transcribed or not yet used:
+- **voice-leading rules:** taken from KBVL; already linked.
+- **modal mixture:** the When-in-Rome anthology.
+- **pop/rock and blues:** no OMT staff figures.
+- **cadential schemas:** the schemata pages.
+- **rondo:** no figures.
+- **thoroughbass:** BCModel, Bach1033, figuresAbbrev/Chrom/Full and defaultFigures are transcribed but have no topic file.
 
-### Conversion Workflow
+### Maintenance
 
-1. **📊 SVG diagrams** → Parse SVG, recreate in Lilylet notation
-2. **📝 PNG teaching examples** → Recreate from scratch in Lilylet (short examples)
-3. **🎼 Real compositions** → Download MusicXML from IMSLP, convert to Lilylet
+- Example score blocks are generated from `Graphics/lilylet/**` by `examples/sync.mjs`. After editing a source, run `npx tsx ai-guide/examples/sync.mjs`. `--check` fails when a block is out of date or doesn't parse.
+- Add a new example by copying `examples/_template.md`. Then add its id to the topic's `examples:` list and to its Score Examples table.
 
 ## File Template
 

@@ -4,6 +4,7 @@ category: harmonic-functions
 tags: [voice-leading, tendency-tones, dissonance, resolution]
 related: [tonic-subdominant-dominant, cadences]
 difficulty: intermediate
+examples: [05-champagne, 05-d4i, 05-d5dropfifth, 05-d5problem, 05-deceptive, 05-deceptive7, 05-paralleltenths, 05-s4dropthird, 05-s4problem, 05-t1dropfifth, 05-ve63, 05-ve64]
 ---
 
 # Voice-Leading Rules
@@ -133,6 +134,25 @@ ii7 - V: do (1st of S with 2) → ti (resolves down)
 2. **Always** resolve functional dissonances down by step
 3. **Always** prepare dissonances by common tone or step
 4. **Exceptions** for established schemata patterns only
+
+## Score Examples
+
+Transcribed in lilylet (see the [primer](../examples/lilylet-primer.md)); each example says what to look for, bar by bar.
+
+| Example | What it shows |
+|---|---|
+| [Champagne progression: T(1 S6d 3)](../examples/05-formal-schemas/champagne.md) | Gene Biringer's **champagne progression**, T1 S6 T3, harmonising *mi–fa–sol* in the melody |
+| [Voice exchange with D4 substitute: T(1 D4i 3)](../examples/05-formal-schemas/d4i.md) | The voice exchange with a **D4 substitute** (V4/2) in the middle. Per the page, the upper voices are exactly those of the V6/4 version |
+| [Fix 2: leave out the fifth of V7 (doubled bass)](../examples/05-formal-schemas/d5dropfifth.md) | preferred fix for *ti–do* over V7–I: drop the fifth of V7, double the bass, so I can be complete |
+| [V7–I with ti–do in the melody: the problem](../examples/05-formal-schemas/d5problem.md) | problem: *ti–do* in the soprano of V7–I; cannot voice both chords fully and still resolve the seventh |
+| [Deceptive resolution: D5 Tx6](../examples/05-formal-schemas/deceptive.md) | A **deceptive resolution** of V to VI with the voicing the page requires: *ti* still resolves up to *do* |
+| [Deceptive resolution of V7: D5 Tx6](../examples/05-formal-schemas/deceptive7.md) | The deceptive resolution with a **V7**. Same voicing rule: *ti* → *do*, and the seventh resolves down |
+| [Parallel tenths: T(1 D2p 3)](../examples/05-formal-schemas/paralleltenths.md) | *do–re–mi* in the bass against *mi–fa–sol* in the melody: outer voices in **parallel tenths** over a passing **V4/3** |
+| [Fix: leave out the third of S4 (doubled bass)](../examples/05-formal-schemas/s4dropthird.md) | fix: drop *la* from S4 and double the bass, so the seventh of D5 can be prepared |
+| [S4(7)–D5(7): the problem](../examples/05-formal-schemas/s4problem.md) | problem: S4(7)–D5(7) fully voiced; the two sevenths cannot both be prepared and resolved |
+| [Fix 1: leave out the fifth of I (tripled bass)](../examples/05-formal-schemas/t1dropfifth.md) | fix: keep V7 complete, drop the fifth of I (tripled bass) |
+| [Voice exchange with passing VII6: T(1 D2p 3)](../examples/05-formal-schemas/ve63.md) | The same voice exchange as VE64, with a passing **VII6** (figure 6, i.e. 6/3) as the D2 chord |
+| [Voice exchange with passing V6/4: T(1 D2p 3)](../examples/05-formal-schemas/ve64.md) | The outer voices exchange do and mi across a passing **V6/4** |
 
 ## Related Topics
 

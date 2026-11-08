@@ -4,6 +4,7 @@ category: phrase-structure
 tags: [hybrid, sentence, period, compound-basic-idea, caplin]
 related: [sentence, period]
 difficulty: intermediate
+examples: [04-k330-ii-hybrid1, 04-haydn-op64-4-hybrid2, 04-beethoven-op30-2-hybrid3, 04-beethoven-op18-2-hybrid4, 04-k332-compound-period]
 ---
 
 # Hybrid Themes
@@ -147,6 +148,18 @@ Phrase 2: Consequent (BI + CI' → strong cadence)
 | Hybrid 2 | Clear opening + dignified, simple close |
 | Hybrid 3 | Open beginning + driven, developmental close |
 | Hybrid 4 | Open beginning + parallel, satisfying close |
+
+## Score Examples
+
+Scores are in lilylet; see [Reading lilylet score examples](../examples/lilylet-primer.md).
+
+| Example | What it shows |
+|---------|---------------|
+| [Mozart K. 330, II, mm. 1–8](../examples/04-phrase-structure/k330-ii-hybrid1.md) | hybrid 1: antecedent (HC) + continuation (V:PAC) |
+| [Haydn Hob. III:66, II, mm. 1–8](../examples/04-phrase-structure/haydn-op64-4-hybrid2.md) | hybrid 2: antecedent + cadential I6–ii6/5–V–I |
+| [Beethoven Op. 30/2, III, mm. 1–8](../examples/04-phrase-structure/beethoven-op30-2-hybrid3.md) | hybrid 3: CBI (V6 neighbour, no cadence) + continuation |
+| [Beethoven Op. 18/2, IV, mm. 1–8](../examples/04-phrase-structure/beethoven-op18-2-hybrid4.md) | hybrid 4: cello CBI + full-quartet consequent |
+| [Mozart K. 332, I, mm. 41–56](../examples/04-phrase-structure/k332-compound-period.md) | compound period of two hybrid-1 halves; small antecedent as BI |
 
 ## Related Topics
 

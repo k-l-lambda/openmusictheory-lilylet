@@ -4,6 +4,7 @@ category: harmonic-functions
 tags: [analysis, roman-numerals, figured-bass, functional-analysis]
 related: [tonic-subdominant-dominant, cadences, prolongation]
 difficulty: intermediate
+examples: [01-haydn-xvi21-prolongation, 01-k331-reduction, 01-roman-numerals-from-figures, 01-rns-individual-functions]
 ---
 
 # Harmonic Analysis Methods
@@ -215,6 +216,17 @@ Cadence type: PAC
 Based on OMT source files:
 - `harmonicAnalysis.md` - Analysis procedure
 - `RNfromFB.md` - Roman numeral from figured bass
+
+## Score Examples
+
+Transcribed in lilylet (see the [primer](../examples/lilylet-primer.md)); each example says what to look for, bar by bar.
+
+| Example | What it shows |
+|---------|---------------|
+| [Haydn, Hob. XVI:21, I, mm. 1–6](../examples/01-harmonic-functions/haydn-xvi21-prolongation.md) | complete phrase analysis: RNs, functions, T——— zone, cadential progression to PAC (Steps 2–5) |
+| [Mozart K. 331, I, mm. 1–4 + reduction](../examples/01-harmonic-functions/k331-reduction.md) | interpreted analysis: contrapuntal vs. cadential chords; HC |
+| [Roman numerals from figures](../examples/01-harmonic-functions/roman-numerals-from-figures.md) | root from bass + figure (5/3, 7, 6/3, 6/5, 6/4, 4/3, 4/2) (Step 2) |
+| [RNs with individual functions](../examples/01-harmonic-functions/rns-individual-functions.md) | labeling convention: numerals below, figures above, functions below |
 
 ## Related Topics
 

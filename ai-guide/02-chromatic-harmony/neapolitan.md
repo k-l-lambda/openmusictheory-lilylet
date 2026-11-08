@@ -4,6 +4,7 @@ category: chromatic-harmony
 tags: [neapolitan, bII, chromaticism, subdominant]
 related: [augmented-sixths, modal-mixture]
 difficulty: advanced
+examples: [02-schubert-der-muller-und-der-bach, 02-neapolitan-and-augmented-sixths]
 ---
 
 # Neapolitan Chord
@@ -140,6 +141,15 @@ Source: MarkGotham/When-in-Rome (CC BY-SA 4.0)
 3. **Resolves to V** (directly or via cad. 6/4)
 4. **Minor key preferred** - Major key possible but less common
 5. **ra resolves to do (or sol)** - ♭2 moves down to 1 or up to cad. 6/4
+
+## Score Examples
+
+Transcribed in lilylet (see the [primer](../examples/lilylet-primer.md)); each example says what to look for, bar by bar.
+
+| Example | What it shows |
+|---------|---------------|
+| [Schubert, "Der Müller und der Bach"](../examples/02-chromatic-harmony/schubert-der-muller-und-der-bach.md) | i → N.⁶ → V⁷ → i (T S D T) in G minor |
+| [N. and +6 chords in G minor](../examples/02-chromatic-harmony/neapolitan-and-augmented-sixths.md) | N.: *ra fa le* over *fa*, figure ♭6, [S4] |
 
 ## Related Topics
 

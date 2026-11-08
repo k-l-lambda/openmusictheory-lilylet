@@ -4,6 +4,7 @@ category: large-forms
 tags: [sonata, exposition, development, recapitulation, MC, EEC]
 related: [binary-ternary, sentence, cadences]
 difficulty: advanced
+examples: [06-tr-transition, 06-k284-medial-caesura]
 ---
 
 # Sonata Form
@@ -280,6 +281,13 @@ This content synthesizes the Hepokoski/Darcy "sonata theory" framework as presen
 | `sonataFramingModules.md` | Introduction and coda |
 
 **Primary theoretical reference**: Hepokoski, James, and Warren Darcy. *Elements of Sonata Theory*. Oxford University Press, 2006.
+
+## Score Examples
+
+| Example | What it shows |
+|---------|---------------|
+| [Transition and III:HC MC: Beethoven, Op. 49 No. 1, I](../examples/06-large-forms/tr-transition.md) | dissolving TR that begins with P's presentation; III:HC = MC; S in B♭ (dolce) |
+| [Medial caesura: Mozart, K. 284, I](../examples/06-large-forms/k284-medial-caesura.md) | I:HC, standing on the dominant (dominant lock), MC with three hammer blows and a one-beat silence |
 
 ## Related Topics
 

@@ -3,6 +3,7 @@ title: Twelve-Tone Technique
 category: post-tonal
 tags: [twelve-tone, serialism, row, matrix]
 related: [pitch-class-sets]
+examples: [08-op27-row, 08-op27-row-family, 08-op27-row-operations, 08-op28-derived-row, 08-op28-invariance]
 difficulty: advanced
 ---
 
@@ -242,6 +243,18 @@ Based on Open Music Theory materials:
 - `twelveToneBasics.md` - Row fundamentals, P/I/R/RI forms
 - `twelveToneIntervallicStructure.md` - Interval relationships between forms
 - `twelveToneOperations.md` - Transformational operations
+
+## Score Examples
+
+Rows and row forms from the source pages, transcribed into [lilylet](../examples/lilylet-primer.md) and checked by pc arithmetic:
+
+| Example | What it shows |
+|---------|---------------|
+| [Webern Op. 27 row P11](../examples/08-post-tonal/op27-row.md) | a row in prime form, pcs and OPCIs |
+| [Op. 27 row family](../examples/08-post-tonal/op27-row-family.md) | P11/R11 and I0/RI0 from two written rows; I0 = T11I(P11) |
+| [Op. 27 row operations](../examples/08-post-tonal/op27-row-operations.md) | T11 → P10, R → R10, T10I(P10) → I0, R → RI0, with OPCIs |
+| [Webern Op. 28 derived row P7](../examples/08-post-tonal/op28-derived-row.md) | tetrachordally derived by (0123), dyads (01) |
+| [Op. 28 invariance under T8](../examples/08-post-tonal/op28-invariance.md) | discrete (0123) tetrachords held invariant between P7 and P3 |
 
 ## Related Topics
 

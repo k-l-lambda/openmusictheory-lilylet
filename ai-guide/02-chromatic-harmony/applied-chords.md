@@ -4,6 +4,7 @@ category: chromatic-harmony
 tags: [secondary-dominant, tonicization, chromaticism, V-of]
 related: [modal-mixture, modulation]
 difficulty: intermediate
+examples: [02-d7-of-v, 02-applied-chord-bass-line]
 ---
 
 # Applied Chords (Secondary Dominants)
@@ -177,6 +178,15 @@ Use **Layer 2** to determine functional dissonances:
 2. **Target must be major or minor triad** (no V/vii°)
 3. **Raised tones resolve UP**
 4. **Still functions within home key** (altered S, D, or T)
+
+## Score Examples
+
+Transcribed in lilylet (see the [primer](../examples/lilylet-primer.md)); each example says what to look for, bar by bar.
+
+| Example | What it shows |
+|---------|---------------|
+| [D7/V: [S+4] D5 T1](../examples/02-chromatic-harmony/d7-of-v.md) | the page's F♯dim–G–C example with two-layer functional bass |
+| [Applied chords in a bass line](../examples/02-chromatic-harmony/applied-chord-bass-line.md) | chromatic rising bass: D7/II, D7/III, D5/V |
 
 ## Related Topics
 

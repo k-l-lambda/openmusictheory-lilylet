@@ -4,6 +4,7 @@ category: harmonic-functions
 tags: [cadence, PAC, IAC, HC, phrase-ending, closure]
 related: [prolongation, phrase-structure]
 difficulty: foundational
+examples: [01-cadential64, 01-cadential64-full, 01-cadential64-7th, 01-compound43, 01-compound43-full, 01-double-cadence, 05-d5dropfifth, 05-d5problem, 05-deceptive, 05-deceptive7, 05-t1dropfifth]
 ---
 
 # Cadences
@@ -131,6 +132,24 @@ V5/3 → V6/4 → V5/4 → V5/3 → I
 3. **PAC requirements:**
    - Both V and I in root position
    - Melody arrives on do
+
+## Score Examples
+
+Transcribed in lilylet (see the [primer](../examples/lilylet-primer.md)); each example says what to look for, bar by bar.
+
+| Example | What it shows |
+|---------|---------------|
+| [Cadential six-four](../examples/01-harmonic-functions/cadential64.md) | 6/4–5/3 over a repeated *sol*: the 6 and 4 resolve down as suspensions; PAC |
+| [Cadential six-four, full figures](../examples/01-harmonic-functions/cadential64-full.md) | 8/6/4–8/5/3, bass *sol* doubled |
+| [Cadential six-four to V7](../examples/01-harmonic-functions/cadential64-7th.md) | 8/6/4–7/5/3: the doubling voice moves to the seventh |
+| [Compound cadence, 4–3](../examples/01-harmonic-functions/compound43.md) | *do*–*ti* suspension over *sol*, fifth and octave sustained |
+| [Compound cadence, full figures](../examples/01-harmonic-functions/compound43-full.md) | 8/5/4–8/5/3 (figure vs. top note in the source is an open question) |
+| [Double cadence](../examples/01-harmonic-functions/double-cadence.md) | 5/3–6/4–5/4–5/3 over a held *sol*; galant PAC formula |
+| [Fix 2: leave out the fifth of V7 (doubled bass)](../examples/05-formal-schemas/d5dropfifth.md) | preferred fix for *ti–do* over V7–I: drop the fifth of V7, double the bass, so I can be complete |
+| [V7–I with ti–do in the melody: the problem](../examples/05-formal-schemas/d5problem.md) | problem: *ti–do* in the soprano of V7–I; cannot voice both chords fully and still resolve the seventh |
+| [Deceptive resolution: D5 Tx6](../examples/05-formal-schemas/deceptive.md) | A **deceptive resolution** of V to VI with the voicing the page requires: *ti* still resolves up to *do* |
+| [Deceptive resolution of V7: D5 Tx6](../examples/05-formal-schemas/deceptive7.md) | The deceptive resolution with a **V7**. Same voicing rule: *ti* → *do*, and the seventh resolves down |
+| [Fix 1: leave out the fifth of I (tripled bass)](../examples/05-formal-schemas/t1dropfifth.md) | fix: keep V7 complete, drop the fifth of I (tripled bass) |
 
 ## Related Topics
 

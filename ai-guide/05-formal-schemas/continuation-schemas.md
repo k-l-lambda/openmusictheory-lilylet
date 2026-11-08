@@ -4,6 +4,7 @@ category: formal-schemas
 tags: [schema, galant, continuation, prinner, fonte, monte, ponte]
 related: [opening-schemas, cadential-schemas, sentence]
 difficulty: intermediate
+examples: [05-haydn27fonte, 05-haydnxvi27, 06-k284-small-ternary]
 ---
 
 # Continuation Schemas
@@ -17,7 +18,6 @@ Continuation schemas are melodic-harmonic patterns used after opening gambits, t
 The Prinner is the quintessential response to an opening schema, functioning as a closing gesture.
 
 ![Prinner schema diagram](../../Graphics/form/prinner.png)
-<!-- TODO: Convert to lilylet format -->
 
 | Stage | 1 | 2 | 3 | 4 |
 |-------|---|---|---|---|
@@ -88,8 +88,7 @@ First two stages of a Prinner, often elided to make room for a cadence.
 
 A **model-sequence** schema that descends by step. Italian for "fountain" (going down).
 
-![Fonte schema diagram](../../Graphics/form/fonte.png)
-<!-- TODO: Convert to lilylet format -->
+Score example: [Haydn, Hob. XVI:27, III](../examples/05-formal-schemas/haydn27fonte.md): model D7–T1 in A minor, sequence D7–T1 in G, right after the double bar.
 
 **Structure**: 2-bar model + 2-bar sequence (one step lower)
 
@@ -122,7 +121,6 @@ A **model-sequence** schema that descends by step. Italian for "fountain" (going
 A **model-sequence** schema that ascends by step. Italian for "mountain" (going up).
 
 ![Monte schema diagram](../../Graphics/form/monte.png)
-<!-- TODO: Convert to lilylet format -->
 
 **Structure**: 2-bar model + 2-bar (or more) sequence (one step higher)
 
@@ -205,6 +203,14 @@ Based on Robert Gjerdingen's galant schemata as presented in OMT:
 | `schemataSummary.md` | Schema overview and catalog |
 
 **Primary theoretical reference**: Gjerdingen, Robert. *Music in the Galant Style*. Oxford University Press, 2007.
+
+## Score Examples
+
+| Example | What it shows |
+|---------|---------------|
+| [Fonte: Haydn, Hob. XVI:27, III](../examples/05-formal-schemas/haydn27fonte.md) | Fonte after the double bar: E7→Am (ii), then D7→G (I), labelled D7 T1 |
+| [Meyer + modulating Passo Indietro: Haydn, Hob. XVI:27, III](../examples/05-formal-schemas/haydnxvi27.md) | modulating Passo Indietro (mm. 5–6) in a sentence's continuation, then II6–V7–I in V |
+| [Small ternary: Mozart, K. 284, III](../examples/06-large-forms/k284-small-ternary.md) | compressed Fonte (two half-bar units) opening a contrasting middle |
 
 ## Related Topics
 

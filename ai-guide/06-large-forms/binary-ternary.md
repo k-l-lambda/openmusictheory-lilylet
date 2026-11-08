@@ -4,6 +4,7 @@ category: large-forms
 tags: [binary, ternary, rounded-binary, minuet, form]
 related: [sentence, period, sonata-form]
 difficulty: intermediate
+examples: [06-k305-small-binary, 06-k284-small-ternary, 05-haydn27fonte]
 ---
 
 # Binary and Ternary Forms
@@ -16,8 +17,7 @@ Binary and ternary forms are two- and three-part structures used as standalone t
 
 Two-part form without recapitulation of first-part material.
 
-![Small binary form diagram](../../Graphics/ClassicalThemes/smallBinary.svg)
-<!-- TODO: Convert to lilylet format -->
+Score example: [Mozart, K. 305, II](../examples/06-large-forms/k305-small-binary.md).
 
 ### Structure
 
@@ -56,8 +56,7 @@ Two-part form without recapitulation of first-part material.
 
 Three-part form with exposition, contrasting middle, and recapitulation.
 
-![Small ternary form diagram](../../Graphics/ClassicalThemes/smallTernary.svg)
-<!-- TODO: Convert to lilylet format -->
+Score example: [Mozart, K. 284, III, Tema](../examples/06-large-forms/k284-small-ternary.md).
 
 ### Structure
 
@@ -186,6 +185,14 @@ Typical plan:
 2. **Ternary**: A material must return audibly in A'
 3. **Recapitulation**: Must end in tonic (I:PAC)
 4. **Contrasting middle**: Must end on or prepare dominant
+
+## Score Examples
+
+| Example | What it shows |
+|---------|---------------|
+| [Small binary: Mozart, K. 305, II](../examples/06-large-forms/k305-small-binary.md) | modulating period (V:PAC), contrasting middle standing on V, continuation-like close (I:PAC) |
+| [Small ternary: Mozart, K. 284, III, Tema](../examples/06-large-forms/k284-small-ternary.md) | period → Fonte + descending scale (I:HC) → recapitulation altered to I:PAC; rounded binary |
+| [Fonte: Haydn, Hob. XVI:27, III](../examples/05-formal-schemas/haydn27fonte.md) | the Fonte that typically opens a small ternary's contrasting middle |
 
 ## Related Topics
 

@@ -4,6 +4,7 @@ category: phrase-structure
 tags: [sentence, presentation, continuation, fragmentation]
 related: [period, hybrid-themes, cadences]
 difficulty: intermediate
+examples: [04-k283-presentation, 04-k283-sentence, 04-op2-3-phrase-expansion]
 ---
 
 # The Sentence
@@ -24,15 +25,9 @@ Sentence (8 bars)
     └── Cadence (mm. 7-8)
 ```
 
-### Structural Diagram
-
-![Sentence structure diagram](../../Graphics/ClassicalThemes/sentence.svg)
-<!-- TODO: Convert to lilylet format -->
-
 ### Score Example: Mozart K. 283, I, mm. 1-8
 
-![Mozart K. 283 sentence example](../../Graphics/form/k283.png)
-<!-- TODO: Convert to MusicXML/lilylet from IMSLP source -->
+[Mozart K. 283, I, mm. 1–10](../examples/04-phrase-structure/k283-sentence.md): 4-bar presentation + 6-bar continuation (fragmentation, sequence, liquidation) ending in a PAC; the presentation alone is [k283-presentation](../examples/04-phrase-structure/k283-presentation.md).
 
 ## Presentation Phrase (mm. 1-4)
 
@@ -133,6 +128,16 @@ Continuations are often 6 bars (not 4):
 | Cadences | 1 (end) | 2 (weak + strong) |
 | Repetition | Immediate (BI+BI) | Structural (Ant.→Cons.) |
 | Character | Forward momentum | Balance/symmetry |
+
+## Score Examples
+
+Scores are in lilylet; see [Reading lilylet score examples](../examples/lilylet-primer.md).
+
+| Example | What it shows |
+|---------|---------------|
+| [Mozart K. 283, I, mm. 1–4](../examples/04-phrase-structure/k283-presentation.md) | presentation: BI + varied BI over I–V4/3–V6/5–I |
+| [Mozart K. 283, I, mm. 1–10](../examples/04-phrase-structure/k283-sentence.md) | sentence with all five continuation markers; 4 + 6 bars; PAC |
+| [Beethoven Op. 2/3, I, mm. 1–13](../examples/04-phrase-structure/op2-3-phrase-expansion.md) | phrase expansion: IAC in m. 8, linked repetition, PAC in m. 13 |
 
 ## Related Topics
 

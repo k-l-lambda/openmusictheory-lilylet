@@ -4,6 +4,7 @@ category: harmonic-functions
 tags: [prolongation, passing-chord, neighbor-chord, pedal, contrapuntal]
 related: [tonic-subdominant-dominant, cadences, voice-leading-rules]
 difficulty: intermediate
+examples: [01-k331-reduction, 01-subsidiary-progression, 01-rns-functional-prolongation, 01-interpreted-functional-bass, 01-haydn-xvi21-prolongation, 05-champagne, 05-d4i, 05-paralleltenths, 05-pinkchampagne, 05-ve63, 05-ve64]
 ---
 
 # Prolongation
@@ -184,6 +185,24 @@ Roman numerals:  I    V6/4   I6   ii6   V   I
 Functional bass: T1   D2     T3   S4    D5  T1
 Function line:   T————————————    S     D   T
 ```
+
+## Score Examples
+
+Transcribed in lilylet (see the [primer](../examples/lilylet-primer.md)); each example says what to look for, bar by bar.
+
+| Example | What it shows |
+|---------|---------------|
+| [Mozart K. 331, I, mm. 1–4 + reduction](../examples/01-harmonic-functions/k331-reduction.md) | passing contrapuntal dominants prolong T; cadential chords on fixed bass degrees; HC |
+| [Subsidiary progression](../examples/01-harmonic-functions/subsidiary-progression.md) | a full T–S–D–T cycle ending on i⁶ prolongs tonic; then the PAC |
+| [RNs with functional prolongation](../examples/01-harmonic-functions/rns-functional-prolongation.md) | T zone with contrapuntal V⁴⁄₂ and I⁶ |
+| [Interpreted functional bass](../examples/01-harmonic-functions/interpreted-functional-bass.md) | parenthesised contrapuntal prolongation |
+| [Haydn, Hob. XVI:21, I](../examples/01-harmonic-functions/haydn-xvi21-prolongation.md) | tonic zone T——— then cadential S D T |
+| [Champagne progression: T(1 S6d 3)](../examples/05-formal-schemas/champagne.md) | Gene Biringer's **champagne progression**, T1 S6 T3, harmonising *mi–fa–sol* in the melody |
+| [Voice exchange with D4 substitute: T(1 D4i 3)](../examples/05-formal-schemas/d4i.md) | The voice exchange with a **D4 substitute** (V4/2) in the middle. Per the page, the upper voices are exactly those of the V6/4 version |
+| [Parallel tenths: T(1 D2p 3)](../examples/05-formal-schemas/paralleltenths.md) | *do–re–mi* in the bass against *mi–fa–sol* in the melody: outer voices in **parallel tenths** over a passing **V4/3** |
+| [Pink champagne: T(1 S6d 3) with III](../examples/05-formal-schemas/pinkchampagne.md) | Biringer's **pink champagne**, the champagne progression with **III** in place of I6 as the T3 chord |
+| [Voice exchange with passing VII6: T(1 D2p 3)](../examples/05-formal-schemas/ve63.md) | The same voice exchange as VE64, with a passing **VII6** (figure 6, i.e. 6/3) as the D2 chord |
+| [Voice exchange with passing V6/4: T(1 D2p 3)](../examples/05-formal-schemas/ve64.md) | The outer voices exchange do and mi across a passing **V6/4** |
 
 ## Related Topics
 

@@ -4,6 +4,7 @@ category: phrase-structure
 tags: [period, antecedent, consequent, symmetry]
 related: [sentence, hybrid-themes, cadences]
 difficulty: intermediate
+examples: [04-xv27-antecedent, 04-xv27-period, 04-k494-subphrase-expansion]
 ---
 
 # The Period
@@ -24,15 +25,9 @@ Period (8 bars)
     └── Contrasting Idea (mm. 7-8) → Strong cadence
 ```
 
-### Structural Diagram
-
-![Period structure diagram](../../Graphics/ClassicalThemes/period.svg)
-<!-- TODO: Convert to lilylet format -->
-
 ### Score Example: Haydn XV:27, III
 
-![Haydn XV:27 period example](../../Graphics/form/xv27.png)
-<!-- TODO: Convert to MusicXML/lilylet from IMSLP source -->
+[Haydn Hob. XV:27, III, mm. 1–8](../examples/04-phrase-structure/xv27-period.md): antecedent ending I:HC, consequent restating the BI exactly and ending with a PAC; the antecedent alone is [xv27-antecedent](../examples/04-phrase-structure/xv27-antecedent.md).
 
 ## Antecedent Phrase (mm. 1-4)
 
@@ -133,6 +128,16 @@ The consequent **must** end with PAC:
 |------|---------------|
 | Parallel | Similar to antecedent CI |
 | Contrasting | New CI material |
+
+## Score Examples
+
+Scores are in lilylet; see [Reading lilylet score examples](../examples/lilylet-primer.md).
+
+| Example | What it shows |
+|---------|---------------|
+| [Haydn Hob. XV:27, III, mm. 1–4](../examples/04-phrase-structure/xv27-antecedent.md) | antecedent: BI (Romanesca-like T prolongation) + CI → I:HC |
+| [Haydn Hob. XV:27, III, mm. 1–8](../examples/04-phrase-structure/xv27-period.md) | period: antecedent (HC) + consequent with exact BI return (PAC) |
+| [Mozart K. 494, mm. 1–12](../examples/04-phrase-structure/k494-subphrase-expansion.md) | sub-phrase expansion: BI grows to 3 bars by repeating m. 2 |
 
 ## Related Topics
 

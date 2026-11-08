@@ -4,6 +4,7 @@ category: formal-schemas
 tags: [schema, galant, composition, phrase-building]
 related: [opening-schemas, continuation-schemas, cadential-schemas, sentence, period]
 difficulty: intermediate
+examples: [05-haydnxvi27, 05-ve64, 05-ve63, 05-d4i, 05-paralleltenths, 05-champagne, 05-pinkchampagne, 05-deceptive, 05-deceptive7, 05-d5problem, 05-t1dropfifth, 05-d5dropfifth, 05-s4problem, 05-s4dropthird]
 ---
 
 # Schema Combinations
@@ -225,6 +226,25 @@ Based on Robert Gjerdingen's galant schemata as presented in OMT:
 | `schemata-improv.md` | Schema improvisation and combination |
 
 **Primary theoretical reference**: Gjerdingen, Robert. *Music in the Galant Style*. Oxford University Press, 2007.
+
+## Score Examples
+
+| Example | What it shows |
+|---------|---------------|
+| [Meyer + modulating Passo Indietro: Haydn, Hob. XVI:27, III](../examples/05-formal-schemas/haydnxvi27.md) | a complete sentence built from an opening schema, a continuation schema and a cadence |
+| [Voice exchange with passing V6/4 (keyboard voice-leading schema)](../examples/05-formal-schemas/ve64.md) | outer voices exchange do/mi over T(1 D2p 3) |
+| [Voice exchange with passing VII6 (keyboard voice-leading schema)](../examples/05-formal-schemas/ve63.md) | same exchange; the D2's fa rises, unresolved |
+| [Voice exchange with D4 substitute (keyboard voice-leading schema)](../examples/05-formal-schemas/d4i.md) | V4/2 in the bass, upper voices as with V6/4 |
+| [Parallel tenths (keyboard voice-leading schema)](../examples/05-formal-schemas/paralleltenths.md) | do–re–mi bass against mi–fa–sol over V4/3 |
+| [Champagne progression (keyboard voice-leading schema)](../examples/05-formal-schemas/champagne.md) | T1 S6 T3 under mi–fa–sol, bass doubled in S6 |
+| [Pink champagne (keyboard voice-leading schema)](../examples/05-formal-schemas/pinkchampagne.md) | champagne with III for T3 |
+| [Deceptive resolution (keyboard voice-leading schema)](../examples/05-formal-schemas/deceptive.md) | V–VI with ti→do, do doubled in VI |
+| [Deceptive resolution of V7 (keyboard voice-leading schema)](../examples/05-formal-schemas/deceptive7.md) | the same with the seventh resolving down |
+| [V7–I with ti–do: the problem (keyboard voice-leading schema)](../examples/05-formal-schemas/d5problem.md) | complete V7 and I leave the seventh unresolved |
+| [Fix 1: incomplete I (keyboard voice-leading schema)](../examples/05-formal-schemas/t1dropfifth.md) | no fifth in I, tripled root |
+| [Fix 2: incomplete V7 (keyboard voice-leading schema)](../examples/05-formal-schemas/d5dropfifth.md) | no fifth in V7, doubled root (preferred) |
+| [S4(7)–D5(7): the problem (keyboard voice-leading schema)](../examples/05-formal-schemas/s4problem.md) | the D5 seventh can't be prepared |
+| [Fix: S4 without la (keyboard voice-leading schema)](../examples/05-formal-schemas/s4dropthird.md) | doubled bass prepares the D5 seventh |
 
 ## Related Topics
 

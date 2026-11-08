@@ -4,6 +4,7 @@ category: phrase-structure
 tags: [presentation, antecedent, continuation, cadential, consequent, theme-types]
 related: [sentence, period, hybrid-themes]
 difficulty: intermediate
+examples: [04-k283-presentation, 04-k283-sentence, 04-xv27-antecedent, 04-xv27-period, 04-k330-ii-hybrid1, 04-haydn-op64-4-hybrid2, 04-beethoven-op30-2-hybrid3, 04-beethoven-op18-2-hybrid4, 04-sym101-prefix]
 ---
 
 # Theme Functions
@@ -200,6 +201,22 @@ Based on William Caplin's *Classical Form: A Theory of Formal Functions for the 
 OMT source files:
 - `themeFunctions.md` - Function definitions
 - `classicalThemes.md` - Theme type overview
+
+## Score Examples
+
+Scores are in lilylet; see [Reading lilylet score examples](../examples/lilylet-primer.md).
+
+| Example | What it shows |
+|---------|---------------|
+| [Mozart K. 283, I, mm. 1–4](../examples/04-phrase-structure/k283-presentation.md) | presentation: BI + varied BI over I–V4/3–V6/5–I |
+| [Mozart K. 283, I, mm. 1–10](../examples/04-phrase-structure/k283-sentence.md) | sentence with all five continuation markers; 4 + 6 bars; PAC |
+| [Haydn Hob. XV:27, III, mm. 1–4](../examples/04-phrase-structure/xv27-antecedent.md) | antecedent: BI (Romanesca-like T prolongation) + CI → I:HC |
+| [Haydn Hob. XV:27, III, mm. 1–8](../examples/04-phrase-structure/xv27-period.md) | period: antecedent (HC) + consequent with exact BI return (PAC) |
+| [Mozart K. 330, II, mm. 1–8](../examples/04-phrase-structure/k330-ii-hybrid1.md) | hybrid 1: antecedent (HC) + continuation (V:PAC) |
+| [Haydn Hob. III:66, II, mm. 1–8](../examples/04-phrase-structure/haydn-op64-4-hybrid2.md) | hybrid 2: antecedent + cadential I6–ii6/5–V–I |
+| [Beethoven Op. 30/2, III, mm. 1–8](../examples/04-phrase-structure/beethoven-op30-2-hybrid3.md) | hybrid 3: CBI (V6 neighbour, no cadence) + continuation |
+| [Beethoven Op. 18/2, IV, mm. 1–8](../examples/04-phrase-structure/beethoven-op18-2-hybrid4.md) | hybrid 4: cello CBI + full-quartet consequent |
+| [Haydn Symphony No. 101, II, mm. 1–5](../examples/04-phrase-structure/sym101-prefix.md) | prefix: one accompanimental bar before the antecedent |
 
 ## Related Topics
 

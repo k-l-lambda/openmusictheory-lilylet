@@ -4,6 +4,7 @@ category: phrase-structure
 tags: [expansion, prefix, suffix, codetta, standing-on-dominant]
 related: [sentence, period, hybrid-themes]
 difficulty: intermediate
+examples: [04-k494-subphrase-expansion, 04-op2-3-phrase-expansion, 04-k309-evaded-cadence, 04-sym101-prefix, 04-k330-closing-section, 04-sym40-standing-on-dominant, 04-k283-sentence, 04-k498-compound-sentence, 06-k284-medial-caesura]
 ---
 
 # Phrase Expansion
@@ -161,6 +162,22 @@ mm. 16-19: "One more time" → achieves PAC
 | Prefix | Haydn Sym. 101 | 1-bar introduction |
 | Closing section | Mozart K. 330 | 5-bar codetta |
 | Standing on dominant | Mozart Sym. 40 | Prolonged HC |
+
+## Score Examples
+
+Scores are in lilylet; see [Reading lilylet score examples](../examples/lilylet-primer.md).
+
+| Example | What it shows |
+|---------|---------------|
+| [Mozart K. 494, mm. 1–12](../examples/04-phrase-structure/k494-subphrase-expansion.md) | sub-phrase expansion: BI grows to 3 bars by repeating m. 2 |
+| [Beethoven Op. 2/3, I, mm. 1–13](../examples/04-phrase-structure/op2-3-phrase-expansion.md) | phrase expansion: IAC in m. 8, linked repetition, PAC in m. 13 |
+| [Mozart K. 309, III, mm. 1–19](../examples/04-phrase-structure/k309-evaded-cadence.md) | evaded cadence (m. 15–16) and 'one more time' to the PAC |
+| [Haydn Symphony No. 101, II, mm. 1–5](../examples/04-phrase-structure/sym101-prefix.md) | prefix: one accompanimental bar before the antecedent |
+| [Mozart K. 330, mm. 1–20](../examples/04-phrase-structure/k330-closing-section.md) | closing section: 5 bars on scale degree 1 after the PAC |
+| [Mozart Symphony No. 40, I, mm. 1–20](../examples/04-phrase-structure/sym40-standing-on-dominant.md) | prefix + compound sentence + standing on the dominant after an aug6 → HC |
+| [Mozart K. 283, I, mm. 1–10](../examples/04-phrase-structure/k283-sentence.md) | sentence with all five continuation markers; 4 + 6 bars; PAC |
+| [Mozart K. 498, I, mm. 1–13](../examples/04-phrase-structure/k498-compound-sentence.md) | compound sentence: two CBIs (T→D, D→T), continuation expanded by repetition |
+| [Medial caesura after standing on the dominant: Mozart, Piano Sonata in D major, K. 284, I](../examples/06-large-forms/k284-medial-caesura.md) | OMT's example of an **HC followed by a standing on the dominant** (Hepokoski and Darcy's "dominant lock") |
 
 ## Related Topics
 

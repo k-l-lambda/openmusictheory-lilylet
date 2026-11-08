@@ -131,4 +131,9 @@ Beyond common practice.
 - [Chord Function Table](appendices/chord-function-table.md) - Quick reference
 - [Progression Patterns](appendices/progression-patterns.md) - Common progressions list
 - [Schema Catalog](appendices/schema-catalog.md) - All schemata with examples
+
+## Score Examples
+
+- [Score Examples Index](examples/README.md): 79 lilylet examples by chapter
+- [Reading lilylet](examples/lilylet-primer.md): notation primer
 - [Terminology](appendices/terminology.md) - Glossary

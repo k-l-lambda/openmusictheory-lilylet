@@ -3,6 +3,7 @@ title: Pitch-Class Sets
 category: post-tonal
 tags: [pitch-class, set-theory, atonal, interval-vector]
 related: [twelve-tone]
+examples: [08-subject-and-reflection, 08-prime-form, 08-transposition-debussy, 08-inversion-debussy]
 difficulty: advanced
 ---
 
@@ -296,6 +297,17 @@ Based on Open Music Theory materials:
 - `setClassAndPrimeForm2.md` - Set class lists and IC vectors
 
 Allen Forte's set-class numbering system provides standard catalog numbers (3-1, 4-Z15, etc.).
+
+## Score Examples
+
+Musical passages from the source pages, transcribed into [lilylet](../examples/lilylet-primer.md), with the set operations worked on the actual notes:
+
+| Example | What it shows |
+|---------|---------------|
+| [Bartók, Mikrokosmos 141 "Subject and Reflection"](../examples/08-post-tonal/subject-and-reflection.md) | four sets of one class (02357): hands T8I / T6I, passages T5 |
+| [Prime form of the "Subject and Reflection" motive](../examples/08-post-tonal/prime-form.md) | the 5-step procedure on {10,0,2,3,5} → (02357) |
+| [Debussy, La cathédrale engloutie, mm. 1 / 18](../examples/08-post-tonal/transposition-debussy.md) | T4 {11,2,4} → {3,6,8}: content and arrangement preserved |
+| [Debussy, La cathédrale engloutie, mm. 28–30](../examples/08-post-tonal/inversion-debussy.md) | T4I {0,2,7} → {9,2,4}: same content, mirrored arrangement |
 
 ## Related Topics
 

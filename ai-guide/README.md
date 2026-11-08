@@ -31,7 +31,7 @@ This guide assumes familiarity with:
 | **07-melodic-elaboration/** | Embellishing tones (PT, NT, SUS, etc.) |
 | **08-post-tonal/** | Basic pitch-class sets and twelve-tone concepts |
 | **appendices/** | Quick reference tables, glossary |
-| **examples/** | Links to score examples from When-in-Rome corpus |
+| **examples/** | 79 lilylet score examples transcribed from the OMT figures, linked from each topic ([index](examples/README.md)) |
 
 ## File Format
 
@@ -43,6 +43,14 @@ Each topic file includes:
 - **Common Patterns** - Tables, formulas, progressions
 - **Constraints & Rules** - Voice-leading requirements
 - **Related Topics** - Cross-references
+
+## Score Examples
+
+The topic files link to **score examples** in [`examples/`](examples/README.md). Each one is a lilylet transcription of an Open Music Theory figure, checked bar by bar against the original image. lilylet is a text notation an AI can read directly, so the examples keep principle 3 ("remove notation-specific content"): there are still no images, iframes or exercises.
+
+- Each topic's frontmatter lists its examples (`examples: [id, …]`). Each example's frontmatter lists its topics (`topics: [...]`). Both directions are there for retrieval.
+- Each example has a **What to look for** section that ties the concept to specific bars and notes.
+- How to read the notation: [lilylet primer](examples/lilylet-primer.md).
 
 ## Source
 

@@ -4,6 +4,7 @@ category: chromatic-harmony
 tags: [modulation, key-change, pivot-chord, tonicization]
 related: [applied-chords, cadences]
 difficulty: advanced
+examples: [02-pivot-chord-modulation]
 ---
 
 # Modulation
@@ -145,6 +146,14 @@ Two-layer analysis overlaps on the pivot chord.
 2. **Pivot should be diatonic to both keys** — Applied chords typically indicate direct modulation
 3. **Functional coherence** — Smoothest pivots maintain function
 4. **Confirm new key** — At least one cadence affirming new tonic (PAC or IAC preferred)
+
+## Score Examples
+
+Transcribed in lilylet (see the [primer](../examples/lilylet-primer.md)); each example says what to look for, bar by bar.
+
+| Example | What it shows |
+|---------|---------------|
+| [Pivot-chord modulation F → C](../examples/02-chromatic-harmony/pivot-chord-modulation.md) | two-key analysis: Tx6 in F = S2 in C, then D5 T1 in C |
 
 ## Related Topics
 

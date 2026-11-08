@@ -4,6 +4,7 @@ category: harmonic-functions
 tags: [tonic, subdominant, dominant, scale-degrees, triggers]
 related: [prolongation, cadences]
 difficulty: foundational
+examples: [01-triad-functions, 01-seventh-chord-functions, 01-rns-individual-functions, 01-rns-functional-prolongation, 01-functional-bass-functions, 01-interpreted-functional-bass]
 ---
 
 # Tonic, Subdominant, and Dominant
@@ -104,6 +105,19 @@ Combine function + bass scale degree:
 |---------|-------|
 | D-S | Retrogression (weak) |
 | D-D-D... | No resolution |
+
+## Score Examples
+
+Transcribed in lilylet (see the [primer](../examples/lilylet-primer.md)); each example says what to look for, bar by bar.
+
+| Example | What it shows |
+|---------|---------------|
+| [Triads and their functions](../examples/01-harmonic-functions/triad-functions.md) | I–VII in C with T1 S2 T3 S4 D5 Tx6 D7 |
+| [Seventh chords and their functions](../examples/01-harmonic-functions/seventh-chord-functions.md) | III⁷ marked * (ambiguous function) |
+| [RNs with individual functions](../examples/01-harmonic-functions/rns-individual-functions.md) | one T/S/D label per chord |
+| [RNs with functional prolongation](../examples/01-harmonic-functions/rns-functional-prolongation.md) | contrapuntal V⁴⁄₂ and I⁶ inside one T zone |
+| [Functional bass](../examples/01-harmonic-functions/functional-bass-functions.md) | T1 D4 T3 S6 D5 T1: function + bass scale degree |
+| [Interpreted functional bass](../examples/01-harmonic-functions/interpreted-functional-bass.md) | T(1 S6d 3 D2p 1) D5 T1: divider and passing chords |
 
 ## Related Topics
 

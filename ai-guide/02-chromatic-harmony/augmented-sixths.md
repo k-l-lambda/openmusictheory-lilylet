@@ -4,6 +4,7 @@ category: chromatic-harmony
 tags: [augmented-sixth, italian, french, german, chromaticism]
 related: [neapolitan, applied-chords]
 difficulty: advanced
+examples: [02-neapolitan-and-augmented-sixths, 02-beethoven-op119-1-italian-sixth, 02-mozart-k465-iv-french-sixth, 02-beethoven-op109-iii-german-sixth]
 ---
 
 # Augmented-Sixth Chords
@@ -180,6 +181,17 @@ Source: MarkGotham/When-in-Rome (CC BY-SA 4.0)
 2. **Resolves to V** (directly or via cad. 6/4)
 3. **Do not double fi** (chromatic alteration)
 4. **German sixth requires cad. 6/4** (parallel 5ths otherwise)
+
+## Score Examples
+
+Transcribed in lilylet (see the [primer](../examples/lilylet-primer.md)); each example says what to look for, bar by bar.
+
+| Example | What it shows |
+|---------|---------------|
+| [N. and +6 chords in G minor](../examples/02-chromatic-harmony/neapolitan-and-augmented-sixths.md) | It./Fr./Ger./Sw. spelled over *le*, figures and [S6] |
+| [Beethoven Op. 119/1: Italian sixth](../examples/02-chromatic-harmony/beethoven-op119-1-italian-sixth.md) | It.⁶ on beat 3 of m. 3, straight to V |
+| [Mozart K. 465, IV: French sixth](../examples/02-chromatic-harmony/mozart-k465-iv-french-sixth.md) | IV⁶ → Fr.⁶ → cadential 6/4 → V → I |
+| [Beethoven Op. 109, III: German sixth](../examples/02-chromatic-harmony/beethoven-op109-iii-german-sixth.md) | Ger.⁶ carried into m. 8, releases into HC |
 
 ## Related Topics
 

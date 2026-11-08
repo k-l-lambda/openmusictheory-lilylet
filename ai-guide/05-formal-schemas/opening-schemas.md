@@ -4,6 +4,7 @@ category: formal-schemas
 tags: [schema, galant, opening, presentation, meyer, jupiter]
 related: [continuation-schemas, sentence]
 difficulty: intermediate
+examples: [05-haydnxvi27]
 ---
 
 # Opening Schemas
@@ -23,7 +24,6 @@ Opening schemas are 4-stage melodic-harmonic patterns used at phrase beginnings,
 | **Function** | T | D | D | T |
 
 ![Meyer schema diagram](../../Graphics/form/meyer.png)
-<!-- TODO: Convert to lilylet format -->
 
 **Character**: Descending then ascending melody, common opening gesture.
 
@@ -143,6 +143,12 @@ Based on Robert Gjerdingen's galant schemata as presented in OMT:
 | `schemataSummary.md` | Schema overview and catalog |
 
 **Primary theoretical reference**: Gjerdingen, Robert. *Music in the Galant Style*. Oxford University Press, 2007.
+
+## Score Examples
+
+| Example | What it shows |
+|---------|---------------|
+| [Meyer: Haydn, Hob. XVI:27, III, mm. 1–8](../examples/05-formal-schemas/haydnxvi27.md) | embellished Meyer (do–ti, fa–mi) as a sentence's presentation, BI repeated a step higher |
 
 ## Related Topics
 

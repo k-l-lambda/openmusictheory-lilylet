@@ -4,6 +4,7 @@ category: phrase-structure
 tags: [compound-period, compound-sentence, 16-bar, theme-types]
 related: [sentence, period, hybrid-themes, theme-functions]
 difficulty: intermediate
+examples: [04-k284-ii-compound-period, 04-k332-compound-period, 04-k498-compound-sentence, 04-k309-evaded-cadence, 04-k330-closing-section, 04-sym40-standing-on-dominant]
 ---
 
 # Compound Themes
@@ -206,6 +207,19 @@ Based on William Caplin's *Classical Form* (OUP, 1998).
 OMT source files:
 - `compoundPeriod.md` - Compound period types and examples
 - `compoundSentence.md` - Compound sentence structure
+
+## Score Examples
+
+Scores are in lilylet; see [Reading lilylet score examples](../examples/lilylet-primer.md).
+
+| Example | What it shows |
+|---------|---------------|
+| [Mozart K. 284, II, mm. 1–16](../examples/04-phrase-structure/k284-ii-compound-period.md) | compound period of two sentences (HC m. 8, PAC m. 16) |
+| [Mozart K. 332, I, mm. 41–56](../examples/04-phrase-structure/k332-compound-period.md) | compound period of two hybrid-1 halves; small antecedent as BI |
+| [Mozart K. 498, I, mm. 1–13](../examples/04-phrase-structure/k498-compound-sentence.md) | compound sentence: two CBIs (T→D, D→T), continuation expanded by repetition |
+| [Mozart K. 309, III, mm. 1–19](../examples/04-phrase-structure/k309-evaded-cadence.md) | evaded cadence (m. 15–16) and 'one more time' to the PAC |
+| [Closing section: Mozart, Piano Sonata K. 330, mm. 1–20](../examples/04-phrase-structure/k330-closing-section.md) | The theme is a compound period ending with a PAC in m. 16 |
+| [Standing on the dominant: Mozart, Symphony No. 40, K. 550, I, mm. 1–20](../examples/04-phrase-structure/sym40-standing-on-dominant.md) | The opening also has a one-bar prefix and a compound sentence ending in an HC that's approached by an augmented sixth |
 
 ## Related Topics
 

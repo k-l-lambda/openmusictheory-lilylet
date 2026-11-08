@@ -1,0 +1,97 @@
+---
+title: "Compound period (sentence + sentence): Mozart, K. 284, II, mm. 1–16"
+id: 04-k284-ii-compound-period
+category: example
+topics: [04-phrase-structure/compound-themes]
+tags: [compound-period, 16-bar, sentence, large-antecedent, large-consequent, half-cadence, PAC]
+source_image: Graphics/form/k284-ii.png
+source_page: compoundPeriod.md
+lilylet: Graphics/lilylet/form/k284-ii.lyl
+provenance: omr
+composer: "Wolfgang Amadeus Mozart"
+work: "Piano Sonata in D major, K. 284, II (Rondeau en Polonaise), mm. 1–16"
+key: A major
+meter: 3/4
+---
+
+# Compound period built from two sentences. The large antecedent ends with an HC (m. 8) and the large consequent with a PAC (m. 16).
+
+Each 8-bar half has the shape of a sentence: a 4-bar presentational unit, then a continuation.
+
+Notation: see [Reading lilylet score examples](../lilylet-primer.md).
+
+## What to look for
+
+- Printed bar numbers equal the lilylet `%N` (no pickup).
+- mm. 1–4: presentation. The BI (A4 … B4. G♯4 | A4 E4 D♯4 E4 …) is repeated a step higher in mm. 3–4 (B4 … C♯5. A4 | D5 …).
+- mm. 5–8: continuation. Faster surface rhythm (32nd-note turns in mm. 5–6) and descending sequences lead to the **HC in m. 8**: the bass reaches E3, the treble ends on B4/G♯4.
+- m. 9: the presentational BI returns **varied**. Triplets replace the dotted figure, but the bass is the same as m. 1.
+- mm. 13–16: the final continuation, with grace notes and a 16th-note scale in m. 15, culminates in the **PAC in m. 16**: ⟨C♯4 A4⟩ over A2.
+
+## Score
+
+<!-- score:begin -->
+<!-- generated from Graphics/lilylet/form/k284-ii.lyl by ai-guide/examples/sync.mjs; edit the source, not this block -->
+```lyl
+[title "Piano Sonata in D major, K. 284, II: Rondeau en Polonaise"]
+[composer "Wolfgang Amadeus Mozart"]
+[staves "{-}"]
+
+\staff "1" \key a \major \time 3/4 \tempo "Andante" \clef "treble" a'2\f b8.(\sf[ gs16)] \\
+\staff "2" \clef "bass" <a cs>2 <e d'>4\sf | %1
+
+\staff "1" a'8[ e(\p ds e d! cs)] \\
+\staff "2" <a cs>8[ cs bs cs b! a] | %2
+
+\staff "1" b'2\f cs8.\sf[ a16] \\
+\staff "2" <e, gs>2 <a e'>4\sf | %3
+
+\staff "1" d'8[ d,(\p cs d cs b)] \\
+\staff "2" <gs e'>8[ b as b a gs] \clef "treble" | %4
+
+\staff "1" e'4. fs32(_\markup "sfp"^\markup "f" [ e d cs)] d8-.[ d-.] \\
+\staff "2" r4 <cs e a>4 <b e gs>4\f \clef "bass" | %5
+
+\staff "1" cs'4.\p d32(_\markup "sfp"^\markup "f" [ cs b a)] gs8-.[ gs-.] \\
+\staff "2" r4 <a cs e>4\p <d, e b'>4\f | %6
+
+\staff "1" a'4.\p <gs b>8_\markup "cresc."([ <a cs> <b d>)] \\
+\staff "2" r8 a,8\p cs'[ <d e> <cs e> <b e>] | %7
+
+\staff "1" \stemUp ds'16[ e fs d!] cs4( b) \\
+\staff "1" \stemDown cs'8[ d16\p b] a4( gs) \\
+\staff "2" <a e'>8[ d] e4 e, | %8
+
+\staff "1" a'4\f~ \tuplet 3/2 { a8([ e cs')] } \tuplet 3/2 { d8([ b gs)] } \\
+\staff "2" \stemUp s4 cs b8[ d] \\
+\staff "2" \stemDown r4 a\f e | %9
+
+\staff "1" a'8[ e(\p ds e d! cs)] \\
+\staff "2" <a cs>8[ cs( bs cs b! a)] | %10
+
+\staff "1" b'4~ \tuplet 3/2 { b8([ e, d')] } \tuplet 3/2 { cs8([ a fs')] } \\
+\staff "2" r4 <e, gs>4\f <a e'> | %11
+
+\staff "1" \grace e'8 d8\p[ d,( cs d cs b)] \\
+\staff "2" r8 b([ as b a gs)] \clef "treble" | %12
+
+\staff "1" e'4~ e16[ es(\sf fs cs)] \grace e8( d8)-.\p[ d-.] \\
+\staff "2" r4 <cs a'>4\f <b gs'>4\p \clef "bass" | %13
+
+\staff "1" cs'4~ cs16[ ds(\sf e a,)] \grace a8( gs8)-.\p[ gs-.] \\
+\staff "2" r4 <a e'>4\f <d e>4\p | %14
+
+\staff "1" a'16(_\markup "crescendo"[ b cs d!] e[ fs gs a)] gs([ fs e d)] \\
+\staff "2" \stemUp <cs e>4 a2~ \\
+\staff "2" \stemDown s4 cs,4 d | %15
+
+\staff "1" cs'16(\f[ e d b)] <d, b'>4( <cs a'>) \bar "||" \\
+\staff "2" \stemUp a8[ gs] a[ e] a,4 \\
+\staff "2" \stemDown e,2 r4 | %16
+```
+<!-- score:end -->
+
+## Notes
+
+- The source page's caption says 'mm. 1–8', but the example and its text cover all 16 bars.
+- The movement is in A major, inside a D-major sonata.
