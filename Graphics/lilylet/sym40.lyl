@@ -57,14 +57,13 @@
 
 \staff "1" r4 \stemDown <fs fs'>4(\< <g g'> <a a'>\! \\
 \staff "1" d'1) \\
-\staff "2" \stemDown <bf d>2.( a4 \\
-\staff "2" e,1 | %14
+\staff "2" <e, d'>1( \\
+\staff "2" \stemDown bf2. a4 | %14
 
 \staff "1" \stemDown <bf' cs bf'>4 c'!8\>[ bf] cs,2\! \\
 \staff "1" \stemUp s2 a''4 g \\
-\staff "2" \stemDown <ef, a>2 s2 \\
-\staff "2" cs1 \\
-\staff "2" \stemUp s2 fs,4 g | %15
+\staff "2" \stemDown <ef, cs'>1 \\
+\staff "2" \stemDown g2 \stemUp fs4 g | %15
 
 \staff "1" \stemUp fs'4) r4 \stemDown <e g bf cs>2(\sf\> \\
 \staff "1" \stemDown d'4 s2. \\

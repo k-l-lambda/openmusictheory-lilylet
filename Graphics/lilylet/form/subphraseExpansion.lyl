@@ -33,7 +33,7 @@
 \staff "2" \stemDown bf'4 c \stemUp a \stemDown c) | %9
 
 \staff "1" \stemDown c''8([ bf) bf( g)] bf([ a) a( f)] \\
-\staff "2" \stemUp c'2. e,4\rest \\
+\staff "2" \stemUp c'2. e4\rest \\
 \staff "2" \stemDown g'4 e f d | %10
 
 \staff "1" \stemDown d'4.( g8) f4 <bf, e> \\
