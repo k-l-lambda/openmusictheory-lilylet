@@ -149,6 +149,14 @@ fs.writeFileSync(path.join(HERE, "data.js"), "window.OMR_REVIEW = " + JSON.strin
 const vendor = path.join(HERE, "vendor");
 fs.mkdirSync(vendor, { recursive: true });
 fs.copyFileSync(path.join(ROOT, "node_modules/verovio/dist/verovio-toolkit-wasm.js"), path.join(vendor, "verovio-toolkit-wasm.js"));
+// KaTeX for $$…$$ display math in markdown sources (js + css + fonts, relative paths kept)
+const katexDist = path.join(ROOT, "node_modules/katex/dist");
+if (fs.existsSync(katexDist)) {
+	const kv = path.join(vendor, "katex");
+	fs.mkdirSync(path.join(kv, "fonts"), { recursive: true });
+	for (const f of ["katex.min.js", "katex.min.css"]) fs.copyFileSync(path.join(katexDist, f), path.join(kv, f));
+	for (const f of fs.readdirSync(path.join(katexDist, "fonts"))) fs.copyFileSync(path.join(katexDist, "fonts", f), path.join(kv, "fonts", f));
+}
 execFileSync(path.join(ROOT, "node_modules/.bin/esbuild"), [
 	path.join(HERE, "lilylet-entry.ts"),
 	"--bundle", "--format=iife", "--platform=browser", "--minify", "--log-level=warning",

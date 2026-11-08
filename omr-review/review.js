@@ -26,7 +26,10 @@
 	// Paths in data.js are repo-relative; this page lives in omr-review/.
 	const toUrl = (p) => "../" + p.split("/").map(encodeURIComponent).join("/");
 
-	const VEROVIO_OPTIONS = { scale: 40, adjustPageHeight: true, adjustPageWidth: true, breaks: "auto", pageWidth: 2100, pageHeight: 2970 };
+	// header: "none" — adjustPageWidth shrinks the page to the music only, so Verovio's
+	// own title (pgHead) was clipped on both sides for short scores; it is drawn in
+	// HTML above the score instead (see scoreHeader).
+	const VEROVIO_OPTIONS = { scale: 40, adjustPageHeight: true, adjustPageWidth: true, breaks: "auto", pageWidth: 2100, pageHeight: 2970, header: "none" };
 
 	// --- Verovio init (shared toolkit) ---
 	let toolkit = null;
@@ -58,6 +61,20 @@
 		els.renderer.classList.add("err");
 	});
 
+	// Title block in place of Verovio's page header: title / subtitle centred,
+	// lyricist left and composer / arranger right, as Verovio lays them out.
+	const escHtml = (t) => String(t).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+	const scoreHeader = (md) => {
+		if (!md) return "";
+		const line = (text, css) => (text ? `<div style="${css}">${escHtml(text)}</div>` : "");
+		const right = [md.composer, md.arranger].filter(Boolean).join(" · ");
+		const sides = md.lyricist || right
+			? `<div style="display:flex;justify-content:space-between;gap:12px;font-size:12px;color:#3d3d39">${line(md.lyricist || "", "")}${line(right, "margin-left:auto")}</div>`
+			: "";
+		const body = line(md.title, "font-size:16px;color:#1e1e1c") + line(md.subtitle, "font-size:13px;color:#3d3d39") + sides;
+		return body ? `<div style="align-self:stretch;text-align:center;font-family:serif;line-height:1.3;overflow-wrap:anywhere">${body}</div>` : "";
+	};
+
 	// --- render one lyl source ---
 	const renderLyl = (code) => {
 		const L = window.LilyletLib;
@@ -76,17 +93,36 @@
 			counts.set(key, (counts.get(key) || 0) + 1);
 		}
 		const vrvWarnings = [...counts].map(([k, n]) => (n > 1 ? `${k} ×${n}` : k));
+		const head = scoreHeader(doc.metadata);
+		if (head && pages.length) pages[0] = `<div style="display:flex;flex-direction:column;align-items:center;max-width:100%">${head}${pages[0]}</div>`;
 		return { pages, measures: doc.measures.length, warnings: parseWarnings.concat(vrvWarnings), parseWarnings };
 	};
 
 	// Split a markdown source into text and ```lyl / ```lilylet code blocks.
+	// Inline markdown (**bold**, *italic*, `code`) → DOM nodes; text stays text (no innerHTML).
+	const appendInline = (el, text) => {
+		const re = /\*\*([^*]+)\*\*|\*([^*\s][^*]*?)\*|`([^`]+)`/g;
+		let last = 0, m;
+		while ((m = re.exec(text))) {
+			if (m.index > last) el.appendChild(document.createTextNode(text.slice(last, m.index)));
+			const tag = m[1] !== undefined ? "strong" : m[2] !== undefined ? "em" : "code";
+			const n = document.createElement(tag);
+			n.textContent = m[1] ?? m[2] ?? m[3];
+			el.appendChild(n);
+			last = re.lastIndex;
+		}
+		if (last < text.length) el.appendChild(document.createTextNode(text.slice(last)));
+	};
+
 	const splitMarkdown = (md) => {
 		const segs = [];
-		const re = /^```[ \t]*(lyl|lilylet)[^\n]*\n([\s\S]*?)^```[ \t]*$/gm;
+		// ```lyl / ```lilylet blocks → scores; $$ … $$ blocks (on their own lines) → KaTeX display math
+		const re = /^```[ \t]*(lyl|lilylet)[^\n]*\n([\s\S]*?)^```[ \t]*$|^\$\$[ \t]*\n([\s\S]*?)^\$\$[ \t]*$/gm;
 		let last = 0, m;
 		while ((m = re.exec(md))) {
 			if (m.index > last) segs.push({ type: "text", text: md.slice(last, m.index) });
-			segs.push({ type: "lyl", code: m[2] });
+			if (m[1]) segs.push({ type: "lyl", code: m[2] });
+			else segs.push({ type: "math", tex: m[3] });
 			last = re.lastIndex;
 		}
 		if (last < md.length) segs.push({ type: "text", text: md.slice(last) });
@@ -128,12 +164,44 @@
 						for (const line of seg.text.split(/\n{2,}/)) {
 							const t = line.trim();
 							if (!t) continue;
+							// ![alt](relative/path.svg): image beside the .md (e.g. a hand-drawn SVG diagram)
+							const im = /^!\[([^\]]*)\]\(([^)\s]+)\)$/.exec(t);
+							if (im) {
+								const img = document.createElement("img");
+								img.className = "md-img";
+								img.alt = im[1] || "diagram";
+								const base = item.lyl.split("/").slice(0, -1).join("/");
+								img.src = /^(https?:|\/)/.test(im[2]) ? im[2] : toUrl(base + "/" + im[2]);
+								box.appendChild(img);
+								continue;
+							}
 							const h = /^(#{1,6})\s+(.*)$/.exec(t);
 							const el = document.createElement(h ? "h3" : "p");
 							el.className = h ? "md-h" : "md-p";
-							el.textContent = h ? h[2] : t;
+							appendInline(el, h ? h[2] : t);
 							box.appendChild(el);
 						}
+						continue;
+					}
+					if (seg.type === "math") {
+						const div = document.createElement("div");
+						div.className = "md-math";
+						try {
+							if (!window.katex) throw new Error("KaTeX not loaded");
+							window.katex.render(seg.tex, div, { displayMode: true, throwOnError: true });
+							box.appendChild(div);
+							// shrink a formula wider than the card instead of letting it overflow
+							const k = div.querySelector(".katex-display > .katex") || div.firstElementChild;
+							if (k && k.scrollWidth > div.clientWidth && div.clientWidth > 0) {
+								k.style.fontSize = Math.max(0.75, div.clientWidth / k.scrollWidth) + "em"; // below 0.75em it becomes unreadable: scroll instead
+							}
+							continue;
+						} catch (e) {
+							div.className = "md-math placeholder err";
+							div.textContent = "LaTeX 渲染失败：" + (e && e.message ? e.message : e);
+							failed++;
+						}
+						box.appendChild(div);
 						continue;
 					}
 					scores++;
