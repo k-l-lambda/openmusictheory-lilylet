@@ -1,0 +1,22 @@
+[title "Suspended chords"]
+[staves "{-}"]
+
+\staff "1" \key g \major \numericTimeSignature \time 4/4 \clef "treble" <b d g>1 \chords "G" \\
+\staff "2" \clef "bass" g,1
+\addlyrics { T1 }
+\addlyrics { I } | %1
+
+\staff "1" <c d g>1 \chords "Csus2" \\
+\staff "2" c,1
+\addlyrics { S4 }
+\addlyrics { IV } | %2
+
+\staff "1" <a d g>1 \chords "Dsus4" \\
+\staff "2" d,1
+\addlyrics { D5 }
+\addlyrics { V } | %3
+
+\staff "1" <b d g>1 \chords "G" \\
+\staff "2" g,1 \bar "|"
+\addlyrics { T1 }
+\addlyrics { I } | %4
