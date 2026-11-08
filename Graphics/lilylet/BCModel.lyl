@@ -1,0 +1,36 @@
+[title "Basso continuo model (G minor)"]
+[staves "{-}"]
+
+\staff "1" \omit Score.TimeSignature \key g \minor \clef "treble" \stemUp d'2 d \\
+\staff "1" \stemDown <g' bf>2 a \\
+\staff "2" \clef "bass" g,2 fs
+^\figures { s2 <6> } | %1
+
+\staff "1" \stemUp d'2 c \\
+\staff "1" \stemDown <g' bf>2 <fs a> \\
+\staff "2" g,2 a
+^\figures { s2 <6+> } | %2
+
+\staff "1" \stemUp bf'2 a \\
+\staff "1" \stemDown <d g>2 <d fs> \\
+\staff "2" bf,2 d
+^\figures { <6>2 <+> } | %3
+
+\staff "1" \stemUp bf'2 a \\
+\staff "1" \stemDown <d g>2 d \\
+\staff "2" g2 f
+^\figures { s2 <6> } | %4
+
+\staff "1" \stemUp c'2 c \\
+\staff "1" \stemDown <c g'>2 <ef g> \\
+\staff "2" ef,2 c
+^\figures { <6>2 s } | %5
+
+\staff "1" \stemUp a'2 a \\
+\staff "1" \stemDown <d fs>2 <c fs> \\
+\staff "2" d,2 d
+^\figures { <+>2 <7 _+> } | %6
+
+\staff "1" \stemUp g'1 \\
+\staff "1" \stemDown <bf d>1 \\
+\staff "2" g1 \bar "|." | %7

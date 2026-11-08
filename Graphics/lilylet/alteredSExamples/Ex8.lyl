@@ -1,0 +1,9 @@
+[title "Altered subdominant, example 8 (B-flat major): modal-mixture subdominant"]
+
+\omit Score.TimeSignature \key bf \major \clef "bass" bf,2 d
+^\figures { s2 <6> } | %1
+
+ef,2 f
+^\figures { <6->2 <7> } | %2
+
+bf,1 \bar "||" | %3

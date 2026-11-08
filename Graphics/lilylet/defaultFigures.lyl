@@ -1,61 +1,49 @@
 [title "Default figured-bass figures and functions over the scale"]
 
 \omit Score.TimeSignature \key c \major \clef "bass" c,1
-\addlyrics { "5" }
-\addlyrics { "3" }
+^\figures { <5 3>1 }
 \addlyrics { T1 } | %1
 
 c,1
-\addlyrics { "4" }
-\addlyrics { "2" }
+^\figures { <4 2>1 }
 \addlyrics { S1 } | %2
 
 d,1
-\addlyrics { "6 4 6 6" }
-\addlyrics { "4 3   5" }
+^\figures { <6 4>4 <4 3> <6> <6 5> }
 \addlyrics { D2(p) } | %3
 
 d,1
-\addlyrics { "5 7" }
-\addlyrics { "3  " }
+^\figures { <5 3>2 <7> }
 \addlyrics { S2 } | %4
 
 e,1
-\addlyrics { "6 5" }
-\addlyrics { "  3" }
+^\figures { <6>2 <5 3> }
 \addlyrics { T3 } | %5
 
 f,1
-\addlyrics { "6 6 5 7" }
-\addlyrics { "  5 3  " }
+^\figures { <6>4 <6 5> <5 3> <7> }
 \addlyrics { S4 } | %6
 
 f,1
-\addlyrics { "4" }
-\addlyrics { "2" }
+^\figures { <4 2>1 }
 \addlyrics { D4 } | %7
 
 g1
-\addlyrics { "5 7" }
-\addlyrics { "3  " }
+^\figures { <5 3>2 <7> }
 \addlyrics { D5 } | %8
 
 g1
-\addlyrics { "6" }
-\addlyrics { "4" }
+^\figures { <6 4>1 }
 \addlyrics { T5(p) } | %9
 
 a1
-\addlyrics { "5" }
-\addlyrics { "3" }
+^\figures { <5 3>1 }
 \addlyrics { Tx6 } | %10
 
 a1
-\addlyrics { "6" }
-\addlyrics { _ }
+^\figures { <6>1 }
 \addlyrics { S6 } | %11
 
 b1 \bar "|"
-\addlyrics { "6 6" }
-\addlyrics { "  5" }
+^\figures { <6>2 <6 5> }
 \addlyrics { D7 } | %12

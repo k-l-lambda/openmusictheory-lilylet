@@ -1,0 +1,10 @@
+[title "Cadential 6/4"]
+[staves "{-}"]
+
+\staff "1" \omit Score.TimeSignature \key c \major \clef "treble" \stemUp <c' e>2 <b d> \\
+\staff "1" \stemDown g'2~ g \\
+\staff "2" \clef "bass" g2 g,
+^\figures { <6 4>2 <5 3> } | %1
+
+\staff "1" <e g c>1 \\
+\staff "2" c,1 \bar "|." | %2

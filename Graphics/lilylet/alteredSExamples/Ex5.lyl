@@ -1,0 +1,12 @@
+[title "Altered subdominant, example 5 (B-flat major): French sixth"]
+
+\omit Score.TimeSignature \key bf \major \clef "bass" bf,2 d
+^\figures { s2 <6> } | %1
+
+ef,2 gf
+^\figures { s2 <6+ 4+ 3> } | %2
+
+f,2 f,
+^\figures { <8 6 4>2 <7 5 3> } | %3
+
+bf,1 \bar "||" | %4

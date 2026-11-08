@@ -1,0 +1,23 @@
+[title "Applied chords in a bass line: D7/II, D7/III, D5/V"]
+
+\omit Score.TimeSignature \key g \major \clef "bass" g,2 gs
+^\figures { s2 <6> }
+\addlyrics { "T{(1" "[+])" }
+\addlyrics { _ D7/II } | %1
+
+a,2 as
+^\figures { s2 <6 5 3+> }
+\addlyrics { S2 [D+2] }
+\addlyrics { _ D7/III } | %2
+
+b,2 c
+^\figures { s2 <6> }
+\addlyrics { "3}" S(4 } | %3
+
+a,2 d
+^\figures { <7 _+>2 <7> }
+\addlyrics { "[2])" D5 }
+\addlyrics { D5/V _ } | %4
+
+g,1 \bar "||"
+\addlyrics { T1 } | %5

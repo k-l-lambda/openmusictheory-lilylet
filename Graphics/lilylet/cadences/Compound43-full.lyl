@@ -1,0 +1,10 @@
+[title "Compound cadence (full figures): 8/5/4 – 8/5/3"]
+[staves "{-}"]
+
+\staff "1" \omit Score.TimeSignature \key c \major \clef "treble" \stemUp <c' d>2 <b d> \\
+\staff "1" \stemDown g'2~ g \\
+\staff "2" \clef "bass" g2 g,
+^\figures { <8 5 4>2 <8 5 3> } | %1
+
+\staff "1" <e g c>1 \\
+\staff "2" c,1 \bar "|." | %2
