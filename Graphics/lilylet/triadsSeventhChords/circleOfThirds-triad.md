@@ -7,11 +7,11 @@ Beethoven, Piano Sonata in C minor, Op. 13 ("Pathétique"), II, opening. The two
 [composer "Ludwig van Beethoven"]
 [staves "{-}"]
 
-\staff "1" \key af \major \time 4/4 \partial 2 \tempo "Adagio cantabile" \clef "treble" \stemUp c'4(-.^\markup "1" c-.) \\
+\staff "1" \key af \major \time 4/4 \partial 2 \tempo "Adagio cantabile" \clef "treble" \stemUp c'4(-. c-.) \\
 \staff "1" \stemDown ef2\p \\
 \staff "2" \clef "bass" <af, af'>2( | %1
 
-\staff "1" \stemUp c'4(^\markup "2" bf8.[ af16] af8[ g f g)] \\
+\staff "1" \stemUp c'4( bf8.[ af16)] af8-5[( g f g)] \\
 \staff "1" \stemDown df2 bf4 bf \\
 \staff "2" <bf, f'>2) ef4 <df ef> | %2
 

@@ -1,8 +1,8 @@
 [title "Cadential 6/4 (full figures)"]
 [staves "{-}"]
 
-\staff "1" \omit Score.TimeSignature \key c \major \clef "treble" \stemUp <c' e>2 <b d> \\
-\staff "1" \stemDown g'2 g \\
+\staff "1" \omit Score.TimeSignature \key c \major \clef "treble" \stemUp e'2 d \\
+\staff "1" \stemDown <g' c>2 <g b> \\
 \staff "2" \clef "bass" g2 g,
 ^\figures { <8 6 4>2 <8 5 3> } | %1
 

@@ -1,4 +1,5 @@
 [title "Webern, String Quartet Op. 28: derived row (P₇)"]
 [composer "Anton Webern"]
 
-\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" g'!8[^\markup "P₇" fs^\markup "(01)"_\markup "(0123)" a! gs^\markup "(01)"] c![ df^\markup "(01)"_\markup "(0123)" bf b!^\markup "(01)"] ef,[ d!^\markup "(01)"_\markup "(0123)" f! e!^\markup "(01)"] | %1
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" \stemUp g'!8[^\markup "P₇" fs^\markup "(01)"] a![ gs^\markup "(01)"] c![ df^\markup "(01)"] bf[ b!^\markup "(01)"] ef,[ d!^\markup "(01)"] f![ e!^\markup "(01)"] \\
+\stemDown g'!8[ fs_\markup "(0123)" a! gs] c![ df_\markup "(0123)" bf b!] ef,[ d!_\markup "(0123)" f! e!] | %1

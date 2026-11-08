@@ -1,8 +1,8 @@
 [title "Double cadence: 5/3 – 6/4 – 5/4 – 5/3"]
 [staves "{-}"]
 
-\staff "1" \omit Score.TimeSignature \key c \major \clef "treble" \stemUp <b' d>2 <c e> \\
-\staff "1" \stemDown g'2 g \\
+\staff "1" \omit Score.TimeSignature \key c \major \clef "treble" \stemUp d'2 e \\
+\staff "1" \stemDown <g' b>2 <g c> \\
 \staff "2" \clef "bass" g1~
 ^\figures { <5 3>2 <6 4> } | %1
 
