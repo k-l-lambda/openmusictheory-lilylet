@@ -1,7 +1,7 @@
 [title "Third-inversion seventh chords (4/2)"]
 [staves "{-}"]
 
-\staff "1" \omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" <e g b>1 <f a c>1 <g b d>1 <a c e>1 <b d f>1 <c e g>1 <d f a>1 \\
+\staff "1" \omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" <d f a>1 <e g b>1 <f a c>1 <g b d>1 <a c e>1 <b d f>1 <c e g>1 \\
 \staff "2" \clef "bass" c,1 d1 e1 f1 g1 a1 b1 \undo \omit Score.BarLine \bar "||"
 ^\figures { <4 2>1 <4 2> <4 2> <4 2> <4 2> <4 2> <4 2> }
 \addlyrics { II III IV V VI VII I } | %1

@@ -127,4 +127,4 @@ Notation: see [Reading lilylet score examples](../lilylet-primer.md).
 ## Notes
 
 - The time signature here is C (4/4), as written in the reduction. The source score is ¢.
-- form/standingonV.lyl is the same passage with fingerings. Its bar 14 bass still has the D4 as a dotted half instead of the whole-note dyad fixed in sym40.lyl; reported, not changed here.
+- form/standingonV.lyl is the same passage with fingerings.

@@ -99,11 +99,6 @@ Score example: [Haydn, Hob. XVI:27, III](../examples/05-formal-schemas/haydn27fo
 | **Function** | Applied → Resolution | Applied → Resolution |
 
 **Harmonic Pattern** (in G major):
-- Model: A7 → Dm (V7/ii → ii)
-- Sequence: G7 → C... wait, that's wrong
-- Model: A7 → D... no
-
-**Correct Pattern** (in G major):
 - Model: E7 → Am (V7/ii → ii)
 - Sequence: D7 → G (V7 → I)
 

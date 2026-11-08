@@ -3,4 +3,4 @@
 
 \omit Score.TimeSignature \key c \major \clef "treble" g'!8[^\markup "P₇ —T₈→ P₃" fs_\markup "(6789)" a! gs] c![ df_\markup "[TE01]" bf b!] ef,[ d!_\markup "[2345]" f! e!] \bar "||" | %1
 
-ef8[ d!_\markup "[2345]" f! e!] g![ fs_\markup "[6789]" a! gs] b![ bf_\markup "[TE01]" df c!] \bar "||" | %2
+ef8[ d!_\markup "[2345]" f! e!] gs[ a!_\markup "[6789]" fs g!] b![ bf_\markup "[TE01]" df c!] \bar "||" | %2

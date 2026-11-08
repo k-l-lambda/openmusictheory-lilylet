@@ -21,7 +21,7 @@ Segmental invariance: the same discrete tetrachords appear in two row forms, bec
 ## What to look for
 
 - **Bar 1, P7:** G F♯ A G♯ | C D♭ B♭ B | E♭ D F E. Its discrete tetrachords are (6789), [TE01] and [2345], all (0123).
-- **Bar 2, P3 = *T8*(P7):** in the original, E♭ D F E | G♯ A F♯ G | B B♭ D♭ C, that is P7 with 8 added to every pc. Each tetrachord of P7 maps onto *another* tetrachord of the row: (6789) → [2345], [TE01] → [6789], [2345] → [TE01]. P3's segments are the same three pc sets, in the order [2345] [6789] [TE01].
+- **Bar 2, P3 = *T8*(P7):** E♭ D F E | G♯ A F♯ G | B B♭ D♭ C, that is P7 with 8 added to every pc. Each tetrachord of P7 maps onto *another* tetrachord of the row: (6789) → [2345], [TE01] → [6789], [2345] → [TE01]. P3's segments are the same three pc sets, in the order [2345] [6789] [TE01].
 - **Why they're held invariant:** the tetrachords are related *to each other* by T8, the same relation as between the rows. The original's two T8 arrows show [2345] → [TE01] → (6789). So transposing the whole row by T8 maps the set of tetrachords onto itself.
 - **The page's three-step test:** find equivalent set classes within the row, find their Tn/TnI relation, then apply that operation to the row. This is the topic's *Invariants*.
 
@@ -35,11 +35,10 @@ Segmental invariance: the same discrete tetrachords appear in two row forms, bec
 
 \omit Score.TimeSignature \key c \major \clef "treble" g'!8[^\markup "P₇ —T₈→ P₃" fs_\markup "(6789)" a! gs] c![ df_\markup "[TE01]" bf b!] ef,[ d!_\markup "[2345]" f! e!] \bar "||" | %1
 
-ef8[ d!_\markup "[2345]" f! e!] g![ fs_\markup "[6789]" a! gs] b![ bf_\markup "[TE01]" df c!] \bar "||" | %2
+ef8[ d!_\markup "[2345]" f! e!] gs[ a!_\markup "[6789]" fs g!] b![ bf_\markup "[TE01]" df c!] \bar "||" | %2
 ```
 <!-- score:end -->
 
 ## Notes
 
-- **Transcription error in the score below (reported, source not edited):** in bar 2 the second tetrachord is written `g fs a gs` (G F♯ A G♯, the order of bar 1's first tetrachord). The original, and T8(P7), have **G♯ A F♯ G**. The pc set is the same, so the invariance point holds, but the ordered row in the score is not exactly P3.
 - The original's brackets are written as markup labels under the first note of each tetrachord.
