@@ -1,7 +1,8 @@
 [title "D5 with dropped fifth: D5 T1"]
 [staves "{-}"]
 
-\staff "1" \omit Score.TimeSignature \key g \major \clef "treble" <c' d fs>2 <b d g>
-\addlyrics { 7 _ } \\
+\staff "1" \omit Score.TimeSignature \key g \major \clef "treble" \stemUp fs'2 g \\
+\staff "1" \stemDown <c' d>2 <b d> \\
 \staff "2" \clef "bass" d,2 g, \bar "|."
+^\figures { <7>2 s }
 \addlyrics { D5 T1 } | %1

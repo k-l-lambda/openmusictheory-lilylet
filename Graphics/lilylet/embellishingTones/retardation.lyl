@@ -2,10 +2,9 @@
 [staves "{-}"]
 
 \staff "1" \omit Score.TimeSignature \key c \major \partial 4 \clef "treble" <f b>4
-\addlyrics { 7 } \\
+_\figures { <7>4 } \\
 \staff "2" \clef "bass" g4 | %1
 
 \staff "1" <f b>2 <e c'>4
-\addlyrics { 7 -- 8 }
-\addlyrics { 4 -- 3 } \\
+_\figures { <7 4>2 <8 3>4 } \\
 \staff "2" c,2. \bar "|." | %2

@@ -2,36 +2,31 @@
 [staves "{-}"]
 
 \staff "1" \omit Score.TimeSignature \key g \minor \clef "treble" <ef af c>2
-\addlyrics { ♭6 } \\
+_\figures { <6->2 } \\
 \staff "2" \clef "bass" c,2 \bar "||"
 \addlyrics { N. }
 \addlyrics { [S4] } | %1
 
 \staff "1" <g' cs>2
-\addlyrics { 6̶ } \\
+_\figures { <6+>2 } \\
 \staff "2" ef,2 \bar "||"
 \addlyrics { It. }
 \addlyrics { [S6] } | %2
 
 \staff "1" <g' a cs>2
-\addlyrics { 6̶ }
-\addlyrics { 4 }
-\addlyrics { 3 } \\
+_\figures { <6+ 4 3>2 } \\
 \staff "2" ef,2 \bar "||"
 \addlyrics { Fr. }
 \addlyrics { [S6] } | %3
 
 \staff "1" <g' bf cs>2
-\addlyrics { 6̶ }
-\addlyrics { 5 } \\
+_\figures { <6+ 5>2 } \\
 \staff "2" ef,2 \bar "||"
 \addlyrics { Ger. }
 \addlyrics { [S6] } | %4
 
 \staff "1" \key g \major <g' as cs>2
-\addlyrics { 6̶ }
-\addlyrics { 4̶ }
-\addlyrics { 3 } \\
+_\figures { <6+ 4+ 3>2 } \\
 \staff "2" ef,2 \bar "||"
 \addlyrics { Sw. }
 \addlyrics { [S6] } | %5

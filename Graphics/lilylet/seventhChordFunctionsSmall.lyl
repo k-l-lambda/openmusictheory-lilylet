@@ -1,8 +1,8 @@
 [title "Seventh chords on each scale degree and their functions"]
 [staves "{-}"]
 
-\staff "1" \omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" <e g b>1 <f a c> <g b d> <a c e> <b d f> <c e g> <d f a> \undo \omit Score.BarLine \bar "||"
-\addlyrics { 7 7 7 7 7 7 7 } \\
+\staff "1" \omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" <e g b>1 <f a c> <g b d> <a c e> <b d f> <c e g> <d f a> \undo \omit Score.BarLine \bar "||" \\
 \staff "2" \clef "bass" c,1 d e f g a b
+^\figures { <7>1 <7> <7> <7> <7> <7> <7> }
 \addlyrics { I II III IV V VI VII }
 \addlyrics { T1 S2 * S4 D5 Tx6 D7 } | %1

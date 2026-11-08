@@ -2,29 +2,23 @@
 [staves "{-}"]
 
 \staff "1" \key bf \major \numericTimeSignature \time 2/2 \clef "treble" \stemUp d'2 c \\
-\staff "1" \stemDown <f bf>2 <f a>
-\addlyrics { _ _ }
-\addlyrics { _ 4 }
-\addlyrics { _ 2 } \\
+\staff "1" \stemDown <f bf>2 <f a> \\
 \staff "2" \clef "bass" bf,2 ef
+^\figures { s2 <4 2> }
 \addlyrics { I V }
 \addlyrics { T — } | %1
 
 \staff "1" \stemUp bf'2 bf \\
-\staff "1" \stemDown <f bf>2 ef
-\addlyrics { _ _ }
-\addlyrics { _ _ }
-\addlyrics { 6 6 } \\
+\staff "1" \stemDown <f bf>2 ef \\
 \staff "2" d,2 g
+^\figures { <6>2 <6> }
 \addlyrics { I IV }
 \addlyrics { — S } | %2
 
 \staff "1" \stemUp bf'2 a \\
-\staff "1" \stemDown <d f>2 <c ef>
-\addlyrics { 8 7 }
-\addlyrics { 6 5 }
-\addlyrics { 4 3 } \\
+\staff "1" \stemDown <d f>2 <c ef> \\
 \staff "2" f,2 f,
+^\figures { <8 6 4>2 <7 5 3> }
 \addlyrics { V — }
 \addlyrics { D — } | %3
 

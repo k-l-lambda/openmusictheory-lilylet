@@ -1,7 +1,7 @@
 [title "First-inversion triads (6/3)"]
 [staves "{-}"]
 
-\staff "1" \omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" <e a c>1 <f b d>1 <g c e>1 <a d f>1 <b e g>1 <c f a>1 <d g b>1
-\addlyrics { 6 6 6 6 6 6 6 } \\
+\staff "1" \omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" <e a c>1 <f b d>1 <g c e>1 <a d f>1 <b e g>1 <c f a>1 <d g b>1 \\
 \staff "2" \clef "bass" c,1 d1 e1 f1 g1 a1 b1 \undo \omit Score.BarLine \bar "||"
+^\figures { <6>1 <6> <6> <6> <6> <6> <6> }
 \addlyrics { VI VII I II III IV V } | %1

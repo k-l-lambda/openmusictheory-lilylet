@@ -8,18 +8,16 @@
 \addlyrics { T — } | %1
 
 \staff "1" \stemUp g''2 g \\
-\staff "1" \stemDown <b'! d>2 c
-\addlyrics { 4̶ _ }
-\addlyrics { 2 6 } \\
+\staff "1" \stemDown <b'! d>2 c \\
 \staff "2" f,2 ef
+^\figures { <4+ 2>2 <6> }
 \addlyrics { V i }
 \addlyrics { — — } | %2
 
 \staff "1" \stemUp f'4 ef d2 \\
-\staff "1" \stemDown <af' c>2 <g b!>
-\addlyrics { _ _ }
-\addlyrics { _ ♮ } \\
+\staff "1" \stemDown <af' c>2 <g b!> \\
 \staff "2" f,2 g
+^\figures { s2 <!> }
 \addlyrics { iv V }
 \addlyrics { S D } | %3
 

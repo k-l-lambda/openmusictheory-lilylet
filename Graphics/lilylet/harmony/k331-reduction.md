@@ -37,23 +37,21 @@
 \addlyrics { T }
 \addlyrics { T } | %1
 
-\staff "1" <b' d>2.
-\addlyrics { 6 }
-\addlyrics { 5 } \\
+\staff "1" <b' d>2. \\
 \staff "2" <gs b e>2.
+^\figures { <6 5>2. }
 \addlyrics { V }
 \addlyrics { D } | %2
 
-\staff "1" a'4. b
-\addlyrics { 7 6 } \\
+\staff "1" a'4. b \\
 \staff "2" <fs, e'>4. <gs e'>
+^\figures { <7>4. <6> }
 \addlyrics { vi V }
 \addlyrics { T D } | %3
 
-\staff "1" cs'4 <b d>8 <a cs>4 <gs b>8 \bar "|."
-\addlyrics { _ 6 6 5 }
-\addlyrics { _ _ 4 3 } \\
+\staff "1" cs'4 <b d>8 <a cs>4 <gs b>8 \bar "|." \\
 \staff "2" <a e'>4 d,8 e4.
+^\figures { s4 <6>8 <6 4>4 <5 3>8 }
 \addlyrics { I ii V }
 \addlyrics { T S D }
 \addlyrics { _ S D }

@@ -1,7 +1,8 @@
 [title "Champagne: T(1 S6d 3)"]
 [staves "{-}"]
 
-\staff "1" \omit Score.TimeSignature \key g \major \clef "treble" <d g b>2 <e g c> <d g d'>
-\addlyrics { _ 6 6 } \\
+\staff "1" \omit Score.TimeSignature \key g \major \clef "treble" \stemUp b'2 c d \\
+\staff "1" \stemDown <d g>2 <e g> <d g> \\
 \staff "2" \clef "bass" g2 e b \bar "|."
+^\figures { s2 <6> <6> }
 \addlyrics { T(1 S6d 3) } | %1

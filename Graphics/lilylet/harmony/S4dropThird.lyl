@@ -1,9 +1,8 @@
 [title "S4 with dropped third (good voice leading)"]
 [staves "{-}"]
 
-\staff "1" \omit Score.TimeSignature \key g \major \clef "treble" \stemUp a'2 a g
-\addlyrics { 6 7 _ }
-\addlyrics { 5 _ _ } \\
+\staff "1" \omit Score.TimeSignature \key g \major \clef "treble" \stemUp a'2 a g \\
 \staff "1" \stemDown <c g'>2 <c fs> <b d> \\
 \staff "2" \clef "bass" c,2 d g, \bar "|."
+^\figures { <6 5>2 <7> s }
 \addlyrics { S4 D5 T1 } | %1
