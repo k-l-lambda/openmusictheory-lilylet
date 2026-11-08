@@ -1,7 +1,7 @@
 [title "Deceptive progression: D5 Tx6"]
 [staves "{-}"]
 
-\staff "1" \omit Score.TimeSignature \key g \major \clef "treble" <d fs a>2 <b g'>
- \\
+\staff "1" \omit Score.TimeSignature \key g \major \clef "treble" \stemUp a'2 g \\
+\staff "1" \stemDown <d fs>2 <b g'> \\
 \staff "2" \clef "bass" d,2 e \bar "|."
 \addlyrics { D5 Tx6 } | %1

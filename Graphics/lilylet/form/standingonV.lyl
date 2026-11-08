@@ -2,72 +2,72 @@
 [composer "Wolfgang Amadeus Mozart"]
 [staves "{-}"]
 
-\staff "1" \key bf \major \time 4/4 \tempo "Allegro molto" \clef "treble" \ottava #0 bf'2\rest bf4\rest \stemDown ef8(\p[ d] \\
-\staff "2" \clef "bass" \ottava #0 \stemDown g4 g,\rest g2\rest \\
-\staff "2" \ottava #0 \stemUp bf8[ d bf d] bf[ d bf d] | %1
+\staff "1" \key bf \major \time 4/4 \tempo "Allegro molto" \clef "treble" \ottava #0 bf'2\rest bf4\rest \stemDown ef8-3(\p[ d-2] \\
+\staff "2" \clef "bass" \ottava #0 \stemDown g4_5 g,\rest g2\rest \\
+\staff "2" \ottava #0 \stemUp bf8-3[ d bf d] bf[ d bf d] | %1
 
-\staff "1" \stemDown d'4)-. ef8([ d] d4)-. ef8([ d] \\
+\staff "1" \stemDown d'4-1)-. ef8([ d] d4)-. ef8-3([ d-2] \\
 \staff "2" \stemDown g4 g,\rest g2\rest \\
 \staff "2" \stemUp bf8[ d bf d] bf[ d bf d] | %2
 
-\staff "1" \stemDown d'4() bf') bf,\rest bf'8([ a] \\
+\staff "1" \stemDown d'4-1() bf'-5) bf,\rest bf'8-4([ a] \\
 \staff "2" \stemDown g4 g,\rest g2\rest \\
 \staff "2" \stemUp bf8[ d bf d] bf[ d bf d] | %3
 
-\staff "1" \stemDown g''4)-. g8([ f] ef4)-. ef8([ d] \\
+\staff "1" \stemDown g''4)-. g8-4([ f] ef4)-. ef8-4([ d] \\
 \staff "2" \stemDown g4 g,\rest g2\rest \\
 \staff "2" \stemUp bf8[ d bf d] bf[ d bf d] | %4
 
-\staff "1" \ottava #0 \stemDown c'4)-. c-. bf\rest d8([ c \\
+\staff "1" \ottava #0 \stemDown c'4)-. c-2-. bf\rest d8-3([ c-2 \\
 \staff "2" \ottava #0 \stemDown g4 g,\rest g2\rest \\
-\staff "2" \ottava #0 \stemUp a8[ ef' c ef] a,[ ef' c ef] | %5
+\staff "2" \ottava #0 \stemUp a8-4[ ef'-1 c ef] a,[ ef' c ef] | %5
 
-\staff "1" \stemDown c'4)-. d8([ c)-.] c4 d8([ c \\
+\staff "1" \stemDown c'4-1)-. d8([ c)-.] c4 d8([ c \\
 \staff "2" \stemDown g4 g,\rest g2\rest \\
 \staff "2" \stemUp a8[ ef' c ef] a,[ ef' c ef] | %6
 
-\staff "1" \stemDown c'4() a') bf,\rest a'8([ g] \\
-\staff "2" \stemDown fs,4 g,\rest g2\rest \\
-\staff "2" \stemUp a8[ d c d] a[ d c d] | %7
+\staff "1" \stemDown c'4-1() a'-5) bf,\rest a'8-4([ g] \\
+\staff "2" \stemDown fs,4_5 g,\rest g2\rest \\
+\staff "2" \stemUp a8-4[ d c d] a[ d c d] | %7
 
-\staff "1" \stemDown fs'4)-. fs8([ ef] d4)-. d8([ c] \\
+\staff "1" \stemDown fs'4)-. fs8-4([ ef] d4)-. d8-4([ c] \\
 \staff "2" \stemDown d,4 g,\rest g2\rest \\
-\staff "2" \stemUp a8[ d c d] fs,[ d' a d] | %8
+\staff "2" \stemUp a8-2[ d c-2 d] fs,-5[ d' a d] | %8
 
-\staff "1" \stemDown bf'4)-. bf-. bf\rest bf'8([ a] \\
+\staff "1" \stemDown bf'4)-. bf-1-. bf\rest bf'8-3([ a-2] \\
 \staff "2" \stemDown g2 \stemUp g8[ d' bf d] \\
-\staff "2" \stemUp g8[ d' bf d] \stemDown g,2 | %9
+\staff "2" \stemUp g8-4[ d' bf d] \stemDown g,2 | %9
 
-\staff "1" \stemDown a''4() c fs, a \\
+\staff "1" \stemDown a''4-3() c fs,-2 a \\
 \staff "2" c,1 \\
-\staff "2" \stemUp ef,8[ a fs a] ef[ a fs a] | %10
+\staff "2" \stemUp ef,8-3[ a fs-2 a] ef[ a fs a] | %10
 
-\staff "1" \ottava #0 \stemDown g''4 d) bf\rest bf'8([ a] \\
+\staff "1" \ottava #0 \stemDown g''4-3 d) bf\rest bf'8([ a] \\
 \staff "2" \ottava #0 bf,1 \\
-\staff "2" \ottava #0 \stemUp d,8[ bf' g bf] d,[ bf' g bf] | %11
+\staff "2" \ottava #0 \stemUp d,8-4[ bf' g-2 bf] d,[ bf' g bf] | %11
 
 \staff "1" \stemDown a''4() c fs, a \\
 \staff "2" c,1 \\
 \staff "2" \stemUp ef,8([ a fs a] ef[ a fs a] | %12
 
-\staff "1" \stemDown g''4) s2. \\
-\staff "1" s4 \stemDown bf''4( a8[ g f! ef\p] \\
+\staff "1" \stemDown g''4-2) s2. \\
+\staff "1" s4 \stemDown bf''4( a8[ g-1 f!-4 ef-3\p] \\
 \staff "2" s1 \\
-\staff "2" <bf, d g>1) | %13
+\staff "2" <bf, d g>1-4) | %13
 
 \staff "1" r4 \stemDown <fs fs'>4(\< <g g'> <a a'>\! \\
-\staff "1" d'1) \\
-\staff "2" \stemDown <bf d>2. a4 \\
+\staff "1" d'1-2) \\
+\staff "2" \stemDown <bf d>2.-2 a4-2 \\
 \staff "2" e,1 | %14
 
-\staff "1" \stemDown <bf' cs bf'>4 c'!8\>[ bf] cs,2\! \\
-\staff "1" \stemUp s2 a''4 g \\
-\staff "2" \stemDown <ef, a>2 s2 \\
+\staff "1" \stemDown <bf' cs bf'>4 c'!8-5\>[ bf-4] cs,2\! \\
+\staff "1" \stemUp s2 a''4-1 g-4 \\
+\staff "2" \stemDown <ef, a>2-3 s2 \\
 \staff "2" cs1 \\
-\staff "2" \stemUp s2 fs,4 g | %15
+\staff "2" \stemUp s2 fs,4-4 g | %15
 
-\staff "1" \stemUp fs'4) \stemDown <e g bf cs>2(\sf\> s4 \\
-\staff "2" \stemUp <a d>4 s4 <g bf>2( \\
+\staff "1" \stemUp fs'4-2-3) \stemDown <e g bf cs>2-4(\sf\> s4 \\
+\staff "2" \stemUp <a d>4 s4 <g bf>2-3-2( \\
 \staff "2" \stemDown d,4 r r d8[ d] | %16
 
 \staff "1" \stemDown <fs' a d>4)-.\! bf,\rest <cs cs'>2(\sf\> \\
@@ -84,4 +84,4 @@
 
 \staff "1" \partial 2 \stemDown <d' d'>2) \\
 \staff "2" \stemDown d,2 \\
-\staff "2" \stemUp <fs, a d>2) | %20
+\staff "2" \stemUp <fs, a d>2-3-1) | %20

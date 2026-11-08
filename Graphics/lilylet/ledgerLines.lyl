@@ -1,13 +1,13 @@
 [title "Ledger lines"]
 [staves "{-}"]
 
-\staff "1" \omit Score.TimeSignature \key bf \major \partial 4 \clef "treble" \stemDown d'8.(\p[ ef32 f)] \\
+\staff "1" \omit Score.TimeSignature \key bf \major \partial 4 \clef "treble" \stemDown d'8.(\p-2[ ef32 f)] \\
 \staff "2" \clef "bass" r4 \clef "treble" | %1
 
-\staff "1" \stemDown c'8([ b!] <b af'>^\markup "Ab5"[ <c g'>)] \\
-\staff "2" \stemUp r4 f8([ ef] \\
+\staff "1" \stemDown c'8(-2[ b!] <b af'>^\markup "Ab5"[ <c g'>)-2-5] \\
+\staff "2" \stemUp r4 f8(_1[ ef] \\
 \staff "2" \stemDown g2_\markup "G3"( | %2
 
-\staff "1" \stemDown <d' f>8([ <c ef>)] ef8.(\mf\turn[ f32 g)] \bar "|." \\
+\staff "1" \stemDown <d' f>8(-1-4[ <c ef>)-2-3] ef8.(\mf-3\turn^\markup "4312"[ f32-4 g)] \bar "|." \\
 \staff "2" \stemUp s4 r4 \\
 \staff "2" \stemDown <g b!>8^\markup "B3"[ d')] r4 | %3
