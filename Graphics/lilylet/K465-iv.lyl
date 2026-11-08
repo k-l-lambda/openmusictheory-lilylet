@@ -36,7 +36,7 @@ c4\rest \stemUp g8-.[ g-.] \\\\
 \stemDown e8([ c)] g'[ g] \\\\
 \stemDown g8[ g g g] | %6
 
-\partial 8 \stemDown c'8 \\\\
+\partial 8 \stemDown c'8 \bar "" \\\\
 \stemDown c'8 \\\\
 \stemDown e8 \\\\
 \stemUp c,8 | %7

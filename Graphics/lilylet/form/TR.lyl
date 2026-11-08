@@ -8,13 +8,13 @@
 \staff "1" \stemUp bf'8([ g fs g)] \\
 \staff "2" c,8\rest \stemDown <bf' ef>([ <a c> <g bf>)] | %2
 
-\staff "1" \stemUp <d c'>2\fp \\
+\staff "1" \stemUp <d c'>2\mfp \\
 \staff "2" \stemDown <fs, a>8[ <d fs> <e g> <fs a>] | %3
 
 \staff "1" \stemUp bf'8([ g fs g)] \\
 \staff "2" \stemDown <g bf>8([ <bf d> <a c> <g bf>)] | %4
 
-\staff "1" \stemDown <g' ef'>2\fp \\
+\staff "1" \stemDown <g' ef'>2\mfp \\
 \staff "2" \stemDown c,8[ ef g c] | %5
 
 \staff "1" \stemDown d'8[ fs( g) d(] \\
@@ -32,7 +32,7 @@
 \staff "1" \stemUp bf'8([ g fs g)] \\
 \staff "2" d,8\rest \stemDown <bf' ef>([ <a c> <g bf>)] | %10
 
-\staff "1" \stemUp <d c'>2\fp \\
+\staff "1" \stemUp <d c'>2\mfp \\
 \staff "2" \stemDown <fs, a>8([ <d fs> <e g> <fs a>] | %11
 
 \staff "1" \stemUp bf'8([ g fs g)] \\
