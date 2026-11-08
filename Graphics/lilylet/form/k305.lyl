@@ -30,20 +30,20 @@ b4(_\markup "mfp" cs8) r \\\\
 
 b4(_\markup "mfp" cs8) r \\\\
 \staff "1" \stemUp b'8(\fp[ a32 gs fs e] e'8)-.[ <a, cs>--\f] \\
-\staff "2" \stemDown <d, e gs>4~ <cs e a>8)[ <ds fs>] | %7
+\staff "2" \stemDown <d, e gs>4(~ <cs e a>8)[ <ds fs>] | %7
 
 r4 b8(--[ b)--] \\\\
-\staff "1" \stemUp b'16.([ gs32 fs16. a32] e8[ fs-.] \\
+\staff "1" \stemUp b'16.([ gs32 fs16. a32] e8[ \grace gs8 fs-.] \\
 \staff "1" \stemDown gs'16.[ e32 cs8] b[ ds] \\
 \staff "2" \clef "bass" \stemDown <e, gs>8(--[ <a, a'>--] <b gs'>--[ <b a'>)--] | %8
 
 \partial 4. b4 r8 \bar ":..:" \\\\
-\staff "1" \stemUp e4-- r8 \\
+\staff "1" \stemUp e4--) r8 \\
 \staff "2" \stemUp <e, gs>4 s8 \\
 \staff "2" \stemDown e,8(-.[ b] e,)-. | %9
 
 \partial 8 r8 \\\\
-\staff "1" \grace e'8( \stemUp b16.)\p[ a32-.] \\
+\staff "1" \grace e8( \stemUp b'16.)\p[ a32-.] \\
 \staff "2" r8 | %10
 
 r4 r8 \grace e8( b'16.)\p\<[ a32-.] \\\\
@@ -84,4 +84,4 @@ d16(\p[ cs fs) d-.] cs8-.[ b-.] \\\\
 
 \partial 4. b8([ a)] r \bar ":|." \\\\
 \staff "1" \stemUp <d e gs b>8([ <cs a'>)] r \\
-\staff "2" \stemDown a8[ e-.] a,-- | %20
+\staff "2" \stemDown a8-.[ e-.] a,--) | %20
