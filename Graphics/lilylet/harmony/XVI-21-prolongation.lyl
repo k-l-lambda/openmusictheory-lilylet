@@ -35,6 +35,6 @@
 \addlyrics { S _ D } | %6
 
 \staff "1" \partial 4. \stemDown c'!4)-1-! r8 \\
-\staff "2" r16. c,32([ e16. g32] c8)-!
+\staff "2" r16. c,32([ e16. g32] c8)-! \bar ""
 \addlyrics { _ _ I }
 \addlyrics { _ _ T } | %7
