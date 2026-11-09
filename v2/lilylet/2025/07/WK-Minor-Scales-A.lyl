@@ -1,37 +1,37 @@
 [title "Minor Scales A"]
 [composer "Kyle Gullings and Megan Lavengood"]
 
-\key c \major \time 8/4 \clef "treble" R1 \bar "||" | %1
+\key c \major \time 8/4 \clef "treble" s1.. s4 \bar "||" | %1
 
-\clef "alto" R1 \bar "||" | %2
+\clef "alto" s1.. s4 \bar "||" | %2
 
-\clef "treble" R1 \bar "||" | %3
+\clef "treble" s1.. s4 \bar "||" | %3
 
-\clef "bass" R1 \bar "||" | %4
+\clef "bass" s1.. s4 \bar "||" | %4
 
-\clef "tenor" R1 \bar "||" | %5
+\clef "tenor" s1.. s4 \bar "||" | %5
 
-\clef "treble" R1 \bar "||" | %6
+\clef "treble" s1.. s4 \bar "||" | %6
 
 \numericTimeSignature \time 4/4 g'1_\markup "Fmi: supertonic"^\markup "7" | %7
 
-R1 | %8
+s1 | %8
 
-R1 | %9
+s1 | %9
 
-\clef "alto" R1 | %10
+\clef "alto" s1 | %10
 
-R1 | %11
+s1 | %11
 
-\clef "bass" R1 | %12
+\clef "bass" s1 | %12
 
-R1 | %13
+s1 | %13
 
-R1 | %14
+s1 | %14
 
-\clef "tenor" R1 | %15
+\clef "tenor" s1 | %15
 
-R1 | %16
+s1 | %16
 
 \clef "treble" g'1^\markup "17"_\markup "Emi: ________"_\markup "" | %17
 

@@ -151,3 +151,249 @@ Last updated: August 25, 2025 7:38 pm
 | 130 | XI. Rhythm and Meter | Twentieth-Century Rhythmic Techniques [crosslist] | See chapter in VIII. 20th- and 21st-Century Techniques |
 | 131 | Ear Training Appendix | The Basics of Sight-Singing and Dictation | 1. Solfège and Scale Degree Identification ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2021/10/WK-Basics-of-Sight-Singing-and-Dictation-1.pdf), .[docx](https://viva.pressbooks.pub/app/uploads/sites/12/2021/10/WK-Basics-of-Sight-Singing-and-Dictation-1.docx)) 3. Solfège and Scale Degree Identification in a Melodic Context ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2021/10/WK-Basics-of-Sight-Singing-and-Dictation-2-1.pdf), [.docx](https://viva.pressbooks.pub/app/uploads/sites/12/2021/10/WK-Basics-of-Sight-Singing-and-Dictation-2-1.docx)) [Worksheet playlist](https://open.spotify.com/playlist/2IJiGRYUU2cAnFh3oLamar?si=5ee9b0fb38344ce5) |
 | 132 | Chapters in Development | Graphic Notation and Scores | 1. Composing Graphic Scores ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Composing-Graphic-Scores.pdf), [.docx](https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Composing-Graphic-Scores.docx)). Asks students to compose a graphic score and to provide directions and an explanation. 3. Analyzing Graphic Scores without Instructions (black and white) ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Analyzing-Graphic-Scores-Without-Instructions-1.pdf), [.docx](https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Analyzing-Graphic-Scores-Without-Instructions-1.docx)). Asks students to look at a graphic score with no instructions and to answer questions about it. 5. Analyzing Graphic Scores without Instructions (color) ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Analyzing-Graphic-Scores-Without-Instructions-2.pdf), [.docx](https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Analyzing-Graphic-Scores-Without-Instructions-2.docx)). Asks students to look at a graphic score with no instructions and to answer questions about it. |
+<!-- lilylet-begin: media/2021/10/WK-Reading-Clefs-1.mscz -->
+Lilylet transcription of WK-Reading-Clefs-1.mscz: [WK-Reading-Clefs-1.lyl](../lilylet/2021/10/WK-Reading-Clefs-1.lyl) (120 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2021/10/WK-Reading-Clefs-2.mscz -->
+Lilylet transcription of WK-Reading-Clefs-2.mscz: [WK-Reading-Clefs-2.lyl](../lilylet/2021/10/WK-Reading-Clefs-2.lyl) (120 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2023/08/WK-Reading-Clefs-treble-bass.mscz -->
+Lilylet transcription of WK-Reading-Clefs-treble-bass.mscz: [WK-Reading-Clefs-treble-bass.lyl](../lilylet/2023/08/WK-Reading-Clefs-treble-bass.lyl) (60 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/08/WK-enharmonic-equivalence.mscz -->
+Lilylet transcription of WK-enharmonic-equivalence.mscz: [WK-enharmonic-equivalence.lyl](../lilylet/2025/08/WK-enharmonic-equivalence.lyl) (45 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/08/WK-enharmonic-equivalence-TB.mscz -->
+Lilylet transcription of WK-enharmonic-equivalence-TB.mscz: [WK-enharmonic-equivalence-TB.lyl](../lilylet/2025/08/WK-enharmonic-equivalence-TB.lyl) (45 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2024/08/WK-American-Standard-Pitch-Notation-ASPN.mscz -->
+Lilylet transcription of WK-American-Standard-Pitch-Notation-ASPN.mscz: [WK-American-Standard-Pitch-Notation-ASPN.lyl](../lilylet/2024/08/WK-American-Standard-Pitch-Notation-ASPN.lyl) (120 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2024/08/WK-American-Standard-Pitch-Notation-ASPN-treble-bass.mscz -->
+Lilylet transcription of WK-American-Standard-Pitch-Notation-ASPN-treble-bass.mscz: [WK-American-Standard-Pitch-Notation-ASPN-treble-bass.lyl](../lilylet/2024/08/WK-American-Standard-Pitch-Notation-ASPN-treble-bass.lyl) (60 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2024/06/WK-notating-rhythm-in-simple-meter.mscz -->
+Lilylet transcription of WK-notating-rhythm-in-simple-meter.mscz: [WK-notating-rhythm-in-simple-meter.lyl](../lilylet/2024/06/WK-notating-rhythm-in-simple-meter.lyl) (21 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2024/06/WK-notating-rhythm-in-compound-meter.mscz -->
+Lilylet transcription of WK-notating-rhythm-in-compound-meter.mscz: [WK-notating-rhythm-in-compound-meter.lyl](../lilylet/2024/06/WK-notating-rhythm-in-compound-meter.lyl) (13 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/07/WK-Major-Scales-A.mscz -->
+Lilylet transcription of WK-Major-Scales-A.mscz: [WK-Major-Scales-A.lyl](../lilylet/2025/07/WK-Major-Scales-A.lyl) (25 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/07/WK-Major-Scales-A-TB.mscz -->
+Lilylet transcription of WK-Major-Scales-A-TB.mscz: [WK-Major-Scales-A-TB.lyl](../lilylet/2025/07/WK-Major-Scales-A-TB.lyl) (25 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/07/WK-Major-Key-Signatures-B.mscz -->
+Lilylet transcription of WK-Major-Key-Signatures-B.mscz: [WK-Major-Key-Signatures-B.lyl](../lilylet/2025/07/WK-Major-Key-Signatures-B.lyl) (31 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/07/WK-Major-Scales-B-TB.mscz -->
+Lilylet transcription of WK-Major-Scales-B-TB.mscz: [WK-Major-Scales-B-TB.lyl](../lilylet/2025/07/WK-Major-Scales-B-TB.lyl) (25 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/07/WK-Major-Key-Signatures-A.mscz -->
+Lilylet transcription of WK-Major-Key-Signatures-A.mscz: [WK-Major-Key-Signatures-A.lyl](../lilylet/2025/07/WK-Major-Key-Signatures-A.lyl) (31 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/07/WK-Major-Key-Signatures-A-TB.mscz -->
+Lilylet transcription of WK-Major-Key-Signatures-A-TB.mscz: [WK-Major-Key-Signatures-A-TB.lyl](../lilylet/2025/07/WK-Major-Key-Signatures-A-TB.lyl) (31 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/07/WK-Major-Key-Signatures-B-TB.mscz -->
+Lilylet transcription of WK-Major-Key-Signatures-B-TB.mscz: [WK-Major-Key-Signatures-B-TB.lyl](../lilylet/2025/07/WK-Major-Key-Signatures-B-TB.lyl) (31 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/08/WK-diatonic-modes-A.mscz -->
+Lilylet transcription of WK-diatonic-modes-A.mscz: [WK-diatonic-modes-A.lyl](../lilylet/2025/08/WK-diatonic-modes-A.lyl) (16 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/08/WK-diatonic-modes-B.mscz -->
+Lilylet transcription of WK-diatonic-modes-B.mscz: [WK-diatonic-modes-B.lyl](../lilylet/2025/08/WK-diatonic-modes-B.lyl) (16 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/08/WK-diatonic-modes-B-TB.mscz -->
+Lilylet transcription of WK-diatonic-modes-B-TB.mscz: [WK-diatonic-modes-B-TB.lyl](../lilylet/2025/08/WK-diatonic-modes-B-TB.lyl) (16 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/07/WK-chromatic-scales-A.mscz -->
+Lilylet transcription of WK-chromatic-scales-A.mscz: [WK-chromatic-scales-A.lyl](../lilylet/2025/07/WK-chromatic-scales-A.lyl) (12 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/07/WK-chromatic-scales-A-TB.mscz -->
+Lilylet transcription of WK-chromatic-scales-A-TB.mscz: [WK-chromatic-scales-A-TB.lyl](../lilylet/2025/07/WK-chromatic-scales-A-TB.lyl) (12 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/07/WK-chromatic-scales-B.mscz -->
+Lilylet transcription of WK-chromatic-scales-B.mscz: [WK-chromatic-scales-B.lyl](../lilylet/2025/07/WK-chromatic-scales-B.lyl) (12 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/07/WK-chromatic-scales-B-TB.mscz -->
+Lilylet transcription of WK-chromatic-scales-B-TB.mscz: [WK-chromatic-scales-B-TB.lyl](../lilylet/2025/07/WK-chromatic-scales-B-TB.lyl) (12 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/08/WK-Minor-Key-Signatures-B.mscz -->
+Lilylet transcription of WK-Minor-Key-Signatures-B.mscz: [WK-Minor-Key-Signatures-B.lyl](../lilylet/2025/08/WK-Minor-Key-Signatures-B.lyl) (30 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/08/WK-Minor-Key-Signatures-A.mscz -->
+Lilylet transcription of WK-Minor-Key-Signatures-A.mscz: [WK-Minor-Key-Signatures-A.lyl](../lilylet/2025/08/WK-Minor-Key-Signatures-A.lyl) (30 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/08/WK-Minor-Key-Signatures-A-TB.mscz -->
+Lilylet transcription of WK-Minor-Key-Signatures-A-TB.mscz: [WK-Minor-Key-Signatures-A-TB.lyl](../lilylet/2025/08/WK-Minor-Key-Signatures-A-TB.lyl) (30 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/08/WK-Minor-Key-Signatures-B-TB.mscz -->
+Lilylet transcription of WK-Minor-Key-Signatures-B-TB.mscz: [WK-Minor-Key-Signatures-B-TB.lyl](../lilylet/2025/08/WK-Minor-Key-Signatures-B-TB.lyl) (30 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/07/WK-Intervals-A.mscz -->
+Lilylet transcription of WK-Intervals-A.mscz: [WK-Intervals-A.lyl](../lilylet/2025/07/WK-Intervals-A.lyl) (30 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/07/WK-Intervals-B.mscz -->
+Lilylet transcription of WK-Intervals-B.mscz: [WK-Intervals-B.lyl](../lilylet/2025/07/WK-Intervals-B.lyl) (30 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/07/WK-Intervals-C.mscz -->
+Lilylet transcription of WK-Intervals-C.mscz: [WK-Intervals-C.lyl](../lilylet/2025/07/WK-Intervals-C.lyl) (30 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/07/WK-Intervals-D.mscz -->
+Lilylet transcription of WK-Intervals-D.mscz: [WK-Intervals-D.lyl](../lilylet/2025/07/WK-Intervals-D.lyl) (51 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/07/WK-Intervals-E.mscz -->
+Lilylet transcription of WK-Intervals-E.mscz: [WK-Intervals-E.lyl](../lilylet/2025/07/WK-Intervals-E.lyl) (48 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/07/WK-Ma-Mi-P-Intervals-A.mscz -->
+Lilylet transcription of WK-Ma-Mi-P-Intervals-A.mscz: [WK-Ma-Mi-P-Intervals-A.lyl](../lilylet/2025/07/WK-Ma-Mi-P-Intervals-A.lyl) (30 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/07/WK-Ma-Mi-P-Intervals-B.mscz -->
+Lilylet transcription of WK-Ma-Mi-P-Intervals-B.mscz: [WK-Ma-Mi-P-Intervals-B.lyl](../lilylet/2025/07/WK-Ma-Mi-P-Intervals-B.lyl) (30 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/07/WK-Dim-and-Aug-Intervals-A.mscz -->
+Lilylet transcription of WK-Dim-and-Aug-Intervals-A.mscz: [WK-Dim-and-Aug-Intervals-A.lyl](../lilylet/2025/07/WK-Dim-and-Aug-Intervals-A.lyl) (30 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/07/WK-Dim-and-Aug-Intervals-B.mscz -->
+Lilylet transcription of WK-Dim-and-Aug-Intervals-B.mscz: [WK-Dim-and-Aug-Intervals-B.lyl](../lilylet/2025/07/WK-Dim-and-Aug-Intervals-B.lyl) (30 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/08/WK-Triads-A.mscz -->
+Lilylet transcription of WK-Triads-A.mscz: [WK-Triads-A.lyl](../lilylet/2025/08/WK-Triads-A.lyl) (20 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/08/WK-Triads-B.mscz -->
+Lilylet transcription of WK-Triads-B.mscz: [WK-Triads-B.lyl](../lilylet/2025/08/WK-Triads-B.lyl) (20 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/08/WK-Triads-C.mscz -->
+Lilylet transcription of WK-Triads-C.mscz: [WK-Triads-C.lyl](../lilylet/2025/08/WK-Triads-C.lyl) (20 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/08/WK-Triads-D.mscz -->
+Lilylet transcription of WK-Triads-D.mscz: [WK-Triads-D.lyl](../lilylet/2025/08/WK-Triads-D.lyl) (47 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/08/WK-Seventh-Chords-A.mscz -->
+Lilylet transcription of WK-Seventh-Chords-A.mscz: [WK-Seventh-Chords-A.lyl](../lilylet/2025/08/WK-Seventh-Chords-A.lyl) (20 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/08/WK-Seventh-Chords-B.mscz -->
+Lilylet transcription of WK-Seventh-Chords-B.mscz: [WK-Seventh-Chords-B.lyl](../lilylet/2025/08/WK-Seventh-Chords-B.lyl) (20 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/08/WK-Seventh-Chords-C.mscz -->
+Lilylet transcription of WK-Seventh-Chords-C.mscz: [WK-Seventh-Chords-C.lyl](../lilylet/2025/08/WK-Seventh-Chords-C.lyl) (20 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/08/WK-Seventh-Chords-D.mscz -->
+Lilylet transcription of WK-Seventh-Chords-D.mscz: [WK-Seventh-Chords-D.lyl](../lilylet/2025/08/WK-Seventh-Chords-D.lyl) (53 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/07/WK-Triad-Inversion.mscz -->
+Lilylet transcription of WK-Triad-Inversion.mscz: [WK-Triad-Inversion.lyl](../lilylet/2025/07/WK-Triad-Inversion.lyl) (20 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/07/WK-Seventh-Chord-Inversion.mscz -->
+Lilylet transcription of WK-Seventh-Chord-Inversion.mscz: [WK-Seventh-Chord-Inversion.lyl](../lilylet/2025/07/WK-Seventh-Chord-Inversion.lyl) (20 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2021/10/WK-Roman-Numerals-1.mscz -->
+Lilylet transcription of WK-Roman-Numerals-1.mscz: [WK-Roman-Numerals-1.lyl](../lilylet/2021/10/WK-Roman-Numerals-1.lyl) (7 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2021/10/WK-Roman-Numerals-2.mscz -->
+Lilylet transcription of WK-Roman-Numerals-2.mscz: [WK-Roman-Numerals-2.lyl](../lilylet/2021/10/WK-Roman-Numerals-2.lyl) (10 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2021/10/WK-Roman-Numerals-3.mscz -->
+Lilylet transcription of WK-Roman-Numerals-3.mscz: [WK-Roman-Numerals-3.lyl](../lilylet/2021/10/WK-Roman-Numerals-3.lyl) (10 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2023/08/WK-Roman-numerals.mscz -->
+Lilylet transcription of WK-Roman-numerals.mscz: [WK-Roman-numerals.lyl](../lilylet/2023/08/WK-Roman-numerals.lyl) (42 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2021/10/WK-Inversion-and-Figured-Bass-1.mscz -->
+Lilylet transcription of WK-Inversion-and-Figured-Bass-1.mscz: [WK-Inversion-and-Figured-Bass-1.lyl](../lilylet/2021/10/WK-Inversion-and-Figured-Bass-1.lyl) (20 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2021/10/WK-Inversion-and-Figured-Bass-2.mscz -->
+Lilylet transcription of WK-Inversion-and-Figured-Bass-2.mscz: [WK-Inversion-and-Figured-Bass-2.lyl](../lilylet/2021/10/WK-Inversion-and-Figured-Bass-2.lyl) (20 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/04/WK-16th-century-contraputal-style.mscz -->
+Lilylet transcription of WK-16th-century-contraputal-style.mscz: [WK-16th-century-contraputal-style.lyl](../lilylet/2025/04/WK-16th-century-contraputal-style.lyl) (111 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2021/07/WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Brief-Melody-only-Sentences.mscx -->
+Lilylet transcription of WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Brief-Melody-only-Sentences.mscx: [WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Brief-Melody-only-Sentences.lyl](../lilylet/2021/07/WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Brief-Melody-only-Sentences.lyl) (12 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2021/07/WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Fully-realized-Sentences.mscx -->
+Lilylet transcription of WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Fully-realized-Sentences.mscx: [WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Fully-realized-Sentences.lyl](../lilylet/2021/07/WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Fully-realized-Sentences.lyl) (17 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2023/09/binary-form-assignment-1-model-composition.mscz -->
+Lilylet transcription of binary-form-assignment-1-model-composition.mscz: [binary-form-assignment-1-model-composition.lyl](../lilylet/2023/09/binary-form-assignment-1-model-composition.lyl) (24 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2023/08/WK-Introduction-to-Harmon-Cadences-and-Phrase-Endings-2.mscz -->
+Lilylet transcription of WK-Introduction-to-Harmon-Cadences-and-Phrase-Endings-2.mscz: [WK-Introduction-to-Harmon-Cadences-and-Phrase-Endings-2.lyl](../lilylet/2023/08/WK-Introduction-to-Harmon-Cadences-and-Phrase-Endings-2.lyl) (52 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2025/01/WK-embellishing-tones.mscz -->
+Lilylet transcription of WK-embellishing-tones.mscz: [WK-embellishing-tones.lyl](../lilylet/2025/01/WK-embellishing-tones.lyl) (34 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2021/05/Emilie_Mayer__Abendglocken__No._1_from_2_Gesange_mm._13-21.mscz -->
+Lilylet transcription of Emilie_Mayer__Abendglocken__No._1_from_2_Gesange_mm._13-21.mscz: [Emilie_Mayer__Abendglocken__No._1_from_2_Gesange_mm._13-21.lyl](../lilylet/2021/05/Emilie_Mayer__Abendglocken__No._1_from_2_Gesange_mm._13-21.lyl) (9 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2021/05/Six_Concertante_Quartets_No._4_II_mm._54-61.mscz -->
+Lilylet transcription of Six_Concertante_Quartets_No._4_II_mm._54-61.mscz: [Six_Concertante_Quartets_No._4_II_mm._54-61.lyl](../lilylet/2021/05/Six_Concertante_Quartets_No._4_II_mm._54-61.lyl) (8 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2020/10/WK-Applied-Chords-B.mscz -->
+Lilylet transcription of WK-Applied-Chords-B.mscz: [WK-Applied-Chords-B.lyl](../lilylet/2020/10/WK-Applied-Chords-B.lyl) (35 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2023/02/WK-Applied-Chords-C.mscz -->
+Lilylet transcription of WK-Applied-Chords-C.mscz: [WK-Applied-Chords-C.lyl](../lilylet/2023/02/WK-Applied-Chords-C.lyl) (47 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2024/10/1-assignment6-enharmonic-reinterpretation.mscz -->
+Lilylet transcription of 1-assignment6-enharmonic-reinterpretation.mscz: [1-assignment6-enharmonic-reinterpretation.lyl](../lilylet/2024/10/1-assignment6-enharmonic-reinterpretation.lyl) (21 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2021/09/WK-neo-riemannian.mscz -->
+Lilylet transcription of WK-neo-riemannian.mscz: [WK-neo-riemannian.lyl](../lilylet/2021/09/WK-neo-riemannian.lyl) (49 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2019/07/WK-neo-riemannian-composing.mscz -->
+Lilylet transcription of WK-neo-riemannian-composing.mscz: [WK-neo-riemannian-composing.lyl](../lilylet/2019/07/WK-neo-riemannian-composing.lyl) (33 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2022/07/WK-swing-rhythms.mscz -->
+Lilylet transcription of WK-swing-rhythms.mscz: [WK-swing-rhythms.lyl](../lilylet/2022/07/WK-swing-rhythms.lyl) (48 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2021/07/WK-Chord-Symbols.mscz -->
+Lilylet transcription of WK-Chord-Symbols.mscz: [WK-Chord-Symbols.lyl](../lilylet/2021/07/WK-Chord-Symbols.lyl) (50 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2021/07/WK-Chord-Symbols-with-Extensions.mscz -->
+Lilylet transcription of WK-Chord-Symbols-with-Extensions.mscz: [WK-Chord-Symbols-with-Extensions.lyl](../lilylet/2021/07/WK-Chord-Symbols-with-Extensions.lyl) (40 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2019/08/WK-voicing.mscz -->
+Lilylet transcription of WK-voicing.mscz: [WK-voicing.lyl](../lilylet/2019/08/WK-voicing.lyl) (40 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2024/01/embellishing-chords.mscz -->
+Lilylet transcription of embellishing-chords.mscz: [embellishing-chords.lyl](../lilylet/2024/01/embellishing-chords.lyl) (59 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2024/01/substitutions.mscz -->
+Lilylet transcription of substitutions.mscz: [substitutions.lyl](../lilylet/2024/01/substitutions.lyl) (43 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2019/08/WK-12-bar-blues.mscz -->
+Lilylet transcription of WK-12-bar-blues.mscz: [WK-12-bar-blues.lyl](../lilylet/2019/08/WK-12-bar-blues.lyl) (84 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2023/01/WK-12-bar-blues-no-jazz.mscz -->
+Lilylet transcription of WK-12-bar-blues-no-jazz.mscz: [WK-12-bar-blues-no-jazz.lyl](../lilylet/2023/01/WK-12-bar-blues-no-jazz.lyl) (60 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2019/08/WK-Blues_Scales.mscz -->
+Lilylet transcription of WK-Blues_Scales.mscz: [WK-Blues_Scales.lyl](../lilylet/2019/08/WK-Blues_Scales.lyl) (21 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2019/08/WK-improv.mscz -->
+Lilylet transcription of WK-improv.mscz: [WK-improv.lyl](../lilylet/2019/08/WK-improv.lyl) (24 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2023/06/WK-modal-schemas_Reharmonization.mscz -->
+Lilylet transcription of WK-modal-schemas_Reharmonization.mscz: [WK-modal-schemas_Reharmonization.lyl](../lilylet/2023/06/WK-modal-schemas_Reharmonization.lyl) (49 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2023/01/WK-fragile-absent-emergent.mscz -->
+Lilylet transcription of WK-fragile-absent-emergent.mscz: [WK-fragile-absent-emergent.lyl](../lilylet/2023/01/WK-fragile-absent-emergent.lyl) (26 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2021/08/WK-Pitch-and-Pitch-Class.mscz -->
+Lilylet transcription of WK-Pitch-and-Pitch-Class.mscz: [WK-Pitch-and-Pitch-Class.lyl](../lilylet/2021/08/WK-Pitch-and-Pitch-Class.lyl) (27 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2023/07/WK-atonal-analysis-using-pc-sets.mscz -->
+Lilylet transcription of WK-atonal-analysis-using-pc-sets.mscz: [WK-atonal-analysis-using-pc-sets.lyl](../lilylet/2023/07/WK-atonal-analysis-using-pc-sets.lyl) (6 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2020/02/WK-Diatonic-Modes-Identification.mscz -->
+Lilylet transcription of WK-Diatonic-Modes-Identification.mscz: [WK-Diatonic-Modes-Identification.lyl](../lilylet/2020/02/WK-Diatonic-Modes-Identification.lyl) (42 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2020/01/WK-Collections.mscz -->
+Lilylet transcription of WK-Collections.mscz: [WK-Collections.lyl](../lilylet/2020/01/WK-Collections.lyl) (8 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2024/06/WK-Grouping-Dissonance-Composition-Exercise.mscz -->
+Lilylet transcription of WK-Grouping-Dissonance-Composition-Exercise.mscz: [WK-Grouping-Dissonance-Composition-Exercise.lyl](../lilylet/2024/06/WK-Grouping-Dissonance-Composition-Exercise.lyl) (23 bars).
+<!-- lilylet-end -->

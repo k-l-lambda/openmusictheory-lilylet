@@ -204,9 +204,159 @@ You can practice identifying seventh chords with the following exercise:
 > Assignments
 
 1. Seventh Chords A ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-Seventh-Chords-A.pdf), [.mscz](../media/2025/08/WK-Seventh-Chords-A.mscz)). Asks students to identify 10 root-position closed-spacing chords with a chord symbol and write 10 chords in root position from a chord symbol. Includes C clefs.
+   <!-- lilylet-begin: media/2025/08/WK-Seventh-Chords-A.mscz -->
+   Lilylet transcription of WK-Seventh-Chords-A.mscz ([WK-Seventh-Chords-A.lyl](../lilylet/2025/08/WK-Seventh-Chords-A.lyl)):
+
+   ```lyl.play
+   [title "Seventh Chords A"]
+   [subtitle "Seventh Chords A"]
+   [composer "Kyle Gullings and Samuel Brady"]
+
+   \key c \major \clef "treble" <g' b d fs>1 \chords "Gma7" \bar "||" | %1
+
+   \clef "bass" <f,, af c ef>1 \bar "||" | %2
+
+   \clef "treble" <cs e g bf>1 \bar "||" | %3
+
+   <e gs b d>1 \bar "||" | %4
+
+   \clef "bass" <b, d fs a>1 \bar "||" | %5
+
+   <a, c ef gf>1 \bar "||" | %6
+
+   \clef "treble" <gs' b d f>1 \bar "||" | %7
+
+   <b' d f a>1 \bar "||" | %8
+
+   \clef "alto" <g b d fs>1 \bar "||" | %9
+
+   \clef "bass" <fs,, a cs e>1 \bar "||" | %10
+
+   <bf, d f af>1 \chords "Bb7" \bar "||" | %11
+
+   \clef "treble" s1 \chords "Dma7" \bar "||" | %12
+
+   s1 \chords "G#ø7" \bar "||" | %13
+
+   \clef "tenor" s1 \chords "Cmi7" \bar "||" | %14
+
+   \clef "bass" s1 \chords "B°7" \bar "||" | %15
+
+   \clef "treble" s1 \chords "Ebma7" \bar "||" | %16
+
+   \clef "alto" s1 \chords "A°7" \bar "||" | %17
+
+   \clef "treble" s1 \chords "Fmi7" \bar "||" | %18
+
+   \clef "bass" s1 \chords "Ab7" \bar "||" | %19
+
+   \clef "treble" s1 \chords "Dbø7" \bar "||" | %20
+   ```
+   <!-- lilylet-end -->
 2. Seventh Chords B ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-Seventh-Chords-B.pdf), [.mscz](../media/2025/08/WK-Seventh-Chords-B.mscz)). Asks students to identify 10 root-position closed-spacing chords with a chord symbol and write 10 chords in root position from a chord symbol. Includes C clefs.
+   <!-- lilylet-begin: media/2025/08/WK-Seventh-Chords-B.mscz -->
+   Lilylet transcription of WK-Seventh-Chords-B.mscz ([WK-Seventh-Chords-B.lyl](../lilylet/2025/08/WK-Seventh-Chords-B.lyl)):
+
+   ```lyl.play
+   [title "Seventh Chords B"]
+   [subtitle "Seventh Chords B"]
+   [composer "Kyle Gullings and Samuel Brady"]
+
+   \key c \major \clef "bass" <d, f a c>1 \chords "Dmi7" \bar "||" | %1
+
+   \clef "treble" <e gs b d>1 \bar "||" | %2
+
+   <b' ds fs a>1 \bar "||" | %3
+
+   \clef "bass" <g, bf df f>1 \bar "||" | %4
+
+   \clef "alto" <fs, as cs es>1 \bar "||" | %5
+
+   \clef "treble" <ef gf bff df>1 \bar "||" | %6
+
+   <fs a c ef>1 \bar "||" | %7
+
+   \clef "tenor" <f, a c e>1 \bar "||" | %8
+
+   \clef "bass" <c, e g bf>1 \bar "||" | %9
+
+   <a, c ef gf>1 \bar "||" | %10
+
+   \clef "treble" <b ds fs a>1 \chords "B7" \bar "||" | %11
+
+   \clef "alto" s1 \chords "A°7" \bar "||" | %12
+
+   \clef "treble" s1 \chords "D7" \bar "||" | %13
+
+   \clef "bass" s1 \chords "Abma7" \bar "||" | %14
+
+   s1 \chords "Emi7" \bar "||" | %15
+
+   \clef "treble" s1 \chords "Gø7" \bar "||" | %16
+
+   \clef "tenor" s1 \chords "Cmi7" \bar "||" | %17
+
+   \clef "treble" s1 \chords "Bbma7" \bar "||" | %18
+
+   \clef "bass" s1 \chords "C#ø7" \bar "||" | %19
+
+   \clef "treble" s1 \chords "F°7" \bar "||" | %20
+   ```
+   <!-- lilylet-end -->
 3. Seventh Chords C ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-Seventh-Chords-C.pdf), [.mscz](../media/2025/08/WK-Seventh-Chords-C.mscz)). Asks students to identify 10 root-position closed-spacing chords with a chord symbol and write 10 chords in root position from a chord symbol. Includes C clefs.
+   <!-- lilylet-begin: media/2025/08/WK-Seventh-Chords-C.mscz -->
+   Lilylet transcription of WK-Seventh-Chords-C.mscz ([WK-Seventh-Chords-C.lyl](../lilylet/2025/08/WK-Seventh-Chords-C.lyl)):
+
+   ```lyl.play
+   [title "Seventh Chords C"]
+   [subtitle "Seventh Chords C"]
+   [composer "Kyle Gullings and Samuel Brady"]
+
+   \key c \major \clef "bass" <a, cs e g>1 \chords "A7" \bar "||" | %1
+
+   \clef "treble" <g' bf df f>1 \bar "||" | %2
+
+   <fs a c e>1 \bar "||" | %3
+
+   \clef "bass" <b, d f af>1 \bar "||" | %4
+
+   \clef "treble" <b ds fs as>1 \bar "||" | %5
+
+   \clef "tenor" <e, g b d>1 \bar "||" | %6
+
+   \clef "bass" <a, cs e g>1 \bar "||" | %7
+
+   \clef "alto" <d, f af cf>1 \bar "||" | %8
+
+   \clef "bass" <e,, g bf d>1 \bar "||" | %9
+
+   \clef "treble" <g' bf d f>1 \bar "||" | %10
+
+   \clef "bass" <ds, fs a c>1 \chords "D#°7" \bar "||" | %11
+
+   \clef "treble" s1 \chords "Cma7" \bar "||" | %12
+
+   s1 \chords "G#7" \bar "||" | %13
+
+   \clef "tenor" s1 \chords "Ebø7" \bar "||" | %14
+
+   \clef "bass" s1 \chords "B°7" \bar "||" | %15
+
+   \clef "treble" s1 \chords "Bmi7" \bar "||" | %16
+
+   \clef "alto" s1 \chords "F7" \bar "||" | %17
+
+   \clef "treble" s1 \chords "F#ma7" \bar "||" | %18
+
+   \clef "bass" s1 \chords "Abmi7" \bar "||" | %19
+
+   \clef "treble" s1 \chords "C#°7" \bar "||" | %20
+   ```
+   <!-- lilylet-end -->
 4. Seventh Chords D ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-Seventh-Chords-D.pdf), [.mscz](../media/2025/08/WK-Seventh-Chords-D.mscz)). Treble and bass clefs only. Asks students to identify 20 root-position closed-spacing chords with a chord symbol, write 20 chords in root position from a chord symbol, and identify chords by chord symbol in a short piano-and-voice excerpt.
+   <!-- lilylet-begin: media/2025/08/WK-Seventh-Chords-D.mscz -->
+   Lilylet transcription of WK-Seventh-Chords-D.mscz: [WK-Seventh-Chords-D.lyl](../lilylet/2025/08/WK-Seventh-Chords-D.lyl) (53 bars).
+   <!-- lilylet-end -->
 
 ### Media Attributions
 

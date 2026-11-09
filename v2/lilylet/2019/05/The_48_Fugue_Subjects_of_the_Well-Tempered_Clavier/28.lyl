@@ -4,7 +4,7 @@
 [staves "s1,s2"]
 
 \key e \major \time 12/16 \clef "bass" \stemUp cs,16^\markup "BWV 873"[ bs cs] ds[ cs ds] gs,[ as bs] cs[ ds e] \\\
-\clef "bass" R1 | %1
+\clef "bass" s2. | %1
 
 \stemDown fs,16[ e fs] ds[ gs fs] \stemNeutral e8 \bar "|." \\\
-R2 \bar "|." | %2
+s2. \bar "|." | %2

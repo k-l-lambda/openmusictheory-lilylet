@@ -167,6 +167,30 @@ Why do some of these modes keep cropping up in different contexts? Again, that�
 > Assignments
 
 1. Worksheet on collections (.[pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2020/01/WK-Collections.pdf), .[mscz](../media/2020/01/WK-Collections.mscz)). Asks students to spell one example of each of the collections from this chapter.
+   <!-- lilylet-begin: media/2020/01/WK-Collections.mscz -->
+   Lilylet transcription of WK-Collections.mscz ([WK-Collections.lyl](../lilylet/2020/01/WK-Collections.lyl)):
+
+   ```lyl.play
+   [title "WK Collections"]
+   [subtitle "Collections"]
+
+   \key c \major \time 10/4 \clef "bass" fs,,4^\markup "1"^\markup "F♯ pentatonic (major)" s s2 s \bar "||" | %1
+
+   a,4^\markup "2"^\markup "A minor pentatonic" s s2 s \bar "||" | %2
+
+   e,,4^\markup "3"^\markup "WT0" s s2 s s4 \bar "||" | %3
+
+   d,,4^\markup "4"^\markup "OCT1,2" s s2 s s s4 \bar "||" | %4
+
+   \clef "treble" a'4^\markup "5"^\markup "HEX0,1" s s2 s s4 \bar "||" | %5
+
+   d4^\markup "6"^\markup "D acoustic" s s2 s s \bar "||" | %6
+
+   f4^\markup "7"^\markup "Messiaen's Mode 5" s s2 s s \bar "||" | %7
+
+   g'4^\markup "8"^\markup "A collection that alternates semitones and perfect fourths" s s2 s4 \bar "||" | %8
+   ```
+   <!-- lilylet-end -->
 2. Analyze Lili Boulanger’s resplendent *Hymne au Soleil*. Identify [modes](08-diatonic-modes.md) and collections used, along with related techniques. Scores can be found on [IMSLP](https://imslp.org/wiki/Hymne_au_soleil_(Boulanger%2C_Lili)) and [MuseScore](https://musescore.com/markpearse/hymn-au-soleil). Both include the original French text and an English translation in the underlay.
 
 ---

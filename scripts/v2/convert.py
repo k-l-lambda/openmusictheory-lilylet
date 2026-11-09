@@ -444,6 +444,10 @@ def main():
     lines += ['- [Glossary](glossary.md)', '']
     (OUT / 'README.md').write_text('\n'.join(lines), encoding='utf-8')
     print(f'v2: {len(out)} markdown files, {len(available)} media files ({len(missing)} not downloadable), {len(mats)} material entries')
+    # The chapters were just rewritten: put the lilylet transcriptions back (scripts/v2/embed.py).
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import embed
+    embed.run()
 
 
 def write_materials_md(mats, missing, entries, part_dirs):

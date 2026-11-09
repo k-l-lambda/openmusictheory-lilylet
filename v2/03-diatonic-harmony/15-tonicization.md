@@ -170,7 +170,87 @@ Example 12. A summary of how diatonic triads may be altered chromatically to ge
 1. Applied chords worksheet, available in three slightly different versions:
 	1. Version A ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2019/05/WK-Applied-Chords-A.pdf), [.mscx](https://viva.pressbooks.pub/app/uploads/sites/12/2019/05/WK-Applied-Chords-A.mscx)). Asks students to identify and write applied V, V<sup>7</sup>, vii<sup>o</sup>, vii<sup>o</sup><sup>7</sup>, and vii<sup>∅7</sup>chords with Roman numerals and figures.
 	2. Version B—without ∅7s (.[pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2020/10/WK-Applied-Chords-B.pdf), .[mscz](../media/2020/10/WK-Applied-Chords-B.mscz)). Asks students to identify and write applied V, V<sup>7</sup>, vii<sup>o</sup>, and vii<sup>o</sup><sup>7</sup> chords with Roman numerals and figures.
+       <!-- lilylet-begin: media/2020/10/WK-Applied-Chords-B.mscz -->
+       Lilylet transcription of WK-Applied-Chords-B.mscz ([WK-Applied-Chords-B.lyl](../lilylet/2020/10/WK-Applied-Chords-B.lyl)):
+
+       ```lyl.play
+       [title "WK Applied Chords B"]
+
+       \key bf \major \numericTimeSignature \time 4/4 \clef "treble" <gf' a c ef>1_\markup "Gm:" \chords "___________" \bar "||" | %1
+
+       \key af \major <f af bf d>1_\markup "A♭:" \chords "___________" \bar "||" | %2
+
+       \key d \major <as' cs e g>1_\markup "D:" \chords "___________" \bar "||" | %3
+
+       \key f \major <d f af b>1_\markup "F:" \chords "___________" \bar "||" | %4
+
+       \key a \major <e fs as cs>1_\markup "A:" \chords "___________" \bar "||" | %5
+
+       \key bf \major \clef "bass" <b, d f af>1_\markup "B♭:" \chords "___________" \bar "||" | %6
+
+       \key d \major <cs, e fs as>1_\markup "D:" \chords "___________" \bar "||" | %7
+
+       \key c \major <a, b ds fs>1_\markup "Am:" \chords "___________" \bar "||" | %8
+
+       \key f \major <a, c ef gf>1_\markup "Dm:" \chords "___________" \bar "||" | %9
+
+       \key df \major <aff, bf d f>1_\markup "D♭:" \chords "___________" \bar "||" | %10
+
+       \key e \major \clef "treble" s1 \chords "V65/vi" \bar "||" | %11
+
+       \key f \major s1 \chords "vii°6/iv" \bar "||" | %12
+
+       \key b \major s1 \chords "V/iii" \bar "||" | %13
+
+       \key e \major s1 \chords "V42/V" \bar "||" | %14
+
+       \key bf \major s1 \chords "vii°7/VII" \bar "||" | %15
+
+       \key ef \major \clef "bass" s1 \chords "vii°6/ii" \bar "||" | %16
+
+       \key g \major s1 \chords "V43/vi" \bar "||" | %17
+
+       \key af \major s1 \chords "vii°65/VI" \bar "||" | %18
+
+       \key d \major s1 \chords "V7/III" \bar "||" | %19
+
+       \key a \major s1 \chords "V6/IV" \bar "||" | %20
+
+       \key f \major \clef "treble" s1 \chords "Dm" | %21
+
+       s1 \chords "A7/E" | %22
+
+       s1 \chords "Dm/F" | %23
+
+       s1 \chords "Gm/Bb" | %24
+
+       s1 \chords "Dm/A" | %25
+
+       s1 \chords "A/G" | %26
+
+       s1 \chords "D7/F#" | %27
+
+       s1 \chords "Gm" | %28
+
+       s1 \chords "G#°7/B" | %29
+
+       s1 \chords "A" | %30
+
+       s1 \chords "A°7/C" | %31
+
+       s1 \chords "Bb/D" | %32
+
+       s1 \chords "E7" | %33
+
+       s1 \chords "A7" | %34
+
+       s1 \chords "Dm" \bar "|." | %35
+       ```
+       <!-- lilylet-end -->
 	3. Version C—jazz/pop focus (.[pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2023/02/WK-Applied-Chords-C.pdf), .[mscz](../media/2023/02/WK-Applied-Chords-C.mscz)). No ∅7s or figured bass; all chords in root position. Students identify and write chord symbols in addition to notation.
+       <!-- lilylet-begin: media/2023/02/WK-Applied-Chords-C.mscz -->
+       Lilylet transcription of WK-Applied-Chords-C.mscz: [WK-Applied-Chords-C.lyl](../lilylet/2023/02/WK-Applied-Chords-C.lyl) (47 bars).
+       <!-- lilylet-end -->
 2. Tonicization Voice Leading and Score Analysis ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2021/07/WK-Tonicization.pdf), [.docx](https://viva.pressbooks.pub/app/uploads/sites/12/2021/07/WK-Tonicization.docx)). Asks students to write from Roman numerals and figured bass, write from a longer figured bass, and analyze a complete piece with discussion questions.
 
 ### Media Attributions

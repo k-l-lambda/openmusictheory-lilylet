@@ -3,540 +3,540 @@
 [composer "J. S. Bach"]
 [staves "s1,s2"]
 
-\key c \major \time 4/4 \clef "treble" r8 \stemUp c^\markup "BWV 846"^\markup "(Book 1)"[ d e] f8.[ g32 f] e8[ a] \\\
-\clef "treble" R1 | %1
+\key c \major \time 4/4 \clef "treble" r8 \stemUp c[ d e] f8.[ g32 f] e8[ a] \\\
+\clef "treble" s1 | %1
 
 \stemUp d8[ g~] g16[ a g f] \stemNeutral e8 \bar "|." \\\
-R2 \bar "|." | %2
+s1 \bar "|." | %2
 
-\key ef \major r8 \stemDown c'16^\markup "BWV 847"[ b] \stemUp c8[ g] \stemDown af[ c16 b] c8[ d] \\\
-R1 | %3
+\key ef \major r8 \stemDown c'16[ b] \stemUp c8[ g] \stemDown af[ c16 b] c8[ d] \\\
+s1 | %3
 
 \stemUp g'8[ c16 b] \stemDown c8[ d] \stemUp f,16[ g] af4 g16[ f] \\\
-R1 | %4
+s1 | %4
 
 ef8 \bar "|." \\\
-R8 \bar "|." | %5
+s1 \bar "|." | %5
 
-\key cs \major r4 r8 \stemUp gs'^\markup "BWV 848" as16[ gs fs gs] \stemDown es'8[ cs] \\\
-R1 | %6
+\key cs \major r4 r8 \stemUp gs' as16[ gs fs gs] \stemDown es'8[ cs] \\\
+s1 | %6
 
 \stemUp gs'8[ fs16 es] fs8[ ds'] es,[ cs' ds, bs'] \\\
-R1 | %7
+s1 | %7
 
 \stemUp cs8[ cs'16 bs] \stemNeutral cs8 \bar "|." \\\
-R2 \bar "|." | %8
+s1 \bar "|." | %8
 
 \key e \major \time 2/2 \clef "bass" cs,1^\markup "BWV 849" \\\
-\clef "bass" R1 | %9
+\clef "bass" s1 | %9
 
 \stemUp bs,2 \stemDown e \\\
-R1 | %10
+s1 | %10
 
 ds,1 \\\
-R1 | %11
+s1 | %11
 
 cs,4 \bar "|." \\\
-r4 \bar "|." | %12
+s4 \bar "|." | %12
 
-\key d \major \time 4/4 r4 \stemDown d,32^\markup "BWV 850"[ e fs g fs e fs d] b'8.[ b16] a8.[ g16] \\\
-R1 | %13
+\key d \major \time 4/4 r4 \stemDown d,32[ e fs g fs e fs d] b'8.[ b16] a8.[ g16] \\\
+s1 | %13
 
 fs,4 \bar "|." \\\
-R4 \bar "|." | %14
+s1 \bar "|." | %14
 
-\key f \major \time 3/4 \clef "treble" r8 \stemUp d^\markup "BWV 851" e[ f] g[ e] \\\
-\clef "treble" R1 | %15
+\key f \major \time 3/4 \clef "treble" r8 \stemUp d e[ f] g[ e] \\\
+\clef "treble" s2. | %15
 
 \stemUp f16[ d( cs d)] \stemDown bf'4 \stemUp g \\\
-R1 | %16
+s2. | %16
 
 a'8 \bar "|." \\\
-R8 \bar "|." | %17
+s2. \bar "|." | %17
 
 \key ef \major \time 4/4 \stemUp bf'16^\markup "BWV 852"[ g f g] ef[ af g af] \stemDown c8[ bf] r \stemUp a16[ f] \\\
-R1 | %18
+s1 | %18
 
 \stemDown ef'8[ d] c4 bf16[ f' d bf] af[ f' d af] \\\
-R1 | %19
+s1 | %19
 
 g'4 \bar "|." \\\
-R4 \bar "|." | %20
+s1 \bar "|." | %20
 
 \key fs \major \stemUp ds4^\markup "BWV 853" as'4. b8[ as gs] \\\
-R1 | %21
+s1 | %21
 
 \stemUp fs8[ gs] as4 ds, gs~ \\\
-R1 | %22
+s1 | %22
 
 \stemUp gs'8[ fs] es4 \stemNeutral ds \bar "|." \\\
-R1 \bar "|." | %23
+s1 \bar "|." | %23
 
-\key e \major r4 r8 \stemUp e^\markup "BWV 854" fs4 r16 b,[ cs ds] \\\
-R1 | %24
+\key e \major r4 r8 \stemUp e fs4 r16 b,[ cs ds] \\\
+s1 | %24
 
 \stemUp e16[ ds e fs] \stemNeutral gs8 \bar "|." \\\
-R2 \bar "|." | %25
+s1 \bar "|." | %25
 
 \key g \major \time 3/4 \stemUp e16^\markup "BWV 855"[ g b e] \stemDown ds[ e d e] cs[ e c e] \\\
-R1 | %26
+s2. | %26
 
 \stemDown b'16[ e ds e] \stemUp as,[ cs g fs] g[ as fs e] \\\
-R1 | %27
+s2. | %27
 
 d8 \bar "|." \\\
-R8 \bar "|." | %28
+s2. \bar "|." | %28
 
 \key f \major \time 3/8 \stemUp c8^\markup "BWV 856" \\\
-r8 | %29
+s8 | %29
 
 \stemUp d8[ c bf] \\\
-R2 | %30
+s4. | %30
 
 \stemUp c8[ e,16 f g a] \\\
-R2 | %31
+s4. | %31
 
 \stemUp bf8[ c16 bf a g] \\\
-R2 | %32
+s4. | %32
 
 \stemUp a16[ g] \stemNeutral f8 \bar "|." \\\
-R4 \bar "|." | %33
+s4. \bar "|." | %33
 
-\key f \minor \time 4/4 r4 \stemUp c^\markup "BWV 857" df c \\\
-R1 | %34
+\key f \minor \time 4/4 r4 \stemUp c df c \\\
+s1 | %34
 
 \stemUp b4 e f bf, \\\
-R1 | %35
+s1 | %35
 
 \stemUp a4 af g2 \\\
-R1 | %36
+s1 | %36
 
 f,4 \bar "|." \\\
-R4 \bar "|." | %37
+s1 \bar "|." | %37
 
-\key fs \major r8 \stemDown cs'^\markup "BWV 858"[ fs es] fs[ es16 ds] cs8.[ b32 cs] \\\
-R1 \\
-R1 | %38
+\key fs \major r8 \stemDown cs'[ fs es] fs[ es16 ds] cs8.[ b32 cs] \\\
+s1 \\
+s1 | %38
 
 \stemDown ds'4 r8 cs \stemUp b[ as gs cs] \\\
-R1 | %39
+s1 | %39
 
 as'8 \bar "|." \\\
-R8 \bar "|." | %40
+s1 \bar "|." | %40
 
-\key a \major \time 6/4 \clef "bass" r4 \stemDown fs,^\markup "BWV 859" gs a2.~ \\\
-\clef "bass" R1 | %41
+\key a \major \time 6/4 \clef "bass" r4 \stemDown fs, gs a2.~ \\\
+\clef "bass" s1. | %41
 
 \stemDown a4 gs8[ as] b4~ b as8[ gs as bs] \\\
-R1 | %42
+s1. | %42
 
 \stemDown cs4. b8[ a cs] b[ a] gs2 \\\
-R1 | %43
+s1. | %43
 
 fs,4 \bar "|." \\\
-R4 \bar "|." | %44
+s1. \bar "|." | %44
 
 \key g \major \time 6/8 \clef "treble" \stemUp g'8^\markup "BWV 860"[ a16 g fs g] a8[ b16 a g a] \\\
-\clef "treble" R1 | %45
+\clef "treble" s2. | %45
 
 \stemUp b'8[ a g] d \stemDown c'4 \\\
-R1 | %46
+s2. | %46
 
 \stemUp b'8[ a g] fs \stemDown e'4 \\\
-R1 | %47
+s2. | %47
 
 \stemDown d'8[ e16 d c b] \stemUp a8[ c16 b a g] \\\
-R1 | %48
+s2. | %48
 
 fs8 \bar "|." \\\
-r8 \bar "|." | %49
+s8 \bar "|." | %49
 
-\key g \minor \numericTimeSignature \time 4/4 \clef "bass" r8 \stemDown d^\markup "BWV 861"[ ef g,] fs4 g \\\
-\clef "bass" R1 | %50
+\key g \minor \numericTimeSignature \time 4/4 \clef "bass" r8 \stemDown d[ ef g,] fs4 g \\\
+\clef "bass" s1 | %50
 
 r8 \stemDown a16[ bf] c8[ bf16 a] \stemNeutral bf8 \bar "|." \\\
-R2 \bar "|." | %51
+s1 \bar "|." | %51
 
-\key af \major \clef "treble" r4 \stemUp af8^\markup "BWV 862"[ ef'] c[ af f' df] \\\
-\clef "treble" R1 | %52
+\key af \major \clef "treble" r4 \stemUp af8[ ef'] c[ af f' df] \\\
+\clef "treble" s1 | %52
 
 ef4 \bar "|." \\\
-R4 \bar "|." | %53
+s1 \bar "|." | %53
 
-\key b \major \clef "bass" r4 \stemDown gs^\markup "BWV 863" fss8[ gs16 as] b8[ as] \\\
-\clef "bass" R1 | %54
+\key b \major \clef "bass" r4 \stemDown gs fss8[ gs16 as] b8[ as] \\\
+\clef "bass" s1 | %54
 
 \stemDown gs8[ css ds fs,] gs[ gs as as] \\\
-R1 | %55
+s1 | %55
 
 ds,4 \bar "|." \\\
-R4 \bar "|." | %56
+s1 \bar "|." | %56
 
 \key a \major \time 9/8 \clef "treble" \stemUp a'8^\markup "BWV 864" r r r gs[ cs] \stemDown a[ d b] \\\
-\clef "treble" R1 | %57
+\clef "treble" s1 s8 | %57
 
 e'8 \bar "|." \\\
-R8 \bar "|." | %58
+s1 s8 \bar "|." | %58
 
-\key c \major \numericTimeSignature \time 4/4 \clef "bass" r8 \stemDown a16^\markup "BWV 865"[ gs] a8[ b] c[ c16 b] c8[ d] \\\
-\clef "bass" R1 | %59
+\key c \major \numericTimeSignature \time 4/4 \clef "bass" r8 \stemDown a16[ gs] a8[ b] c[ c16 b] c8[ d] \\\
+\clef "bass" s1 | %59
 
 \stemDown e16[ d c d] e8[ f] gs,[ e] r a \\\
-R1 | %60
+s1 | %60
 
 \stemDown b16[ c a b] c[ d b c] d8[ c b e] \\\
-R1 | %61
+s1 | %61
 
 a8 \bar "|." \\\
-r8 \bar "|." | %62
+s8 \bar "|." | %62
 
-\key bf \major \time 3/4 \clef "treble" r8 \stemUp f^\markup "BWV 866" g[ f] bf[ d,] \\\
-\clef "treble" R1 | %63
+\key bf \major \time 3/4 \clef "treble" r8 \stemUp f g[ f] bf[ d,] \\\
+\clef "treble" s2. | %63
 
 \stemUp c8[ a'16 g] bf[ a g f] c'8[ ef,] \\\
-R1 | %64
+s2. | %64
 
 \stemUp d8[ bf'16 c] \stemDown a[ bf c d] ef[ d c ef] \\\
-R1 | %65
+s2. | %65
 
 \stemDown d'16[ c bf c] a[ bf c d] ef[ d c ef] \\\
-R1 | %66
+s2. | %66
 
 d'8 \bar "|." \\\
-R8 \bar "|." | %67
+s2. \bar "|." | %67
 
 \key bf \minor \numericTimeSignature \time 2/2 \stemDown bf'2^\markup "BWV 867" \stemUp f \\\
-R1 | %68
+s1 | %68
 
 r4 \stemDown gf'' f ef \\\
-R1 | %69
+s1 | %69
 
 df'4 \bar "|." \\\
-R4 \bar "|." | %70
+s1 \bar "|." | %70
 
-\key b \major \numericTimeSignature \time 4/4 r8 \stemUp b^\markup "BWV 868"[ as b] cs4 fs,8[ gs16 as] \\\
-R1 | %71
+\key b \major \numericTimeSignature \time 4/4 r8 \stemUp b[ as b] cs4 fs,8[ gs16 as] \\\
+s1 | %71
 
 \stemUp b8[ cs16 ds] e8[ ds] cs2 \\\
-R1 | %72
+s1 | %72
 
 b8 \bar "|." \\\
-R8 \bar "|." | %73
+s1 \bar "|." | %73
 
-\key b \minor r8 \stemUp fs^\markup "BWV 869"[ d b] g'([ fs) b( as)] \\\
-R1 | %74
+\key b \minor r8 \stemUp fs[ d b] g'([ fs) b( as)] \\\
+s1 | %74
 
 \stemUp e8([ ds) c'( b)] fs([ es) d'( cs)] \\\
-R1 | %75
+s1 | %75
 
 \stemUp bs'8[ cs a fs] gs2 \\\
-R1 | %76
+s1 | %76
 
 fs8 \bar "|." \\\
-R8 \bar "|." | %77
+s1 \bar "|." | %77
 
-\key c \major \time 2/4 r8 \stemUp g'16^\markup "BWV 870"^\markup "(Book 2)"[ f] g8[ c,] \\\
-R2 | %78
+\key c \major \time 2/4 r8 \stemUp g'16[ f] g8[ c,] \\\
+s2 | %78
 
 \stemUp a'4 g \\\
-R2 | %79
+s2 | %79
 
 r8 \stemUp f16[ e] f[ g e f] \\\
-R2 | %80
+s2 | %80
 
 \stemUp d16[ f e f] g[ a f g] \\\
-R2 | %81
+s2 | %81
 
 e8 \bar "|." \\\
-R8 \bar "|." | %82
+s2 \bar "|." | %82
 
-\key ef \major \time 4/4 r8 \stemUp g'^\markup "BWV 871"[ ef f] g[ c,] f[ ef16 d] \\\
-R1 | %83
+\key ef \major \time 4/4 r8 \stemUp g'[ ef f] g[ c,] f[ ef16 d] \\\
+s1 | %83
 
 ef8 \bar "|." \\\
-R8 \bar "|." | %84
+s1 \bar "|." | %84
 
-\key cs \major r8 \stemUp cs^\markup "BWV 871"[ es cs \stemNeutral gs'] \bar "|." \\\
-r2 r8 \bar "|." | %85
+\key cs \major r8 \stemUp cs[ es cs \stemNeutral gs'] \bar "|." \\\
+s2 s8 \bar "|." | %85
 
 \key e \major \time 12/16 \clef "bass" \stemUp cs,16^\markup "BWV 873"[ bs cs] ds[ cs ds] gs,[ as bs] cs[ ds e] \\\
-\clef "bass" R1 | %86
+\clef "bass" s2. | %86
 
 \stemDown fs,16[ e fs] ds[ gs fs] \stemNeutral e8 \bar "|." \\\
-R2 \bar "|." | %87
+s2. \bar "|." | %87
 
-\key d \major \time 2/2 r8 \stemDown d^\markup "BWV 874"[ d d] g,4 b \\\
-R1 | %88
+\key d \major \time 2/2 r8 \stemDown d[ d d] g,4 b \\\
+s1 | %88
 
 \stemDown b8[ e, a g] fs \bar "|." \\\
-R2 \bar "|." | %89
+s1 \bar "|." | %89
 
 \key f \major \time 4/4 \clef "treble" \tuplet 3/2 { d16^\markup "BWV 875"[ e f] } \tuplet 3/2 { g16[ f e] } \tuplet 3/2 { f16[ g a] } \tuplet 3/2 { bf16[ a g] } \stemDown a8[ d cs c] \\\
-\clef "treble" R1 | %90
+\clef "treble" s1 | %90
 
 \stemDown b'8[ bf a g] g[ f e a] \bar "|." \\\
-R1 \bar "|." | %91
+s1 \bar "|." | %91
 
 \key ef \major \time 2/2 \clef "bass" ef,1^\markup "BWV 876" \\\
-\clef "bass" R1 | %92
+\clef "bass" s1 | %92
 
 \stemDown bf2 r4 af \\\
-R1 | %93
+s1 | %93
 
 \stemDown g4 c2 bf4 \\\
-R1 | %94
+s1 | %94
 
 \stemDown af4 af8[ g] af4 c \\\
-R1 | %95
+s1 | %95
 
 \stemDown f,4 bf2 af4 \\\
-R1 | %96
+s1 | %96
 
 \stemDown g4 g8[ f] g4 bf \\\
-R1 | %97
+s1 | %97
 
 ef,4 \bar "|." \\\
-R4 \bar "|." | %98
+s1 \bar "|." | %98
 
-\key fs \major \time 4/4 \clef "treble" r8 \stemUp ds^\markup "BWV 877"[ ds ds] css[ ds] es4~ \\\
-\clef "treble" R1 | %99
+\key fs \major \time 4/4 \clef "treble" r8 \stemUp ds[ ds ds] css[ ds] es4~ \\\
+\clef "treble" s1 | %99
 
 \stemUp es8[ ds] gs4. fs16[ es] as8[ gs] \\\
-R1 | %100
+s1 | %100
 
 fs8 \bar "|." \\\
-R8 \bar "|." | %101
+s1 \bar "|." | %101
 
 \key e \major \time 2/2 \clef "bass" e,1^\markup "BWV 878" \\\
-\clef "bass" R1 | %102
+\clef "bass" s1 | %102
 
 \stemDown fs,2 a \\\
-R1 | %103
+s1 | %103
 
 \stemDown gs2 fs \\\
-R1 | %104
+s1 | %104
 
 e,1 \bar "|." \\\
-R1 \bar "|." | %105
+s1 \bar "|." | %105
 
-\key g \major \clef "treble" \tuplet 3/2 { r8 e^\markup "BWV 879"[ fs] } \\\
-\clef "treble" R4 | %106
+\key g \major \clef "treble" \tuplet 3/2 { r8 e[ fs] } \\\
+\clef "treble" s1 | %106
 
 \stemUp g'4 a16[ g fs g] a4 b16[ a g a] \\\
-R1 | %107
+s1 | %107
 
 \stemDown b'4 \stemUp g e \stemDown c'~ \\\
-R1 | %108
+s1 | %108
 
 \stemDown c'4 b8.[ ds16] e4 \stemUp a,~ \\\
-R1 | %109
+s1 | %109
 
 \stemUp a'4 g8.[ ds'16] \stemDown e4 \stemUp fs,~ \\\
-R1 | %110
+s1 | %110
 
 \tuplet 3/2 { fs8[ g a] } \tuplet 3/2 { g8[ fs e] } \tuplet 3/2 { ds8[ c' b] } \tuplet 3/2 { a8[ g fs] } \\\
-R1 | %111
+s1 | %111
 
 \tuplet 3/2 { g'8[ a b] } \tuplet 3/2 { a8[ g fs] } \tuplet 3/2 { e8[ e' d] } cs4 \bar "|." \\\
-R1 \bar "|." | %112
+s1 \bar "|." | %112
 
-\key f \major \time 6/16 r8. \stemUp f16^\markup "BWV 880"[ e f] \\\
-R2 | %113
+\key f \major \time 6/16 r8. \stemUp f16[ e f] \\\
+s4. | %113
 
 \stemDown c'8 r16 \stemUp a[ g a] \\\
-R2 | %114
+s4. | %114
 
 \stemDown d'8 r16 c[ d e] \\\
-R2 | %115
+s4. | %115
 
 \stemDown f'16[ e d] c[ d bf] \\\
-R2 | %116
+s4. | %116
 
 \stemUp a'16[ g f] \bar "|." \\\
-R4 \bar "|." | %117
+s4. \bar "|." | %117
 
-\key af \major \time 2/4 r4. \stemDown c'8^\markup "BWV 881" \\\
-R2 | %118
+\key af \major \time 2/4 r4. \stemDown c'8 \\\
+s2 | %118
 
 \stemUp f8[ f] f[ df'16 bf] \\\
-R2 | %119
+s2 | %119
 
 \stemUp e8[ e] e16[ f g af] \\\
-R2 | %120
+s2 | %120
 
 \stemUp bf'16[ af g af] bf[ df c bf] \\\
-R2 | %121
+s2 | %121
 
 \stemUp af'16[ g f g] \stemNeutral af8 \bar "|." \\\
-R2 \bar "|." | %122
+s2 \bar "|." | %122
 
 \key fs \major \time 2/2 \stemUp es4.^\markup "BWV 882" ds16[ es] fs4 r \\\
-R1 | %123
+s1 | %123
 
 \stemUp cs4 ds e4. ds16[ cs] \\\
-R1 | %124
+s1 | %124
 
 \stemUp b8[ as b cs] ds[ es fs ds] \\\
-R1 | %125
+s1 | %125
 
 \stemUp gs'4 b, b as8[ gs] \\\
-R1 | %126
+s1 | %126
 
 fs,4 \bar "|." \\\
-r4 \bar "|." | %127
+s4 \bar "|." | %127
 
-\key a \major \time 4/4 \clef "bass" r4 r8 \stemDown cs^\markup "BWV 883" a[ fs] d'4~ \\\
-\clef "bass" R1 | %128
+\key a \major \time 4/4 \clef "bass" r4 r8 \stemDown cs a[ fs] d'4~ \\\
+\clef "bass" s1 | %128
 
 \stemDown d8[ cs16 b] cs4~ cs8[ fs] b,4~ \\\
-R1 | %129
+s1 | %129
 
 \stemDown b8[ a16 gs] a8[ fs] gs2 \\\
-R1 | %130
+s1 | %130
 
-fs,4 r8 \bar "|." \\\
-R2 \bar "|." | %131
+fs,4 s8 \bar "|." \\\
+s1 \bar "|." | %131
 
-\key g \major \time 3/8 \clef "treble" r16 \stemDown d'^\markup "BWV 884"[ b d g d] \\\
-\clef "treble" R2 | %132
+\key g \major \time 3/8 \clef "treble" r16 \stemDown d'[ b d g d] \\\
+\clef "treble" s4. | %132
 
 \stemDown b'16[ d g, d' b d] \\\
-R2 | %133
+s4. | %133
 
 \stemUp e'16[ c a c fs, a] \\\
-R2 | %134
+s4. | %134
 
 \stemUp d'16[ b g b e, g] \\\
-R2 | %135
+s4. | %135
 
 \stemUp c'16[ a fs a d, fs] \\\
-R2 | %136
+s4. | %136
 
 \stemUp b'16[ a g a b c] \\\
-R2 | %137
+s4. | %137
 
 \stemDown d'16[ a b cs d e] \\\
-R2 | %138
+s4. | %138
 
 fs'16 \bar "|." \\\
-R16 \bar "|." | %139
+s4. \bar "|." | %139
 
-\key bf \major \time 3/4 \clef "bass" r4 \stemDown d^\markup "BWV 885" r8 bf \\\
-\clef "bass" R1 | %140
+\key bf \major \time 3/4 \clef "bass" r4 \stemDown d r8 bf \\\
+\clef "bass" s2. | %140
 
 \stemDown ef4 c r8 a \\\
-R1 | %141
+s2. | %141
 
 \stemDown d4 bf r8 g \\\
-R1 | %142
+s2. | %142
 
 \stemDown c8[ c c c c c] \\\
-R1 | %143
+s2. | %143
 
 \stemDown c8[ bf16 a] \stemNeutral bf8 \bar "|." \\\
-R2 \bar "|." | %144
+s2. \bar "|." | %144
 
-\key af \major \time 4/4 \clef "treble" r8 \stemDown ef'^\markup "BWV 886"[ c f] bf,[ c16 df] \stemUp ef8[ ef,] \\\
-\clef "treble" R1 | %145
+\key af \major \time 4/4 \clef "treble" r8 \stemDown ef'[ c f] bf,[ c16 df] \stemUp ef8[ ef,] \\\
+\clef "treble" s1 | %145
 
 \stemDown af'8[ bf16 c] df4~ df16[ ef c df] bf[ c df ef] \\\
-R1 | %146
+s1 | %146
 
 c'8 \bar "|." \\\
-R8 \bar "|." | %147
+s1 \bar "|." | %147
 
 \key b \major \time 6/8 \stemUp gs'8^\markup "BWV 887"[ as b] as[ ds ds,] \\\
-R1 | %148
+s2. | %148
 
 \stemUp gs'8[ b as] b[ as gs] \\\
-R1 | %149
+s2. | %149
 
 \stemUp as'8[ b cs] b[ e gs,] \\\
-R1 | %150
+s2. | %150
 
 \stemUp as'8[ cs b] cs[ b as] \\\
-R1 | %151
+s2. | %151
 
-b'4 r8 r4 r8 \bar "|." \\\
-R1 \bar "|." | %152
+b'4 s8 s4 s8 \bar "|." \\\
+s2. \bar "|." | %152
 
-\key a \major \time 4/4 \clef "bass" r8 \stemDown a16^\markup "BWV 888"[ b] cs[ b a cs] b[ d cs8~] cs16[ e d8~] \\\
-\clef "bass" R1 | %153
+\key a \major \time 4/4 \clef "bass" r8 \stemDown a16[ b] cs[ b a cs] b[ d cs8~] cs16[ e d8~] \\\
+\clef "bass" s1 | %153
 
 \stemDown d16[ fs e d] e[ b cs d] \stemNeutral cs8 \bar "|." \\\
-R2 \bar "|." | %154
+s1 \bar "|." | %154
 
-\key c \major r4 \stemDown e^\markup "BWV 889" c f \\\
-R1 | %155
+\key c \major r4 \stemDown e c f \\\
+s1 | %155
 
 \stemDown gs4 r r8 d'[ b e] \\\
-R1 | %156
+s1 | %156
 
 \stemDown c8[ a] \bar "|." \\\
-R4 \bar "|." | %157
+s1 \bar "|." | %157
 
-\key bf \major \time 3/4 \clef "treble" r8 \stemUp c'^\markup "BWV 890"[ bf a bf f] \\\
-\clef "treble" R1 | %158
+\key bf \major \time 3/4 \clef "treble" r8 \stemUp c'[ bf a bf f] \\\
+\clef "treble" s2. | %158
 
 \stemUp d8[ g f ef f d] \\\
-R1 | %159
+s2. | %159
 
 \stemUp bf8[ ef ef( d) d( c)] \\\
-R1 | %160
+s2. | %160
 
 \stemUp c8[ f f( ef) ef( d)] \\\
-R1 | %161
+s2. | %161
 
 d8 \bar "|." \\\
-R8 \bar "|." | %162
+s2. \bar "|." | %162
 
 \key df \major \time 3/2 \stemUp bf2^\markup "BWV 891" c r4 df \\\
-R1 | %163
+s1. | %163
 
 \stemUp ef4 a, bf2 r4 c \\\
-R1 | %164
+s1. | %164
 
 \stemUp df8[ bf c df] ef[ c df ef] f[ df ef f] \\\
-R1 | %165
+s1. | %165
 
 \stemUp gf'8[ ef] f4 r gf c, df8[ ef] \\\
-R1 | %166
+s1. | %166
 
-df4 r r2 r \bar "|." \\\
-R1 \bar "|." | %167
+df4 s s2 s \bar "|." \\\
+s1. \bar "|." | %167
 
 \key b \major \time 2/2 \clef "bass" \stemUp b,2^\markup "BWV 892" \stemDown ds \\\
-\clef "bass" R1 | %168
+\clef "bass" s1 | %168
 
 \stemDown gs2 e \\\
-R1 | %169
+s1 | %169
 
 \stemUp cs,2 \stemDown as' \\\
-R1 | %170
+s1 | %170
 
 \stemDown b4 as8[ gs] fs4 e \\\
-R1 | %171
+s1 | %171
 
-ds,4 r r2 \bar "|." \\\
-R1 \bar "|." | %172
+ds,4 s s2 \bar "|." \\\
+s1 \bar "|." | %172
 
-\key d \major \time 3/8 \clef "treble" r4 \stemUp fs8^\markup "BWV 893" \\\
-\clef "treble" R2 | %173
+\key d \major \time 3/8 \clef "treble" r4 \stemUp fs8 \\\
+\clef "treble" s4. | %173
 
 \stemUp d8[ b as] \\\
-R2 | %174
+s4. | %174
 
 \stemUp b8[ cs16 d e fs] \\\
-R2 | %175
+s4. | %175
 
 \stemUp g'8[ g, g'] \\\
-R2 | %176
+s4. | %176
 
 \stemUp fs8[ fs, fs'] \\\
-R2 | %177
+s4. | %177
 
 \stemUp e8[ fs16 e d cs] \\\
-R2 | %178
+s4. | %178
 
 \stemUp d16[ fs e d cs b] \bar "|." \\\
-R2 \bar "|." | %179
+s4. \bar "|." | %179

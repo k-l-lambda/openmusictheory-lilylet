@@ -3,40 +3,40 @@
 
 \key c \major \clef "bass" <g, b e>1^\markup "1" \bar "||" | %1
 
-\key g \major <a' c fs>1^\markup "2" \bar "||" | %2
+\key g \major \clef "treble" <a' c fs>1^\markup "2" \bar "||" | %2
 
 \key d \major <a' d fs>1^\markup "3" \bar "||" | %3
 
-\key bf \major <c, ef a>1^\markup "4" \bar "||" | %4
+\key bf \major \clef "bass" <c, ef a>1^\markup "4" \bar "||" | %4
 
-\key a \major <a cs e>1^\markup "5" \bar "||" | %5
+\key a \major \clef "treble" <a cs e>1^\markup "5" \bar "||" | %5
 
-\key af \major \clef "treble" <g' b ef>1^\markup "6" \bar "||" | %6
+\key af \major <g' b ef>1^\markup "6" \bar "||" | %6
 
 \key f \major <d g bf>1^\markup "7" \bar "||" | %7
 
-\key e \major <e, a cs>1^\markup "8" \bar "||" | %8
+\key e \major \clef "bass" <e, a cs>1^\markup "8" \bar "||" | %8
 
 \key ef \major <g bf ef>1^\markup "9" \bar "||" | %9
 
 \key g \major <fs,, b d>1^\markup "10" \bar "|." | %10
 
-\key c \major R1 \bar "||" | %11
+\key c \major \clef "treble" s1 \bar "||" | %11
 
-R1 \bar "||" | %12
+\clef "bass" s1 \bar "||" | %12
 
-R1 \bar "||" | %13
+\clef "treble" s1 \bar "||" | %13
 
-R1 \bar "||" | %14
+\clef "bass" s1 \bar "||" | %14
 
-R1 \bar "||" | %15
+s1 \bar "||" | %15
 
-R1 \bar "||" | %16
+\clef "treble" s1 \bar "||" | %16
 
-R1 \bar "||" | %17
+\clef "bass" s1 \bar "||" | %17
 
-R1 \bar "||" | %18
+\clef "treble" s1 \bar "||" | %18
 
-R1 \bar "||" | %19
+\clef "bass" s1 \bar "||" | %19
 
-R1 \bar "|." | %20
+\clef "treble" s1 \bar "|." | %20

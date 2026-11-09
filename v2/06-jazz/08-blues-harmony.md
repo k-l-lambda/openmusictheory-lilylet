@@ -94,7 +94,13 @@ Musicians who have developed a familiarity with the blues will have no trouble r
 > Assignments
 
 1. Worksheet on 12-bar blues ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2019/08/WK-12-bar-blues.pdf), [.mscz](../media/2019/08/WK-12-bar-blues.mscz)). Asks students to write basic and jazz 12-bar blues progressions, voiced and unvoiced, and to analyze altered blues progressions. [Worksheet playlist](https://open.spotify.com/playlist/4l9w7lMJvED841d0dBt58N?si=_ZJnuNuLR3aCwoeVZqcSKA)
+   <!-- lilylet-begin: media/2019/08/WK-12-bar-blues.mscz -->
+   Lilylet transcription of WK-12-bar-blues.mscz: [WK-12-bar-blues.lyl](../lilylet/2019/08/WK-12-bar-blues.lyl) (84 bars).
+   <!-- lilylet-end -->
 2. Worksheet on 12-bar blues, no jazz (.[pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2023/01/WK-12-bar-blues-no-jazz.pdf), .[mscz](../media/2023/01/WK-12-bar-blues-no-jazz.mscz)). Same as Assignment 1, but simplified: aks students to write basic 12-bar blues progressions, voiced and unvoiced, and to identify unusual chords in altered blues progressions. [Worksheet playlist](https://open.spotify.com/playlist/4l9w7lMJvED841d0dBt58N?si=_ZJnuNuLR3aCwoeVZqcSKA)
+   <!-- lilylet-begin: media/2023/01/WK-12-bar-blues-no-jazz.mscz -->
+   Lilylet transcription of WK-12-bar-blues-no-jazz.mscz: [WK-12-bar-blues-no-jazz.lyl](../lilylet/2023/01/WK-12-bar-blues-no-jazz.lyl) (60 bars).
+   <!-- lilylet-end -->
 
 ### Media Attributions
 

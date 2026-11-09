@@ -155,6 +155,9 @@ Each of these systems of pitch organization is related to the concept of mode di
 > Assignments
 
 1. Identifying modes (.[pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2020/02/WK-Diatonic-Modes-Identification.pdf), .[mscz](../media/2020/02/WK-Diatonic-Modes-Identification.mscz)). Asks students to identify 20<sup>th</sup>-century modes versus major/minor, circle inflected pitches, and explain how a pitch center is articulated. Music examples are transcribed from the TV show *Great British Bake Off (*music by Tom Howe, © Accorder Music Publishing, used with permission). [Worksheet playlist](https://open.spotify.com/playlist/4cqW6tS2ZTCooPlBSfr2N1?si=4WFs_q4-T4mCKE7UrKIDSQ)
+   <!-- lilylet-begin: media/2020/02/WK-Diatonic-Modes-Identification.mscz -->
+   Lilylet transcription of WK-Diatonic-Modes-Identification.mscz: [WK-Diatonic-Modes-Identification.lyl](../lilylet/2020/02/WK-Diatonic-Modes-Identification.lyl) (42 bars).
+   <!-- lilylet-end -->
 2. Additional beginner’s worksheets can be found in [Introduction to Diatonic Modes and the Chromatic “Scale.”](../01-fundamentals/15-intro-to-diatonic-modes-and-the-chromatic-scale.md#assignments)
 
 ### Media Attributions

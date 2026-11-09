@@ -3,8 +3,8 @@
 [composer "J. S. Bach"]
 [staves "s1,s2"]
 
-\key ef \major \numericTimeSignature \time 4/4 \clef "treble" r8 \stemUp g'^\markup "BWV 871"[ ef f] g[ c,] f[ ef16 d] \\\
-\clef "treble" R1 | %1
+\key ef \major \numericTimeSignature \time 4/4 \clef "treble" r8 \stemUp g'[ ef f] g[ c,] f[ ef16 d] \\\
+\clef "treble" s1 | %1
 
 ef8 \bar "|." \\\
-R8 \bar "|." | %2
+s1 \bar "|." | %2

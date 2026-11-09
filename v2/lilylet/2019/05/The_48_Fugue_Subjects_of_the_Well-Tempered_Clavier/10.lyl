@@ -4,10 +4,10 @@
 [staves "s1,s2"]
 
 \key g \major \time 3/4 \clef "treble" \stemUp e16^\markup "BWV 855"[ g b e] \stemDown ds[ e d e] cs[ e c e] \\\
-\clef "treble" R1 | %1
+\clef "treble" s2. | %1
 
 \stemDown b'16[ e ds e] \stemUp as,[ cs g fs] g[ as fs e] \\\
-R1 | %2
+s2. | %2
 
 d8 \bar "|." \\\
-R8 \bar "|." | %3
+s2. \bar "|." | %3

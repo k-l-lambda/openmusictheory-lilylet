@@ -100,7 +100,7 @@ e''1^\markup "49"_\markup "____" \bar "||" | %49
 
 a1^\markup "50"_\markup "____" \bar "|." | %50
 
-c,,1^\markup "51"_\markup "____" \bar "||" | %51
+\clef "bass" c,,1^\markup "51"_\markup "____" \bar "||" | %51
 
 e1^\markup "52"_\markup "____" \bar "||" | %52
 
@@ -120,7 +120,7 @@ d1^\markup "59"_\markup "____" \bar "||" | %59
 
 b,,1^\markup "60"_\markup "____" \bar "|." | %60
 
-g,1^\markup "61"_\markup "____" \bar "||" | %61
+\clef "alto" g,1^\markup "61"_\markup "____" \bar "||" | %61
 
 d,1^\markup "62"_\markup "____" \bar "||" | %62
 
@@ -140,7 +140,7 @@ b'1^\markup "69"_\markup "____" \bar "||" | %69
 
 a,1^\markup "70"_\markup "____" \bar "|." | %70
 
-c'1^\markup "71"_\markup "____" \bar "||" | %71
+\clef "tenor" c'1^\markup "71"_\markup "____" \bar "||" | %71
 
 a'1^\markup "72"_\markup "____" \bar "||" | %72
 
@@ -160,82 +160,82 @@ g,1^\markup "79"_\markup "____" \bar "||" | %79
 
 g'1^\markup "80"_\markup "____" \bar "|." | %80
 
-R1 \bar "||" | %81
+\clef "treble" s1 \bar "||" | %81
 
-R1 \bar "||" | %82
+s1 \bar "||" | %82
 
-R1 \bar "||" | %83
+s1 \bar "||" | %83
 
-R1 \bar "||" | %84
+s1 \bar "||" | %84
 
-R1 \bar "||" | %85
+s1 \bar "||" | %85
 
-R1 \bar "||" | %86
+s1 \bar "||" | %86
 
-R1 \bar "||" | %87
+s1 \bar "||" | %87
 
-R1 \bar "||" | %88
+s1 \bar "||" | %88
 
-R1 \bar "||" | %89
+s1 \bar "||" | %89
 
-R1 \bar "|." | %90
+s1 \bar "|." | %90
 
-R1 \bar "||" | %91
+\clef "bass" s1 \bar "||" | %91
 
-R1 \bar "||" | %92
+s1 \bar "||" | %92
 
-R1 \bar "||" | %93
+s1 \bar "||" | %93
 
-R1 \bar "||" | %94
+s1 \bar "||" | %94
 
-R1 \bar "||" | %95
+s1 \bar "||" | %95
 
-R1 \bar "||" | %96
+s1 \bar "||" | %96
 
-R1 \bar "||" | %97
+s1 \bar "||" | %97
 
-R1 \bar "||" | %98
+s1 \bar "||" | %98
 
-R1 \bar "||" | %99
+s1 \bar "||" | %99
 
-R1 \bar "|." | %100
+s1 \bar "|." | %100
 
-R1 \bar "||" | %101
+\clef "alto" s1 \bar "||" | %101
 
-R1 \bar "||" | %102
+s1 \bar "||" | %102
 
-R1 \bar "||" | %103
+s1 \bar "||" | %103
 
-R1 \bar "||" | %104
+s1 \bar "||" | %104
 
-R1 \bar "||" | %105
+s1 \bar "||" | %105
 
-R1 \bar "||" | %106
+s1 \bar "||" | %106
 
-R1 \bar "||" | %107
+s1 \bar "||" | %107
 
-R1 \bar "||" | %108
+s1 \bar "||" | %108
 
-R1 \bar "||" | %109
+s1 \bar "||" | %109
 
-R1 \bar "|." | %110
+s1 \bar "|." | %110
 
-R1 \bar "||" | %111
+\clef "tenor" s1 \bar "||" | %111
 
-R1 \bar "||" | %112
+s1 \bar "||" | %112
 
-R1 \bar "||" | %113
+s1 \bar "||" | %113
 
-R1 \bar "||" | %114
+s1 \bar "||" | %114
 
-R1 \bar "||" | %115
+s1 \bar "||" | %115
 
-R1 \bar "||" | %116
+s1 \bar "||" | %116
 
-R1 \bar "||" | %117
+s1 \bar "||" | %117
 
-R1 \bar "||" | %118
+s1 \bar "||" | %118
 
-R1 \bar "||" | %119
+s1 \bar "||" | %119
 
-R1 \bar "|." | %120
+s1 \bar "|." | %120

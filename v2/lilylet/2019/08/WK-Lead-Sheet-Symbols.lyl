@@ -31,34 +31,34 @@
 \staff "1" <bf' d fs>1^\markup "10"^\markup "________" \bar "|." \\
 \staff "2" R1 | %10
 
-\staff "1" r1 \chords "Bbº" \bar "||" \\
+\staff "1" s1 \chords "Bbº" \bar "||" \\
 \staff "2" R1 | %11
 
-\staff "1" r1 \chords "F#m" \bar "||" \\
+\staff "1" s1 \chords "F#m" \bar "||" \\
 \staff "2" R1 | %12
 
-\staff "1" R1 \chords "Db+" \bar "||" \\
+\staff "1" s1 \chords "Db+" \bar "||" \\
 \staff "2" R1 | %13
 
-\staff "1" R1 \chords "A" \bar "||" \\
+\staff "1" s1 \chords "A" \bar "||" \\
 \staff "2" R1 | %14
 
-\staff "1" R1 \chords "Cm" \bar "||" \\
+\staff "1" s1 \chords "Cm" \bar "||" \\
 \staff "2" R1 | %15
 
-\staff "1" R1 \chords "F#°" \bar "||" \\
+\staff "1" s1 \chords "F#°" \bar "||" \\
 \staff "2" R1 | %16
 
-\staff "1" R1 \chords "E+" \bar "||" \\
+\staff "1" s1 \chords "E+" \bar "||" \\
 \staff "2" R1 | %17
 
-\staff "1" R1 \chords "B" \bar "||" \\
+\staff "1" s1 \chords "B" \bar "||" \\
 \staff "2" R1 | %18
 
-\staff "1" R1 \chords "F" \bar "||" \\
+\staff "1" s1 \chords "F" \bar "||" \\
 \staff "2" R1 | %19
 
-\staff "1" R1 \chords "Eb°" \bar "|." \\
+\staff "1" s1 \chords "Eb°" \bar "|." \\
 \staff "2" R1 | %20
 
 \staff "1" <f a c e>1^\markup "21"^\markup "PART 3\nWrite the lead sheet symbol for each seventh chord."^\markup "________" \bar "||" \\
@@ -91,34 +91,34 @@
 \staff "1" <f af cf ef>1^\markup "30"^\markup "________" \bar "|." \\
 \staff "2" R1 | %30
 
-\staff "1" R1 \chords "Dø7" \bar "||" \\
+\staff "1" s1 \chords "Dø7" \bar "||" \\
 \staff "2" R1 | %31
 
-\staff "1" R1 \chords "B7" \bar "||" \\
+\staff "1" s1 \chords "B7" \bar "||" \\
 \staff "2" R1 | %32
 
-\staff "1" R1 \chords "Em7" \bar "||" \\
+\staff "1" s1 \chords "Em7" \bar "||" \\
 \staff "2" R1 | %33
 
-\staff "1" R1 \chords "G°7" \bar "||" \\
+\staff "1" s1 \chords "G°7" \bar "||" \\
 \staff "2" R1 | %34
 
-\staff "1" R1 \chords "Amaj7" \bar "||" \\
+\staff "1" s1 \chords "Amaj7" \bar "||" \\
 \staff "2" R1 | %35
 
-\staff "1" R1 \chords "G#m7" \bar "||" \\
+\staff "1" s1 \chords "G#m7" \bar "||" \\
 \staff "2" R1 | %36
 
-\staff "1" R1 \chords "C#ø7" \bar "||" \\
+\staff "1" s1 \chords "C#ø7" \bar "||" \\
 \staff "2" R1 | %37
 
-\staff "1" R1 \chords "B°7" \bar "||" \\
+\staff "1" s1 \chords "B°7" \bar "||" \\
 \staff "2" R1 | %38
 
-\staff "1" R1 \chords "Fmaj7" \bar "||" \\
+\staff "1" s1 \chords "Fmaj7" \bar "||" \\
 \staff "2" R1 | %39
 
-\staff "1" R1 \chords "Eb7" \bar "|." \\
+\staff "1" s1 \chords "Eb7" \bar "|." \\
 \staff "2" R1 | %40
 
 \staff "1" <d gs>1^\markup "41"^\markup "________" \bar "||" \\

@@ -1,18 +1,18 @@
 [title "WK Collections"]
 [subtitle "Collections"]
 
-\key c \major \time 10/4 \clef "bass" fs,,4^\markup "1"^\markup "F♯ pentatonic (major)" r r2 r \bar "||" | %1
+\key c \major \time 10/4 \clef "bass" fs,,4^\markup "1"^\markup "F♯ pentatonic (major)" s s2 s \bar "||" | %1
 
-a,4^\markup "2"^\markup "A minor pentatonic" r r2 r \bar "||" | %2
+a,4^\markup "2"^\markup "A minor pentatonic" s s2 s \bar "||" | %2
 
-e,,4^\markup "3"^\markup "WT0" r r2 r r4 \bar "||" | %3
+e,,4^\markup "3"^\markup "WT0" s s2 s s4 \bar "||" | %3
 
-d,,4^\markup "4"^\markup "OCT1,2" r r2 r r r4 \bar "||" | %4
+d,,4^\markup "4"^\markup "OCT1,2" s s2 s s s4 \bar "||" | %4
 
-\clef "treble" a'4^\markup "5"^\markup "HEX0,1" r r2 r r4 \bar "||" | %5
+\clef "treble" a'4^\markup "5"^\markup "HEX0,1" s s2 s s4 \bar "||" | %5
 
-d4^\markup "6"^\markup "D acoustic" r r2 r r \bar "||" | %6
+d4^\markup "6"^\markup "D acoustic" s s2 s s \bar "||" | %6
 
-f4^\markup "7"^\markup "Messiaen's Mode 5" r r2 r r \bar "||" | %7
+f4^\markup "7"^\markup "Messiaen's Mode 5" s s2 s s \bar "||" | %7
 
-g'4^\markup "8"^\markup "A collection that alternates semitones and perfect fourths" r r2 r4 \bar "||" | %8
+g'4^\markup "8"^\markup "A collection that alternates semitones and perfect fourths" s s2 s4 \bar "||" | %8

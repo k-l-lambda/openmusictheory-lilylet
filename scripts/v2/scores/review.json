@@ -1,0 +1,696 @@
+{
+ "2019/05/Benedictus_Missa_Brevis_Exercise": {
+  "checked": "2026-11-09"
+ },
+ "2019/05/Benedictus_Missa_Venatorum_Exercise": {
+  "checked": "2026-11-09"
+ },
+ "2019/05/Bicinum_IV_Exercise": {
+  "checked": "2026-11-09",
+  "note": "fixed: invisible breve rests now spacers"
+ },
+ "2019/05/Modal_Reharmonization": {
+  "checked": "2026-11-09",
+  "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)",
+  "minor": false
+ },
+ "2019/05/Surge_Propera_Exercise": {
+  "checked": "2026-11-09"
+ },
+ "2019/05/Surge_Propera_Exercise-1": {
+  "checked": "2026-11-09"
+ },
+ "2019/05/The_48_Fugue_Subjects_of_the_Well-Tempered_Clavier": {
+  "checked": "2026-11-09",
+  "issue": "\\numericTimeSignature from bar 68 stays on: later C / cut-C drawn as 4/4, 2/2",
+  "minor": true
+ },
+ "2019/05/WK-Applied-Chords-A": {
+  "checked": "2026-11-09",
+  "issue": "invisible time signature of the source is drawn",
+  "minor": true,
+  "note": "key labels on empty bars lost (see notes)"
+ },
+ "2019/05/WK-Note-ID-and-Writing-A": {
+  "checked": "2026-11-09",
+  "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
+ },
+ "2019/05/WK-Note-ID-and-Writing-B": {
+  "checked": "2026-11-09",
+  "note": "texts / numbers on empty answer bars are lost (see notes); otherwise as the source"
+ },
+ "2019/05/bass-harmonizations": {
+  "checked": "2026-11-09"
+ },
+ "2019/07/WK-neo-riemannian-composing": {
+  "checked": "2026-11-09"
+ },
+ "2019/08/WK-12-bar-blues": {
+  "checked": "2026-11-09"
+ },
+ "2019/08/WK-Blues_Scales": {
+  "checked": "2026-11-09",
+  "issue": "invisible time signature of the source is drawn",
+  "minor": true
+ },
+ "2019/08/WK-Blues_Scales-1": {
+  "checked": "2026-11-09",
+  "issue": "invisible time signature of the source is drawn",
+  "minor": true
+ },
+ "2019/08/WK-Blues_Scales-answers": {
+  "checked": "2026-11-09",
+  "issue": "invisible time signature of the source is drawn",
+  "minor": true
+ },
+ "2019/08/WK-Lead-Sheet-Symbols": {
+  "checked": "2026-11-09",
+  "issue": "4/4 drawn where the source shows no time signature",
+  "minor": true,
+  "note": "exercise numbers / PART headings on empty bars lost (see notes)"
+ },
+ "2019/08/WK-Lead-Sheet-Symbols-with-Extensions": {
+  "checked": "2026-11-09",
+  "issue": "4/4 drawn where the source shows no time signature",
+  "minor": true,
+  "note": "exercise numbers / PART headings on empty bars lost (see notes)"
+ },
+ "2019/08/WK-improv": {
+  "checked": "2026-11-09",
+  "issue": "several chord symbols in one spacer/held bar piled on beat 1 (lilylet attaches \\chords to the previous note); invisible time signature of the source is drawn",
+  "minor": false,
+  "note": "staff texts on empty bars lost (see notes)"
+ },
+ "2019/08/WK-voicing": {
+  "checked": "2026-11-09",
+  "issue": "notehead parentheses (and bracketed cautionary accidentals) not kept; a frame text becomes staff text over bar 33",
+  "minor": true
+ },
+ "2019/09/WK-Classical-Cadence-Types-A": {
+  "checked": "2026-11-09",
+  "note": "hidden answers blank as in the source; source composer field 'N' (template leftover) dropped"
+ },
+ "2020/01/WK-Collections": {
+  "checked": "2026-11-09",
+  "issue": "invisible time signature of the source is drawn",
+  "minor": true
+ },
+ "2020/01/WK-Rhythmic-Notation-Simple-A": {
+  "checked": "2026-11-09",
+  "note": "72 hidden answer notes blank as in the source; empty answer staves drawn (MuseScore hides them)"
+ },
+ "2020/02/WK-Diatonic-Modes-Identification": {
+  "checked": "2026-11-09",
+  "issue": "two-note tremolos come out as tuplets without tremolo beams; Cl.->Glock. change (G15ma clef) not shown",
+  "minor": false
+ },
+ "2020/05/WK-Intro-to-Roman-Numerals-A": {
+  "checked": "2026-11-09",
+  "issue": "invisible time signature of the source is drawn",
+  "minor": true
+ },
+ "2020/05/WK-Intro-to-Roman-Numerals-B": {
+  "checked": "2026-11-09"
+ },
+ "2020/05/WK-Intro-to-Roman-Numerals-C": {
+  "checked": "2026-11-09",
+  "issue": "invisible time signature of the source is drawn",
+  "minor": true
+ },
+ "2020/05/WK-Rhythmic-Notation-Compound-A": {
+  "checked": "2026-11-09"
+ },
+ "2020/08/Ch9Ex23": {
+  "checked": "2026-11-09"
+ },
+ "2020/10/WK-Applied-Chords-B": {
+  "checked": "2026-11-09",
+  "issue": "invisible time signature of the source is drawn",
+  "minor": true,
+  "note": "key labels on empty bars lost (see notes)"
+ },
+ "2021/02/WK-Applied-Chords-B": {
+  "checked": "2026-11-09",
+  "issue": "invisible time signature of the source is drawn",
+  "minor": true,
+  "note": "key labels on empty bars lost (see notes)"
+ },
+ "2021/05/Emilie_Mayer__Abendglocken__No._1_from_2_Gesange_mm._13-21": {
+  "checked": "2026-11-09"
+ },
+ "2021/05/Six_Concertante_Quartets_No._4_II_mm._54-61": {
+  "checked": "2026-11-09"
+ },
+ "2021/05/WK-Note-ID-and-Writing-A-": {
+  "checked": "2026-11-09",
+  "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
+ },
+ "2021/05/WK-Note-ID-and-Writing-B": {
+  "checked": "2026-11-09",
+  "note": "texts / numbers on empty answer bars are lost (see notes); otherwise as the source"
+ },
+ "2021/05/WK-Rhythmic-Notation-Simple-A-": {
+  "checked": "2026-11-09",
+  "issue": "bar 32: tie into a hidden note lost; cut/common-time symbol drawn as 2/2 or 4/4 (bar 25)",
+  "minor": true,
+  "note": "fixed: texts on rests are no longer moved onto a wrong note (now dropped and listed in the notes)"
+ },
+ "2021/06/WK-Rhythmic-Notation-Compound-A": {
+  "checked": "2026-11-09",
+  "note": "fixed: texts on rests are no longer moved onto a wrong note (now dropped and listed in the notes)"
+ },
+ "2021/06/WK-Rhythmic-Notation-Simple-A-": {
+  "checked": "2026-11-09",
+  "issue": "bar 32: tie into a hidden note lost; cut/common-time symbol drawn as 2/2 or 4/4 (bar 25)",
+  "minor": true,
+  "note": "fixed: texts on rests are no longer moved onto a wrong note (now dropped and listed in the notes)"
+ },
+ "2021/06/WK-Rhythmic-Notation-Simple-A-1-1": {
+  "checked": "2026-11-09",
+  "issue": "bar 32: tie into a hidden note lost; cut/common-time symbol drawn as 2/2 or 4/4 (bar 25)",
+  "minor": true,
+  "note": "fixed: texts on rests are no longer moved onto a wrong note (now dropped and listed in the notes)"
+ },
+ "2021/07/Seventh-Chord-Inversions": {
+  "checked": "2026-11-09",
+  "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
+ },
+ "2021/07/WK-Chord-Symbols": {
+  "checked": "2026-11-09",
+  "issue": "4/4 drawn where the source shows no time signature",
+  "minor": true,
+  "note": "exercise numbers / PART headings on empty bars lost (see notes)"
+ },
+ "2021/07/WK-Chord-Symbols-with-Extensions": {
+  "checked": "2026-11-09",
+  "issue": "bar 21: two chord symbols on one chord overlap",
+  "minor": true
+ },
+ "2021/07/WK-Intro-to-Roman-Numerals-A": {
+  "checked": "2026-11-09",
+  "issue": "invisible time signature of the source is drawn",
+  "minor": true
+ },
+ "2021/07/WK-Intro-to-Roman-Numerals-B": {
+  "checked": "2026-11-09"
+ },
+ "2021/07/WK-Intro-to-Roman-Numerals-C": {
+  "checked": "2026-11-09",
+  "issue": "invisible time signature of the source is drawn",
+  "minor": true
+ },
+ "2021/07/WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Brief-Melody-only-Sentences": {
+  "checked": "2026-11-09"
+ },
+ "2021/07/WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Fully-realized-Sentences": {
+  "checked": "2026-11-09",
+  "issue": "metronome marks of the tempo texts lost; system text at bar 10 lost",
+  "minor": false
+ },
+ "2021/07/WK-Triad-Inversions": {
+  "checked": "2026-11-09",
+  "note": "fixed after review: clef changes at bar starts restored; chord-name lyrics on empty answer bars lost (see notes)"
+ },
+ "2021/08/WK-Pitch-and-Pitch-Class": {
+  "checked": "2026-11-09",
+  "issue": "a title-frame instruction becomes staff text at bar 1; invisible time signature of the source is drawn",
+  "minor": true,
+  "note": "pc labels on empty bars lost (see notes)"
+ },
+ "2021/09/WK-neo-riemannian": {
+  "checked": "2026-11-09",
+  "issue": "title-frame instructions become staff texts (bars 1, 25, 37); invisible barlines (bars 44-48) drawn",
+  "minor": true,
+  "note": "transformation labels on empty bars lost (see notes)"
+ },
+ "2021/10/WK-Intervals-1": {
+  "checked": "2026-11-09",
+  "issue": "4/4 drawn where the source shows none",
+  "minor": true,
+  "note": "fixed after review: clef changes at bar starts restored; wrong template title dropped"
+ },
+ "2021/10/WK-Intervals-2": {
+  "checked": "2026-11-09",
+  "issue": "4/4 drawn where the source shows none",
+  "minor": true,
+  "note": "fixed after review: clef changes at bar starts restored; wrong template title dropped"
+ },
+ "2021/10/WK-Intervals-3": {
+  "checked": "2026-11-09",
+  "issue": "4/4 drawn where the source shows none",
+  "minor": true,
+  "note": "fixed after review: clef changes at bar starts restored; wrong template title dropped"
+ },
+ "2021/10/WK-Inversion-and-Figured-Bass-1": {
+  "checked": "2026-11-09",
+  "note": "fixed after review: clef changes at bar starts restored; chord-name lyrics on empty answer bars lost (see notes)"
+ },
+ "2021/10/WK-Inversion-and-Figured-Bass-2": {
+  "checked": "2026-11-09",
+  "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
+ },
+ "2021/10/WK-Reading-Clefs-1": {
+  "checked": "2026-11-09",
+  "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
+ },
+ "2021/10/WK-Reading-Clefs-2": {
+  "checked": "2026-11-09",
+  "note": "texts / numbers on empty answer bars are lost (see notes); otherwise as the source"
+ },
+ "2021/10/WK-Roman-Numerals-1": {
+  "checked": "2026-11-09",
+  "issue": "invisible time signature of the source is drawn",
+  "minor": true
+ },
+ "2021/10/WK-Roman-Numerals-2": {
+  "checked": "2026-11-09"
+ },
+ "2021/10/WK-Roman-Numerals-3": {
+  "checked": "2026-11-09",
+  "issue": "invisible time signature of the source is drawn",
+  "minor": true
+ },
+ "2022/07/WK-swing-rhythms": {
+  "checked": "2026-11-09",
+  "issue": "transposing staves (Bb/Eb/F instruments) all get the concert key: wrong key signature and accidentals; instrument names not drawn",
+  "minor": false
+ },
+ "2022/08/I-Distinct": {
+  "checked": "2026-11-09",
+  "note": "texts / numbers on empty answer bars are lost (see notes); otherwise as the source"
+ },
+ "2022/08/I-Exercises": {
+  "checked": "2026-11-09",
+  "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)",
+  "minor": false,
+  "note": "Fig. labels on the empty answer staff lost (see notes)"
+ },
+ "2022/08/I-Solutions": {
+  "checked": "2026-11-09",
+  "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)",
+  "minor": false
+ },
+ "2022/08/II-Distinct": {
+  "checked": "2026-11-09",
+  "note": "texts / numbers on empty answer bars are lost (see notes); otherwise as the source"
+ },
+ "2022/08/II-Exercises": {
+  "checked": "2026-11-09",
+  "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)",
+  "minor": false,
+  "note": "Fig. labels on the empty answer staff lost (see notes)"
+ },
+ "2022/08/II-Solutions": {
+  "checked": "2026-11-09",
+  "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)",
+  "minor": false
+ },
+ "2022/08/III-Distinct": {
+  "checked": "2026-11-09",
+  "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)",
+  "minor": false,
+  "note": "labels on empty bars lost (see notes)"
+ },
+ "2022/08/III-Exercises": {
+  "checked": "2026-11-09",
+  "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)",
+  "minor": false,
+  "note": "Fig. labels on the empty answer staff lost (see notes)"
+ },
+ "2022/08/III-Solutions": {
+  "checked": "2026-11-09",
+  "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)",
+  "minor": false
+ },
+ "2023/01/WK-12-bar-blues-no-jazz": {
+  "checked": "2026-11-09"
+ },
+ "2023/01/WK-fragile-absent-emergent": {
+  "checked": "2026-11-09",
+  "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)",
+  "minor": false
+ },
+ "2023/02/WK-Applied-Chords-C": {
+  "checked": "2026-11-09",
+  "issue": "several chord symbols in one spacer/held bar piled on beat 1 (lilylet attaches \\chords to the previous note); a key label became a chord symbol (bar 36)",
+  "minor": false,
+  "note": "key labels on empty bars lost (see notes)"
+ },
+ "2023/06/WK-modal-schemas_Reharmonization": {
+  "checked": "2026-11-09",
+  "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree); glissandi not drawn",
+  "minor": false
+ },
+ "2023/07/WK-atonal-analysis-using-pc-sets": {
+  "checked": "2026-11-09"
+ },
+ "2023/08/WK-Introduction-to-Harmon-Cadences-and-Phrase-Endings-2": {
+  "checked": "2026-11-09",
+  "note": "cadence labels on hidden-answer rests lost (see notes)"
+ },
+ "2023/08/WK-Reading-Clefs-treble-bass": {
+  "checked": "2026-11-09",
+  "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
+ },
+ "2023/08/WK-Roman-numerals": {
+  "checked": "2026-11-09",
+  "issue": "bars 38, 41: second-half chords drawn on another staff than in the source; notehead parentheses (and bracketed cautionary accidentals) not kept; key labels on empty bars lost",
+  "minor": false
+ },
+ "2023/09/binary-form-assignment-1-model-composition": {
+  "checked": "2026-11-09",
+  "issue": "bar 8: start repeat after the end repeat not drawn; instruction texts one or two bars late",
+  "minor": true
+ },
+ "2024/01/embellishing-chords": {
+  "checked": "2026-11-09",
+  "issue": "invisible time signature of the source is drawn",
+  "minor": true
+ },
+ "2024/01/substitutions": {
+  "checked": "2026-11-09",
+  "issue": "bars 37-43: clarinet drawn in concert key (source shows the transposed key)",
+  "minor": false,
+  "note": "staff texts on empty bars lost (see notes)"
+ },
+ "2024/06/WK-Grouping-Dissonance-Composition-Exercise": {
+  "checked": "2026-11-09",
+  "issue": "irregular 6/4 first bar with an invisible time signature drawn as 4/4",
+  "minor": true,
+  "note": "instruction texts on empty bars lost (see notes); PDF-name title dropped"
+ },
+ "2024/06/WK-notating-rhythm-in-compound-meter": {
+  "checked": "2026-11-09"
+ },
+ "2024/06/WK-notating-rhythm-in-simple-meter": {
+  "checked": "2026-11-09",
+  "issue": "★ staff texts one note late in bars 4, 5, 15; cut/common-time symbol drawn as 2/2 or 4/4",
+  "minor": true,
+  "note": "fixed: texts on rests are no longer moved onto a wrong note (now dropped and listed in the notes)"
+ },
+ "2024/08/WK-American-Standard-Pitch-Notation-ASPN": {
+  "checked": "2026-11-09",
+  "note": "texts / numbers on empty answer bars are lost (see notes); otherwise as the source"
+ },
+ "2024/08/WK-American-Standard-Pitch-Notation-ASPN-treble-bass": {
+  "checked": "2026-11-09",
+  "note": "texts / numbers on empty answer bars are lost (see notes); otherwise as the source"
+ },
+ "2024/10/1-assignment6-enharmonic-reinterpretation": {
+  "checked": "2026-11-09",
+  "note": "112 hidden notes and 9 hidden Roman numerals blank as in the source; 9 '___:' blanks of hidden chords dropped (they had piled up on the previous chord)",
+  "issue": "stacked pivot-chord Roman numerals (bars 17-19) overlap as plain text; exercise 1 staff text sits one bar late",
+  "minor": true
+ },
+ "2025/01/WK-embellishing-tones": {
+  "checked": "2026-11-09",
+  "issue": "bracketed cautionary naturals (bars 30, 33) not drawn",
+  "minor": true
+ },
+ "2025/04/WK-16th-century-contraputal-style": {
+  "checked": "2026-11-09",
+  "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree); dotted barlines drawn solid",
+  "minor": false
+ },
+ "2025/07/WK-Dim-and-Aug-Intervals-A": {
+  "checked": "2026-11-09",
+  "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
+ },
+ "2025/07/WK-Dim-and-Aug-Intervals-B": {
+  "checked": "2026-11-09",
+  "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
+ },
+ "2025/07/WK-Intervals-A": {
+  "checked": "2026-11-09",
+  "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
+ },
+ "2025/07/WK-Intervals-B": {
+  "checked": "2026-11-09",
+  "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
+ },
+ "2025/07/WK-Intervals-C": {
+  "checked": "2026-11-09",
+  "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
+ },
+ "2025/07/WK-Intervals-D": {
+  "checked": "2026-11-09",
+  "issue": "courtesy naturals not drawn (bars 13, 47)",
+  "minor": true
+ },
+ "2025/07/WK-Intervals-E": {
+  "checked": "2026-11-09",
+  "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
+ },
+ "2025/07/WK-Ma-Mi-P-Intervals-A": {
+  "checked": "2026-11-09",
+  "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
+ },
+ "2025/07/WK-Ma-Mi-P-Intervals-B": {
+  "checked": "2026-11-09",
+  "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
+ },
+ "2025/07/WK-Major-Key-Signatures-A": {
+  "checked": "2026-11-09",
+  "issue": "where key and clef change in the same bar the key signature is written before the clef (drawn under the old clef); invisible time signature of the source is drawn",
+  "minor": false,
+  "note": "key names on empty bars lost (see notes)"
+ },
+ "2025/07/WK-Major-Key-Signatures-A-TB": {
+  "checked": "2026-11-09",
+  "issue": "where key and clef change in the same bar the key signature is written before the clef (drawn under the old clef); invisible time signature of the source is drawn",
+  "minor": false,
+  "note": "key names on empty bars lost (see notes)"
+ },
+ "2025/07/WK-Major-Key-Signatures-B": {
+  "checked": "2026-11-09",
+  "issue": "where key and clef change in the same bar the key signature is written before the clef (drawn under the old clef); invisible time signature of the source is drawn",
+  "minor": false,
+  "note": "key names on empty bars lost (see notes)"
+ },
+ "2025/07/WK-Major-Key-Signatures-B-TB": {
+  "checked": "2026-11-09",
+  "issue": "where key and clef change in the same bar the key signature is written before the clef (drawn under the old clef); invisible time signature of the source is drawn",
+  "minor": false,
+  "note": "key names on empty bars lost (see notes)"
+ },
+ "2025/07/WK-Major-Scales-A": {
+  "checked": "2026-11-09",
+  "issue": "invisible time signature of the source is drawn; scale-degree glyph (U+EF02) markup draws empty",
+  "minor": true,
+  "note": "prompts on empty bars lost (see notes)"
+ },
+ "2025/07/WK-Major-Scales-A-TB": {
+  "checked": "2026-11-09",
+  "issue": "invisible time signature of the source is drawn; scale-degree glyph (U+EF02) markup draws empty",
+  "minor": true,
+  "note": "prompts on empty bars lost (see notes)"
+ },
+ "2025/07/WK-Major-Scales-B-TB": {
+  "checked": "2026-11-09",
+  "issue": "invisible time signature of the source is drawn; scale-degree glyph (U+EF02) markup draws empty",
+  "minor": true,
+  "note": "prompts on empty bars lost (see notes)"
+ },
+ "2025/07/WK-Minor-Scales-A": {
+  "checked": "2026-11-09",
+  "issue": "invisible time signature of the source is drawn; scale-degree glyph (U+EF02) markup draws empty",
+  "minor": true,
+  "note": "prompts on empty bars lost (see notes)"
+ },
+ "2025/07/WK-Minor-Scales-A-TB": {
+  "checked": "2026-11-09",
+  "issue": "invisible time signature of the source is drawn; scale-degree glyph (U+EF02) markup draws empty",
+  "minor": true,
+  "note": "prompts on empty bars lost (see notes)"
+ },
+ "2025/07/WK-Minor-Scales-B": {
+  "checked": "2026-11-09",
+  "issue": "invisible time signature of the source is drawn; scale-degree glyph (U+EF02) markup draws empty",
+  "minor": true,
+  "note": "prompts on empty bars lost (see notes)"
+ },
+ "2025/07/WK-Minor-Scales-B-TB": {
+  "checked": "2026-11-09",
+  "issue": "invisible time signature of the source is drawn; scale-degree glyph (U+EF02) markup draws empty",
+  "minor": true,
+  "note": "prompts on empty bars lost (see notes)"
+ },
+ "2025/07/WK-Seventh-Chord-Inversion": {
+  "checked": "2026-11-09",
+  "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
+ },
+ "2025/07/WK-Triad-Inversion": {
+  "checked": "2026-11-09",
+  "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
+ },
+ "2025/07/WK-chromatic-scales-A": {
+  "checked": "2026-11-09",
+  "issue": "invisible time signature of the source is drawn (13/4)",
+  "minor": true,
+  "note": "fixed: invisible breve rests now spacers; scale names on empty bars lost (see notes)"
+ },
+ "2025/07/WK-chromatic-scales-A-TB": {
+  "checked": "2026-11-09",
+  "issue": "invisible time signature of the source is drawn (13/4)",
+  "minor": true,
+  "note": "fixed: invisible breve rests now spacers; scale names on empty bars lost (see notes)"
+ },
+ "2025/07/WK-chromatic-scales-B": {
+  "checked": "2026-11-09",
+  "issue": "invisible time signature of the source is drawn (13/4)",
+  "minor": true,
+  "note": "fixed: invisible breve rests now spacers; scale names on empty bars lost (see notes)"
+ },
+ "2025/07/WK-chromatic-scales-B-TB": {
+  "checked": "2026-11-09",
+  "issue": "invisible time signature of the source is drawn (13/4)",
+  "minor": true,
+  "note": "fixed: invisible breve rests now spacers; scale names on empty bars lost (see notes)"
+ },
+ "2025/08/WK-Minor-Key-Signatures-A": {
+  "checked": "2026-11-09",
+  "note": "texts / numbers on empty answer bars are lost (see notes); otherwise as the source"
+ },
+ "2025/08/WK-Minor-Key-Signatures-A-TB": {
+  "checked": "2026-11-09",
+  "note": "texts / numbers on empty answer bars are lost (see notes); otherwise as the source"
+ },
+ "2025/08/WK-Minor-Key-Signatures-B": {
+  "checked": "2026-11-09",
+  "note": "texts / numbers on empty answer bars are lost (see notes); otherwise as the source"
+ },
+ "2025/08/WK-Minor-Key-Signatures-B-TB": {
+  "checked": "2026-11-09",
+  "note": "texts / numbers on empty answer bars are lost (see notes); otherwise as the source"
+ },
+ "2025/08/WK-Seventh-Chords-A": {
+  "checked": "2026-11-09",
+  "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
+ },
+ "2025/08/WK-Seventh-Chords-B": {
+  "checked": "2026-11-09",
+  "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
+ },
+ "2025/08/WK-Seventh-Chords-C": {
+  "checked": "2026-11-09",
+  "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
+ },
+ "2025/08/WK-Seventh-Chords-D": {
+  "checked": "2026-11-09",
+  "issue": "notehead parentheses (and bracketed cautionary accidentals) not kept (the worksheet says \"ignore notes in parentheses\")",
+  "minor": false
+ },
+ "2025/08/WK-Triads-A": {
+  "checked": "2026-11-09",
+  "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
+ },
+ "2025/08/WK-Triads-B": {
+  "checked": "2026-11-09"
+ },
+ "2025/08/WK-Triads-C": {
+  "checked": "2026-11-09",
+  "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
+ },
+ "2025/08/WK-Triads-D": {
+  "checked": "2026-11-09",
+  "issue": "notehead parentheses (and bracketed cautionary accidentals) not kept (the worksheet says \"ignore notes in parentheses\")",
+  "minor": false
+ },
+ "2025/08/WK-diatonic-modes-A": {
+  "checked": "2026-11-09"
+ },
+ "2025/08/WK-diatonic-modes-B": {
+  "checked": "2026-11-09"
+ },
+ "2025/08/WK-diatonic-modes-B-TB": {
+  "checked": "2026-11-09"
+ },
+ "2025/08/WK-enharmonic-equivalence": {
+  "checked": "2026-11-09"
+ },
+ "2025/08/WK-enharmonic-equivalence-TB": {
+  "checked": "2026-11-09"
+ },
+ "2025/08/WK-half-and-whole-steps-in-staff-notation-TB": {
+  "checked": "2026-11-09",
+  "issue": "bars 56-57: coloured lyric glyphs (U+FE3F/FE47) not drawn",
+  "minor": true
+ },
+ "2026/06/WK-Seventh-Chord-Inversion-A": {
+  "checked": "2026-11-09",
+  "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
+ },
+ "2026/06/WK-Seventh-Chord-Inversion-B": {
+  "checked": "2026-11-09",
+  "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
+ },
+ "2026/06/WK-Triad-Inversion-A": {
+  "checked": "2026-11-09",
+  "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
+ },
+ "2026/06/WK-Triad-Inversion-B": {
+  "checked": "2026-11-09",
+  "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
+ },
+ "2026/07/WK-Cantus-Firmus-A": {
+  "checked": "2026-11-09",
+  "issue": "a staff hidden in MuseScore is drawn (lilylet has no invisible staff)",
+  "minor": true,
+  "note": "fixed: texts on rests are no longer moved onto a wrong note (now dropped and listed in the notes)"
+ },
+ "2026/07/WK-Cantus-Firmus-B": {
+  "checked": "2026-11-09",
+  "issue": "a staff hidden in MuseScore is drawn (lilylet has no invisible staff)",
+  "minor": true,
+  "note": "fixed: texts on rests are no longer moved onto a wrong note (now dropped and listed in the notes)"
+ },
+ "2026/07/WK-Fifth-species-Counterpoint-A": {
+  "checked": "2026-11-09",
+  "note": "fixed: texts on rests are no longer moved onto a wrong note (now dropped and listed in the notes); 4.7 file looks as the source otherwise"
+ },
+ "2026/07/WK-Fifth-species-Counterpoint-B": {
+  "checked": "2026-11-09",
+  "note": "fixed: texts on rests are no longer moved onto a wrong note (now dropped and listed in the notes); 4.7 file looks as the source otherwise"
+ },
+ "2026/07/WK-First-species-Counterpoint-A": {
+  "checked": "2026-11-09",
+  "note": "fixed: texts on rests are no longer moved onto a wrong note (now dropped and listed in the notes); 4.7 file looks as the source otherwise"
+ },
+ "2026/07/WK-First-species-Counterpoint-B": {
+  "checked": "2026-11-09",
+  "note": "fixed: texts on rests are no longer moved onto a wrong note (now dropped and listed in the notes); 4.7 file looks as the source otherwise"
+ },
+ "2026/07/WK-Fourth-species-Counterpoint-A": {
+  "checked": "2026-11-09",
+  "note": "fixed: texts on rests are no longer moved onto a wrong note (now dropped and listed in the notes); 4.7 file looks as the source otherwise"
+ },
+ "2026/07/WK-Fourth-species-Counterpoint-B": {
+  "checked": "2026-11-09",
+  "note": "fixed: texts on rests are no longer moved onto a wrong note (now dropped and listed in the notes); 4.7 file looks as the source otherwise"
+ },
+ "2026/07/WK-Second-species-Counterpoint-A": {
+  "checked": "2026-11-09",
+  "note": "fixed: texts on rests are no longer moved onto a wrong note (now dropped and listed in the notes); 4.7 file looks as the source otherwise"
+ },
+ "2026/07/WK-Second-species-Counterpoint-B": {
+  "checked": "2026-11-09",
+  "note": "fixed: texts on rests are no longer moved onto a wrong note (now dropped and listed in the notes); 4.7 file looks as the source otherwise"
+ },
+ "2026/07/WK-Third-species-Counterpoint-A": {
+  "checked": "2026-11-09",
+  "note": "fixed: texts on rests are no longer moved onto a wrong note (now dropped and listed in the notes); 4.7 file looks as the source otherwise"
+ },
+ "2026/07/WK-Third-species-Counterpoint-B": {
+  "checked": "2026-11-09",
+  "note": "fixed: texts on rests are no longer moved onto a wrong note (now dropped and listed in the notes); 4.7 file looks as the source otherwise"
+ },
+ "2026/08/WK-Binary-Form-Guided-Composition": {
+  "checked": "2026-11-09"
+ },
+ "2026/08/WK-Harmonic-Elision": {
+  "checked": "2026-11-09",
+  "note": "hidden notes blank; figured bass (dropped by the decoder, and one free-text figure dropped by MuseScore's export) added",
+  "issue": "restated common/cut-time symbols (bars 17, 29) drawn plain; invisible 2/4 at bar 10 drawn; \"1̂ pedal\" text line (bar 27) lost",
+  "minor": true
+ }
+}

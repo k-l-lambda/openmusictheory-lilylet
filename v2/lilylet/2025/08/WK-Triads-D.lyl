@@ -87,79 +87,79 @@
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %21
 
-\staff "1" R1 \chords "Ab" \bar "||" \\\
+\staff "1" s1 \chords "Ab" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %22
 
-\staff "1" R1 \chords "E°" \bar "||" \\\
+\staff "1" s1 \chords "E°" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %23
 
-\staff "1" R1 \chords "Eb+" \bar "||" \\\
+\staff "1" s1 \chords "Eb+" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %24
 
-\staff "1" R1 \chords "F#mi" \bar "||" \\\
+\staff "1" s1 \chords "F#mi" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %25
 
-\staff "1" \clef "bass" R1 \chords "F" \bar "||" \\\
+\staff "1" \clef "bass" s1 \chords "F" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %26
 
-\staff "1" R1 \chords "Gmi" \bar "||" \\\
+\staff "1" s1 \chords "Gmi" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %27
 
-\staff "1" R1 \chords "Cmi" \bar "||" \\\
+\staff "1" s1 \chords "Cmi" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %28
 
-\staff "1" R1 \chords "A°" \bar "||" \\\
+\staff "1" s1 \chords "A°" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %29
 
-\staff "1" R1 \chords "Bb+" \bar "||" \\\
+\staff "1" s1 \chords "Bb+" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %30
 
-\staff "1" \clef "treble" R1 \chords "G" \bar "||" \\\
+\staff "1" \clef "treble" s1 \chords "G" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %31
 
-\staff "1" R1 \chords "Fmi" \bar "||" \\\
+\staff "1" s1 \chords "Fmi" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %32
 
-\staff "1" R1 \chords "C" \bar "||" \\\
+\staff "1" s1 \chords "C" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %33
 
-\staff "1" R1 \chords "Bb" \bar "||" \\\
+\staff "1" s1 \chords "Bb" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %34
 
-\staff "1" R1 \chords "Eb+" \bar "||" \\\
+\staff "1" s1 \chords "Eb+" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %35
 
-\staff "1" \clef "bass" R1 \chords "A°" \bar "||" \\\
+\staff "1" \clef "bass" s1 \chords "A°" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %36
 
-\staff "1" R1 \chords "D+" \bar "||" \\\
+\staff "1" s1 \chords "D+" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %37
 
-\staff "1" R1 \chords "F#mi" \bar "||" \\\
+\staff "1" s1 \chords "F#mi" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %38
 
-\staff "1" R1 \chords "Abmi" \bar "||" \\\
+\staff "1" s1 \chords "Abmi" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %39
 
-\staff "1" R1 \chords "E°" \bar "||" \\\
+\staff "1" s1 \chords "E°" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %40
 

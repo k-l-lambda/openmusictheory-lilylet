@@ -4,16 +4,16 @@
 [staves "s1,s2"]
 
 \key df \major \time 3/2 \clef "treble" \stemUp bf2^\markup "BWV 891" c r4 df \\\
-\clef "treble" R1 | %1
+\clef "treble" s1. | %1
 
 \stemUp ef4 a, bf2 r4 c \\\
-R1 | %2
+s1. | %2
 
 \stemUp df8[ bf c df] ef[ c df ef] f[ df ef f] \\\
-R1 | %3
+s1. | %3
 
 \stemUp gf'8[ ef] f4 r gf c, df8[ ef] \\\
-R1 | %4
+s1. | %4
 
-df4 r r2 r \bar "|." \\\
-R1 \bar "|." | %5
+df4 s s2 s \bar "|." \\\
+s1. \bar "|." | %5

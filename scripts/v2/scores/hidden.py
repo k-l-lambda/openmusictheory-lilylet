@@ -3,8 +3,11 @@
 
     python3 scripts/v2/scores/hidden.py [--work /tmp/omt-v2-scores]
 
-MuseScore 4.6's MusicXML export drops the invisibility of notes and chord symbols, so
-hidden answer-key content (notes, Roman numerals) shows up in the conversion.
+Worksheets hide their answer keys (notes, Roman numerals) this way. MuseScore 4.6 exports
+an invisible note as <notehead>none</notehead>, an invisible rest / chord symbol with
+print-object="no", and drops invisible staff texts; extract_m21.py, harmonies.py and
+postprocess.ts (hideInvisible) act on that. This count is the independent cross-check:
+build_manifest.py requires postprocess to have hidden exactly `notes` invisible notes.
 Writes <work>/hidden.json: {rel: {notes, rests, harmonies, texts}}.
 """
 import argparse, collections, json, os, zipfile

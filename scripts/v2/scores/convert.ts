@@ -61,7 +61,11 @@ for (const f of inventory) {
 		const m21 = fs.existsSync(m21Path) ? JSON.parse(fs.readFileSync(m21Path, "utf-8")) : {};
 		const harmPath = path.join(WORK, "harm", r + ".json");
 		const harms = fs.existsSync(harmPath) ? JSON.parse(fs.readFileSync(harmPath, "utf-8")) : [];
-		check.fixes.push(...postprocessDoc(doc, { xml, m21, file: f, harms }));
+		const figPath = path.join(WORK, "figs", r + ".json");
+		const figs = fs.existsSync(figPath) ? JSON.parse(fs.readFileSync(figPath, "utf-8")) : [];
+		const clefPath = path.join(WORK, "clefs", r + ".json");
+		const clefs = fs.existsSync(clefPath) ? JSON.parse(fs.readFileSync(clefPath, "utf-8")) : null;
+		check.fixes.push(...postprocessDoc(doc, { xml, m21, file: f, harms, figs, clefs }));
 
 		// Histogram of marks / non-note events, compared after the reparse: catches
 		// marks the serializer writes but the parser drops (the note dump ignores them).
@@ -82,6 +86,7 @@ for (const f of inventory) {
 			d.measures.forEach((m: any) => m.parts.forEach((p: any) => p.voices.forEach((v: any) => {
 				walk(v.events);
 				for (const lane of v.lyrics || []) h["lyric"] = (h["lyric"] || 0) + lane.syllables.filter((x: any) => x.text).length;
+				for (const lane of v.figures || []) h["figures"] = (h["figures"] || 0) + lane.groups.filter((g: any) => g.lines).length;
 			})));
 			return h;
 		};

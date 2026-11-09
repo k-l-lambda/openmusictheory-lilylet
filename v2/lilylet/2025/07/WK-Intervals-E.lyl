@@ -17,7 +17,7 @@ R1 \bar "||" | %4
 <df' df'>1 \bar "||" \\\
 R1 \bar "||" | %5
 
-<a, f'>1 \bar "||" \\\
+\clef "bass" <a, f'>1 \bar "||" \\\
 R1 \bar "||" | %6
 
 <ef,, f>1 \bar "||" \\\
@@ -32,7 +32,7 @@ R1 \bar "||" | %9
 <cf, c'>1 \\\
 R1 | %10
 
-<df' b'>1 \\\
+\clef "treble" <df' b'>1 \\\
 R1 | %11
 
 <bf d>1 \\\
@@ -92,7 +92,7 @@ R1 \bar "||" | %29
 df''1 \bar "||" \addlyrics { ↓mi7 } \\\
 R1 \bar "||" | %30
 
-gf1 \bar "||" \addlyrics { ↓d4 } \\\
+\clef "bass" gf1 \bar "||" \addlyrics { ↓d4 } \\\
 R1 \bar "||" | %31
 
 a,1 \bar "||" \addlyrics { ↓mi2 } \\\
@@ -107,22 +107,22 @@ R1 \bar "||" | %34
 cf1 \bar "||" \addlyrics { ↓d3 } \\\
 R1 \bar "||" | %35
 
-<f df'>2_\markup "mi6" <df' f>_\markup "ma3" \\\
+\clef "treble" <f df'>2_\markup "mi6" <df' f>_\markup "ma3" \\\
 R1 | %36
 
-\stemDown <bf' f'>2 r \\\
+\stemDown <bf' f'>2 s \\\
 R1 | %37
 
-\stemUp <b c>2 r \\\
+\stemUp <b c>2 s \\\
 R1 | %38
 
-\clef "bass" <cs, e>2 r \\\
+\clef "bass" <cs, e>2 s \\\
 R1 | %39
 
-\stemDown <e, a>2 r \\\
+\stemDown <e, a>2 s \\\
 R1 | %40
 
-<a, fs'>2 r \bar "||" \\\
+<a, fs'>2 s \bar "||" \\\
 R1 \bar "||" | %41
 
 \key bf \major \numericTimeSignature \time 4/4 \clef "treble_8" \tuplet 3/2 { cs8^\markup "mi2"([ d) f,~] } \stemUp f4 r r8 fs \addlyrics { Cra -- _ zy __ _ I'm } \\\

@@ -24,20 +24,20 @@
 
 \clef "treble" <b ds fs>1 \chords "B" \bar "||" | %11
 
-\clef "alto" R1 \chords "A°" \bar "||" | %12
+\clef "alto" s1 \chords "A°" \bar "||" | %12
 
-\clef "treble" R1 \chords "Dmi" \bar "||" | %13
+\clef "treble" s1 \chords "Dmi" \bar "||" | %13
 
-\clef "bass" R1 \chords "Ab+" \bar "||" | %14
+\clef "bass" s1 \chords "Ab+" \bar "||" | %14
 
-R1 \chords "Emi" \bar "||" | %15
+s1 \chords "Emi" \bar "||" | %15
 
-\clef "treble" R1 \chords "G°" \bar "||" | %16
+\clef "treble" s1 \chords "G°" \bar "||" | %16
 
-\clef "tenor" R1 \chords "Cmi" \bar "||" | %17
+\clef "tenor" s1 \chords "Cmi" \bar "||" | %17
 
-\clef "treble" R1 \chords "Bb+" \bar "||" | %18
+\clef "treble" s1 \chords "Bb+" \bar "||" | %18
 
-\clef "bass" R1 \chords "C#" \bar "||" | %19
+\clef "bass" s1 \chords "C#" \bar "||" | %19
 
-\clef "treble" R1 \chords "F°" \bar "||" | %20
+\clef "treble" s1 \chords "F°" \bar "||" | %20

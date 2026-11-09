@@ -171,7 +171,118 @@ Perhaps even better than the *Tonnetz*, the cube dance illustrates the proximity
 > Assignments
 
 1. Worksheet on Neo-Riemannian Transformations (.[pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2019/07/WK-neo-riemannian-1.pdf), .[mscz](../media/2021/09/WK-neo-riemannian.mscz)). Asks students to perform P, L, R, SLIDE, N, and H on individual triads, to realize chains of transformations, and find a transformation chain to connect two chords.
+   <!-- lilylet-begin: media/2021/09/WK-neo-riemannian.mscz -->
+   Lilylet transcription of WK-neo-riemannian.mscz: [WK-neo-riemannian.lyl](../lilylet/2021/09/WK-neo-riemannian.lyl) (49 bars).
+   <!-- lilylet-end -->
 2. Composing with Neo-Riemannian Transformations (.[pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2019/07/WK-neo-riemannian-composing.pdf), .[mscz](../media/2019/07/WK-neo-riemannian-composing.mscz)). Asks students to use the Cube Dance and other Neo-Riemannian cycles to compose a short minimalist piano solo.
+   <!-- lilylet-begin: media/2019/07/WK-neo-riemannian-composing.mscz -->
+   Lilylet transcription of WK-neo-riemannian-composing.mscz ([WK-neo-riemannian-composing.lyl](../lilylet/2019/07/WK-neo-riemannian-composing.lyl)):
+
+   ```lyl.play
+   [title "WK neo riemannian composing"]
+   [subtitle "Composing with Neo-Riemannian Transformations"]
+   [staves "{s1-s2}"]
+
+   \staff "1" \key bf \major \time 4/4 \clef "treble" \stemUp f8[ \chords "Bb" d f d] f[ d f d] \\
+   \staff "2" \clef "bass" <bf, bf'>1 | %1
+
+   \staff "1" \stemUp f8[ d f d] f[ d f d] \\
+   \staff "2" <bf, bf'>1 | %2
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %3
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %4
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %5
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %6
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %7
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %8
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %9
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %10
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %11
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %12
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %13
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %14
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %15
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %16
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %17
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %18
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %19
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %20
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %21
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %22
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %23
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %24
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %25
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %26
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %27
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %28
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %29
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %30
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %31
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %32
+
+   \staff "1" s1 \bar "|." \\
+   \staff "2" s1 | %33
+   ```
+   <!-- lilylet-end -->
 
 ### Media Attributions
 

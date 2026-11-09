@@ -131,7 +131,103 @@ Example 11. Realization of Roman numerals with figures.
 > Assignments
 
 1. Triadic Figures ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2021/10/WK-Inversion-and-Figured-Bass-1.pdf), [.mscz](../media/2021/10/WK-Inversion-and-Figured-Bass-1.mscz)). Asks students to write chord symbols and identify the inversion of closed-position chords, and to realize chords from chord-symbol-and-figured-bass notation.
+   <!-- lilylet-begin: media/2021/10/WK-Inversion-and-Figured-Bass-1.mscz -->
+   Lilylet transcription of WK-Inversion-and-Figured-Bass-1.mscz ([WK-Inversion-and-Figured-Bass-1.lyl](../lilylet/2021/10/WK-Inversion-and-Figured-Bass-1.lyl)):
+
+   ```lyl.play
+   [title "Triads and Seventh Chords"]
+   [subtitle "Triadic Inversion"]
+
+   \key c \major \clef "bass" <g, b e>1^\markup "1" \bar "||" | %1
+
+   \clef "treble" <e a cs>1^\markup "2" \bar "||" | %2
+
+   <as' ds fs>1^\markup "3" \bar "||" | %3
+
+   \clef "bass" <bf, df g>1^\markup "4" \bar "||" | %4
+
+   \clef "alto" <as cs es>1^\markup "5" \bar "||" | %5
+
+   \clef "treble" <g' b ef>1^\markup "6" \bar "||" | %6
+
+   <ef a c>1^\markup "7" \bar "||" | %7
+
+   \clef "tenor" <e, a c>1^\markup "8" \bar "||" | %8
+
+   \clef "bass" <g bf e>1^\markup "9" \bar "||" | %9
+
+   <e,, a cs>1^\markup "10" \bar "|." | %10
+
+   \clef "treble" s1 \bar "||" | %11
+
+   \clef "alto" s1 \chords "64" \bar "||" | %12
+
+   \clef "treble" s1 \chords "64" \bar "||" | %13
+
+   \clef "bass" s1 \bar "||" | %14
+
+   s1 \chords "64" \bar "||" | %15
+
+   \clef "treble" s1 \bar "||" | %16
+
+   \clef "tenor" s1 \bar "||" | %17
+
+   \clef "treble" s1 \chords "64" \bar "||" | %18
+
+   \clef "bass" s1 \bar "||" | %19
+
+   \clef "treble" s1 \chords "64" \bar "|." | %20
+   ```
+   <!-- lilylet-end -->
 2. Seventh Chord Figures ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2021/10/WK-Inversion-and-Figured-Bass-2.pdf), [.mscz](../media/2021/10/WK-Inversion-and-Figured-Bass-2.mscz)) Asks students to write chord symbols and identify the inversion of closed-position chords, and to realize chords from chord-symbol-and-figured-bass notation.
+   <!-- lilylet-begin: media/2021/10/WK-Inversion-and-Figured-Bass-2.mscz -->
+   Lilylet transcription of WK-Inversion-and-Figured-Bass-2.mscz ([WK-Inversion-and-Figured-Bass-2.lyl](../lilylet/2021/10/WK-Inversion-and-Figured-Bass-2.lyl)):
+
+   ```lyl.play
+   [title "Triads and Seventh Chords"]
+   [subtitle "Seventh Chord Inversion"]
+
+   \key c \major \clef "bass" <c, e g a>1^\markup "1" \bar "||" | %1
+
+   \clef "treble" <a' c d fs>1^\markup "2" \bar "||" | %2
+
+   <e g bf c>1^\markup "3" \bar "||" | %3
+
+   \clef "bass" <g, a c ef>1^\markup "4" \bar "||" | %4
+
+   \clef "alto" <fs, as cs es>1^\markup "5" \bar "||" | %5
+
+   \clef "treble" <gf' bff df ef>1^\markup "6" \bar "||" | %6
+
+   <a' c ds fs>1^\markup "7" \bar "||" | %7
+
+   \clef "tenor" <cs, d fs a>1^\markup "8" \bar "||" | %8
+
+   \clef "bass" <g bf d e>1^\markup "9" \bar "||" | %9
+
+   <g, bf df e>1^\markup "10" \bar "|." | %10
+
+   \clef "treble" s1 \chords "Ab43" \bar "||" | %11
+
+   \clef "alto" s1 \chords "Fm65" \bar "||" | %12
+
+   \clef "treble" s1 \chords "43" \bar "||" | %13
+
+   \clef "bass" s1 \chords "42" \bar "||" | %14
+
+   s1 \chords "65" \bar "||" | %15
+
+   \clef "treble" s1 \chords "43" \bar "||" | %16
+
+   \clef "tenor" s1 \chords "42" \bar "||" | %17
+
+   \clef "treble" s1 \chords "43" \bar "||" | %18
+
+   \clef "bass" s1 \chords "42" \bar "||" | %19
+
+   \clef "treble" s1 \chords "65" \bar "|." | %20
+   ```
+   <!-- lilylet-end -->
 
 ---
 

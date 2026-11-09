@@ -86,79 +86,79 @@
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %21
 
-\staff "1" R1 \chords "F#°7" \bar "||" \\\
+\staff "1" s1 \chords "F#°7" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %22
 
-\staff "1" R1 \chords "D7" \bar "||" \\\
+\staff "1" s1 \chords "D7" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %23
 
-\staff "1" R1 \chords "Abma7" \bar "||" \\\
+\staff "1" s1 \chords "Abma7" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %24
 
-\staff "1" R1 \chords "Emi7" \bar "||" \\\
+\staff "1" s1 \chords "Emi7" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %25
 
-\staff "1" \clef "bass" R1 \chords "Gø7" \bar "||" \\\
+\staff "1" \clef "bass" s1 \chords "Gø7" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %26
 
-\staff "1" R1 \chords "Cmi7" \bar "||" \\\
+\staff "1" s1 \chords "Cmi7" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %27
 
-\staff "1" R1 \chords "Bbma7" \bar "||" \\\
+\staff "1" s1 \chords "Bbma7" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %28
 
-\staff "1" R1 \chords "C#ø7" \bar "||" \\\
+\staff "1" s1 \chords "C#ø7" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %29
 
-\staff "1" r1 \chords "Bb7" \bar "||" \\\
+\staff "1" s1 \chords "Bb7" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %30
 
-\staff "1" \clef "treble" R1 \chords "Dma7" \bar "||" \\\
+\staff "1" \clef "treble" s1 \chords "Dma7" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %31
 
-\staff "1" R1 \chords "G#ø7" \bar "||" \\\
+\staff "1" s1 \chords "G#ø7" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %32
 
-\staff "1" R1 \chords "Cmi7" \bar "||" \\\
+\staff "1" s1 \chords "Cmi7" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %33
 
-\staff "1" R1 \chords "B°7" \bar "||" \\\
+\staff "1" s1 \chords "B°7" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %34
 
-\staff "1" R1 \chords "Ebma7" \bar "||" \\\
+\staff "1" s1 \chords "Ebma7" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %35
 
-\staff "1" \clef "bass" R1 \chords "D#°7" \bar "||" \\\
+\staff "1" \clef "bass" s1 \chords "D#°7" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %36
 
-\staff "1" R1 \chords "Fmi7" \bar "||" \\\
+\staff "1" s1 \chords "Fmi7" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %37
 
-\staff "1" R1 \chords "Ab7" \bar "||" \\\
+\staff "1" s1 \chords "Ab7" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %38
 
-\staff "1" R1 \chords "Dbø7" \bar "||" \\\
+\staff "1" s1 \chords "Dbø7" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %39
 
-\staff "1" R1 \chords "F°7" \bar "||" \\\
+\staff "1" s1 \chords "F°7" \bar "||" \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %40
 
@@ -207,7 +207,7 @@
 \staff "2" \stemDown <g c>2 <af, af'> | %51
 
 \staff "1" \stemUp g'4 g g4. f8 \addlyrics { si -- lence in -- to } \\\
-\staff "1" r8 \stemUp <bf ef g>\pp r <a ef' g> r <af bf d>[ <af bf d> <af bf d>] \\
+\staff "1" r8 \stemUp <bf ef g> r <a ef' g> r <af bf d>[ <af bf d> <af bf d>] \\
 \staff "2" \stemUp bf,4 c <bf, bf'>2 | %52
 
 \staff "1" \stemUp ef2 r4 \bar "||" \addlyrics { pain. } \\\

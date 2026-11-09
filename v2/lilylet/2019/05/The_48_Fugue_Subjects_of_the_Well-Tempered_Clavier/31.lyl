@@ -4,22 +4,22 @@
 [staves "s1,s2"]
 
 \key ef \major \numericTimeSignature \time 2/2 \clef "bass" ef,1^\markup "BWV 876" \\\
-\clef "bass" R1 | %1
+\clef "bass" s1 | %1
 
 \stemDown bf2 r4 af \\\
-R1 | %2
+s1 | %2
 
 \stemDown g4 c2 bf4 \\\
-R1 | %3
+s1 | %3
 
 \stemDown af4 af8[ g] af4 c \\\
-R1 | %4
+s1 | %4
 
 \stemDown f,4 bf2 af4 \\\
-R1 | %5
+s1 | %5
 
 \stemDown g4 g8[ f] g4 bf \\\
-R1 | %6
+s1 | %6
 
 ef,4 \bar "|." \\\
-R4 \bar "|." | %7
+s1 \bar "|." | %7

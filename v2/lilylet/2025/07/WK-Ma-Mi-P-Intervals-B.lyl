@@ -49,9 +49,9 @@ af'1_\markup "↑P8" \bar "||" | %20
 
 af'1_\markup "↓P8" \bar "||" | %24
 
-cs1_\markup "↓mi7" \bar "||" | %25
+\clef "treble" cs1_\markup "↓mi7" \bar "||" | %25
 
-\clef "treble" c'1_\markup "↓ma3" \bar "||" | %26
+c'1_\markup "↓ma3" \bar "||" | %26
 
 ef'1_\markup "↓ma7" \bar "||" | %27
 

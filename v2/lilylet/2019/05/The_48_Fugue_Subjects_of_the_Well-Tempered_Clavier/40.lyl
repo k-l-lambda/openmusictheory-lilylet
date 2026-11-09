@@ -3,17 +3,17 @@
 [composer "J. S. Bach"]
 [staves "s1,s2"]
 
-\key bf \major \time 3/4 \clef "bass" r4 \stemDown d^\markup "BWV 885" r8 bf \\\
-\clef "bass" R1 | %1
+\key bf \major \time 3/4 \clef "bass" r4 \stemDown d r8 bf \\\
+\clef "bass" s2. | %1
 
 \stemDown ef4 c r8 a \\\
-R1 | %2
+s2. | %2
 
 \stemDown d4 bf r8 g \\\
-R1 | %3
+s2. | %3
 
 \stemDown c8[ c c c c c] \\\
-R1 | %4
+s2. | %4
 
 \stemDown c8[ bf16 a] \stemNeutral bf8 \bar "|." \\\
-R2 \bar "|." | %5
+s2. \bar "|." | %5

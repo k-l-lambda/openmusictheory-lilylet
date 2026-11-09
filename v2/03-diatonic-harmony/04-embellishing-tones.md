@@ -108,6 +108,119 @@ Example 13. Summary of embellishing tones.
 > Assignments
 
 1. Embellishing tones (.[pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2021/07/WK-Embellishing-Tones.pdf), .[mscz](../media/2025/01/WK-embellishing-tones.mscz)). Asks students to write embellishing tones in a two-voice texture and label embellishing tones in an excerpt. [Worksheet recording](../media/2025/01/johnson-cotillions-william.mp3)
+   <!-- lilylet-begin: media/2025/01/WK-embellishing-tones.mscz -->
+   Lilylet transcription of WK-embellishing-tones.mscz ([WK-embellishing-tones.lyl](../lilylet/2025/01/WK-embellishing-tones.lyl)):
+
+   ```lyl.play
+   [title "Embellishing Tones"]
+   [subtitle "Embellishing Tones"]
+   [composer "John Peterson"]
+   [staves "{s1-s2}"]
+   [measures "2*[1..25], 2*[26..34]"]
+
+   \staff "1" \key d \major \time 2/4 \clef "treble" s2 \\
+   \staff "2" \clef "bass" \stemDown d,2 | %1
+
+   \staff "1" s2 \bar "||" \\
+   \staff "2" \stemDown fs,2 | %2
+
+   \staff "1" \key e \major s2 \\
+   \staff "2" \stemDown gs2 | %3
+
+   \staff "1" s2 \bar "||" \\
+   \staff "2" \stemUp cs,2 | %4
+
+   \staff "1" \key bf \major s2 \\
+   \staff "2" \stemDown ef,2 | %5
+
+   \staff "1" s2 \bar "||" \\
+   \staff "2" \stemDown f,2 | %6
+
+   \staff "1" \key f \major s2 \\
+   \staff "2" \stemDown bf2 | %7
+
+   \staff "1" s2 \bar "||" \\
+   \staff "2" \stemDown g2 | %8
+
+   \staff "1" \key df \major s2 \\
+   \staff "2" \stemDown df,2 | %9
+
+   \staff "1" s2 \bar "||" \\
+   \staff "2" \stemDown af2 | %10
+
+   \staff "1" \key a \major s2 \\
+   \staff "2" \stemDown a2 | %11
+
+   \staff "1" s2 \bar "||" \\
+   \staff "2" \stemDown fs,2 | %12
+
+   \staff "1" \key g \major s2 \\
+   \staff "2" \stemDown a2 | %13
+
+   \staff "1" s2 \bar "||" \\
+   \staff "2" \stemDown b2 | %14
+
+   \staff "1" \key ef \major s2 \\
+   \staff "2" \stemDown f,2 | %15
+
+   \staff "1" s2 \bar "||" \\
+   \staff "2" \stemDown ef,2 | %16
+
+   \staff "1" \key c \major \time 6/8 \stemUp g'16[ f^\markup "◯"^\markup "1. ____"] \\
+   \staff "2" r8 | %17
+
+   \staff "1" \stemUp e8\ff[ g c] \stemDown c[ b^\markup "2. ____" a^\markup "◯"] \\
+   \staff "2" \stemDown c,8[ e g] c,[ e g] | %18
+
+   \staff "1" \stemDown b'8[ d f] f[ g a^\markup "3. ____"] \\
+   \staff "2" \stemUp g,8[ d' g] g,[ d' g] | %19
+
+   \staff "1" \stemDown g''8^\markup "◯"[ e c] a[ d c] \\
+   \staff "2" \stemUp c,4. \stemDown f | %20
+
+   \staff "1" \stemDown b'8[ c a] \stemUp g[ a^\markup "◯" f^\markup "Scan for audio"] \\
+   \staff "2" \stemDown g4. \stemUp g, | %21
+
+   \staff "1" \stemUp e8[ g c] \stemDown c[ b^\markup "◯"^\markup "4. ____" a] \\
+   \staff "2" \stemDown c,8[ e g] c,[ e g] | %22
+
+   \staff "1" \stemDown b'8[ d f] f[ g a^\markup "◯"^\markup "5. ____"] \\
+   \staff "2" \stemUp g,8[ d' g] g,[ d' g] | %23
+
+   \staff "1" \stemDown g''8[ e c] a[ d b] \\
+   \staff "2" \stemUp c,4. \stemDown f4 g8 | %24
+
+   \staff "1" \stemUp <f d'>4.^\markup "◯"^\markup "6. ____" <e c'>4 \bar ":|." \bar ".|:" \\
+   \staff "2" \stemUp c,8[ g e] c4 | %25
+
+   \staff "1" \stemUp g'8 \\
+   \staff "2" r8 | %26
+
+   \staff "1" \stemDown f'8[ d16 c b a] g8[ d' f] \\
+   \staff "2" \stemUp <g, b d g>4. <g b d g> | %27
+
+   \staff "1" \stemUp e'8[ g,16 f e d] c8[ g' c] \\
+   \staff "2" \stemUp <c,, e g c>4. <c e g c> | %28
+
+   \staff "1" \stemUp \grace { c'8^\markup "◯"^\markup "7. ____" \stemDown } b[ a cs] d[ fs a] \\
+   \staff "2" \stemUp <f,, f'>4. <fs fs'> | %29
+
+   \staff "1" \stemUp <e c'>4. <d b'>4 g8 \\
+   \staff "2" \stemDown g4. \stemUp g, | %30
+
+   \staff "1" \stemDown f'8[ e f] d[ e f] \\
+   \staff "2" \stemUp <g, b d g>4. <g b d g> | %31
+
+   \staff "1" \stemDown e'16[ g fs^\markup "◯"^\markup "8. ____" g a^\markup "◯"^\markup "9. ____" g] c8[ g e] \\
+   \staff "2" \stemUp <c,, e g c>4. <c e g c> | %32
+
+   \staff "1" \stemDown d'8[ a' g] f[ e d] \\
+   \staff "2" \stemDown f,4. g4 \stemUp g,8 | %33
+
+   \staff "1" \stemUp <f d'>4.^\markup "◯"^\markup "10. ____" <e c'>4 \bar ":|." \\
+   \staff "2" \stemDown g4. \stemUp c,4 | %34
+   ```
+   <!-- lilylet-end -->
 
 ### Media Attributions
 

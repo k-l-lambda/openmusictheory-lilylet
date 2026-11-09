@@ -3,23 +3,23 @@
 [composer "J. S. Bach"]
 [staves "s1,s2"]
 
-\key d \major \time 3/8 \clef "treble" r4 \stemUp fs8^\markup "BWV 893" \\\
-\clef "treble" R2 | %1
+\key d \major \time 3/8 \clef "treble" r4 \stemUp fs8 \\\
+\clef "treble" s4. | %1
 
 \stemUp d8[ b as] \\\
-R2 | %2
+s4. | %2
 
 \stemUp b8[ cs16 d e fs] \\\
-R2 | %3
+s4. | %3
 
 \stemUp g'8[ g, g'] \\\
-R2 | %4
+s4. | %4
 
 \stemUp fs8[ fs, fs'] \\\
-R2 | %5
+s4. | %5
 
 \stemUp e8[ fs16 e d cs] \\\
-R2 | %6
+s4. | %6
 
 \stemUp d16[ fs e d cs b] \bar "|." \\\
-R2 \bar "|." | %7
+s4. \bar "|." | %7

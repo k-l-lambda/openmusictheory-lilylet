@@ -3,33 +3,33 @@
 
 \key c \major \time 2/1 \clef "treble" <c e g bf>1 \chords "_____" \chords "C7" <f a c ef> \chords "F7" \bar "||" | %1
 
-r1 \chords "_____" r \chords "Bø7" \bar "||" | %2
+s1 \chords "_____" s \chords "Bø7" \bar "||" | %2
 
-r1 \chords "_____" r \chords "Ebmi7" \bar "||" | %3
+s1 \chords "_____" s \chords "Ebmi7" \bar "||" | %3
 
-r1 \chords "_____" r \chords "C#mi7" \bar "||" | %4
+s1 \chords "_____" s \chords "C#mi7" \bar "||" | %4
 
-r1 \chords "_____" r \chords "A7" \bar "||" | %5
+s1 \chords "_____" s \chords "A7" \bar "||" | %5
 
 <f af c ef>1 \chords "_____" \chords "Fmi7" <bf, d f af> \chords "Bb7" \bar "||" | %6
 
-r1 \chords "_____" r \chords "A7" \bar "||" | %7
+s1 \chords "_____" s \chords "A7" \bar "||" | %7
 
-r1 \chords "_____" r \chords "E7" \bar "||" | %8
+s1 \chords "_____" s \chords "E7" \bar "||" | %8
 
-r1 \chords "_____" r \chords "C7" \bar "||" | %9
+s1 \chords "_____" s \chords "C7" \bar "||" | %9
 
-r1 \chords "_____" r \chords "Db7" \bar "||" | %10
+s1 \chords "_____" s \chords "Db7" \bar "||" | %10
 
 <g' as cs e>1 \chords "_____" \chords "G°7" <g b d fs> \chords "Gma7" \bar "||" | %11
 
-r1 \chords "_____" r \chords "B7" \bar "||" | %12
+s1 \chords "_____" s \chords "B7" \bar "||" | %12
 
-r1 \chords "_____" r \chords "Abma7" \bar "||" | %13
+s1 \chords "_____" s \chords "Abma7" \bar "||" | %13
 
-r1 \chords "_____" r \chords "Fma7" \bar "||" | %14
+s1 \chords "_____" s \chords "Fma7" \bar "||" | %14
 
-r1 \chords "_____" r \chords "Eb7" \bar "||" | %15
+s1 \chords "_____" s \chords "Eb7" \bar "||" | %15
 
 \numericTimeSignature \time 4/4 b'4 \chords "Fma7" b b b | %16
 

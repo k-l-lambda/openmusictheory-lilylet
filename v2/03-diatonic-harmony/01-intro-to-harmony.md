@@ -175,6 +175,9 @@ Example 12. Writing a HC in a minor key.
 
 1. Introduction to harmony, cadences, and phrase endings (.[pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2021/07/WK-Introduction-to-Harmon-Cadences-and-Phrase-Endings.pdf), .[docx](https://viva.pressbooks.pub/app/uploads/sites/12/2021/07/WK-Introduction-to-Harmon-Cadences-and-Phrase-Endings.docx)). Asks students to part-write and identify cadences using only I (or i) and V chords in major and minor.
 2. Introduction to harmony, cadences, and phrase endings—no four-part writing (.[pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2023/08/WK-Introduction-to-Harmon-Cadences-and-Phrase-Endings-2.pdf), .[mscz](../media/2023/08/WK-Introduction-to-Harmon-Cadences-and-Phrase-Endings-2.mscz)). Asks students to write and identify cadences using only I (or i) and V chords in major and minor.
+   <!-- lilylet-begin: media/2023/08/WK-Introduction-to-Harmon-Cadences-and-Phrase-Endings-2.mscz -->
+   Lilylet transcription of WK-Introduction-to-Harmon-Cadences-and-Phrase-Endings-2.mscz: [WK-Introduction-to-Harmon-Cadences-and-Phrase-Endings-2.lyl](../lilylet/2023/08/WK-Introduction-to-Harmon-Cadences-and-Phrase-Endings-2.lyl) (52 bars).
+   <!-- lilylet-end -->
 
 ### Media Attributions
 

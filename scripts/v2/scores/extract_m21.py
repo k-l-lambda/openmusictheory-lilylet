@@ -9,6 +9,12 @@ Per file: <work>/m21/<YYYY/MM/base>.json =
 Measures are counted by order (0-based), not by printed number, so pickups line up.
 Staves are flattened in score order (a piano part gives two entries), which is the same
 order lilylet uses (part by part, staff 1..n inside a part).
+
+Invisible elements: MuseScore 4.6 exports an invisible note as <notehead>none</notehead>
+and an invisible rest as print-object="no" (music21 reads it as notehead None /
+style.hideObjectOnPrint). They are left out of `notes` and listed per staff in
+`hidden: [[measureIdx, offset, pitches|null, ql, grace]]` (pitches null = a rest,
+otherwise only the hidden pitches of the chord); postprocess.ts turns them into spacers.
 """
 import argparse, json, os, sys, warnings
 from fractions import Fraction
@@ -38,13 +44,13 @@ def extract(path):
     out = {'title': (md.title or md.movementName or '') if md else '',
            'composer': (md.composer or '') if md else '',
            'staves': []}
-    stats = dict(notes=0, rests=0, measuresWithNotes=0, lyrics=0, harmonies=0, texts=0, figures=0)
+    stats = dict(notes=0, rests=0, measuresWithNotes=0, lyrics=0, harmonies=0, texts=0, figures=0, hiddenNotes=0, hiddenRests=0)
     bars = 0
     withNotes = set()
     for part in s.parts:
         measures = list(part.getElementsByClass(m21.stream.Measure))
         bars = max(bars, len(measures))
-        notes = []
+        notes, hidden = [], []
         for mi, m in enumerate(measures):
             for n in m.recurse().getElementsByClass(m21.note.GeneralNote):
                 if isinstance(n, m21.harmony.Harmony):
@@ -54,11 +60,16 @@ def extract(path):
                 grace = n.duration.isGrace
                 if isinstance(n, m21.note.Rest):
                     stats['rests'] += 1
+                    if n.style.hideObjectOnPrint:
+                        stats['hiddenRests'] += 1
+                        hidden.append([mi, q(off), None, '0' if grace else q(n.duration.quarterLength), bool(grace)])
                     continue
+                hid = []
                 if isinstance(n, m21.chord.Chord) and not isinstance(n, m21.percussion.PercussionChord):
-                    ps = sorted(pname(p) for p in n.pitches)
+                    ps = sorted(pname(x.pitch) for x in n.notes if x.notehead is not None)
+                    hid = sorted(pname(x.pitch) for x in n.notes if x.notehead is None)
                 elif isinstance(n, m21.note.Note):
-                    ps = [pname(n.pitch)]
+                    ps, hid = ([], [pname(n.pitch)]) if n.notehead is None else ([pname(n.pitch)], [])
                 elif isinstance(n, m21.note.Unpitched):
                     # Staff position, as the converter writes it (see postprocess.ts).
                     ps = [f'{n.displayStep}+0{n.displayOctave}']
@@ -67,16 +78,22 @@ def extract(path):
                                 else pname(x.pitch) for x in n.notes)
                 else:
                     ps = ['X']
+                rec = lambda pp: [mi, q(off), pp, '0' if grace else q(n.duration.quarterLength), bool(grace)]
+                if hid:
+                    stats['hiddenNotes'] += len(hid)
+                    hidden.append(rec(hid))
+                if not ps:
+                    continue
                 if n.lyrics:
                     stats['lyrics'] += 1
                 stats['notes'] += 1
                 withNotes.add(mi)
-                notes.append([mi, q(off), ps, '0' if grace else q(n.duration.quarterLength), bool(grace)])
+                notes.append(rec(ps))
             for t in m.recurse().getElementsByClass((m21.expressions.TextExpression,)):
                 stats['texts'] += 1
             for t in m.recurse().getElementsByClass('FiguredBass'):
                 stats['figures'] += 1
-        out['staves'].append({'name': part.partName or '', 'notes': notes})
+        out['staves'].append({'name': part.partName or '', 'notes': notes, 'hidden': hidden})
     stats['measuresWithNotes'] = len(withNotes)
     out['bars'] = bars
     out['stats'] = stats

@@ -227,6 +227,122 @@ We have already encountered ties that can be used to extend a note over a measur
 
 1. Simple Notes, Rests, and Bar Lines ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2024/06/WK-Simple-Meter-and-Time-Signatures-–-Simple-Notes-Rests-and-Bar-Lines.pdf), [.docx](https://viva.pressbooks.pub/app/uploads/sites/12/2024/06/WK-Simple-Meter-and-Time-Signatures-–-Simple-Notes-Rests-and-Bar-Lines.docx)). Asks students to insert the correct notes, rests, and bar lines to complete the rhythmic example.
 2. Notating Rhythm in Simple Meter ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2024/06/WK-notating-rhythm-in-simple-meter.pdf), [.mscz](../media/2024/06/WK-notating-rhythm-in-simple-meter.mscz)). Asks students to correct notation that does not reflect the underlying simple meter.
+   <!-- lilylet-begin: media/2024/06/WK-notating-rhythm-in-simple-meter.mscz -->
+   Lilylet transcription of WK-notating-rhythm-in-simple-meter.mscz ([WK-notating-rhythm-in-simple-meter.lyl](../lilylet/2024/06/WK-notating-rhythm-in-simple-meter.lyl)):
+
+   ```lyl.play
+   [title "Notating Rhythm in Simple Meter"]
+   [composer "Kyle Gullings"]
+   [staves "{s1-s2},{s3-s4}"]
+   [instrument-s1-s2 "Piano 1" "Pno. 1"]
+   [instrument-s3-s4 "Piano 2" "Pno. 2"]
+
+   \staff "1" \key d \major \numericTimeSignature \time 4/4 \clef "treble" \stemUp d4._\markup "1"^\markup "incorrect" a'^\markup "★" fs4 \\
+   \staff "2" \clef "bass" R1 \\\
+   \staff "1" \clef "treble" \stemUp d4.^\markup "corrected" a'8~ a4 fs \\
+   \staff "2" \clef "bass" R1 | %1
+
+   \staff "1" \stemDown b'4 \stemUp a r r \\
+   \staff "2" R1 \\\
+   \staff "1" s1 \\
+   \staff "2" R1 | %2
+
+   \staff "1" \stemUp e4 b'8[ g fs^\markup "★" e] cs4 \\
+   \staff "2" R1 \\\
+   \staff "1" s1 \\
+   \staff "2" R1 | %3
+
+   \staff "1" \stemUp e2.. fs16[ g]^\markup "★" \\
+   \staff "2" R1 \\\
+   \staff "1" s1 \\
+   \staff "2" R1 | %4
+
+   \staff "1" \stemUp fs4 a8 \stemDown d4 d8 cs4^\markup "★" \\
+   \staff "2" R1 \\\
+   \staff "1" \stemUp fs4 \stemDown a8[ d~] d s s4 \\
+   \staff "2" R1 | %5
+
+   \staff "1" \stemDown d'4 \stemUp d,4.^\markup "★" r \bar "|." \\
+   \staff "2" R1 \\\
+   \staff "1" s1 \bar "|." \\
+   \staff "2" R1 | %6
+
+   \staff "1" \key e \major \time 3/4 \stemDown e'4._\markup "2"^\markup "incorrect" \stemUp gs,^\markup "★" \\
+   \staff "2" \stemUp cs,4 \stemDown <gs' e'> <gs e'> \\\
+   \staff "1" \stemDown e'4.^\markup "corrected" \stemUp gs,8~ gs4 \\
+   \staff "2" \stemUp cs,4 \stemDown <gs' e'> <gs e'> | %7
+
+   \staff "1" \stemDown ds'4. \stemUp gs,^\markup "★" \\
+   \staff "2" \stemUp gs,4 \stemDown <bs' ds> <bs ds> \\\
+   \staff "1" s2. \\
+   \staff "2" s2. | %8
+
+   \staff "1" \stemDown cs'8 b4 \stemUp a fs8^\markup "★" \\
+   \staff "2" \stemUp cs,4 r2 \\\
+   \staff "1" \stemDown cs'8[ b~] \stemUp b s s4 \\
+   \staff "2" s2. | %9
+
+   \staff "1" \stemUp a'8 gs4 fs e8^\markup "★" \\
+   \staff "2" r4 r r \\\
+   \staff "1" s2. \\
+   \staff "2" s2. | %10
+
+   \staff "1" \stemUp gs'4~ gs8[ gs] \stemDown bs4 \\
+   \staff "2" \stemUp gs,8 \stemDown gs'2_\markup "★" \stemUp gs,8 \\\
+   \staff "1" s2. \\
+   \staff "2" s2. | %11
+
+   \staff "1" \stemDown cs'4 r2 \bar "|." \\
+   \staff "2" \stemUp cs,4 r2 \\\
+   \staff "1" s2. \bar "|." \\
+   \staff "2" s2. | %12
+
+   \staff "1" \key ef \major \time 2/2 \stemDown ef'2_\markup "3"^\markup "incorrect" \stemUp g, \\
+   \staff "2" R1 \\\
+   \staff "1" s1 \\
+   \staff "2" R1 | %13
+
+   \staff "1" \stemDown bf'4 \stemUp ef,2 \stemDown bf'4 \\
+   \staff "2" R1 \\\
+   \staff "1" s1 \\
+   \staff "2" R1 | %14
+
+   \staff "1" \stemDown ef'4 d8 c4 bf d8^\markup "★" \\
+   \staff "2" R1 \\\
+   \staff "1" \stemDown ef'4 d8[ c] s s s4 \\
+   \staff "2" R1 | %15
+
+   \staff "1" \stemDown f'4 ef8 d4^\markup "★" c8[ bf af] \\
+   \staff "2" R1 \\\
+   \staff "1" s1 \\
+   \staff "2" R1 | %16
+
+   \staff "1" \stemUp g'8[ f] g2. \bar "|." \\
+   \staff "2" R1 \\\
+   \staff "1" s1 \bar "|." \\
+   \staff "2" R1 | %17
+
+   \staff "1" \key g \major \time 4/4 r4. \stemUp d8 \stemDown b'8. c16 b4^\markup "★" \\
+   \staff "2" R1 \\\
+   \staff "1" s1 \\
+   \staff "2" R1 | %18
+
+   \staff "1" \stemUp g'8[ fs e^\markup "★"] g fs2 \\
+   \staff "2" R1 \\\
+   \staff "1" s1 \\
+   \staff "2" R1 | %19
+
+   \staff "1" \stemUp a'8[ d, c'8. a16^\markup "★" e'8 d b g] \\
+   \staff "2" R1 \\\
+   \staff "1" s1 \\
+   \staff "2" R1 | %20
+
+   \staff "1" r8 \stemUp g'^\markup "★"[ g e] \stemDown b'4( b)^\markup "★" \bar "|." \\
+   \staff "2" R1 \\\
+   \staff "1" s1 \bar "|." \\
+   \staff "2" R1 | %21
+   ```
+   <!-- lilylet-end -->
 3.
 
 ### Media Attributions

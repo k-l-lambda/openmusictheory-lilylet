@@ -319,14 +319,496 @@ Intervallic enharmonic equivalence is useful when you come across an interval th
 > Assignments
 
 1. Intervals A ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Intervals-A.pdf), [.mscz](../media/2025/07/WK-Intervals-A.mscz)). Asks students to write and identify intervals by quality and size.
+   <!-- lilylet-begin: media/2025/07/WK-Intervals-A.mscz -->
+   Lilylet transcription of WK-Intervals-A.mscz ([WK-Intervals-A.lyl](../lilylet/2025/07/WK-Intervals-A.lyl)):
+
+   ```lyl.play
+   [title "Intervals A"]
+   [composer "Kyle Gullings"]
+
+   \key c \major \numericTimeSignature \time 4/4 \clef "treble" <c gs'>1_\markup "A5" \bar "||" | %1
+
+   \clef "tenor" <e fs>1 \bar "||" | %2
+
+   \clef "alto" <a fs'>1 \bar "||" | %3
+
+   \clef "bass" <e f>1 \bar "||" | %4
+
+   \clef "tenor" <b f'>1 \bar "||" | %5
+
+   \clef "treble" <f e'>1 | %6
+
+   \clef "bass" <d d>1 \bar "||" | %7
+
+   \clef "alto" <e, g>1 \bar "||" | %8
+
+   \clef "tenor" <fs, d'>1 \bar "||" | %9
+
+   \clef "treble" <bf' e>1 \bar "||" | %10
+
+   <g' bff>1_\markup "↑d3" \bar "||" | %11
+
+   \clef "alto" af1 \bar "||" \addlyrics { ↑A5 } | %12
+
+   \clef "tenor" e,1 \bar "||" \addlyrics { ↑mi6 } | %13
+
+   \clef "bass" b,1 \bar "||" \addlyrics { ↑P4 } | %14
+
+   df,1 \bar "||" \addlyrics { ↑ma6 } | %15
+
+   \clef "treble" f1 \bar "||" \addlyrics { ↑mi2 } | %16
+
+   \clef "alto" ef1 \bar "||" \addlyrics { ↑P5 } | %17
+
+   \clef "tenor" b1 \bar "||" \addlyrics { ↑ma7 } | %18
+
+   \clef "treble" ds1 \bar "||" \addlyrics { ↑mi7 } | %19
+
+   \clef "bass" af,1 \bar "||" \addlyrics { ↑ma3 } | %20
+
+   <dff, c'>1_\markup "↓A7" \bar "||" | %21
+
+   \clef "treble" bf''1 \bar "||" \addlyrics { ↓P8 } | %22
+
+   f1 \bar "||" \addlyrics { ↓mi3 } | %23
+
+   \clef "bass" fs,1 \bar "||" \addlyrics { ↓P4 } | %24
+
+   \clef "treble" ef'1 \bar "||" \addlyrics { ↓ma6 } | %25
+
+   \clef "bass" e,1 \bar "||" \addlyrics { ↓P5 } | %26
+
+   \clef "alto" ef1 \bar "||" \addlyrics { ↓mi7 } | %27
+
+   \clef "tenor" c1 \bar "||" \addlyrics { ↓ma3 } | %28
+
+   \clef "bass" bf1 \bar "||" \addlyrics { ↓ma2 } | %29
+
+   \clef "alto" c1 \bar "||" \addlyrics { ↓mi2 } | %30
+   ```
+   <!-- lilylet-end -->
 2. Intervals B ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Intervals-B.pdf), [.mscz](../media/2025/07/WK-Intervals-B.mscz)). Asks students to write and identify intervals by quality and size.
+   <!-- lilylet-begin: media/2025/07/WK-Intervals-B.mscz -->
+   Lilylet transcription of WK-Intervals-B.mscz ([WK-Intervals-B.lyl](../lilylet/2025/07/WK-Intervals-B.lyl)):
+
+   ```lyl.play
+   [title "Intervals B"]
+   [composer "Kyle Gullings"]
+
+   \key c \major \numericTimeSignature \time 4/4 \clef "treble" <c gs'>1_\markup "A5" \bar "||" | %1
+
+   \clef "tenor" <as' e'>1 \bar "||" | %2
+
+   <a cs>1 \bar "||" | %3
+
+   \clef "treble" <a' f'>1 \bar "||" | %4
+
+   \clef "bass" <af d>1 \bar "||" | %5
+
+   \clef "alto" <e e'>1 | %6
+
+   \clef "treble" <f af>1 \bar "||" | %7
+
+   \clef "bass" <c, g'>1 \bar "||" | %8
+
+   <b, as'>1 \bar "||" | %9
+
+   \clef "treble" <cs fs>1 \bar "||" | %10
+
+   \clef "alto" <g' bff>1_\markup "↑d3" \bar "||" | %11
+
+   \clef "bass" a,1 \bar "||" \addlyrics { ↑ma6 } | %12
+
+   \clef "tenor" d,1 \bar "||" \addlyrics { ↑P4 } | %13
+
+   \clef "treble" e1 \bar "||" \addlyrics { ↑ma3 } | %14
+
+   \clef "bass" e,1 \bar "||" \addlyrics { ↑A4 } | %15
+
+   \clef "alto" fs1 \bar "||" \addlyrics { ↑P5 } | %16
+
+   \clef "treble" gs'1 \bar "||" \addlyrics { ↑mi7 } | %17
+
+   \clef "bass" fs,1 \bar "||" \addlyrics { ↑d3 } | %18
+
+   \clef "treble" fs1 \bar "||" \addlyrics { ↑mi6 } | %19
+
+   af'1 \bar "||" \addlyrics { ↑A8 } | %20
+
+   \clef "bass" <dff, c'>1_\markup "↓A7" \bar "||" | %21
+
+   \clef "treble" bf1 \bar "||" \addlyrics { ↓mi2 } | %22
+
+   \clef "tenor" d1 \bar "||" \addlyrics { ↓P5 } | %23
+
+   af'1 \bar "||" \addlyrics { ↓P8 } | %24
+
+   \clef "treble" cs1 \bar "||" \addlyrics { ↓mi7 } | %25
+
+   c'1 \bar "||" \addlyrics { ↓ma3 } | %26
+
+   ef'1 \bar "||" \addlyrics { ↓ma7 } | %27
+
+   \clef "bass" b1 \bar "||" \addlyrics { ↓A4 } | %28
+
+   f,1 \bar "||" \addlyrics { ↓ma6 } | %29
+
+   \clef "treble" a'1 \bar "||" \addlyrics { ↓ma2 } | %30
+   ```
+   <!-- lilylet-end -->
 3. Intervals C ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Intervals-C.pdf), [.mscz](../media/2025/07/WK-Intervals-C.mscz)). Asks students to write and identify intervals by quality and size.
+   <!-- lilylet-begin: media/2025/07/WK-Intervals-C.mscz -->
+   Lilylet transcription of WK-Intervals-C.mscz ([WK-Intervals-C.lyl](../lilylet/2025/07/WK-Intervals-C.lyl)):
+
+   ```lyl.play
+   [title "Intervals C"]
+   [composer "Kyle Gullings"]
+
+   \key c \major \numericTimeSignature \time 4/4 \clef "treble" <c gs'>1_\markup "A5" \bar "||" | %1
+
+   <fs e'>1 \bar "||" | %2
+
+   \clef "tenor" <cs, cs'>1 \bar "||" | %3
+
+   \clef "treble" <e' f>1 \bar "||" | %4
+
+   \clef "alto" <ef, c'>1 \bar "||" | %5
+
+   \clef "treble" <a' e'>1 | %6
+
+   \clef "tenor" <a ds>1 \bar "||" | %7
+
+   \clef "bass" <c, c>1 \bar "||" | %8
+
+   \clef "treble" <b' ds>1 \bar "||" | %9
+
+   \clef "bass" <d, bf'>1 \bar "||" | %10
+
+   \clef "treble" <g' bff>1_\markup "↑d3" \bar "||" | %11
+
+   \clef "alto" d,1 \bar "||" \addlyrics { ↑ma7 } | %12
+
+   \clef "bass" f,,1 \bar "||" \addlyrics { ↑mi3 } | %13
+
+   \clef "tenor" af1 \bar "||" \addlyrics { ↑P8 } | %14
+
+   \clef "alto" fs,1 \bar "||" \addlyrics { ↑mi6 } | %15
+
+   \clef "treble" a1 \bar "||" \addlyrics { ↑ma2 } | %16
+
+   gf'1 \bar "||" \addlyrics { ↑A5 } | %17
+
+   fs1 \bar "||" \addlyrics { ↑dim7 } | %18
+
+   \clef "bass" df,1 \bar "||" \addlyrics { ↑ma3 } | %19
+
+   \clef "tenor" gs1 \bar "||" \addlyrics { ↑P4 } | %20
+
+   <dff, c'>1_\markup "↓A7" \bar "||" | %21
+
+   \clef "treble" bf1 \bar "||" \addlyrics { ↓d8 } | %22
+
+   \clef "alto" f,1 \bar "||" \addlyrics { ↓ma2 } | %23
+
+   \clef "tenor" cs1 \bar "||" \addlyrics { ↓ma7 } | %24
+
+   \clef "treble" af'1 \bar "||" \addlyrics { ↓mi6 } | %25
+
+   \clef "alto" f1 \bar "||" \addlyrics { ↓mi7 } | %26
+
+   \clef "bass" e,1 \bar "||" \addlyrics { ↓A4 } | %27
+
+   \clef "treble" b'1 \bar "||" \addlyrics { ↓ma6 } | %28
+
+   \clef "alto" bf'1 \bar "||" \addlyrics { ↓P5 } | %29
+
+   \clef "bass" a,1 \bar "||" \addlyrics { ↓mi2 } | %30
+   ```
+   <!-- lilylet-end -->
 4. Intervals D ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Intervals-D.pdf), [.mscz](../media/2025/07/WK-Intervals-D.mscz)). Asks students to write and identify intervals by quality and size, identify and write interval inversions, and analyze a melody using intervals. **Treble/bass only.** [Worksheet Playlist](https://open.spotify.com/playlist/10FdHi6FA7hA5e038ASBjo)
+   <!-- lilylet-begin: media/2025/07/WK-Intervals-D.mscz -->
+   Lilylet transcription of WK-Intervals-D.mscz: [WK-Intervals-D.lyl](../lilylet/2025/07/WK-Intervals-D.lyl) (51 bars).
+   <!-- lilylet-end -->
 5. Intervals E ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Intervals-E.pdf), [.mscz](../media/2025/07/WK-Intervals-E.mscz)). Asks students to write and identify intervals by quality and size, identify and write interval inversions, and analyze a melody using intervals. **Treble/bass only.** [Worksheet Playlist](https://open.spotify.com/playlist/2aVWaQilrvJ2n6ulwoJ2wk)
+   <!-- lilylet-begin: media/2025/07/WK-Intervals-E.mscz -->
+   Lilylet transcription of WK-Intervals-E.mscz: [WK-Intervals-E.lyl](../lilylet/2025/07/WK-Intervals-E.lyl) (48 bars).
+   <!-- lilylet-end -->
 6. Major, Minor, and Perfect Intervals A ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Ma-Mi-P-Intervals-A.pdf), [.mscz](../media/2025/07/WK-Ma-Mi-P-Intervals-A.mscz)). Asks students to write and identify major, minor, and perfect intervals only.
+   <!-- lilylet-begin: media/2025/07/WK-Ma-Mi-P-Intervals-A.mscz -->
+   Lilylet transcription of WK-Ma-Mi-P-Intervals-A.mscz ([WK-Ma-Mi-P-Intervals-A.lyl](../lilylet/2025/07/WK-Ma-Mi-P-Intervals-A.lyl)):
+
+   ```lyl.play
+   [title "Major, Minor, and Perfect Intervals A"]
+   [composer "Kyle Gullings"]
+
+   \key c \major \numericTimeSignature \time 4/4 \clef "treble" <b c>1_\markup "mi2" \bar "||" | %1
+
+   \clef "alto" <es f>1 \bar "||" | %2
+
+   <a fs'>1 \bar "||" | %3
+
+   \clef "bass" <e f>1 \bar "||" | %4
+
+   \clef "tenor" <b f'>1 \bar "||" | %5
+
+   \clef "treble" <f e'>1 | %6
+
+   \clef "bass" <d d>1 \bar "||" | %7
+
+   \clef "alto" <e, g>1 \bar "||" | %8
+
+   \clef "tenor" <fs, d'>1 \bar "||" | %9
+
+   \clef "treble" <bf' e>1 \bar "||" | %10
+
+   <a bf>1_\markup "↑mi2" \bar "||" | %11
+
+   \clef "bass" af1_\markup "↑P5" \bar "||" | %12
+
+   \clef "tenor" e,1_\markup "↑mi6" \bar "||" | %13
+
+   \clef "bass" b,1_\markup "↑P4" \bar "||" | %14
+
+   df,1_\markup "↑ma6" \bar "||" | %15
+
+   \clef "treble" f1_\markup "↑mi2" \bar "||" | %16
+
+   \clef "alto" ef1_\markup "↑P5" \bar "||" | %17
+
+   \clef "tenor" b1_\markup "↑ma7" \bar "||" | %18
+
+   \clef "treble" ds1_\markup "↑mi7" \bar "||" | %19
+
+   \clef "bass" af,1_\markup "↑ma3" \bar "||" | %20
+
+   <a, f'>1_\markup "↓mi6" \bar "||" | %21
+
+   \clef "treble" bf''1_\markup "↓P8" \bar "||" | %22
+
+   \clef "tenor" f1_\markup "↓mi3" \bar "||" | %23
+
+   \clef "bass" fs,1_\markup "↓P4" \bar "||" | %24
+
+   \clef "treble" ef'1_\markup "↓ma6" \bar "||" | %25
+
+   \clef "bass" e,1_\markup "↓P5" \bar "||" | %26
+
+   \clef "alto" ef1_\markup "↓mi7" \bar "||" | %27
+
+   \clef "tenor" c1_\markup "↓ma3" \bar "||" | %28
+
+   \clef "bass" bf1_\markup "↓ma2" \bar "||" | %29
+
+   \clef "alto" c1_\markup "↓mi2" \bar "||" | %30
+   ```
+   <!-- lilylet-end -->
 7. Major, Minor, and Perfect Intervals B ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Ma-Mi-P-Intervals-B.pdf), [.mscz](../media/2025/07/WK-Ma-Mi-P-Intervals-B.mscz)). Asks students to write and identify major, minor, and perfect intervals only.
+   <!-- lilylet-begin: media/2025/07/WK-Ma-Mi-P-Intervals-B.mscz -->
+   Lilylet transcription of WK-Ma-Mi-P-Intervals-B.mscz ([WK-Ma-Mi-P-Intervals-B.lyl](../lilylet/2025/07/WK-Ma-Mi-P-Intervals-B.lyl)):
+
+   ```lyl.play
+   [title "Major, Minor, and Perfect Intervals B"]
+   [composer "Kyle Gullings"]
+
+   \key c \major \numericTimeSignature \time 4/4 \clef "treble" <b c>1_\markup "mi2" \bar "||" | %1
+
+   \clef "alto" <a' e'>1 \bar "||" | %2
+
+   \clef "tenor" <a cs>1 \bar "||" | %3
+
+   \clef "treble" <a' f'>1 \bar "||" | %4
+
+   \clef "bass" <af d>1 \bar "||" | %5
+
+   \clef "alto" <e e'>1 | %6
+
+   \clef "treble" <f af>1 \bar "||" | %7
+
+   \clef "bass" <c, g'>1 \bar "||" | %8
+
+   <b, as'>1 \bar "||" | %9
+
+   \clef "treble" <cs fs>1 \bar "||" | %10
+
+   <a bf>1_\markup "↑mi2" \bar "||" | %11
+
+   \clef "bass" a,1_\markup "↑ma6" \bar "||" | %12
+
+   \clef "tenor" d,1_\markup "↑P4" \bar "||" | %13
+
+   \clef "treble" f1_\markup "↑ma3" \bar "||" | %14
+
+   \clef "bass" e,1_\markup "↑P5" \bar "||" | %15
+
+   \clef "alto" fs1_\markup "↑P5" \bar "||" | %16
+
+   gs'1_\markup "↑mi7" \bar "||" | %17
+
+   \clef "bass" fs,1_\markup "↑ma3" \bar "||" | %18
+
+   \clef "treble" fs1_\markup "↑mi6" \bar "||" | %19
+
+   af'1_\markup "↑P8" \bar "||" | %20
+
+   \clef "bass" <a, f'>1_\markup "↓mi6" \bar "||" | %21
+
+   \clef "alto" bf1_\markup "↓mi2" \bar "||" | %22
+
+   \clef "tenor" d1_\markup "↓P5" \bar "||" | %23
+
+   af'1_\markup "↓P8" \bar "||" | %24
+
+   \clef "treble" cs1_\markup "↓mi7" \bar "||" | %25
+
+   c'1_\markup "↓ma3" \bar "||" | %26
+
+   ef'1_\markup "↓ma7" \bar "||" | %27
+
+   \clef "bass" b1_\markup "↓ma4" \bar "||" | %28
+
+   f,1_\markup "↓ma6" \bar "||" | %29
+
+   \clef "treble" a'1_\markup "↓ma2" \bar "||" | %30
+   ```
+   <!-- lilylet-end -->
 8. Diminished and Augmented Intervals A ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Dim-and-Aug-Intervals-A.pdf), [.mscz](../media/2025/07/WK-Dim-and-Aug-Intervals-A.mscz)). Asks students to write and identify diminished and augmented intervals only.
+   <!-- lilylet-begin: media/2025/07/WK-Dim-and-Aug-Intervals-A.mscz -->
+   Lilylet transcription of WK-Dim-and-Aug-Intervals-A.mscz ([WK-Dim-and-Aug-Intervals-A.lyl](../lilylet/2025/07/WK-Dim-and-Aug-Intervals-A.lyl)):
+
+   ```lyl.play
+   [title "Diminished and Augmented Intervals A"]
+   [composer "Kyle Gullings"]
+
+   \key c \major \numericTimeSignature \time 4/4 \clef "treble" <c gs'>1_\markup "A5" \bar "||" | %1
+
+   \clef "tenor" <c ff>1 \bar "||" | %2
+
+   \clef "alto" <b af'>1 \bar "||" | %3
+
+   \clef "bass" <c fs>1 \bar "||" | %4
+
+   \clef "tenor" <df fs>1 \bar "||" | %5
+
+   \clef "treble" <f eff'>1 | %6
+
+   \clef "bass" <d, ds'>1 \bar "||" | %7
+
+   \clef "alto" <ef, gff>1 \bar "||" | %8
+
+   \clef "tenor" <fs, df'>1 \bar "||" | %9
+
+   \clef "treble" <bf' e>1 \bar "||" | %10
+
+   <g' bff>1_\markup "↑d3" \bar "||" | %11
+
+   \clef "alto" af1_\markup "↑d5" \bar "||" | %12
+
+   \clef "tenor" e,1_\markup "↑A6" \bar "||" | %13
+
+   \clef "bass" b,1_\markup "↑d2" \bar "||" | %14
+
+   df,1_\markup "↑A2" \bar "||" | %15
+
+   \clef "treble" f1_\markup "↑d2" \bar "||" | %16
+
+   \clef "alto" ef1_\markup "↑A3" \bar "||" | %17
+
+   \clef "tenor" b1_\markup "↑A7" \bar "||" | %18
+
+   \clef "treble" ds1_\markup "↑d7" \bar "||" | %19
+
+   \clef "bass" af,1_\markup "↑A3" \bar "||" | %20
+
+   <dff, c'>1_\markup "↓A7" \bar "||" | %21
+
+   \clef "treble" bf''1_\markup "↓d2" \bar "||" | %22
+
+   f1_\markup "↓A3" \bar "||" | %23
+
+   \clef "bass" fs,1_\markup "↓d4" \bar "||" | %24
+
+   \clef "treble" ef'1_\markup "↓A8" \bar "||" | %25
+
+   \clef "bass" e,1_\markup "↓d5" \bar "||" | %26
+
+   \clef "alto" ef1_\markup "↓d7" \bar "||" | %27
+
+   \clef "tenor" c1_\markup "↓A3" \bar "||" | %28
+
+   \clef "bass" bf1_\markup "↓A2" \bar "||" | %29
+
+   \clef "alto" c1_\markup "↓d2" \bar "||" | %30
+   ```
+   <!-- lilylet-end -->
 9. Diminished and Augmented Intervals B ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Dim-and-Aug-Intervals-B.pdf), [.mscz](../media/2025/07/WK-Dim-and-Aug-Intervals-B.mscz)). Asks students to write and identify diminished and augmented intervals only.
+   <!-- lilylet-begin: media/2025/07/WK-Dim-and-Aug-Intervals-B.mscz -->
+   Lilylet transcription of WK-Dim-and-Aug-Intervals-B.mscz ([WK-Dim-and-Aug-Intervals-B.lyl](../lilylet/2025/07/WK-Dim-and-Aug-Intervals-B.lyl)):
+
+   ```lyl.play
+   [title "Diminished and Augmented Intervals B"]
+   [composer "Kyle Gullings"]
+
+   \key c \major \numericTimeSignature \time 4/4 \clef "treble" <c gs'>1_\markup "A5" \bar "||" | %1
+
+   \clef "tenor" <af' e'>1 \bar "||" | %2
+
+   <a cf>1 \bar "||" | %3
+
+   \clef "treble" <a' ff'>1 \bar "||" | %4
+
+   \clef "bass" <af d>1 \bar "||" | %5
+
+   \clef "alto" <e ef'>1 | %6
+
+   \clef "treble" <f aff>1 \bar "||" | %7
+
+   \clef "bass" <c, gs'>1 \bar "||" | %8
+
+   <b, af'>1 \bar "||" | %9
+
+   \clef "treble" <cs ff>1 \bar "||" | %10
+
+   \clef "alto" <g bff>1_\markup "↑d3" \bar "||" | %11
+
+   a,1_\markup "↑A6" \bar "||" | %12
+
+   \clef "tenor" d,1_\markup "↑d4" \bar "||" | %13
+
+   \clef "treble" f1_\markup "↑A3" \bar "||" | %14
+
+   \clef "bass" e,1_\markup "↑d5" \bar "||" | %15
+
+   \clef "alto" fs1_\markup "↑A5" \bar "||" | %16
+
+   \clef "treble" gs'1_\markup "↑d7" \bar "||" | %17
+
+   \clef "bass" fs,1_\markup "↑A3" \bar "||" | %18
+
+   \clef "treble" fs1_\markup "↑d6" \bar "||" | %19
+
+   af'1_\markup "↑A8" \bar "||" | %20
+
+   \clef "bass" <dff, c'>1_\markup "↓A7" \bar "||" | %21
+
+   \clef "treble" bf1_\markup "↓d2" \bar "||" | %22
+
+   \clef "tenor" d1_\markup "↓d5" \bar "||" | %23
+
+   af'1_\markup "↓A8" \bar "||" | %24
+
+   \clef "treble" cs1_\markup "↓d7" \bar "||" | %25
+
+   c'1_\markup "↓d3" \bar "||" | %26
+
+   ef'1_\markup "↓A7" \bar "||" | %27
+
+   \clef "bass" b1_\markup "↓d4" \bar "||" | %28
+
+   f,1_\markup "↓A6" \bar "||" | %29
+
+   \clef "treble" a'1_\markup "↓A2" \bar "||" | %30
+   ```
+   <!-- lilylet-end -->
 
 ### Media Attributions
 

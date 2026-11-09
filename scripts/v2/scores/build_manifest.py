@@ -25,7 +25,14 @@ OUT = os.path.join(ROOT, 'v2', 'lilylet')
 inv = json.load(open(os.path.join(W, 'inventory.json')))
 cmp_ = json.load(open(os.path.join(W, 'compare.json')))
 hidden = json.load(open(os.path.join(W, 'hidden.json'))) if os.path.exists(os.path.join(W, 'hidden.json')) else {}
+hclefs = json.load(open(os.path.join(W, 'headerclefs.json'))) if os.path.exists(os.path.join(W, 'headerclefs.json')) else {}
 downgraded = set(json.load(open(os.path.join(W, 'downgraded.json')))) if os.path.exists(os.path.join(W, 'downgraded.json')) else set()
+
+# Visual review (MuseScore render of the source vs the lilylet render; omr-review/v2.html).
+# {rel: {"checked": "YYYY-MM-DD", "note"?, "issue"?, "minor"?}}; an issue keeps the file at
+# ok-with-notes unless it is marked minor (cosmetic: layout, a redundant symbol).
+_rv = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'review.json')
+REVIEW = json.load(open(_rv)) if os.path.exists(_rv) else {}
 
 SPLITS = {'2019/05/The_48_Fugue_Subjects_of_the_Well-Tempered_Clavier':
           'split into 48 files, one per subject (subdirectory 01.lyl..48.lyl), each verified against the whole; '
@@ -111,13 +118,19 @@ for f in inv:
     if not c['match'] or chk['errors'] or chk['warnings']:
         doubt = True
         notes.append('VERIFY FAILED: ' + '; '.join(chk['errors'] + chk['warnings'] + ([] if c['match'] else ['note/harmony diff vs music21'])))
+    if hclefs.get(rel):
+        notes.append(f"{hclefs[rel]} clef changes at system starts restored (MuseScore's export drops header clefs; source patched before export)")
     if f['local'] in downgraded:
         notes.append('saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60')
-    h = hidden.get(rel)
-    if h and h.get('notes', 0) + h.get('harmonies', 0) >= 1:
+    # Invisible notes (hidden answers / playback notes): postprocess.ts writes them as
+    # spacers; the count it hid must equal the count of <visible>0</visible> notes in the mscx.
+    h = hidden.get(rel) or {}
+    hid_done = sum(int(m.group(1)) for x in chk['fixes'] for m in [re.match(r'(\d+) invisible notes of the source', x)] if m)
+    if h.get('notes', 0) != hid_done:
         doubt = True
-        notes.append(f"source has {h.get('notes', 0)} invisible notes / {h.get('harmonies', 0)} invisible chord symbols "
-                     "(hidden answers or playback notes); MuseScore's MusicXML export drops invisibility, so they are visible here")
+        notes.append(f"VERIFY: source has {h.get('notes', 0)} invisible notes, {hid_done} written as spacers")
+    if h.get('harmonies'):
+        notes.append(f"{h['harmonies']} invisible chord symbols / Roman numerals of the source (answers) left out")
     # percussion scores are out of scope (decision 2026-11-09): lilylet has no percussion staff
     if any(re.search(r'unpitched \(percussion\)', x) for x in chk['fixes']):
         row.update(status='skipped-percussion', lyl=None,
@@ -129,7 +142,7 @@ for f in inv:
             doubt = True
         if re.search(r'unpitched|1-line staff|noteheads', x):
             doubt = True
-        if re.search(r'on a staff with no event', x):
+        if re.search(r'on a staff with no event|HIDDEN NOT MATCHED|FIGURES LOST|TEXT ON RESTS LOST', x):
             doubt = True
         if re.search(r'dropped (template title|placeholder composer)|placed from the MuseScore source \(0 with', x):
             continue
@@ -144,6 +157,10 @@ for f in inv:
     if rel in SPLITS:
         notes.append(SPLITS[rel])
     code = open(lyl).read()
+    if re.search(r'\\clef "[a-z]+[_^](8|15)"', code):
+        doubt = True
+        notes.append('OCTAVE CLEF: lilylet draws notes under an octave clef (treble_8) an octave too low '
+                     '(decoder writes sounding pitch, MEI encoder reads it as written; repro.ts); the .lyl pitches are the sounding ones')
     hsh = body_hash(code)
     if hsh in seen:
         notes.append(f'same music as {seen[hsh]}')
@@ -156,6 +173,13 @@ for f in inv:
     if rel in SPLITS and os.path.isdir(split_dir):
         shutil.copytree(split_dir, os.path.join(OUT, rel), dirs_exist_ok=True)
     row['lyl'] = 'v2/lilylet/' + rel + '.lyl'
+    rv = REVIEW.get(rel)
+    if rv:
+        row['review'] = rv
+        if rv.get('issue'):
+            # a minor (cosmetic) issue is recorded but keeps the file at ok
+            doubt = doubt or not rv.get('minor')
+            notes.append(('visual review (minor): ' if rv.get('minor') else 'visual review: ') + rv['issue'])
     row['status'] = 'ok-with-notes' if doubt else 'ok'
     row['notes'] = notes
     rows.append(row)
@@ -177,7 +201,10 @@ md = ['# OMT 2nd edition score files in lilylet', '',
       'MuseScore-exported MusicXML: same bar count, staves, and per staff the same notes (measure, onset, pitch',
       'spelling, duration, grace) and chord symbols; it parses without warnings and renders through MEI in Verovio.',
       '', 'Status: **ok** = all checks pass, nothing approximated; **ok-with-notes** = checks pass but the source',
-      'has something lilylet cannot show or that is doubtful (see notes); **skipped-empty** = blank template; **skipped-percussion** = drum score, out of scope.', '',
+      'has something lilylet cannot show or that is doubtful (see notes); **skipped-empty** = blank template; **skipped-percussion** = drum score, out of scope.',
+      'Invisible notes and rests of the source (hidden answers, playback-only notes) are written as spacers `s`, so the',
+      'timing is kept and only what MuseScore draws is drawn. **reviewed**: checked by eye against MuseScore\'s rendering',
+      '(`omr-review/v2.html`; records in `scripts/v2/scores/review.json`).', '',
       '| status | count |', '|---|---|'] + [f'| {k} | {v} |' for k, v in sorted(st.items())] + ['',
       '| category | ok | ok-with-notes | skipped-empty | skipped-percussion | failed |', '|---|---|---|---|---|---|'] + \
      [f"| {k} | {v['ok']} | {v['ok-with-notes']} | {v['skipped-empty']} | {v['skipped-percussion']} | {v['failed']} |" for k, v in sorted(bycat.items(), key=lambda x: order[x[0]])] + \
@@ -187,12 +214,14 @@ cur = None
 for r in rows:
     if r['category'] != cur:
         cur = r['category']
-        md += ['', f'## {cur}', '', '| file | chapter | kind | bars | status | notes |', '|---|---|---|---|---|---|']
+        md += ['', f'## {cur}', '', '| file | chapter | kind | bars | status | reviewed | notes |', '|---|---|---|---|---|---|---|']
     name = os.path.basename(r['source'])
     link = f"[{name}]({r['lyl'][len('v2/lilylet/'):]})" if r.get('lyl') else name
     chap = ', '.join(c.split('/')[-1].replace('.md', '') for c in r['chapters']) or '(unreferenced)'
     nt = '; '.join(r['notes']).replace('|', '\\|')
-    md.append(f"| {link} | {chap} | {r['kind']} | {r.get('bars') or ''} | {r['status']} | {nt} |")
+    rv = r.get('review')
+    rvs = (('minor issue' if rv.get('minor') else 'issue') if rv.get('issue') else 'checked') if rv else ''
+    md.append(f"| {link} | {chap} | {r['kind']} | {r.get('bars') or ''} | {r['status']} | {rvs} | {nt} |")
 open(os.path.join(OUT, 'MANIFEST.md'), 'w').write('\n'.join(md) + '\n')
 print(dict(st))
 for k, v in sorted(bycat.items(), key=lambda x: order[x[0]]):

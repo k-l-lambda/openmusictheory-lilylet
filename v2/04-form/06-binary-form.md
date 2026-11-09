@@ -156,6 +156,88 @@ As with most aspects of form, binary form moves between relative stability and r
 	- Audio Example 4 – [Franz Schubert (1797-1828), Piano Sonata in E major, D. 157, II (mm. 1– 16)](https://open.spotify.com/track/2S9AsOcejkEwLHJEcu1fhK?si=Cwh4s1vyQBycpvSBsB4HFA)
 	- Audio Example 5 – [Franz Schubert (1797-1828), Symphony no. 2 in B♭ major, D. 125, II](https://open.spotify.com/track/6DlL5i5csb4mOWu8MPJ3rf?si=aZtqGczQTFSEZMKInnMuCw)
 2. Binary Form – Guided Composition ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2026/08/WK-Binary-Form-Guided-Composition.pdf), [.mscz](../media/2026/08/WK-Binary-Form-Guided-Composition.mscz))
+   <!-- lilylet-begin: media/2026/08/WK-Binary-Form-Guided-Composition.mscz -->
+   Lilylet transcription of WK-Binary-Form-Guided-Composition.mscz ([WK-Binary-Form-Guided-Composition.lyl](../lilylet/2026/08/WK-Binary-Form-Guided-Composition.lyl)):
+
+   ```lyl.play
+   [title "Binary Form"]
+   [composer "Brian Jarvis"]
+   [staves "{s1-s2}"]
+   [measures "2*[1..8], 9..16, 2*[17..24]"]
+
+   \staff "1" \key c \major \time 3/4 \clef "treble" s2. \\
+   \staff "2" \clef "bass" \clef "treble" \stemUp c,4 \stemDown <g' c e> <g c e> | %1
+
+   \staff "1" s2. \\
+   \staff "2" \stemDown e,4 <g c> <g c> | %2
+
+   \staff "1" s2. \\
+   \staff "2" \stemDown d,4 <g b f'> <g b f'> | %3
+
+   \staff "1" s2. \\
+   \staff "2" \stemUp b,4 \stemDown <g' d' f> <g d' f> | %4
+
+   \staff "1" s2. \\
+   \staff "2" \stemUp c,4 \stemDown <g' c e> <g c e> | %5
+
+   \staff "1" s2. \\
+   \staff "2" \stemUp f,,4 \stemDown <f' a d> <f a d> | %6
+
+   \staff "1" s2. \\
+   \staff "2" \stemUp g,4 \stemDown <e' g c> <f g b> | %7
+
+   \staff "1" s2. \bar ":|." \bar ".|:" \\
+   \staff "2" \stemDown <c, e g c>2. | %8
+
+   \staff "1" s2. \\
+   \staff "2" \stemUp gs,4 \stemDown <b' d e> <b d e> | %9
+
+   \staff "1" s2. \\
+   \staff "2" \stemUp a,4 \stemDown <a' c e> <a c e> | %10
+
+   \staff "1" s2. \\
+   \staff "2" \stemUp fs,,4 \stemDown <a' c d> <a c d> | %11
+
+   \staff "1" s2. \\
+   \staff "2" \stemUp g,4 \stemDown <g' b d> <g b d> | %12
+
+   \staff "1" s2. \\
+   \staff "2" \stemUp e,,4 \stemDown <g' c e> <g c e> | %13
+
+   \staff "1" s2. \\
+   \staff "2" \stemUp f,,4 \stemDown <f' a d> <f a d> | %14
+
+   \staff "1" s2. \\
+   \staff "2" \stemUp g,4 \stemDown <d' g b> <d g b> | %15
+
+   \staff "1" s2. \\
+   \staff "2" \stemUp g,4 r r | %16
+
+   \staff "1" s2. \\
+   \staff "2" \stemUp c,4 \stemDown <g' c e> <g c e> | %17
+
+   \staff "1" s2. \\
+   \staff "2" \stemDown e,4 <g c> <g c> | %18
+
+   \staff "1" s2. \\
+   \staff "2" \stemDown d,4 <g b f'> <g b f'> | %19
+
+   \staff "1" s2. \\
+   \staff "2" \stemUp b,4 \stemDown <g' d' f> <g d' f> | %20
+
+   \staff "1" s2. \\
+   \staff "2" \stemUp c,4 \stemDown <g' c e> <g c e> | %21
+
+   \staff "1" s2. \\
+   \staff "2" \stemUp f,,4 \stemDown <f' a d> <f a d> | %22
+
+   \staff "1" s2. \\
+   \staff "2" \stemUp g,4 \stemDown <e' g c> <f g b> | %23
+
+   \staff "1" s2. \bar ":|." \\
+   \staff "2" \stemDown <c, e g c>2. | %24
+   ```
+   <!-- lilylet-end -->
 
 ### Media Attributions
 

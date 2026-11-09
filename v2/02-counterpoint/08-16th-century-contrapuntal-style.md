@@ -125,6 +125,9 @@ In addition to well-known libraries like [IMSLP](https://imslp.org/wiki/Main_Pag
 > Assignments
 
 1. Imitative writing in the 16th-century contrapuntal style (.[pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/04/WK-16th-century-contraputal-style.pdf), .[mscz](../media/2025/04/WK-16th-century-contraputal-style.mscz)). These exercises provide at least one complete part for reference, and one part with missing passages to complete in a suitable style. Original note values are used, with modern time signatures for those values ($\mathbf{^4_2}$), some editorial accidentals (ficta), and only G and F clefs.
+   <!-- lilylet-begin: media/2025/04/WK-16th-century-contraputal-style.mscz -->
+   Lilylet transcription of WK-16th-century-contraputal-style.mscz: [WK-16th-century-contraputal-style.lyl](../lilylet/2025/04/WK-16th-century-contraputal-style.lyl) (111 bars).
+   <!-- lilylet-end -->
 
 ---
 

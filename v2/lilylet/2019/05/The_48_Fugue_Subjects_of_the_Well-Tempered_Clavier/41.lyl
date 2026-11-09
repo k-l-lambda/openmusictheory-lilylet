@@ -3,11 +3,11 @@
 [composer "J. S. Bach"]
 [staves "s1,s2"]
 
-\key af \major \numericTimeSignature \time 4/4 \clef "treble" r8 \stemDown ef'^\markup "BWV 886"[ c f] bf,[ c16 df] \stemUp ef8[ ef,] \\\
-\clef "treble" R1 | %1
+\key af \major \numericTimeSignature \time 4/4 \clef "treble" r8 \stemDown ef'[ c f] bf,[ c16 df] \stemUp ef8[ ef,] \\\
+\clef "treble" s1 | %1
 
 \stemDown af'8[ bf16 c] df4~ df16[ ef c df] bf[ c df ef] \\\
-R1 | %2
+s1 | %2
 
 c'8 \bar "|." \\\
-R8 \bar "|." | %3
+s1 \bar "|." | %3

@@ -3,17 +3,17 @@
 [composer "J. S. Bach"]
 [staves "s1,s2"]
 
-\key f \major \time 6/16 \clef "treble" r8. \stemUp f16^\markup "BWV 880"[ e f] \\\
-\clef "treble" R2 | %1
+\key f \major \time 6/16 \clef "treble" r8. \stemUp f16[ e f] \\\
+\clef "treble" s4. | %1
 
 \stemDown c'8 r16 \stemUp a[ g a] \\\
-R2 | %2
+s4. | %2
 
 \stemDown d'8 r16 c[ d e] \\\
-R2 | %3
+s4. | %3
 
 \stemDown f'16[ e d] c[ d bf] \\\
-R2 | %4
+s4. | %4
 
 \stemUp a'16[ g f] \bar "|." \\\
-R4 \bar "|." | %5
+s4. \bar "|." | %5

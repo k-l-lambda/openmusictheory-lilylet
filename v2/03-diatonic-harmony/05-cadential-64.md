@@ -78,6 +78,66 @@ Example 4. Approaching $cad.\mathit{^6_4}$.
 > Assignments
 
 1. Strengthening Endings with Cadential $^6_4$ (.[pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2021/07/WK-Strengthening-Endings-with-Cadential-64.pdf), .[docx](https://viva.pressbooks.pub/app/uploads/sites/12/2021/07/WK-Strengthening-Endings-with-Cadential-64.docx), .[mscz](../media/2021/05/Emilie_Mayer__Abendglocken__No._1_from_2_Gesange_mm._13-21.mscz) of score). Includes unfigured bass exercises and analysis.
+   <!-- lilylet-begin: media/2021/05/Emilie_Mayer__Abendglocken__No._1_from_2_Gesange_mm._13-21.mscz -->
+   Lilylet transcription of Emilie_Mayer__Abendglocken__No._1_from_2_Gesange_mm._13-21.mscz ([Emilie_Mayer__Abendglocken__No._1_from_2_Gesange_mm._13-21.lyl](../lilylet/2021/05/Emilie_Mayer__Abendglocken__No._1_from_2_Gesange_mm._13-21.lyl)):
+
+   ```lyl.play
+   [title "Emilie Mayer, \"Abendglocken,\" No. 1 from 2 Gesange, mm. 13-21"]
+   [staves "s1,{s2-s3}"]
+
+   \key df \major \time 3/4 \clef "treble" \tempo "Andante" \stemDown bf'8. \stemUp af16 \addlyrics { Wand'rer _ } \\\
+   \staff "1" \clef "treble" r4 \\
+   \staff "2" \clef "bass" r4 | %1
+
+   \staff "1" \stemUp f4. \stemDown df'8 ef df \addlyrics { zieht auf fer -- nen } \\\
+   \staff "1" \stemUp f'4 f df \\
+   \staff "1" \tuplet 3/2 { f'8[ af, f] } \tuplet 3/2 { f'8[ af, f] } \tuplet 3/2 { df'8[ af f] } \\
+   \staff "2" \tuplet 3/2 { df,8[ af' df] } \tuplet 3/2 { df,8[ af' df] } \tuplet 3/2 { df,8[ af' df] } \\
+   \staff "2" \stemDown df,4 df df | %2
+
+   \staff "1" \stemDown df'4 c bf8 \stemUp af \addlyrics { We -- gen, in der } \\\
+   \staff "1" \stemUp df'4 c c \\
+   \staff "1" \tuplet 3/2 { df'8[ gf, ef] } \tuplet 3/2 { c'8[ gf ef] } \tuplet 3/2 { c'8[ gf ef] } \\
+   \staff "2" \tuplet 3/2 { af,8[ af' c] } \tuplet 3/2 { af,8[ af' c] } \tuplet 3/2 { af,8[ af' c] } \\
+   \staff "2" \stemDown af,4 af af | %3
+
+   \staff "1" \stemUp gf'8. gf16 \stemDown bf4 \stemUp af \addlyrics { Brust der Sehn -- sucht } \\\
+   \staff "1" \stemUp ef'4 gf f \\
+   \staff "1" \tuplet 3/2 { ef'8[ af, gf] } \tuplet 3/2 { gf'8[ af, gf] } \tuplet 3/2 { f'8[ af, gf] } \\
+   \staff "2" \tuplet 3/2 { af,8[ af' c] } \tuplet 3/2 { af,8[ af' c] } \tuplet 3/2 { af,8[ af' c] } \\
+   \staff "2" \stemDown af,4 af af | %4
+
+   \staff "1" \stemUp f4 r \stemDown bf8.\sf \stemUp af16 \addlyrics { Qual, horch da } \\\
+   \staff "1" \stemUp df'4 df df \\
+   \staff "1" \tuplet 3/2 { df'8[ af f] } \tuplet 3/2 { df'8[ af f] } \tuplet 3/2 { df'8[ af f] } \\
+   \staff "2" \tuplet 3/2 { f,8[ af df] } \tuplet 3/2 { f,8[ af df] } \tuplet 3/2 { f,8[ af df] } \\
+   \staff "2" \stemDown f,4 f f | %5
+
+   \staff "1" \stemUp f4. af8 \stemDown ef' df \addlyrics { tönt die A -- bend -- } \\\
+   \staff "1" \stemUp af''4 af af \\
+   \staff "1" \tuplet 3/2 { af''8[ af, f] } \tuplet 3/2 { af'8[ af, f] } \tuplet 3/2 { af'8[ af, f] } \\
+   \staff "2" \tuplet 3/2 { f,,8[ af' df] } \tuplet 3/2 { f,,8[ af' df] } \tuplet 3/2 { f,,8[ af' df] } \\
+   \staff "2" \stemDown f,,4 f f | %6
+
+   \staff "1" \stemDown c'4 bf \tuplet 3/2 { df8[ c] bf } \addlyrics { glok -- ke lieb -- _ lich } \\\
+   \staff "1" \stemUp bf''4 bf gf \\
+   \staff "1" \tuplet 3/2 { bf''8[ df, bf] } \tuplet 3/2 { bf'8[ df, bf] } \tuplet 3/2 { gf'8[ df bf] } \\
+   \staff "2" \tuplet 3/2 { gf,8[ bf' df] } \tuplet 3/2 { gf,,8[ bf' df] } \tuplet 3/2 { gf,,8[ bf' df] } \\
+   \staff "2" \stemDown gf,4 gf gf | %7
+
+   \staff "1" \stemUp af'4 \stemDown f'8([ df)] c ef \addlyrics { durch das _ stil -- le } \\\
+   \staff "1" \stemUp f'4 af ef \\
+   \staff "1" \tuplet 3/2 { f'8[ df af] } \tuplet 3/2 { af'8[ df, af] } \tuplet 3/2 { ef'8[ af, gf] } \\
+   \staff "2" \tuplet 3/2 { af,8[ df' f] } \tuplet 3/2 { af,,8[ df' f] } \tuplet 3/2 { af,,8[ c' ef] } \\
+   \staff "2" \stemDown af,4 af af | %8
+
+   \staff "1" \stemDown df'4 r2 \bar "||" \addlyrics { Thal. } \\\
+   \staff "1" \stemUp df'4 df df \bar "||" \\
+   \staff "1" \tuplet 3/2 { df'8[ af f] } \tuplet 3/2 { df'8[ af f] } \tuplet 3/2 { df'8[ af f] } \\
+   \staff "2" \tuplet 3/2 { df,8[ af' df] } \tuplet 3/2 { df,8[ af' df] } \tuplet 3/2 { df,8[ af' df] } \\
+   \staff "2" \stemDown df,4 df df | %9
+   ```
+   <!-- lilylet-end -->
 
 ---
 

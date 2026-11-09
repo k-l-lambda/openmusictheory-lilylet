@@ -35,38 +35,38 @@
 \staff "1" g''1 \bar "|." \\
 \staff "2" f,1 | %11
 
-\staff "1" \key d \major \clef "bass" r1 \\
-\staff "2" \clef "treble" b,1^\markup "Cantus firmus:"^\markup "Intervals:"_\markup "(Key: B Minor)"_\markup "(Key: D Major)" | %12
+\staff "1" \key d \major \clef "bass" s1 \\
+\staff "2" \clef "treble" b,1^\markup "Cantus firmus:"^\markup "Intervals:"_\markup "(Key: B Minor)" | %12
 
-\staff "1" R1 \\
+\staff "1" s1 \\
 \staff "2" as,1 | %13
 
-\staff "1" R1 \\
+\staff "1" s1 \\
 \staff "2" b,1 | %14
 
-\staff "1" R1 \\
+\staff "1" s1 \\
 \staff "2" d,1 | %15
 
-\staff "1" R1 \\
+\staff "1" s1 \\
 \staff "2" cs,1 | %16
 
-\staff "1" R1 \\
+\staff "1" s1 \\
 \staff "2" fs,1 | %17
 
-\staff "1" R1 \\
+\staff "1" s1 \\
 \staff "2" e,1 | %18
 
-\staff "1" R1 \\
+\staff "1" s1 \\
 \staff "2" b,1 | %19
 
-\staff "1" R1 \\
+\staff "1" s1 \\
 \staff "2" cs,1 | %20
 
-\staff "1" R1 \\
+\staff "1" s1 \\
 \staff "2" R1 | %21
 
-\staff "1" R1 \\
+\staff "1" s1 \\
 \staff "2" R1 | %22
 
-\staff "1" R1 \bar "|." \\
+\staff "1" s1 \bar "|." \\
 \staff "2" b,1 | %23

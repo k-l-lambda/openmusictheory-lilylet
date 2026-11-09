@@ -3,14 +3,14 @@
 [composer "J. S. Bach"]
 [staves "s1,s2"]
 
-\key a \major \numericTimeSignature \time 4/4 \clef "bass" r4 r8 \stemDown cs^\markup "BWV 883" a[ fs] d'4~ \\\
-\clef "bass" R1 | %1
+\key a \major \numericTimeSignature \time 4/4 \clef "bass" r4 r8 \stemDown cs a[ fs] d'4~ \\\
+\clef "bass" s1 | %1
 
 \stemDown d8[ cs16 b] cs4~ cs8[ fs] b,4~ \\\
-R1 | %2
+s1 | %2
 
 \stemDown b8[ a16 gs] a8[ fs] gs2 \\\
-R1 | %3
+s1 | %3
 
-fs,4 r8 \bar "|." \\\
-R2 \bar "|." | %4
+fs,4 s8 \bar "|." \\\
+s1 \bar "|." | %4

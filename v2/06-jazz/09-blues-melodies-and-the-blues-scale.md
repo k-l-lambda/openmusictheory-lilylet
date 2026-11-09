@@ -67,7 +67,111 @@ Compared to the minor blues scale, the major blues scale is less dissonant with 
 > Assignments
 
 1. Blues scales worksheet ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2019/08/WK-Blues_Scales-2.pdf), [.mscz](../media/2019/08/WK-Blues_Scales.mscz)). Asks students to spell scales and transcribe a melody that uses the blues scale. [Worksheet playlist](https://open.spotify.com/playlist/3UXBDRikR549FKxkyU0EVO)
+   <!-- lilylet-begin: media/2019/08/WK-Blues_Scales.mscz -->
+   Lilylet transcription of WK-Blues_Scales.mscz ([WK-Blues_Scales.lyl](../lilylet/2019/08/WK-Blues_Scales.lyl)):
+
+   ```lyl.play
+   [title "WK Blues Scales"]
+
+   \key c \major \time 7/4 \clef "treble" \stemUp f4 s2 s1 | %1
+
+   \stemUp bf4 s2 s1 | %2
+
+   \stemUp ef4 s2 s1 | %3
+
+   \stemUp g'4 s2 s1 | %4
+
+   \stemUp d4 s2 s1 | %5
+
+   \stemUp a'4 s2 s1 | %6
+
+   \stemUp f4^\markup "For #7 and #8, write a major blues scale." s2 s1 | %7
+
+   \stemUp bf4 s2 s1 | %8
+
+   \numericTimeSignature \time 4/4 \stemDown b'8[ b~] b4 \stemUp b8[ g a g] \addlyrics { You ain't __ _ _ _ _ _ } | %9
+
+   s1 | %10
+
+   s1 | %11
+
+   s1 | %12
+
+   s1 | %13
+
+   s1 | %14
+
+   s1 | %15
+
+   s1 | %16
+
+   s1 | %17
+
+   s1 | %18
+
+   s1 | %19
+
+   s1 | %20
+
+   s1 \bar "||" | %21
+   ```
+   <!-- lilylet-end -->
 2. Improvising with the blues scale ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2019/08/WK-improv.pdf), [.mscz](../media/2019/08/WK-improv.mscz)). Video assignment. Asks students to pair off and create videos with call-and-response improvisation. [Backing track available here.](../media/2019/08/improv-backing-track.mp3)
+   <!-- lilylet-begin: media/2019/08/WK-improv.mscz -->
+   Lilylet transcription of WK-improv.mscz ([WK-improv.lyl](../lilylet/2019/08/WK-improv.lyl)):
+
+   ```lyl.play
+   [title "WK improv"]
+
+   \key c \major \time 7/4 \clef "treble" s1.. \chords "F7" | %1
+
+   s1.. \chords "Bb7" | %2
+
+   s1.. \chords "F7" | %3
+
+   s1.. | %4
+
+   s1.. \chords "Bb7" | %5
+
+   s1.. | %6
+
+   s1.. \chords "F7" | %7
+
+   s1.. | %8
+
+   s1.. \chords "C7" | %9
+
+   s1.. \chords "Bb7" | %10
+
+   s1.. \chords "F7" | %11
+
+   s1.. \chords "C7" \bar "||" | %12
+
+   s1.. \chords "F7" | %13
+
+   s1.. \chords "Bb7" | %14
+
+   s1.. \chords "F7" | %15
+
+   s1.. | %16
+
+   s1.. \chords "Bb7" | %17
+
+   s1.. | %18
+
+   s1.. \chords "F7" | %19
+
+   s1.. | %20
+
+   s1.. \chords "C7" | %21
+
+   s1.. \chords "Bb7" | %22
+
+   s1.. \chords "F7" \chords "F7/A" \chords "Bb7" \chords "Db/B" | %23
+
+   s1.. \chords "F/C" \chords "Gb7" \chords "F7" \bar "|." | %24
+   ```
+   <!-- lilylet-end -->
 3. Blues composition. Asks students to synthesize information about blues harmony and blues melody.
 	1. Notation option ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2019/08/COMP-blues.pdf), [.docx](https://viva.pressbooks.pub/app/uploads/sites/12/2019/08/COMP-blues.docx))
 	2. Audio option (.[pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/02/COMP-blues-audio-option.pdf), .[docx](https://viva.pressbooks.pub/app/uploads/sites/12/2025/02/COMP-blues-audio-option.docx))

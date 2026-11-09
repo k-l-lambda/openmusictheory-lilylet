@@ -74,6 +74,96 @@ If notes are enharmonically equivalent, then the system of seven letter names do
 > Assignments
 
 1. Pitch and pitch class (.[pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2021/08/WK-Pitch-and-Pitch-Class.pdf), .[mscz](../media/2021/08/WK-Pitch-and-Pitch-Class.mscz)). Asks students to translate between pitch class integers, note names, and staff notation.
+   <!-- lilylet-begin: media/2021/08/WK-Pitch-and-Pitch-Class.mscz -->
+   Lilylet transcription of WK-Pitch-and-Pitch-Class.mscz ([WK-Pitch-and-Pitch-Class.lyl](../lilylet/2021/08/WK-Pitch-and-Pitch-Class.lyl)):
+
+   ```lyl.play
+   [title "WK Pitch and Pitch Class"]
+   [subtitle "Pitch and Pitch Class"]
+   [staves "{s1-s2}"]
+
+   \staff "1" \key c \major \clef "treble" s1 \bar "||" \\
+   \staff "2" \clef "bass" ef,1^\markup "____" | %1
+
+   \staff "1" a'1^\markup "2" \bar "||" \\
+   \staff "2" s1 | %2
+
+   \staff "1" s1 \bar "||" \\
+   \staff "2" d,1^\markup "____" | %3
+
+   \staff "1" ff'1^\markup "4" \bar "||" \\
+   \staff "2" s1 | %4
+
+   \staff "1" cs'1^\markup "5" \bar "||" \\
+   \staff "2" s1 | %5
+
+   \staff "1" s1 \bar "||" \\
+   \staff "2" af,1^\markup "____" | %6
+
+   \staff "1" s1 \bar "||" \\
+   \staff "2" b,1^\markup "____" | %7
+
+   \staff "1" df1^\markup "8" \bar "||" \\
+   \staff "2" s1 | %8
+
+   \staff "1" es'1^\markup "9" \bar "||" \\
+   \staff "2" s1 | %9
+
+   \staff "1" b'1^\markup "10" \bar "||" \\
+   \staff "2" s1 | %10
+
+   \staff "1" s1 \bar "||" \\
+   \staff "2" cf,1^\markup "____" | %11
+
+   \staff "1" s1 \bar "||" \\
+   \staff "2" gf1^\markup "____" | %12
+
+   \staff "1" s1 \bar "||" \\
+   \staff "2" e,1^\markup "____" | %13
+
+   \staff "1" bf'1^\markup "14" \bar "||" \\
+   \staff "2" s1 | %14
+
+   \staff "1" ff1^\markup "15" \bar "||" \\
+   \staff "2" s1 | %15
+
+   \staff "1" s1 \bar "||" \\
+   \staff "2" gs,1^\markup "____" | %16
+
+   \staff "1" bf'1^\markup "17" \bar "||" \\
+   \staff "2" s1 | %17
+
+   \staff "1" f1^\markup "18" \bar "||" \\
+   \staff "2" s1 | %18
+
+   \staff "1" s1 \bar "||" \\
+   \staff "2" as,1^\markup "____" | %19
+
+   \staff "1" ds'1^\markup "20" \bar "||" \\
+   \staff "2" s1 | %20
+
+   \staff "1" s1 \bar "||" \\
+   \staff "2" c,1^\markup "____" | %21
+
+   \staff "1" \time 5/4 s4 s2 \stemDown ef''4 ef, \bar "||" \\
+   \staff "2" \stemDown ef,4_\markup "pc 3" ds ds' s s | %22
+
+   \staff "1" s1 s4 \bar "||" \\
+   \staff "2" s1 s4 | %23
+
+   \staff "1" s1 s4 \bar "||" \\
+   \staff "2" s1 s4 | %24
+
+   \staff "1" s1 s4 \bar "||" \\
+   \staff "2" s1 s4 | %25
+
+   \staff "1" s1 s4 \bar "||" \\
+   \staff "2" s1 s4 | %26
+
+   \staff "1" s1 s4 \bar "||" \\
+   \staff "2" s1 s4 | %27
+   ```
+   <!-- lilylet-end -->
 
 ### Media Attributions
 

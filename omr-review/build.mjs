@@ -1,6 +1,8 @@
 // Build the OMR review page data + vendored renderers.
 //
 //   node omr-review/build.mjs        (or: npm run omr-review)
+//   node omr-review/build.mjs --v2   also the OMT 2nd-edition page, omr-review/v2.html
+//                                    (build-v2.mjs: v2-data.js + v2-renders/, gitignored)
 //
 // Outputs (gitignored, regenerate after editing any .lyl):
 //   omr-review/data.js                     window.OMR_REVIEW = { items, orphans, ... }
@@ -169,3 +171,8 @@ console.log(`omr-review: ${items.length} images, ${withLyl.length} with lilylet 
 	`(${withLyl.filter((i) => i.source === "omr").length} OMR, ${withLyl.filter((i) => i.source === "hand").length} hand), ` +
 	`${orphans.length} orphan .lyl; lilylet ${data.lilylet}, verovio ${data.verovio}`);
 if (orphans.length) console.log("  orphan .lyl (no matching image):", orphans.join(", "));
+
+if (process.argv.includes("--v2")) {
+	const { buildV2 } = await import("./build-v2.mjs");
+	buildV2({ ROOT, HERE, lilylet: data.lilylet, verovio: data.verovio });
+}

@@ -3,14 +3,14 @@
 [composer "J. S. Bach"]
 [staves "s1,s2"]
 
-\key b \minor \numericTimeSignature \time 4/4 \clef "treble" r8 \stemUp fs^\markup "BWV 869"[ d b] g'([ fs) b( as)] \\\
-\clef "treble" R1 | %1
+\key b \minor \numericTimeSignature \time 4/4 \clef "treble" r8 \stemUp fs[ d b] g'([ fs) b( as)] \\\
+\clef "treble" s1 | %1
 
 \stemUp e8([ ds) c'( b)] fs([ es) d'( cs)] \\\
-R1 | %2
+s1 | %2
 
 \stemUp bs'8[ cs a fs] gs2 \\\
-R1 | %3
+s1 | %3
 
 fs8 \bar "|." \\\
-R8 \bar "|." | %4
+s1 \bar "|." | %4

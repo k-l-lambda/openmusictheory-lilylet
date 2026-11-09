@@ -104,3 +104,6 @@ Example 8. Richard Strauss, “[Zueignung](https://open.spotify.com/track/7Jrhf
 > Assignments
 
 1. Harmonic Elision ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2026/08/WK-Harmonic-Elision.pdf), [.mscz](../media/2026/08/WK-Harmonic-Elision.mscz).) Asks students to spell chords, realize figured bass, write 4-part voice leading with Roman numerals, and analyze a musical excerpt.
+   <!-- lilylet-begin: media/2026/08/WK-Harmonic-Elision.mscz -->
+   Lilylet transcription of WK-Harmonic-Elision.mscz: [WK-Harmonic-Elision.lyl](../lilylet/2026/08/WK-Harmonic-Elision.lyl) (46 bars).
+   <!-- lilylet-end -->

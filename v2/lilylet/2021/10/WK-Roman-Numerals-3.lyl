@@ -17,9 +17,9 @@
 \staff "2" \stemUp b4 e cs2 \\
 \staff "2" \stemDown g4 e fs2 | %3
 
-\staff "1" \stemUp fs2 r4 as \\
+\staff "1" \stemUp fs2 s4 as \\
 \staff "1" \stemDown cs2 r4 fs \\
-\staff "2" \stemUp as2 r4 cs \\
+\staff "2" \stemUp as2 s4 cs \\
 \staff "2" \stemDown fs,,2 r4 fs' | %4
 
 \staff "1" \stemUp a'4 g fs b \\

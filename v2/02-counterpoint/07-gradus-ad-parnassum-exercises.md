@@ -45,6 +45,30 @@ Click on the links to download any particular type. Please note that the .mxl fi
 | II | [.mxl](http://fourscoreandmore.org/species/downloads/II/II-Exercises.mxl), [.mscz](http://fourscoreandmore.org/species/downloads/II/II-Exercises.mscz), [.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2022/08/II-Exercises.pdf) | [.mxl](http://fourscoreandmore.org/species/downloads/II/II-Solutions.mxl), [.mscz](../media/2022/08/II-Solutions.mscz), [.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2022/08/II-Solutions.pdf) | [.mxl](http://fourscoreandmore.org/species/downloads/II/II-Annotations.mxl), [.mscz](http://fourscoreandmore.org/species/downloads/II/II-Annotations.mscz), [.pdf](http://fourscoreandmore.org/species/downloads/II/II-Annotations.pdf) | [.mxl](http://fourscoreandmore.org/species/downloads/II/II-Distinct.mxl), [.mscz](../media/2022/08/II-Distinct.mscz), [.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2022/08/II-Distinct.pdf) |
 | III | [.mxl](http://fourscoreandmore.org/species/downloads/III/III-Exercises.mxl), [.mscz](../media/2022/08/III-Exercises.mscz), [.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2022/08/III-Exercises.pdf) | [.mxl](http://fourscoreandmore.org/species/downloads/III/III-Solutions.mxl), [.mscz](../media/2022/08/III-Solutions.mscz), [.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2022/08/III-Solutions.pdf) | [.mxl](http://fourscoreandmore.org/species/downloads/III/III-Annotations.mxl), [.mscz](http://fourscoreandmore.org/species/downloads/III/III-Annotations.mscz), [.pdf](http://fourscoreandmore.org/species/downloads/III/III-Annotations.pdf) | [.mxl](http://fourscoreandmore.org/species/downloads/III/III-Distinct.mxl), [.mscz](../media/2022/08/III-Distinct.mscz), [.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2022/08/III-Distinct.pdf) |
 
+<!-- lilylet-begin: media/2022/08/I-Exercises.mscz -->
+Lilylet transcription of I-Exercises.mscz: [I-Exercises.lyl](../lilylet/2022/08/I-Exercises.lyl) (527 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2022/08/I-Solutions.mscz -->
+Lilylet transcription of I-Solutions.mscz: [I-Solutions.lyl](../lilylet/2022/08/I-Solutions.lyl) (527 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2022/08/I-Distinct.mscz -->
+Lilylet transcription of I-Distinct.mscz: [I-Distinct.lyl](../lilylet/2022/08/I-Distinct.lyl) (142 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2022/08/II-Solutions.mscz -->
+Lilylet transcription of II-Solutions.mscz: [II-Solutions.lyl](../lilylet/2022/08/II-Solutions.lyl) (492 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2022/08/II-Distinct.mscz -->
+Lilylet transcription of II-Distinct.mscz: [II-Distinct.lyl](../lilylet/2022/08/II-Distinct.lyl) (213 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2022/08/III-Exercises.mscz -->
+Lilylet transcription of III-Exercises.mscz: [III-Exercises.lyl](../lilylet/2022/08/III-Exercises.lyl) (349 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2022/08/III-Solutions.mscz -->
+Lilylet transcription of III-Solutions.mscz: [III-Solutions.lyl](../lilylet/2022/08/III-Solutions.lyl) (349 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2022/08/III-Distinct.mscz -->
+Lilylet transcription of III-Distinct.mscz: [III-Distinct.lyl](../lilylet/2022/08/III-Distinct.lyl) (284 bars).
+<!-- lilylet-end -->
 ## *Gradus ad Parnassum* Data
 
 Each exercise includes the following information:

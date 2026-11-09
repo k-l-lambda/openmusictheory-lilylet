@@ -95,6 +95,9 @@ Example 7. Embellishing chords can be (a) unwritten and improvised by performers
 	- [.mscz:](../media/2025/02/COMP-bebop-part-2-audio-option.mscz) Template for chord sheet
 	- [.docx](https://viva.pressbooks.pub/app/uploads/sites/12/2025/02/COMP-bebop-audio-option.docx): instructions only
 3. Embellishing chords (.[pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2024/01/embellishing-chords.pdf), .[mscz](../media/2024/01/embellishing-chords.mscz)). Reviews the spelling of applied V<sup>7</sup>/ii<sup>7</sup> chords and common-tone diminished seventh chords, and asks students to add embellishing chords to chord progressions.
+   <!-- lilylet-begin: media/2024/01/embellishing-chords.mscz -->
+   Lilylet transcription of embellishing-chords.mscz: [embellishing-chords.lyl](../lilylet/2024/01/embellishing-chords.lyl) (59 bars).
+   <!-- lilylet-end -->
 
 ### Media Attributions
 

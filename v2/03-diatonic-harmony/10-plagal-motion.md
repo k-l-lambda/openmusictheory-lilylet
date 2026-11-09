@@ -55,3 +55,55 @@ Example 3. Writing plagal motion with an inverted tonic.
 > Assignments
 
 1. Plagal Motion as a Form of Prolongation ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2021/07/WK-Plagal-Motion-as-a-Form-of-Prolongation.pdf), [.docx](https://viva.pressbooks.pub/app/uploads/sites/12/2021/05/WK_Plagal_Motion.docx)). Asks students to identify bass lines and analyze an excerpt. [Download audio (.mscz)](../media/2021/05/Six_Concertante_Quartets_No._4_II_mm._54-61.mscz).
+   <!-- lilylet-begin: media/2021/05/Six_Concertante_Quartets_No._4_II_mm._54-61.mscz -->
+   Lilylet transcription of Six_Concertante_Quartets_No._4_II_mm._54-61.mscz ([Six_Concertante_Quartets_No._4_II_mm._54-61.lyl](../lilylet/2021/05/Six_Concertante_Quartets_No._4_II_mm._54-61.lyl)):
+
+   ```lyl.play
+   [title "Six Concertante Quartets No. 4, II, mm. 54-61"]
+   [staves "s1,s2,s3,s4"]
+   [instrument-s1 "Violin 1" "Vln. 1"]
+   [instrument-s2 "Violin 2" "Vln. 2"]
+   [instrument-s3 "Viola" "Vla."]
+   [instrument-s4 "Violoncello" "Vc."]
+
+   \key af \major \time 2/4 \clef "treble" \tempo 4=110 \stemDown c'4.\f \stemUp f,8 \\\
+   \clef "treble" \stemUp c8\mp[ c] c[ c] \\\
+   \clef "alto" \stemUp af2\mp( \\\
+   \clef "bass" \stemDown f,2\mp( | %1
+
+   \stemUp e4. g8 \\\
+   \stemUp c8[ c] c[ c] \\\
+   \stemUp bf2) \\\
+   \stemDown g2) | %2
+
+   \stemDown bf'8[ df(] \stemUp c)[ e,] \\\
+   \stemUp df8[ bf'] af[ g,] \\\
+   \stemUp g2( \\\
+   \stemDown e,2( | %3
+
+   \stemUp g'8[ f] f4 \\\
+   \stemUp bf8[ af] af4 \\\
+   \stemUp af2) \\\
+   \stemDown f,2) | %4
+
+   \stemDown c'4. c8 \\\
+   r8 \stemUp c c r \\\
+   r8 \stemDown f f r \\\
+   \stemUp af,4 r8 af | %5
+
+   \stemDown df'4. c8 \\\
+   r8 \stemUp df df r \\\
+   r8 \stemDown e e r \\\
+   \stemUp bf,4 r8 af | %6
+
+   \stemUp c'16[ bf af g] f8[ e] \\\
+   \stemUp bf4 af8[ g] \\\
+   \stemUp bf4 \stemDown c \\\
+   \stemUp bf,4 c | %7
+
+   \stemUp f4 r \bar "|." \\\
+   \stemUp af4 r \bar "|." \\\
+   \stemUp f,4 r \bar "|." \\\
+   \stemUp f,,4 r \bar "|." | %8
+   ```
+   <!-- lilylet-end -->

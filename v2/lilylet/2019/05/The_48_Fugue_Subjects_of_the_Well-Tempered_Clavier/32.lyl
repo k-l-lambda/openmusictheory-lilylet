@@ -3,11 +3,11 @@
 [composer "J. S. Bach"]
 [staves "s1,s2"]
 
-\key fs \major \numericTimeSignature \time 4/4 \clef "treble" r8 \stemUp ds^\markup "BWV 877"[ ds ds] css[ ds] es4~ \\\
-\clef "treble" R1 | %1
+\key fs \major \numericTimeSignature \time 4/4 \clef "treble" r8 \stemUp ds[ ds ds] css[ ds] es4~ \\\
+\clef "treble" s1 | %1
 
 \stemUp es8[ ds] gs4. fs16[ es] as8[ gs] \\\
-R1 | %2
+s1 | %2
 
 fs8 \bar "|." \\\
-R8 \bar "|." | %3
+s1 \bar "|." | %3

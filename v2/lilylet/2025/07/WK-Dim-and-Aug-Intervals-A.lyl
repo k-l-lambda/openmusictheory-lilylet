@@ -49,9 +49,9 @@ f1_\markup "↓A3" \bar "||" | %23
 
 \clef "bass" fs,1_\markup "↓d4" \bar "||" | %24
 
-ef'1_\markup "↓A8" \bar "||" | %25
+\clef "treble" ef'1_\markup "↓A8" \bar "||" | %25
 
-e,1_\markup "↓d5" \bar "||" | %26
+\clef "bass" e,1_\markup "↓d5" \bar "||" | %26
 
 \clef "alto" ef1_\markup "↓d7" \bar "||" | %27
 

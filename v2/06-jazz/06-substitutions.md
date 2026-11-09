@@ -104,6 +104,9 @@ This is illustrated in Example 7, with different ways of showing a modally mixed
 	- [.mscz:](../media/2025/02/COMP-bebop-part-2-audio-option.mscz) Template for chord sheet
 	- [.docx](https://viva.pressbooks.pub/app/uploads/sites/12/2025/02/COMP-bebop-audio-option.docx): instructions only
 3. Substitutions (.[pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2024/01/substitutions.pdf), .[mscz](../media/2024/01/substitutions.mscz)). Asks students to substitute chords in ii–V–I progressions and in a phrase from Cole Porter’s “Let’s Do It.” [Worksheet playlist](https://open.spotify.com/playlist/18agWVDue3Rii0KPuTzfnX?si=OkVtAHQTTL-SCL96AfFpig&pi=u-Tyl1asK6TVuv)
+   <!-- lilylet-begin: media/2024/01/substitutions.mscz -->
+   Lilylet transcription of substitutions.mscz: [substitutions.lyl](../lilylet/2024/01/substitutions.lyl) (43 bars).
+   <!-- lilylet-end -->
 
 ### Media Attributions
 

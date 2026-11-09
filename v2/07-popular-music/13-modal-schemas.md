@@ -197,6 +197,9 @@ If $\hat{6}$ is raised (*la*) in a minor-tonic mode, you are in **dorian.**If no
 
 1. Identifying Modal Schemas ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2019/05/WK-Modal-Schemas.pdf), [.docx](https://viva.pressbooks.pub/app/uploads/sites/12/2019/05/WK-Modal-Schemas.docx)). Asks students to aurally identify various modal schemas. [Worksheet playlist](https://open.spotify.com/playlist/1DJhIuYkyY8NLNM768YIKS?si=4feixxxZSUWDe7OD8aoH2Q)
 2. Modal reharmonization composition exercise ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2019/05/COMP-Modal_Reharmonization_print.pdf), [.mscz](../media/2023/06/WK-modal-schemas_Reharmonization.mscz)). Asks students to reharmonize [Rihanna’s “Desperado”](https://open.spotify.com/track/4mCf3vQf7z0Yseo0RxAi3V?si=G-Iw-MhjSVGQMOSNw-SLvw) (2016) with modal schemas.
+   <!-- lilylet-begin: media/2023/06/WK-modal-schemas_Reharmonization.mscz -->
+   Lilylet transcription of WK-modal-schemas_Reharmonization.mscz: [WK-modal-schemas_Reharmonization.lyl](../lilylet/2023/06/WK-modal-schemas_Reharmonization.lyl) (49 bars).
+   <!-- lilylet-end -->
 
 ### Media Attributions
 

@@ -3,5 +3,5 @@
 [composer "J. S. Bach"]
 [staves "s1,s2"]
 
-\key cs \major \numericTimeSignature \time 4/4 \clef "treble" r8 \stemUp cs^\markup "BWV 871"[ es cs \stemNeutral gs'] \bar "|." \\\
-\clef "treble" r2 r8 \bar "|." | %1
+\key cs \major \numericTimeSignature \time 4/4 \clef "treble" r8 \stemUp cs[ es cs \stemNeutral gs'] \bar "|." \\\
+\clef "treble" s2 s8 \bar "|." | %1

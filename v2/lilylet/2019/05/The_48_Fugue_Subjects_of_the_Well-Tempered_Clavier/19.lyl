@@ -4,7 +4,7 @@
 [staves "s1,s2"]
 
 \key a \major \time 9/8 \clef "treble" \stemUp a'8^\markup "BWV 864" r r r gs[ cs] \stemDown a[ d b] \\\
-\clef "treble" R1 | %1
+\clef "treble" s1 s8 | %1
 
 e'8 \bar "|." \\\
-R8 \bar "|." | %2
+s1 s8 \bar "|." | %2

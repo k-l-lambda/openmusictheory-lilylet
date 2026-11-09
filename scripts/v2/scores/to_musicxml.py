@@ -4,7 +4,9 @@
     python3 scripts/v2/scores/to_musicxml.py [--work /tmp/omt-v2-scores] [--png] [--only SUBSTR]
 
 Output: <work>/xml/YYYY/MM/<base>.musicxml, <work>/png/YYYY/MM/<base>-N.png.
-Uses one MuseScore batch job (-j) so the AppImage starts once.
+Uses one MuseScore batch job (-j) so the AppImage starts once. MuseScore sources are first
+patched when needed (prepare(): 4.7 files re-stamped as 4.60, header clefs made ordinary
+clef changes) into <work>/patched/; <work>/downgraded.json and headerclefs.json record it.
 """
 import argparse, json, os, shutil, subprocess
 
@@ -20,14 +22,84 @@ ap.add_argument('--only', default=None)
 ap.add_argument('--force', action='store_true')
 a = ap.parse_args()
 
+import re, zipfile
+
+
+def read_mscx(src):
+    if src.endswith('.mscx'):
+        return open(src, encoding='utf-8').read()
+    with zipfile.ZipFile(src) as z:
+        return z.read(next(n for n in z.namelist() if n.endswith('.mscx') and '/' not in n)).decode('utf-8')
+
+
+def fix_header_clefs(x):
+    """MuseScore stores a clef change that falls at a system start as a *header* clef
+    (<isHeader>1</isHeader>; 4.7 writes one in every bar), and 4.6.5's MusicXML export
+    drops header clefs after the first bar, so the bar is exported in the old clef.
+    Turn each header clef that changes the clef in force into an ordinary clef change.
+    Works per <Staff> of the score body, in document order. Returns (text, n changed)."""
+    n = 0
+    def staff(m):
+        nonlocal n
+        cur = None
+        def clef(c):
+            nonlocal cur, n
+            body = c.group(0)
+            t = re.search(r'<concertClefType>([^<]+)</concertClefType>', body)
+            t = t.group(1) if t else None
+            if '<isHeader>1</isHeader>' in body and cur is not None and t != cur:
+                body = re.sub(r'\s*<isHeader>1</isHeader>', '', body, count=1)
+                n += 1
+            if t:
+                cur = t
+            return body
+        return re.sub(r'<Clef\b[^>]*>.*?</Clef>', clef, m.group(0), flags=re.S)
+    x = re.sub(r'<Staff id="\d+">(?:(?!</Staff>).)*?<Measure\b.*?</Staff>', staff, x, flags=re.S)
+    return x, n
+
+
+def prepare(src, rel):
+    """Patched copy of a MuseScore source for the export, or None if it needs none:
+    files saved by 4.7 re-stamped as 4.60 (4.6.5 refuses them; the 4.70 format adds
+    nothing these scores use) and header clefs fixed. Returns (path|None, was_47, n_clefs)."""
+    try:
+        x = read_mscx(src)
+    except Exception:
+        return None, False, 0      # e.g. a PDF uploaded with an .mscz name
+    new = bool(re.search(r'<museScore version="4\.7', x))
+    if new:
+        x = re.sub(r'<museScore version="4\.7\d*"', '<museScore version="4.60"', x, count=1)
+        x = re.sub(r'<programVersion>4\.7[^<]*', '<programVersion>4.6.5', x, count=1)
+    x, nclef = fix_header_clefs(x)
+    if not new and not nclef:
+        return None, False, 0
+    out = os.path.join(a.work, 'patched', rel + '.mscx')
+    os.makedirs(os.path.dirname(out), exist_ok=True)
+    open(out, 'w', encoding='utf-8').write(x)
+    return out, new, nclef
+
+
 inv = json.load(open(os.path.join(a.work, 'inventory.json')))
 _dg = os.path.join(a.work, 'downgraded.json')
-known_new = set(json.load(open(_dg))) if os.path.exists(_dg) and not a.force else set()
+_hc = os.path.join(a.work, 'headerclefs.json')
+downgraded = set(json.load(open(_dg))) if os.path.exists(_dg) else set()
+headerclefs = json.load(open(_hc)) if os.path.exists(_hc) else {}
 jobs = []
 for f in inv:
     if a.only and a.only not in f['local']:
         continue
     src = os.path.join(ROOT, 'v2', f['local'])
+    if f['format'] in ('mscz', 'mscx'):
+        _rel = f['local'][len('media/'):].rsplit('.', 1)[0]
+        patched, new, nclef = prepare(src, _rel)
+        if new:
+            downgraded.add(f['local'])
+        if nclef:
+            headerclefs[_rel] = nclef
+        else:
+            headerclefs.pop(_rel, None)
+        if patched:
+            src = patched
     rel = f['local'][len('media/'):].rsplit('.', 1)[0]
     xml = os.path.join(a.work, 'xml', rel + '.musicxml')
     os.makedirs(os.path.dirname(xml), exist_ok=True)
@@ -36,8 +108,7 @@ for f in inv:
         if a.force or not os.path.exists(xml):
             shutil.copy(src, xml)
     elif a.force or not os.path.exists(xml):
-        if f['local'] not in known_new:
-            outs.append(xml)
+        outs.append(xml)
     if a.png:
         png = os.path.join(a.work, 'png', rel + '.png')
         os.makedirs(os.path.dirname(png), exist_ok=True)
@@ -55,51 +126,9 @@ if jobs:
     print('exit', r.returncode)
 
 
-def downgrade(src, dst_dir):
-    """MuseScore 4.6.5 refuses files saved by 4.7 (format 4.70). Re-stamp the mscx as
-    4.60 and let 4.6.5 read it; the 4.70 format adds nothing these scores use (checked
-    visually on the resulting PNGs). Returns the patched .mscx path."""
-    import re, zipfile
-    os.makedirs(dst_dir, exist_ok=True)
-    with zipfile.ZipFile(src) as z:
-        name = next(n for n in z.namelist() if n.endswith('.mscx') and '/' not in n)
-        x = z.read(name).decode('utf-8')
-    x = re.sub(r'<museScore version="4\.7\d*"', '<museScore version="4.60"', x, count=1)
-    x = re.sub(r'<programVersion>4\.7[^<]*', '<programVersion>4.6.5', x, count=1)
-    out = os.path.join(dst_dir, os.path.basename(src).rsplit('.', 1)[0] + '.mscx')
-    open(out, 'w', encoding='utf-8').write(x)
-    return out
-
-
-# Second pass: files that failed because they were saved by a newer MuseScore.
-retry = []
-downgraded = []
-for f in inv:
-    if a.only and a.only not in f['local']:
-        continue
-    rel = f['local'][len('media/'):].rsplit('.', 1)[0]
-    xml = os.path.join(a.work, 'xml', rel + '.musicxml')
-    if os.path.exists(xml) or f['format'] != 'mscz':
-        continue
-    try:
-        src = downgrade(os.path.join(ROOT, 'v2', f['local']), os.path.join(a.work, 'downgraded', os.path.dirname(rel)))
-    except Exception as e:  # e.g. a PDF uploaded with an .mscz name
-        print('not a MuseScore file:', f['local'], type(e).__name__)
-        continue
-    outs = [xml]
-    if a.png:
-        outs.append(os.path.join(a.work, 'png', rel + '.png'))
-    retry.append({'in': src, 'out': outs})
-    downgraded.append(f['local'])
-if retry:
-    jf = os.path.join(a.work, 'mscore-job-retry.json')
-    json.dump(retry, open(jf, 'w'), indent=1)
-    r = subprocess.run(['xvfb-run', '-a', MSCORE, '-j', jf], capture_output=True, text=True)
-    open(os.path.join(a.work, 'mscore-retry.log'), 'w').write(r.stdout + r.stderr)
-    print('retry', len(retry), 'exit', r.returncode)
-dg = os.path.join(a.work, 'downgraded.json')
-old = json.load(open(dg)) if os.path.exists(dg) else []
-json.dump(sorted(set(old) | set(downgraded)), open(dg, 'w'), indent=1)
+json.dump(sorted(downgraded), open(_dg, 'w'), indent=1)
+json.dump(headerclefs, open(_hc, 'w'), indent=1)
+print('re-stamped 4.7 files:', len(downgraded), '; files with header clefs fixed:', len(headerclefs))
 
 missing = [f['local'] for f in inv if not os.path.exists(
     os.path.join(a.work, 'xml', f['local'][len('media/'):].rsplit('.', 1)[0] + '.musicxml'))]

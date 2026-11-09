@@ -158,8 +158,17 @@ In percussion clef, the lines and spaces of the staff do not represent letter na
 > Assignments
 
 1. Writing and Identifying Notes Assignment #1 ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2021/10/WK-Reading-Clefs-1.pdf), [.mscz](../media/2021/10/WK-Reading-Clefs-1.mscz)). Asks students to write and identify notes in treble, bass, alto, and tenor clefs, with and without ledger lines.
+   <!-- lilylet-begin: media/2021/10/WK-Reading-Clefs-1.mscz -->
+   Lilylet transcription of WK-Reading-Clefs-1.mscz: [WK-Reading-Clefs-1.lyl](../lilylet/2021/10/WK-Reading-Clefs-1.lyl) (120 bars).
+   <!-- lilylet-end -->
 2. Writing and Identifying Notes Assignment #2 ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2021/10/WK-Reading-Clefs-2.pdf), [.mscz](../media/2021/10/WK-Reading-Clefs-2.mscz)). Asks students to write and identify notes in treble, bass, alto, and tenor clefs, with and without ledger lines.
+   <!-- lilylet-begin: media/2021/10/WK-Reading-Clefs-2.mscz -->
+   Lilylet transcription of WK-Reading-Clefs-2.mscz: [WK-Reading-Clefs-2.lyl](../lilylet/2021/10/WK-Reading-Clefs-2.lyl) (120 bars).
+   <!-- lilylet-end -->
 3. Pitch Notation ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2023/08/WK-Reading-Clefs-treble-bass.pdf), [.mscz](../media/2023/08/WK-Reading-Clefs-treble-bass.mscz)). Asks students to write and identify notes in **treble and bass clefs only**, with and without ledger lines.
+   <!-- lilylet-begin: media/2023/08/WK-Reading-Clefs-treble-bass.mscz -->
+   Lilylet transcription of WK-Reading-Clefs-treble-bass.mscz: [WK-Reading-Clefs-treble-bass.lyl](../lilylet/2023/08/WK-Reading-Clefs-treble-bass.lyl) (60 bars).
+   <!-- lilylet-end -->
 
 ### Media Attributions
 

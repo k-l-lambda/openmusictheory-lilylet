@@ -34,29 +34,29 @@ b1 | %9
 a'1_\markup "___" \bar "|." \\\
 a1 \bar "|." | %10
 
-\key g \major r1 \\\
+\key g \major s1 \\\
 \clef "bass" g1^\markup "Intervals:" | %11
 
-R1 \\\
+s1 \\\
 a1 | %12
 
-R1 \\\
+s1 \\\
 c1 | %13
 
-R1 \\\
+s1 \\\
 d1 | %14
 
-R1 \\\
+s1 \\\
 c1 | %15
 
-R1 \\\
+s1 \\\
 a1 | %16
 
-R1 \\\
+s1 \\\
 b1 | %17
 
-R1 \\\
+s1 \\\
 a1 | %18
 
-R1 \bar "|." \\\
+s1 \bar "|." \\\
 g1 \bar "|." | %19

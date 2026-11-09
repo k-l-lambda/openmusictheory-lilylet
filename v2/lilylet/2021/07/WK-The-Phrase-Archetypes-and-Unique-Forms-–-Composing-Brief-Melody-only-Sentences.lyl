@@ -3,24 +3,24 @@
 
 \key a \major \numericTimeSignature \time 4/4 \clef "treble" \stemUp a'4.^\markup "1" \stemDown b16[ cs] b4 r | %1
 
-R1 | %2
+s1 | %2
 
-R1 | %3
+s1 | %3
 
-R1 \bar "||" | %4
+s1 \bar "||" | %4
 
 \key f \major \time 3/4 \stemUp a'8^\markup "2"[ a16 a] \stemDown c8[ a] \stemUp f4 | %5
 
-R1 | %6
+s2. | %6
 
-R1 | %7
+s2. | %7
 
-R1 \bar "||" | %8
+s2. \bar "||" | %8
 
 \key af \major \time 6/8 \stemDown c'8^\markup "3"[ bf af] df4. | %9
 
-R1 | %10
+s2. | %10
 
-R1 | %11
+s2. | %11
 
-R1 \bar "|." | %12
+s2. \bar "|." | %12

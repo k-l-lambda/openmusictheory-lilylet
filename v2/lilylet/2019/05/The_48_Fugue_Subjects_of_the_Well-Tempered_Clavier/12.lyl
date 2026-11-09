@@ -3,14 +3,14 @@
 [composer "J. S. Bach"]
 [staves "s1,s2"]
 
-\key f \minor \time 4/4 \clef "treble" r4 \stemUp c^\markup "BWV 857" df c \\\
-\clef "treble" R1 | %1
+\key f \minor \time 4/4 \clef "treble" r4 \stemUp c df c \\\
+\clef "treble" s1 | %1
 
 \stemUp b4 e f bf, \\\
-R1 | %2
+s1 | %2
 
 \stemUp a4 af g2 \\\
-R1 | %3
+s1 | %3
 
 f,4 \bar "|." \\\
-R4 \bar "|." | %4
+s1 \bar "|." | %4

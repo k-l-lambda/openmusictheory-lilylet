@@ -4,7 +4,7 @@
 [staves "s1,s2"]
 
 \key f \major \numericTimeSignature \time 4/4 \clef "treble" \tuplet 3/2 { d16^\markup "BWV 875"[ e f] } \tuplet 3/2 { g16[ f e] } \tuplet 3/2 { f16[ g a] } \tuplet 3/2 { bf16[ a g] } \stemDown a8[ d cs c] \\\
-\clef "treble" R1 | %1
+\clef "treble" s1 | %1
 
 \stemDown b'8[ bf a g] g[ f e a] \bar "|." \\\
-R1 \bar "|." | %2
+s1 \bar "|." | %2

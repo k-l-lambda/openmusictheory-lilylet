@@ -15,8 +15,16 @@ TEXT from the MuseScore source's <Harmony><name>/<root>/<base>, paired per
 (part, measure) in document order and checked against the MusicXML root/numeral.
 If the pairing does not check out, the text is rebuilt from the MusicXML.
 
+Invisible chord symbols (answers: <visible>0</visible> in the mscx, print-object="no"
+in the MusicXML) are left out on both sides, so the pairing stays aligned.
+
 Writes <work>/harm/<rel>.json: [{part, staff, measure, onset, text, src}] where src is
 "mscx" or "xml".
+
+Figured bass: musicXmlDecoder and music21 both ignore <figured-bass>, so it is read here
+too: <work>/figs/<rel>.json = [{part, staff, measure, onset, duration, lines:
+[{number?, accidental?}]}] (onset/duration in quarters as [num, den]; a figure with no
+<duration> lasts as long as the note it stands on). postprocess.ts adds them as \figures.
 """
 import argparse, json, os, re, zipfile
 from fractions import Fraction
@@ -93,6 +101,8 @@ def mscx_harmonies(x):
         pi = staff_part[si] if si < len(staff_part) else si
         for mi, m in enumerate(st.findall('Measure')):
             for h in m.iter('Harmony'):
+                if h.findtext('visible') == '0':
+                    continue
                 info = h.find('harmonyInfo')
                 src = info if info is not None else h
                 name = src.findtext('name') or ''
@@ -143,6 +153,8 @@ def xml_positions(xp):
                 if el.tag == 'attributes' and el.findtext('divisions'):
                     div = int(el.findtext('divisions'))
                 elif el.tag == 'harmony':
+                    if el.get('print-object') == 'no':
+                        continue
                     off = int(el.findtext('offset') or 0)
                     pending.append((el, cur + off))
                 elif el.tag == 'note':
@@ -161,6 +173,134 @@ def xml_positions(xp):
     return res
 
 
+FIG_ACC = {'sharp': 'sharp', 'flat': 'flat', 'natural': 'natural', 'cross': 'sharp', 'backslash': 'sharp', 'slash': 'sharp'}
+
+
+def xml_figures(xp):
+    """[{part, staff, measure, onset, duration, lines}] from <figured-bass>."""
+    root = ET.parse(xp).getroot()
+    res = []
+    for pi, p in enumerate(root.findall('part')):
+        div = 1
+        for mi, m in enumerate(p.findall('measure')):
+            cur = 0
+            pending = []
+            for el in m:
+                if el.tag == 'attributes' and el.findtext('divisions'):
+                    div = int(el.findtext('divisions'))
+                elif el.tag == 'figured-bass':
+                    if el.get('print-object') == 'no':
+                        continue
+                    lines = []
+                    for fg in el.findall('figure'):
+                        ln = {}
+                        if fg.findtext('figure-number'):
+                            ln['number'] = int(fg.findtext('figure-number'))
+                        acc = fg.findtext('prefix') or fg.findtext('suffix')
+                        if acc in FIG_ACC:
+                            ln['accidental'] = FIG_ACC[acc]
+                        lines.append(ln)
+                    pending.append((lines, int(el.findtext('duration')) if el.findtext('duration') else None))
+                elif el.tag == 'note':
+                    if el.find('chord') is not None or el.find('grace') is not None:
+                        continue
+                    d = int(el.findtext('duration') or 0)
+                    st = int(el.findtext('staff') or 1)
+                    t = cur
+                    for lines, fd in pending:
+                        dd = fd if fd is not None else d
+                        o, q = Fraction(t, div), Fraction(dd, div)
+                        res.append({'part': pi, 'staff': st, 'measure': mi, 'onset': [o.numerator, o.denominator],
+                                    'duration': [q.numerator, q.denominator], 'lines': lines})
+                        t += dd
+                    pending = []
+                    cur += d
+                elif el.tag == 'backup':
+                    cur -= int(el.findtext('duration'))
+                elif el.tag == 'forward':
+                    cur += int(el.findtext('duration'))
+    return res
+
+
+DUR = {'whole': Fraction(4), 'half': Fraction(2), 'quarter': Fraction(1), 'eighth': Fraction(1, 2), '16th': Fraction(1, 4),
+       '32nd': Fraction(1, 8), '64th': Fraction(1, 16), 'breve': Fraction(8)}
+TXT_ACC = {'♮': 'natural', 'n': 'natural', '♯': 'sharp', '#': 'sharp', '+': 'sharp', '♭': 'flat', 'b': 'flat'}
+
+
+def mscx_text_figures(x):
+    """Figured bass entered as free text (<FiguredBass><text>♮6</text>, no items): MuseScore's
+    MusicXML export drops these. [(staffIdx, measureIdx, onset, duration, lines)]; onset from
+    the Chord/Rest durations of the voice (measures with tuplets are skipped)."""
+    score = ET.fromstring(x).find('Score')
+    out = []
+    for si, st in enumerate(score.findall('Staff')):
+        for mi, m in enumerate(st.findall('Measure')):
+            for v in m.findall('voice'):
+                if v.find('Tuplet') is not None:
+                    continue
+                t = Fraction(0)
+                for el in v:
+                    if el.tag == 'FiguredBass' and not el.findall('FiguredBassItem') and (el.findtext('text') or '').strip() \
+                            and el.findtext('visible') != '0':
+                        lines = []
+                        for ln in el.findtext('text').strip().split('\n'):
+                            mm = re.fullmatch(r'\s*([♮♯♭#bn+]?)\s*(\d*)\s*([♮♯♭#+]?)\s*', ln)
+                            if not mm:
+                                lines = None
+                                break
+                            d = {}
+                            if mm.group(2):
+                                d['number'] = int(mm.group(2))
+                            acc = mm.group(1) or mm.group(3)
+                            if acc:
+                                d['accidental'] = TXT_ACC[acc]
+                            lines.append(d)
+                        if lines:
+                            tk = el.findtext('ticks')
+                            dur = Fraction(tk) * 4 if tk else None
+                            out.append((si, mi, t, dur, lines))
+                    elif el.tag in ('Chord', 'Rest'):
+                        dt = el.findtext('durationType')
+                        if dt == 'measure':
+                            continue
+                        q = DUR.get(dt, Fraction(0))
+                        add = q
+                        for _ in range(int(el.findtext('dots') or 0)):
+                            add /= 2
+                            q += add
+                        t += q
+    return out
+
+
+CLEF = {'G': 'treble', 'F': 'bass', 'C3': 'alto', 'C4': 'tenor', 'G8vb': 'treble_8', 'C1': 'soprano', 'C2': 'mezzosoprano',
+        'F3B': 'baritone', 'G8va': 'treble^8', 'G15ma': 'treble^15', 'F8vb': 'bass_8', 'F15mb': 'bass_15'}
+
+
+def bar_clefs(x):
+    """Clef in force at the start of every bar, per staff of the score body, from the mscx:
+    MuseScore 4.6.5's MusicXML export drops clef changes at bar starts (header clefs and
+    others), so postprocess.ts restores them. [[clef|null per bar] per staff]; null =
+    a clef lilylet has no name for."""
+    defaults = []
+    for p in re.findall(r'<Part\b.*?</Part>', x, re.S):
+        for st in re.findall(r'<Staff id="\d+">.*?</Staff>', p, re.S):
+            m = re.search(r'<defaultConcertClef>([^<]+)', st) or re.search(r'<defaultClef>([^<]+)', st)
+            defaults.append(m.group(1) if m else 'G')
+    out = []
+    for si, st in enumerate(re.findall(r'<Staff id="\d+">(?:(?!</Staff>).)*?<Measure\b.*?</Staff>', x, re.S)):
+        cur = defaults[si] if si < len(defaults) else 'G'
+        bars = []
+        for m in re.findall(r'<Measure\b.*?</Measure>', st, re.S):
+            head = re.split(r'<(?:Chord|Rest)\b', m)[0]
+            for c in re.findall(r'<concertClefType>([^<]+)', head):
+                cur = c
+            bars.append(CLEF.get(cur))
+            for c in re.findall(r'<concertClefType>([^<]+)', m[len(head):]):
+                cur = c
+        out.append(bars)
+    return out
+
+
 inv = json.load(open(os.path.join(a.work, 'inventory.json')))
 for f in inv:
     if a.only and a.only not in f['local']:
@@ -169,6 +309,36 @@ for f in inv:
     xp = os.path.join(a.work, 'xml', rel + '.musicxml')
     if not os.path.exists(xp):
         continue
+    figs = xml_figures(xp)
+    if f['format'] in ('mscz', 'mscx'):
+        try:
+            x = mscx_source(f['local'])
+            sc = ET.fromstring(x).find('Score')
+            staff_of = []   # mscx staff index -> (part, staff within part)
+            for pi, p in enumerate(sc.findall('Part')):
+                staff_of += [(pi, k + 1) for k in range(len(p.findall('Staff')))]
+            for si, mi, t, dur, lines in mscx_text_figures(x):
+                pi, stn = staff_of[si] if si < len(staff_of) else (si, 1)
+                dur = dur or Fraction(1)
+                figs.append({'part': pi, 'staff': stn, 'measure': mi, 'onset': [t.numerator, t.denominator],
+                             'duration': [dur.numerator, dur.denominator], 'lines': lines, 'src': 'mscx-text'})
+        except Exception as e:
+            print('mscx figures failed', rel, e)
+    if f['format'] in ('mscz', 'mscx'):
+        try:
+            pat = os.path.join(a.work, 'patched', rel + '.mscx')
+            cx = open(pat, encoding='utf-8').read() if os.path.exists(pat) else mscx_source(f['local'])
+            cdst = os.path.join(a.work, 'clefs', rel + '.json')
+            os.makedirs(os.path.dirname(cdst), exist_ok=True)
+            sc = ET.fromstring(cx).find('Score')
+            json.dump({'parts': [len(p.findall('Staff')) for p in sc.findall('Part')], 'bars': bar_clefs(cx)}, open(cdst, 'w'))
+        except Exception as e:
+            print('mscx clefs failed', rel, e)
+    fdst = os.path.join(a.work, 'figs', rel + '.json')
+    os.makedirs(os.path.dirname(fdst), exist_ok=True)
+    json.dump(figs, open(fdst, 'w'))
+    if figs:
+        print(f'{rel:62} {len(figs):4} figured-bass groups')
     pos = xml_positions(xp)
     dst = os.path.join(a.work, 'harm', rel + '.json')
     os.makedirs(os.path.dirname(dst), exist_ok=True)

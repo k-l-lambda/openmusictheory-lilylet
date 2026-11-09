@@ -134,30 +134,30 @@
 \staff "1" <fs b e>1_\markup "voiced" \chords "Gma7" \\
 \staff "2" g,1 | %33
 
-\staff "1" R1 \\\
-\staff "1" R1 \chords "C#ø7" \\
-\staff "2" R1 | %34
+\staff "1" s1 \\\
+\staff "1" s1 \chords "C#ø7" \\
+\staff "2" s1 | %34
 
-\staff "1" R1 \\\
-\staff "1" R1 \chords "F#7" \\
-\staff "2" R1 | %35
+\staff "1" s1 \\\
+\staff "1" s1 \chords "F#7" \\
+\staff "2" s1 | %35
 
-\staff "1" R1 \bar "||" \\\
-\staff "1" R1 \chords "Bmi(ma7)" \bar "||" \\
-\staff "2" R1 | %36
+\staff "1" s1 \bar "||" \\\
+\staff "1" s1 \chords "Bmi(ma7)" \bar "||" \\
+\staff "2" s1 | %36
 
 \staff "1" \key f \major <g' bf d f>1^\markup "unvoiced" \\\
 \staff "1" <bf' f' a>1 \chords "Gmi7" \\
 \staff "2" g,1^\markup "voiced" | %37
 
-\staff "1" R1 \\\
-\staff "1" R1 \chords "Db7" \\
-\staff "2" R1 | %38
+\staff "1" s1 \\\
+\staff "1" s1 \chords "Db7" \\
+\staff "2" s1 | %38
 
-\staff "1" R1 \\\
-\staff "1" R1 \chords "C7" \\
-\staff "2" R1 | %39
+\staff "1" s1 \\\
+\staff "1" s1 \chords "C7" \\
+\staff "2" s1 | %39
 
-\staff "1" R1 \bar "||" \\\
-\staff "1" R1 \chords "F6" \bar "||" \\
-\staff "2" R1 | %40
+\staff "1" s1 \bar "||" \\\
+\staff "1" s1 \chords "F6" \bar "||" \\
+\staff "2" s1 | %40

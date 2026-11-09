@@ -3,14 +3,14 @@
 [composer "J. S. Bach"]
 [staves "s1,s2"]
 
-\key a \major \time 6/4 \clef "bass" r4 \stemDown fs,^\markup "BWV 859" gs a2.~ \\\
-\clef "bass" R1 | %1
+\key a \major \time 6/4 \clef "bass" r4 \stemDown fs, gs a2.~ \\\
+\clef "bass" s1. | %1
 
 \stemDown a4 gs8[ as] b4~ b as8[ gs as bs] \\\
-R1 | %2
+s1. | %2
 
 \stemDown cs4. b8[ a cs] b[ a] gs2 \\\
-R1 | %3
+s1. | %3
 
 fs,4 \bar "|." \\\
-R4 \bar "|." | %4
+s1. \bar "|." | %4

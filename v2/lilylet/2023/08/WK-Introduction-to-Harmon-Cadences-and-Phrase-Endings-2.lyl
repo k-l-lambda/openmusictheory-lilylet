@@ -8,47 +8,47 @@
 \staff "1" af'1^\markup "PAC" \bar "||" \\
 \staff "2" <af, c ef>1 \chords "_____" \chords "I" | %2
 
-\staff "1" \key d \major R1 \\
-\staff "2" R1 \chords "_____" | %3
+\staff "1" \key d \major s1 \\
+\staff "2" s1 \chords "_____" | %3
 
-\staff "1" R1 \bar "||" \\
-\staff "2" R1 \chords "_____" | %4
+\staff "1" s1 \bar "||" \\
+\staff "2" s1 \chords "_____" | %4
 
-\staff "1" \key a \major R1 \\
-\staff "2" R1 \chords "_____" | %5
+\staff "1" \key a \major s1 \\
+\staff "2" s1 \chords "_____" | %5
 
-\staff "1" R1 \bar "||" \\
-\staff "2" R1 \chords "_____" | %6
+\staff "1" s1 \bar "||" \\
+\staff "2" s1 \chords "_____" | %6
 
-\staff "1" \key bf \major R1 \\
-\staff "2" R1 \chords "_____" | %7
+\staff "1" \key bf \major s1 \\
+\staff "2" s1 \chords "_____" | %7
 
-\staff "1" R1 \bar "||" \\
-\staff "2" R1 \chords "_____" | %8
+\staff "1" s1 \bar "||" \\
+\staff "2" s1 \chords "_____" | %8
 
-\staff "1" \key g \major R1 \\
-\staff "2" R1 \chords "_____" | %9
+\staff "1" \key g \major s1 \\
+\staff "2" s1 \chords "_____" | %9
 
-\staff "1" R1 \bar "||" \\
-\staff "2" R1 \chords "_____" | %10
+\staff "1" s1 \bar "||" \\
+\staff "2" s1 \chords "_____" | %10
 
-\staff "1" \key f \major R1 \\
-\staff "2" R1 \chords "_____" | %11
+\staff "1" \key f \major s1 \\
+\staff "2" s1 \chords "_____" | %11
 
-\staff "1" R1 \bar "||" \\
-\staff "2" R1 \chords "_____" | %12
+\staff "1" s1 \bar "||" \\
+\staff "2" s1 \chords "_____" | %12
 
-\staff "1" \key e \major R1 \\
-\staff "2" R1 \chords "_____" | %13
+\staff "1" \key e \major s1 \\
+\staff "2" s1 \chords "_____" | %13
 
-\staff "1" R1 \bar "||" \\
-\staff "2" R1 \chords "_____" | %14
+\staff "1" s1 \bar "||" \\
+\staff "2" s1 \chords "_____" | %14
 
-\staff "1" \key df \major R1 \\
-\staff "2" R1 \chords "_____" | %15
+\staff "1" \key df \major s1 \\
+\staff "2" s1 \chords "_____" | %15
 
-\staff "1" R1 \bar "||" \\
-\staff "2" R1 \chords "_____" | %16
+\staff "1" s1 \bar "||" \\
+\staff "2" s1 \chords "_____" | %16
 
 \staff "1" \key d \major \time 2/4 \tuplet 3/2 { a'16_\markup "1"^\markup "Francis Johnson, “Ford,” No. 7 from A New Collection of Cotillions, mm. 1–8"([ d e)] } \\
 \staff "2" r8 | %17

@@ -174,7 +174,166 @@ Finally, despite abstractions, it’s still best to treat counterpoint exercises
 > Assignments
 
 1. Cantus firmus A ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2026/07/WK-Cantus-Firmus-A.pdf), [.mscz](../media/2026/07/WK-Cantus-Firmus-A.mscz)). Asks students to do error detection on one cantus firmus and compose one their own.
+   <!-- lilylet-begin: media/2026/07/WK-Cantus-Firmus-A.mscz -->
+   Lilylet transcription of WK-Cantus-Firmus-A.mscz ([WK-Cantus-Firmus-A.lyl](../lilylet/2026/07/WK-Cantus-Firmus-A.lyl)):
+
+   ```lyl.play
+   [title "Cantus Firmus"]
+   [composer "Kyle Gullings"]
+   [staves "{s1-s2}"]
+
+   \staff "1" \key bf \major \numericTimeSignature \time 2/2 \clef "bass" bf1_\markup "List at least 5 errors in the excerpt above:"_\markup "1. ____________________________________      4. ____________________________________ 2. ____________________________________      5. ____________________________________ 3. ____________________________________" \\
+   \staff "2" \clef "bass" f,1_\markup "List at least 10 errors in the excerpt above: (Continue on another page if needed.)"^\markup "Cantus firmus:"^\markup "Intervals:" | %1
+
+   \staff "1" d1 \\
+   \staff "2" g1 | %2
+
+   \staff "1" ef1 \\
+   \staff "2" a1 | %3
+
+   \staff "1" c1 \\
+   \staff "2" a1 | %4
+
+   \staff "1" a1 \\
+   \staff "2" bf1 | %5
+
+   \staff "1" ef,1 \\
+   \staff "2" f,1 | %6
+
+   \staff "1" c,1 \\
+   \staff "2" g1 | %7
+
+   \staff "1" d,1 \\
+   \staff "2" a1 | %8
+
+   \staff "1" f,,1 \\
+   \staff "2" bf1 | %9
+
+   \staff "1" g,1 \\
+   \staff "2" g1 | %10
+
+   \staff "1" ef,1 \\
+   \staff "2" c1 | %11
+
+   \staff "1" d,1 \bar "|." \\
+   \staff "2" f,1 | %12
+
+   \staff "1" \key a \major \clef "treble" s1 \\
+   \staff "2" \clef "treble" b,1^\markup "Cantus firmus:"^\markup "Intervals:"_\markup "(Key: B Minor)" | %13
+
+   \staff "1" s1 \\
+   \staff "2" as,1 | %14
+
+   \staff "1" s1 \\
+   \staff "2" b,1 | %15
+
+   \staff "1" s1 \\
+   \staff "2" d,1 | %16
+
+   \staff "1" s1 \\
+   \staff "2" cs,1 | %17
+
+   \staff "1" s1 \\
+   \staff "2" fs,1 | %18
+
+   \staff "1" s1 \\
+   \staff "2" e,1 | %19
+
+   \staff "1" s1 \\
+   \staff "2" b,1 | %20
+
+   \staff "1" s1 \\
+   \staff "2" cs,1 | %21
+
+   \staff "1" s1 \\
+   \staff "2" R1 | %22
+
+   \staff "1" s1 \\
+   \staff "2" R1 | %23
+
+   \staff "1" s1 \bar "|." \\
+   \staff "2" b,1 | %24
+   ```
+   <!-- lilylet-end -->
 2. Cantus firmus B ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2026/07/WK-Cantus-Firmus-B.pdf), [.mscz](../media/2026/07/WK-Cantus-Firmus-B.mscz)). Asks students to do error detection on one cantus firmus and compose one their own.
+   <!-- lilylet-begin: media/2026/07/WK-Cantus-Firmus-B.mscz -->
+   Lilylet transcription of WK-Cantus-Firmus-B.mscz ([WK-Cantus-Firmus-B.lyl](../lilylet/2026/07/WK-Cantus-Firmus-B.lyl)):
+
+   ```lyl.play
+   [title "Cantus Firmus"]
+   [composer "Kyle Gullings"]
+   [staves "{s1-s2}"]
+
+   \staff "1" \key g \major \numericTimeSignature \time 2/2 \clef "treble" b'1_\markup "List at least 5 errors in the excerpt above:"_\markup "1. ____________________________________      4. ____________________________________ 2. ____________________________________      5. ____________________________________ 3. ____________________________________" \\
+   \staff "2" \clef "bass" f,1_\markup "List at least 10 errors in the excerpt above: (Continue on another page if needed.)"^\markup "Cantus firmus:"^\markup "Intervals:" | %1
+
+   \staff "1" g''1 \\
+   \staff "2" g1 | %2
+
+   \staff "1" d'1 \\
+   \staff "2" a1 | %3
+
+   \staff "1" g''1 \\
+   \staff "2" a1 | %4
+
+   \staff "1" fs'1 \\
+   \staff "2" bf1 | %5
+
+   \staff "1" e'1 \\
+   \staff "2" f,1 | %6
+
+   \staff "1" fs'1 \\
+   \staff "2" g1 | %7
+
+   \staff "1" e'1 \\
+   \staff "2" a1 | %8
+
+   \staff "1" g''1 \\
+   \staff "2" bf1 | %9
+
+   \staff "1" fs'1 \\
+   \staff "2" g1 | %10
+
+   \staff "1" g''1 \bar "|." \\
+   \staff "2" f,1 | %11
+
+   \staff "1" \key d \major \clef "bass" s1 \\
+   \staff "2" \clef "treble" b,1^\markup "Cantus firmus:"^\markup "Intervals:"_\markup "(Key: B Minor)" | %12
+
+   \staff "1" s1 \\
+   \staff "2" as,1 | %13
+
+   \staff "1" s1 \\
+   \staff "2" b,1 | %14
+
+   \staff "1" s1 \\
+   \staff "2" d,1 | %15
+
+   \staff "1" s1 \\
+   \staff "2" cs,1 | %16
+
+   \staff "1" s1 \\
+   \staff "2" fs,1 | %17
+
+   \staff "1" s1 \\
+   \staff "2" e,1 | %18
+
+   \staff "1" s1 \\
+   \staff "2" b,1 | %19
+
+   \staff "1" s1 \\
+   \staff "2" cs,1 | %20
+
+   \staff "1" s1 \\
+   \staff "2" R1 | %21
+
+   \staff "1" s1 \\
+   \staff "2" R1 | %22
+
+   \staff "1" s1 \bar "|." \\
+   \staff "2" b,1 | %23
+   ```
+   <!-- lilylet-end -->
 3. For the complete set of Fux exercises, see the [Gradus ad Parnassum chapter](07-gradus-ad-parnassum-exercises.md).
 
 ### Media Attributions

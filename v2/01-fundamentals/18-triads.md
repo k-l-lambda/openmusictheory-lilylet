@@ -199,9 +199,159 @@ You can practice identifying triad qualities with the following exercise that mi
 > Assignments
 
 1. Triads A ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-Triads-A.pdf), [.mscz](../media/2025/08/WK-Triads-A.mscz)). Asks students to identify 10 root-position closed-spacing chords with a chord symbol and write 10 chords in root position from a chord symbol. Includes C clefs.
+   <!-- lilylet-begin: media/2025/08/WK-Triads-A.mscz -->
+   Lilylet transcription of WK-Triads-A.mscz ([WK-Triads-A.lyl](../lilylet/2025/08/WK-Triads-A.lyl)):
+
+   ```lyl.play
+   [title "Triads A"]
+   [subtitle "Triads A"]
+   [composer "Kyle Gullings and Samuel Brady"]
+
+   \key c \major \clef "treble" <g' b d>1 \chords "G" \bar "||" | %1
+
+   \clef "bass" <f,, a cs>1 \bar "||" | %2
+
+   \clef "treble" <cs e g>1 \bar "||" | %3
+
+   <e gs b>1 \bar "||" | %4
+
+   \clef "bass" <d, fs a>1 \bar "||" | %5
+
+   <a, c e>1 \bar "||" | %6
+
+   \clef "treble" <gs' b d>1 \bar "||" | %7
+
+   <b' d f>1 \bar "||" | %8
+
+   \clef "alto" <b d fs>1 \bar "||" | %9
+
+   \clef "bass" <fs,, a cs>1 \bar "||" | %10
+
+   <bf, d fs>1 \chords "Bb+" \bar "||" | %11
+
+   \clef "treble" s1 \chords "D" \bar "||" | %12
+
+   s1 \chords "G#°" \bar "||" | %13
+
+   \clef "tenor" s1 \chords "Cmi" \bar "||" | %14
+
+   \clef "bass" s1 \chords "B°" \bar "||" | %15
+
+   \clef "treble" s1 \chords "Eb+" \bar "||" | %16
+
+   \clef "alto" s1 \chords "A°" \bar "||" | %17
+
+   \clef "treble" s1 \chords "Fmi" \bar "||" | %18
+
+   \clef "bass" s1 \chords "Ab+" \bar "||" | %19
+
+   \clef "treble" s1 \chords "Db°" \bar "||" | %20
+   ```
+   <!-- lilylet-end -->
 2. Triads B ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-Triads-B.pdf), [.mscz](../media/2025/08/WK-Triads-B.mscz)). Asks students to identify 10 root-position closed-spacing chords with a chord symbol and write 10 chords in root position from a chord symbol. Includes C clefs.
+   <!-- lilylet-begin: media/2025/08/WK-Triads-B.mscz -->
+   Lilylet transcription of WK-Triads-B.mscz ([WK-Triads-B.lyl](../lilylet/2025/08/WK-Triads-B.lyl)):
+
+   ```lyl.play
+   [title "Triads B"]
+   [subtitle "Triads B"]
+   [composer "Kyle Gullings and Samuel Brady"]
+
+   \key c \major \clef "bass" <d, f a>1 \chords "G" \bar "||" | %1
+
+   \clef "treble" <e gs b>1 \bar "||" | %2
+
+   <ds' fs a>1 \bar "||" | %3
+
+   \clef "bass" <g, bf df>1 \bar "||" | %4
+
+   \clef "alto" <as cs es>1 \bar "||" | %5
+
+   \clef "treble" <ef g b>1 \bar "||" | %6
+
+   <a' c ef>1 \bar "||" | %7
+
+   \clef "tenor" <a c e>1 \bar "||" | %8
+
+   \clef "bass" <e, g bf>1 \bar "||" | %9
+
+   <a, cs e>1 \bar "||" | %10
+
+   \clef "treble" <b ds fs>1 \chords "B" \bar "||" | %11
+
+   \clef "alto" s1 \chords "A°" \bar "||" | %12
+
+   \clef "treble" s1 \chords "Dmi" \bar "||" | %13
+
+   \clef "bass" s1 \chords "Ab+" \bar "||" | %14
+
+   s1 \chords "Emi" \bar "||" | %15
+
+   \clef "treble" s1 \chords "G°" \bar "||" | %16
+
+   \clef "tenor" s1 \chords "Cmi" \bar "||" | %17
+
+   \clef "treble" s1 \chords "Bb+" \bar "||" | %18
+
+   \clef "bass" s1 \chords "C#" \bar "||" | %19
+
+   \clef "treble" s1 \chords "F°" \bar "||" | %20
+   ```
+   <!-- lilylet-end -->
 3. Triads C ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-Triads-C.pdf), [.mscz](../media/2025/08/WK-Triads-C.mscz)). Asks students to identify 10 root-position closed-spacing chords with a chord symbol and write 10 chords in root position from a chord symbol. Includes C clefs.
+   <!-- lilylet-begin: media/2025/08/WK-Triads-C.mscz -->
+   Lilylet transcription of WK-Triads-C.mscz ([WK-Triads-C.lyl](../lilylet/2025/08/WK-Triads-C.lyl)):
+
+   ```lyl.play
+   [title "Triads C"]
+   [subtitle "Triads C"]
+   [composer "Kyle Gullings and Samuel Brady"]
+
+   \key c \major \clef "bass" <a, cs e>1 \chords "A" \bar "||" | %1
+
+   \clef "treble" <bf' df f>1 \bar "||" | %2
+
+   <fs a c>1 \bar "||" | %3
+
+   \clef "bass" <d, f af>1 \bar "||" | %4
+
+   \clef "treble" <ds fs as>1 \bar "||" | %5
+
+   \clef "tenor" <g b d>1 \bar "||" | %6
+
+   \clef "bass" <cs, e g>1 \bar "||" | %7
+
+   \clef "alto" <d f a>1 \bar "||" | %8
+
+   \clef "bass" <g, b ds>1 \bar "||" | %9
+
+   \clef "treble" <g' bf d>1 \bar "||" | %10
+
+   \clef "bass" <b, ds fs>1 \chords "B" \bar "||" | %11
+
+   \clef "treble" s1 \chords "C+" \bar "||" | %12
+
+   s1 \chords "G#" \bar "||" | %13
+
+   \clef "tenor" s1 \chords "Ebmi" \bar "||" | %14
+
+   \clef "bass" s1 \chords "B°" \bar "||" | %15
+
+   \clef "treble" s1 \chords "B+" \bar "||" | %16
+
+   \clef "alto" s1 \chords "Fmi" \bar "||" | %17
+
+   \clef "treble" s1 \chords "F#mi" \bar "||" | %18
+
+   \clef "bass" s1 \chords "Ab°" \bar "||" | %19
+
+   \clef "treble" s1 \chords "D" \bar "||" | %20
+   ```
+   <!-- lilylet-end -->
 4. Triads D ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-Triads-D.pdf), [.mscz](../media/2025/08/WK-Triads-D.mscz)). Treble and bass clefs only. Asks students to identify 20 root-position closed-spacing chords with a chord symbol, write 20 chords in root position from a chord symbol, and identify chords by chord symbol in a short piano-and-voice excerpt.
+   <!-- lilylet-begin: media/2025/08/WK-Triads-D.mscz -->
+   Lilylet transcription of WK-Triads-D.mscz: [WK-Triads-D.lyl](../lilylet/2025/08/WK-Triads-D.lyl) (47 bars).
+   <!-- lilylet-end -->
 
 ### Media Attributions
 

@@ -3,11 +3,11 @@
 [composer "J. S. Bach"]
 [staves "s1,s2"]
 
-\key cs \major \time 4/4 \clef "treble" r4 r8 \stemUp gs'^\markup "BWV 848" as16[ gs fs gs] \stemDown es'8[ cs] \\\
-\clef "treble" R1 | %1
+\key cs \major \time 4/4 \clef "treble" r4 r8 \stemUp gs' as16[ gs fs gs] \stemDown es'8[ cs] \\\
+\clef "treble" s1 | %1
 
 \stemUp gs'8[ fs16 es] fs8[ ds'] es,[ cs' ds, bs'] \\\
-R1 | %2
+s1 | %2
 
 \stemUp cs8[ cs'16 bs] \stemNeutral cs8 \bar "|." \\\
-R2 \bar "|." | %3
+s1 \bar "|." | %3

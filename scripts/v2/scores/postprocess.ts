@@ -8,9 +8,9 @@ import type { LilyletDoc } from "../../../../lilylet/source/lilylet";
 
 // Template leftovers seen in the OMT workbook files: a title copied from another
 // worksheet, or MuseScore's defaults.
-const JUNK_TITLES = [/^WK blues scales$/i, /^WK The Phrase, Archetypes/i, /^Untitled score$/i, /^Title$/i,
+const JUNK_TITLES = [/^WK blues scales$/i, /Graded Homework #1: Scales/i, /\.pdf$/i, /^WK The Phrase, Archetypes/i, /^Untitled score$/i, /^Title$/i,
 	/\.(musicxml|mxl|xml)$/i, /^Diatonic Modes, Pentatonic, an/i];
-const JUNK_COMPOSERS = [/^Composer \/ arranger$/i, /^Name:/i, /^Music21$/i, /^Composer$/i];
+const JUNK_COMPOSERS = [/^Composer \/ arranger$/i, /^Name:/i, /^N$/, /^Music21$/i, /^Composer$/i];
 
 /** Hand-checked titles/composers for files whose embedded metadata is missing or wrong. */
 export const METADATA: Record<string, { title?: string; composer?: string }> = {
@@ -116,16 +116,128 @@ export const stavesFromXml = (xml: string): { layout: string; total: number; ins
 	return { layout, total, instruments };
 };
 
-export const postprocessDoc = (doc: LilyletDoc, ctx: { xml: string; m21: any; file: any; harms?: Harm[] }): string[] => {
+type Fig = { part: number; staff: number; measure: number; onset: [number, number]; duration: [number, number]; lines: { number?: number; accidental?: string }[] };
+
+/**
+ * Figured bass: the decoder ignores <figured-bass> (harmonies.py reads it into figs/).
+ * Each bar's figures become a `\figures { … }` lane on the voice of that staff that has
+ * a note at the first figure's onset (else the staff's first voice); gaps are spacers.
+ */
+export const addFigures = (doc: LilyletDoc, figs: Fig[]): string[] => {
+	if (!figs.length) return [];
+	let placed = 0, lost = 0;
+	const groups = new Map<string, Fig[]>();
+	for (const f of figs) { const k = `${f.measure}|${f.part}|${f.staff}`; (groups.get(k) || groups.set(k, []).get(k)!).push(f); }
+	for (const [k, fs] of groups) {
+		const [mi, pi, st] = k.split("|").map(Number);
+		const part: any = doc.measures[mi]?.parts[pi];
+		if (!part) { lost += fs.length; continue; }
+		fs.sort((a, b) => a.onset[0] / a.onset[1] - b.onset[0] / b.onset[1]);
+		// voices on staff st, and the onsets of their notes
+		const cands = part.voices.map((v: any) => {
+			let staff = v.staff || 1, off: Fr = [0, 1], first: number | null = null;
+			const ons = new Set<string>();
+			const walk = (evs: any[], ratio: Fr) => evs.forEach(e => {
+				if (e.type === "context" && e.staff) staff = e.staff;
+				else if (e.type === "tuplet") walk(e.events, fmul(ratio, [e.ratio.numerator, e.ratio.denominator]));
+				else if ((e.type === "note" || e.type === "rest") && !e.grace) {
+					if (first === null) first = staff;
+					if (e.type === "note" && (e.staff || staff) === st) ons.add(fstr(off));
+					off = fadd(off, e.fullMeasure ? [1e6, 1] : fmul(fql(e.duration), ratio));
+				}
+			});
+			walk(v.events, [1, 1]);
+			return { v, first, ons };
+		});
+		const on0 = fstr(fnorm(fs[0].onset));
+		const pick = cands.find((c: any) => c.ons.has(on0)) || cands.find((c: any) => c.first === st);
+		if (!pick) { lost += fs.length; continue; }
+		const lane: any = { placement: "below", groups: [] };
+		let t: Fr = [0, 1];
+		for (const f of fs) {
+			const on = fnorm(f.onset);
+			const gap = fadd(on, [-t[0], t[1]]);
+			if (gap[0] > 0) for (const d of spacerDurations(gap)) lane.groups.push({ duration: d });
+			const ds = spacerDurations(fnorm(f.duration));
+			lane.groups.push({ duration: ds[0], lines: f.lines.map(l => ({ ...l })) });
+			for (const d of ds.slice(1)) lane.groups.push({ duration: d });
+			t = fadd(on, fnorm(f.duration));
+			placed++;
+		}
+		(pick.v.figures ||= []).push(lane);
+	}
+	const notes = [`${placed} figured-bass groups added as \\figures (the decoder drops <figured-bass>)`];
+	if (lost) notes.push(`FIGURES LOST: ${lost} figured-bass groups had no voice to attach to`);
+	return notes;
+};
+
+/**
+ * MuseScore 4.6.5's MusicXML export drops clef changes at the start of a bar (header
+ * clefs and plain ones alike: only clefs with a courtesy clef before the barline
+ * survive). Pitches are absolute, so the notes are right, but they are drawn in the old
+ * clef. harmonies.py reads the clef at every bar start from the mscx; insert a clef
+ * wherever the decoded score has another one in force.
+ */
+export const applyBarClefs = (doc: LilyletDoc, src: { parts: number[]; bars: (string | null)[][] } | null): string[] => {
+	if (!src) return [];
+	let n = 0;
+	const cur: Record<string, string> = {};
+	doc.measures.forEach((m: any, mi) => {
+		let flat = 0;
+		src.parts.forEach((ns, pi) => {
+			const part = m.parts[pi];
+			for (let s = 1; s <= ns; s++, flat++) {
+				const k = `${pi}:${s}`;
+				const want = src.bars[flat]?.[mi];
+				if (!part) continue;
+				// clef in force at the bar start in the decoded doc: a clef before the first note/rest of this staff
+				let atStart: string | undefined, host: any = null, hostIdx = 0;
+				for (const v of part.voices) {
+					let st = v.staff || 1, seenEvent = false;
+					v.events.forEach((e: any, i: number) => {
+						if (e.type === "context" && e.staff) st = e.staff;
+						if (st !== s) return;
+						if (!host && !seenEvent && !(e.type === "context")) { host = v; hostIdx = i; }
+						if (e.type === "context" && e.clef && !seenEvent) atStart = e.clef;
+						if (e.type === "note" || e.type === "rest" || e.type === "tuplet" || e.type === "tremolo") seenEvent = true;
+					});
+				}
+				if (atStart) cur[k] = atStart;
+				if (want && cur[k] !== want && host) {
+					host.events.splice(hostIdx, 0, { type: "context", clef: want });
+					cur[k] = want;
+					n++;
+				}
+				// mid-bar clefs carry into the next bar
+				for (const v of part.voices) {
+					let st = v.staff || 1, seenEvent = false;
+					for (const e of v.events as any[]) {
+						if (e.type === "context" && e.staff) st = e.staff;
+						if (st !== s) continue;
+						if (e.type === "note" || e.type === "rest" || e.type === "tuplet" || e.type === "tremolo") seenEvent = true;
+						else if (e.type === "context" && e.clef && seenEvent) cur[k] = e.clef;
+					}
+				}
+			}
+		});
+	});
+	return n ? [`${n} clef changes at bar starts restored from the MuseScore source (its MusicXML export drops them)`] : [];
+};
+
+export const postprocessDoc = (doc: LilyletDoc, ctx: { xml: string; m21: any; file: any; harms?: Harm[]; figs?: Fig[]; clefs?: any }): string[] => {
 	const rel = ctx.file.local.slice("media/".length).replace(/\.[^.]+$/, "");
 	const notes = fixMetadata(doc, rel);
 	takeBareTupletCount();
 	notes.push(...regroupTuplets(doc).map(x => "TUPLET REGROUP PROBLEM: " + x));
 	const bare = takeBareTupletCount();
 	if (bare) notes.push(`${bare} tuplet group(s) without a <tuplet> bracket in the source wrapped in \\tuplet`);
+	// hide first: an invisible breve rest must match its full length before it is split
+	notes.push(...hideInvisible(doc, ctx.m21));
 	notes.push(...splitBreves(doc));
 	notes.push(...cleanMarks(doc));
 	notes.push(...placeHarmonies(doc, ctx.harms || []));
+	notes.push(...addFigures(doc, ctx.figs || []));
+	notes.push(...applyBarClefs(doc, ctx.clefs || null));
 	notes.push(...restoreTimeSymbols(doc, ctx.xml));
 	const st = stavesFromXml(ctx.xml);
 	if (st) {
@@ -193,12 +305,62 @@ export const preprocessXml = (xml: string): { xml: string; notes: string[] } => 
 	if (n) notes.push(`${n} unpitched (percussion) notes written as pitches at their staff position; percussion clef -> treble`);
 	if (/<staff-lines>1<\/staff-lines>/.test(out)) notes.push("source uses a 1-line staff; lilylet draws 5 lines");
 	if (/<notehead[^>]*>(x|cross|circle-x|slash|diamond|triangle)/.test(xml)) notes.push("special noteheads (x/slash/diamond) not kept");
+	const tr = dropTextsOnRests(out);
+	out = tr.xml;
+	if (tr.text) notes.push(`TEXT ON RESTS LOST: ${tr.text} staff texts on rests (${tr.samples.join(", ")}) dropped; lilylet cannot attach text to a rest or spacer`);
+	if (tr.blank + tr.reh + tr.dyn) notes.push(`${[tr.blank && `${tr.blank} blank answer lines (___)`, tr.reh && `${tr.reh} exercise numbers (rehearsal marks)`, tr.dyn && `${tr.dyn} dynamics`].filter(Boolean).join(", ")} on rests dropped (lilylet cannot attach them to a rest)`);
+	if (tr.lyr) notes.push(`TEXT ON RESTS LOST: ${tr.lyr} lyric syllables on rests dropped`);
 	const ct = unwrapChordTuplets(out);
 	out = ct.xml;
 	if (ct.n) notes.push(`${ct.n} tuplets containing chords regrouped after decoding (decoder splits chords inside tuplets)`);
 	const bf = cancelBackupForward(out);
 	if (bf.n) notes.push(`${bf.n} zero-net <backup>/<forward> pairs around directions removed`);
 	return { xml: bf.xml, notes };
+};
+
+/**
+ * A staff text / rehearsal mark / dynamic whose next note is a rest (worksheet prompts on
+ * empty answer bars, exercise numbers) cannot be kept: lilylet drops every mark on a rest
+ * or spacer, and the decoder carries such a direction on to the next NOTE, which may be
+ * on another staff or several bars later (prompts piled on one note). Drop them before
+ * decoding and count them; lyrics on rests are only counted (the decoder drops them).
+ */
+export const dropTextsOnRests = (xml: string) => {
+	const res = { xml, text: 0, blank: 0, reh: 0, dyn: 0, lyr: 0, samples: [] as string[] };
+	if (!/<rest\b/.test(xml) || !/<direction\b/.test(xml)) return res;
+	const dom = new DOMParser().parseFromString(xml, "application/xml");
+	const kids = (e: Element) => Array.from(e.childNodes).filter(n => n.nodeType === 1) as Element[];
+	const ONLY = new Set(["words", "rehearsal", "dynamics"]);
+	let changed = false;
+	for (const m of Array.from(dom.getElementsByTagName("measure"))) {
+		let pending: Element[] = [];
+		for (const el of kids(m)) {
+			if (el.tagName === "direction") {
+				const types = Array.from(el.getElementsByTagName("direction-type")).flatMap(kids);
+				if (types.length && types.every(t => ONLY.has(t.tagName))) pending.push(el);
+			} else if (el.tagName === "note") {
+				if (el.getElementsByTagName("chord").length) continue;
+				const isRest = el.getElementsByTagName("rest").length > 0;
+				if (isRest) {
+					for (const d of pending) {
+						for (const w of Array.from(d.getElementsByTagName("words"))) {
+							const t = (w.textContent || "").trim();
+							if (/[\p{L}\p{N}]/u.test(t)) { res.text++; if (res.samples.length < 3) res.samples.push(JSON.stringify(t.slice(0, 20))); }
+							else if (t) res.blank++;
+						}
+						res.reh += d.getElementsByTagName("rehearsal").length;
+						res.dyn += d.getElementsByTagName("dynamics").length;
+						d.parentNode!.removeChild(d);
+						changed = true;
+					}
+					res.lyr += Array.from(el.getElementsByTagName("lyric")).filter(l => (l.getElementsByTagName("text")[0]?.textContent || "").trim()).length;
+				}
+				pending = [];
+			}
+		}
+	}
+	if (changed) res.xml = new XMLSerializer().serializeToString(dom);
+	return res;
 };
 
 /**
@@ -270,6 +432,208 @@ export const splitBreves = (doc: LilyletDoc): string[] => {
 		}
 	}
 	return n ? [`${n} breve(s) written as tied whole notes / two whole rests (lilylet has no breve)`] : [];
+};
+
+// ---------------------------------------------------------------------------
+// Invisible notes / rests
+
+type Fr = [number, number];
+const fgcd = (a: number, b: number): number => (b ? fgcd(b, a % b) : Math.abs(a));
+const fnorm = ([n, d]: Fr): Fr => { const g = fgcd(n, d) || 1; return [n / g, d / g]; };
+const fadd = (a: Fr, b: Fr): Fr => fnorm([a[0] * b[1] + b[0] * a[1], a[1] * b[1]]);
+const fmul = (a: Fr, b: Fr): Fr => fnorm([a[0] * b[0], a[1] * b[1]]);
+const fstr = ([n, d]: Fr) => (d === 1 ? String(n) : `${n}/${d}`);
+const fql = (d: any): Fr => {
+	let base: Fr = fnorm([4, d.division]), dot: Fr = base;
+	for (let i = 0; i < (d.dots || 0); i++) { dot = fmul(dot, [1, 2]); base = fadd(base, dot); }
+	if (d.tuplet) base = fmul(base, [d.tuplet.numerator, d.tuplet.denominator]);
+	return base;
+};
+const PALTER: Record<string, number> = { sharp: 1, flat: -1, natural: 0, doubleSharp: 2, doubleFlat: -2 };
+const pname = (p: any) => `${p.phonet.toUpperCase()}${(PALTER[p.accidental] ?? 0) >= 0 ? "+" : ""}${PALTER[p.accidental] ?? 0}${p.octave + 4}`;
+
+/** Split a length in quarters into representable spacer durations (greedy, dotted allowed). */
+const spacerDurations = (len: Fr): { division: number; dots: number }[] => {
+	const out: { division: number; dots: number }[] = [];
+	let rest = len[0] / len[1];
+	const cands: [number, number, number][] = [];   // [ql, division, dots]
+	for (const div of [1, 2, 4, 8, 16, 32, 64, 128]) for (const dots of [2, 1, 0])
+		cands.push([(4 / div) * (2 - Math.pow(0.5, dots)), div, dots]);
+	cands.sort((a, b) => b[0] - a[0]);
+	while (rest > 1e-9) {
+		const c = cands.find(x => x[0] <= rest + 1e-9);
+		if (!c) break;
+		out.push({ division: c[1], dots: c[2] });
+		rest -= c[0];
+	}
+	return out;
+};
+
+/**
+ * MuseScore's MusicXML export keeps invisible notes as <notehead>none</notehead> and
+ * invisible rests as print-object="no"; the decoder draws both. extract_m21.py lists
+ * them per staff (`hidden`); here the matching events become spacers `s` of the same
+ * length (a hidden pitch inside a visible chord is just removed; a hidden grace note is
+ * dropped), so the timing is unchanged. lilylet's parser drops every mark on a rest, and
+ * moving a text to another note misplaces it (answer blanks "___:" piled up on the
+ * previous exercise), so texts / dynamics of a hidden note are dropped and counted; ties,
+ * slurs and beams that lose an end are dropped; a lyric syllable on a hidden note is
+ * removed with it.
+ */
+export const hideInvisible = (doc: LilyletDoc, m21: any): string[] => {
+	const want = new Map<string, { pitches: string[] | null }[]>();
+	let total = 0;
+	(m21?.staves || []).forEach((st: any, si: number) => {
+		for (const h of st.hidden || []) {
+			const k = [si, h[0], h[1], h[3], h[4] ? 1 : 0].join("|");
+			(want.get(k) || want.set(k, []).get(k)!).push({ pitches: h[2] });
+			total++;
+		}
+	});
+	if (!total) return [];
+	const nParts = Math.max(...doc.measures.map(m => m.parts.length));
+	const partStaves: number[] = new Array(nParts).fill(1);
+	const walkStaff = (evs: any[], cb: (s: number) => void) => evs.forEach(e => {
+		if (e.type === "context" && e.staff) cb(e.staff);
+		if (e.type === "tuplet") walkStaff(e.events, cb);
+	});
+	doc.measures.forEach(m => m.parts.forEach((p, pi) => p.voices.forEach((v: any) => {
+		partStaves[pi] = Math.max(partStaves[pi], v.staff || 1);
+		walkStaff(v.events, s => { partStaves[pi] = Math.max(partStaves[pi], s); });
+	})));
+	const base: number[] = [];
+	partStaves.reduce((acc, n, i) => { base[i] = acc; return acc + n; }, 0);
+
+	let notesHidden = 0, chordNotes = 0, graces = 0, rests = 0, lyricsLost = 0, unmatchedNotes = 0, marksMoved = 0;
+	const KEEP = new Set(["dynamic", "hairpin", "markup"]);
+	const touched = new Set<any>();
+	let time: Fr = [4, 1];
+	doc.measures.forEach((m: any, mi) => {
+		if (m.timeSig) time = fnorm([m.timeSig.numerator * 4, m.timeSig.denominator]);
+		m.parts.forEach((p: any, pi: number) => p.voices.forEach((v: any) => {
+			let staff = v.staff || 1;
+			let off: Fr = [0, 1];
+			const take = (k: string, pred: (x: { pitches: string[] | null }) => boolean) => {
+				const l = want.get(k);
+				if (!l) return null;
+				const i = l.findIndex(pred);
+				return i < 0 ? null : l.splice(i, 1)[0];
+			};
+			const walk = (evs: any[], ratio: Fr) => {
+				for (let i = 0; i < evs.length; i++) {
+					const e = evs[i];
+					if (e.type === "context") {
+						if (e.staff) staff = e.staff;
+						if (e.time) time = fnorm([e.time.numerator * 4, e.time.denominator]);
+						continue;
+					}
+					if (e.type === "tuplet") { walk(e.events, fmul(ratio, [e.ratio.numerator, e.ratio.denominator])); continue; }
+					if (e.type === "tremolo") { off = fadd(off, fmul(fnorm([4 * e.count, e.division]), [2, 1])); continue; }
+					if (e.type !== "note" && e.type !== "rest") continue;
+					const len: Fr = e.type === "rest" && e.fullMeasure ? time : fmul(fql(e.duration), ratio);
+					const s = base[pi] + (e.staff || staff) - 1;
+					const k = [s, mi, fstr(off), e.grace ? "0" : fstr(len), e.grace ? 1 : 0].join("|");
+					if (e.type === "note") {
+						const ps: string[] = e.pitches.map(pname);
+						const hit = take(k, x => !!x.pitches && x.pitches.every(q => ps.includes(q)));
+						if (hit) {
+							touched.add(v);
+							const left = e.pitches.filter((_: any, j: number) => !hit.pitches!.includes(ps[j]));
+							if (left.length) { e.pitches = left; chordNotes += hit.pitches!.length; }
+							else if (e.grace) { e._drop = true; graces += hit.pitches!.length; }
+							else {
+								notesHidden += hit.pitches!.length - 1;
+								const marks = (e.marks || []).filter((mk: any) => KEEP.has(mk.markType));
+								evs[i] = { type: "rest", invisible: true, duration: { ...e.duration }, ...(marks.length ? { _moveMarks: marks } : {}), _wasNote: true };
+								notesHidden++;
+							}
+						}
+					} else if (!e.invisible) {
+						const hit = take(k, x => x.pitches === null);
+						if (hit) {
+							touched.add(v);
+							rests++;
+							if (e.fullMeasure) {
+								const ds = spacerDurations(time);
+								const sp = ds.map((d, j) => ({ type: "rest", invisible: true, duration: d, ...(j === 0 && e.marks ? { marks: e.marks } : {}) }));
+								evs.splice(i, 1, ...sp);
+								i += sp.length - 1;
+							} else {
+								e.invisible = true;
+								delete e.pitch;
+							}
+						}
+					}
+					if (!e.grace) off = fadd(off, len);
+				}
+			};
+			walk(v.events, [1, 1]);
+		}));
+	});
+	for (const l of want.values()) for (const x of l) if (x.pitches) unmatchedNotes += x.pitches.length;
+
+	// Lyrics, dropped grace notes, and spanners that lost an end, per touched voice.
+	for (const m of doc.measures as any[]) for (const p of m.parts) for (const v of p.voices) {
+		if (!touched.has(v)) continue;
+		let noteIdx = 0;
+		const removeIdx: number[] = [];
+		const scan = (evs: any[]) => {
+			for (const e of evs) {
+				if (e.type === "tuplet") { scan(e.events); continue; }
+				if (e.type === "rest" && e._wasNote) { removeIdx.push(noteIdx); delete e._wasNote; continue; }
+				if (e.type === "note" && !e.grace && !e._drop) noteIdx++;
+			}
+		};
+		scan(v.events);
+		if (removeIdx.length && v.lyrics) for (const lane of v.lyrics)
+			for (const idx of [...removeIdx].sort((a, b) => b - a)) if (idx < lane.syllables.length) {
+				if (lane.syllables[idx]?.text) lyricsLost++;
+				lane.syllables.splice(idx, 1);
+			}
+		const prune = (evs: any[]): any[] => evs.filter(e => !e._drop).map(e => (e.type === "tuplet" ? { ...e, events: prune(e.events) } : e));
+		v.events = prune(v.events);
+	}
+	// A tie needs a following note in the same voice; slurs / beams must stay paired.
+	const voicesByKey = new Map<string, any[]>();
+	doc.measures.forEach((m: any) => m.parts.forEach((p: any, pi: number) => p.voices.forEach((v: any, vi: number) => {
+		const k = pi + ":" + vi;
+		(voicesByKey.get(k) || voicesByKey.set(k, []).get(k)!).push(v);
+	})));
+	for (const vs of voicesByKey.values()) {
+		if (!vs.some(v => touched.has(v))) continue;
+		const flat: any[] = [];
+		const f = (evs: any[]) => evs.forEach(e => (e.type === "tuplet" ? f(e.events) : (e.type === "note" || e.type === "rest") && flat.push(e)));
+		vs.forEach(v => f(v.events));
+		for (let i = 0; i < flat.length; i++) {
+			const e = flat[i];
+			if (e.type !== "note" || !e.marks) continue;
+			if (e.marks.some((mk: any) => mk.markType === "tie" && mk.start)) {
+				const nx = flat.slice(i + 1).find(x => !x.grace);
+				if (!nx || nx.type !== "note") e.marks = e.marks.filter((mk: any) => mk.markType !== "tie");
+			}
+		}
+		for (const kind of ["slur", "beam"]) {
+			const open: any[] = [];
+			for (const e of flat) for (const mk of [...(e.marks || [])]) {
+				if (mk.markType !== kind) continue;
+				if (mk.start) open.push([e, mk]);
+				else if (open.length) open.pop();
+				else e.marks = e.marks.filter((x: any) => x !== mk);
+			}
+			for (const [e, mk] of open) e.marks = e.marks.filter((x: any) => x !== mk);
+		}
+		for (const e of flat) if (e._moveMarks) { marksMoved += e._moveMarks.length; delete e._moveMarks; }
+		for (const e of flat) if (e.marks && !e.marks.length) delete e.marks;
+	}
+	const notes: string[] = [];
+	const n = notesHidden + chordNotes + graces;
+	if (n) notes.push(`${n} invisible notes of the source (hidden answers / playback) written as spacers` +
+		(chordNotes ? ` (${chordNotes} removed from chords)` : "") + (graces ? ` (${graces} grace notes dropped)` : ""));
+	if (rests) notes.push(`${rests} invisible rests written as spacers`);
+	if (marksMoved) notes.push(`${marksMoved} texts/dynamics attached to invisible notes dropped (lilylet cannot attach them to a spacer; moving them would misplace them)`);
+	if (lyricsLost) notes.push(`${lyricsLost} lyric syllables on invisible notes dropped`);
+	if (unmatchedNotes) notes.push(`HIDDEN NOT MATCHED: ${unmatchedNotes} invisible notes could not be located in the decoded score`);
+	return notes;
 };
 
 // Sentinel fingerings that mark a tuplet's first/last event across the decoder.

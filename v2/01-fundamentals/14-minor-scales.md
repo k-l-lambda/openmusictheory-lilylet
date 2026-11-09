@@ -235,16 +235,524 @@ This example shows a vocal line (the top staff) and a piano part (the grand staf
 
 1. Minor Scales A. Asks students to write minor scales and write/identify scale degrees.
 	- All clefs ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Minor-Scales-A.pdf), [.mscz](../media/2025/07/WK-Minor-Scales-A.mscz))
+      <!-- lilylet-begin: media/2025/07/WK-Minor-Scales-A.mscz -->
+      Lilylet transcription of WK-Minor-Scales-A.mscz ([WK-Minor-Scales-A.lyl](../lilylet/2025/07/WK-Minor-Scales-A.lyl)):
+
+      ```lyl.play
+      [title "Minor Scales A"]
+      [composer "Kyle Gullings and Megan Lavengood"]
+
+      \key c \major \time 8/4 \clef "treble" s1.. s4 \bar "||" | %1
+
+      \clef "alto" s1.. s4 \bar "||" | %2
+
+      \clef "treble" s1.. s4 \bar "||" | %3
+
+      \clef "bass" s1.. s4 \bar "||" | %4
+
+      \clef "tenor" s1.. s4 \bar "||" | %5
+
+      \clef "treble" s1.. s4 \bar "||" | %6
+
+      \numericTimeSignature \time 4/4 g'1_\markup "Fmi: supertonic"^\markup "7" | %7
+
+      s1 | %8
+
+      s1 | %9
+
+      \clef "alto" s1 | %10
+
+      s1 | %11
+
+      \clef "bass" s1 | %12
+
+      s1 | %13
+
+      s1 | %14
+
+      \clef "tenor" s1 | %15
+
+      s1 | %16
+
+      \clef "treble" g'1^\markup "17"_\markup "Emi: ________"_\markup "" | %17
+
+      ds'1^\markup "18"_\markup "F♯mi: ______" | %18
+
+      \clef "bass" bf,1^\markup "19"_\markup "Fmi: ________" | %19
+
+      \clef "tenor" cf1^\markup "20"_\markup "A♭mi: _____" | %20
+
+      \clef "alto" c1^\markup "21"_\markup "Gmi: ______" | %21
+
+      \clef "treble" c'1^\markup "22"_\markup "Emi: ____________"_\markup "submediant" | %22
+
+      f'1^\markup "23"_\markup "Cmi: ____________" | %23
+
+      \clef "alto" df1^\markup "25"_\markup "B♭mi: ____________" | %24
+
+      \clef "bass" d,1^\markup "26"_\markup "E♭mi: __________" | %25
+      ```
+      <!-- lilylet-end -->
 	- Treble and bass only ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Minor-Scales-A-TB.pdf), [.mscz](../media/2025/07/WK-Minor-Scales-A-TB.mscz))
+      <!-- lilylet-begin: media/2025/07/WK-Minor-Scales-A-TB.mscz -->
+      Lilylet transcription of WK-Minor-Scales-A-TB.mscz ([WK-Minor-Scales-A-TB.lyl](../lilylet/2025/07/WK-Minor-Scales-A-TB.lyl)):
+
+      ```lyl.play
+      [title "Minor Scales A"]
+      [subtitle "Treble/Bass only"]
+      [composer "Kyle Gullings and Megan Lavengood"]
+
+      \key c \major \time 8/4 \clef "treble" s1.. s4 \bar "||" | %1
+
+      s1.. s4 \bar "||" | %2
+
+      s1.. s4 \bar "||" | %3
+
+      \clef "bass" s1.. s4 \bar "||" | %4
+
+      s1.. s4 \bar "||" | %5
+
+      s1.. s4 \bar "||" | %6
+
+      \numericTimeSignature \time 4/4 \clef "treble" g'1_\markup "Fmi: supertonic"^\markup "7" | %7
+
+      s1 | %8
+
+      s1 | %9
+
+      s1 | %10
+
+      s1 | %11
+
+      \clef "bass" s1 | %12
+
+      s1 | %13
+
+      s1 | %14
+
+      s1 | %15
+
+      s1 | %16
+
+      \clef "treble" g'1^\markup "17"_\markup "Emi: ________"_\markup "" | %17
+
+      ds'1^\markup "18"_\markup "F♯mi: ______" | %18
+
+      bf'1^\markup "19"_\markup "Fmi: ________" | %19
+
+      \clef "bass" cf,1^\markup "20"_\markup "A♭mi: _____" | %20
+
+      c1^\markup "21"_\markup "Gmi: ______" | %21
+
+      \clef "treble" c'1^\markup "22"_\markup "Emi: ____________"_\markup "submediant" | %22
+
+      f'1^\markup "23"_\markup "Cmi: ____________" | %23
+
+      \clef "bass" df,1^\markup "25"_\markup "B♭mi: ____________" | %24
+
+      d,1^\markup "26"_\markup "E♭mi: __________" | %25
+      ```
+      <!-- lilylet-end -->
 2. Minor Scales B. Asks students to write minor scales and write/identify scale degrees.
 	- All clefs ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Minor-Scales-B.pdf), [.mscz](../media/2025/07/WK-Minor-Scales-B.mscz))
+      <!-- lilylet-begin: media/2025/07/WK-Minor-Scales-B.mscz -->
+      Lilylet transcription of WK-Minor-Scales-B.mscz ([WK-Minor-Scales-B.lyl](../lilylet/2025/07/WK-Minor-Scales-B.lyl)):
+
+      ```lyl.play
+      [title "Minor Scales B"]
+      [composer "Kyle Gullings and Megan Lavengood"]
+
+      \key c \major \time 8/4 \clef "treble" s1.. s4 \bar "||" | %1
+
+      \clef "alto" s1.. s4 \bar "||" | %2
+
+      \clef "treble" s1.. s4 \bar "||" | %3
+
+      \clef "bass" s1.. s4 \bar "||" | %4
+
+      \clef "tenor" s1.. s4 \bar "||" | %5
+
+      \clef "treble" s1.. s4 \bar "||" | %6
+
+      \numericTimeSignature \time 4/4 g'1_\markup "Fmi: supertonic"^\markup "7" | %7
+
+      s1 | %8
+
+      s1 | %9
+
+      \clef "alto" s1 | %10
+
+      s1 | %11
+
+      \clef "bass" s1 | %12
+
+      s1 | %13
+
+      s1 | %14
+
+      \clef "tenor" s1 | %15
+
+      s1 | %16
+
+      \clef "treble" g'1^\markup "17"_\markup "Emi: ________"_\markup "" | %17
+
+      fs'1^\markup "18"_\markup "G♯mi: ______" | %18
+
+      \clef "bass" f,1^\markup "19"_\markup "B♭mi: ________" | %19
+
+      \clef "tenor" g1^\markup "20"_\markup "Dmi: _____" | %20
+
+      \clef "alto" df1^\markup "21"_\markup "Fmi: ______" | %21
+
+      \clef "treble" c'1^\markup "22"_\markup "Emi: ____________"_\markup "submediant" | %22
+
+      g''1^\markup "23"_\markup "Bmi: ____________" | %23
+
+      \clef "alto" a1^\markup "25"_\markup "B♭mi: ____________" | %24
+
+      \clef "bass" d,1^\markup "26"_\markup "Gmi: __________" | %25
+      ```
+      <!-- lilylet-end -->
 	- Treble and bass only ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Minor-Scales-B-TB.pdf), [.mscz](../media/2025/07/WK-Minor-Scales-B-TB.mscz))
+      <!-- lilylet-begin: media/2025/07/WK-Minor-Scales-B-TB.mscz -->
+      Lilylet transcription of WK-Minor-Scales-B-TB.mscz ([WK-Minor-Scales-B-TB.lyl](../lilylet/2025/07/WK-Minor-Scales-B-TB.lyl)):
+
+      ```lyl.play
+      [title "Minor Scales B"]
+      [subtitle "Treble/Bass only"]
+      [composer "Kyle Gullings and Megan Lavengood"]
+
+      \key c \major \time 8/4 \clef "treble" s1.. s4 \bar "||" | %1
+
+      s1.. s4 \bar "||" | %2
+
+      s1.. s4 \bar "||" | %3
+
+      \clef "bass" s1.. s4 \bar "||" | %4
+
+      s1.. s4 \bar "||" | %5
+
+      s1.. s4 \bar "||" | %6
+
+      \numericTimeSignature \time 4/4 \clef "treble" g'1_\markup "Fmi: supertonic"^\markup "7" | %7
+
+      s1 | %8
+
+      s1 | %9
+
+      s1 | %10
+
+      s1 | %11
+
+      \clef "bass" s1 | %12
+
+      s1 | %13
+
+      s1 | %14
+
+      s1 | %15
+
+      s1 | %16
+
+      \clef "treble" g'1^\markup "17"_\markup "Emi: ________"_\markup "" | %17
+
+      fs'1^\markup "18"_\markup "G♯mi: ______" | %18
+
+      \clef "bass" f,1^\markup "19"_\markup "B♭mi: ________" | %19
+
+      g1^\markup "20"_\markup "Dmi: _____" | %20
+
+      df1^\markup "21"_\markup "Fmi: ______" | %21
+
+      \clef "treble" c'1^\markup "22"_\markup "Emi: ____________"_\markup "submediant" | %22
+
+      g''1^\markup "23"_\markup "Bmi: ____________" | %23
+
+      a'1^\markup "25"_\markup "B♭mi: ____________" | %24
+
+      \clef "bass" d,1^\markup "26"_\markup "Gmi: __________" | %25
+      ```
+      <!-- lilylet-end -->
 3. Minor Key Signatures A. Asks students to write and identify minor key signatures, and to write scales within a key signature context.
 	- All clefs ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-Minor-Key-Signatures-A.pdf), [.mscz](../media/2025/08/WK-Minor-Key-Signatures-A.mscz))
+      <!-- lilylet-begin: media/2025/08/WK-Minor-Key-Signatures-A.mscz -->
+      Lilylet transcription of WK-Minor-Key-Signatures-A.mscz ([WK-Minor-Key-Signatures-A.lyl](../lilylet/2025/08/WK-Minor-Key-Signatures-A.lyl)):
+
+      ```lyl.play
+      [title "Minor Key Signatures A"]
+      [subtitle "Treble/Bass only"]
+      [composer "Kyle Gullings and Megan Lavengood"]
+
+      \key g \major \clef "treble" s1 \bar "||" | %1
+
+      \key af \major s1 \bar "||" | %2
+
+      \key a \major s1 \bar "||" | %3
+
+      \key f \major s1 \bar "||" | %4
+
+      \key bf \major \clef "bass" s1 \bar "||" | %5
+
+      \key fs \major s1 \bar "||" | %6
+
+      \key df \major s1 \bar "||" | %7
+
+      \key b \major s1 \bar "||" | %8
+
+      \key d \major \clef "treble" s1 \bar "||" | %9
+
+      \key gf \major s1 \bar "||" | %10
+
+      \key e \major \clef "bass" s1 \bar "||" | %11
+
+      \key ef \major s1 \bar "||" | %12
+
+      \key b \major \clef "treble" s1 \bar "||" | %13
+
+      \key c \major s1 \bar "||" | %14
+
+      s1 \bar "||" | %15
+
+      s1 \bar "||" | %16
+
+      \clef "bass" s1 \bar "||" | %17
+
+      s1 \bar "||" | %18
+
+      s1 \bar "||" | %19
+
+      s1 \bar "||" | %20
+
+      \clef "treble" s1 \bar "||" | %21
+
+      s1 \bar "||" | %22
+
+      \clef "bass" s1 \bar "||" | %23
+
+      s1 \bar "||" | %24
+
+      \key df \major \time 8/4 \clef "treble" \stemUp bf4^\markup "___ minor; harmonic minor scale"^\markup "B♭" c df ef f gf a \stemDown bf \bar "||" | %25
+
+      \key g \major \clef "bass" s1.. s4 \bar "||" | %26
+
+      \key bf \major \clef "alto" s1.. s4 | %27
+
+      \key a \major \clef "treble" s1.. s4 \bar "||" | %28
+
+      \key d \major R1 | %29
+
+      \key ef \major \clef "tenor" R1 \bar "||" | %30
+      ```
+      <!-- lilylet-end -->
 	- Treble and bass only ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-Minor-Key-Signatures-A-TB.pdf), [.mscz](../media/2025/08/WK-Minor-Key-Signatures-A-TB.mscz))
+      <!-- lilylet-begin: media/2025/08/WK-Minor-Key-Signatures-A-TB.mscz -->
+      Lilylet transcription of WK-Minor-Key-Signatures-A-TB.mscz ([WK-Minor-Key-Signatures-A-TB.lyl](../lilylet/2025/08/WK-Minor-Key-Signatures-A-TB.lyl)):
+
+      ```lyl.play
+      [title "Minor Key Signatures A"]
+      [subtitle "Treble/Bass only"]
+      [composer "Kyle Gullings and Megan Lavengood"]
+
+      \key g \major \clef "treble" s1 \bar "||" | %1
+
+      \key af \major s1 \bar "||" | %2
+
+      \key a \major s1 \bar "||" | %3
+
+      \key f \major s1 \bar "||" | %4
+
+      \key bf \major \clef "bass" s1 \bar "||" | %5
+
+      \key fs \major s1 \bar "||" | %6
+
+      \key df \major s1 \bar "||" | %7
+
+      \key b \major s1 \bar "||" | %8
+
+      \key d \major \clef "treble" s1 \bar "||" | %9
+
+      \key gf \major s1 \bar "||" | %10
+
+      \key e \major \clef "bass" s1 \bar "||" | %11
+
+      \key ef \major s1 \bar "||" | %12
+
+      \key b \major \clef "treble" s1 \bar "||" | %13
+
+      \key c \major s1 \bar "||" | %14
+
+      s1 \bar "||" | %15
+
+      s1 \bar "||" | %16
+
+      \clef "bass" s1 \bar "||" | %17
+
+      s1 \bar "||" | %18
+
+      s1 \bar "||" | %19
+
+      s1 \bar "||" | %20
+
+      \clef "treble" s1 \bar "||" | %21
+
+      s1 \bar "||" | %22
+
+      \clef "bass" s1 \bar "||" | %23
+
+      s1 \bar "||" | %24
+
+      \key df \major \time 8/4 \clef "treble" \stemUp bf4^\markup "___ minor; harmonic minor scale"^\markup "B♭" c df ef f gf a \stemDown bf \bar "||" | %25
+
+      \key g \major \clef "bass" s1.. s4 \bar "||" | %26
+
+      \key bf \major s1.. s4 | %27
+
+      \key a \major \clef "treble" s1.. s4 \bar "||" | %28
+
+      \key d \major R1 | %29
+
+      \key ef \major R1 \bar "||" | %30
+      ```
+      <!-- lilylet-end -->
 4. Minor Key Signatures B. Asks students to write and identify minor key signatures, and to write scales within a key signature context.
 	- All clefs ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-Minor-Key-Signatures-B.pdf), [.mscz](../media/2025/08/WK-Minor-Key-Signatures-B.mscz))
+      <!-- lilylet-begin: media/2025/08/WK-Minor-Key-Signatures-B.mscz -->
+      Lilylet transcription of WK-Minor-Key-Signatures-B.mscz ([WK-Minor-Key-Signatures-B.lyl](../lilylet/2025/08/WK-Minor-Key-Signatures-B.lyl)):
+
+      ```lyl.play
+      [title "Minor Key Signatures B"]
+      [composer "Kyle Gullings and Megan Lavengood"]
+
+      \key b \major \clef "treble" s1 \bar "||" | %1
+
+      \key df \major s1 \bar "||" | %2
+
+      \key bf \major s1 \bar "||" | %3
+
+      \key fs \major s1 \bar "||" | %4
+
+      \key a \major \clef "bass" s1 \bar "||" | %5
+
+      \key f \major s1 \bar "||" | %6
+
+      \key af \major s1 \bar "||" | %7
+
+      \key g \major s1 \bar "||" | %8
+
+      \key ef \major \clef "alto" s1 \bar "||" | %9
+
+      \key e \major s1 \bar "||" | %10
+
+      \key gf \major \clef "tenor" s1 \bar "||" | %11
+
+      \key d \major s1 \bar "||" | %12
+
+      \key b \major \clef "treble" s1 \bar "||" | %13
+
+      \key c \major s1 \bar "||" | %14
+
+      s1 \bar "||" | %15
+
+      s1 \bar "||" | %16
+
+      \clef "bass" s1 \bar "||" | %17
+
+      s1 \bar "||" | %18
+
+      s1 \bar "||" | %19
+
+      s1 \bar "||" | %20
+
+      \clef "alto" s1 \bar "||" | %21
+
+      s1 \bar "||" | %22
+
+      \clef "tenor" s1 \bar "||" | %23
+
+      s1 \bar "||" | %24
+
+      \key df \major \time 8/4 \clef "treble" \stemUp bf4^\markup "___ minor; harmonic minor scale"^\markup "B♭" c df ef f gf a \stemDown bf \bar "||" | %25
+
+      \key e \major \clef "bass" s1.. s4 \bar "||" | %26
+
+      \key f \major \clef "alto" s1.. s4 | %27
+
+      \key a \major \clef "tenor" s1.. s4 \bar "||" | %28
+
+      \key bf \major \clef "treble" s1.. s4 \bar "||" | %29
+
+      \key af \major \clef "bass" s1.. s4 \bar "||" | %30
+      ```
+      <!-- lilylet-end -->
 	- Treble and bass only ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-Minor-Key-Signatures-B-TB.pdf), [.mscz](../media/2025/08/WK-Minor-Key-Signatures-B-TB.mscz))
+      <!-- lilylet-begin: media/2025/08/WK-Minor-Key-Signatures-B-TB.mscz -->
+      Lilylet transcription of WK-Minor-Key-Signatures-B-TB.mscz ([WK-Minor-Key-Signatures-B-TB.lyl](../lilylet/2025/08/WK-Minor-Key-Signatures-B-TB.lyl)):
+
+      ```lyl.play
+      [title "Minor Key Signatures B"]
+      [composer "Kyle Gullings and Megan Lavengood"]
+
+      \key b \major \clef "treble" s1 \bar "||" | %1
+
+      \key df \major s1 \bar "||" | %2
+
+      \key bf \major s1 \bar "||" | %3
+
+      \key fs \major s1 \bar "||" | %4
+
+      \key a \major \clef "bass" s1 \bar "||" | %5
+
+      \key f \major s1 \bar "||" | %6
+
+      \key af \major s1 \bar "||" | %7
+
+      \key g \major s1 \bar "||" | %8
+
+      \key ef \major \clef "alto" s1 \bar "||" | %9
+
+      \key e \major s1 \bar "||" | %10
+
+      \key gf \major \clef "tenor" s1 \bar "||" | %11
+
+      \key d \major s1 \bar "||" | %12
+
+      \key b \major \clef "treble" s1 \bar "||" | %13
+
+      \key c \major s1 \bar "||" | %14
+
+      s1 \bar "||" | %15
+
+      s1 \bar "||" | %16
+
+      \clef "bass" s1 \bar "||" | %17
+
+      s1 \bar "||" | %18
+
+      s1 \bar "||" | %19
+
+      s1 \bar "||" | %20
+
+      \clef "alto" s1 \bar "||" | %21
+
+      s1 \bar "||" | %22
+
+      \clef "tenor" s1 \bar "||" | %23
+
+      s1 \bar "||" | %24
+
+      \key df \major \time 8/4 \clef "treble" \stemUp bf4^\markup "___ minor; harmonic minor scale"^\markup "B♭" c df ef f gf a \stemDown bf \bar "||" | %25
+
+      \key e \major \clef "bass" s1.. s4 \bar "||" | %26
+
+      \key f \major s1.. s4 | %27
+
+      \key a \major \clef "treble" s1.. s4 \bar "||" | %28
+
+      \key bf \major s1.. s4 \bar "||" | %29
+
+      \key af \major \clef "bass" s1.. s4 \bar "||" | %30
+      ```
+      <!-- lilylet-end -->
 
 ### Media Attributions
 

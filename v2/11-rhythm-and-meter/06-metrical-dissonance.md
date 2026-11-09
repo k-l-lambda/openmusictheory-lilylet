@@ -110,6 +110,83 @@ Example 10. Changing metrical dissonance in [Brahms’ “Lullaby” (“Wiegenl
 > Assignments
 
 1. Grouping Dissonance Composition Exercise ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2024/06/WK-Grouping-Dissonance-Composition-Exercise.pdf), [.mscz](../media/2024/06/WK-Grouping-Dissonance-Composition-Exercise.mscz)). Asks students to compose two mini pieces with repeating motives of different lengths, creating grouping dissonance. References the pentatonic and hexatonic collections.
+   <!-- lilylet-begin: media/2024/06/WK-Grouping-Dissonance-Composition-Exercise.mscz -->
+   Lilylet transcription of WK-Grouping-Dissonance-Composition-Exercise.mscz ([WK-Grouping-Dissonance-Composition-Exercise.lyl](../lilylet/2024/06/WK-Grouping-Dissonance-Composition-Exercise.lyl)):
+
+   ```lyl.play
+   [title "WK Grouping Dissonance Composition Exercise"]
+   [staves "{s1-s2}"]
+
+   \staff "1" \key d \major \numericTimeSignature \time 4/4 \clef "treble" \stemUp d4_\markup "1. Write a D pentatonic scale."^\markup "_____________________________________________________________________________" s s2 \clef "bass" s \\
+   \staff "2" \clef "bass" r1 r2 | %1
+
+   \staff "1" s1 \\
+   \staff "2" R1 | %2
+
+   \staff "1" \clef "treble" s1 \\
+   \staff "2" R1 | %3
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %4
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %5
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %6
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %7
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %8
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %9
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %10
+
+   \staff "1" s1 \bar "|." \\
+   \staff "2" s1 | %11
+
+   \staff "1" \stemUp d4_\markup "1. Write a HEX\n2,3\n scale (alternate\nhalf steps and minor thirds)." s s2 \\
+   \staff "2" r1 | %12
+
+   \staff "1" \clef "bass" s2 s \\
+   \staff "2" r2 r | %13
+
+   \staff "1" \clef "treble" s2 s \\
+   \staff "2" r2 r | %14
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %15
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %16
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %17
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %18
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %19
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %20
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %21
+
+   \staff "1" s1 \\
+   \staff "2" s1 | %22
+
+   \staff "1" s1 \bar "|." \\
+   \staff "2" s1 | %23
+   ```
+   <!-- lilylet-end -->
 
 ### Media Attributions
 

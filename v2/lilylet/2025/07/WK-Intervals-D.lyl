@@ -110,19 +110,19 @@ R1 \bar "||" | %35
 \clef "treble" <f df'>2_\markup "mi6" <df' f>_\markup "ma3" \\\
 R1 | %36
 
-<g' a>2 r \\\
+<g' a>2 s \\\
 R1 | %37
 
-<ds a'>2 r \\\
+<ds a'>2 s \\\
 R1 | %38
 
-\clef "bass" <bf, gs'>2 r \\\
+\clef "bass" <bf, gs'>2 s \\\
 R1 | %39
 
-<e,, ds'>2 r \\\
+<e,, ds'>2 s \\\
 R1 | %40
 
-<f, af>2 r \bar "||" \\\
+<f, af>2 s \bar "||" \\\
 R1 \bar "||" | %41
 
 \key d \major \numericTimeSignature \time 4/4 \clef "treble" \stemUp fs4^\markup "mi3" \stemDown a cs \addlyrics { And there was } \\\

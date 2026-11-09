@@ -4,16 +4,16 @@
 [staves "s1,s2"]
 
 \key f \major \time 3/8 \clef "treble" \stemUp c8^\markup "BWV 856" \\\
-\clef "treble" r8 | %1
+\clef "treble" s8 | %1
 
 \stemUp d8[ c bf] \\\
-R2 | %2
+s4. | %2
 
 \stemUp c8[ e,16 f g a] \\\
-R2 | %3
+s4. | %3
 
 \stemUp bf8[ c16 bf a g] \\\
-R2 | %4
+s4. | %4
 
 \stemUp a16[ g] \stemNeutral f8 \bar "|." \\\
-R4 \bar "|." | %5
+s4. \bar "|." | %5

@@ -80,7 +80,13 @@ Example 4. ASPN labels for notes in four clefs.
 > Assignments
 
 1. American Standard Pitch Notation (ASPN) ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2024/06/WK-American-Standard-Pitch-Notation-ASPN.pdf), [.mscz](../media/2024/08/WK-American-Standard-Pitch-Notation-ASPN.mscz)). Asks students to identify pitches by ASPN label and write pitches in the correct octave from ASPN labels.
+   <!-- lilylet-begin: media/2024/08/WK-American-Standard-Pitch-Notation-ASPN.mscz -->
+   Lilylet transcription of WK-American-Standard-Pitch-Notation-ASPN.mscz: [WK-American-Standard-Pitch-Notation-ASPN.lyl](../lilylet/2024/08/WK-American-Standard-Pitch-Notation-ASPN.lyl) (120 bars).
+   <!-- lilylet-end -->
 2. American Standard Pitch Notation (ASPN), Treble and Bass Clef ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2024/08/WK-American-Standard-Pitch-Notation-ASPN-treble-bass.pdf), [.mscz](../media/2024/08/WK-American-Standard-Pitch-Notation-ASPN-treble-bass.mscz)). Asks students to identify pitches by ASPN label and write pitches in the correct octave from ASPN labels. No C clefs.
+   <!-- lilylet-begin: media/2024/08/WK-American-Standard-Pitch-Notation-ASPN-treble-bass.mscz -->
+   Lilylet transcription of WK-American-Standard-Pitch-Notation-ASPN-treble-bass.mscz: [WK-American-Standard-Pitch-Notation-ASPN-treble-bass.lyl](../lilylet/2024/08/WK-American-Standard-Pitch-Notation-ASPN-treble-bass.lyl) (60 bars).
+   <!-- lilylet-end -->
 
 ### Media Attributions
 

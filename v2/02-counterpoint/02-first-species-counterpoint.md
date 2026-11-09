@@ -91,5 +91,159 @@ Because similar and parallel motion diminish variety and melodic independence, t
 > Assignments
 
 1. First-Species Counterpoint A ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2026/07/WK-First-species-Counterpoint-A.pdf), [.mscz](../media/2026/07/WK-First-species-Counterpoint-A.mscz)). Asks students to do error detection on one first-species example and compose one of their own.
+   <!-- lilylet-begin: media/2026/07/WK-First-species-Counterpoint-A.mscz -->
+   Lilylet transcription of WK-First-species-Counterpoint-A.mscz ([WK-First-species-Counterpoint-A.lyl](../lilylet/2026/07/WK-First-species-Counterpoint-A.lyl)):
+
+   ```lyl.play
+   [title "First-species Counterpoint"]
+   [composer "Kyle Gullings"]
+   [staves "s1,s2"]
+   [instrument-s1 "Ctpt." "Ctpt."]
+   [instrument-s2 "C.F." "C.F."]
+
+   \key f \major \numericTimeSignature \time 2/2 \clef "treble" f'1_\markup "____" \\\
+   \clef "treble" f1_\markup "List at least 10 errors in the excerpt above:"^\markup "Intervals:"_\markup "1. ____________________________________      6. ____________________________________ 2. ____________________________________      7. ____________________________________ 3. ____________________________________      8. ____________________________________ 4. ____________________________________      9. ____________________________________ 5. ____________________________________      10. ___________________________________" | %1
+
+   e'1_\markup "____" \\\
+   g'1 | %2
+
+   d'1_\markup "____" \\\
+   a'1 | %3
+
+   c'1_\markup "____" \\\
+   a'1 | %4
+
+   bf'1_\markup "____" \\\
+   bf'1 | %5
+
+   a'1_\markup "____" \\\
+   f1 | %6
+
+   bf'1_\markup "____" \\\
+   g'1 | %7
+
+   c'1_\markup "____" \\\
+   a'1 | %8
+
+   d'1_\markup "____" \\\
+   bf'1 | %9
+
+   e'1_\markup "____" \\\
+   g'1 | %10
+
+   c'1_\markup "____" \\\
+   c'1 | %11
+
+   f'1_\markup "____" \bar "|." \\\
+   f1 \bar "|." | %12
+
+   \key d \major s1 \\\
+   b1^\markup "Intervals:"_\markup "(Key: B Minor)" | %13
+
+   s1 \\\
+   as1 | %14
+
+   s1 \\\
+   b1 | %15
+
+   s1 \\\
+   d1 | %16
+
+   s1 \\\
+   cs1 | %17
+
+   s1 \\\
+   fs1 | %18
+
+   s1 \\\
+   e1 | %19
+
+   s1 \\\
+   b1 | %20
+
+   s1 \\\
+   cs1 | %21
+
+   s1 \bar "|." \\\
+   b1 \bar "|." | %22
+   ```
+   <!-- lilylet-end -->
 2. First-Species Counterpoint B ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2026/07/WK-First-species-Counterpoint-B.pdf), [.mscz](../media/2026/07/WK-First-species-Counterpoint-B.mscz)). Asks students to do error detection on one first-species example and compose one of their own.
+   <!-- lilylet-begin: media/2026/07/WK-First-species-Counterpoint-B.mscz -->
+   Lilylet transcription of WK-First-species-Counterpoint-B.mscz ([WK-First-species-Counterpoint-B.lyl](../lilylet/2026/07/WK-First-species-Counterpoint-B.lyl)):
+
+   ```lyl.play
+   [title "First-species Counterpoint"]
+   [composer "Kyle Gullings"]
+   [staves "s1,s2"]
+   [instrument-s1 "Ctpt." "Ctpt."]
+   [instrument-s2 "C.F." "C.F."]
+
+   \key ef \major \numericTimeSignature \time 2/2 \clef "treble" bf'1_\markup "____" \\\
+   \clef "treble" bf'1_\markup "List at least 10 errors in the excerpt above:"_\markup "1. ____________________________________      6. ____________________________________ 2. ____________________________________      7. ____________________________________ 3. ____________________________________      8. ____________________________________ 4. ____________________________________      9. ____________________________________ 5. ____________________________________      10. ___________________________________"^\markup "Intervals:" | %1
+
+   bf'1_\markup "____" \\\
+   d1 | %2
+
+   bf'1_\markup "____" \\\
+   ef1 | %3
+
+   c'1_\markup "____" \\\
+   f1 | %4
+
+   bf'1_\markup "____" \\\
+   g'1 | %5
+
+   g'1_\markup "____" \\\
+   af'1 | %6
+
+   af'1_\markup "____" \\\
+   c'1 | %7
+
+   f1_\markup "____" \\\
+   c'1 | %8
+
+   g'1_\markup "____" \\\
+   bf'1 | %9
+
+   ef1_\markup "____" \\\
+   ef1 | %10
+
+   f1_\markup "____" \\\
+   f1 | %11
+
+   g'1_\markup "____" \bar "|." \\\
+   ef1 \bar "|." | %12
+
+   \key bf \major s1 \\\
+   \clef "bass" bf,1^\markup "Intervals:" | %13
+
+   s1 \\\
+   c,1 | %14
+
+   s1 \\\
+   d,1 | %15
+
+   s1 \\\
+   ef,1 | %16
+
+   s1 \\\
+   d,1 | %17
+
+   s1 \\\
+   g1 | %18
+
+   s1 \\\
+   f,1 | %19
+
+   s1 \\\
+   d,1 | %20
+
+   s1 \\\
+   c,1 | %21
+
+   s1 \bar "|." \\\
+   bf,1 \bar "|." | %22
+   ```
+   <!-- lilylet-end -->
 3. For the complete set of Fux exercises, see the [Gradus ad Parnassum](07-gradus-ad-parnassum-exercises.md) chapter.

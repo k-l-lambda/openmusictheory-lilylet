@@ -3,17 +3,17 @@
 [composer "J. S. Bach"]
 [staves "s1,s2"]
 
-\key bf \major \time 3/4 \clef "treble" r8 \stemUp c'^\markup "BWV 890"[ bf a bf f] \\\
-\clef "treble" R1 | %1
+\key bf \major \time 3/4 \clef "treble" r8 \stemUp c'[ bf a bf f] \\\
+\clef "treble" s2. | %1
 
 \stemUp d8[ g f ef f d] \\\
-R1 | %2
+s2. | %2
 
 \stemUp bf8[ ef ef( d) d( c)] \\\
-R1 | %3
+s2. | %3
 
 \stemUp c8[ f f( ef) ef( d)] \\\
-R1 | %4
+s2. | %4
 
 d8 \bar "|." \\\
-R8 \bar "|." | %5
+s2. \bar "|." | %5

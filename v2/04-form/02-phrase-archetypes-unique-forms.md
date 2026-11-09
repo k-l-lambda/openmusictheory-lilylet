@@ -195,7 +195,118 @@ When we analyze such passages, we can still perform a segmentation analysis. We 
 1. Analyzing sentences ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2021/07/WK-The-Phrase-Archetypes-and-Unique-Forms-–-Analyzing-Sentences.pdf), [.docx](https://viva.pressbooks.pub/app/uploads/sites/12/2021/07/WK-The-Phrase-Archetypes-and-Unique-Forms-–-Analyzing-Sentences.docx)). Asks students to compare excerpts to the archetypal sentence, provide form diagrams, and optionally, provide harmonic analysis for any given excerpt. [Worksheet playlist](https://open.spotify.com/playlist/030b7BIJt8oxyJEEgdVc9X)
 2. Analyzing archetypes and unique forms ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2021/07/WK-The-Phrase-Archetypes-and-Unique-Forms-–-Analyzing-Archetypes-and-Unique-Forms.pdf), [.docx](https://viva.pressbooks.pub/app/uploads/sites/12/2021/07/WK-The-Phrase-Archetypes-and-Unique-Forms-–-Analyzing-Archetypes-and-Unique-Forms.docx)). Asks students to identify excerpts that are archetypes (periods, sentences, compond periods) or unique forms, and to diagram those that are archetypes. Optionally, students can harmonically analyze the excerpts. [Worksheet playlist](https://open.spotify.com/playlist/67Gz0G81OCGlHyWJ3UqHHg)
 3. Composing melody-only sentences ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2021/07/WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Brief-Melody-only-Sentences.pdf), [.mscx](../media/2021/07/WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Brief-Melody-only-Sentences.mscx)). Students compose four-measure sentences from a given basic idea (melody only).
+   <!-- lilylet-begin: media/2021/07/WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Brief-Melody-only-Sentences.mscx -->
+   Lilylet transcription of WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Brief-Melody-only-Sentences.mscx ([WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Brief-Melody-only-Sentences.lyl](../lilylet/2021/07/WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Brief-Melody-only-Sentences.lyl)):
+
+   ```lyl.play
+   [title "WK The Phrase Archetypes and Unique Forms – Composing Brief Melody only Sentences"]
+   [subtitle "The Phrase, Archetypes, and Unique Forms – Composing brief Melody-only Sentences"]
+
+   \key a \major \numericTimeSignature \time 4/4 \clef "treble" \stemUp a'4.^\markup "1" \stemDown b16[ cs] b4 r | %1
+
+   s1 | %2
+
+   s1 | %3
+
+   s1 \bar "||" | %4
+
+   \key f \major \time 3/4 \stemUp a'8^\markup "2"[ a16 a] \stemDown c8[ a] \stemUp f4 | %5
+
+   s2. | %6
+
+   s2. | %7
+
+   s2. \bar "||" | %8
+
+   \key af \major \time 6/8 \stemDown c'8^\markup "3"[ bf af] df4. | %9
+
+   s2. | %10
+
+   s2. | %11
+
+   s2. \bar "|." | %12
+   ```
+   <!-- lilylet-end -->
 4. Composing fully realized sentences ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2021/07/WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Fully-realized-Sentences.pdf), [.mscx](../media/2021/07/WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Fully-realized-Sentences.mscx)). Students select from a bank of basic ideas to compose an 8-measure sentence with full texture (accompaniment and melody).
+   <!-- lilylet-begin: media/2021/07/WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Fully-realized-Sentences.mscx -->
+   Lilylet transcription of WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Fully-realized-Sentences.mscx ([WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Fully-realized-Sentences.lyl](../lilylet/2021/07/WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Fully-realized-Sentences.lyl)):
+
+   ```lyl.play
+   [title "WK The Phrase Archetypes and Unique Forms – Composing Fully realized Sentences"]
+   [subtitle "The Phrase, Archetypes, and Unique Forms – Composing Fully-realized Sentences"]
+   [staves "{s1-s2},s3"]
+   [instrument-s1-s2 "final texture" "Pno."]
+   [instrument-s3 "simplified accompaniment (step 5)" "Pno."]
+
+   \staff "1" \key bf \major \time 2/4 \clef "treble" \tempo "Adagio" \stemUp bf'8.^\markup "1"^\markup "Sample Opening Motives"[ a16^\markup "N"] \stemDown bf8-.[ d-.] \\
+   \staff "2" \clef "bass" \stemDown bf16[ f' d f] bf,[ f' d f] \\\
+   \staff "1" \clef "bass" \stemDown <bf d f>2 | %1
+
+   \staff "1" \stemDown d'4^\markup "sus."( c) \\
+   \staff "2" \stemDown a16[ f' c f] a,[ f' ef f] \\\
+   \staff "1" \stemDown <a c f>4 <a ef' f> | %2
+
+   \staff "1" R2 \\
+   \staff "2" R2 \\\
+   \staff "1" R2 | %3
+
+   \staff "1" \key e \major \tempo "Adagio" \stemDown e'4^\markup "2" gs8-.[ gs-.] \\
+   \staff "2" \stemDown e,16[ b' gs b] e,[ b' gs b] \\\
+   \staff "1" \stemDown <e, gs b>2 | %4
+
+   \staff "1" \stemDown e'4( b) \\
+   \staff "2" \stemDown e,16[ b' gs b] e,[ b' gs b] \\\
+   \staff "1" \stemDown <e, gs b>2 | %5
+
+   \staff "1" R2 \\
+   \staff "2" R2 \\\
+   \staff "1" R2 | %6
+
+   \staff "1" \key bf \major \time 4/4 \tempo "Moderato" \stemUp g'4.^\markup "3"( a8^\markup "P" \stemDown bf4 \stemUp a8^\markup "P"->[ g] \\
+   \staff "2" \stemDown g8[ d' bf d] g,[ d' bf d] \\\
+   \staff "1" <g bf d>1 | %7
+
+   \staff "1" \stemUp fs2 a) \\
+   \staff "2" \stemDown a8[ d c d] a[ d c d] \\\
+   \staff "1" <a c d>1 | %8
+
+   \staff "1" R1 \\
+   \staff "2" R1 \\\
+   \staff "1" R1 | %9
+
+   \staff "1" \key c \major s1 \\
+   \staff "2" s1 \\\
+   \staff "1" s1 | %10
+
+   \staff "1" s1 \\
+   \staff "2" s1 \\\
+   \staff "1" s1 | %11
+
+   \staff "1" s1 \\
+   \staff "2" s1 \\\
+   \staff "1" s1 | %12
+
+   \staff "1" s1 \\
+   \staff "2" s1 \\\
+   \staff "1" s1 | %13
+
+   \staff "1" s1 \\
+   \staff "2" s1 \\\
+   \staff "1" s1 | %14
+
+   \staff "1" s1 \\
+   \staff "2" s1 \\\
+   \staff "1" s1 | %15
+
+   \staff "1" s1 \\
+   \staff "2" s1 \\\
+   \staff "1" s1 | %16
+
+   \staff "1" s1 \bar "|." \\
+   \staff "2" s1 \\\
+   \staff "1" s1 \bar "|." | %17
+   ```
+   <!-- lilylet-end -->
 
 ### Media Attributions
 

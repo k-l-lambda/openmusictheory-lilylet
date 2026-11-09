@@ -1,6 +1,6 @@
 [title "Desperado Reharmonization"]
 
-\key af \major \time 3/4 \clef "treble_8" \tempo 4=188 r4 \stemDown c8^\markup "Verse"[ bf] \stemUp c[ f,] | %1
+\key af \major \time 3/4 \clef "treble_8" \tempo 4=188 r4 \stemDown c8[ bf] \stemUp c[ f,] | %1
 
 R1 | %2
 

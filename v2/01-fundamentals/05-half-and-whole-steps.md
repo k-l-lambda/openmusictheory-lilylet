@@ -131,9 +131,18 @@ You will have noticed by now that each key on the piano keyboard has more than o
 5. Half and Whole Steps in Staff Notation. Asks students to notate whole and half steps above/below a given note, identify whole/half steps in notation, and analyze a melody to locate and label whole and half steps.
 	- All clefs ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-half-and-whole-steps-in-staff-notation.pdf), [.mscz](https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-half-and-whole-steps-in-staff-notation.mscz))
 	- Treble and bass clef only ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-half-and-whole-steps-in-staff-notation-TB.pdf), [.mscz](../media/2025/08/WK-half-and-whole-steps-in-staff-notation-TB.mscz))
+      <!-- lilylet-begin: media/2025/08/WK-half-and-whole-steps-in-staff-notation-TB.mscz -->
+      Lilylet transcription of WK-half-and-whole-steps-in-staff-notation-TB.mscz: [WK-half-and-whole-steps-in-staff-notation-TB.lyl](../lilylet/2025/08/WK-half-and-whole-steps-in-staff-notation-TB.lyl) (71 bars).
+      <!-- lilylet-end -->
 6. Enharmonic Equivalence. Asks students to write and identify enharmonically equivalent notes.
 	- - All clefs ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-enharmonic-equivalence.pdf), [.mscz](../media/2025/08/WK-enharmonic-equivalence.mscz))
 		- Treble/bass clefs only ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-enharmonic-equivalence-TB.pdf), [.mscz](../media/2025/08/WK-enharmonic-equivalence-TB.mscz)). Asks students to notate and identify enharmonically equivalent pitches.
+      <!-- lilylet-begin: media/2025/08/WK-enharmonic-equivalence.mscz -->
+      Lilylet transcription of WK-enharmonic-equivalence.mscz: [WK-enharmonic-equivalence.lyl](../lilylet/2025/08/WK-enharmonic-equivalence.lyl) (45 bars).
+      <!-- lilylet-end -->
+          <!-- lilylet-begin: media/2025/08/WK-enharmonic-equivalence-TB.mscz -->
+          Lilylet transcription of WK-enharmonic-equivalence-TB.mscz: [WK-enharmonic-equivalence-TB.lyl](../lilylet/2025/08/WK-enharmonic-equivalence-TB.lyl) (45 bars).
+          <!-- lilylet-end -->
 
 ### Media Attributions
 

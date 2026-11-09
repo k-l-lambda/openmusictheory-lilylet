@@ -7,121 +7,121 @@
 \clef "treble" gs'1 a | %1
 
 R1 \\\
-ef1 r | %2
+ef1 s | %2
 
 R1 \\\
-gf''1 r | %3
+gf''1 s | %3
 
 R1 \\\
-bf'1 r | %4
+bf'1 s | %4
 
 R1 \\\
-fs1 r | %5
+fs1 s | %5
 
 R1 \\\
-ef'1 r | %6
+ef'1 s | %6
 
 R1 \\\
-cs'1 r | %7
+cs'1 s | %7
 
 R1 \\\
-df'1 r | %8
+df'1 s | %8
 
 R1 \\\
-ds1 r | %9
+ds1 s | %9
 
 R1 \\\
-ds'1 r | %10
+ds'1 s | %10
 
 R1 \\\
 \clef "bass" as,1 a | %11
 
 R1 \\\
-fs,1 r | %12
+fs,1 s | %12
 
 R1 \\\
-ef,1 r | %13
+ef,1 s | %13
 
 R1 \\\
-gf1 r | %14
+gf1 s | %14
 
 R1 \\\
-gs,1 r | %15
+gs,1 s | %15
 
 R1 \\\
-cs,1 r | %16
+cs,1 s | %16
 
 R1 \\\
-bf,1 r | %17
+bf,1 s | %17
 
 R1 \\\
-af1 r | %18
+af1 s | %18
 
 R1 \\\
-df,1 r | %19
+df,1 s | %19
 
 R1 \\\
-fs,,1 r | %20
+fs,,1 s | %20
 
 R1 \\\
 as1 bs | %21
 
 R1 \\\
-cs1 r | %22
+cs1 s | %22
 
 R1 \\\
-df1 r | %23
+df1 s | %23
 
 R1 \\\
-gf1 r | %24
+gf1 s | %24
 
 R1 \\\
-ef1 r | %25
+ef1 s | %25
 
 R1 \\\
-bf1 r | %26
+bf1 s | %26
 
 R1 \\\
-af1 r | %27
+af1 s | %27
 
 R1 \\\
-cs,1 r | %28
+cs,1 s | %28
 
 R1 \\\
-fs1 r | %29
+fs1 s | %29
 
 R1 \\\
-e,1 r | %30
+e,1 s | %30
 
 R1 \\\
 \clef "treble" gs'1 fs | %31
 
 R1 \\\
-ef1 r | %32
+ef1 s | %32
 
 R1 \\\
-gf''1 r | %33
+gf''1 s | %33
 
 R1 \\\
-bf'1 r | %34
+bf'1 s | %34
 
 R1 \\\
-as'1 r | %35
+as'1 s | %35
 
 R1 \\\
-fs1 r | %36
+fs1 s | %36
 
 R1 \\\
-ef'1 r | %37
+ef'1 s | %37
 
 R1 \\\
-cs'1 r | %38
+cs'1 s | %38
 
 R1 \\\
-df'1 r | %39
+df'1 s | %39
 
 R1 \\\
-ds1 r | %40
+ds1 s | %40
 
 R1 \\\
 g'1 af \addlyrics { H _ } | %41
@@ -168,7 +168,7 @@ g,1 f | %54
 R1 \\\
 e,1 g | %55
 
-\numericTimeSignature \time 4/4 \stemUp c'8^\markup "Swing"[ c] r b^\markup "H" c4^\markup "H" r \addlyrics { Give 'em the old } \\\
+\numericTimeSignature \time 4/4 \stemUp c'8^\markup "Swing"[ c] r b c4^\markup "H" r \addlyrics { Give 'em the old } \\\
 \clef "treble" R1 | %56
 
 \stemDown c'4 \stemUp g a as^\markup "W" \addlyrics { ho -- cus po -- cus… } \\\

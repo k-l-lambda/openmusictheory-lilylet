@@ -16,7 +16,7 @@
 \staff "2" \stemDown <e, a>8-.[ <e a>-. <e a>-. <e a>-.] <e a>-.[ <e a>16-. d(] ef8.)-.[ d16(] | %4
 
 \staff "1" \stemUp d'8)[ ds,(] e8.\<[ a16] gs2 \\
-\staff "1" \stemDown a'8\!-. r r4 r2 \\
+\staff "1" \stemDown a'8\!-. s s4 s2 \\
 \staff "2" \stemDown a8--[ b-.] bf4~ bf8)[ bf,] \stemUp bf8.[ bf16] | %5
 
 \staff "1" \stemDown bf''8\ff)-.-> r r4 r2 \bar "|." \\

@@ -667,7 +667,7 @@ d1 \bar "|." \\\
 a1 \bar "|." \\\
 d,1 \bar "|." | %133
 
-r2 \stemUp f^\markup "Fig. 174; Species: 2; Modal final: d; Cantus firmus: 2" \\\
+r2 \stemUp f \\\
 d1 \\\
 a1 \\\
 d,1 | %134
@@ -1252,7 +1252,7 @@ b'1 \bar "|." \\\
 e1 \bar "|." \\\
 e,1 \bar "|." | %250
 
-r2 \stemUp a'^\markup "Fig. 193; Species: 4; Modal final: d; Cantus firmus: 2"~ \\\
+r2 \stemUp a'~ \\\
 d1 \\\
 a1 \\\
 d,1 | %251
@@ -1472,7 +1472,7 @@ d1 \bar "|." \\\
 fs,1 \bar "|." \\\
 d,1 \bar "|." | %294
 
-r2 \stemUp a'^\markup "Fig. 200; Species: 5; Modal final: d; Cantus firmus: 2"~ \\\
+r2 \stemUp a'~ \\\
 d1 \\\
 a1 \\\
 d,1 | %295

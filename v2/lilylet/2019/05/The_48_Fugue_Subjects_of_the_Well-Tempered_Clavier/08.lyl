@@ -4,10 +4,10 @@
 [staves "s1,s2"]
 
 \key fs \major \time 4/4 \clef "treble" \stemUp ds4^\markup "BWV 853" as'4. b8[ as gs] \\\
-\clef "treble" R1 | %1
+\clef "treble" s1 | %1
 
 \stemUp fs8[ gs] as4 ds, gs~ \\\
-R1 | %2
+s1 | %2
 
 \stemUp gs'8[ fs] es4 \stemNeutral ds \bar "|." \\\
-R1 \bar "|." | %3
+s1 \bar "|." | %3

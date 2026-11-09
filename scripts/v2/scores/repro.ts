@@ -74,6 +74,23 @@ const cases: [string, () => string, (out: string) => boolean][] = [
 
 e2) f | %2`)).split(/<measure\b/).findIndex(m => /<slur /.test(m))).toString(),
 		o => o === "2"],
+	["parser: marks on a rest or spacer are dropped (s1^\\markup, r1\\p): no text on empty answer bars",
+		() => JSON.stringify(l.parseCode(String.raw`c1 | s1^\markup "E major" | r1_\markup "B:" |`).measures.slice(1).map(m => (m.parts[0].voices[0].events[0] as any).marks || null)),
+		o => o === "[null,null]"],
+	["meiEncoder: a standalone \\markup in a voice with no note is lost (needs a note to attach to)",
+		() => (l.meiEncoder.encode(l.parseCode(String.raw`s2 \markup "a" s2 | %1`)).match(/>a</g) || []).length.toString(),
+		o => o === "0"],
+	["decoder: a <direction> before a <rest> goes to the next NOTE (other staff / later bar)",
+		() => ser(xml(time(2, 4), `<direction><direction-type><words>X</words></direction-type></direction>` +
+			`<note><rest/><duration>6</duration><voice>1</voice><type>quarter</type></note>` + n("C", 5, 6, "quarter"))),
+		o => /c''4?[^|]*\\markup "X"|c''[^ ]*\^\\markup "X"/.test(o) || /markup "X"/.test(o.split("r4")[1] || "")],
+	["decoder vs meiEncoder: octave clef (treble_8). Decoder keeps MusicXML's sounding pitch, encoder reads the lyl pitch as written: drawn an octave low",
+		() => {
+			const x = xml(`<time><beats>1</beats><beat-type>4</beat-type></time><clef><sign>G</sign><line>2</line><clef-octave-change>-1</clef-octave-change></clef>`, n("C", 4, 6, "quarter"));
+			const mei = l.meiEncoder.encode(l.parseCode(l.serializeLilyletDoc(l.musicXmlDecoder.decode(x))));
+			return (mei.match(/<note [^>]*oct="\d"/g) || []).join(" ");
+		},
+		o => /oct="3"/.test(o)],
 ];
 
 for (const [name, run, isBug] of cases) {

@@ -1,62 +1,61 @@
-[title "Music Theory I Graded Homework #1: Scales Dr. Gullings"]
-[composer "N"]
+[title "WK Intervals 1"]
 
 \key c \major \clef "treble" <c a'>1^\markup "PART 1: Identification\nIdentify the following intervals by both quality (d, mi, ma, P, or A) and size (U, 2, 3, 4, 5, 6, 7, or 8)."^\markup "1" \bar "||" | %1
 
-<e fs>1^\markup "2" \bar "||" | %2
+\clef "tenor" <e fs>1^\markup "2" \bar "||" | %2
 
-<a fs'>1^\markup "3" \bar "||" | %3
+\clef "alto" <a fs'>1^\markup "3" \bar "||" | %3
 
-<e f>1^\markup "4" \bar "||" | %4
+\clef "bass" <e f>1^\markup "4" \bar "||" | %4
 
-<b f'>1^\markup "5" \bar "||" | %5
+\clef "tenor" <b f'>1^\markup "5" \bar "||" | %5
 
-<f e'>1^\markup "6" \bar "||" | %6
+\clef "treble" <f e'>1^\markup "6" \bar "||" | %6
 
-<d d>1^\markup "7" \bar "||" | %7
+\clef "bass" <d d>1^\markup "7" \bar "||" | %7
 
-<e, g>1^\markup "8" \bar "||" | %8
+\clef "alto" <e, g>1^\markup "8" \bar "||" | %8
 
-<fs, d'>1^\markup "9" \bar "||" | %9
+\clef "tenor" <fs, d'>1^\markup "9" \bar "||" | %9
 
-<bf' e>1^\markup "10" \bar "||" | %10
+\clef "treble" <bf' e>1^\markup "10" \bar "||" | %10
 
 g'1^\markup "PART 2: Intervals above a note\nAdd the correct note above the given note, to form the interval specified."^\markup "1" \bar "||" \addlyrics { ↑mi3 } | %11
 
-af1^\markup "2" \bar "||" \addlyrics { ↑A5 } | %12
+\clef "alto" af1^\markup "2" \bar "||" \addlyrics { ↑A5 } | %12
 
-e,1^\markup "3" \bar "||" \addlyrics { ↑mi6 } | %13
+\clef "tenor" e,1^\markup "3" \bar "||" \addlyrics { ↑mi6 } | %13
 
-b,1^\markup "4" \bar "||" \addlyrics { ↑P4 } | %14
+\clef "bass" b,1^\markup "4" \bar "||" \addlyrics { ↑P4 } | %14
 
 df,1^\markup "5" \bar "||" \addlyrics { ↑ma6 } | %15
 
-f1^\markup "6" \bar "||" \addlyrics { ↑mi2 } | %16
+\clef "treble" f1^\markup "6" \bar "||" \addlyrics { ↑mi2 } | %16
 
-ef1^\markup "7" \bar "||" \addlyrics { ↑P5 } | %17
+\clef "alto" ef1^\markup "7" \bar "||" \addlyrics { ↑P5 } | %17
 
-b1^\markup "8" \bar "||" \addlyrics { ↑ma7 } | %18
+\clef "tenor" b1^\markup "8" \bar "||" \addlyrics { ↑ma7 } | %18
 
-ds1^\markup "9" \bar "||" \addlyrics { ↑mi7 } | %19
+\clef "treble" ds1^\markup "9" \bar "||" \addlyrics { ↑mi7 } | %19
 
-af,1^\markup "10" \bar "||" \addlyrics { ↑ma3 } | %20
+\clef "bass" af,1^\markup "10" \bar "||" \addlyrics { ↑ma3 } | %20
 
 c1^\markup "PART 3: Intervals below a note\nAdd the correct note below the given note, to form the interval specified."^\markup "1" \bar "||" \addlyrics { ↓ma7 } | %21
 
-bf''1^\markup "2" \bar "||" \addlyrics { ↓P8 } | %22
+\clef "treble" bf''1^\markup "2" \bar "||" \addlyrics { ↓P8 } | %22
 
 f1^\markup "3" \bar "||" \addlyrics { ↓mi3 } | %23
 
-fs,1^\markup "4" \bar "||" \addlyrics { ↓P4 } | %24
+\clef "bass" fs,1^\markup "4" \bar "||" \addlyrics { ↓P4 } | %24
 
-ef'1^\markup "5" \bar "||" \addlyrics { ↓ma6 } | %25
+\clef "treble" ef'1^\markup "5" \bar "||" \addlyrics { ↓ma6 } | %25
 
 \clef "bass" e,1^\markup "6" \bar "||" \addlyrics { ↓P5 } | %26
 
-ef1^\markup "7" \bar "||" \addlyrics { ↓mi7 } | %27
+\clef "alto" ef1^\markup "7" \bar "||" \addlyrics { ↓mi7 } | %27
 
-c1^\markup "8" \bar "||" \addlyrics { ↓ma3 } | %28
+\clef "tenor" c1^\markup "8" \bar "||" \addlyrics { ↓ma3 } | %28
 
-bf1^\markup "9" \bar "||" \addlyrics { ↓ma2 } | %29
+\clef "bass" bf1^\markup "9" \bar "||" \addlyrics { ↓ma2 } | %29
 
-c1^\markup "10" \bar "||" \addlyrics { ↓mi2 } | %30
+\clef "alto" c1^\markup "10" \bar "||" \addlyrics { ↓mi2 } | %30

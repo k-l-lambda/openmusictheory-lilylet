@@ -19,22 +19,22 @@
 \staff "1" \stemDown d'4 \stemUp d,4. r \bar "|." \\
 \staff "2" R1 | %6
 
-\staff "1" d4. a' fs4 \\
+\staff "1" s4. s s4 \\
 \staff "2" R1 | %7
 
-\staff "1" b'4 a r r \\
+\staff "1" s4 s s s \\
 \staff "2" R1 | %8
 
-\staff "1" e4 b'8[ g fs e] cs4 \\
+\staff "1" s4 s8 s s s s4 \\
 \staff "2" R1 | %9
 
-\staff "1" e2.. fs16[ g] \\
+\staff "1" s2.. s16 s \\
 \staff "2" R1 | %10
 
-\staff "1" fs4 a8 d4 d8 cs4 \\
+\staff "1" s4 s8 s4 s8 s4 \\
 \staff "2" R1 | %11
 
-\staff "1" d'4 d,4. r \bar "|." \\
+\staff "1" s4 s4. s \bar "|." \\
 \staff "2" R1 | %12
 
 \staff "1" \key cs \minor \time 3/4 \stemDown e'4.^\markup "2" \stemUp gs, \\
@@ -55,23 +55,23 @@
 \staff "1" \stemDown cs'4 r2 \bar "|." \\
 \staff "2" \stemUp cs,4 r2 | %18
 
-\staff "1" e'4. gs, \\
-\staff "2" cs,4 <gs' e'> <gs e'> | %19
+\staff "1" s4. s \\
+\staff "2" s4 s s | %19
 
-\staff "1" ds'4. gs, \\
-\staff "2" gs,4 <bs' ds> <bs ds> | %20
+\staff "1" s4. s \\
+\staff "2" s4 s s | %20
 
-\staff "1" cs'8 b4 a fs8 \\
-\staff "2" cs,4 r2 | %21
+\staff "1" s8 s4 s s8 \\
+\staff "2" s4 s2 | %21
 
-\staff "1" a'8 gs4 fs e8 \\
-\staff "2" r4 r r | %22
+\staff "1" s8 s4 s s8 \\
+\staff "2" s4 s s | %22
 
-\staff "1" gs'4~ gs8[ gs] bs4 \\
-\staff "2" gs,8 gs'2 gs,8 | %23
+\staff "1" s4 s8 s s4 \\
+\staff "2" s8 s2 s8 | %23
 
-\staff "1" cs'4 r2 \bar "|." \\
-\staff "2" cs,4 r2 | %24
+\staff "1" s4 s2 \bar "|." \\
+\staff "2" s4 s2 | %24
 
 \staff "1" \key ef \major \time 2/2 \stemDown ef'2^\markup "3" \stemUp g, \\
 \staff "2" R1 | %25
@@ -88,17 +88,17 @@
 \staff "1" \stemUp g'8[ f] g2. \bar "|." \\
 \staff "2" R1 | %29
 
-\staff "1" ef'2 g, \\
+\staff "1" s2 s \\
 \staff "2" R1 | %30
 
-\staff "1" bf'4 ef,2 bf'4 \\
+\staff "1" s4 s2 s4 \\
 \staff "2" R1 | %31
 
-\staff "1" ef'4 d8 c4 bf d8 \\
+\staff "1" s4 s8 s4 s s8 \\
 \staff "2" R1 | %32
 
-\staff "1" f'4 ef8 d4 c8[ bf af] \\
+\staff "1" s4 s8 s4 s8 s s \\
 \staff "2" R1 | %33
 
-\staff "1" g'8[ f] g2. \bar "|." \\
+\staff "1" s8 s s2. \bar "|." \\
 \staff "2" R1 | %34

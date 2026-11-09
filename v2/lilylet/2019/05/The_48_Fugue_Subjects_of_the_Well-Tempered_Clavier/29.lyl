@@ -3,8 +3,8 @@
 [composer "J. S. Bach"]
 [staves "s1,s2"]
 
-\key d \major \numericTimeSignature \time 2/2 \clef "bass" r8 \stemDown d^\markup "BWV 874"[ d d] g,4 b \\\
-\clef "bass" R1 | %1
+\key d \major \numericTimeSignature \time 2/2 \clef "bass" r8 \stemDown d[ d d] g,4 b \\\
+\clef "bass" s1 | %1
 
 \stemDown b8[ e, a g] fs \bar "|." \\\
-R2 \bar "|." | %2
+s1 \bar "|." | %2

@@ -7,9 +7,9 @@
 [instrument-s5 "Bass clef instruments" "Bass"]
 
 \key bf \major \numericTimeSignature \time 4/4 \clef "treble" \stemDown bf'4 \chords "Bb7" r8 bf~-> bf2 \\\
-\clef "treble_2" \stemDown c'4-> \chords "C7" r8 c~-> c2 \\\
-\clef "treble_6" \stemDown g''4-> \chords "G7" r8 g~-> g2 \\\
-\clef "treble_5" \stemUp f4-> \chords "F7" r8 f~-> f2 \\\
+\clef "treble_2" \clef "treble" \stemDown c'4-> \chords "C7" r8 c~-> c2 \\\
+\clef "treble_6" \clef "treble" \stemDown g''4-> \chords "G7" r8 g~-> g2 \\\
+\clef "treble_5" \clef "treble" \stemUp f4-> \chords "F7" r8 f~-> f2 \\\
 \clef "bass" \stemDown bf4-> \chords "Bb7" r8 bf~-> bf2 | %1
 
 \stemDown df'8-- \chords "Eb7" c4-^ bf8-> r2 \\\

@@ -128,6 +128,116 @@ In summary, the examples above have shown that both diminished-seventh chords, a
 > Assignments
 
 1. Respelling, Part-Writing, and Analysis ([PDF](https://viva.pressbooks.pub/app/uploads/sites/12/2024/10/OMT-Chromatic-Modulation.pdf)), ([Word](https://viva.pressbooks.pub/app/uploads/sites/12/2024/10/OMT-Chromatic-Modulation.docx)), ([Musescore](../media/2024/10/1-assignment6-enharmonic-reinterpretation.mscz))
+   <!-- lilylet-begin: media/2024/10/1-assignment6-enharmonic-reinterpretation.mscz -->
+   Lilylet transcription of 1-assignment6-enharmonic-reinterpretation.mscz ([1-assignment6-enharmonic-reinterpretation.lyl](../lilylet/2024/10/1-assignment6-enharmonic-reinterpretation.lyl)):
+
+   ```lyl.play
+   [title "1 assignment6 enharmonic reinterpretation"]
+   [staves "s1,{s2-s3}"]
+
+   \key c \major \numericTimeSignature \time 4/4 \clef "treble" <cs e g bf>1^\markup "1. Write the pairs of enharmonically equivalent chords and complete the chord analysis below the staff by writing\nin the key that corresponds to the given analysis."_\markup "___:" \chords "vii°7" \\\
+   \staff "1" \clef "treble" R1 \\
+   \staff "2" \clef "bass" R1 | %1
+
+   \staff "1" s1 \chords "vii°43" \bar "||" \\\
+   \staff "1" R1 \bar "||" \\
+   \staff "2" R1 | %2
+
+   \staff "1" <fs a c ef>1_\markup "___:" \chords "vii°7" \\\
+   \staff "1" R1 \\
+   \staff "2" R1 | %3
+
+   \staff "1" s1 \chords "vii°65" \bar "||" \\\
+   \staff "1" R1 \bar "||" \\
+   \staff "2" R1 | %4
+
+   \staff "1" <f af cf d>1_\markup "___:" \chords "vii°65" \\\
+   \staff "1" R1 \\
+   \staff "2" R1 | %5
+
+   \staff "1" s1 \chords "vii°7" \bar "||" \\\
+   \staff "1" R1 \bar "||" \\
+   \staff "2" R1 | %6
+
+   \staff "1" <g' b d f>1^\markup "2. Write the pairs of enharmonicially equivalent chords and complete the chord analysis below the staff by writing\nin the key that corresponds to the given analysis."_\markup "___:" \chords "V7" \\\
+   \staff "1" R1 \\
+   \staff "2" R1 | %7
+
+   \staff "1" s1 \chords "Gr.653" \bar "||" \\\
+   \staff "1" R1 \bar "||" \\
+   \staff "2" R1 | %8
+
+   \staff "1" <df f af cf>1_\markup "___:" \chords "V7" \\\
+   \staff "1" R1 \\
+   \staff "2" R1 | %9
+
+   \staff "1" s1 \chords "Gr.653" \bar "||" \\\
+   \staff "1" R1 \bar "||" \\
+   \staff "2" R1 | %10
+
+   \staff "1" s1 \chords "V7" \\\
+   \staff "1" R1 \\
+   \staff "2" R1 | %11
+
+   \staff "1" <bf' d f gs>1_\markup "___:" \chords "Gr.653" \bar "||" \\\
+   \staff "1" R1 \bar "||" \\
+   \staff "2" R1 | %12
+
+   \staff "1" \key ef \major R1 \\\
+   \staff "1" s4 s s s \\
+   \staff "1" s4 s s s \\
+   \staff "2" \stemDown d,4 e f d \\
+   \staff "2" s4 s s s | %13
+
+   \staff "1" R1 \\\
+   \staff "1" s2. s4 \\
+   \staff "1" s2 s4 s \\
+   \staff "2" \stemDown bf,2 a \\
+   \staff "2" s2. s4 | %14
+
+   \staff "1" R1 \\\
+   \staff "1" s2 s \\
+   \staff "1" s2 s \\
+   \staff "2" gs,1 \\
+   \staff "2" s2 s | %15
+
+   \staff "1" R1 \bar "||" \\\
+   \staff "1" s1 \bar "||" \\
+   \staff "1" s1 \\
+   \staff "2" cs,1 \\
+   \staff "2" s1 | %16
+
+   \staff "1" R1 \\\
+   \staff "1" s4 s s s \\
+   \staff "1" s4 s s s \\
+   \staff "2" s4 \chords "I" s \chords "vii°7/ii" s \chords "ii" s \chords "vii°7" \\
+   \staff "2" s4 s s s | %17
+
+   \staff "1" R1 \\\
+   \staff "1" s4 s s s \\
+   \staff "1" s4 s s s \\
+   \staff "2" s4 \chords "I" s \chords "vii°7" \chords "vii°42" s \chords "V64---------53" s \\
+   \staff "2" s4 s s s | %18
+
+   \staff "1" R1 \\\
+   \staff "1" s4 s s s \\
+   \staff "1" s4 s s s \\
+   \staff "2" s4 \chords "i" s \chords "Gr.653" \chords "V7" s \chords "I" s \chords "IV" \\
+   \staff "2" s4 s s s | %19
+
+   \staff "1" R1 \\\
+   \staff "1" s2 s \\
+   \staff "1" s2 s \\
+   \staff "2" s2 \chords "V64---------------53" s \\
+   \staff "2" s2 s | %20
+
+   \staff "1" R1 \bar "||" \\\
+   \staff "1" s1 \bar "||" \\
+   \staff "1" s1 \\
+   \staff "2" s1 \chords "I" \\
+   \staff "2" s1 | %21
+   ```
+   <!-- lilylet-end -->
 
 ### Media Attributions
 

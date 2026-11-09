@@ -3,11 +3,11 @@
 [composer "J. S. Bach"]
 [staves "s1,s2"]
 
-\key c \major \numericTimeSignature \time 4/4 \clef "bass" r4 \stemDown e^\markup "BWV 889" c f \\\
-\clef "bass" R1 | %1
+\key c \major \numericTimeSignature \time 4/4 \clef "bass" r4 \stemDown e c f \\\
+\clef "bass" s1 | %1
 
 \stemDown gs4 r r8 d'[ b e] \\\
-R1 | %2
+s1 | %2
 
 \stemDown c8[ a] \bar "|." \\\
-R4 \bar "|." | %3
+s1 \bar "|." | %3

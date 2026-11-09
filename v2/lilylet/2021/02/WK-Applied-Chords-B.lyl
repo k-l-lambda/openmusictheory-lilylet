@@ -20,52 +20,52 @@
 
 \key df \major <aff, bf d f>1_\markup "D♭:" \chords "___________" \bar "||" | %10
 
-\key e \major \clef "treble" R1 \chords "V65/vi" \bar "||" | %11
+\key e \major \clef "treble" s1 \chords "V65/vi" \bar "||" | %11
 
-\key f \major R1 \chords "vii°6/iv" \bar "||" | %12
+\key f \major s1 \chords "vii°6/iv" \bar "||" | %12
 
-\key b \major R1 \chords "V/iii" \bar "||" | %13
+\key b \major s1 \chords "V/iii" \bar "||" | %13
 
-\key e \major R1 \chords "V42/V" \bar "||" | %14
+\key e \major s1 \chords "V42/V" \bar "||" | %14
 
-\key bf \major R1 \chords "vii°7/VII" \bar "||" | %15
+\key bf \major s1 \chords "vii°7/VII" \bar "||" | %15
 
-\key ef \major \clef "bass" R1 \chords "vii°6/ii" \bar "||" | %16
+\key ef \major \clef "bass" s1 \chords "vii°6/ii" \bar "||" | %16
 
-\key g \major R1 \chords "V43/vi" \bar "||" | %17
+\key g \major s1 \chords "V43/vi" \bar "||" | %17
 
-\key af \major R1 \chords "vii°65/VI" \bar "||" | %18
+\key af \major s1 \chords "vii°65/VI" \bar "||" | %18
 
-\key d \major R1 \chords "V7/III" \bar "||" | %19
+\key d \major s1 \chords "V7/III" \bar "||" | %19
 
-\key a \major R1 \chords "V6/IV" \bar "||" | %20
+\key a \major s1 \chords "V6/IV" \bar "||" | %20
 
-\key f \major \clef "treble" R1 \chords "Dm" | %21
+\key f \major \clef "treble" s1 \chords "Dm" | %21
 
-R1 \chords "A7/E" | %22
+s1 \chords "A7/E" | %22
 
-R1 \chords "Dm/F" | %23
+s1 \chords "Dm/F" | %23
 
-R1 \chords "Gm/Bb" | %24
+s1 \chords "Gm/Bb" | %24
 
-R1 \chords "Dm/A" | %25
+s1 \chords "Dm/A" | %25
 
-R1 \chords "A/G" | %26
+s1 \chords "A/G" | %26
 
-R1 \chords "D7/F#" | %27
+s1 \chords "D7/F#" | %27
 
-R1 \chords "Gm" | %28
+s1 \chords "Gm" | %28
 
-R1 \chords "G#°7/B" | %29
+s1 \chords "G#°7/B" | %29
 
-R1 \chords "A" | %30
+s1 \chords "A" | %30
 
-R1 \chords "A°7/C" | %31
+s1 \chords "A°7/C" | %31
 
-R1 \chords "Bb/D" | %32
+s1 \chords "Bb/D" | %32
 
-R1 \chords "E7" | %33
+s1 \chords "E7" | %33
 
-R1 \chords "A7" | %34
+s1 \chords "A7" | %34
 
-R1 \chords "Dm" \bar "|." | %35
+s1 \chords "Dm" \bar "|." | %35

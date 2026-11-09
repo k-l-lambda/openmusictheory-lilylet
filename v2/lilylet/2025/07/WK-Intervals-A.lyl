@@ -5,41 +5,41 @@
 
 \clef "tenor" <e fs>1 \bar "||" | %2
 
-<a fs'>1 \bar "||" | %3
+\clef "alto" <a fs'>1 \bar "||" | %3
 
-<e f>1 \bar "||" | %4
+\clef "bass" <e f>1 \bar "||" | %4
 
-<b f'>1 \bar "||" | %5
+\clef "tenor" <b f'>1 \bar "||" | %5
 
-<f e'>1 | %6
+\clef "treble" <f e'>1 | %6
 
-<d d>1 \bar "||" | %7
+\clef "bass" <d d>1 \bar "||" | %7
 
-<e, g>1 \bar "||" | %8
+\clef "alto" <e, g>1 \bar "||" | %8
 
-<fs, d'>1 \bar "||" | %9
+\clef "tenor" <fs, d'>1 \bar "||" | %9
 
-<bf' e>1 \bar "||" | %10
+\clef "treble" <bf' e>1 \bar "||" | %10
 
 <g' bff>1_\markup "↑d3" \bar "||" | %11
 
 \clef "alto" af1 \bar "||" \addlyrics { ↑A5 } | %12
 
-e,1 \bar "||" \addlyrics { ↑mi6 } | %13
+\clef "tenor" e,1 \bar "||" \addlyrics { ↑mi6 } | %13
 
-b,1 \bar "||" \addlyrics { ↑P4 } | %14
+\clef "bass" b,1 \bar "||" \addlyrics { ↑P4 } | %14
 
 df,1 \bar "||" \addlyrics { ↑ma6 } | %15
 
-f1 \bar "||" \addlyrics { ↑mi2 } | %16
+\clef "treble" f1 \bar "||" \addlyrics { ↑mi2 } | %16
 
-ef1 \bar "||" \addlyrics { ↑P5 } | %17
+\clef "alto" ef1 \bar "||" \addlyrics { ↑P5 } | %17
 
-b1 \bar "||" \addlyrics { ↑ma7 } | %18
+\clef "tenor" b1 \bar "||" \addlyrics { ↑ma7 } | %18
 
-ds1 \bar "||" \addlyrics { ↑mi7 } | %19
+\clef "treble" ds1 \bar "||" \addlyrics { ↑mi7 } | %19
 
-af,1 \bar "||" \addlyrics { ↑ma3 } | %20
+\clef "bass" af,1 \bar "||" \addlyrics { ↑ma3 } | %20
 
 <dff, c'>1_\markup "↓A7" \bar "||" | %21
 
@@ -47,16 +47,16 @@ af,1 \bar "||" \addlyrics { ↑ma3 } | %20
 
 f1 \bar "||" \addlyrics { ↓mi3 } | %23
 
-fs,1 \bar "||" \addlyrics { ↓P4 } | %24
+\clef "bass" fs,1 \bar "||" \addlyrics { ↓P4 } | %24
 
-ef'1 \bar "||" \addlyrics { ↓ma6 } | %25
+\clef "treble" ef'1 \bar "||" \addlyrics { ↓ma6 } | %25
 
-e,1 \bar "||" \addlyrics { ↓P5 } | %26
+\clef "bass" e,1 \bar "||" \addlyrics { ↓P5 } | %26
 
-ef1 \bar "||" \addlyrics { ↓mi7 } | %27
+\clef "alto" ef1 \bar "||" \addlyrics { ↓mi7 } | %27
 
-c1 \bar "||" \addlyrics { ↓ma3 } | %28
+\clef "tenor" c1 \bar "||" \addlyrics { ↓ma3 } | %28
 
-bf1 \bar "||" \addlyrics { ↓ma2 } | %29
+\clef "bass" bf1 \bar "||" \addlyrics { ↓ma2 } | %29
 
-c1 \bar "||" \addlyrics { ↓mi2 } | %30
+\clef "alto" c1 \bar "||" \addlyrics { ↓mi2 } | %30

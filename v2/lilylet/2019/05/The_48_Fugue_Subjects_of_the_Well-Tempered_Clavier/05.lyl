@@ -3,8 +3,8 @@
 [composer "J. S. Bach"]
 [staves "s1,s2"]
 
-\key d \major \time 4/4 \clef "bass" r4 \stemDown d,32^\markup "BWV 850"[ e fs g fs e fs d] b'8.[ b16] a8.[ g16] \\\
-\clef "bass" R1 | %1
+\key d \major \time 4/4 \clef "bass" r4 \stemDown d,32[ e fs g fs e fs d] b'8.[ b16] a8.[ g16] \\\
+\clef "bass" s1 | %1
 
 fs,4 \bar "|." \\\
-R4 \bar "|." | %2
+s1 \bar "|." | %2

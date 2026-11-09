@@ -31,32 +31,32 @@ e,1 | %8
 f1_\markup "___" \bar "|." \\\
 f,1 \bar "|." | %9
 
-\key a \major r1 \\\
+\key a \major s1 \\\
 \clef "treble" a1^\markup "Intervals:" | %10
 
-R1 \\\
+s1 \\\
 cs1 | %11
 
-R1 \\\
+s1 \\\
 d1 | %12
 
-R1 \\\
+s1 \\\
 e1 | %13
 
-R1 \\\
+s1 \\\
 fs1 | %14
 
-R1 \\\
+s1 \\\
 cs1 | %15
 
-R1 \\\
+s1 \\\
 d1 | %16
 
-R1 \\\
+s1 \\\
 cs1 | %17
 
-R1 \\\
+s1 \\\
 b1 | %18
 
-R1 \bar "|." \\\
+s1 \bar "|." \\\
 a1 \bar "|." | %19

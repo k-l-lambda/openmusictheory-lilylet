@@ -1,43 +1,43 @@
 [title "WK Blues Scales 1"]
 
-\key c \major \time 7/4 \clef "treble" \stemUp f4 r2 r1 | %1
+\key c \major \time 7/4 \clef "treble" \stemUp f4 s2 s1 | %1
 
-\stemUp bf4 r2 r1 | %2
+\stemUp bf4 s2 s1 | %2
 
-\stemUp ef4 r2 r1 | %3
+\stemUp ef4 s2 s1 | %3
 
-\stemUp g'4 r2 r1 | %4
+\stemUp g'4 s2 s1 | %4
 
-\stemUp d4 r2 r1 | %5
+\stemUp d4 s2 s1 | %5
 
-\stemUp a'4 r2 r1 | %6
+\stemUp a'4 s2 s1 | %6
 
-\stemUp f4^\markup "For #7 and #8, write a major blues scale." r2 r1 | %7
+\stemUp f4^\markup "For #7 and #8, write a major blues scale." s2 s1 | %7
 
-\stemUp bf4 r2 r1 | %8
+\stemUp bf4 s2 s1 | %8
 
 \numericTimeSignature \time 4/4 \stemDown b'8[ b~] b4 \stemUp b8[ g a g] \addlyrics { You ain't __ _ _ _ _ _ } | %9
 
-R1 | %10
+s1 | %10
 
-R1 | %11
+s1 | %11
 
-R1 | %12
+s1 | %12
 
-R1 | %13
+s1 | %13
 
-R1 | %14
+s1 | %14
 
-R1 | %15
+s1 | %15
 
-R1 | %16
+s1 | %16
 
-R1 | %17
+s1 | %17
 
-R1 | %18
+s1 | %18
 
-R1 | %19
+s1 | %19
 
-R1 | %20
+s1 | %20
 
-R1 \bar "||" | %21
+s1 \bar "||" | %21

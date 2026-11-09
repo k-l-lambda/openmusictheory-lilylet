@@ -91,32 +91,32 @@
 \staff "1" <g' c>1^\markup "30"_\markup "________"_\markup "________" \bar "||" \\
 \staff "2" <c d>1 | %30
 
-\staff "1" R1 \chords "D13" \bar "||" \\
-\staff "2" R1 | %31
+\staff "1" s1 \chords "D13" \bar "||" \\
+\staff "2" \clef "treble" R1 | %31
 
-\staff "1" R1 \chords "Eb(add6)" \bar "||" \\
+\staff "1" s1 \chords "Eb(add6)" \bar "||" \\
 \staff "2" R1 | %32
 
-\staff "1" R1 \chords "Bb+7" \bar "||" \\
+\staff "1" s1 \chords "Bb+7" \bar "||" \\
 \staff "2" R1 | %33
 
-\staff "1" R1 \chords "F11" \bar "||" \\
+\staff "1" s1 \chords "F11" \bar "||" \\
 \staff "2" R1 | %34
 
-\staff "1" R1 \chords "Bmaj9" \bar "||" \\
+\staff "1" s1 \chords "Bmaj9" \bar "||" \\
 \staff "2" R1 | %35
 
-\staff "1" R1 \chords "C7(b13)" \bar "||" \\
+\staff "1" s1 \chords "C7(b13)" \bar "||" \\
 \staff "2" R1 | %36
 
-\staff "1" R1 \chords "Ab(#11)" \bar "||" \\
+\staff "1" s1 \chords "Ab(#11)" \bar "||" \\
 \staff "2" R1 | %37
 
-\staff "1" R1 \chords "C#ø9" \bar "||" \\
+\staff "1" s1 \chords "C#ø9" \bar "||" \\
 \staff "2" R1 | %38
 
-\staff "1" R1 \chords "E13sus4" \bar "||" \\
+\staff "1" s1 \chords "E13sus4" \bar "||" \\
 \staff "2" R1 | %39
 
-\staff "1" R1 \chords "A9" \bar "|." \\
+\staff "1" s1 \chords "A9" \bar "|." \\
 \staff "2" R1 | %40

@@ -2,26 +2,26 @@
 [subtitle "Treble/Bass only"]
 [composer "Kyle Gullings and Megan Lavengood"]
 
-\key c \major \time 13/4 \clef "bass" ef,,4^\markup "1" r1 r r | %1
+\key c \major \time 13/4 \clef "bass" ef,,4^\markup "1" s1 s s | %1
 
-ef,4 r1 r r \bar "||" | %2
+ef,4 s1 s s \bar "||" | %2
 
-\clef "treble" g'4^\markup "2" r1 r r | %3
+\clef "treble" g'4^\markup "2" s1 s s | %3
 
-g''4 r1 r r \bar "||" | %4
+g''4 s1 s s \bar "||" | %4
 
 \key a \major \clef "bass" a,4^\markup "A major"^\markup "3" as b bs cs d ds e es fs fss gs a | %5
 
 a4 gs g fs f e ef d cs c b bf a \bar "||" | %6
 
-\key c \major \clef "treble" R1 | %7
+\key c \major \clef "treble" s1.. s1. | %7
 
-R1 \bar "||" | %8
+s1.. s1. \bar "||" | %8
 
-\clef "bass" R1 | %9
+\clef "bass" s1.. s1. | %9
 
-R1 \bar "||" | %10
+s1.. s1. \bar "||" | %10
 
-R1 | %11
+s1.. s1. | %11
 
-R1 \bar "||" | %12
+s1.. s1. \bar "||" | %12

@@ -220,9 +220,203 @@ It is important to note that triad and seventh chord identification is not affec
 > Assignments
 
 1. Triad Inversion A ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2026/06/WK-Triad-Inversion-A.pdf), [.mscz](../media/2026/06/WK-Triad-Inversion-A.mscz)). Asks students to identify root, quality, and inversion of 10 closed-position triads, and to write 10 inverted triads from chord symbols. Includes C clefs.
+   <!-- lilylet-begin: media/2026/06/WK-Triad-Inversion-A.mscz -->
+   Lilylet transcription of WK-Triad-Inversion-A.mscz ([WK-Triad-Inversion-A.lyl](../lilylet/2026/06/WK-Triad-Inversion-A.lyl)):
+
+   ```lyl.play
+   [title "Triad Inversion A"]
+   [subtitle "Triad Inversion A"]
+
+   \key c \major \clef "bass" <g, b e>1^\markup "1" \bar "||" | %1
+
+   \key g \major \clef "treble" <a' c fs>1^\markup "2" \bar "||" | %2
+
+   \key d \major <a' d fs>1^\markup "3" \bar "||" | %3
+
+   \key bf \major \clef "bass" <c, ef a>1^\markup "4" \bar "||" | %4
+
+   \key a \major \clef "alto" <a cs e>1^\markup "5" \bar "||" | %5
+
+   \key af \major \clef "treble" <g' b ef>1^\markup "6" \bar "||" | %6
+
+   \key f \major <d g bf>1^\markup "7" \bar "||" | %7
+
+   \key e \major \clef "tenor" <e, a cs>1^\markup "8" \bar "||" | %8
+
+   \key ef \major \clef "bass" <g bf ef>1^\markup "9" \bar "||" | %9
+
+   \key g \major <fs,, b d>1^\markup "10" \bar "|." | %10
+
+   \key c \major \clef "treble" s1 \bar "||" | %11
+
+   \clef "alto" s1 \bar "||" | %12
+
+   \clef "treble" s1 \bar "||" | %13
+
+   \clef "bass" s1 \bar "||" | %14
+
+   s1 \bar "||" | %15
+
+   \clef "treble" s1 \bar "||" | %16
+
+   \clef "tenor" s1 \bar "||" | %17
+
+   \clef "treble" s1 \bar "||" | %18
+
+   \clef "bass" s1 \bar "||" | %19
+
+   \clef "treble" s1 \bar "|." | %20
+   ```
+   <!-- lilylet-end -->
 2. Triad Inversion B ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2026/06/WK-Triad-Inversion-B.pdf), [.mscz](../media/2026/06/WK-Triad-Inversion-B.mscz)). Asks students to identify root, quality, and inversion of 10 closed-position triads, and to write 10 inverted triads from chord symbols. Treble and bass clefs only.
+   <!-- lilylet-begin: media/2026/06/WK-Triad-Inversion-B.mscz -->
+   Lilylet transcription of WK-Triad-Inversion-B.mscz ([WK-Triad-Inversion-B.lyl](../lilylet/2026/06/WK-Triad-Inversion-B.lyl)):
+
+   ```lyl.play
+   [title "Triad Inversion B"]
+   [subtitle "Triad Inversion B"]
+
+   \key c \major \clef "bass" <g, b e>1^\markup "1" \bar "||" | %1
+
+   \key g \major \clef "treble" <a' c fs>1^\markup "2" \bar "||" | %2
+
+   \key d \major <a' d fs>1^\markup "3" \bar "||" | %3
+
+   \key bf \major \clef "bass" <c, ef a>1^\markup "4" \bar "||" | %4
+
+   \key a \major \clef "treble" <a cs e>1^\markup "5" \bar "||" | %5
+
+   \key af \major <g' b ef>1^\markup "6" \bar "||" | %6
+
+   \key f \major <d g bf>1^\markup "7" \bar "||" | %7
+
+   \key e \major \clef "bass" <e, a cs>1^\markup "8" \bar "||" | %8
+
+   \key ef \major <g bf ef>1^\markup "9" \bar "||" | %9
+
+   \key g \major <fs,, b d>1^\markup "10" \bar "|." | %10
+
+   \key c \major \clef "treble" s1 \bar "||" | %11
+
+   \clef "bass" s1 \bar "||" | %12
+
+   \clef "treble" s1 \bar "||" | %13
+
+   \clef "bass" s1 \bar "||" | %14
+
+   s1 \bar "||" | %15
+
+   \clef "treble" s1 \bar "||" | %16
+
+   \clef "bass" s1 \bar "||" | %17
+
+   \clef "treble" s1 \bar "||" | %18
+
+   \clef "bass" s1 \bar "||" | %19
+
+   \clef "treble" s1 \bar "|." | %20
+   ```
+   <!-- lilylet-end -->
 3. Seventh Chord Inversion A ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2026/06/WK-Seventh-Chord-Inversion-A.pdf), [.mscz](../media/2026/06/WK-Seventh-Chord-Inversion-A.mscz)). Asks students to identify root, quality, and inversion of 10 closed-position seventh chords, and to write 10 inverted seventh chords from chord symbols. Includes C clefs.
+   <!-- lilylet-begin: media/2026/06/WK-Seventh-Chord-Inversion-A.mscz -->
+   Lilylet transcription of WK-Seventh-Chord-Inversion-A.mscz ([WK-Seventh-Chord-Inversion-A.lyl](../lilylet/2026/06/WK-Seventh-Chord-Inversion-A.lyl)):
+
+   ```lyl.play
+   [title "Seventh Chord Inversion A"]
+   [subtitle "Seventh Chord Inversion A"]
+   [composer "Kyle Gullings and Samuel Brady"]
+
+   \key c \major \clef "bass" <c, e g a>1^\markup "1" \bar "||" | %1
+
+   \key g \major \clef "treble" <a' c d fs>1^\markup "2" \bar "||" | %2
+
+   \key f \major <e g bf c>1^\markup "3" \bar "||" | %3
+
+   \key bf \major \clef "bass" <g, a c ef>1^\markup "4" \bar "||" | %4
+
+   \key fs \major \clef "alto" <fs, as cs es>1^\markup "5" \bar "||" | %5
+
+   \key df \major \clef "treble" <gf' bff df ef>1^\markup "6" \bar "||" | %6
+
+   \key g \major <a' c ds fs>1^\markup "7" \bar "||" | %7
+
+   \key d \major \clef "tenor" <cs, d fs a>1^\markup "8" \bar "||" | %8
+
+   \key f \major \clef "bass" <g bf d e>1^\markup "9" \bar "||" | %9
+
+   \key af \major <g, bf df e>1^\markup "10" \bar "|." | %10
+
+   \clef "treble" s1 \chords "D7/F♯" \bar "||" | %11
+
+   \clef "alto" s1 \chords "Fmi7/A♭" \bar "||" | %12
+
+   \clef "treble" s1 \bar "||" | %13
+
+   \clef "bass" s1 \bar "||" | %14
+
+   s1 \bar "||" | %15
+
+   \clef "treble" s1 \bar "||" | %16
+
+   \clef "tenor" s1 \bar "||" | %17
+
+   \clef "treble" s1 \bar "||" | %18
+
+   \clef "bass" s1 \bar "||" | %19
+
+   \clef "treble" s1 \bar "|." | %20
+   ```
+   <!-- lilylet-end -->
 4. Seventh Chord Inversion B ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2026/06/WK-Seventh-Chord-Inversion-B.pdf), [.mscz](../media/2026/06/WK-Seventh-Chord-Inversion-B.mscz)). Asks students to identify root, quality, and inversion of 10 closed-position seventh chords, and to write 10 inverted seventh chords from chord symbols. Treble and bass clefs only.
+   <!-- lilylet-begin: media/2026/06/WK-Seventh-Chord-Inversion-B.mscz -->
+   Lilylet transcription of WK-Seventh-Chord-Inversion-B.mscz ([WK-Seventh-Chord-Inversion-B.lyl](../lilylet/2026/06/WK-Seventh-Chord-Inversion-B.lyl)):
+
+   ```lyl.play
+   [title "Seventh Chord Inversion B"]
+   [subtitle "Seventh Chord Inversion B"]
+   [composer "Kyle Gullings and Samuel Brady"]
+
+   \key c \major \clef "bass" <c, e g a>1^\markup "1" \bar "||" | %1
+
+   \key g \major \clef "treble" <a' c d fs>1^\markup "2" \bar "||" | %2
+
+   \key f \major <e g bf c>1^\markup "3" \bar "||" | %3
+
+   \key bf \major \clef "bass" <g, a c ef>1^\markup "4" \bar "||" | %4
+
+   \key fs \major <fs, as cs es>1^\markup "5" \bar "||" | %5
+
+   \key df \major \clef "treble" <gf' bff df ef>1^\markup "6" \bar "||" | %6
+
+   \key g \major <a' c ds fs>1^\markup "7" \bar "||" | %7
+
+   \key d \major \clef "bass" <cs, d fs a>1^\markup "8" \bar "||" | %8
+
+   \key f \major <g bf d e>1^\markup "9" \bar "||" | %9
+
+   \key af \major <g, bf df e>1^\markup "10" \bar "|." | %10
+
+   \clef "treble" s1 \chords "D7/F♯" \bar "||" | %11
+
+   \clef "bass" s1 \chords "Fmi7/A♭" \bar "||" | %12
+
+   \clef "treble" s1 \bar "||" | %13
+
+   \clef "bass" s1 \bar "||" | %14
+
+   s1 \bar "||" | %15
+
+   \clef "treble" s1 \bar "||" | %16
+
+   s1 \bar "||" | %17
+
+   s1 \bar "||" | %18
+
+   \clef "bass" s1 \bar "||" | %19
+
+   \clef "treble" s1 \bar "|." | %20
+   ```
+   <!-- lilylet-end -->
 
 ### Media Attributions
 

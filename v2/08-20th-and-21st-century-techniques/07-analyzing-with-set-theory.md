@@ -74,3 +74,32 @@ This list includes many aspects of music that are important to listeners and per
 1. Guided analysis of “Wie bin ich Froh!” by Anton Webern (.[pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2019/05/WK-Analysis-of-Free-Atonality.pdf), .[docx](https://viva.pressbooks.pub/app/uploads/sites/12/2019/05/WK-Analysis-of-Free-Atonality.docx)). [Recording](https://open.spotify.com/track/2Lc7gaiGNh77trTEL4fiwH?si=HReyy7TeRWajvzpFBcGwkw)
 2. Segmentation worksheet (.[pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2019/05/WK-Segmentation.pdf), .[docx](https://viva.pressbooks.pub/app/uploads/sites/12/2019/05/WK-Segmentation.docx)). Asks students to justify the given segmentations by explaining what the grouped pitches have in common.
 3. Atonal analysis using pc sets ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2019/05/WK-Atonal-Analysis-Using-Pitch-Class-Sets.pdf), [.mscz](../media/2023/07/WK-atonal-analysis-using-pc-sets.mscz)). Open-ended prompt asks students to use set theory to analyze an excerpt. [Recording](../media/2023/07/WK-atonal-analysis.mp3)
+   <!-- lilylet-begin: media/2023/07/WK-atonal-analysis-using-pc-sets.mscz -->
+   Lilylet transcription of WK-atonal-analysis-using-pc-sets.mscz ([WK-atonal-analysis-using-pc-sets.lyl](../lilylet/2023/07/WK-atonal-analysis-using-pc-sets.lyl)):
+
+   ```lyl.play
+   [title "Atonal Analysis Using Pitch Class Sets"]
+   [subtitle "Atonal Analysis Using Pitch Class Sets"]
+   [staves "{s1-s2}"]
+
+   \staff "1" \key c \major \numericTimeSignature \time 4/4 \clef "treble" \tempo "Andante" \stemUp g'4.\f( af8 \stemDown c4 b \\
+   \staff "2" \clef "bass" r4 \stemDown <d, f c'>8-. r r <d f c'>4 <d f c'>8 | %1
+
+   \staff "1" \stemDown df'2) r \\
+   \staff "2" \stemDown <d, gf df'>4 c'8([ gf] <d f>4)-. r | %2
+
+   \staff "1" \stemDown f'8\mp( ef4 f8 \stemUp af,2) \\
+   \staff "2" r4 \stemUp <af, ef'>~ <af ef'>8[ e-. <a, e'>-. e''\pp _\markup "sub."-.] | %3
+
+   \staff "1" r8. \stemUp gf''16( f8.)-.[ gf16(] df8--[ c\mf-.] d4~ \\
+   \staff "1" r2 r4 \stemDown a'8-.[ a-.] \\
+   \staff "2" \stemDown <e, a>8-.[ <e a>-. <e a>-. <e a>-.] <e a>-.[ <e a>16-. d(] ef8.)-.[ d16(] | %4
+
+   \staff "1" \stemUp d'8)[ ds,(] e8.\<[ a16] gs2 \\
+   \staff "1" \stemDown a'8\!-. s s4 s2 \\
+   \staff "2" \stemDown a8--[ b-.] bf4~ bf8)[ bf,] \stemUp bf8.[ bf16] | %5
+
+   \staff "1" \stemDown bf''8\ff)-.-> r r4 r2 \bar "|." \\
+   \staff "2" \stemUp bf,,8 r r4 r2 | %6
+   ```
+   <!-- lilylet-end -->

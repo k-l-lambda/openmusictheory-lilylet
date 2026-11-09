@@ -4,13 +4,13 @@
 [staves "s1,s2"]
 
 \key e \major \time 2/2 \clef "bass" cs,1^\markup "BWV 849" \\\
-\clef "bass" R1 | %1
+\clef "bass" s1 | %1
 
 \stemUp bs,2 \stemDown e \\\
-R1 | %2
+s1 | %2
 
 ds,1 \\\
-R1 | %3
+s1 | %3
 
 cs,4 \bar "|." \\\
-r4 \bar "|." | %4
+s4 \bar "|." | %4

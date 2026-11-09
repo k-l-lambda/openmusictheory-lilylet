@@ -5,58 +5,58 @@
 
 <fs e'>1 \bar "||" | %2
 
-<cs, cs'>1 \bar "||" | %3
+\clef "tenor" <cs, cs'>1 \bar "||" | %3
 
-<e' f>1 \bar "||" | %4
+\clef "treble" <e' f>1 \bar "||" | %4
 
-<ef, c'>1 \bar "||" | %5
+\clef "alto" <ef, c'>1 \bar "||" | %5
 
-<a' e'>1 | %6
+\clef "treble" <a' e'>1 | %6
 
-<a ds>1 \bar "||" | %7
+\clef "tenor" <a ds>1 \bar "||" | %7
 
-<c, c>1 \bar "||" | %8
+\clef "bass" <c, c>1 \bar "||" | %8
 
-<b' ds>1 \bar "||" | %9
+\clef "treble" <b' ds>1 \bar "||" | %9
 
-<d, bf'>1 \bar "||" | %10
+\clef "bass" <d, bf'>1 \bar "||" | %10
 
-<g' bff>1_\markup "↑d3" \bar "||" | %11
+\clef "treble" <g' bff>1_\markup "↑d3" \bar "||" | %11
 
 \clef "alto" d,1 \bar "||" \addlyrics { ↑ma7 } | %12
 
-f,,1 \bar "||" \addlyrics { ↑mi3 } | %13
+\clef "bass" f,,1 \bar "||" \addlyrics { ↑mi3 } | %13
 
-af1 \bar "||" \addlyrics { ↑P8 } | %14
+\clef "tenor" af1 \bar "||" \addlyrics { ↑P8 } | %14
 
-fs,1 \bar "||" \addlyrics { ↑mi6 } | %15
+\clef "alto" fs,1 \bar "||" \addlyrics { ↑mi6 } | %15
 
-a1 \bar "||" \addlyrics { ↑ma2 } | %16
+\clef "treble" a1 \bar "||" \addlyrics { ↑ma2 } | %16
 
 gf'1 \bar "||" \addlyrics { ↑A5 } | %17
 
 fs1 \bar "||" \addlyrics { ↑dim7 } | %18
 
-df,1 \bar "||" \addlyrics { ↑ma3 } | %19
+\clef "bass" df,1 \bar "||" \addlyrics { ↑ma3 } | %19
 
-gs1 \bar "||" \addlyrics { ↑P4 } | %20
+\clef "tenor" gs1 \bar "||" \addlyrics { ↑P4 } | %20
 
 <dff, c'>1_\markup "↓A7" \bar "||" | %21
 
 \clef "treble" bf1 \bar "||" \addlyrics { ↓d8 } | %22
 
-f,1 \bar "||" \addlyrics { ↓ma2 } | %23
+\clef "alto" f,1 \bar "||" \addlyrics { ↓ma2 } | %23
 
-cs1 \bar "||" \addlyrics { ↓ma7 } | %24
+\clef "tenor" cs1 \bar "||" \addlyrics { ↓ma7 } | %24
 
-af'1 \bar "||" \addlyrics { ↓mi6 } | %25
+\clef "treble" af'1 \bar "||" \addlyrics { ↓mi6 } | %25
 
-f1 \bar "||" \addlyrics { ↓mi7 } | %26
+\clef "alto" f1 \bar "||" \addlyrics { ↓mi7 } | %26
 
-e,1 \bar "||" \addlyrics { ↓A4 } | %27
+\clef "bass" e,1 \bar "||" \addlyrics { ↓A4 } | %27
 
-b'1 \bar "||" \addlyrics { ↓ma6 } | %28
+\clef "treble" b'1 \bar "||" \addlyrics { ↓ma6 } | %28
 
-bf'1 \bar "||" \addlyrics { ↓P5 } | %29
+\clef "alto" bf'1 \bar "||" \addlyrics { ↓P5 } | %29
 
-a,1 \bar "||" \addlyrics { ↓mi2 } | %30
+\clef "bass" a,1 \bar "||" \addlyrics { ↓mi2 } | %30

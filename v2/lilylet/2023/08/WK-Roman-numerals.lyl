@@ -107,47 +107,47 @@
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %21
 
-\staff "1" \key d \major R1 \chords "vi" \bar "||" \\
+\staff "1" \key d \major s1 \chords "vi" \bar "||" \\
 \staff "2" R1 \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %22
 
-\staff "1" \key df \major R1 \chords "ii7" \bar "||" \\
+\staff "1" \key df \major s1 \chords "ii7" \bar "||" \\
 \staff "2" R1 \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %23
 
-\staff "1" \key b \major \clef "bass" R1 \chords "IV" \bar "||" \\
+\staff "1" \key b \major \clef "bass" s1 \chords "IV" \bar "||" \\
 \staff "2" R1 \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %24
 
-\staff "1" \key a \major R1 \chords "vii°" \bar "||" \\
+\staff "1" \key a \major s1 \chords "vii°" \bar "||" \\
 \staff "2" R1 \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %25
 
-\staff "1" \key bf \major \clef "treble" R1 \chords "vii°7" \bar "||" \\
+\staff "1" \key bf \major \clef "treble" s1 \chords "vii°7" \bar "||" \\
 \staff "2" R1 \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %26
 
-\staff "1" \key d \major R1 \chords "VI" \bar "||" \\
+\staff "1" \key d \major s1 \chords "VI" \bar "||" \\
 \staff "2" R1 \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %27
 
-\staff "1" \key af \major R1 \chords "iv7" \bar "||" \\
+\staff "1" \key af \major s1 \chords "iv7" \bar "||" \\
 \staff "2" R1 \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %28
 
-\staff "1" \key df \major \clef "bass" R1 \chords "V7" \bar "||" \\
+\staff "1" \key df \major \clef "bass" s1 \chords "V7" \bar "||" \\
 \staff "2" R1 \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %29
 
-\staff "1" \key a \major R1 \chords "v" \bar "||" \\
+\staff "1" \key a \major s1 \chords "v" \bar "||" \\
 \staff "2" R1 \\\
 \staff "1" R1 \bar "||" \\
 \staff "2" R1 | %30

@@ -110,7 +110,167 @@ Example 3. Video lesson on composing a second-species counterpoint.
 > Assignments
 
 1. Second-Species Counterpoint A ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2026/07/WK-Second-species-Counterpoint-A.pdf), [.mscz](../media/2026/07/WK-Second-species-Counterpoint-A.mscz)). Asks students to do error detection on one second-species example and compose one of their own.
+   <!-- lilylet-begin: media/2026/07/WK-Second-species-Counterpoint-A.mscz -->
+   Lilylet transcription of WK-Second-species-Counterpoint-A.mscz ([WK-Second-species-Counterpoint-A.lyl](../lilylet/2026/07/WK-Second-species-Counterpoint-A.lyl)):
+
+   ```lyl.play
+   [title "Second-species Counterpoint"]
+   [composer "Kyle Gullings"]
+   [staves "s1,s2"]
+   [instrument-s1 "C.F." "Ctpt."]
+   [instrument-s2 "Ctpt." "C.F."]
+
+   \key g \major \numericTimeSignature \time 2/2 \clef "treble" e1_\markup "___  ___" \\\
+   \clef "treble" \stemUp b2^\markup "Intervals:"_\markup "(Key: E Minor)"_\markup "List at least 10 errors in the excerpt above:"_\markup "1. ____________________________________      6. ____________________________________ 2. ____________________________________      7. ____________________________________ 3. ____________________________________      8. ____________________________________ 4. ____________________________________      9. ____________________________________ 5. ____________________________________      10. ___________________________________" c | %1
+
+   g'1_\markup "___  ___" \\\
+   \stemUp ds2 e | %2
+
+   b'1_\markup "___  ___" \\\
+   \stemUp g'2 a | %3
+
+   ds'1_\markup "___  ___" \\\
+   \stemDown b'2 \stemUp a | %4
+
+   ds'1_\markup "___  ___" \\\
+   \stemUp g'2 fs | %5
+
+   c'1_\markup "___  ___" \\\
+   \stemUp e2 fs | %6
+
+   b'1_\markup "___  ___" \\\
+   \stemUp e2 d | %7
+
+   a'1_\markup "___  ___" \\\
+   \stemUp ds2 e | %8
+
+   g'1_\markup "___  ___" \\\
+   \stemUp g'2 fs | %9
+
+   a'1_\markup "___  ___" \\\
+   \stemUp e2 ds | %10
+
+   b'1_\markup "___  ___" \\\
+   \stemUp c2 ds | %11
+
+   e1_\markup "___" \bar "|." \\\
+   e1 \bar "|." | %12
+
+   \key d \major s1 \\\
+   \clef "bass" d,1^\markup "Intervals:" | %13
+
+   s1 \\\
+   e,1 | %14
+
+   s1 \\\
+   fs,1 | %15
+
+   s1 \\\
+   a1 | %16
+
+   s1 \\\
+   g1 | %17
+
+   s1 \\\
+   fs,1 | %18
+
+   s1 \\\
+   b1 | %19
+
+   s1 \\\
+   a1 | %20
+
+   s1 \\\
+   g1 | %21
+
+   s1 \\\
+   e,1 | %22
+
+   s1 \bar "|." \\\
+   d,1 \bar "|." | %23
+   ```
+   <!-- lilylet-end -->
 2. Second-Species Counterpoint B ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2026/07/WK-Second-species-Counterpoint-B.pdf), [.mscz](../media/2026/07/WK-Second-species-Counterpoint-B.mscz)). Asks students to do error detection on one second-species example and compose one of their own.
+   <!-- lilylet-begin: media/2026/07/WK-Second-species-Counterpoint-B.mscz -->
+   Lilylet transcription of WK-Second-species-Counterpoint-B.mscz ([WK-Second-species-Counterpoint-B.lyl](../lilylet/2026/07/WK-Second-species-Counterpoint-B.lyl)):
+
+   ```lyl.play
+   [title "Second-species Counterpoint"]
+   [composer "Kyle Gullings"]
+   [staves "s1,s2"]
+   [instrument-s1 "C.F." "Ctpt."]
+   [instrument-s2 "Ctpt." "C.F."]
+
+   \key a \major \numericTimeSignature \time 2/2 \clef "treble" a'1_\markup "___  ___" \\\
+   \clef "treble" \stemUp a'2^\markup "Intervals:"_\markup "List at least 10 errors in the excerpt above:"_\markup "1. ____________________________________      6. ____________________________________ 2. ____________________________________      7. ____________________________________ 3. ____________________________________      8. ____________________________________ 4. ____________________________________      9. ____________________________________ 5. ____________________________________      10. ___________________________________" \stemDown b | %1
+
+   cs'1_\markup "___  ___" \\\
+   \stemDown d'2 cs | %2
+
+   d'1_\markup "___  ___" \\\
+   \stemDown b'2 \stemUp a | %3
+
+   b'1_\markup "___  ___" \\\
+   \stemUp fs2 gs | %4
+
+   gs'1_\markup "___  ___" \\\
+   \stemUp a'2 \stemDown b | %5
+
+   d'1_\markup "___  ___" \\\
+   \stemDown d'2 cs | %6
+
+   b'1_\markup "___  ___" \\\
+   \stemDown b'2 \stemUp a | %7
+
+   cs'1_\markup "___  ___" \\\
+   \stemUp e2 fs | %8
+
+   e'1_\markup "___  ___" \\\
+   \stemUp gs'2 a | %9
+
+   fs'1_\markup "___  ___" \\\
+   \stemDown b'2 cs | %10
+
+   d'1_\markup "___  ___" \\\
+   \stemDown d'2 e | %11
+
+   cs'1_\markup "___" \bar "|." \\\
+   a'1 \bar "|." | %12
+
+   \key g \major s1 \\\
+   \clef "bass" g1^\markup "Intervals:" | %13
+
+   s1 \\\
+   b1 | %14
+
+   s1 \\\
+   d1 | %15
+
+   s1 \\\
+   c1 | %16
+
+   s1 \\\
+   b1 | %17
+
+   s1 \\\
+   c1 | %18
+
+   s1 \\\
+   e1 | %19
+
+   s1 \\\
+   a1 | %20
+
+   s1 \\\
+   b1 | %21
+
+   s1 \\\
+   a1 | %22
+
+   s1 \bar "|." \\\
+   g1 \bar "|." | %23
+   ```
+   <!-- lilylet-end -->
 3. For the complete set of Fux exercises, see the [Gradus ad Parnassum](07-gradus-ad-parnassum-exercises.md) chapter.
 
 ### Media Attributions

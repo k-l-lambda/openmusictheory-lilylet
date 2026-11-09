@@ -76,7 +76,7 @@ R1 \\\
 R1 \\\
 \staff "1" R1 \\
 \staff "2" R1 \\\
-\staff "1" r8 \stemDown cs'16\mf^\markup "pizz."[ a] cs8[ a] \stemUp fs[ d'] r4 \\
+\staff "1" r8 \stemDown cs'16^\markup "pizz."[ a] cs8[ a] \stemUp fs[ d'] r4 \\
 \staff "2" \stemDown a4_\markup "Note: recording modulates. This transcription is only in one key for clarity.\n\nWrite your analysis below. (See first page for instructions!)"_\markup "3. Sparkle" r8 e d'4 d, | %9
 
 \staff "1" R1 \\\
@@ -106,7 +106,7 @@ R1 \bar ":|." \bar ".|:" \\\
 \staff "1" R1 \\\
 \clef "treble^15" \stemDown c'''4.\p^\markup "2x only" \stemUp a8 \stemDown b4. \stemUp g8 \\\
 R1 \\\
-\staff "1" \ottava #1 r8 \stemDown c''16\mf[ d] e8[ g] fs4 d \\
+\staff "1" \ottava #1 r8 \stemDown c''16[ d] e8[ g] fs4 d \\
 \staff "2" \clef "treble" \stemUp c4\sustainOn g' c,8[ g'~] g4 \\\
 \staff "1" R1 \\
 \staff "2" R1 | %13
@@ -245,9 +245,9 @@ s8 \stemDown a-.[ d-. e-.] f-. r r4 \\\
 R1 \\\
 \staff "1" R1 \\
 \staff "2" R1 \\\
-\staff "1" r4 r8 \stemUp d'\f-. g-.[ g-. e-.] r \\
+\staff "1" r4 r8 \stemUp d'-. g-.[ g-. e-.] r \\
 \staff "1" \stemDown a'8-.[ a-. f-. f-.] bf-.[ bf-. g-. g-.] \\
-\staff "2" r8 r \stemUp a_\markup "+ Bsn."-.[ a-.] bf-.[ bf-. a-. a-.] \\
+\staff "2" r8 r \stemUp a-.[ a-.] bf-.[ bf-. a-. a-.] \\
 \staff "2" \stemDown <d,, d'>8 r d' r d r d r | %29
 
 \staff "1" \stemUp a'2 d) \\
@@ -320,7 +320,7 @@ R1 \bar ":|." \bar ".|:" \\\
 \staff "2" R1 | %36
 
 \staff "1" \clef "treble^15" \stemUp g'''4^\markup "7. Signature Cakes"^\markup "Write your analysis below. (See first page for instructions!)"\mp d f d \\\
-r8. \stemUp d'16\mp bf'[ g bf8~] bf8.[ d,16] bf'[ g bf8~] \\
+r8. \stemUp d'16 bf'[ g bf8~] bf8.[ d,16] bf'[ g bf8~] \\
 \stemDown bf'16[ g d g] bf[ g d g] bf[ g d g] bf[ g d g] \\\
 R1 \\\
 \staff "1" <bf' g'>1\f \\

@@ -155,9 +155,174 @@ Aspects of music outside of pitch—rhythm, timbre, articulation, dynamic, and s
 > Assignments
 
 1. Roman Numerals Identification A ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2021/10/WK-Roman-Numerals-1.pdf), [.mscz](../media/2021/10/WK-Roman-Numerals-1.mscz), [.mp3](../media/2024/05/WK-Roman-Numerals-1.mp3)). Asks students to create a Roman numeral analysis of a modified Bach chorale.
+   <!-- lilylet-begin: media/2021/10/WK-Roman-Numerals-1.mscz -->
+   Lilylet transcription of WK-Roman-Numerals-1.mscz ([WK-Roman-Numerals-1.lyl](../lilylet/2021/10/WK-Roman-Numerals-1.lyl)):
+
+   ```lyl.play
+   [title "Intro to Roman Numerals"]
+   [subtitle "Intro to Roman Numerals A"]
+   [staves "{s1-s2}"]
+
+   \staff "1" \key bf \major \numericTimeSignature \time 4/4 \clef "treble" \stemUp bf'4^\markup "Hymn: Bartholomäus Ringwaldt, c. 1556\nMelody: Anonymous, 1535" \\
+   \staff "1" \stemDown f4 \\
+   \staff "2" \clef "bass" \stemUp d4 \\
+   \staff "2" \stemDown bf,4 | %1
+
+   \staff "1" \stemUp bf'4 d c bf \\
+   \staff "1" \stemDown f4 bf a g \\
+   \staff "2" \stemUp bf4 f' ef d \\
+   \staff "2" \stemDown d,4 bf f' g | %2
+
+   \staff "1" \stemUp c'4 c bf\fermata bf \\
+   \staff "1" \stemDown g'4 f f f \\
+   \staff "2" \stemUp c4 a bf d \\
+   \staff "2" \stemDown ef,4 ef d bf | %3
+
+   \staff "1" \stemUp d'4 ef ef d \\
+   \staff "1" \stemDown bf'4 bf c bf \\
+   \staff "2" \stemUp f4 g f f \\
+   \staff "2" \stemDown bf4 g a bf | %4
+
+   \staff "1" \stemUp c'2 bf4\fermata d \\
+   \staff "1" \stemDown bf'4 a bf g \\
+   \staff "2" \stemUp g'4 ef d bf \\
+   \staff "2" \stemDown ef,4 f g g, | %5
+
+   \staff "1" \stemUp d'4 ef f d \\
+   \staff "1" \stemDown g'4 g f f \\
+   \staff "2" \stemUp bf4 bf bf bf \\
+   \staff "2" \stemDown g4 ef d bf | %6
+
+   \staff "1" \time 3/4 \stemUp c'2 bf4 \bar "|." \\
+   \staff "1" \stemDown g'4 ef d \\
+   \staff "2" \stemUp bf4 a f \\
+   \staff "2" \stemDown ef,4 f bf, | %7
+   ```
+   <!-- lilylet-end -->
 2. Roman Numerals Identification B ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2021/10/WK-Roman-Numerals-2.pdf), [.mscz](../media/2021/10/WK-Roman-Numerals-2.mscz), [.mp3](../media/2024/05/WK-Roman-Numerals-2.mp3)). Asks students to create a Roman numeral analysis of a modified Bach chorale.
+   <!-- lilylet-begin: media/2021/10/WK-Roman-Numerals-2.mscz -->
+   Lilylet transcription of WK-Roman-Numerals-2.mscz ([WK-Roman-Numerals-2.lyl](../lilylet/2021/10/WK-Roman-Numerals-2.lyl)):
+
+   ```lyl.play
+   [title "Intro to Roman Numerals"]
+   [subtitle "Intro to Roman Numerals B"]
+   [staves "{s1-s2}"]
+
+   \staff "1" \key g \major \numericTimeSignature \time 4/4 \clef "treble" \stemUp b'4^\markup "Hymn: Johann Franck, 1650\nMelody: Johann Crüger, 1653" b a g \\
+   \staff "1" \stemDown g'4 fs fs e \\
+   \staff "2" \clef "bass" \stemUp e4 b ds e \\
+   \staff "2" \stemDown e,4 d c b | %1
+
+   \staff "1" \stemUp fs2 e\breathe \\
+   \staff "1" \stemDown e4 ds b2 \\
+   \staff "2" \stemUp c4 a g2 \\
+   \staff "2" \stemDown a,4 b e2 | %2
+
+   \staff "1" \stemUp b'4 c d b \\
+   \staff "1" \stemDown g'4 e d d \\
+   \staff "2" \stemUp e4 c a g \\
+   \staff "2" \stemDown e,4 a fs g | %3
+
+   \staff "1" \stemUp e'2 ds\breathe \\
+   \staff "1" \stemDown g'4 b b2 \\
+   \staff "2" \stemUp b4 g' fs2 \\
+   \staff "2" \stemDown e,4 g b2 | %4
+
+   \staff "1" \stemUp e'4 g fs fs \\
+   \staff "1" \stemDown g'4 c b a \\
+   \staff "2" \stemUp e4 e ds ds \\
+   \staff "2" \stemDown c4 a b b, | %5
+
+   \staff "1" e'1\breathe \\
+   \staff "1" g'1 \\
+   \staff "2" b1 \\
+   \staff "2" e,1 | %6
+
+   \staff "1" \stemUp e'4 d c2 \\
+   \staff "1" \stemDown b'4 b b fs \\
+   \staff "2" \stemUp g'4 fs g e \\
+   \staff "2" \stemDown e,4 b e a, | %7
+
+   \staff "1" \stemUp b'2\breathe b4 b \\
+   \staff "1" \stemDown fs2 g4 fs \\
+   \staff "2" \stemUp ds2 e4 fs \\
+   \staff "2" \stemDown b,2 e4 d | %8
+
+   \staff "1" \stemUp a'4 g fs2 \\
+   \staff "1" \stemDown e4 e e ds \\
+   \staff "2" \stemUp a4 b c a \\
+   \staff "2" \stemDown c,4 b a b | %9
+
+   \staff "1" e1 \bar "|." \\
+   \staff "1" b1 \\
+   \staff "2" g1 \\
+   \staff "2" e,1 | %10
+   ```
+   <!-- lilylet-end -->
 3. Roman Numerals Identification C ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2021/10/WK-Roman-Numerals-3.pdf), [.mscz](../media/2021/10/WK-Roman-Numerals-3.mscz), [.mp3](../media/2024/05/WK-Roman-Numerals-3.mp3)). Asks students to create a Roman numeral analysis of a modified Bach chorale.
+   <!-- lilylet-begin: media/2021/10/WK-Roman-Numerals-3.mscz -->
+   Lilylet transcription of WK-Roman-Numerals-3.mscz ([WK-Roman-Numerals-3.lyl](../lilylet/2021/10/WK-Roman-Numerals-3.lyl)):
+
+   ```lyl.play
+   [title "Intro to Roman Numerals"]
+   [subtitle "Intro to Roman Numerals C"]
+   [staves "{s1-s2}"]
+
+   \staff "1" \key d \major \numericTimeSignature \time 4/4 \clef "treble" \stemUp fs4^\markup "Cantata No. 84, c. 1731\nHymn: Emilie Juliane, 1695\nMelody: Georg Neumark, 1657" \\
+   \staff "1" \stemDown d4 \\
+   \staff "2" \clef "bass" \stemUp b4 \\
+   \staff "2" \stemDown b,4 | %1
+
+   \staff "1" \stemUp b'4 cs d cs \\
+   \staff "1" \stemDown fs4 fs fs e \\
+   \staff "2" \stemUp d4 cs b as \\
+   \staff "2" \stemDown b4 as b fs | %2
+
+   \staff "1" \stemUp b'4 cs as2 \\
+   \staff "1" \stemDown d4 g fs2 \\
+   \staff "2" \stemUp b4 e cs2 \\
+   \staff "2" \stemDown g4 e fs2 | %3
+
+   \staff "1" \stemUp fs2 s4 as \\
+   \staff "1" \stemDown cs2 r4 fs \\
+   \staff "2" \stemUp as2 s4 cs \\
+   \staff "2" \stemDown fs,,2 r4 fs' | %4
+
+   \staff "1" \stemUp a'4 g fs b \\
+   \staff "1" \stemDown fs4 e d d \\
+   \staff "2" \stemUp d4 a a b \\
+   \staff "2" \stemDown b,4 cs d g | %5
+
+   \staff "1" \stemUp b'4 as b\breathe\fermata cs \\
+   \staff "1" \stemDown g'4 fs fs as \\
+   \staff "2" \stemUp cs4 cs d fs \\
+   \staff "2" \stemDown e,4 fs b,\fermata fs' | %6
+
+   \staff "1" \stemUp d'4 e fs fs \\
+   \staff "1" \stemDown b'4 as b b \\
+   \staff "2" \stemUp fs4 e d d \\
+   \staff "2" \stemDown b4 cs d b | %7
+
+   \staff "1" \stemUp e'4 e d\breathe\fermata fs \\
+   \staff "1" \stemDown b'4 as b b \\
+   \staff "2" \stemUp d4 cs fs d \\
+   \staff "2" \stemDown g4 fs b\fermata d | %8
+
+   \staff "1" \stemUp e'4 d cs b \\
+   \staff "1" \stemDown as'4 b g g \\
+   \staff "2" \stemUp e4 fs g e \\
+   \staff "2" \stemDown cs4 b e, g | %9
+
+   \staff "1" \time 3/4 \stemUp cs'4 cs b\fermata \bar "|." \\
+   \staff "1" \stemDown as'4 as fs \\
+   \staff "2" \stemUp fs4 e d \\
+   \staff "2" \stemDown fs,4 fs b,\fermata | %10
+   ```
+   <!-- lilylet-end -->
 4. Roman Numerals ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2023/08/WK-Roman-numerals.pdf), [.mscz](../media/2023/08/WK-Roman-numerals.mscz)). Asks students to identify chord symbols and Roman numerals for open-voicing chords in major and minor keys, realize Roman numerals in closed position, and label the chords of two excerpts with Roman numerals.
+   <!-- lilylet-begin: media/2023/08/WK-Roman-numerals.mscz -->
+   Lilylet transcription of WK-Roman-numerals.mscz: [WK-Roman-numerals.lyl](../lilylet/2023/08/WK-Roman-numerals.lyl) (42 bars).
+   <!-- lilylet-end -->
 
 ### Media Attributions
 

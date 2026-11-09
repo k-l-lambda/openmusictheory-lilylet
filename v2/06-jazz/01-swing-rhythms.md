@@ -73,6 +73,9 @@ Example 5. Syncopation in Carla Bley, [“Donkey”](https://open.spotify.com/tr
 > Assignments
 
 1. Swing Rhythms video (.[mscz](../media/2022/07/WK-swing-rhythms.mscz); PDFs for [C instruments](https://viva.pressbooks.pub/app/uploads/sites/12/2022/07/WK-swing-rhythms-C_instruments.pdf), [B♭ instruments](https://viva.pressbooks.pub/app/uploads/sites/12/2022/07/WK-swing-rhythms-Bb_instruments.pdf), [E♭ instruments](https://viva.pressbooks.pub/app/uploads/sites/12/2022/07/WK-swing-rhythms-Eb_Instruments.pdf), [F instruments](https://viva.pressbooks.pub/app/uploads/sites/12/2022/07/WK-swing-rhythms-F_instruments.pdf), and [bass clef instruments](https://viva.pressbooks.pub/app/uploads/sites/12/2022/07/WK-swing-rhythms-Bass_clef_instruments.pdf)). Asks students to make a video with a partner performing idiomatic swing rhythms. [Download backing track](../media/2020/10/swing-rhythms-backing-track.m4a)
+   <!-- lilylet-begin: media/2022/07/WK-swing-rhythms.mscz -->
+   Lilylet transcription of WK-swing-rhythms.mscz: [WK-swing-rhythms.lyl](../lilylet/2022/07/WK-swing-rhythms.lyl) (48 bars).
+   <!-- lilylet-end -->
 2. Jazz Rhythms by Jamey Aebersold ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2019/08/WK-Aebersold-rhythms.pdf), [.docx](https://viva.pressbooks.pub/app/uploads/sites/12/2023/09/WK-Aebersold-rhythms.docx)). Make a recording in which you perform these rhythms. Pick three rhythms that create syncopation in different ways, and explain how the beat is obscured to create syncopation (through ties? rests? etc.).
 
 ### Media Attributions

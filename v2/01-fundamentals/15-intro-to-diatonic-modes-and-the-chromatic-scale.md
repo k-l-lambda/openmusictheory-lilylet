@@ -133,16 +133,267 @@ As you can see in Example 11, chromatic scales are often (but not always) writte
 
 1. Diatonic Modes A. Asks students to write diatonic modes within and outside of a key signature.
 	- All clefs ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-diatonic-modes-A.pdf), [.mscz](../media/2025/08/WK-diatonic-modes-A.mscz))
+      <!-- lilylet-begin: media/2025/08/WK-diatonic-modes-A.mscz -->
+      Lilylet transcription of WK-diatonic-modes-A.mscz ([WK-diatonic-modes-A.lyl](../lilylet/2025/08/WK-diatonic-modes-A.lyl)):
+
+      ```lyl.play
+      [title "Diatonic Modes A"]
+      [composer "Kyle Gullings and Megan Lavengood"]
+
+      \key c \major \time 8/4 \clef "treble" f4 s s2 s s \bar "||" | %1
+
+      d4 s s2 s s \bar "||" | %2
+
+      c4 s s2 s s \bar "||" | %3
+
+      \clef "bass" af,4 s s2 s s \bar "||" | %4
+
+      f,,4 s s2 s s \bar "||" | %5
+
+      a,4 s s2 s s \bar "||" | %6
+
+      \clef "alto" d,4 s s2 s s \bar "||" | %7
+
+      \clef "tenor" cs,4 s s2 s s \bar "||" | %8
+
+      \key af \major \clef "treble" f4 g af bf c d ef f \bar "||" | %9
+
+      \key a \major a'4 s s2 s s \bar "||" | %10
+
+      \key d \major b'4 s s2 s s \bar "||" | %11
+
+      \key df \major \clef "bass" df,4 s s2 s s \bar "||" | %12
+
+      bf,4 s s2 s s \bar "||" | %13
+
+      \key e \major e,4 s s2 s s \bar "||" | %14
+
+      \key gf \major \clef "alto" ef,4 s s2 s s \bar "||" | %15
+
+      \key b \major \clef "tenor" b,4 s s2 s s \bar "||" | %16
+      ```
+      <!-- lilylet-end -->
 	- Treble/bass only ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-diatonic-modes-A-TB.pdf), [.mscz](https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-diatonic-modes-A-TB.mscz))
 2. Diatonic Modes B. Asks students to write diatonic modes within and outside of a key signature.
 	- All clefs ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-diatonic-modes-B.pdf), [.mscz](../media/2025/08/WK-diatonic-modes-B.mscz))
+      <!-- lilylet-begin: media/2025/08/WK-diatonic-modes-B.mscz -->
+      Lilylet transcription of WK-diatonic-modes-B.mscz ([WK-diatonic-modes-B.lyl](../lilylet/2025/08/WK-diatonic-modes-B.lyl)):
+
+      ```lyl.play
+      [title "Diatonic Modes B"]
+      [composer "Kyle Gullings and Megan Lavengood"]
+
+      \key c \major \time 8/4 \clef "treble" a'4 s s2 s s \bar "||" | %1
+
+      af'4 s s2 s s \bar "||" | %2
+
+      c4 s s2 s s \bar "||" | %3
+
+      \clef "bass" g,4 s s2 s s \bar "||" | %4
+
+      e,,4 s s2 s s \bar "||" | %5
+
+      d,4 s s2 s s \bar "||" | %6
+
+      \clef "alto" ef,4 s s2 s s \bar "||" | %7
+
+      \clef "tenor" b,4 s s2 s s \bar "||" | %8
+
+      \key af \major \clef "treble" f4 g af bf c d ef f \bar "||" | %9
+
+      \key g \major g'4 s s2 s s \bar "||" | %10
+
+      \key af \major f4 s s2 s s \bar "||" | %11
+
+      \key a \major \clef "bass" a,4 s s2 s s \bar "||" | %12
+
+      \key e \major cs,4 s s2 s s \bar "||" | %13
+
+      \key b \major b,4 s s2 s s \bar "||" | %14
+
+      \key df \major \clef "alto" bf4 s s2 s s \bar "||" | %15
+
+      \key d \major \clef "tenor" d,4 s s2 s s \bar "||" | %16
+      ```
+      <!-- lilylet-end -->
 	- Treble/bass only ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-diatonic-modes-B-TB.pdf), [.mscz](../media/2025/08/WK-diatonic-modes-B-TB.mscz))
+      <!-- lilylet-begin: media/2025/08/WK-diatonic-modes-B-TB.mscz -->
+      Lilylet transcription of WK-diatonic-modes-B-TB.mscz ([WK-diatonic-modes-B-TB.lyl](../lilylet/2025/08/WK-diatonic-modes-B-TB.lyl)):
+
+      ```lyl.play
+      [title "Diatonic Modes B"]
+      [subtitle "Treble and Bass Clef"]
+      [composer "Kyle Gullings and Megan Lavengood"]
+
+      \key c \major \time 8/4 \clef "treble" a'4 s s2 s s \bar "||" | %1
+
+      af'4 s s2 s s \bar "||" | %2
+
+      c4 s s2 s s \bar "||" | %3
+
+      \clef "bass" g,4 s s2 s s \bar "||" | %4
+
+      e,,4 s s2 s s \bar "||" | %5
+
+      d,4 s s2 s s \bar "||" | %6
+
+      \clef "treble" ef4 s s2 s s \bar "||" | %7
+
+      \clef "bass" b,4 s s2 s s \bar "||" | %8
+
+      \key af \major \clef "treble" f4 g af bf c d ef f \bar "||" | %9
+
+      \key g \major g'4 s s2 s s \bar "||" | %10
+
+      \key af \major f4 s s2 s s \bar "||" | %11
+
+      \key a \major \clef "bass" a,4 s s2 s s \bar "||" | %12
+
+      \key e \major cs,4 s s2 s s \bar "||" | %13
+
+      \key b \major b,4 s s2 s s \bar "||" | %14
+
+      \key df \major \clef "treble" bf'4 s s2 s s \bar "||" | %15
+
+      \key d \major \clef "bass" d,4 s s2 s s \bar "||" | %16
+      ```
+      <!-- lilylet-end -->
 3. Chromatic Scales A. Asks students to write chromatic scales within and outside of a key context.
 	- All clefs ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-chromatic-scales-A.pdf), [.mscz](../media/2025/07/WK-chromatic-scales-A.mscz))
+      <!-- lilylet-begin: media/2025/07/WK-chromatic-scales-A.mscz -->
+      Lilylet transcription of WK-chromatic-scales-A.mscz ([WK-chromatic-scales-A.lyl](../lilylet/2025/07/WK-chromatic-scales-A.lyl)):
+
+      ```lyl.play
+      [title "Chromatic Scales A"]
+      [composer "Kyle Gullings and Megan Lavengood"]
+
+      \key c \major \time 13/4 \clef "bass" b,4^\markup "1" s1 s s | %1
+
+      b4 s1 s s \bar "||" | %2
+
+      \clef "treble" df4^\markup "2" s1 s s | %3
+
+      df'4 s1 s s \bar "||" | %4
+
+      \key a \major \clef "bass" a,4^\markup "A major"^\markup "3" as b bs cs d ds e es fs fss gs a | %5
+
+      a4 gs g fs f e ef d cs c b bf a \bar "||" | %6
+
+      \key c \major \clef "treble" s1.. s1. | %7
+
+      s1.. s1. \bar "||" | %8
+
+      \clef "bass" s1.. s1. | %9
+
+      s1.. s1. \bar "||" | %10
+
+      \clef "alto" s1.. s1. | %11
+
+      s1.. s1. \bar "||" | %12
+      ```
+      <!-- lilylet-end -->
 	- Treble/bass only ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-chromatic-scales-A-TB.pdf), [.mscz](../media/2025/07/WK-chromatic-scales-A-TB.mscz))
+      <!-- lilylet-begin: media/2025/07/WK-chromatic-scales-A-TB.mscz -->
+      Lilylet transcription of WK-chromatic-scales-A-TB.mscz ([WK-chromatic-scales-A-TB.lyl](../lilylet/2025/07/WK-chromatic-scales-A-TB.lyl)):
+
+      ```lyl.play
+      [title "Chromatic Scales A"]
+      [subtitle "Treble and Bass Clef"]
+      [composer "Kyle Gullings and Megan Lavengood"]
+
+      \key c \major \time 13/4 \clef "bass" b,4^\markup "1" s1 s s | %1
+
+      b4 s1 s s \bar "||" | %2
+
+      \clef "treble" df4^\markup "2" s1 s s | %3
+
+      df'4 s1 s s \bar "||" | %4
+
+      \key a \major \clef "bass" a,4^\markup "A major"^\markup "3" as b bs cs d ds e es fs fss gs a | %5
+
+      a4 gs g fs f e ef d cs c b bf a \bar "||" | %6
+
+      \key c \major \clef "treble" s1.. s1. | %7
+
+      s1.. s1. \bar "||" | %8
+
+      \clef "bass" s1.. s1. | %9
+
+      s1.. s1. \bar "||" | %10
+
+      s1.. s1. | %11
+
+      s1.. s1. \bar "||" | %12
+      ```
+      <!-- lilylet-end -->
 4. Chromatic Scales B. Asks students to write chromatic scales within and outside of a key context.
 	- All clefs ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-chromatic-scales-B.pdf), [.mscz](../media/2025/07/WK-chromatic-scales-B.mscz))
+      <!-- lilylet-begin: media/2025/07/WK-chromatic-scales-B.mscz -->
+      Lilylet transcription of WK-chromatic-scales-B.mscz ([WK-chromatic-scales-B.lyl](../lilylet/2025/07/WK-chromatic-scales-B.lyl)):
+
+      ```lyl.play
+      [title "Chromatic Scales B"]
+      [composer "Kyle Gullings and Megan Lavengood"]
+
+      \key c \major \time 13/4 \clef "tenor" ef,4^\markup "1" s1 s s | %1
+
+      ef4 s1 s s \bar "||" | %2
+
+      \clef "treble" g'4^\markup "2" s1 s s | %3
+
+      g''4 s1 s s \bar "||" | %4
+
+      \key a \major \clef "bass" a,4^\markup "A major"^\markup "3" as b bs cs d ds e es fs fss gs a | %5
+
+      a4 gs g fs f e ef d cs c b bf a \bar "||" | %6
+
+      \key c \major \clef "treble" s1.. s1. | %7
+
+      s1.. s1. \bar "||" | %8
+
+      \clef "bass" s1.. s1. | %9
+
+      s1.. s1. \bar "||" | %10
+
+      \clef "alto" s1.. s1. | %11
+
+      s1.. s1. \bar "||" | %12
+      ```
+      <!-- lilylet-end -->
 	- Treble/bass only ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-chromatic-scales-B-TB.pdf), [.mscz](../media/2025/07/WK-chromatic-scales-B-TB.mscz))
+      <!-- lilylet-begin: media/2025/07/WK-chromatic-scales-B-TB.mscz -->
+      Lilylet transcription of WK-chromatic-scales-B-TB.mscz ([WK-chromatic-scales-B-TB.lyl](../lilylet/2025/07/WK-chromatic-scales-B-TB.lyl)):
+
+      ```lyl.play
+      [title "Chromatic Scales B"]
+      [subtitle "Treble/Bass only"]
+      [composer "Kyle Gullings and Megan Lavengood"]
+
+      \key c \major \time 13/4 \clef "bass" ef,,4^\markup "1" s1 s s | %1
+
+      ef,4 s1 s s \bar "||" | %2
+
+      \clef "treble" g'4^\markup "2" s1 s s | %3
+
+      g''4 s1 s s \bar "||" | %4
+
+      \key a \major \clef "bass" a,4^\markup "A major"^\markup "3" as b bs cs d ds e es fs fss gs a | %5
+
+      a4 gs g fs f e ef d cs c b bf a \bar "||" | %6
+
+      \key c \major \clef "treble" s1.. s1. | %7
+
+      s1.. s1. \bar "||" | %8
+
+      \clef "bass" s1.. s1. | %9
+
+      s1.. s1. \bar "||" | %10
+
+      s1.. s1. | %11
+
+      s1.. s1. \bar "||" | %12
+      ```
+      <!-- lilylet-end -->
 
 ### Media Attributions
 

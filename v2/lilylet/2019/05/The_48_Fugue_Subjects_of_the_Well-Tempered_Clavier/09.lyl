@@ -3,8 +3,8 @@
 [composer "J. S. Bach"]
 [staves "s1,s2"]
 
-\key e \major \time 4/4 \clef "treble" r4 r8 \stemUp e^\markup "BWV 854" fs4 r16 b,[ cs ds] \\\
-\clef "treble" R1 | %1
+\key e \major \time 4/4 \clef "treble" r4 r8 \stemUp e fs4 r16 b,[ cs ds] \\\
+\clef "treble" s1 | %1
 
 \stemUp e16[ ds e fs] \stemNeutral gs8 \bar "|." \\\
-R2 \bar "|." | %2
+s1 \bar "|." | %2
