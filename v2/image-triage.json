@@ -1,0 +1,7649 @@
+{
+ "generated": "2026-11-09",
+ "note": "kind/recommendation from visual review of contact sheets; effort_min is an estimate calibrated on V1 (hand median 3 bars, OMR median 8.5 bars per score)",
+ "images": [
+  {
+   "index": 0,
+   "path": "v2/media/2021/07/OMT-cover-lower-res-1.png",
+   "chapter": "00-front-matter/01-introduction.md",
+   "caption": "Cover art © Bethany Nistler",
+   "kind": "photo",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "cover art",
+   "size": [
+    2500,
+    3750
+   ]
+  },
+  {
+   "index": 1,
+   "path": "v2/media/2019/04/table-of-contents.png",
+   "chapter": "00-front-matter/01-introduction.md",
+   "caption": "Diverse topics",
+   "kind": "text/other",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "screenshot"
+   ],
+   "reason": "TOC screenshot",
+   "size": [
+    460,
+    923
+   ]
+  },
+  {
+   "index": 2,
+   "path": "v2/media/2019/04/musescore-embed.png",
+   "chapter": "00-front-matter/01-introduction.md",
+   "caption": "Notated example with embedded MuseScore player",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 6,
+   "voices": 2,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "low",
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "screenshot",
+    "musescore-ui",
+    "musescore-embed-screenshot"
+   ],
+   "reason": "screenshot of a MuseScore embed (Despacito); content is a musescore score",
+   "size": [
+    852,
+    786
+   ]
+  },
+  {
+   "index": 3,
+   "path": "v2/media/2021/06/interactive-content.png",
+   "chapter": "00-front-matter/01-introduction.md",
+   "caption": "Interactive content",
+   "kind": "text/other",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "screenshot"
+   ],
+   "reason": "H5P screenshot",
+   "size": [
+    829,
+    831
+   ]
+  },
+  {
+   "index": 4,
+   "path": "v2/media/2019/04/workbook.png",
+   "chapter": "00-front-matter/01-introduction.md",
+   "caption": "Assignments for each chapter",
+   "kind": "text/other",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "screenshot"
+   ],
+   "reason": "assignment list screenshot",
+   "size": [
+    936,
+    559
+   ]
+  },
+  {
+   "index": 5,
+   "path": "v2/media/2019/06/twitter-screenshot.png",
+   "chapter": "00-front-matter/03-statement-on-spotify-usage.md",
+   "caption": "Tweet from user Zoë Keating reads: \"A deposit appeared in my account today and so I am sharing it as an artist data point...even though few people give a hoot about this anymore Sept 2019 206,011 Spotify streams $753 $0.003655144628199 per stream\"",
+   "kind": "text/other",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "screenshot"
+   ],
+   "reason": "tweet",
+   "size": [
+    1096,
+    706
+   ]
+  },
+  {
+   "index": 6,
+   "path": "v2/media/2019/05/noteillustration-1.png",
+   "chapter": "01-fundamentals/02-notation-of-notes-clefs-and-ledger-lines.md",
+   "caption": "Example 1. Noteheads, stems, beams, and flags.",
+   "kind": "notation+annotation",
+   "staves": 0,
+   "bars": 0,
+   "voices": 1,
+   "texture": "glyphs",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "glyph-demo"
+   ],
+   "reason": "note-part terminology, no musical content",
+   "size": [
+    1480,
+    653
+   ],
+   "also_in": [
+    "01-fundamentals/09-notating-rhythm.md"
+   ]
+  },
+  {
+   "index": 7,
+   "path": "v2/media/2019/05/Staff.png",
+   "chapter": "01-fundamentals/02-notation-of-notes-clefs-and-ledger-lines.md",
+   "caption": "Example 2. A staff.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 0,
+   "voices": 0,
+   "texture": "glyphs",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "glyph-demo"
+   ],
+   "reason": "empty staff",
+   "size": [
+    404,
+    150
+   ]
+  },
+  {
+   "index": 8,
+   "path": "v2/media/2022/07/Correct-Noteheads.jpg",
+   "chapter": "01-fundamentals/02-notation-of-notes-clefs-and-ledger-lines.md",
+   "caption": "Example 3. Correct noteheads, open (white) and filled in (black), both on lines and in spaces.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 4,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "no-clef",
+    "low-value"
+   ],
+   "reason": "correct noteheads demo",
+   "size": [
+    894,
+    174
+   ]
+  },
+  {
+   "index": 9,
+   "path": "v2/media/2019/05/Incorrect-Noteheads.jpeg",
+   "chapter": "01-fundamentals/02-notation-of-notes-clefs-and-ledger-lines.md",
+   "caption": "Example 4. Incorrect examples of noteheads.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 3,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "incorrect-notation"
+   ],
+   "reason": "deliberately wrong noteheads",
+   "size": [
+    770,
+    150
+   ]
+  },
+  {
+   "index": 10,
+   "path": "v2/media/2022/07/Stemming-Directions.jpg",
+   "chapter": "01-fundamentals/02-notation-of-notes-clefs-and-ledger-lines.md",
+   "caption": "Example 5. Correct stemming directions.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "no-clef",
+    "low-value"
+   ],
+   "reason": "stem directions",
+   "size": [
+    950,
+    146
+   ]
+  },
+  {
+   "index": 11,
+   "path": "v2/media/2022/07/Correct-Seconds-1-e1657554954232.jpg",
+   "chapter": "01-fundamentals/02-notation-of-notes-clefs-and-ledger-lines.md",
+   "caption": "Example 6. Three correct seconds.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "no-clef",
+    "low-value"
+   ],
+   "reason": "seconds (chords)",
+   "size": [
+    266,
+    165
+   ]
+  },
+  {
+   "index": 12,
+   "path": "v2/media/2022/07/Incorrect-Seconds-1-e1657554935562.jpg",
+   "chapter": "01-fundamentals/02-notation-of-notes-clefs-and-ledger-lines.md",
+   "caption": "Example 7. Three incorrect seconds.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "incorrect-notation"
+   ],
+   "reason": "wrong seconds",
+   "size": [
+    228,
+    160
+   ]
+  },
+  {
+   "index": 13,
+   "path": "v2/media/2019/05/clefs.png",
+   "chapter": "01-fundamentals/02-notation-of-notes-clefs-and-ledger-lines.md",
+   "caption": "Example 8. The same pitch placed after a treble, bass, alto, and tenor clef.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "v1-identical:Graphics/clefs.png",
+    "v1-transcribed:Graphics/lilylet/clefs.lyl"
+   ],
+   "reason": "identical to V1 Graphics/clefs.png, already transcribed",
+   "size": [
+    1922,
+    641
+   ]
+  },
+  {
+   "index": 14,
+   "path": "v2/media/2019/11/DrawTrebleClef.png",
+   "chapter": "01-fundamentals/02-notation-of-notes-clefs-and-ledger-lines.md",
+   "caption": "Example 9. Drawing a treble clef in three steps.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "glyph-demo"
+   ],
+   "reason": "drawing a clef (handwritten steps)",
+   "size": [
+    1168,
+    268
+   ]
+  },
+  {
+   "index": 15,
+   "path": "v2/media/2019/11/DrawBassClef.png",
+   "chapter": "01-fundamentals/02-notation-of-notes-clefs-and-ledger-lines.md",
+   "caption": "Example 10. Drawing a bass clef in three steps.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "glyph-demo"
+   ],
+   "reason": "drawing a clef",
+   "size": [
+    1164,
+    244
+   ]
+  },
+  {
+   "index": 16,
+   "path": "v2/media/2019/11/DrawAltoClef.png",
+   "chapter": "01-fundamentals/02-notation-of-notes-clefs-and-ledger-lines.md",
+   "caption": "Example 11. Drawing an alto clef in four steps.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "glyph-demo"
+   ],
+   "reason": "drawing a clef",
+   "size": [
+    1542,
+    264
+   ]
+  },
+  {
+   "index": 17,
+   "path": "v2/media/2019/11/DrawTenorClef.png",
+   "chapter": "01-fundamentals/02-notation-of-notes-clefs-and-ledger-lines.md",
+   "caption": "Example 12. Drawing a tenor clef in four steps.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "glyph-demo"
+   ],
+   "reason": "drawing a clef",
+   "size": [
+    1524,
+    268
+   ]
+  },
+  {
+   "index": 18,
+   "path": "v2/media/2022/07/K-Clefs.jpg",
+   "chapter": "01-fundamentals/02-notation-of-notes-clefs-and-ledger-lines.md",
+   "caption": "Example 13. Using the letter “K” to draw the alto and tenor clefs.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "glyph-demo"
+   ],
+   "reason": "K-clef mnemonic",
+   "size": [
+    524,
+    132
+   ]
+  },
+  {
+   "index": 19,
+   "path": "v2/media/2019/05/ledger-lines-for-chelsey_0006.png",
+   "chapter": "01-fundamentals/02-notation-of-notes-clefs-and-ledger-lines.md",
+   "caption": "Example 14. Ledger lines, both above and below a staff with a bass clef.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 0,
+   "voices": 0,
+   "texture": "glyphs",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "glyph-demo"
+   ],
+   "reason": "ledger lines without notes",
+   "size": [
+    502,
+    415
+   ]
+  },
+  {
+   "index": 20,
+   "path": "v2/media/2019/05/LedgerLineswithNotes.png",
+   "chapter": "01-fundamentals/02-notation-of-notes-clefs-and-ledger-lines.md",
+   "caption": "Example 15. Notes (with stems and beams) on ledger lines, above and below a staff with a treble clef.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 2,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [],
+   "reason": "notes on ledger lines",
+   "size": [
+    1660,
+    328
+   ]
+  },
+  {
+   "index": 21,
+   "path": "v2/media/2019/12/ch2-ex13-ledger_lines.jpg",
+   "chapter": "01-fundamentals/02-notation-of-notes-clefs-and-ledger-lines.md",
+   "caption": "Example 16. Correct and incorrect notation of ledger lines.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 2,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "incorrect-notation"
+   ],
+   "reason": "correct half encodable; incorrect half is graphic",
+   "size": [
+    1636,
+    486
+   ]
+  },
+  {
+   "index": 22,
+   "path": "v2/media/2019/05/Screen-Shot-2019-05-29-at-10.28.19-AM.png",
+   "chapter": "01-fundamentals/03-clefs.md",
+   "caption": "Example 1. The letter names for the lines with a treble clef.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "letter-labels"
+   ],
+   "reason": "treble lines",
+   "size": [
+    838,
+    230
+   ]
+  },
+  {
+   "index": 23,
+   "path": "v2/media/2019/05/Screen-Shot-2019-05-29-at-10.28.23-AM.png",
+   "chapter": "01-fundamentals/03-clefs.md",
+   "caption": "Example 2. The letter names for the spaces with a treble clef.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "letter-labels"
+   ],
+   "reason": "treble spaces",
+   "size": [
+    772,
+    214
+   ]
+  },
+  {
+   "index": 24,
+   "path": "v2/media/2025/06/Octave-Treble-Clef-8-Below-e1750256723896.jpeg",
+   "chapter": "01-fundamentals/03-clefs.md",
+   "caption": "Example 3. An octave treble clef with an “8” at the bottom of the clef.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 0,
+   "voices": 0,
+   "texture": "glyphs",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "glyph-demo"
+   ],
+   "reason": "octave treble clef glyph only",
+   "size": [
+    846,
+    150
+   ]
+  },
+  {
+   "index": 25,
+   "path": "v2/media/2025/06/Double-Treble-Clef-e1750256850507.jpeg",
+   "chapter": "01-fundamentals/03-clefs.md",
+   "caption": "Example 4. A double treble clef.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 0,
+   "voices": 0,
+   "texture": "glyphs",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "glyph-demo"
+   ],
+   "reason": "double treble clef glyph only",
+   "size": [
+    1107,
+    140
+   ]
+  },
+  {
+   "index": 26,
+   "path": "v2/media/2025/06/Octave-Treble-Clef-8-Above-e1750257095304.jpeg",
+   "chapter": "01-fundamentals/03-clefs.md",
+   "caption": "Example 5. An octave treble clef with an “8” at the top of the clef.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 0,
+   "voices": 0,
+   "texture": "glyphs",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "glyph-demo"
+   ],
+   "reason": "octave treble clef glyph only",
+   "size": [
+    975,
+    160
+   ]
+  },
+  {
+   "index": 27,
+   "path": "v2/media/2019/05/Screen-Shot-2019-05-29-at-11.00.29-AM.png",
+   "chapter": "01-fundamentals/03-clefs.md",
+   "caption": "Example 6. The letter names for the lines with a bass clef.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "letter-labels"
+   ],
+   "reason": "bass lines",
+   "size": [
+    818,
+    180
+   ]
+  },
+  {
+   "index": 28,
+   "path": "v2/media/2019/05/Screen-Shot-2019-05-29-at-11.00.34-AM.png",
+   "chapter": "01-fundamentals/03-clefs.md",
+   "caption": "Example 7. The letter names for the spaces with a bass clef.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "letter-labels"
+   ],
+   "reason": "bass spaces",
+   "size": [
+    738,
+    194
+   ]
+  },
+  {
+   "index": 29,
+   "path": "v2/media/2019/05/Screen-Shot-2019-05-29-at-11.10.40-AM.png",
+   "chapter": "01-fundamentals/03-clefs.md",
+   "caption": "Example 8. The letter names for the lines with an alto clef.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "letter-labels"
+   ],
+   "reason": "alto lines",
+   "size": [
+    832,
+    192
+   ]
+  },
+  {
+   "index": 30,
+   "path": "v2/media/2019/05/Screen-Shot-2019-05-29-at-11.10.45-AM.png",
+   "chapter": "01-fundamentals/03-clefs.md",
+   "caption": "Example 9. The letter names for the spaces with an alto clef.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "letter-labels"
+   ],
+   "reason": "alto spaces",
+   "size": [
+    726,
+    168
+   ]
+  },
+  {
+   "index": 31,
+   "path": "v2/media/2019/05/Screen-Shot-2019-05-29-at-11.27.17-AM.png",
+   "chapter": "01-fundamentals/03-clefs.md",
+   "caption": "Example 10. The letter names for the lines with a tenor clef.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "letter-labels"
+   ],
+   "reason": "tenor lines",
+   "size": [
+    846,
+    204
+   ]
+  },
+  {
+   "index": 32,
+   "path": "v2/media/2019/05/Screen-Shot-2019-05-29-at-11.27.22-AM.png",
+   "chapter": "01-fundamentals/03-clefs.md",
+   "caption": "Example 11. The letter names for the spaces with a tenor clef.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "letter-labels"
+   ],
+   "reason": "tenor spaces",
+   "size": [
+    730,
+    190
+   ]
+  },
+  {
+   "index": 33,
+   "path": "v2/media/2025/06/Soprano-Mezzo-Soprano-Baritone-Clef-Line-Letters-scaled-e1749827413950.png",
+   "chapter": "01-fundamentals/03-clefs.md",
+   "caption": "Example 12. The letter names for the lines with a soprano, mezzo-soprano, and baritone clef.",
+   "kind": "notation+annotation",
+   "staves": 3,
+   "bars": 3,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "hand",
+   "effort_min": 4,
+   "flags": [
+    "letter-labels"
+   ],
+   "reason": "soprano/mezzo/baritone C clefs (check clef support)",
+   "size": [
+    2517,
+    303
+   ]
+  },
+  {
+   "index": 34,
+   "path": "v2/media/2019/05/Screen-Shot-2019-05-29-at-12.05.34-PM.png",
+   "chapter": "01-fundamentals/03-clefs.md",
+   "caption": "Example 13. Ledger lines extend a staff upwards with a treble clef.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "letter-labels"
+   ],
+   "reason": "ledger lines above",
+   "size": [
+    976,
+    230
+   ]
+  },
+  {
+   "index": 35,
+   "path": "v2/media/2019/05/Screen-Shot-2019-05-29-at-12.14.51-PM.png",
+   "chapter": "01-fundamentals/03-clefs.md",
+   "caption": "Example 14. Ledger lines extend a staff downwards with a bass clef.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "letter-labels"
+   ],
+   "reason": "ledger lines below",
+   "size": [
+    944,
+    254
+   ]
+  },
+  {
+   "index": 36,
+   "path": "v2/media/2025/06/Neutral-Clef.001-e1750256793629.jpeg",
+   "chapter": "01-fundamentals/03-clefs.md",
+   "caption": "Example 15. A neutral clef on the staff.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 0,
+   "voices": 0,
+   "texture": "glyphs",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "glyph-demo"
+   ],
+   "reason": "neutral clef only",
+   "size": [
+    963,
+    123
+   ]
+  },
+  {
+   "index": 37,
+   "path": "v2/media/2025/06/Neutral-Clef-Single-Line-Staff.001-e1750256810831.jpeg",
+   "chapter": "01-fundamentals/03-clefs.md",
+   "caption": "Example 16. A neutral clef on a single-line staff.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "glyph-demo",
+    "single-line-staff"
+   ],
+   "reason": "neutral clef on one-line staff",
+   "size": [
+    1160,
+    130
+   ]
+  },
+  {
+   "index": 38,
+   "path": "v2/media/2019/05/Piano-Keyboard.jpg",
+   "chapter": "01-fundamentals/04-the-keyboard-and-grand-staff.md",
+   "caption": "Example 1. A small portion of a piano keyboard.",
+   "kind": "photo",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "piano keyboard",
+   "size": [
+    1662,
+    1170
+   ]
+  },
+  {
+   "index": 39,
+   "path": "v2/media/2019/05/Piano-Keyboard-Full.jpg",
+   "chapter": "01-fundamentals/04-the-keyboard-and-grand-staff.md",
+   "caption": "Example 2. A larger portion of a piano keyboard.",
+   "kind": "photo",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "piano",
+   "size": [
+    4000,
+    3000
+   ]
+  },
+  {
+   "index": 40,
+   "path": "v2/media/2019/12/ch4-ex4-white_keys_labeled.jpg",
+   "chapter": "01-fundamentals/04-the-keyboard-and-grand-staff.md",
+   "caption": "Example 4. The letter names of the white key pitches are labeled.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "keyboard",
+   "size": [
+    1468,
+    478
+   ]
+  },
+  {
+   "index": 41,
+   "path": "v2/media/2019/11/brace_line-1.jpg",
+   "chapter": "01-fundamentals/04-the-keyboard-and-grand-staff.md",
+   "caption": "Example 5. A grand staff is connected with a line and a brace.",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 0,
+   "voices": 0,
+   "texture": "glyphs",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "glyph-demo"
+   ],
+   "reason": "empty grand staff with labels",
+   "size": [
+    407,
+    202
+   ]
+  },
+  {
+   "index": 42,
+   "path": "v2/media/2019/12/ch4-ex6-grand_staff-labeled.jpg",
+   "chapter": "01-fundamentals/04-the-keyboard-and-grand-staff.md",
+   "caption": "Example 6. A grand staff with the lines and spaces labeled with pitch names.",
+   "kind": "diagram",
+   "staves": 2,
+   "bars": 1,
+   "voices": 1,
+   "texture": "piano",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "keyboard-to-grand-staff mapping",
+   "size": [
+    1992,
+    772
+   ]
+  },
+  {
+   "index": 43,
+   "path": "v2/media/2019/11/Screen-Shot-2019-11-23-at-11.48.12-AM.png",
+   "chapter": "01-fundamentals/04-the-keyboard-and-grand-staff.md",
+   "caption": "Example 7. Pitches below the treble clef staff and above the bass clef staff, labeled with letter names.",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 1,
+   "voices": 2,
+   "texture": "piano",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "letter-labels"
+   ],
+   "reason": "grand staff D-G",
+   "size": [
+    608,
+    364
+   ]
+  },
+  {
+   "index": 44,
+   "path": "v2/media/2019/05/Screen-Shot-2019-05-30-at-2.03.57-PM.png",
+   "chapter": "01-fundamentals/04-the-keyboard-and-grand-staff.md",
+   "caption": "<span class=",
+   "kind": "notation",
+   "staves": 2,
+   "bars": 1,
+   "voices": 2,
+   "texture": "piano",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [],
+   "reason": "grand staff ledger notes",
+   "size": [
+    802,
+    252
+   ]
+  },
+  {
+   "index": 45,
+   "path": "v2/media/2019/12/ch4-ex9-middle_c-1.jpg",
+   "chapter": "01-fundamentals/04-the-keyboard-and-grand-staff.md",
+   "caption": "Example 9. The note C is boxed in a vertically condensed grand staff.",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 1,
+   "voices": 2,
+   "texture": "piano",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "box"
+   ],
+   "reason": "middle C boxed",
+   "size": [
+    1268,
+    524
+   ]
+  },
+  {
+   "index": 46,
+   "path": "v2/media/2019/11/vertically_expanded_example_9-revised.jpg",
+   "chapter": "01-fundamentals/04-the-keyboard-and-grand-staff.md",
+   "caption": "Example 10. A vertically expanded Example 9 .",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 1,
+   "voices": 2,
+   "texture": "piano",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "variant-of:45"
+   ],
+   "reason": "vertically expanded #45",
+   "size": [
+    528,
+    192
+   ]
+  },
+  {
+   "index": 47,
+   "path": "v2/media/2019/12/ch4-ex11-fifth.jpg",
+   "chapter": "01-fundamentals/04-the-keyboard-and-grand-staff.md",
+   "caption": "Example 11. An example of a generic fifth.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [],
+   "reason": "generic fifth",
+   "size": [
+    1062,
+    524
+   ]
+  },
+  {
+   "index": 48,
+   "path": "v2/media/2019/12/ch5-ex1-piano-half_steps.jpg",
+   "chapter": "01-fundamentals/05-half-and-whole-steps.md",
+   "caption": "Example 1. A piano keyboard with letter names on the white keys; some half steps are labeled.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "keyboard half steps",
+   "size": [
+    1412,
+    900
+   ]
+  },
+  {
+   "index": 49,
+   "path": "v2/media/2019/12/ch5-ex2-piano-whole_steps.jpg",
+   "chapter": "01-fundamentals/05-half-and-whole-steps.md",
+   "caption": "Example 2. A piano keyboard with letter names on the white keys; some whole steps are labeled.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "keyboard whole steps",
+   "size": [
+    1288,
+    880
+   ]
+  },
+  {
+   "index": 50,
+   "path": "v2/media/2019/12/ch5-ex4-accidental_placement.jpg",
+   "chapter": "01-fundamentals/05-half-and-whole-steps.md",
+   "caption": "Example 4. Correct and incorrect ways to draw accidentals.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 3,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "incorrect-notation",
+    "glyph-demo"
+   ],
+   "reason": "accidental placement correct/incorrect",
+   "size": [
+    2046,
+    518
+   ]
+  },
+  {
+   "index": 51,
+   "path": "v2/media/2025/06/Same-Note-Two-Accidentals-e1750264867259.png",
+   "chapter": "01-fundamentals/05-half-and-whole-steps.md",
+   "caption": "Example 5. A B-flat and a B-natural side-by-side.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [],
+   "reason": "Bb and B natural",
+   "size": [
+    1842,
+    227
+   ]
+  },
+  {
+   "index": 52,
+   "path": "v2/media/2019/12/ch5-ex5-piano-black_keys.jpg",
+   "chapter": "01-fundamentals/05-half-and-whole-steps.md",
+   "caption": "Example 6. A piano keyboard with the letter names of the black keys labeled.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "keyboard enharmonics",
+   "size": [
+    832,
+    630
+   ]
+  },
+  {
+   "index": 53,
+   "path": "v2/media/2019/12/ch5-ex6-double_accidentals.jpg",
+   "chapter": "01-fundamentals/05-half-and-whole-steps.md",
+   "caption": "Example 7. Double accidentals on the piano keyboard.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "keyboard double accidentals",
+   "size": [
+    942,
+    710
+   ]
+  },
+  {
+   "index": 54,
+   "path": "v2/media/2019/05/Scientific_pitch_notation_octaves_of_C.png",
+   "chapter": "01-fundamentals/06-aspn.md",
+   "caption": "Example 1. ASPN octave designations; each octave begins with the pitch C.",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 4,
+   "flags": [
+    "letter-labels"
+   ],
+   "reason": "C0-C9 on ledger lines",
+   "size": [
+    583,
+    355
+   ]
+  },
+  {
+   "index": 55,
+   "path": "v2/media/2019/05/Screen-Shot-2019-07-24-at-3.50.53-PM.png",
+   "chapter": "01-fundamentals/06-aspn.md",
+   "caption": "Example 2. The notes C 4 , D 4 , E 4 , F 4 , G 4 , A 4 , and B 4 .",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [],
+   "reason": "C4-B4",
+   "size": [
+    692,
+    164
+   ]
+  },
+  {
+   "index": 56,
+   "path": "v2/media/2019/05/1040px-Piano_Frequencies.svg_.png",
+   "chapter": "01-fundamentals/06-aspn.md",
+   "caption": "Example 3. A piano keyboard with ASPN octave designations labeled; both colored notes (blue and yellow) fall into the octave 4 designation.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "keyboard ASPN",
+   "size": [
+    2080,
+    400
+   ]
+  },
+  {
+   "index": 57,
+   "path": "v2/media/2020/02/96292654_667667213778088_2752956277322678272_n.png",
+   "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+   "caption": "Example 1. Dynamics are arranged from quietest to loudest.",
+   "kind": "text/other",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "dynamics ladder",
+   "size": [
+    2048,
+    262
+   ]
+  },
+  {
+   "index": 58,
+   "path": "v2/media/2020/02/CrescendoandDecrescendoChapter6-1.png",
+   "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+   "caption": "Example 2. A crescendo and decrescendo (“hairpins”).",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "hairpin glyphs",
+   "size": [
+    1001,
+    254
+   ]
+  },
+  {
+   "index": 59,
+   "path": "v2/media/2020/02/a-slur.png",
+   "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+   "caption": "notation",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 2,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "same-melody:59-63"
+   ],
+   "reason": "slur",
+   "size": [
+    1411,
+    277
+   ]
+  },
+  {
+   "index": 60,
+   "path": "v2/media/2020/02/b-tenuto.png",
+   "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+   "caption": "notation",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 2,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "same-melody:59-63"
+   ],
+   "reason": "tenuto",
+   "size": [
+    1411,
+    277
+   ]
+  },
+  {
+   "index": 61,
+   "path": "v2/media/2020/02/c-staccato.png",
+   "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+   "caption": "notation",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 2,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "same-melody:59-63"
+   ],
+   "reason": "staccato",
+   "size": [
+    1411,
+    277
+   ]
+  },
+  {
+   "index": 62,
+   "path": "v2/media/2020/02/d-accent.png",
+   "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+   "caption": "notation",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 2,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "same-melody:59-63"
+   ],
+   "reason": "accent",
+   "size": [
+    1397,
+    216
+   ]
+  },
+  {
+   "index": 63,
+   "path": "v2/media/2020/02/e-marcato.png",
+   "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+   "caption": "notation",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 2,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "same-melody:59-63"
+   ],
+   "reason": "marcato",
+   "size": [
+    1411,
+    277
+   ]
+  },
+  {
+   "index": 64,
+   "path": "v2/media/2020/02/tempi.png",
+   "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+   "caption": "Example 8. Tempi are arranged from slowest to fastest.",
+   "kind": "text/other",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "tempo ladder",
+   "size": [
+    2048,
+    185
+   ]
+  },
+  {
+   "index": 65,
+   "path": "v2/media/2025/06/Fur-Elise-A-Tempo.png",
+   "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+   "caption": "Example 9. A musical example with a ritardando and an a tempo marking.",
+   "kind": "notation",
+   "staves": 2,
+   "bars": 4,
+   "voices": 3,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "fair",
+   "recommendation": "omr",
+   "effort_min": 10,
+   "flags": [
+    "scan"
+   ],
+   "reason": "Fur Elise rit./a tempo, dense 32nds, fingering",
+   "size": [
+    738,
+    246
+   ]
+  },
+  {
+   "index": 66,
+   "path": "v2/media/2020/02/Example6Chapter6.png",
+   "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+   "caption": null,
+   "kind": "notation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [],
+   "reason": "fermata",
+   "size": [
+    246,
+    156
+   ]
+  },
+  {
+   "index": 67,
+   "path": "v2/media/2020/02/Example7Chapter6.png",
+   "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+   "caption": null,
+   "kind": "notation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "check-support"
+   ],
+   "reason": "caesura",
+   "size": [
+    258,
+    140
+   ]
+  },
+  {
+   "index": 68,
+   "path": "v2/media/2020/02/Example8Chapter6.png",
+   "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+   "caption": null,
+   "kind": "notation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "check-support"
+   ],
+   "reason": "breath mark",
+   "size": [
+    246,
+    146
+   ]
+  },
+  {
+   "index": 69,
+   "path": "v2/media/2025/06/Single-Measure-Repeat.png",
+   "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+   "caption": "Example 15. A one-measure repeat sign.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 2,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "unsupported-glyph"
+   ],
+   "reason": "one-measure repeat sign",
+   "size": [
+    244,
+    94
+   ]
+  },
+  {
+   "index": 70,
+   "path": "v2/media/2025/06/Two-Measure-Repeat-300x95.png",
+   "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+   "caption": "Example 16. A two-measure repeat sign.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 2,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "unsupported-glyph"
+   ],
+   "reason": "two-measure repeat sign",
+   "size": [
+    300,
+    95
+   ]
+  },
+  {
+   "index": 71,
+   "path": "v2/media/2025/06/To-Coda-and-Segno-Sign.png",
+   "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+   "caption": "Example 17. The “to Coda” sign is on the left and the “segno sign” is on the right.",
+   "kind": "text/other",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "glyph-demo"
+   ],
+   "reason": "coda/segno glyphs",
+   "size": [
+    300,
+    162
+   ]
+  },
+  {
+   "index": 72,
+   "path": "v2/media/2025/06/D.C.-al-Coda.png",
+   "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+   "caption": "Example 18. A musical example that shows the D.C. al Coda process.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 10,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 6,
+   "flags": [
+    "check-support"
+   ],
+   "reason": "D.C. al Coda roadmap",
+   "size": [
+    972,
+    400
+   ]
+  },
+  {
+   "index": 73,
+   "path": "v2/media/2025/06/D.C.-al-Fine.png",
+   "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+   "caption": "Example 19. A musical example that shows the D.C. al Fine process.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 8,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 5,
+   "flags": [
+    "check-support"
+   ],
+   "reason": "D.C. al Fine roadmap",
+   "size": [
+    1192,
+    238
+   ]
+  },
+  {
+   "index": 74,
+   "path": "v2/media/2020/02/96422265_232053788221736_2295624173914947584_n.png",
+   "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+   "caption": "Example 20. A timeline depicting commonly accepted years for musical stylistic periods.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "period timeline",
+   "size": [
+    2048,
+    231
+   ]
+  },
+  {
+   "index": 75,
+   "path": "v2/media/2019/05/durations-1.png",
+   "chapter": "01-fundamentals/09-notating-rhythm.md",
+   "caption": "Example 2. The relative relationships between common note values.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "note value tree",
+   "size": [
+    1376,
+    1565
+   ]
+  },
+  {
+   "index": 76,
+   "path": "v2/media/2021/06/Example-3-Chapter-8.png",
+   "chapter": "01-fundamentals/09-notating-rhythm.md",
+   "caption": "Example 3. A double whole note on a line.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "check-support"
+   ],
+   "reason": "breve",
+   "size": [
+    302,
+    134
+   ]
+  },
+  {
+   "index": 77,
+   "path": "v2/media/2019/05/rests-1.png",
+   "chapter": "01-fundamentals/09-notating-rhythm.md",
+   "caption": "Example 4. The relative relationships between common rest values.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "rest value tree",
+   "size": [
+    1376,
+    1565
+   ]
+  },
+  {
+   "index": 78,
+   "path": "v2/media/2019/05/Breve-Rest.png",
+   "chapter": "01-fundamentals/09-notating-rhythm.md",
+   "caption": "Example 5. A breve rest.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "check-support"
+   ],
+   "reason": "breve rest",
+   "size": [
+    302,
+    140
+   ]
+  },
+  {
+   "index": 79,
+   "path": "v2/media/2019/05/dots-1.png",
+   "chapter": "01-fundamentals/09-notating-rhythm.md",
+   "caption": "Example 6. The rhythmic breakdown of two dotted notes and one double-dotted note.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "dotted-note equations",
+   "size": [
+    1387,
+    1129
+   ]
+  },
+  {
+   "index": 80,
+   "path": "v2/media/2020/05/Duple-1.png",
+   "chapter": "01-fundamentals/10-simple-meter-and-time-signatures.md",
+   "caption": null,
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "conducting pattern",
+   "size": [
+    738,
+    738
+   ]
+  },
+  {
+   "index": 81,
+   "path": "v2/media/2020/05/Triple-1.png",
+   "chapter": "01-fundamentals/10-simple-meter-and-time-signatures.md",
+   "caption": null,
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "conducting pattern",
+   "size": [
+    738,
+    738
+   ]
+  },
+  {
+   "index": 82,
+   "path": "v2/media/2020/05/Quadruple-1.png",
+   "chapter": "01-fundamentals/10-simple-meter-and-time-signatures.md",
+   "caption": null,
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "conducting pattern",
+   "size": [
+    738,
+    738
+   ]
+  },
+  {
+   "index": 83,
+   "path": "v2/media/2020/01/Measures-and-Barlines.png",
+   "chapter": "01-fundamentals/10-simple-meter-and-time-signatures.md",
+   "caption": "Example 8. Bar lines and measures.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 3,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "percussion-clef"
+   ],
+   "reason": "measures and bar lines",
+   "size": [
+    4096,
+    858
+   ]
+  },
+  {
+   "index": 84,
+   "path": "v2/media/2020/05/Screen-Shot-2020-05-12-at-3.32.33-PM-1.png",
+   "chapter": "01-fundamentals/10-simple-meter-and-time-signatures.md",
+   "caption": "Example 9. The two numbers (4 and 4) form a time signature.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "percussion-clef"
+   ],
+   "reason": "4/4",
+   "size": [
+    372,
+    126
+   ]
+  },
+  {
+   "index": 85,
+   "path": "v2/media/2020/01/pickup.png",
+   "chapter": "01-fundamentals/10-simple-meter-and-time-signatures.md",
+   "caption": "Example 13. An anacrusis.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 3,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "counts"
+   ],
+   "reason": "anacrusis with counts",
+   "size": [
+    2144,
+    317
+   ]
+  },
+  {
+   "index": 86,
+   "path": "v2/media/2020/01/withoutbeams.png",
+   "chapter": "01-fundamentals/10-simple-meter-and-time-signatures.md",
+   "caption": "Example 16. Beaming makes rhythms easier to read by showing the beat unit.",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 4,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 4,
+   "flags": [
+    "v1-same-name-different-content:Graphics/withoutbeams.png"
+   ],
+   "reason": "unbeamed vs beamed",
+   "size": [
+    1692,
+    825
+   ]
+  },
+  {
+   "index": 87,
+   "path": "v2/media/2020/01/beaming-beat-unit.png",
+   "chapter": "01-fundamentals/10-simple-meter-and-time-signatures.md",
+   "caption": "Example 17. Note values can be beamed together to show the beat unit. In MATHPH6X, eighth and sixteenth notes can be beamed together to show a quarter-note beat.",
+   "kind": "notation+annotation",
+   "staves": 4,
+   "bars": 4,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 5,
+   "flags": [
+    "percussion-clef"
+   ],
+   "reason": "beaming to beat",
+   "size": [
+    2577,
+    1533
+   ]
+  },
+  {
+   "index": 88,
+   "path": "v2/media/2021/05/Stemming2.png",
+   "chapter": "01-fundamentals/10-simple-meter-and-time-signatures.md",
+   "caption": "Example 18. Beaming with different stem directions.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 2,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [],
+   "reason": "beaming stem directions",
+   "size": [
+    858,
+    166
+   ]
+  },
+  {
+   "index": 89,
+   "path": "v2/media/2020/01/Flag-Direction.png",
+   "chapter": "01-fundamentals/10-simple-meter-and-time-signatures.md",
+   "caption": "Example 19. Flagging is determined by stem direction.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [],
+   "reason": "flag direction",
+   "size": [
+    318,
+    126
+   ]
+  },
+  {
+   "index": 90,
+   "path": "v2/media/2020/01/Multi-Measure-Rest.png",
+   "chapter": "01-fundamentals/10-simple-meter-and-time-signatures.md",
+   "caption": "Example 21. A multi-measure rest lasting four measures.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 0,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "check-support"
+   ],
+   "reason": "multi-measure rest",
+   "size": [
+    416,
+    132
+   ]
+  },
+  {
+   "index": 91,
+   "path": "v2/media/2020/01/ties-clarify-beat.png",
+   "chapter": "01-fundamentals/10-simple-meter-and-time-signatures.md",
+   "caption": "Example 22. Ties and proper beaming help to clarify beats.",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 2,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 4,
+   "flags": [
+    "percussion-clef"
+   ],
+   "reason": "ties clarify beat",
+   "size": [
+    2679,
+    413
+   ]
+  },
+  {
+   "index": 92,
+   "path": "v2/media/2020/05/Compound-Meter-Time-Signature.png",
+   "chapter": "01-fundamentals/11-compound-meters-and-time-signatures.md",
+   "caption": "Example 1. Two numbers (6 and 8) form a common compound meter time signature.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "percussion-clef"
+   ],
+   "reason": "6/8",
+   "size": [
+    388,
+    130
+   ]
+  },
+  {
+   "index": 93,
+   "path": "v2/media/2020/05/3-4_6-8.png",
+   "chapter": "01-fundamentals/11-compound-meters-and-time-signatures.md",
+   "caption": "Example 8. Proper beaming is essential in both simple and compound meters.",
+   "kind": "notation",
+   "staves": 2,
+   "bars": 2,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 4,
+   "flags": [],
+   "reason": "3/4 vs 6/8 beaming",
+   "size": [
+    2686,
+    225
+   ]
+  },
+  {
+   "index": 94,
+   "path": "v2/media/2025/07/Shots-Rhythm-LMFAO.png",
+   "chapter": "01-fundamentals/12-other-rhythmic-essentials.md",
+   "caption": "Example 2. An excerpt from the chorus of “Shots” (2009) by LMFAO.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 2,
+   "voices": 1,
+   "texture": "single line",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "lyrics"
+   ],
+   "reason": "Shots (LMFAO) rhythm, triplet",
+   "size": [
+    556,
+    158
+   ]
+  },
+  {
+   "index": 95,
+   "path": "v2/media/2025/07/Memory-Cats-Webber.png",
+   "chapter": "01-fundamentals/12-other-rhythmic-essentials.md",
+   "caption": "Example 5. An excerpt from the reprise of “Cats” (1980) by Andrew Lloyd Webber.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 9,
+   "voices": 1,
+   "texture": "single line",
+   "source": "repertoire",
+   "legibility": "fair",
+   "recommendation": "hand",
+   "effort_min": 15,
+   "flags": [
+    "lyrics"
+   ],
+   "reason": "Memory (Cats) 12/8 melody with lyrics",
+   "size": [
+    1234,
+    732
+   ]
+  },
+  {
+   "index": 96,
+   "path": "v2/media/2025/07/Love-Story-Swift.png",
+   "chapter": "01-fundamentals/13-major-scales.md",
+   "caption": "Example 3. An excerpt from Taylor Swift’s “Love Story” (2008).",
+   "kind": "notation",
+   "staves": 2,
+   "bars": 5,
+   "voices": 2,
+   "texture": "ensemble",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 10,
+   "flags": [
+    "lyrics"
+   ],
+   "reason": "Love Story (Swift) voice+violin",
+   "size": [
+    1170,
+    294
+   ]
+  },
+  {
+   "index": 97,
+   "path": "v2/media/2025/07/Scale-Degree-Names-Derivation-1024x228.png",
+   "chapter": "01-fundamentals/13-major-scales.md",
+   "caption": "Example 8. The notes of the A♭ major scale arranged to show the derivation of scale-degree names.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 4,
+   "flags": [
+    "labels"
+   ],
+   "reason": "scale-degree names Ab major, arcs",
+   "size": [
+    1024,
+    228
+   ]
+  },
+  {
+   "index": 98,
+   "path": "v2/media/2019/05/Screen-Shot-2020-06-08-at-12.17.31-PM.png",
+   "chapter": "01-fundamentals/13-major-scales.md",
+   "caption": "Example 9. A key signature goes after a clef, but before a time signature.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 0,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [],
+   "reason": "key sig before time sig",
+   "size": [
+    326,
+    132
+   ]
+  },
+  {
+   "index": 99,
+   "path": "v2/media/2019/05/Screen-Shot-2020-06-08-at-12.28.24-PM.png",
+   "chapter": "01-fundamentals/13-major-scales.md",
+   "caption": "Example 10. Both Bs are flat, regardless of octave.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [],
+   "reason": "both Bs flat",
+   "size": [
+    380,
+    126
+   ]
+  },
+  {
+   "index": 100,
+   "path": "v2/media/2019/05/Screen-Shot-2020-06-08-at-1.11.04-PM.png",
+   "chapter": "01-fundamentals/13-major-scales.md",
+   "caption": "Example 11. The order of sharps and flats in treble, bass, alto, and tenor clefs.",
+   "kind": "notation",
+   "staves": 8,
+   "bars": 0,
+   "voices": 0,
+   "texture": "glyphs",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 5,
+   "flags": [
+    "key-sig-only",
+    "md5-identical:109"
+   ],
+   "reason": "order of sharps/flats in 4 clefs (key sigs need a note or empty bar)",
+   "size": [
+    1024,
+    372
+   ]
+  },
+  {
+   "index": 101,
+   "path": "v2/media/2019/05/sharp-sigs.png",
+   "chapter": "01-fundamentals/13-major-scales.md",
+   "caption": "Example 12. Three different sharp key signatures in treble, bass, and alto clefs.",
+   "kind": "notation",
+   "staves": 3,
+   "bars": 0,
+   "voices": 0,
+   "texture": "glyphs",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "key-sig-only"
+   ],
+   "reason": "sharp key sigs",
+   "size": [
+    1479,
+    312
+   ]
+  },
+  {
+   "index": 102,
+   "path": "v2/media/2019/05/flat-sigs.png",
+   "chapter": "01-fundamentals/13-major-scales.md",
+   "caption": "Example 13. Three different flat key signatures in bass, treble, and tenor clefs.",
+   "kind": "notation",
+   "staves": 3,
+   "bars": 0,
+   "voices": 0,
+   "texture": "glyphs",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "key-sig-only"
+   ],
+   "reason": "flat key sigs",
+   "size": [
+    1479,
+    312
+   ]
+  },
+  {
+   "index": 103,
+   "path": "v2/media/2019/05/cmajfmaj-e1659817325208.png",
+   "chapter": "01-fundamentals/13-major-scales.md",
+   "caption": "Example 14. The key signatures of C major (top) and F major (bottom).",
+   "kind": "notation",
+   "staves": 2,
+   "bars": 0,
+   "voices": 0,
+   "texture": "glyphs",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "key-sig-only"
+   ],
+   "reason": "C and F major sigs",
+   "size": [
+    500,
+    541
+   ]
+  },
+  {
+   "index": 104,
+   "path": "v2/media/2021/06/Sharp-Key-Signatures.png",
+   "chapter": "01-fundamentals/13-major-scales.md",
+   "caption": null,
+   "kind": "notation",
+   "staves": 4,
+   "bars": 7,
+   "voices": 0,
+   "texture": "glyphs",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 6,
+   "flags": [
+    "key-sig-only",
+    "dup-of:110",
+    "near-duplicate:110"
+   ],
+   "reason": "sharp key sigs in 4 clefs",
+   "size": [
+    978,
+    798
+   ]
+  },
+  {
+   "index": 105,
+   "path": "v2/media/2019/05/Screen-Shot-2020-06-08-at-1.57.09-PM-300x225.png",
+   "chapter": "01-fundamentals/13-major-scales.md",
+   "caption": "Example 16. The key signatures of C, F, B♭, E♭, A♭, D♭, G♭, and C♭ in all four clefs.",
+   "kind": "notation",
+   "staves": 4,
+   "bars": 7,
+   "voices": 0,
+   "texture": "glyphs",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "key-sig-only",
+    "dup-of:111",
+    "thumbnail-of:111"
+   ],
+   "reason": "300px copy of #111",
+   "size": [
+    300,
+    225
+   ]
+  },
+  {
+   "index": 106,
+   "path": "v2/media/2019/05/Circle-of-Fifths.png",
+   "chapter": "01-fundamentals/13-major-scales.md",
+   "caption": "Example 18. The circle of fifths for major keys.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "circle of fifths",
+   "size": [
+    1782,
+    1820
+   ]
+  },
+  {
+   "index": 107,
+   "path": "v2/media/2025/07/Yesterday-Beatles.png",
+   "chapter": "01-fundamentals/14-minor-scales.md",
+   "caption": "Example 1. An excerpt from “Yesterday” (1964) by Paul McCartney and John Lennon.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 4,
+   "voices": 1,
+   "texture": "single line",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 6,
+   "flags": [
+    "lyrics"
+   ],
+   "reason": "Yesterday melody",
+   "size": [
+    1152,
+    176
+   ]
+  },
+  {
+   "index": 108,
+   "path": "v2/media/2020/05/Screen-Shot-2020-06-11-at-11.20.05-AM.png",
+   "chapter": "01-fundamentals/14-minor-scales.md",
+   "caption": "Example 9. A B melodic minor scale.",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 2,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 6,
+   "flags": [
+    "labels"
+   ],
+   "reason": "B melodic minor with W/H brackets and degree names",
+   "size": [
+    1654,
+    616
+   ]
+  },
+  {
+   "index": 109,
+   "path": "v2/media/2020/05/Screen-Shot-2020-06-08-at-1.11.04-PM.png",
+   "chapter": "01-fundamentals/14-minor-scales.md",
+   "caption": "Example 11. The order of sharps and flats in all four clefs.",
+   "kind": "notation",
+   "staves": 8,
+   "bars": 0,
+   "voices": 0,
+   "texture": "glyphs",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "key-sig-only",
+    "dup-of:100",
+    "md5-identical:100"
+   ],
+   "reason": "byte-identical to #100",
+   "size": [
+    1024,
+    372
+   ]
+  },
+  {
+   "index": 110,
+   "path": "v2/media/2019/05/Screen-Shot-2020-06-08-at-1.51.08-PM-2-e1658435801975.png",
+   "chapter": "01-fundamentals/14-minor-scales.md",
+   "caption": null,
+   "kind": "notation",
+   "staves": 4,
+   "bars": 7,
+   "voices": 0,
+   "texture": "glyphs",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "key-sig-only",
+    "dup-of:104",
+    "near-duplicate:104"
+   ],
+   "reason": "same content as #104 (different screenshot)",
+   "size": [
+    955,
+    728
+   ]
+  },
+  {
+   "index": 111,
+   "path": "v2/media/2019/05/Screen-Shot-2020-06-08-at-1.57.09-PM-e1658435818939.png",
+   "chapter": "01-fundamentals/14-minor-scales.md",
+   "caption": null,
+   "kind": "notation",
+   "staves": 4,
+   "bars": 7,
+   "voices": 0,
+   "texture": "glyphs",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 6,
+   "flags": [
+    "key-sig-only",
+    "dup-of:105",
+    "near-duplicate:105"
+   ],
+   "reason": "flat key sigs (same as #105)",
+   "size": [
+    969,
+    727
+   ]
+  },
+  {
+   "index": 112,
+   "path": "v2/media/2020/05/Circle_of_fifths_deluxe_de.jpg",
+   "chapter": "01-fundamentals/14-minor-scales.md",
+   "caption": "Example 14. The circle of fifths for major and minor keys.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "circle of fifths with key sigs",
+   "size": [
+    2048,
+    1726
+   ],
+   "also_in": [
+    "03-diatonic-harmony/16-extended-tonicization-and-modulation-to-closely-related-keys.md"
+   ]
+  },
+  {
+   "index": 113,
+   "path": "v2/media/2020/05/reichardt.png",
+   "chapter": "01-fundamentals/14-minor-scales.md",
+   "caption": "Example 15. The first three measures of “Durch die bunten Rosenhecken.”",
+   "kind": "notation+annotation",
+   "staves": 3,
+   "bars": 3,
+   "voices": 3,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "omr+hand",
+   "effort_min": 15,
+   "flags": [
+    "lyrics",
+    "circled-notes"
+   ],
+   "reason": "Reichardt lied, voice+piano, 3 bars",
+   "size": [
+    2698,
+    824
+   ]
+  },
+  {
+   "index": 114,
+   "path": "v2/media/2020/05/Examples-for-OMT-05.png",
+   "chapter": "01-fundamentals/15-intro-to-diatonic-modes-and-the-chromatic-scale.md",
+   "caption": "Example 1. Relative darkness and brightness of modes.",
+   "kind": "text/other",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "mode brightness chart (text)",
+   "size": [
+    8133,
+    1207
+   ]
+  },
+  {
+   "index": 115,
+   "path": "v2/media/2019/05/simple-v-compound.png",
+   "chapter": "01-fundamentals/17-intervals.md",
+   "caption": "Example 9. A simple and compound interval.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 2,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "labels"
+   ],
+   "reason": "simple vs compound",
+   "size": [
+    1168,
+    544
+   ]
+  },
+  {
+   "index": 116,
+   "path": "v2/media/2019/05/inversion-3.png",
+   "chapter": "01-fundamentals/17-intervals.md",
+   "caption": "Example 10. Intervallic inversion.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 2,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "labels"
+   ],
+   "reason": "inversion",
+   "size": [
+    777,
+    384
+   ]
+  },
+  {
+   "index": 117,
+   "path": "v2/media/2019/05/imaginary.png",
+   "chapter": "01-fundamentals/17-intervals.md",
+   "caption": "Example 11. Inverting an interval may help with identification by putting a simpler note on the bottom.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 2,
+   "voices": 2,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "labels"
+   ],
+   "reason": "imaginary inversion",
+   "size": [
+    773,
+    290
+   ]
+  },
+  {
+   "index": 118,
+   "path": "v2/media/2019/05/white-key-sevenths.png",
+   "chapter": "01-fundamentals/17-intervals.md",
+   "caption": "Example 15. White-key sevenths.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 7,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "labels"
+   ],
+   "reason": "white-key sevenths",
+   "size": [
+    2497,
+    299
+   ]
+  },
+  {
+   "index": 119,
+   "path": "v2/media/2019/05/enh-eq.png",
+   "chapter": "01-fundamentals/17-intervals.md",
+   "caption": "Example 17. Use enharmonic equivalence to aid in identifying difficult intervals.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 2,
+   "voices": 2,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [],
+   "reason": "enharmonic equivalence",
+   "size": [
+    595,
+    228
+   ]
+  },
+  {
+   "index": 120,
+   "path": "v2/media/2022/07/Snowperson.png",
+   "chapter": "01-fundamentals/18-triads.md",
+   "caption": "Example 2. A snowperson.",
+   "kind": "photo",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "snowperson illustration",
+   "size": [
+    1280,
+    1280
+   ]
+  },
+  {
+   "index": 121,
+   "path": "v2/media/2019/05/Screen-Shot-2020-08-17-at-1.39.09-PM.png",
+   "chapter": "01-fundamentals/18-triads.md",
+   "caption": "Example 3. A triad with the root, third, and fifth labeled.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "labels"
+   ],
+   "reason": "triad members",
+   "size": [
+    795,
+    200
+   ]
+  },
+  {
+   "index": 122,
+   "path": "v2/media/2019/05/d-major.png",
+   "chapter": "01-fundamentals/18-triads.md",
+   "caption": "Example 8. Drawing a D major triad in four steps.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 4,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "step-sequence"
+   ],
+   "reason": "drawing D major triad",
+   "size": [
+    1795,
+    329
+   ]
+  },
+  {
+   "index": 123,
+   "path": "v2/media/2019/05/ab-minor.png",
+   "chapter": "01-fundamentals/18-triads.md",
+   "caption": "Example 9. Drawing an A♭ minor triad in five steps.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 5,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "step-sequence"
+   ],
+   "reason": "drawing Ab minor triad",
+   "size": [
+    2715,
+    316
+   ]
+  },
+  {
+   "index": 124,
+   "path": "v2/media/2020/05/chord-members.png",
+   "chapter": "01-fundamentals/19-seventh-chords.md",
+   "caption": "Example 2. A seventh chord with the root, third, fifth, and seventh labeled. Click to enlarge.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "labels"
+   ],
+   "reason": "seventh-chord members",
+   "size": [
+    834,
+    221
+   ]
+  },
+  {
+   "index": 125,
+   "path": "v2/media/2020/05/dmaj.png",
+   "chapter": "01-fundamentals/19-seventh-chords.md",
+   "caption": "Example 8. Spelling a D major-major seventh chord in four steps.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 4,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "step-sequence"
+   ],
+   "reason": "D MM7",
+   "size": [
+    1976,
+    298
+   ]
+  },
+  {
+   "index": 126,
+   "path": "v2/media/2020/05/abdim7.png",
+   "chapter": "01-fundamentals/19-seventh-chords.md",
+   "caption": "Example 9. Spelling an A♭ fully diminished seventh chord in six steps. Click to enlarge.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 6,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "step-sequence"
+   ],
+   "reason": "Ab o7",
+   "size": [
+    2699,
+    278
+   ]
+  },
+  {
+   "index": 127,
+   "path": "v2/media/2025/07/Ab-Minor-Triad-in-Inversion.png",
+   "chapter": "01-fundamentals/20-inversion.md",
+   "caption": "Example 3. Drawing an A♭ minor triad in first inversion in six steps.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 6,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "step-sequence"
+   ],
+   "reason": "Ab minor first inversion",
+   "size": [
+    1566,
+    172
+   ]
+  },
+  {
+   "index": 128,
+   "path": "v2/media/2025/07/D-Major-Major-Seventh-Chord-in-Inversion.png",
+   "chapter": "01-fundamentals/20-inversion.md",
+   "caption": "Example 8. Spelling a D major-major seventh chord in inversion in five steps.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 5,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "step-sequence"
+   ],
+   "reason": "D MM7 in inversion",
+   "size": [
+    1674,
+    206
+   ]
+  },
+  {
+   "index": 129,
+   "path": "v2/media/2020/05/Misc-47-scaled-e1658431640933.jpg",
+   "chapter": "01-fundamentals/21-roman-numerals.md",
+   "caption": "Example 2. The difference between handwritten and typed Roman numerals.",
+   "kind": "text/other",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "handwritten vs typed roman numerals",
+   "size": [
+    1248,
+    448
+   ]
+  },
+  {
+   "index": 130,
+   "path": "v2/media/2022/08/stemming.png",
+   "chapter": "01-fundamentals/23-chords-in-satb-style.md",
+   "caption": "Example 1. A stemming error.",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 2,
+   "voices": 4,
+   "texture": "chorale",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 4,
+   "flags": [
+    "incorrect-correct-pair",
+    "roman"
+   ],
+   "reason": "SATB stemming error",
+   "size": [
+    1355,
+    586
+   ]
+  },
+  {
+   "index": 131,
+   "path": "v2/media/2022/08/wrong-notes.png",
+   "chapter": "01-fundamentals/23-chords-in-satb-style.md",
+   "caption": "Example 2. A chord construction error.",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 2,
+   "voices": 4,
+   "texture": "chorale",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 4,
+   "flags": [
+    "incorrect-correct-pair",
+    "roman"
+   ],
+   "reason": "SATB wrong notes",
+   "size": [
+    1215,
+    578
+   ]
+  },
+  {
+   "index": 132,
+   "path": "v2/media/2022/08/range.png",
+   "chapter": "01-fundamentals/23-chords-in-satb-style.md",
+   "caption": "Example 3. Vocal ranges.",
+   "kind": "notation+annotation",
+   "staves": 4,
+   "bars": 4,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 4,
+   "flags": [
+    "labels",
+    "glissando-lines"
+   ],
+   "reason": "vocal ranges",
+   "size": [
+    2256,
+    888
+   ]
+  },
+  {
+   "index": 133,
+   "path": "v2/media/2020/05/too-high.png",
+   "chapter": "01-fundamentals/23-chords-in-satb-style.md",
+   "caption": "Example 4. A range error.",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 2,
+   "voices": 4,
+   "texture": "chorale",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 4,
+   "flags": [
+    "incorrect-correct-pair",
+    "roman"
+   ],
+   "reason": "SATB range error",
+   "size": [
+    1508,
+    750
+   ]
+  },
+  {
+   "index": 134,
+   "path": "v2/media/2022/08/spacing.png",
+   "chapter": "01-fundamentals/23-chords-in-satb-style.md",
+   "caption": "Example 15. A spacing error.",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 2,
+   "voices": 4,
+   "texture": "chorale",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 4,
+   "flags": [
+    "incorrect-correct-pair",
+    "roman"
+   ],
+   "reason": "SATB spacing error",
+   "size": [
+    1355,
+    665
+   ]
+  },
+  {
+   "index": 135,
+   "path": "v2/media/2022/08/voice-crossing.png",
+   "chapter": "01-fundamentals/23-chords-in-satb-style.md",
+   "caption": "Example 6. A voice crossing error.",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 2,
+   "voices": 4,
+   "texture": "chorale",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 4,
+   "flags": [
+    "incorrect-correct-pair",
+    "roman"
+   ],
+   "reason": "SATB voice crossing",
+   "size": [
+    1356,
+    689
+   ]
+  },
+  {
+   "index": 136,
+   "path": "v2/media/2022/08/doubled_lt.png",
+   "chapter": "01-fundamentals/23-chords-in-satb-style.md",
+   "caption": "Example 7. A doubling error.",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 2,
+   "voices": 4,
+   "texture": "chorale",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 4,
+   "flags": [
+    "incorrect-correct-pair",
+    "roman"
+   ],
+   "reason": "SATB doubled leading tone",
+   "size": [
+    1344,
+    673
+   ]
+  },
+  {
+   "index": 137,
+   "path": "v2/media/2019/05/Consonance.png",
+   "chapter": "02-counterpoint/01-species-counterpoint.md",
+   "caption": "Example 1. Perfect consonances, imperfect consonances, and dissonances.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 15,
+   "voices": 2,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 6,
+   "flags": [
+    "labels"
+   ],
+   "reason": "consonance/dissonance dyads (counterpoint)",
+   "size": [
+    2299,
+    303
+   ]
+  },
+  {
+   "index": 138,
+   "path": "v2/media/2019/05/Outlining-1.png",
+   "chapter": "02-counterpoint/01-species-counterpoint.md",
+   "caption": "Example 4. Melodic outlinings.",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 8,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 8,
+   "flags": [
+    "labels",
+    "brackets"
+   ],
+   "reason": "melodic outlinings (counterpoint)",
+   "size": [
+    2772,
+    942
+   ]
+  },
+  {
+   "index": 139,
+   "path": "v2/media/2020/01/consonant.png",
+   "chapter": "02-counterpoint/03-second-species-counterpoint.md",
+   "caption": "Example 2. Examples of consonant weak beat types, above and below a cantus firmus.",
+   "kind": "notation+annotation",
+   "staves": 14,
+   "bars": 28,
+   "voices": 2,
+   "texture": "chorale",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "hand",
+   "effort_min": 25,
+   "flags": [
+    "labels",
+    "tall-image"
+   ],
+   "reason": "2nd-species consonant weak-beat types, 7 pairs of 2-voice examples",
+   "size": [
+    1555,
+    5123
+   ]
+  },
+  {
+   "index": 140,
+   "path": "v2/media/2020/01/Dissonance.png",
+   "chapter": "02-counterpoint/04-third-species-counterpoint.md",
+   "caption": "Example 2. Third-species dissonance types.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 8,
+   "voices": 2,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 6,
+   "flags": [
+    "labels"
+   ],
+   "reason": "3rd-species dissonance types",
+   "size": [
+    2772,
+    396
+   ]
+  },
+  {
+   "index": 141,
+   "path": "v2/media/2019/09/Phrase_Model.png",
+   "chapter": "03-diatonic-harmony/01-intro-to-harmony.md",
+   "caption": "Example 1. The phrase model: (a) the minimum functions needed to create forward motion, (b) more common functional layout for a phrase (the final tonic is optional), (c) harmonic functions do not progress right to left.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "phrase-model T-PD-D diagram",
+   "size": [
+    563,
+    365
+   ]
+  },
+  {
+   "index": 142,
+   "path": "v2/media/2019/09/Example_3_Cadence_Strength_Spectrum.png",
+   "chapter": "03-diatonic-harmony/01-intro-to-harmony.md",
+   "caption": "Diagram",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "cadence strength spectrum",
+   "size": [
+    504,
+    91
+   ]
+  },
+  {
+   "index": 143,
+   "path": "v2/media/2020/07/Generic_Embellishing_Tone_Layout.png",
+   "chapter": "03-diatonic-harmony/04-embellishing-tones.md",
+   "caption": "Example 2. Common three-note layout of most embellishing tones.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "labels",
+    "arrows"
+   ],
+   "reason": "embellishing tone layout",
+   "size": [
+    1704,
+    518
+   ]
+  },
+  {
+   "index": 144,
+   "path": "v2/media/2025/07/Diatonic_Sequences_Patterns_Illustration.png",
+   "chapter": "03-diatonic-harmony/14-diatonic-sequences.md",
+   "caption": "image",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "circles/squares pattern (sequence concept)",
+   "size": [
+    377,
+    234
+   ]
+  },
+  {
+   "index": 145,
+   "path": "v2/media/2019/05/resolving.png",
+   "chapter": "03-diatonic-harmony/15-tonicization.md",
+   "caption": "Example 6. If the applied chord is proceeding to another seventh chord, the secondary leading tone may resolve downward, instead of upward like a leading tone normally would, into the seventh of the next chord.",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 3,
+   "voices": 4,
+   "texture": "chorale",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 4,
+   "flags": [
+    "roman"
+   ],
+   "reason": "V7/V-V7-I secondary leading tone",
+   "size": [
+    1244,
+    601
+   ]
+  },
+  {
+   "index": 146,
+   "path": "v2/media/2020/08/pivots.png",
+   "chapter": "03-diatonic-harmony/16-extended-tonicization-and-modulation-to-closely-related-keys.md",
+   "caption": "diagram",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "pivot-chord table",
+   "size": [
+    425,
+    264
+   ]
+  },
+  {
+   "index": 147,
+   "path": "v2/media/2020/08/spectrum.png",
+   "chapter": "03-diatonic-harmony/16-extended-tonicization-and-modulation-to-closely-related-keys.md",
+   "caption": null,
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "tonicization-modulation spectrum",
+   "size": [
+    580,
+    86
+   ]
+  },
+  {
+   "index": 148,
+   "path": "v2/media/2019/05/Form_Hierarchy.png",
+   "chapter": "04-form/01-foundational-concepts.md",
+   "caption": "Example 1 . Hierarchy of form in classical music.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "form hierarchy",
+   "size": [
+    1596,
+    1107
+   ]
+  },
+  {
+   "index": 149,
+   "path": "v2/media/2019/05/Not_a_Motive-1.png",
+   "chapter": "04-form/01-foundational-concepts.md",
+   "caption": "Example 5. Beethoven, Symphony 5, I, mm. 1–13 (0:00–0:17) . The boxed measures indicate something that is too long to be considered a motive.",
+   "kind": "notation+annotation",
+   "staves": 5,
+   "bars": 8,
+   "voices": 5,
+   "texture": "ensemble",
+   "source": "repertoire",
+   "legibility": "fair",
+   "recommendation": "omr",
+   "effort_min": 25,
+   "flags": [
+    "scan",
+    "box"
+   ],
+   "reason": "Beethoven 5 strings, mm. 1-13 \"not a motive\"",
+   "size": [
+    2149,
+    848
+   ]
+  },
+  {
+   "index": 150,
+   "path": "v2/media/2019/06/Example_001-e1623944080164.png",
+   "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+   "caption": "Example 1. A segmentation analysis of a phrase of common length in Schubert, “Du bist die Ruh” (0:21–0:32) .",
+   "kind": "notation+annotation",
+   "staves": 3,
+   "bars": 4,
+   "voices": 3,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "fair",
+   "recommendation": "omr+hand",
+   "effort_min": 5,
+   "flags": [
+    "scan",
+    "lyrics",
+    "form-brackets",
+    "greyed-intro",
+    "same-score:160"
+   ],
+   "reason": "Schubert Du bist die Ruh, 4 bars; derive from #160",
+   "size": [
+    826,
+    353
+   ]
+  },
+  {
+   "index": 151,
+   "path": "v2/media/2019/06/Example_002-e1623944015483.png",
+   "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+   "caption": "Example 2. A segmentation analysis of a phrase of unique length in Fanny Hensel, “Abendbild” (0:00–0:40).",
+   "kind": "notation+annotation",
+   "staves": 3,
+   "bars": 10,
+   "voices": 3,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "fair",
+   "recommendation": "omr+hand",
+   "effort_min": 30,
+   "flags": [
+    "scan",
+    "lyrics",
+    "form-brackets",
+    "same-score:162"
+   ],
+   "reason": "Hensel lied segmentation (same score as #162)",
+   "size": [
+    990,
+    787
+   ]
+  },
+  {
+   "index": 152,
+   "path": "v2/media/2019/06/Example_004-e1623944801914.png",
+   "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+   "caption": "Example 3. A phrase divided into (a) ideas only, and (b) subphrases and ideas.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "form-brackets"
+   ],
+   "reason": "phrase/idea level brackets",
+   "size": [
+    840,
+    423
+   ]
+  },
+  {
+   "index": 153,
+   "path": "v2/media/2019/06/Example_005_Spectrum-e1623945151228.png",
+   "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+   "caption": "A double-headed arrow. At one end if the term \"unique forms\" at the other end is the term \"archetypes\"",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "unique-archetype spectrum arrow",
+   "size": [
+    1086,
+    90
+   ]
+  },
+  {
+   "index": 154,
+   "path": "v2/media/2019/06/Example_005-150x150.png",
+   "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+   "caption": "EXAMPLE 6 . A sentence at the beginning of Louise Farrenc, Cello Sonata, II (0:00–0:28) .",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 8,
+   "voices": 2,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "fair",
+   "recommendation": "omr+hand",
+   "effort_min": 20,
+   "flags": [
+    "thumbnail-150px",
+    "full-size-local:media/2019/06/Example_005-e1623945293487.png"
+   ],
+   "reason": "Farrenc sentence, piano+flute(?) 8 bars; use the full-size local file",
+   "size": [
+    150,
+    150
+   ]
+  },
+  {
+   "index": 155,
+   "path": "v2/media/2019/06/Example_006-e1659277976559.png",
+   "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+   "caption": "Example 7. Common sentence lengths.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "form-brackets"
+   ],
+   "reason": "common sentence lengths",
+   "size": [
+    556,
+    724
+   ]
+  },
+  {
+   "index": 156,
+   "path": "v2/media/2019/06/Example_007-e1623945514247.png",
+   "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+   "caption": "Example 8. A hypothetical sentence with a continuation that’s longer than the presentation.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "form-brackets"
+   ],
+   "reason": "hypothetical sentence brackets",
+   "size": [
+    689,
+    217
+   ]
+  },
+  {
+   "index": 157,
+   "path": "v2/media/2019/06/Example_008-e1623945581474.png",
+   "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+   "caption": "Example 9. A sentence without fragmentation in Beethoven, Polonaise for Military Band (0:00–0:06) .",
+   "kind": "notation+annotation",
+   "staves": 14,
+   "bars": 4,
+   "voices": 14,
+   "texture": "ensemble",
+   "source": "repertoire",
+   "legibility": "poor",
+   "recommendation": "omr",
+   "effort_min": 40,
+   "flags": [
+    "scan",
+    "form-brackets"
+   ],
+   "reason": "Beethoven 9 finale (orchestra) sentence",
+   "size": [
+    1144,
+    623
+   ]
+  },
+  {
+   "index": 158,
+   "path": "v2/media/2019/06/Example_009-e1623945687930.png",
+   "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+   "caption": "Example 10. A sentence whose continuation doesn’t exhibit fragmentation in Beethoven, Piano Sonata no. 4, Op. 7, II (0:00–0:45) .",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 8,
+   "voices": 3,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "fair",
+   "recommendation": "omr+hand",
+   "effort_min": 20,
+   "flags": [
+    "scan",
+    "form-brackets"
+   ],
+   "reason": "Beethoven sonata sentence",
+   "size": [
+    1093,
+    730
+   ]
+  },
+  {
+   "index": 159,
+   "path": "v2/media/2019/06/Example_010-e1623945819436.png",
+   "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+   "caption": "Example 11. A period in Mozart’s Clarinet Concerto, III (0:00–0:11) .",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 8,
+   "voices": 2,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "fair",
+   "recommendation": "omr+hand",
+   "effort_min": 20,
+   "flags": [
+    "scan",
+    "form-brackets"
+   ],
+   "reason": "Mozart Clarinet Concerto III period (reduction)",
+   "size": [
+    952,
+    626
+   ]
+  },
+  {
+   "index": 160,
+   "path": "v2/media/2019/06/Example_011-150x150.png",
+   "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+   "caption": "Example 12. A repeated phrase in Schubert’s “Du bist die Ruh” (0:22–0:44) .",
+   "kind": "notation+annotation",
+   "staves": 3,
+   "bars": 8,
+   "voices": 3,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "fair",
+   "recommendation": "omr+hand",
+   "effort_min": 15,
+   "flags": [
+    "thumbnail-150px",
+    "full-size-local:media/2019/06/Example_011-e1623945999625.png",
+    "same-score:150"
+   ],
+   "reason": "Schubert Du bist die Ruh repeated phrase, voice+piano 8 bars; use full-size file",
+   "size": [
+    150,
+    150
+   ]
+  },
+  {
+   "index": 161,
+   "path": "v2/media/2019/06/Example_012-150x150.png",
+   "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+   "caption": "Example 13. A compound period in Christian Petzold’s Minuet in G Major (0:00–0:25).",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 16,
+   "voices": 2,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "omr+hand",
+   "effort_min": 15,
+   "flags": [
+    "thumbnail-150px",
+    "full-size-local:media/2019/06/Example_012-e1623946034206.png"
+   ],
+   "reason": "Petzold Minuet in G, compound period, 16 bars 2 voices; clean scan",
+   "size": [
+    150,
+    150
+   ]
+  },
+  {
+   "index": 162,
+   "path": "v2/media/2019/06/Example_013-e1623946067355.png",
+   "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+   "caption": "Example 14. A unique phrase-level form in Fanny Hensel’s “Abendbild” (0:00–0:40) .",
+   "kind": "notation+annotation",
+   "staves": 3,
+   "bars": 10,
+   "voices": 3,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "fair",
+   "recommendation": "omr+hand",
+   "effort_min": 8,
+   "flags": [
+    "scan",
+    "lyrics",
+    "form-brackets",
+    "same-score:151"
+   ],
+   "reason": "Hensel lied; same score as #151, only annotations differ",
+   "size": [
+    1001,
+    787
+   ]
+  },
+  {
+   "index": 163,
+   "path": "v2/media/2019/07/Example_001_AntCont-e1623950650588.png",
+   "chapter": "04-form/03-hybrid-phrase-level-forms.md",
+   "caption": "Example 1. An antecedent + continuation in Beethoven, Piano Sonata Op. 13, II, mm. 1–8 ( 0:00–0:32 ).",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 8,
+   "voices": 3,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "fair",
+   "recommendation": "omr+hand",
+   "effort_min": 20,
+   "flags": [
+    "scan",
+    "form-brackets"
+   ],
+   "reason": "Beethoven sonata antecedent+continuation",
+   "size": [
+    1074,
+    539
+   ]
+  },
+  {
+   "index": 164,
+   "path": "v2/media/2019/07/Example_002a_compound_basic_idea-e1623951301511.png",
+   "chapter": "04-form/03-hybrid-phrase-level-forms.md",
+   "caption": "Example 2. A compound basic idea in Haydn’s Piano Sonata in C, Hob. XVI:35, I, mm. 1–8 ( 0:00–0:05 ).",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 4,
+   "voices": 3,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 4,
+   "flags": [
+    "form-brackets",
+    "subset-of:167"
+   ],
+   "reason": "Haydn CBI, first 4 bars of #167",
+   "size": [
+    549,
+    304
+   ]
+  },
+  {
+   "index": 165,
+   "path": "v2/media/2019/07/Example_004a_cadential-e1623951336715.png",
+   "chapter": "04-form/03-hybrid-phrase-level-forms.md",
+   "caption": "Example 4. A cadential ending in Haydn, String Quartet Op. 64, No. 4, II, mm. 1–8 ( 0:05–0:10 ).",
+   "kind": "notation+annotation",
+   "staves": 4,
+   "bars": 8,
+   "voices": 4,
+   "texture": "ensemble",
+   "source": "repertoire",
+   "legibility": "fair",
+   "recommendation": "omr+hand",
+   "effort_min": 25,
+   "flags": [
+    "scan",
+    "form-brackets",
+    "greyed",
+    "bass-degrees"
+   ],
+   "reason": "Haydn quartet cadential ending",
+   "size": [
+    822,
+    605
+   ]
+  },
+  {
+   "index": 166,
+   "path": "v2/media/2019/07/Example_008_antcont-e1623950775418.png",
+   "chapter": "04-form/03-hybrid-phrase-level-forms.md",
+   "caption": "An antecedent + continuation in Beethoven's Piano Sonata Opus 13, movement 2, measures 1-8.",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 8,
+   "voices": 3,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "fair",
+   "recommendation": "omr+hand",
+   "effort_min": 5,
+   "flags": [
+    "scan",
+    "form-brackets",
+    "crop-of:163",
+    "same-excerpt:163"
+   ],
+   "reason": "Beethoven ant+cont; same excerpt as #163, re-annotate",
+   "size": [
+    1060,
+    535
+   ]
+  },
+  {
+   "index": 167,
+   "path": "v2/media/2019/07/Example_009a_CBIcont-e1623951374474.png",
+   "chapter": "04-form/03-hybrid-phrase-level-forms.md",
+   "caption": "A compound basic idea + continuation in Haydn, Piano Sonata Hob. XVI:35, I, mm. 1–8.",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 8,
+   "voices": 3,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "omr+hand",
+   "effort_min": 18,
+   "flags": [
+    "form-brackets",
+    "crop-of:164",
+    "superset-of:164"
+   ],
+   "reason": "Haydn CBI+continuation (extends #164)",
+   "size": [
+    1088,
+    542
+   ]
+  },
+  {
+   "index": 168,
+   "path": "v2/media/2019/07/Example_010_antece-e1623951152615.png",
+   "chapter": "04-form/03-hybrid-phrase-level-forms.md",
+   "caption": "An antecedent + extended cadential ending in Haydn's String Quartet Opus 64, number 4, movement 2, measures 1-8",
+   "kind": "notation+annotation",
+   "staves": 4,
+   "bars": 8,
+   "voices": 4,
+   "texture": "ensemble",
+   "source": "repertoire",
+   "legibility": "fair",
+   "recommendation": "omr+hand",
+   "effort_min": 25,
+   "flags": [
+    "scan",
+    "form-brackets",
+    "crop-of:165",
+    "same-work:165"
+   ],
+   "reason": "Haydn quartet antecedent+extended cadential (same quartet as #165)",
+   "size": [
+    815,
+    630
+   ]
+  },
+  {
+   "index": 169,
+   "path": "v2/media/2019/07/Example_011_cbece-e1623951115962.png",
+   "chapter": "04-form/03-hybrid-phrase-level-forms.md",
+   "caption": "A contrasting beginning + extended cadential ending in Haydn's Symphony 95, Movement 3, measures 1-8",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 8,
+   "voices": 2,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "omr+hand",
+   "effort_min": 15,
+   "flags": [
+    "form-brackets"
+   ],
+   "reason": "contrasting beginning + extended cadential (minuet)",
+   "size": [
+    805,
+    514
+   ]
+  },
+  {
+   "index": 170,
+   "path": "v2/media/2019/07/Example_012_cbcons-e1623951073372.png",
+   "chapter": "04-form/03-hybrid-phrase-level-forms.md",
+   "caption": "A contrasting beginning + consequent in Haydn's Symphony 87, movement 3, measures 1-8",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 8,
+   "voices": 3,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "omr+hand",
+   "effort_min": 15,
+   "flags": [
+    "form-brackets"
+   ],
+   "reason": "Haydn symphony CB+consequent (reduction)",
+   "size": [
+    822,
+    528
+   ]
+  },
+  {
+   "index": 171,
+   "path": "v2/media/2019/07/Example_013a_Listening_Diagram_Caplin.png",
+   "chapter": "04-form/03-hybrid-phrase-level-forms.md",
+   "caption": "Example 13. Suggested process for listening to phrase-level forms: (a) what to listen for in beginnings, and (b) what to listen for in endings.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "listening flowchart",
+   "size": [
+    1400,
+    1337
+   ]
+  },
+  {
+   "index": 172,
+   "path": "v2/media/2019/07/Example_001_Repetition_Sheldon_Bright_Lights.png",
+   "chapter": "04-form/04-expansion-and-contraction.md",
+   "caption": "Example 1 . Internal expansion via exact repetition in Robert Sheldon’s Bright Lights! ( 0:49–1:03 ).",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 10,
+   "voices": 1,
+   "texture": "single line",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 12,
+   "flags": [
+    "form-brackets",
+    "circles"
+   ],
+   "reason": "Sheldon \"Bright Lights\" flute part, exact repetition",
+   "size": [
+    1400,
+    788
+   ]
+  },
+  {
+   "index": 173,
+   "path": "v2/media/2021/06/combined-Example_002b_Repetition_Mozart_447-3.png",
+   "chapter": "04-form/04-expansion-and-contraction.md",
+   "caption": "Example 2. Internal expansion via varied repetition in Mozart’s Horn Concerto, K. 447, I, mm. 1–9 ( 0:00–0:18 ).",
+   "kind": "notation+annotation",
+   "staves": 12,
+   "bars": 12,
+   "voices": 12,
+   "texture": "ensemble",
+   "source": "repertoire",
+   "legibility": "poor",
+   "recommendation": "omr",
+   "effort_min": 45,
+   "flags": [
+    "scan",
+    "form-brackets"
+   ],
+   "reason": "orchestral varied repetition (two systems)",
+   "size": [
+    1400,
+    1466
+   ]
+  },
+  {
+   "index": 174,
+   "path": "v2/media/2019/07/Example_003a_Stretching_Schubert_459.png",
+   "chapter": "04-form/04-expansion-and-contraction.md",
+   "caption": "Example 3. Internal expansion via stretching in Schubert’s Piano Sonata D. 459, I, mm. 1–9 ( 0:00–0:17 ).",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 9,
+   "voices": 3,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "fair",
+   "recommendation": "omr+hand",
+   "effort_min": 22,
+   "flags": [
+    "scan",
+    "form-brackets",
+    "roman",
+    "greyed"
+   ],
+   "reason": "Schubert stretching, Ger+6",
+   "size": [
+    1400,
+    788
+   ]
+  },
+  {
+   "index": 175,
+   "path": "v2/media/2019/07/Slide5-6.png",
+   "chapter": "04-form/04-expansion-and-contraction.md",
+   "caption": "Example 4. Internal expansion via the one-more-time technique in Mendelssohn, Op. 8, no. 5, “Pilgerspruch” ( 0:00–0:37 ).",
+   "kind": "notation+annotation",
+   "staves": 3,
+   "bars": 12,
+   "voices": 3,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "fair",
+   "recommendation": "omr+hand",
+   "effort_min": 35,
+   "flags": [
+    "scan",
+    "lyrics",
+    "form-brackets"
+   ],
+   "reason": "lied one-more-time technique",
+   "size": [
+    1400,
+    1138
+   ]
+  },
+  {
+   "index": 176,
+   "path": "v2/media/2019/07/Slide8-10.png",
+   "chapter": "04-form/04-expansion-and-contraction.md",
+   "caption": "Example 5. Internal expansion via alternative path (detour) in Mendelssohn, Hebrides Overture, mm. 9–26 ( 0:20–0:58 ).",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 20,
+   "voices": 3,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "poor",
+   "recommendation": "omr+hand",
+   "effort_min": 40,
+   "flags": [
+    "scan",
+    "form-brackets"
+   ],
+   "reason": "alternative path (deterioration), 5 systems",
+   "size": [
+    1400,
+    1894
+   ]
+  },
+  {
+   "index": 177,
+   "path": "v2/media/2019/07/Slide10-11.png",
+   "chapter": "04-form/04-expansion-and-contraction.md",
+   "caption": "Example 6. Internal expansion via alternative path (reroute) in Maria Theresia von Paradis, Sicilienne, mm. 1–10 ( 0:00–0:42 ).",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 12,
+   "voices": 3,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "fair",
+   "recommendation": "omr+hand",
+   "effort_min": 30,
+   "flags": [
+    "scan",
+    "form-brackets"
+   ],
+   "reason": "alternative path (reroute)",
+   "size": [
+    1046,
+    1095
+   ]
+  },
+  {
+   "index": 178,
+   "path": "v2/media/2019/07/Slide12-13.png",
+   "chapter": "04-form/04-expansion-and-contraction.md",
+   "caption": "Example 7. External expansion via small prefix in Cécile Chaminade, “L’amour captif,” mm. 1–10 ( 0:00–0:13 ).",
+   "kind": "notation+annotation",
+   "staves": 3,
+   "bars": 10,
+   "voices": 3,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "fair",
+   "recommendation": "omr+hand",
+   "effort_min": 30,
+   "flags": [
+    "scan",
+    "lyrics",
+    "form-brackets"
+   ],
+   "reason": "Chaminade song prefix",
+   "size": [
+    1006,
+    1279
+   ]
+  },
+  {
+   "index": 179,
+   "path": "v2/media/2019/07/Example_010_Chaminade_Presents-150x150.png",
+   "chapter": "04-form/04-expansion-and-contraction.md",
+   "caption": "Notation",
+   "kind": "notation+annotation",
+   "staves": 3,
+   "bars": 8,
+   "voices": 3,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "fair",
+   "recommendation": "omr+hand",
+   "effort_min": 25,
+   "flags": [
+    "thumbnail-150px",
+    "full-size-local:media/2019/07/Example_010_Chaminade_Presents-e1623956324859.png"
+   ],
+   "reason": "Chaminade period + suffix, voice+piano 8 bars; use full-size file",
+   "size": [
+    150,
+    150
+   ]
+  },
+  {
+   "index": 180,
+   "path": "v2/media/2019/07/Example_011_codetta_Beethoven_2_1-e1623956414121.png",
+   "chapter": "04-form/04-expansion-and-contraction.md",
+   "caption": "Notation",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 10,
+   "voices": 3,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "fair",
+   "recommendation": "omr+hand",
+   "effort_min": 25,
+   "flags": [
+    "scan",
+    "form-brackets",
+    "fingering"
+   ],
+   "reason": "Beethoven codetta (suffix)",
+   "size": [
+    1085,
+    787
+   ]
+  },
+  {
+   "index": 181,
+   "path": "v2/media/2019/07/Example_013_Contraction_Elmas_PC_1_III-150x150.png",
+   "chapter": "04-form/04-expansion-and-contraction.md",
+   "caption": "Example 12. Contraction in Stéphan Elmas, Piano Concerto No. 1, III, mm. 15–21 ( 32:21–32:28 ).",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 6,
+   "voices": 2,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "illegible",
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "thumbnail-150px",
+    "refetch:drop -150x150 from URL"
+   ],
+   "reason": "Elmas contraction; only 150px thumbnail local, full size must be re-downloaded",
+   "size": [
+    150,
+    150
+   ]
+  },
+  {
+   "index": 182,
+   "path": "v2/media/2021/07/hierarchy_of_form_jarvis_02.png",
+   "chapter": "04-form/05-formal-sections-in-general.md",
+   "caption": "Example 1. Core versus auxiliary formal sections.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "core vs auxiliary sections chart",
+   "size": [
+    3702,
+    2139
+   ]
+  },
+  {
+   "index": 183,
+   "path": "v2/media/2020/04/reprises-diagram.png",
+   "chapter": "04-form/06-binary-form.md",
+   "caption": "Diagram of binary form repeat structure with each reprise labeled. 𝄆 first reprise 𝄇𝄆 second reprise 𝄇",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "binary reprises",
+   "size": [
+    833,
+    471
+   ]
+  },
+  {
+   "index": 184,
+   "path": "v2/media/2020/04/binary-form-diagrams-overview.png",
+   "chapter": "04-form/06-binary-form.md",
+   "caption": "Table of binary form options",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "binary form options table",
+   "size": [
+    2106,
+    1399
+   ]
+  },
+  {
+   "index": 185,
+   "path": "v2/media/2020/04/rounded-binary-diagram.png",
+   "chapter": "04-form/06-binary-form.md",
+   "caption": "Diagram of rounded binary form. 𝄆A𝄇𝄆BA′𝄇",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "rounded binary",
+   "size": [
+    1327,
+    302
+   ]
+  },
+  {
+   "index": 186,
+   "path": "v2/media/2020/04/simple-binary-a-b.png",
+   "chapter": "04-form/06-binary-form.md",
+   "caption": "Diagram of simple binary form where 2nd reprise contrasts with A. 𝄆A𝄇𝄆B𝄇",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "simple binary",
+   "size": [
+    1321,
+    275
+   ]
+  },
+  {
+   "index": 187,
+   "path": "v2/media/2020/04/simple-binary-a-a.png",
+   "chapter": "04-form/06-binary-form.md",
+   "caption": "Diagram of simple binary form where 2nd reprise continues A's material. 𝄆A𝄇𝄆A′𝄇",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "simple binary",
+   "size": [
+    1321,
+    272
+   ]
+  },
+  {
+   "index": 188,
+   "path": "v2/media/2020/04/simple-binary-a-a-balanced.png",
+   "chapter": "04-form/06-binary-form.md",
+   "caption": "Diagram of simple binary form with balanced aspect where 2nd reprise continues A's material. 𝄆A(x)𝄇𝄆A′(x)𝄇",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "simple binary balanced",
+   "size": [
+    1321,
+    272
+   ]
+  },
+  {
+   "index": 189,
+   "path": "v2/media/2020/04/simple-binary-a-b-balanced.png",
+   "chapter": "04-form/06-binary-form.md",
+   "caption": "Diagram of simple binary form with balanced aspect where the second reprise contrasts with A's material. 𝄆A(x)𝄇𝄆B(x)𝄇",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "simple binary balanced",
+   "size": [
+    1317,
+    271
+   ]
+  },
+  {
+   "index": 190,
+   "path": "v2/media/2020/04/rounded-binary-diagram-balanced.png",
+   "chapter": "04-form/06-binary-form.md",
+   "caption": "Diagram of rounded binary form with balanced aspect. 𝄆A(x)𝄇𝄆BA′(x)𝄇",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "rounded binary balanced",
+   "size": [
+    1321,
+    292
+   ]
+  },
+  {
+   "index": 191,
+   "path": "v2/media/2020/04/sonata-largest-level-2.png",
+   "chapter": "04-form/08-sonata-form.md",
+   "caption": "Example 1. Sonata form at the largest level.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "sonata largest level",
+   "size": [
+    865,
+    258
+   ]
+  },
+  {
+   "index": 192,
+   "path": "v2/media/2020/04/sonata-form-complete.png",
+   "chapter": "04-form/08-sonata-form.md",
+   "caption": "Example 2. Standard formal layout of a complete sonata form.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "sonata form layout",
+   "size": [
+    1033,
+    382
+   ]
+  },
+  {
+   "index": 193,
+   "path": "v2/media/2020/04/sonata-exposition.png",
+   "chapter": "04-form/08-sonata-form.md",
+   "caption": "Example 3. Standard formal layout of a sonata exposition.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "sonata exposition layout",
+   "size": [
+    401,
+    456
+   ]
+  },
+  {
+   "index": 194,
+   "path": "v2/media/2020/04/sonata-form-mc-eec-esc.png",
+   "chapter": "04-form/08-sonata-form.md",
+   "caption": null,
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "MC/EEC/ESC diagram",
+   "size": [
+    1292,
+    675
+   ]
+  },
+  {
+   "index": 195,
+   "path": "v2/media/2019/05/rondo-combined.png",
+   "chapter": "04-form/09-rondo.md",
+   "caption": "Example 1. General outline of five-part rondo and sonata-rondo forms.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "rondo outline",
+   "size": [
+    1434,
+    1010
+   ]
+  },
+  {
+   "index": 196,
+   "path": "v2/media/2020/01/chromatic-modulation-closely-related-keys.png",
+   "chapter": "05-chromaticism/06-reinterpreting-augmented-sixth-chords.md",
+   "caption": null,
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 14,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 8,
+   "flags": [
+    "roman",
+    "chord-names",
+    "highlight"
+   ],
+   "reason": "common chords C and G major (closely related keys)",
+   "size": [
+    1843,
+    883
+   ]
+  },
+  {
+   "index": 197,
+   "path": "v2/media/2020/01/distantly-related-keys-mixture-to-diatonic.png",
+   "chapter": "05-chromaticism/06-reinterpreting-augmented-sixth-chords.md",
+   "caption": null,
+   "kind": "notation+annotation",
+   "staves": 3,
+   "bars": 21,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 10,
+   "flags": [
+    "roman",
+    "chord-names",
+    "highlight"
+   ],
+   "reason": "Eb major/c minor/C major chords in common",
+   "size": [
+    2084,
+    1143
+   ]
+  },
+  {
+   "index": 198,
+   "path": "v2/media/2020/01/distantly-related-keys-diatonic-to-mixture.png",
+   "chapter": "05-chromaticism/06-reinterpreting-augmented-sixth-chords.md",
+   "caption": null,
+   "kind": "notation+annotation",
+   "staves": 3,
+   "bars": 21,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 10,
+   "flags": [
+    "roman",
+    "chord-names",
+    "highlight"
+   ],
+   "reason": "A major/a minor/C chords in common",
+   "size": [
+    2178,
+    1148
+   ]
+  },
+  {
+   "index": 199,
+   "path": "v2/media/2020/01/Atlas.png",
+   "chapter": "05-chromaticism/07-augmented-options.md",
+   "caption": "Example 1. Extract from the start of Schubert’s “Der Atlas” (from Schwanengesang , D.957), showing the augmented triad III+ (possibly, depending on your analytical viewpoint) and certainly how closely related this chord is to both V and i.",
+   "kind": "notation",
+   "staves": 3,
+   "bars": 3,
+   "voices": 3,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "omr+hand",
+   "effort_min": 15,
+   "flags": [
+    "tremolo"
+   ],
+   "reason": "Schubert Der Atlas opening, piano tremolo",
+   "size": [
+    2603,
+    847
+   ]
+  },
+  {
+   "index": 200,
+   "path": "v2/media/2020/01/Bach.png",
+   "chapter": "05-chromaticism/07-augmented-options.md",
+   "caption": "Example 2. A prominent augmented chord in the “Fecit Potentiam” of Bach’s Magnificat with a possible harmonic reading of this passage that sees the augmented triad setting up a deceptive cadence in the middle of a passage in V minor enclosed by two secondary dominants, vii o7 /v.",
+   "kind": "notation+annotation",
+   "staves": 7,
+   "bars": 4,
+   "voices": 7,
+   "texture": "ensemble",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "omr+hand",
+   "effort_min": 25,
+   "flags": [
+    "lyrics",
+    "roman",
+    "reduction"
+   ],
+   "reason": "Bach Magnificat Fecit potentiam, 5 voices + reduction",
+   "size": [
+    2268,
+    1643
+   ]
+  },
+  {
+   "index": 201,
+   "path": "v2/media/2020/01/Hensel-Extract.png",
+   "chapter": "05-chromaticism/07-augmented-options.md",
+   "caption": "Example 3. Extract from Fanny Mendelssohn Hensel’s Gondellied (6 Lieder, Op. 1, no. 6)",
+   "kind": "notation",
+   "staves": 3,
+   "bars": 4,
+   "voices": 3,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "omr+hand",
+   "effort_min": 15,
+   "flags": [
+    "lyrics"
+   ],
+   "reason": "Hensel Gondellied extract",
+   "size": [
+    2000,
+    632
+   ]
+  },
+  {
+   "index": 202,
+   "path": "v2/media/2019/07/brahms-concerto-for-vln-vc-268-79.png",
+   "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+   "caption": "Example 1. Brahms, Concerto for Violin and Cello, I, mm. 268–79 (10:22) .",
+   "kind": "notation",
+   "staves": 6,
+   "bars": 8,
+   "voices": 6,
+   "texture": "ensemble",
+   "source": "repertoire",
+   "legibility": "poor",
+   "recommendation": "omr",
+   "effort_min": 35,
+   "flags": [
+    "scan"
+   ],
+   "reason": "Brahms Double Concerto mm. 268ff (full score)",
+   "size": [
+    2202,
+    1368
+   ]
+  },
+  {
+   "index": 203,
+   "path": "v2/media/2019/07/brahms_vc_vln_concerto_reduction.png",
+   "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+   "caption": "Example 2. Brahms, Concerto for Violin and Cello, I, mm. 270–76, reduction.",
+   "kind": "notation",
+   "staves": 2,
+   "bars": 7,
+   "voices": 4,
+   "texture": "chorale",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 5,
+   "flags": [],
+   "reason": "Brahms reduction (chord progression)",
+   "size": [
+    2364,
+    384
+   ]
+  },
+  {
+   "index": 204,
+   "path": "v2/media/2019/07/NROs_-_basic_voice_leading_examples-PLR.png",
+   "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+   "caption": "Example 3. The three basic Neo-Riemannian operations: Relative, Parallel, and Leading-Tone Exchange.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 6,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 4,
+   "flags": [
+    "labels",
+    "arrows"
+   ],
+   "reason": "R, P, L operations",
+   "size": [
+    2373,
+    280
+   ]
+  },
+  {
+   "index": 205,
+   "path": "v2/media/2019/07/multiple-L-transforms.png",
+   "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+   "caption": "Example 4. Successive L transformations on C major and E minor triads.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 7,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "labels"
+   ],
+   "reason": "successive L transforms",
+   "size": [
+    2257,
+    263
+   ]
+  },
+  {
+   "index": 206,
+   "path": "v2/media/2019/07/tonnetz.png",
+   "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+   "caption": "Example 5. The Tonnetz.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "Tonnetz",
+   "size": [
+    2295,
+    1576
+   ]
+  },
+  {
+   "index": 207,
+   "path": "v2/media/2019/07/tonnetz-with-NROs-in-color.png",
+   "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+   "caption": "Example 6. Tonnetz showing the three Neo-Riemannian operations (P, L, and R) performed on a C major triad and a G minor triad.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "Tonnetz with NROs",
+   "size": [
+    2295,
+    1576
+   ]
+  },
+  {
+   "index": 208,
+   "path": "v2/media/2019/07/Brahms-analysis-on-the-tonnetz.png",
+   "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+   "caption": "Example 8. Brahms’s concerto for violin and cello, mm. 270–76 on the Tonnetz .",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "Brahms on Tonnetz",
+   "size": [
+    2295,
+    1576
+   ]
+  },
+  {
+   "index": 209,
+   "path": "v2/media/2019/07/PL-and-RP-cycles.png",
+   "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+   "caption": "Example 9. PL and RP cycles.",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 14,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 6,
+   "flags": [
+    "labels"
+   ],
+   "reason": "PL and RP cycles",
+   "size": [
+    2354,
+    558
+   ]
+  },
+  {
+   "index": 210,
+   "path": "v2/media/2019/07/RL-cycle.png",
+   "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+   "caption": "Example 10. The RL cycle.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 13,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 5,
+   "flags": [
+    "labels"
+   ],
+   "reason": "RL cycle",
+   "size": [
+    2450,
+    266
+   ]
+  },
+  {
+   "index": 211,
+   "path": "v2/media/2019/07/PLR-cycle.png",
+   "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+   "caption": "Example 11. The PLR cycle.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 7,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "labels"
+   ],
+   "reason": "PLR cycle",
+   "size": [
+    2450,
+    266
+   ]
+  },
+  {
+   "index": 212,
+   "path": "v2/media/2019/07/PL-RP-and-PLR-cycles.png",
+   "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+   "caption": "Example 12. PL, RP, and PLR cycles related to their parent scales/common tones.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "cycle graphs",
+   "size": [
+    2195,
+    1973
+   ]
+  },
+  {
+   "index": 213,
+   "path": "v2/media/2019/07/SNH-transformations.png",
+   "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+   "caption": "Example 13. S, N, and H transformations.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 6,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 4,
+   "flags": [
+    "labels"
+   ],
+   "reason": "S, N, H transformations",
+   "size": [
+    2406,
+    263
+   ]
+  },
+  {
+   "index": 214,
+   "path": "v2/media/2019/07/augmented-triads.png",
+   "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+   "caption": "Example 14. The R transformation with an intervening augmented triad.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "chord-names",
+    "arrow"
+   ],
+   "reason": "R via augmented triad",
+   "size": [
+    948,
+    317
+   ]
+  },
+  {
+   "index": 215,
+   "path": "v2/media/2019/07/augmented_triads2.png",
+   "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+   "caption": "Example 15. Three different spellings of the augmented triad resolving to three different minor triads.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 6,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "chord-names"
+   ],
+   "reason": "augmented triad spellings",
+   "size": [
+    2378,
+    262
+   ]
+  },
+  {
+   "index": 216,
+   "path": "v2/media/2019/07/augmented_triads3.png",
+   "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+   "caption": "Example 16. Three different major triads connect to the same augmented triad.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 6,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "chord-names"
+   ],
+   "reason": "major triads to augmented",
+   "size": [
+    2378,
+    262
+   ]
+  },
+  {
+   "index": 217,
+   "path": "v2/media/2019/07/weintzmann-regions.png",
+   "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+   "caption": "Example 17. The four Weitzmann regions.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "Weitzmann regions",
+   "size": [
+    1576,
+    1576
+   ]
+  },
+  {
+   "index": 218,
+   "path": "v2/media/2019/07/individual-cubes.png",
+   "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+   "caption": "Example 18. PL cycles with added augmented triads.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "PL cubes",
+   "size": [
+    1276,
+    1277
+   ]
+  },
+  {
+   "index": 219,
+   "path": "v2/media/2019/07/cube-dance.png",
+   "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+   "caption": "Example 19. The Cube Dance (originally conceived by Douthett and Steinbach).",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "Cube Dance",
+   "size": [
+    1500,
+    1500
+   ]
+  },
+  {
+   "index": 220,
+   "path": "v2/media/2019/08/swung-eighths.png",
+   "chapter": "06-jazz/01-swing-rhythms.md",
+   "caption": "Example 1. Swing eighths are performed so that the first eighth is roughly twice as long as the second.",
+   "kind": "notation",
+   "staves": 0,
+   "bars": 1,
+   "voices": 1,
+   "texture": "glyphs",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "glyph-demo"
+   ],
+   "reason": "swing eighths = triplet equation",
+   "size": [
+    203,
+    102
+   ]
+  },
+  {
+   "index": 221,
+   "path": "v2/media/2019/08/anything-goes-1.png",
+   "chapter": "06-jazz/01-swing-rhythms.md",
+   "caption": "Example 2. The entire ensemble plays the notated rhythm at 0:36 of the overture to Anything Goes .",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 2,
+   "voices": 1,
+   "texture": "single line",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 4,
+   "flags": [
+    "accents",
+    "triplets"
+   ],
+   "reason": "Anything Goes rhythm notated vs sounded",
+   "size": [
+    707,
+    716
+   ]
+  },
+  {
+   "index": 222,
+   "path": "v2/media/2019/08/anything-goes-2.png",
+   "chapter": "06-jazz/01-swing-rhythms.md",
+   "caption": "Example 3. This rhythm, with straight eighths, occurs in a drum part throughout the second part of the Anything Goes overture.",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [],
+   "reason": "Anything Goes drum rhythm",
+   "size": [
+    725,
+    359
+   ]
+  },
+  {
+   "index": 223,
+   "path": "v2/media/2019/08/lead-sheet-components.png",
+   "chapter": "06-jazz/02-chord-symbols.md",
+   "caption": "Example 1. There are four components to a chord symbol: 1) the root of the triad, 2) the quality of the triad, 3) the presence of extensions beyond the triad, and 4) the bass note.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "chord-symbol anatomy",
+   "size": [
+    1000,
+    742
+   ]
+  },
+  {
+   "index": 224,
+   "path": "v2/media/2019/08/extensions.png",
+   "chapter": "06-jazz/02-chord-symbols.md",
+   "caption": "Example 4. Adding more thirds beyond the seventh produces ninths, elevenths, and thirteenths.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "labels"
+   ],
+   "reason": "stacked thirds to 13th",
+   "size": [
+    118,
+    189
+   ]
+  },
+  {
+   "index": 225,
+   "path": "v2/media/2019/08/altered_exts.png",
+   "chapter": "06-jazz/02-chord-symbols.md",
+   "caption": "Example 5. Accidentals in chord symbols and in the corresponding notation—note that in chord symbols, sharp/flat signs indicated a bigger/smaller interval, not necessarily an actual sharp/flat note.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 2,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 4,
+   "flags": [
+    "chord-symbols",
+    "arrows"
+   ],
+   "reason": "altered extensions",
+   "size": [
+    1123,
+    356
+   ]
+  },
+  {
+   "index": 226,
+   "path": "v2/media/2019/08/adds.png",
+   "chapter": "06-jazz/02-chord-symbols.md",
+   "caption": "Example 6. Examples of chords with added notes.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 4,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "chord-symbols"
+   ],
+   "reason": "add chords",
+   "size": [
+    1631,
+    557
+   ]
+  },
+  {
+   "index": 227,
+   "path": "v2/media/2019/08/sus.png",
+   "chapter": "06-jazz/02-chord-symbols.md",
+   "caption": "Example 7. Chords with suspensions (sus chords).",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 3,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "chord-symbols"
+   ],
+   "reason": "sus chords",
+   "size": [
+    1268,
+    338
+   ]
+  },
+  {
+   "index": 228,
+   "path": "v2/media/2019/08/harmonic-series_0001.png",
+   "chapter": "06-jazz/03-jazz-voicings.md",
+   "caption": "Example 1. The harmonic series, as approximated in notation.",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 1,
+   "voices": 1,
+   "texture": "piano",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 4,
+   "flags": [
+    "labels"
+   ],
+   "reason": "harmonic series 1-16",
+   "size": [
+    8729,
+    1766
+   ]
+  },
+  {
+   "index": 229,
+   "path": "v2/media/2019/08/afternoon-in-paris.png",
+   "chapter": "06-jazz/04-ii-v-i.md",
+   "caption": "Example 4. “ Afternoon in Paris ” by John Lewis uses ii–V–I progressions in different keys in sequence.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 26,
+   "voices": 0,
+   "texture": "lead sheet",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 15,
+   "flags": [
+    "chord-symbols",
+    "slash-bars",
+    "check-support"
+   ],
+   "reason": "Afternoon in Paris chord chart with ii-V-I brackets",
+   "size": [
+    2593,
+    1280
+   ]
+  },
+  {
+   "index": 230,
+   "path": "v2/media/2019/08/mcclimon_fig06.png",
+   "chapter": "06-jazz/04-ii-v-i.md",
+   "caption": "Example 5. McClimon’s ii–V space relates ii–V progressions of keys related by fifth.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "McClimon ii-V space",
+   "size": [
+    800,
+    812
+   ]
+  },
+  {
+   "index": 231,
+   "path": "v2/media/2019/08/music-61-2.jpg",
+   "chapter": "06-jazz/04-ii-v-i.md",
+   "caption": "Example 6. “Afternoon in Paris” transforms Ima 7 chords into minor seventh chords, thus changing their function: they become ii 7 chords.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "McClimon ii-V space path",
+   "size": [
+    1600,
+    1624
+   ]
+  },
+  {
+   "index": 232,
+   "path": "v2/media/2019/08/cto72.png",
+   "chapter": "06-jazz/05-jazz-embellishing-chords.md",
+   "caption": "Example 4. Common-tone diminished sevenths share a common tone with the root of the chord being embellished, shown here with ties.",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 6,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 5,
+   "flags": [
+    "chord-symbols",
+    "roman"
+   ],
+   "reason": "common-tone diminished sevenths",
+   "size": [
+    974,
+    975
+   ]
+  },
+  {
+   "index": 233,
+   "path": "v2/media/2019/08/music-4-e1568913641107.jpg",
+   "chapter": "06-jazz/06-substitutions.md",
+   "caption": "Example 4. Mapping the twelve-tone chromatic collection onto a circle helps to illuminate the symmetry of a tritone.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "tritone clock diagrams",
+   "size": [
+    2243,
+    922
+   ]
+  },
+  {
+   "index": 234,
+   "path": "v2/media/2019/08/mcclimon_fig10.png",
+   "chapter": "06-jazz/06-substitutions.md",
+   "caption": "Example 6. The tritone substitution space parallels the diatonic space.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "tritone sub space (chord-symbol network)",
+   "size": [
+    800,
+    296
+   ]
+  },
+  {
+   "index": 235,
+   "path": "v2/media/2019/08/parentheses-1-e1677584256731.png",
+   "chapter": "06-jazz/06-substitutions.md",
+   "caption": "Example 7. Substitutions can be (a) improvised and not notated in the score at all, (b) written directly into the chord symbols, or (c) written in parentheses to indicate that the substitution is optional.",
+   "kind": "notation+annotation",
+   "staves": 3,
+   "bars": 15,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 12,
+   "flags": [
+    "chord-symbols"
+   ],
+   "reason": "substitutions improvised vs notated",
+   "size": [
+    2731,
+    1736
+   ]
+  },
+  {
+   "index": 236,
+   "path": "v2/media/2019/08/16-bar-blues.png",
+   "chapter": "06-jazz/08-blues-harmony.md",
+   "caption": "Example 3 . 16-bar blues.",
+   "kind": "notation",
+   "staves": 4,
+   "bars": 16,
+   "voices": 1,
+   "texture": "lead sheet",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 10,
+   "flags": [
+    "chord-symbols",
+    "measure-repeat"
+   ],
+   "reason": "16-bar blues",
+   "size": [
+    2490,
+    1546
+   ]
+  },
+  {
+   "index": 237,
+   "path": "v2/media/2022/12/drum_set.png",
+   "chapter": "07-popular-music/02-drumbeats.md",
+   "caption": "Example 1. A standard acoustic drum kit.",
+   "kind": "photo",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "drum kit",
+   "size": [
+    1140,
+    860
+   ]
+  },
+  {
+   "index": 238,
+   "path": "v2/media/2022/12/drum_key-e1687967119512.png",
+   "chapter": "07-popular-music/02-drumbeats.md",
+   "caption": "Example 2. Common notation for various parts of the drum kit. Using these particular stem directions and notehead types are important for clarity.",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 11,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 6,
+   "flags": [
+    "percussion",
+    "check-support"
+   ],
+   "reason": "drum key",
+   "size": [
+    2972,
+    565
+   ]
+  },
+  {
+   "index": 239,
+   "path": "v2/media/2022/12/feel-chart.001-e1681063845474.png",
+   "chapter": "07-popular-music/02-drumbeats.md",
+   "caption": "Example 6. Box notation illustrating (a) double-time, (b) normal, and (c) half-time feels. The yellow shading indicates the tactus, which would be the same for all three feels. Dark blue is used for kick drum, and light blue for snare.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "box notation feels",
+   "size": [
+    1742,
+    542
+   ]
+  },
+  {
+   "index": 240,
+   "path": "v2/media/2019/05/typical-verse-chorus-form.png",
+   "chapter": "07-popular-music/06-verse-chorus-form.md",
+   "caption": "Example 1. A prototypical verse-chorus form, not referencing a specific song. Click to enlarge.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "verse-chorus form bar",
+   "size": [
+    1528,
+    79
+   ]
+  },
+  {
+   "index": 241,
+   "path": "v2/media/2019/05/modal_harmonic_function.png",
+   "chapter": "07-popular-music/13-modal-schemas.md",
+   "caption": "Example 2. Modal harmony allows many more “flavors” of the same chord to be implemented without changing the function of the chord.",
+   "kind": "notation+annotation",
+   "staves": 6,
+   "bars": 12,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 12,
+   "flags": [
+    "roman"
+   ],
+   "reason": "diatonic vs modal harmony by function",
+   "size": [
+    2710,
+    2331
+   ]
+  },
+  {
+   "index": 242,
+   "path": "v2/media/2019/05/mixolydian-1.png",
+   "chapter": "07-popular-music/13-modal-schemas.md",
+   "caption": "Illustration in notation.",
+   "kind": "notation+annotation",
+   "staves": 4,
+   "bars": 16,
+   "voices": 2,
+   "texture": "piano",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 8,
+   "flags": [
+    "roman",
+    "scale-degrees",
+    "color"
+   ],
+   "reason": "C major vs C mixolydian",
+   "size": [
+    2829,
+    758
+   ]
+  },
+  {
+   "index": 243,
+   "path": "v2/media/2019/05/tired_of_waiting.png",
+   "chapter": "07-popular-music/13-modal-schemas.md",
+   "caption": "Example 5. “Tired of Waiting for You” by the Kinks uses the subtonic shuttle in its intro and verses. Transcription begins at 0:07.",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 8,
+   "voices": 2,
+   "texture": "lead sheet",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 10,
+   "flags": [
+    "lyrics",
+    "chord-symbols",
+    "roman",
+    "measure-repeat"
+   ],
+   "reason": "Tired of Waiting (Kinks) voice+bass",
+   "size": [
+    2710,
+    791
+   ]
+  },
+  {
+   "index": 244,
+   "path": "v2/media/2019/05/somebody_that_I_used_to_know-2.png",
+   "chapter": "07-popular-music/13-modal-schemas.md",
+   "caption": "Example 7. “Somebody That I Used to Know” by Gotye features the subtonic shuttle in its intro/verses and the aeolian shuttle in its choruses. The Intro transcription begins at 0:04, and the Chorus transcription begins at 1:32.",
+   "kind": "notation+annotation",
+   "staves": 4,
+   "bars": 8,
+   "voices": 2,
+   "texture": "lead sheet",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 15,
+   "flags": [
+    "lyrics",
+    "chord-symbols",
+    "roman",
+    "brackets"
+   ],
+   "reason": "Somebody That I Used to Know, xylophone/voice+bass",
+   "size": [
+    2687,
+    1925
+   ]
+  },
+  {
+   "index": 245,
+   "path": "v2/media/2019/05/lotr.png",
+   "chapter": "07-popular-music/13-modal-schemas.md",
+   "caption": "Example 8. The Fellowship Theme from the Lord of the Rings soundtrack by Howard Shore concludes its phrases with an aeolian cadence. Transcription begins at 0:27.",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 8,
+   "voices": 3,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 10,
+   "flags": [
+    "chord-symbols",
+    "roman"
+   ],
+   "reason": "LOTR Fellowship theme, aeolian cadence",
+   "size": [
+    2333,
+    625
+   ]
+  },
+  {
+   "index": 246,
+   "path": "v2/media/2019/05/I-dont-like-you.png",
+   "chapter": "07-popular-music/13-modal-schemas.md",
+   "caption": "Example 9. “I Don’t Like You” by Eva Simons uses a lament schema with ♭VII and minor v.",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 8,
+   "voices": 2,
+   "texture": "lead sheet",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 12,
+   "flags": [
+    "lyrics",
+    "chord-symbols",
+    "roman",
+    "brackets"
+   ],
+   "reason": "I Don't Like You (Eva Simons), lament schema",
+   "size": [
+    2657,
+    966
+   ]
+  },
+  {
+   "index": 247,
+   "path": "v2/media/2019/05/dorian-1.png",
+   "chapter": "07-popular-music/13-modal-schemas.md",
+   "caption": "notation of natural minor vs dorian, with inflections of 6 highlighted",
+   "kind": "notation+annotation",
+   "staves": 4,
+   "bars": 16,
+   "voices": 2,
+   "texture": "piano",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 8,
+   "flags": [
+    "roman",
+    "scale-degrees"
+   ],
+   "reason": "natural minor vs dorian",
+   "size": [
+    2569,
+    786
+   ]
+  },
+  {
+   "index": 248,
+   "path": "v2/media/2019/05/get_lucky.png",
+   "chapter": "07-popular-music/13-modal-schemas.md",
+   "caption": "Example 11. “Get Lucky” is in B dorian and features a characteristic IV–i motion every four bars (shown here by the arrows) to emphasize Bmi as tonic.",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 4,
+   "voices": 2,
+   "texture": "lead sheet",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 10,
+   "flags": [
+    "lyrics",
+    "chord-symbols",
+    "roman"
+   ],
+   "reason": "Get Lucky voice+bass",
+   "size": [
+    2677,
+    763
+   ]
+  },
+  {
+   "index": 249,
+   "path": "v2/media/2019/05/lydian-1.png",
+   "chapter": "07-popular-music/13-modal-schemas.md",
+   "caption": "Example 13: Lydian is like major with a raised scale-degree 4. This results in a major II chord. (ivº and vii are not used.)",
+   "kind": "notation+annotation",
+   "staves": 4,
+   "bars": 16,
+   "voices": 2,
+   "texture": "piano",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 8,
+   "flags": [
+    "roman",
+    "scale-degrees"
+   ],
+   "reason": "major vs lydian",
+   "size": [
+    2736,
+    792
+   ]
+  },
+  {
+   "index": 250,
+   "path": "v2/media/2019/05/forget-you.png",
+   "chapter": "07-popular-music/13-modal-schemas.md",
+   "caption": "Example 15: “Forget You” loops a lydian cadence throughout the song. The background vocals always have the characteristic chromatic line.",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 5,
+   "voices": 2,
+   "texture": "lead sheet",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 12,
+   "flags": [
+    "lyrics",
+    "chord-symbols",
+    "roman"
+   ],
+   "reason": "Forget You, lydian cadence",
+   "size": [
+    2690,
+    1170
+   ]
+  },
+  {
+   "index": 251,
+   "path": "v2/media/2019/05/mode_flow_chart-3.jpg",
+   "chapter": "07-popular-music/13-modal-schemas.md",
+   "caption": "EXAMPLE 16. Flowchart illustrating the process of identifying modes by ear.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "mode flowchart",
+   "size": [
+    909,
+    979
+   ]
+  },
+  {
+   "index": 252,
+   "path": "v2/media/2021/12/Screen-Shot-2022-07-11-at-10.52.08-AM.png",
+   "chapter": "08-20th-and-21st-century-techniques/01-twentieth-century-rhythmic-techniques.md",
+   "caption": null,
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "timeline (graphic score)",
+   "size": [
+    1321,
+    98
+   ]
+  },
+  {
+   "index": 253,
+   "path": "v2/media/2021/12/Screen-Shot-2022-07-11-at-11.09.51-AM.png",
+   "chapter": "08-20th-and-21st-century-techniques/01-twentieth-century-rhythmic-techniques.md",
+   "caption": null,
+   "kind": "photo",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "ruler strip",
+   "size": [
+    485,
+    34
+   ]
+  },
+  {
+   "index": 254,
+   "path": "v2/media/2019/05/Pitch-Space.jpg",
+   "chapter": "08-20th-and-21st-century-techniques/02-pitch-and-pitch-class.md",
+   "caption": "pitch names on a line; an arrow connects two notes in different octaves and says \"same pitch class, different pitch\"",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "v1-identical:Graphics/postTonal/Pitch-Space.jpg"
+   ],
+   "reason": "pitch-space line",
+   "size": [
+    468,
+    144
+   ]
+  },
+  {
+   "index": 255,
+   "path": "v2/media/2019/05/Pitch-class-Space.jpg",
+   "chapter": "08-20th-and-21st-century-techniques/02-pitch-and-pitch-class.md",
+   "caption": "Example 2. The twelve pitch classes represented as a clock face.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "v1-identical:Graphics/postTonal/Pitch-class-Space.jpg"
+   ],
+   "reason": "pitch-class clock",
+   "size": [
+    288,
+    324
+   ]
+  },
+  {
+   "index": 256,
+   "path": "v2/media/2019/05/ordered-vs-unordered-pitch-interval.png",
+   "chapter": "08-20th-and-21st-century-techniques/03-intervals-in-integer-notation.md",
+   "caption": "Example 3. The top row of examples shows ordered pitch intervals: the number of semitones between the pitches, with a plus or minus sign to indicate direction. The bottom row shows unordered intervals, which simply disregard the direction and thus drop the plus or minus sign.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 4,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 4,
+   "flags": [
+    "labels"
+   ],
+   "reason": "ordered vs unordered pitch intervals",
+   "size": [
+    995,
+    583
+   ]
+  },
+  {
+   "index": 257,
+   "path": "v2/media/2019/05/Screen-Shot-2019-09-10-at-12.27.55-PM.png",
+   "chapter": "08-20th-and-21st-century-techniques/03-intervals-in-integer-notation.md",
+   "caption": "Example 4 . Ordered pitch class intervals always travel clockwise around the clock face.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 2,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "labels",
+    "clock"
+   ],
+   "reason": "ordered pc intervals (clock half not encodable)",
+   "size": [
+    1001,
+    679
+   ]
+  },
+  {
+   "index": 258,
+   "path": "v2/media/2019/05/Screen-Shot-2019-09-10-at-12.36.47-PM.png",
+   "chapter": "08-20th-and-21st-century-techniques/03-intervals-in-integer-notation.md",
+   "caption": "Example 5. Unordered pitch class intervals are also known as interval classes. Interval classes measure the smallest possible distance between pitch classes.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 2,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "labels",
+    "clock"
+   ],
+   "reason": "unordered pc intervals (clock half not encodable)",
+   "size": [
+    1046,
+    673
+   ]
+  },
+  {
+   "index": 259,
+   "path": "v2/media/2019/05/inversion-2-1.png",
+   "chapter": "08-20th-and-21st-century-techniques/04-pc-sets-normal-order-and-transformations.md",
+   "caption": "Example 4. These two sets both have the same intervals (a 2, a 3, and a 5), but the intervals are arranged differently.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "interval arcs between letters",
+   "size": [
+    809,
+    540
+   ]
+  },
+  {
+   "index": 260,
+   "path": "v2/media/2019/05/Inversional-pairs.png",
+   "chapter": "08-20th-and-21st-century-techniques/04-pc-sets-normal-order-and-transformations.md",
+   "caption": "Example 5. Two inversionally related sets have integers that pair together in reverse order to form a mirror-like relationship. These paired intervals always sum to the same number, which is the index number of the inversion.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "pc clock inversion",
+   "size": [
+    1206,
+    1000
+   ]
+  },
+  {
+   "index": 261,
+   "path": "v2/media/2019/05/Cross-addition-for-inversion.png",
+   "chapter": "08-20th-and-21st-century-techniques/04-pc-sets-normal-order-and-transformations.md",
+   "caption": "Example 6. For two 3-note sets, the leftmost integer in one set is added to the rightmost of the second, the middle numbers are added together, and the rightmost element of the first set is added to the leftmost of the second. This is the cross-addition method for finding the index number of inversions.",
+   "kind": "text/other",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "integer cross-addition",
+   "size": [
+    822,
+    794
+   ]
+  },
+  {
+   "index": 262,
+   "path": "v2/media/2020/01/tallying.002-e1662408328441.png",
+   "chapter": "08-20th-and-21st-century-techniques/06-interval-class-vectors.md",
+   "caption": "Example 1. Each digit in an interval-class vector corresponds to an interval class: the first digit is for IC 1, the second is for IC 2, etc. The number shown in the vector indicates how many of that interval class are present in the set.",
+   "kind": "text/other",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "IC vector",
+   "size": [
+    720,
+    230
+   ]
+  },
+  {
+   "index": 263,
+   "path": "v2/media/2020/01/tallying.001-e1662403759208.png",
+   "chapter": "08-20th-and-21st-century-techniques/06-interval-class-vectors.md",
+   "caption": "Example 2. Illustration of how to count interval classes in a pitch class set to create an interval-class vector.",
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 1,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 2,
+   "flags": [
+    "labels"
+   ],
+   "reason": "one chord + IC tally (only the chord encodable)",
+   "size": [
+    1622,
+    724
+   ]
+  },
+  {
+   "index": 264,
+   "path": "v2/media/2020/02/modes-with-phryg.png",
+   "chapter": "08-20th-and-21st-century-techniques/08-diatonic-modes.md",
+   "caption": "Example 5. Flowchart illustrating the process of identifying modes.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "mode flowchart with phrygian",
+   "size": [
+    987,
+    1144
+   ]
+  },
+  {
+   "index": 265,
+   "path": "v2/media/2019/06/Bartok1.png",
+   "chapter": "08-20th-and-21st-century-techniques/10-analyzing-with-collections-scales-and-modes.md",
+   "caption": "Bartók’s From the Island of Bali: Extract 1",
+   "kind": "notation",
+   "staves": 2,
+   "bars": 3,
+   "voices": 2,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 8,
+   "flags": [
+    "fingering"
+   ],
+   "reason": "Bartok From the Island of Bali extract 1",
+   "size": [
+    854,
+    243
+   ]
+  },
+  {
+   "index": 266,
+   "path": "v2/media/2019/06/Bartok2.png",
+   "chapter": "08-20th-and-21st-century-techniques/10-analyzing-with-collections-scales-and-modes.md",
+   "caption": "Bartók’s From the Island of Bali: Extract 2",
+   "kind": "notation",
+   "staves": 2,
+   "bars": 3,
+   "voices": 2,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 8,
+   "flags": [
+    "fingering",
+    "clef-change"
+   ],
+   "reason": "Bartok Bali extract 2",
+   "size": [
+    974,
+    260
+   ]
+  },
+  {
+   "index": 267,
+   "path": "v2/media/2019/06/Bartok3.png",
+   "chapter": "08-20th-and-21st-century-techniques/10-analyzing-with-collections-scales-and-modes.md",
+   "caption": "Bartók’s From the Island of Bali: Extract 3",
+   "kind": "notation",
+   "staves": 2,
+   "bars": 2,
+   "voices": 2,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "fair",
+   "recommendation": "hand",
+   "effort_min": 5,
+   "flags": [
+    "scan",
+    "fingering"
+   ],
+   "reason": "Bartok Bali extract 3",
+   "size": [
+    533,
+    191
+   ]
+  },
+  {
+   "index": 268,
+   "path": "v2/media/2019/06/Screen-Shot-2022-10-23-at-7.47.12-PM.png",
+   "chapter": "09-twelve-tone-music/04-twelve-tone-analysis-examples-webern-op-21-and-24.md",
+   "caption": "Example 7. The Sator Square.",
+   "kind": "text/other",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "Sator square",
+   "size": [
+    576,
+    626
+   ]
+  },
+  {
+   "index": 269,
+   "path": "v2/media/2021/05/Solo.png",
+   "chapter": "09-twelve-tone-music/05-composing-with-twelve-tones.md",
+   "caption": "A short viola solo",
+   "kind": "notation",
+   "staves": 1,
+   "bars": 3,
+   "voices": 1,
+   "texture": "single line",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 6,
+   "flags": [
+    "alto-clef",
+    "dynamics"
+   ],
+   "reason": "viola solo (twelve-tone composition)",
+   "size": [
+    1782,
+    294
+   ]
+  },
+  {
+   "index": 270,
+   "path": "v2/media/2021/05/Moto-perpetuo.png",
+   "chapter": "09-twelve-tone-music/05-composing-with-twelve-tones.md",
+   "caption": "Moto perpetuo section",
+   "kind": "notation",
+   "staves": 4,
+   "bars": 12,
+   "voices": 4,
+   "texture": "ensemble",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "omr",
+   "effort_min": 25,
+   "flags": [
+    "string-quartet"
+   ],
+   "reason": "Moto perpetuo section, 3 systems quartet",
+   "size": [
+    595,
+    841
+   ]
+  },
+  {
+   "index": 271,
+   "path": "v2/media/2021/05/Rows_and_rotations.png",
+   "chapter": "09-twelve-tone-music/05-composing-with-twelve-tones.md",
+   "caption": null,
+   "kind": "notation+annotation",
+   "staves": 8,
+   "bars": 24,
+   "voices": 2,
+   "texture": "piano",
+   "source": "constructed",
+   "legibility": "poor",
+   "recommendation": "omr+hand",
+   "effort_min": 30,
+   "flags": [
+    "tiny-text",
+    "labels"
+   ],
+   "reason": "rows and rotations, 4 grand-staff systems",
+   "size": [
+    7440,
+    10523
+   ]
+  },
+  {
+   "index": 272,
+   "path": "v2/media/2021/05/Rhythmic-cycles.png",
+   "chapter": "09-twelve-tone-music/05-composing-with-twelve-tones.md",
+   "caption": "Rhythmic cycles with progressive compression. Each X identifies the rest that is cut from the following statement.",
+   "kind": "notation+annotation",
+   "staves": 10,
+   "bars": 15,
+   "voices": 2,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 15,
+   "flags": [
+    "percussion"
+   ],
+   "reason": "rhythmic cycles with compression, 2-part rhythms",
+   "size": [
+    1328,
+    1158
+   ]
+  },
+  {
+   "index": 273,
+   "path": "v2/media/2019/07/C3-Chord-Spacing-Types.png",
+   "chapter": "10-orchestration/01-core-principles-of-orchestration.md",
+   "caption": null,
+   "kind": "notation+annotation",
+   "staves": 1,
+   "bars": 4,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "labels"
+   ],
+   "reason": "chord spacing types",
+   "size": [
+    8830,
+    1450
+   ]
+  },
+  {
+   "index": 274,
+   "path": "v2/media/2019/07/Ciii-Britten.png",
+   "chapter": "10-orchestration/02-subtle-color-changes.md",
+   "caption": "“Attack-sustain” detail from Britten’s Four Sea Interludes",
+   "kind": "notation",
+   "staves": 4,
+   "bars": 8,
+   "voices": 4,
+   "texture": "ensemble",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "omr+hand",
+   "effort_min": 25,
+   "flags": [
+    "triplets",
+    "dynamics"
+   ],
+   "reason": "Britten Four Sea Interludes, flutes+harp",
+   "size": [
+    2217,
+    775
+   ]
+  },
+  {
+   "index": 275,
+   "path": "v2/media/2019/07/Diii-Berg-Wozzeck.png",
+   "chapter": "10-orchestration/02-subtle-color-changes.md",
+   "caption": "Summary of the instrument entrances in the B3 unison of Berg’s Wozzeck",
+   "kind": "notation+annotation",
+   "staves": 3,
+   "bars": 8,
+   "voices": 3,
+   "texture": "ensemble",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 12,
+   "flags": [
+    "alto-clef",
+    "text-labels"
+   ],
+   "reason": "Wozzeck B3 entrances summary (instrument labels as text)",
+   "size": [
+    6440,
+    2947
+   ]
+  },
+  {
+   "index": 276,
+   "path": "v2/media/2022/10/tresillo-grouping-300x195.png",
+   "chapter": "11-rhythm-and-meter/06-metrical-dissonance.md",
+   "caption": "Example 6. The tresillo rhythm (top voice) can be understood as a 3:4 3-layer creating grouping dissonance with the 4-layer inherent in the meter.",
+   "kind": "notation+annotation",
+   "staves": 2,
+   "bars": 1,
+   "voices": 2,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 3,
+   "flags": [
+    "percussion",
+    "brackets"
+   ],
+   "reason": "tresillo 3 vs 4 layers",
+   "size": [
+    300,
+    195
+   ]
+  },
+  {
+   "index": 277,
+   "path": "v2/media/2022/10/‎box-chart.‎002-300x55.png",
+   "chapter": "11-rhythm-and-meter/06-metrical-dissonance.md",
+   "caption": "Example 8. Box notation showing a 3:4 grouping dissonance as in Calvin Harris’s “I’m Not Alone.”",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "box notation 3:4",
+   "size": [
+    300,
+    55
+   ]
+  },
+  {
+   "index": 278,
+   "path": "v2/media/2019/11/Screen-Shot-2020-07-03-at-10.01.23-AM.png",
+   "chapter": "14-ear-training/01-the-basics-of-sight-singing-and-dictation.md",
+   "caption": "Example 3. A dot grid for four measures in common time.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "dot grid",
+   "size": [
+    660,
+    92
+   ]
+  },
+  {
+   "index": 279,
+   "path": "v2/media/2019/11/Screen-Shot-2020-07-03-at-10.45.42-AM.png",
+   "chapter": "14-ear-training/01-the-basics-of-sight-singing-and-dictation.md",
+   "caption": "Example 5. Contour lines have been added to the slash notation.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "contour/slash notation",
+   "size": [
+    664,
+    224
+   ]
+  },
+  {
+   "index": 280,
+   "path": "v2/media/2019/11/Screen-Shot-2021-07-02-at-12.01.06-PM.png",
+   "chapter": "14-ear-training/01-the-basics-of-sight-singing-and-dictation.md",
+   "caption": null,
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "slash notation with solfege",
+   "size": [
+    1318,
+    300
+   ]
+  },
+  {
+   "index": 281,
+   "path": "v2/media/2019/05/duple.png",
+   "chapter": "14-ear-training/01-the-basics-of-sight-singing-and-dictation.md",
+   "caption": "A duple grid is shown. A longer line alternates with a shorter line.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "v1-identical:Graphics/protonotation/duple.png"
+   ],
+   "reason": "duple grid",
+   "size": [
+    729,
+    104
+   ]
+  },
+  {
+   "index": 282,
+   "path": "v2/media/2019/05/triple.png",
+   "chapter": "14-ear-training/01-the-basics-of-sight-singing-and-dictation.md",
+   "caption": "A triple grid is shown. There is a longer line, then two shorter lines. This pattern repeats many times.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "v1-identical:Graphics/protonotation/triple.png"
+   ],
+   "reason": "triple grid",
+   "size": [
+    931,
+    104
+   ]
+  },
+  {
+   "index": 283,
+   "path": "v2/media/2019/05/quadruple.png",
+   "chapter": "14-ear-training/01-the-basics-of-sight-singing-and-dictation.md",
+   "caption": "A quadruple grid is shown. There is a longer line, then a short line, a medium line, and a short line. This pattern repeats many times.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "v1-identical:Graphics/protonotation/quadruple.png"
+   ],
+   "reason": "quadruple grid",
+   "size": [
+    931,
+    104
+   ]
+  },
+  {
+   "index": 284,
+   "path": "v2/media/2022/06/OMT-SDR-e1656617611791.jpg",
+   "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+   "caption": null,
+   "kind": "notation",
+   "staves": 8,
+   "bars": 32,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 12,
+   "flags": [
+    "percussion",
+    "ear-training"
+   ],
+   "reason": "8 rhythms simple duple",
+   "size": [
+    611,
+    639
+   ]
+  },
+  {
+   "index": 285,
+   "path": "v2/media/2022/07/OMT-T1-CC-e1656706984911.jpg",
+   "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+   "caption": null,
+   "kind": "notation",
+   "staves": 4,
+   "bars": 16,
+   "voices": 2,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 8,
+   "flags": [
+    "percussion",
+    "ear-training"
+   ],
+   "reason": "2 two-part rhythms",
+   "size": [
+    611,
+    138
+   ]
+  },
+  {
+   "index": 286,
+   "path": "v2/media/2022/07/OMT-S1-Maj-3-e1657114644431.jpg",
+   "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+   "caption": null,
+   "kind": "notation",
+   "staves": 4,
+   "bars": 32,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 14,
+   "flags": [
+    "ear-training"
+   ],
+   "reason": "4 melodies major",
+   "size": [
+    611,
+    285
+   ]
+  },
+  {
+   "index": 287,
+   "path": "v2/media/2022/07/OMT-S1-Min-2-e1657116759903.jpg",
+   "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+   "caption": null,
+   "kind": "notation",
+   "staves": 4,
+   "bars": 32,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 14,
+   "flags": [
+    "ear-training"
+   ],
+   "reason": "4 melodies minor",
+   "size": [
+    611,
+    291
+   ]
+  },
+  {
+   "index": 288,
+   "path": "v2/media/2022/07/OMT-S1-2PM-e1657120594452.jpg",
+   "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+   "caption": null,
+   "kind": "notation",
+   "staves": 4,
+   "bars": 16,
+   "voices": 2,
+   "texture": "piano",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "hand",
+   "effort_min": 12,
+   "flags": [
+    "ear-training",
+    "low-res"
+   ],
+   "reason": "2 two-part melodies (grand staff)",
+   "size": [
+    611,
+    257
+   ]
+  },
+  {
+   "index": 289,
+   "path": "v2/media/2022/06/OMT-SQR-e1656618135193.jpg",
+   "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+   "caption": null,
+   "kind": "notation",
+   "staves": 8,
+   "bars": 32,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "hand",
+   "effort_min": 12,
+   "flags": [
+    "percussion",
+    "ear-training",
+    "low-res"
+   ],
+   "reason": "8 rhythms",
+   "size": [
+    611,
+    633
+   ]
+  },
+  {
+   "index": 290,
+   "path": "v2/media/2022/07/OMT-S2-2PR-e1657131309755.jpg",
+   "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+   "caption": null,
+   "kind": "notation",
+   "staves": 2,
+   "bars": 16,
+   "voices": 2,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "hand",
+   "effort_min": 8,
+   "flags": [
+    "percussion",
+    "ear-training",
+    "low-res"
+   ],
+   "reason": "2 two-part rhythms",
+   "size": [
+    611,
+    146
+   ]
+  },
+  {
+   "index": 291,
+   "path": "v2/media/2022/07/OMT-S2-Maj-2-e1657135052359.jpg",
+   "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+   "caption": null,
+   "kind": "notation",
+   "staves": 6,
+   "bars": 32,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "omr",
+   "effort_min": 15,
+   "flags": [
+    "ear-training",
+    "low-res"
+   ],
+   "reason": "4 melodies major",
+   "size": [
+    611,
+    443
+   ]
+  },
+  {
+   "index": 292,
+   "path": "v2/media/2022/07/OMT-S2-Min-3-e1657202939938.jpg",
+   "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+   "caption": null,
+   "kind": "notation",
+   "staves": 6,
+   "bars": 32,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "omr",
+   "effort_min": 15,
+   "flags": [
+    "ear-training",
+    "low-res"
+   ],
+   "reason": "4 melodies minor",
+   "size": [
+    611,
+    451
+   ]
+  },
+  {
+   "index": 293,
+   "path": "v2/media/2022/07/OMT-S2-2PM-1-e1657304186640.jpg",
+   "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+   "caption": null,
+   "kind": "notation",
+   "staves": 6,
+   "bars": 24,
+   "voices": 2,
+   "texture": "piano",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "omr",
+   "effort_min": 15,
+   "flags": [
+    "ear-training",
+    "low-res"
+   ],
+   "reason": "2 two-part melodies",
+   "size": [
+    611,
+    397
+   ]
+  },
+  {
+   "index": 294,
+   "path": "v2/media/2022/07/OMT-S3-R-e1657569179616.jpg",
+   "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+   "caption": "There are eight rhythms in simple triple meter. The first four are in 3/4 and the second four are in 3/8.",
+   "kind": "notation",
+   "staves": 8,
+   "bars": 32,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "hand",
+   "effort_min": 12,
+   "flags": [
+    "percussion",
+    "ear-training",
+    "low-res"
+   ],
+   "reason": "8 rhythms simple triple",
+   "size": [
+    611,
+    603
+   ]
+  },
+  {
+   "index": 295,
+   "path": "v2/media/2022/07/OMT-S3-2PR-e1657305442179.jpg",
+   "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+   "caption": null,
+   "kind": "notation",
+   "staves": 2,
+   "bars": 16,
+   "voices": 2,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "hand",
+   "effort_min": 8,
+   "flags": [
+    "percussion",
+    "ear-training",
+    "low-res"
+   ],
+   "reason": "2 two-part rhythms",
+   "size": [
+    611,
+    142
+   ]
+  },
+  {
+   "index": 296,
+   "path": "v2/media/2022/07/OMT-S3-Maj-2-e1657569450534.jpg",
+   "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+   "caption": "There are four melodies in simple triple meter and the major mode. The first two are in 3/4 and the second two are in 3/8.",
+   "kind": "notation",
+   "staves": 6,
+   "bars": 32,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "omr",
+   "effort_min": 15,
+   "flags": [
+    "ear-training",
+    "low-res"
+   ],
+   "reason": "4 melodies major",
+   "size": [
+    611,
+    439
+   ]
+  },
+  {
+   "index": 297,
+   "path": "v2/media/2022/07/OMT-S3-Min-4-e1657563213827.jpg",
+   "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+   "caption": "There are four melodies in simple triple meter and the minor mode. The first two are in 3/4 and the second two are in 3/8.",
+   "kind": "notation",
+   "staves": 8,
+   "bars": 32,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "omr",
+   "effort_min": 15,
+   "flags": [
+    "ear-training",
+    "low-res"
+   ],
+   "reason": "4 melodies minor",
+   "size": [
+    611,
+    615
+   ]
+  },
+  {
+   "index": 298,
+   "path": "v2/media/2022/07/OMT-S3-2PM-3-e1657563731166.jpg",
+   "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+   "caption": "There are two two part melodies in simple triple meter. The first is in 3/4 and the second is in 3/8.",
+   "kind": "notation",
+   "staves": 6,
+   "bars": 24,
+   "voices": 2,
+   "texture": "piano",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "omr",
+   "effort_min": 15,
+   "flags": [
+    "ear-training",
+    "low-res"
+   ],
+   "reason": "2 two-part melodies",
+   "size": [
+    607,
+    405
+   ]
+  },
+  {
+   "index": 299,
+   "path": "v2/media/2022/07/OMT-S4-R-2-e1657652011988.jpg",
+   "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+   "caption": "There are 8 rhythms that contain dotted rhythmic values that do not have the duration of a full measure. Dynamic markings as well as crescendos and decrescendos are also present.",
+   "kind": "notation",
+   "staves": 8,
+   "bars": 32,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "hand",
+   "effort_min": 14,
+   "flags": [
+    "percussion",
+    "ear-training",
+    "low-res",
+    "dynamics"
+   ],
+   "reason": "8 dotted rhythms",
+   "size": [
+    611,
+    633
+   ]
+  },
+  {
+   "index": 300,
+   "path": "v2/media/2022/07/OMT-S4-2PR-3-e1657652422328.jpg",
+   "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+   "caption": "There are 2 two-part rhythms that contain dotted rhythmic values that do not have the duration of a full measure. Dynamic markings as well as crescendos and decrescendos are also present.",
+   "kind": "notation",
+   "staves": 2,
+   "bars": 16,
+   "voices": 2,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "hand",
+   "effort_min": 8,
+   "flags": [
+    "percussion",
+    "ear-training",
+    "low-res",
+    "dynamics"
+   ],
+   "reason": "2 two-part dotted rhythms",
+   "size": [
+    607,
+    152
+   ]
+  },
+  {
+   "index": 301,
+   "path": "v2/media/2022/07/OMT-S4-Maj-4-copy-1-e1657895292228.jpg",
+   "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+   "caption": "There are four melodies in the major mode that contain leaps within the tonic triad as well as dynamic markings.",
+   "kind": "notation",
+   "staves": 8,
+   "bars": 32,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "omr",
+   "effort_min": 15,
+   "flags": [
+    "ear-training",
+    "low-res",
+    "dynamics"
+   ],
+   "reason": "4 melodies major",
+   "size": [
+    611,
+    542
+   ]
+  },
+  {
+   "index": 302,
+   "path": "v2/media/2022/07/OMT-S4-Min-2-copy-e1658341159739.jpg",
+   "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+   "caption": "There are four melodies in the minor mode that contain leaps within the tonic triad as well as dynamic markings.",
+   "kind": "notation",
+   "staves": 8,
+   "bars": 32,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "omr",
+   "effort_min": 15,
+   "flags": [
+    "ear-training",
+    "low-res",
+    "dynamics"
+   ],
+   "reason": "4 melodies minor",
+   "size": [
+    611,
+    538
+   ]
+  },
+  {
+   "index": 303,
+   "path": "v2/media/2022/07/OMT-S4-2PM-3-e1659019793142.jpg",
+   "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+   "caption": "There are two two-part melodies that contain leaps within the tonic triad as well as dynamic markings.",
+   "kind": "notation",
+   "staves": 8,
+   "bars": 24,
+   "voices": 2,
+   "texture": "piano",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "omr",
+   "effort_min": 18,
+   "flags": [
+    "ear-training",
+    "low-res",
+    "dynamics"
+   ],
+   "reason": "2 two-part melodies",
+   "size": [
+    609,
+    548
+   ]
+  },
+  {
+   "index": 304,
+   "path": "v2/media/2022/07/OMT-S5-Rhythms-2-e1658412568382.jpg",
+   "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+   "caption": "There are eight rhythms that contain ties within measures as well as articulations.",
+   "kind": "notation",
+   "staves": 8,
+   "bars": 32,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "hand",
+   "effort_min": 14,
+   "flags": [
+    "percussion",
+    "ear-training",
+    "low-res"
+   ],
+   "reason": "8 rhythms with ties",
+   "size": [
+    611,
+    592
+   ]
+  },
+  {
+   "index": 305,
+   "path": "v2/media/2022/07/OMT-S5-2PR-e1658412890155.jpg",
+   "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+   "caption": "There are two two part rhythms that contain ties within measures.",
+   "kind": "notation",
+   "staves": 2,
+   "bars": 16,
+   "voices": 2,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "hand",
+   "effort_min": 8,
+   "flags": [
+    "percussion",
+    "ear-training",
+    "low-res"
+   ],
+   "reason": "2 two-part rhythms with ties",
+   "size": [
+    609,
+    138
+   ]
+  },
+  {
+   "index": 306,
+   "path": "v2/media/2022/07/OMT-S5-Maj-4-e1658757688843.jpg",
+   "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+   "caption": "There are four melodies in the major mode that contain leaps within the tonic triad as well as dynamic and articulation markings.",
+   "kind": "notation",
+   "staves": 7,
+   "bars": 32,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "omr",
+   "effort_min": 15,
+   "flags": [
+    "ear-training",
+    "low-res",
+    "dynamics"
+   ],
+   "reason": "4 melodies major",
+   "size": [
+    609,
+    544
+   ]
+  },
+  {
+   "index": 307,
+   "path": "v2/media/2022/07/OMT-S5-Min-2--e1658759374812.jpg",
+   "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+   "caption": "There are four melodies in the minor mode that contain leaps within the tonic triad as well as dynamic and articulation markings.",
+   "kind": "notation",
+   "staves": 8,
+   "bars": 32,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "omr",
+   "effort_min": 15,
+   "flags": [
+    "ear-training",
+    "low-res",
+    "dynamics"
+   ],
+   "reason": "4 melodies minor",
+   "size": [
+    611,
+    524
+   ]
+  },
+  {
+   "index": 308,
+   "path": "v2/media/2022/07/OMT-S5-2PM-2-2-e1659014467286.jpg",
+   "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+   "caption": "There are two two-part melodies that contain more frequent adjacent leaps within the tonic triad as well as dynamic and articulation markings.",
+   "kind": "notation",
+   "staves": 8,
+   "bars": 24,
+   "voices": 2,
+   "texture": "piano",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "omr",
+   "effort_min": 18,
+   "flags": [
+    "ear-training",
+    "low-res",
+    "dynamics"
+   ],
+   "reason": "2 two-part melodies",
+   "size": [
+    611,
+    631
+   ]
+  },
+  {
+   "index": 309,
+   "path": "v2/media/2022/07/OMT-S6-R-2-e1658760305190.jpg",
+   "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+   "caption": "There are eight rhythms that contain ties within and between measures as well as articulations.",
+   "kind": "notation",
+   "staves": 8,
+   "bars": 32,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "hand",
+   "effort_min": 14,
+   "flags": [
+    "percussion",
+    "ear-training",
+    "low-res",
+    "dynamics"
+   ],
+   "reason": "8 rhythms ties across bars",
+   "size": [
+    611,
+    619
+   ]
+  },
+  {
+   "index": 310,
+   "path": "v2/media/2022/07/OMT-S6-2PR--e1658774921802.jpg",
+   "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+   "caption": "There are two two part rhythms that contain ties between measures.",
+   "kind": "notation",
+   "staves": 3,
+   "bars": 16,
+   "voices": 2,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "hand",
+   "effort_min": 8,
+   "flags": [
+    "percussion",
+    "ear-training",
+    "low-res",
+    "dynamics"
+   ],
+   "reason": "2 two-part rhythms",
+   "size": [
+    611,
+    235
+   ]
+  },
+  {
+   "index": 311,
+   "path": "v2/media/2022/07/OMT-S6-Maj-2-1-e1659022418621.jpg",
+   "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+   "caption": "There are four melodies in the major mode that contain leaps of fifths and octaves within the tonic triad as well as dynamic and articulation markings.",
+   "kind": "notation",
+   "staves": 7,
+   "bars": 32,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "omr",
+   "effort_min": 15,
+   "flags": [
+    "ear-training",
+    "low-res",
+    "dynamics"
+   ],
+   "reason": "4 melodies major",
+   "size": [
+    611,
+    548
+   ]
+  },
+  {
+   "index": 312,
+   "path": "v2/media/2022/07/OMT-S6-Min-2-e1658950414559.jpg",
+   "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+   "caption": "There are four melodies in the minor mode that contain leaps of fifths and octaves within the tonic triad as well as dynamic and articulation markings.",
+   "kind": "notation",
+   "staves": 8,
+   "bars": 32,
+   "voices": 1,
+   "texture": "single line",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "omr",
+   "effort_min": 15,
+   "flags": [
+    "ear-training",
+    "low-res",
+    "dynamics"
+   ],
+   "reason": "4 melodies minor",
+   "size": [
+    611,
+    623
+   ]
+  },
+  {
+   "index": 313,
+   "path": "v2/media/2022/07/OMT-S6-2PM-2-1-e1659022671424.jpg",
+   "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+   "caption": "There are two two-part melodies that contain leaps of fifths and octaves within the tonic triad as well as dynamic markings and articulations.",
+   "kind": "notation",
+   "staves": 6,
+   "bars": 24,
+   "voices": 2,
+   "texture": "piano",
+   "source": "constructed",
+   "legibility": "fair",
+   "recommendation": "omr",
+   "effort_min": 18,
+   "flags": [
+    "ear-training",
+    "low-res",
+    "dynamics"
+   ],
+   "reason": "2 two-part melodies",
+   "size": [
+    611,
+    435
+   ]
+  },
+  {
+   "index": 314,
+   "path": "v2/media/2025/06/Museik-No.-10-H.-Colding-Jorgensen-1979-scaled.jpg",
+   "chapter": "15-chapters-in-development/01-graphic-notation-and-scores.md",
+   "caption": "Example 1. “Museik No. 10” by Henrik Colding-Jørgensen (1979).",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "graphic-score"
+   ],
+   "reason": "Museik No. 10 graphic score",
+   "size": [
+    2560,
+    1810
+   ]
+  },
+  {
+   "index": 315,
+   "path": "v2/media/2025/06/Belle-bonne-sage-by-Baude-Cordier.jpg",
+   "chapter": "15-chapters-in-development/01-graphic-notation-and-scores.md",
+   "caption": "Example 2. “Belle, Bonne, Sage,” by Baude Cordier.",
+   "kind": "photo",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "mensural"
+   ],
+   "reason": "Cordier Belle bonne sage (manuscript, mensural)",
+   "size": [
+    500,
+    639
+   ]
+  },
+  {
+   "index": 316,
+   "path": "v2/media/2025/06/Selfie-score-DPI-300.jpg",
+   "chapter": "15-chapters-in-development/01-graphic-notation-and-scores.md",
+   "caption": "Example 4. “Selfie” by John Dante Prevedini (2020).",
+   "kind": "notation",
+   "staves": 6,
+   "bars": 3,
+   "voices": 4,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "fair",
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "graphic-score"
+   ],
+   "reason": "Selfie: graphic arrangement of noteheads",
+   "size": [
+    690,
+    690
+   ]
+  },
+  {
+   "index": 317,
+   "path": "v2/media/2025/06/image-2.png",
+   "chapter": "15-chapters-in-development/01-graphic-notation-and-scores.md",
+   "caption": "Example 6. Measures 10–12 from “Fabric” by Henry Cowell.",
+   "kind": "notation",
+   "staves": 2,
+   "bars": 3,
+   "voices": 3,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "good",
+   "recommendation": "hand",
+   "effort_min": 15,
+   "flags": [
+    "tuplets",
+    "cross-rhythm"
+   ],
+   "reason": "Cowell Fabric mm. 10-12, nested tuplets",
+   "size": [
+    675,
+    215
+   ]
+  },
+  {
+   "index": 318,
+   "path": "v2/media/2025/06/Conceptual-View-of-Worlds-I-12-scaled-e1751569647279.png",
+   "chapter": "15-chapters-in-development/01-graphic-notation-and-scores.md",
+   "caption": "Example 11. “Conceptual View of Worlds I” by Kyong Mee Choi (2002).",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "graphic-score"
+   ],
+   "reason": "Conceptual View of Worlds (mixed graphic)",
+   "size": [
+    2560,
+    1370
+   ]
+  },
+  {
+   "index": 319,
+   "path": "v2/media/2025/06/Contellation-Score-scaled.png",
+   "chapter": "15-chapters-in-development/01-graphic-notation-and-scores.md",
+   "caption": "Example 13. “Constellation” by Dimitris Maronidis (2002).",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "graphic-score"
+   ],
+   "reason": "Constellation",
+   "size": [
+    2560,
+    1052
+   ]
+  },
+  {
+   "index": 320,
+   "path": "v2/media/2025/07/Ballade-Julien-Monette-Directions.png",
+   "chapter": "15-chapters-in-development/01-graphic-notation-and-scores.md",
+   "caption": "Example 15. Directions to “Ballade” by Julien Monette.",
+   "kind": "text/other",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "performance notes",
+   "size": [
+    1516,
+    1038
+   ]
+  },
+  {
+   "index": 321,
+   "path": "v2/media/2025/06/Ballade-Monette-9.png",
+   "chapter": "15-chapters-in-development/01-graphic-notation-and-scores.md",
+   "caption": "Example 16. An excerpt from page 6 of “Ballade” by Julien Monette (2024).",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "graphic-score"
+   ],
+   "reason": "Ballade page 6",
+   "size": [
+    2415,
+    2014
+   ]
+  },
+  {
+   "index": 322,
+   "path": "v2/media/2025/06/Malcolm-Goldstein-Jade-Mountain-Soundings-score-2.png",
+   "chapter": "15-chapters-in-development/01-graphic-notation-and-scores.md",
+   "caption": "Example 18. “Jade Mountain Soundings” by Malcolm Goldstein (1983).",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "graphic-score"
+   ],
+   "reason": "Jade Mountain Soundings",
+   "size": [
+    1700,
+    2200
+   ]
+  },
+  {
+   "index": 323,
+   "path": "v2/media/2025/07/Jade-Mountain-Soundings-Directions-Malcolm-Goldstein-e1752603702637.png",
+   "chapter": "15-chapters-in-development/01-graphic-notation-and-scores.md",
+   "caption": "Example 19. Directions for “Jade Mountain Soundings” by Malcolm Goldstein (1983).",
+   "kind": "text/other",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "directions (text)",
+   "size": [
+    1020,
+    1394
+   ]
+  },
+  {
+   "index": 324,
+   "path": "v2/media/2025/06/Unstable-Revolutions-6-scaled-e1751994482419.png",
+   "chapter": "15-chapters-in-development/01-graphic-notation-and-scores.md",
+   "caption": "Example 21. “Unstable Revolutions” by Maxwell Tfirn (2019).",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [
+    "graphic-score"
+   ],
+   "reason": "Unstable Revolutions",
+   "size": [
+    2560,
+    1536
+   ]
+  },
+  {
+   "index": 325,
+   "path": "v2/media/2025/08/rhianna-diamonds-briformer-1-scaled.png",
+   "chapter": "15-chapters-in-development/02-hypermeter2.md",
+   "caption": "This is a complete phrase diagram of Rihanna's \"Diamond\" that shows the songs completely regular hypermetric structure. All phrases are four measures and the hyperbeats are shown for each of these phrases.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "hypermeter diagram Diamonds",
+   "size": [
+    2560,
+    269
+   ]
+  },
+  {
+   "index": 326,
+   "path": "v2/media/2025/08/beatles_a_hard_days_night_briformer_1-scaled.png",
+   "chapter": "15-chapters-in-development/02-hypermeter2.md",
+   "caption": "This is a hypermetric analysis of \"A Hard Day's Night\" by The Beatles. It shows the form of the song with each phrase having a four-bar hypermeter. The last phrase of the song shows hyperbeats 3 and 4 repeating for the song's outro.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "hypermeter diagram Hard Day's Night",
+   "size": [
+    2560,
+    268
+   ]
+  },
+  {
+   "index": 327,
+   "path": "v2/media/2025/08/hypermeter_joplin_1.png",
+   "chapter": "15-chapters-in-development/02-hypermeter2.md",
+   "caption": "This is a the score of Scott Joplin's \"Harmony Club Waltz\" with they hyperbeats shown between the staves of the measures and each hypermeasure is grouped with a bracket and label that captures which hypermeasure it is part of.",
+   "kind": "notation+annotation",
+   "staves": 4,
+   "bars": 16,
+   "voices": 3,
+   "texture": "piano",
+   "source": "repertoire",
+   "legibility": "fair",
+   "recommendation": "omr+hand",
+   "effort_min": 25,
+   "flags": [
+    "scan",
+    "hypermeter-labels",
+    "color"
+   ],
+   "reason": "Joplin Harmony Club Waltz with hypermeasure numbers",
+   "size": [
+    1588,
+    717
+   ]
+  },
+  {
+   "index": 328,
+   "path": "v2/media/2025/06/joplin-harmony-club-waltz-briformer-regular-speed-e1755793961185-300x46.png",
+   "chapter": "15-chapters-in-development/02-hypermeter2.md",
+   "caption": "Example 5 . Regular speed version of Scott Joplin’s “Harmony Club Waltz.” Click to view interactive example.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "hypermeter diagram",
+   "size": [
+    300,
+    46
+   ]
+  },
+  {
+   "index": 329,
+   "path": "v2/media/2025/06/joplin-harmony-club-waltz-briformer-double-speed-e1755794024730-300x50.png",
+   "chapter": "15-chapters-in-development/02-hypermeter2.md",
+   "caption": "Example 6 . Double speed version of Scott Joplin’s “Harmony Club Waltz.” Click to view interactive example.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "hypermeter diagram",
+   "size": [
+    300,
+    50
+   ]
+  },
+  {
+   "index": 330,
+   "path": "v2/media/2025/06/joplin-harmony-club-waltz-briformer-half-speed-e1755794148910-300x48.png",
+   "chapter": "15-chapters-in-development/02-hypermeter2.md",
+   "caption": "Example 7 . Half speed version of Scott Joplin’s “Harmony Club Waltz.” Click to view interactive example.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "hypermeter diagram",
+   "size": [
+    300,
+    48
+   ]
+  },
+  {
+   "index": 331,
+   "path": "v2/media/2025/08/mozart-piano-concerto-no-21-hypermeter-briformer.png",
+   "chapter": "15-chapters-in-development/02-hypermeter2.md",
+   "caption": "This is a phrase diagram of the beginning of Mozart's piano concerto no. 21 that shows each hyperbeat. It shows an elision symbol that connect's the Orchestra's 12th measure with the Transition's first measure.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "hypermeter diagram Mozart",
+   "size": [
+    742,
+    167
+   ]
+  },
+  {
+   "index": 332,
+   "path": "v2/media/2025/06/mozart-la_ci_darem_la_mano-don-giovanni-briformer-e1755798791119-1024x204.png",
+   "chapter": "15-chapters-in-development/02-hypermeter2.md",
+   "caption": "Example 9 . Measures 1–18 from Mozart’s “Là ci darem la mano” from Don Giovanni (1787). Click to view interactive example.",
+   "kind": "diagram",
+   "staves": null,
+   "bars": null,
+   "voices": null,
+   "texture": null,
+   "source": null,
+   "legibility": null,
+   "recommendation": "skip",
+   "effort_min": 0,
+   "flags": [],
+   "reason": "hypermeter diagram Don Giovanni",
+   "size": [
+    1024,
+    204
+   ]
+  }
+ ]
+}
