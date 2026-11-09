@@ -1,0 +1,52 @@
+[
+ {
+  "index": 94,
+  "image": "v2/media/2025/07/Shots-Rhythm-LMFAO.png",
+  "lyl": "v2/lilylet/images/2025/07/Shots-Rhythm-LMFAO.lyl",
+  "chapter": "01-fundamentals/12-other-rhythmic-essentials.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Original is a vocal rhythm on a one-line staff with a neutral clef (not a drum part); written on B4 on a treble staff (one-line staff / neutral clef not expressible). Bar 2 is truncated after one quarter in the original: \\partial 4; the render draws a closing barline the original lacks. lilylet bug: \\stemUp does not reach notes inside \\tuplet (even written inside it), so the triplet stems point down (original: up)."
+ },
+ {
+  "index": 95,
+  "image": "v2/media/2025/07/Memory-Cats-Webber.png",
+  "lyl": "v2/lilylet/images/2025/07/Memory-Cats-Webber.lyl",
+  "chapter": "01-fundamentals/12-other-rhythmic-essentials.md",
+  "method": "hand",
+  "status": "ok",
+  "omr": null,
+  "notes": "Image has 6 bars (batch said 9). Duplets as \\tuplet 2/3. Lyrics kept as printed ('moon light', 'hap-pi ness is...'). Line breaks differ from the original. Matches note for note."
+ },
+ {
+  "index": 96,
+  "image": "v2/media/2025/07/Love-Story-Swift.png",
+  "lyl": "v2/lilylet/images/2025/07/Love-Story-Swift.lyl",
+  "chapter": "01-fundamentals/13-major-scales.md",
+  "method": "hand",
+  "status": "ok",
+  "omr": null,
+  "notes": "Soprano + violin as two unbracketed parts ([staves \"s,vn\"]), as in the original. Lyric 'Cause'' kept as printed. Matches note for note."
+ },
+ {
+  "index": 107,
+  "image": "v2/media/2025/07/Yesterday-Beatles.png",
+  "lyl": "v2/lilylet/images/2025/07/Yesterday-Beatles.lyl",
+  "chapter": "01-fundamentals/14-minor-scales.md",
+  "method": "hand",
+  "status": "ok",
+  "omr": null,
+  "notes": "Image has 3 bars (batch said 4). Matches note for note."
+ },
+ {
+  "index": 113,
+  "image": "v2/media/2020/05/reichardt.png",
+  "lyl": "v2/lilylet/images/2020/05/reichardt.lyl",
+  "chapter": "01-fundamentals/14-minor-scales.md",
+  "method": "omr+hand",
+  "status": "ok-with-notes",
+  "omr": "quality 93.7%, solved 3 / issue 0 / fatal 0 (source PNG is RGBA with transparent background; flattened on white before OMR)",
+  "notes": "OMR pitches/rhythms were all correct; fixed layout (3 separate parts -> voice + one {pr-pl} piano part), key Ab major -> F minor (same signature, chapter says F minor), added C time, tempo 'Unruhig und klagend', pickup \\partial 4, start-repeat barline, lyrics. Circled notes (voice pickup F4, bass F2 in bar 1) not drawable: '(circled)' markup on each. Voice staff gets a bracket the original lacks."
+ }
+]

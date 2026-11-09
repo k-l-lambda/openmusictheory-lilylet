@@ -1,0 +1,3 @@
+[title "A note in alto clef with a breath mark"]
+
+\omit Score.TimeSignature \key c \major \clef "alto" b1\breathe \bar "|" | %1

@@ -1,0 +1,132 @@
+[
+ {
+  "index": 115,
+  "image": "v2/media/2019/05/simple-v-compound.png",
+  "lyl": "v2/lilylet/images/2019/05/simple-v-compound.lyl",
+  "chapter": "01-fundamentals/17-intervals.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Two voices sharing one stem line (C3/C4 up, A2 down). Label rows m3/m10 and simple/compound as two lyric lanes; the boxes around simple/compound and colour not drawn."
+ },
+ {
+  "index": 116,
+  "image": "v2/media/2019/05/inversion-3.png",
+  "lyl": "v2/lilylet/images/2019/05/inversion-3.lyl",
+  "chapter": "01-fundamentals/17-intervals.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Two voices: E3-C4 stem up, C3-E3 stem down (the C3/E3 dyad drawn as a 2-voice unison-stem). Blue/red lines connecting C3 to C4 and E3 to E3 (the moved note) not drawable; label colour not drawn."
+ },
+ {
+  "index": 117,
+  "image": "v2/media/2019/05/imaginary.png",
+  "lyl": "v2/lilylet/images/2019/05/imaginary.lyl",
+  "chapter": "01-fundamentals/17-intervals.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Two voices: Ab3-Ebb3 stem up, Ebb3-Ab2 stem down. Blue/red connecting lines (moved note / common note) not drawable."
+ },
+ {
+  "index": 118,
+  "image": "v2/media/2019/05/white-key-sevenths.png",
+  "lyl": "v2/lilylet/images/2019/05/white-key-sevenths.lyl",
+  "chapter": "01-fundamentals/17-intervals.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Boxed title label 'white-key sevenths' put in the title; blue/red colouring (minor vs major) not drawn."
+ },
+ {
+  "index": 119,
+  "image": "v2/media/2019/05/enh-eq.png",
+  "lyl": "v2/lilylet/images/2019/05/enh-eq.lyl",
+  "chapter": "01-fundamentals/17-intervals.md",
+  "method": "hand",
+  "status": "ok",
+  "omr": null,
+  "notes": "Two voices: Ab3-G#3 stem up, Ebb3-D3 stem down."
+ },
+ {
+  "index": 121,
+  "image": "v2/media/2019/05/Screen-Shot-2020-08-17-at-1.39.09-PM.png",
+  "lyl": "v2/lilylet/images/2019/05/Screen-Shot-2020-08-17-at-1.39.09-PM.lyl",
+  "chapter": "01-fundamentals/18-triads.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "A minor triad A2-C3-E3 in bass clef. Labels Fifth/Third/Root (printed to the right with coloured leader lines) as three stacked lyric lanes below the chord, top to bottom; leader lines and colour not drawn."
+ },
+ {
+  "index": 122,
+  "image": "v2/media/2019/05/d-major.png",
+  "lyl": "v2/lilylet/images/2019/05/d-major.lyl",
+  "chapter": "01-fundamentals/18-triads.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Steps as 4 bars with double barlines, step numbers as ^markup. Step 3 (recalled key signature F#/C#, no notes) as \\key d \\major over a spacer bar; the return to \\key c \\major in bar 4 makes Verovio print two cancellation naturals that the original doesn't have (no way to suppress them). The original repeats the clef in each step box, and the colour is not drawn."
+ },
+ {
+  "index": 123,
+  "image": "v2/media/2019/05/ab-minor.png",
+  "lyl": "v2/lilylet/images/2019/05/ab-minor.lyl",
+  "chapter": "01-fundamentals/18-triads.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Steps as 5 bars with double barlines, step numbers as ^markup. Step 3 (recalled Ab major key signature, no notes) as \\key af \\major over a spacer bar; the return to C major in bar 4 makes Verovio print 4 cancellation naturals that the original doesn't have. The original repeats the clef in each step box; the blue colour of the newly added elements is not drawn."
+ },
+ {
+  "index": 124,
+  "image": "v2/media/2020/05/chord-members.png",
+  "lyl": "v2/lilylet/images/2020/05/chord-members.lyl",
+  "chapter": "01-fundamentals/19-seventh-chords.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "A minor seventh chord A2-C3-E3-G3 in bass clef. Labels Seventh/Fifth/Third/Root (printed to the right with coloured leader lines) as four stacked lyric lanes below, top to bottom; leader lines and colour not drawn."
+ },
+ {
+  "index": 125,
+  "image": "v2/media/2020/05/dmaj.png",
+  "lyl": "v2/lilylet/images/2020/05/dmaj.lyl",
+  "chapter": "01-fundamentals/19-seventh-chords.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Steps as 4 bars (single barlines, as printed), step numbers as ^markup. Step 3 (recalled D major key signature) as \\key d \\major over a spacer bar; the return to C major in bar 4 makes Verovio print 2 cancellation naturals that the original doesn't have. The original repeats the clef in each step box; the blue colour of new elements is not drawn."
+ },
+ {
+  "index": 126,
+  "image": "v2/media/2020/05/abdim7.png",
+  "lyl": "v2/lilylet/images/2020/05/abdim7.lyl",
+  "chapter": "01-fundamentals/19-seventh-chords.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Steps as 6 bars with barlines as printed (|| after steps 2 and 3), step numbers as ^markup. Step 3 (recalled Ab major key signature) as \\key af \\major over a spacer bar; returning to C major in bar 4 makes Verovio print 4 cancellation naturals not in the original. Image has 6 steps (text lists 5: the image splits C/E lowering and G->Gbb). Clef repeated per step box and blue colour not drawn."
+ },
+ {
+  "index": 127,
+  "image": "v2/media/2025/07/Ab-Minor-Triad-in-Inversion.png",
+  "lyl": "v2/lilylet/images/2025/07/Ab-Minor-Triad-in-Inversion.lyl",
+  "chapter": "01-fundamentals/20-inversion.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Steps as 6 bars with double barlines, step numbers as ^markup. Step 3 (recalled Ab major key signature) as \\key af \\major over a spacer bar; returning to C major in bar 4 makes Verovio print 4 cancellation naturals not in the original. Final step Cb5-Eb5-Ab5 (first inversion). Grey highlight box on step 6, clef repeated per step box, and blue colour not drawn."
+ },
+ {
+  "index": 128,
+  "image": "v2/media/2025/07/D-Major-Major-Seventh-Chord-in-Inversion.png",
+  "lyl": "v2/lilylet/images/2025/07/D-Major-Major-Seventh-Chord-in-Inversion.lyl",
+  "chapter": "01-fundamentals/20-inversion.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Steps as 5 bars (single barlines, final ||), step numbers as ^markup. Step 3 (recalled D major key signature) as \\key d \\major over a spacer bar; returning to C major in bar 4 makes Verovio print 2 cancellation naturals not in the original. Final step A4-C#5-D5-F#5 (second inversion). Grey highlight on step 5, clef repeated per step box, and blue colour not drawn."
+ }
+]

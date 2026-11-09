@@ -1,0 +1,5 @@
+[title "The harmonic series on F2, partials 1-16"]
+[staves "{-}"]
+
+\staff "1" \omit Score.TimeSignature \key c \major \time 16/4 \clef "treble" \staff "2" \clef "bass" f,,4 f' c' \staff "1" f a c ef f g a b c d ef e! f \undo \omit Score.BarLine \bar "||"
+\addlyrics { 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 } | %1

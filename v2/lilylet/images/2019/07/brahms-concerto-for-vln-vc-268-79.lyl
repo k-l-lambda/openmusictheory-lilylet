@@ -1,0 +1,62 @@
+[title "Double Concerto, Op. 102, I, mm. 268-278"]
+[composer "Johannes Brahms"]
+[staves "<vn> <vc> {pr-pl}"]
+[instrument-vn "Violin" "Vl."]
+[instrument-vc "Violoncello" "Vc."]
+[instrument-pr-pl "Piano"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "treble" R1 \\\\
+\clef "bass" R1 \\\\
+\staff "1" \clef "treble" <f df'>4 bf-. <bf, g'>-. ef-. \\
+\staff "2" \clef "bass" \tuplet 3/2 { <bf, bf'>4_. <c c'>_. <df df'>_. } \tuplet 3/2 { <ef, ef'>_. <f f'>_. <g g'>_. } | %268
+
+R1 \\\\
+c,8(\fp c4 c8) ef( ef4 ef8) \\\\
+\staff "1" \clef "bass" <ef, af c>1_\markup "fpp"( \\
+\staff "2" <af,, af'>1( | %269
+
+R1 \\\\
+af8( af4 af8) b( b4 b8) \clef "tenor" \\\\
+\staff "1" <ds, gs b>1) \\
+\staff "2" <gs,, gs'>1) | %270
+
+R1 \\\\
+e8( e4 e8) gs( gs4 gs8) \clef "treble" \\\\
+\staff "1" <e, gs b>1( \\
+\staff "2" <e,,, e'>1~ | %271
+
+R1 \\\\
+b'8( b4 b8) e( e4 e8) \\\\
+\staff "1" <g b e>1) \\
+\staff "2" <e,,, e'>1 | %272
+
+c'8(\p c4 c8) e( e4 e8) \\\\
+g''1~ \\\\
+\staff "1" <g c e>1( \\
+\staff "2" c,,1~ | %273
+
+c'8( c4 c8) ef( ef4 ef8) \\\\
+g''2 ef~ \\\\
+\staff "1" <g c ef>1) \\
+\staff "2" c,,1 | %274
+
+af''8( af4 af8) c( c4 c8) \\\\
+ef'1~ \\\\
+\staff "1" <af c ef>1 \clef "treble" \\
+\staff "2" <af,, af'>1( | %275
+
+ds''8( ds4 ds8) \ottava #1 gs( gs4 gs8) \\\\
+ef'2 b \\\\
+\staff "1" <gs' b ds>1 \\
+\staff "2" <gs,, gs'>1) | %276
+
+b'''8(\< b4 b8) a(\> a4 a8)\! \\\\
+g'!2(\< d'4.)\> cs8(\! \\\\
+\staff "1" \stemUp g'2(_\pp a) \\
+\staff "1" \stemDown <b d>1 \\
+\staff "2" \repeat tremolo 8 { e,,,32 e' } \repeat tremolo 8 { e,32 e' } | %277
+
+c'''2(\< gs4.)\> g8\!_\markup "dim." \\\\
+d'8[\< e f] cs d[\> e fs]\! cs)_\markup "dim." \\\\
+\staff "1" <d b'!>4. <a'' cs>8 <b d>8[\< <cs e>\> <d fs>]\! r8 \\
+\staff "2" <e,,, e'>2.. <e'' gs d'>8 | %278

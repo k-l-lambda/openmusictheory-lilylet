@@ -1,0 +1,10 @@
+[title "C major and C lydian"]
+[staves "-"]
+
+\omit Score.TimeSignature \time 8/1 \clef "treble" c1^\markup "major"^\markup "1̂" d^\markup "2̂" e^\markup "3̂" f^\markup "4̂" g^\markup "5̂" a^\markup "6̂" b^\markup "7̂" c^\markup "1̂" \\\\
+\clef "treble" <c e g>1 <d f a> <e g b> <f a c> <g b d> <a c e> <b d f> <c e g> \bar "||"
+\addlyrics { I ii iii IV V vi vii° I } | %1
+
+c1^\markup "lydian"^\markup "1̂" d^\markup "2̂" e^\markup "3̂" fs^\markup "↑4̂" g^\markup "5̂" a^\markup "6̂" b^\markup "7̂" c^\markup "1̂" \\\\
+<c e g>1 <d fs a> <e g b> <fs a c> <g b d> <a c e> <b d fs> <c e g> \bar "||"
+\addlyrics { I II♯ iii ♯iv° V vi vii I } | %2

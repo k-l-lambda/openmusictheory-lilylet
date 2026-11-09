@@ -1,0 +1,3 @@
+[title "Correct notation of ledger lines"]
+
+\omit Score.TimeSignature \omit Score.BarLine \clef "treble" b''4^\markup "Correct" e d,, b \undo \omit Score.BarLine \bar "||" | %1

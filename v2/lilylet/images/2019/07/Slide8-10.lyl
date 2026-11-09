@@ -1,0 +1,84 @@
+[title "Hebrides Overture, mm. 7–26: internal expansion via alternative path (detour)"]
+[composer "Felix Mendelssohn"]
+[staves "{-}"]
+
+\staff "1" \key d \major \time 4/4 \clef "treble" \stemUp <b' ds>1(\pp \\
+\staff "1" \stemDown fs1 \\
+\staff "1" s2 \stemDown r8 fs8\p[ b a16 b] \\
+\staff "2" \clef "bass" \repeat tremolo 4 { b,,16 b' } \repeat tremolo 4 { b, b' } | %7
+
+\staff "1" \stemUp <b' e>2) <b cs> \\
+\staff "1" \stemDown g'8[ fs16 g] e4~ e16\<[ fs e fs]\! g\>[ fs g fs]\! \\
+\staff "2" \repeat tremolo 4 { e,,16 b' } \repeat tremolo 4 { e, b' } | %8
+
+\staff "1" r8^\markup "presentation"^\markup "b.i." \stemUp fs'( d![ cs16 d] b4 fs) \\
+\staff "1" \stemDown fs1 \\
+\staff "2" \stemUp d,16[ cs b cs] d[ b e b] \stemDown d[ e fs b] d[ b fs e] | %9
+
+\staff "1" r8 \stemUp fs'( d![ cs16 d] b4 fs) \\
+\staff "1" \stemDown fs1 \\
+\staff "2" \stemUp d,16[ cs b cs] d[ b e b] \stemDown d[ e fs b] d[ b fs e] | %10
+
+\staff "1" r8^\markup "b.i." \stemUp a''( fs[ e16 fs] d4 a) \\
+\staff "1" \stemDown a'1 \\
+\staff "2" \stemUp d,16[ a fs a] d[ a e' a,] \stemDown fs'[ a fs e] d[ a' fs e] \\
+\staff "2" \stemDown d,,4\sustainOn s2. | %11
+
+\staff "1" r8 \stemUp a''( fs[ e16 fs] d4 a) \\
+\staff "1" \stemDown a'1 \\
+\staff "2" \stemUp d,16[ a fs a] d[ a e' a,] \stemDown fs'[ a fs e] d[ e d e] \\
+\staff "2" \stemDown d,,4 s2.\sustainOff | %12
+
+\staff "1" r8^\markup "continuation"^\markup "u." \stemUp cs'( fs[ e16 fs] d8[ cs16 d] b8[ d)] \\
+\staff "1" \stemDown as'2(\p b) \\
+\staff "2" fs,16[ cs' as cs] fs[ cs fs cs] b[ d b d] fs[ d fs d] | %13
+
+\staff "1" r8 \stemUp cs'( fs[ e16 fs] d8[ cs16 d] b8[ b')] \\
+\staff "1" \stemDown as'2( b) \\
+\staff "2" fs,16[ cs' as cs] fs[ cs fs cs] b[ d b d] fs[ d fs d] | %14
+
+\staff "1" \stemUp \grace as'8 <g' b>2\trill\sf^\markup "cad." \grace { g16[ fs] } <d fs>2(\sf_\markup "dim." \\
+\staff "2" e,,16([ b' fs b] g[ b a b)] b,([ b' cs, b'] d,[ b' e,) b'] | %15
+
+\staff "1" \stemDown <d' fs>8)\p^\markup "PAC"[ b( cs fs,)] \stemUp <b, b'>[ d( fs b)] \\
+\staff "2" <fs,, d'>8 r <fs as e'> r d'16([ cs b cs] d[ cs d b)] | %16
+
+\staff "1" r8^\markup "repetition of continuation"^\markup "u." \stemUp cs'( fs[ e16 fs] d8[ cs16 d] b8[ d)] \\
+\staff "1" \stemDown as'2(\p b) \\
+\staff "2" fs,,16\sustainOn([ cs'' as cs] fs[ cs fs cs\sustainOff] b,,\sustainOn[ d' b d] fs[ d fs d)\sustainOff] | %17
+
+\staff "1" r8 \stemUp cs'( fs[ e16 fs] d8[ cs16 d] b8[ b'-.)] \\
+\staff "1" \stemDown as'2(b) \\
+\staff "2" fs,,16\sustainOn([ cs'' as cs] fs[ cs fs cs\sustainOff] b,,\sustainOn[ d' b d] fs[ d fs d)\sustainOff] | %18
+
+\staff "1" \stemUp b''2(^\markup "cad." g4..) e'16\sf \\
+\staff "1" \stemDown g''16\sf[ b, g' b,] g'[ b, g' b,] e[ b e b] e8 r \\
+\staff "2" e,,8(_\markup "b: iv"[ fs g a] b[ cs ds e)] | %19
+
+\staff "1" \stemUp e''2( b4) r4 \\
+\staff "1" \stemDown g''16\sf[ e g e] g[ e g e] cs[ d cs d] e[ fs e fs] \\
+\staff "2" fs,8[ g a b] \clef "treble" e[ d c b] | %20
+
+\staff "1" <g'' e'>16(\pp^\markup "detour"[ cs e cs] as[ cs as cs] <g e'>[ cs e cs] as[ cs as cs)] \\
+\staff "2" \stemUp e16([ g e g] e[ g e g] e[ g e g] e[ g e g)] \\
+\staff "2" \stemDown as1_\markup "vii°7"\sustainOn | %21
+
+\staff "1" <g'' e'>16([ cs <g e'> cs] <e, as>[ cs' <e, as> cs'] <cs, e>[ g' <cs, e> g'] as,[ cs as cs)] \\
+\staff "2" \stemUp s2. e'16[ g e g] \\
+\staff "2" \stemDown <as cs>2. s4\sustainOff \clef "bass" | %22
+
+\staff "1" \stemUp <b' fs'>8^\markup "cad." r fs''4~(\sf fs8 <fs, b d>[ <fs b d> <fs b d>] \\
+\staff "1" \stemDown s1 \\
+\staff "2" d,,16\sustainOn[ fs d fs] fs[ b d b] d,[ fs d fs] fs[ b d b] | %23
+
+\staff "1" \stemUp <b'' d>8[ cs b fs] e[ d cs b] \\
+\staff "1" \stemDown s2 fs2 \\
+\staff "2" fs,,16[ b fs b] fs[ b fs b] d,[ b' d, b'] d,[ b' d, b'] | %24
+
+\staff "1" \stemUp a''8[ g e cs]) <fs, b d>8 r <e as cs> r \\
+\staff "1" \stemDown cs2 s2 \\
+\staff "2" <e,, g>16\p[ b' <e, g> b'] <e, g>[ b' <e, g> b'] fs8 r fs r | %25
+
+\staff "1" \partial 4 r4^\markup "PAC" \\
+\staff "1" \partial 4 s4 \\
+\staff "2" \partial 4 b,4 | %26

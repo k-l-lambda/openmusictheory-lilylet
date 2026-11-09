@@ -1,0 +1,9 @@
+[title "Secondary leading tone resolving down into a seventh: V7/V – V7 – I"]
+[staves "{-}"]
+
+\staff "1" \numericTimeSignature \time 4/4 \key c \major \clef "treble" <c' d fs>2^\markup "secondary leading tone" <b d f> \\
+\staff "2" \clef "bass" d,2 g
+\addlyrics { V7/V V7 } | %1
+\staff "1" <g' c e>1 \\
+\staff "2" c,1 \bar "||"
+\addlyrics { I } | %2

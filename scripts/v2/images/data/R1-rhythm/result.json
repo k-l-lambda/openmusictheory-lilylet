@@ -1,0 +1,22 @@
+[
+ {
+  "index": 317,
+  "image": "v2/media/2025/06/image-2.png",
+  "lyl": "v2/lilylet/images/2025/06/image-2.lyl",
+  "chapter": "15-chapters-in-development/01-graphic-notation-and-scores.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Implied 2/4 (no time signature printed; \\time 2/4 hidden). Cowell's shaped noteheads (diamond = 7 per bar, triangle = 3 per bar, square = 9 per bar) are written as plain tuplets: diamond voice \\tuplet 7/4 eighths (m10, m12), triangle voice \\tuplet 3/2 half+quarter (m10, m12) and triplet eighths (m11 top), square bass \\tuplet 9/8 sixteenths (m10, m11). No nested tuplets needed (and the grammar would drop a \\tuplet inside a \\tuplet: tuplet_event filters inner events to note/rest/context). Not expressible: the special notehead shapes; hiding tuplet numbers/brackets (the original prints none; only TimeSignature/BarLine can be \\omit-ted); the tie into F#4 from bar 9 and the slur out of m12 C5 into bar 13; parenthesized courtesy naturals (F5 and F3 m10, A2 and C5 m11) are not drawn since there is no earlier in-bar accidental. Lilylet bugs visible: slurs starting/ending inside tuplets are dropped or mispaired (stray long arcs over the top voice m10-12 and in the bass m10-11; the source has the correct slurs); NEW: a hairpin starting inside a \\tuplet is dropped (m10 and m12 crescendos missing; m11 decrescendo outside a tuplet draws); repeated-accidental bug redraws the sharp on the last F#3 of m12. Accidentals carried in-bar per standard convention: m11 bass last note C#4, m12 bass last note F#3 (printed with no accidental)."
+ },
+ {
+  "index": 327,
+  "image": "v2/media/2025/08/hypermeter_joplin_1.png",
+  "lyl": "v2/lilylet/images/2025/08/hypermeter_joplin_1.lyl",
+  "chapter": "15-chapters-in-development/02-hypermeter2.md",
+  "method": "omr+hand",
+  "status": "ok-with-notes",
+  "omr": "system 1: quality 99.8%, solved 9 / issue 0 / fatal 0; system 2: quality 98.6%, solved 9 / issue 0 / fatal 0 (each cropped, upscale 2x)",
+  "notes": "18 bars: 2 intro bars (4 beats, no time signature printed, hidden \\time 4/4) + the 16-bar 3/4 waltz with start/end repeat barlines. Hypermeasure counts 1-4 are ^\\markup on the first LH note of each bar (between the staves); 'Hypermeasure N' labels are ^\\markup on the first RH chord of bars 1, 5, 9, 13. Not drawable: the circles around the counts, the hand-drawn bracket lines over each hypermeasure, and the colours (blue/orange/purple/green per hypermeasure). OMR fixes: two piano parts merged into one {-} part; system 2 read as 4/4 (\\partial 2. and short bars) -> 3/4; system 2 bar 9 (waltz bar 16) lost the RH F4 dotted half and the LH F octave; key-relative misreading of Eb as E natural in system 1 LH (intro bar 2 and waltz bars 1-2, 5-6); fake fermatas (augmentation dots and the circled counts read as fermatas) removed; a stray slur and tie removed; waltz bar 8 LH third beat F-Bb-Eb -> F-Bb-D; octaves fixed in RH intro bar 1 and waltz bars 13, 15, 16. Not visible in the render: the segno (lilylet emits it as a text <dir> without place/staff, so it doesn't show), and the courtesy flat before the LH Eb4 in waltz bar 16 (no in-bar accidental before it, so it isn't drawn). 'WALTZ' is written as \\tempo \"Waltz\"."
+ }
+]

@@ -1,0 +1,57 @@
+[title "Les présents (external expansion via suffix: post-cadential extension)"]
+[composer "Cécile Chaminade"]
+[staves "<voice> {pr-pl}"]
+[instrument-voice "Voice"]
+[instrument-pr-pl "Piano"]
+
+\staff "1" \key ef \major \time 3/4 \clef "treble" ef'2(^\markup "(ant.)" g,4
+\addlyrics { tâche, a -- } \\\\
+\staff "1" \key ef \major \time 3/4 \clef "treble" <c ef g c ef g c>2. \\
+\staff "2" \key ef \major \time 3/4 \clef "bass" r4 bf2 \\
+\staff "2" s4 <bf,, bf'>2 | %1
+
+\staff "1" bf'4 af8 g bf af
+\addlyrics { mi si doux à ché -- } \\\\
+\staff "1" <cs e g cs e g cs>2. \\
+\staff "2" r4 bf2 \\
+\staff "2" s4 <bf,, bf'>2 | %2
+
+\staff "1" g'2^\markup "HC" f8) r8
+\addlyrics { rir, __ _ } \\\\
+\staff "1" <d f af d af' bf d>2. \\
+\staff "2" r4 bf2 \\
+\staff "2" s4 <bf,, bf'>2 | %3
+
+\staff "1" ef8(^\markup "dolce"^\markup "b.i."^\markup "cons."\pp ef f4 g)
+\addlyrics { Qu'el -- le soit bien } \\\\
+\staff "1" <ef g>4(_\markup "dolce"\pp <ef af> <ef bf'> \\
+\staff "2" <bf, ef>4( <bf f'> <bf g'> | %4
+
+\staff "1" af'4^\markup "b.i."^\markup "(cons.)" g f8(^\markup "c.i."[ ef)]
+\addlyrics { lon -- gue, ta __ _ } \\\\
+\staff "1" <ef c'>4 <ef bf'>) af8([ g)] \\
+\staff "1" s2 ef4 \\
+\staff "2" s2 f,8([ ef)] \\
+\staff "2" <bf, af'>4 <bf g'>) bf | %5
+
+\staff "1" g'2 f4
+\addlyrics { vi -- _ } \\\\
+\staff "1" r4 <bf' bf'>2 \\
+\staff "1" <ef bf'>2 af4 \\
+\staff "2" <bf, g'>2 bf4 \\
+\staff "2" r4 bf,,2 | %6
+
+\staff "1" ef4~^\markup "PAC" ef8 r8 r4
+\addlyrics { e! __ _ } \\\\
+\staff "1" <g ef' g>4 <c' g' c>\<^\markup "suffix (p.c.e.)" <d g bf d>\! \\
+\staff "2" r4 \clef "treble" <c ef g>4 <d ef g> \\
+\staff "2" <ef,,, ef'>2. | %7
+
+\staff "1" R2. \\\\
+\staff "1" \ottava #1 <ef' g ef'>4_\markup "cresc." <g ef' g> <bf g' bf> \\
+\staff "2" <ef g bf>4 <bf ef g> <g bf ef> \clef "bass" | %8
+
+\staff "1" R2. \bar "|." \\\\
+\staff "1" <ef' g bf ef>2.\f \ottava #0 \bar "|." \\
+\staff "2" <bf, ef g>2. \bar "|." \\
+\staff "2" <ef,,, ef'>2. \bar "|." | %9

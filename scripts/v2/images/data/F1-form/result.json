@@ -1,0 +1,62 @@
+[
+ {
+  "index": 149,
+  "image": "v2/media/2019/05/Not_a_Motive-1.png",
+  "lyl": "v2/lilylet/images/2019/05/Not_a_Motive-1.lyl",
+  "chapter": "04-form/01-foundational-concepts.md",
+  "method": "omr",
+  "status": "ok-with-notes",
+  "omr": "quality 100%, solved 13 / issue 0 / fatal 0",
+  "notes": "Orange box around mm. 6–10 (to m10 beat 1) with 'Too long!' and a no-entry icon, not drawable: markup '[box: mm. 6–10 — Too long!' on Vn. II m6 and 'box]' on Vn. II m10. OMR fixes: fermata added to Vn. I m2; slurs that are really ties (Vc. m4–5, Va./Vc. mm. 7–10, Vn. II mm. 7–10); Vc. m12 B♭→B♮ (tied from m11); Vn. II m10 G5→G4; p added to Vc. m7. Verovio repeats the natural on the tied Vc. B♮ in mm. 12–13 (the original prints it only in m11)."
+ },
+ {
+  "index": 150,
+  "image": "v2/media/2019/06/Example_001-e1623944080164.png",
+  "lyl": "v2/lilylet/images/2019/06/Example_001-e1623944080164.lyl",
+  "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": "failed: STARRY prediction returned 'empty result' for every new image (also 2x/3x upscaled crops)",
+  "notes": "mm. 1–6 (2-bar piano intro + 4-bar phrase). Grey box over intro mm. 1–2 (transcribed, grey not drawable). Blue phrase arc over mm. 3–6 and two sub-brackets (mm. 3–4, 5–6) not drawable: approximated as markup '[mm. 3–4' … ']' / '[mm. 5–6' … 'PAC ]' on the voice; orange 'PAC' box → markup. Tie on chord top note in m1 written as separate voice (Bb5) since single-note chord ties are a known gap. Grey intro pitches read from a faint scan (m1 RH inner Eb5–D5–C5–D5 figure, LH Bb3) — fairly confident."
+ },
+ {
+  "index": 160,
+  "image": "v2/media/2019/06/Example_011-150x150.png",
+  "lyl": "v2/lilylet/images/2019/06/Example_011-150x150.lyl",
+  "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": "failed: STARRY 'empty result' (full file and 2x crops)",
+  "notes": "Full-size file, mm. 1–12; mm. 1–6 shared with #150. Grey box over intro mm. 1–2 not drawable. Phrase arcs/brackets not drawn: labels as markup ('repeated phrase (8): phrase (4): b.i. (2)' m3, 'c.i. (2)' m5, 'PAC' m6, 'repetition of phrase (4): b.i. (2)' m7, 'c.i. (2)' m9, 'PAC' m10); dashed continuation arcs over mm. 3 and 7 and the separate summary bracket diagram (right of system 2: 8 = 4+4, 2+2+2+2, PAC, PAC) omitted. m11 RH <Gb4 A♮4> dyads read from a small scan (moderately confident); Verovio repeats the ♭ on each dyad where the original prints it once."
+ },
+ {
+  "index": 151,
+  "image": "v2/media/2019/06/Example_002-e1623944015483.png",
+  "lyl": "v2/lilylet/images/2019/06/Example_002-e1623944015483.lyl",
+  "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+  "method": "omr+hand",
+  "status": "ok-with-notes",
+  "omr": "sys1 (from #162 crop, 2x) quality 99.0%, solved 5 / issue 0 / fatal 0; sys2 (2x) 98.9%, 5/0/0; sys3 (2x) 99.8%, 6/0/0; sys1 from this image: 'empty result' x5",
+  "notes": "Image is pixel-identical to #162 (4 px shift), so the transcription is shared. mm. 1–16, 6/8. Phrase arc (mm. 3–15, dashed continuation across systems) and bracket lines not drawn; labels as markup: 'phrase (13 mm., mm. 3–15): b.i. (mm. 3–5)' m3, 'c.i. 1 * (mm. 6–8)' m6, 'c.i. 2 (mm. 9–11)' m9, 'cad. (mm. 12–15)' m12, orange 'PAC' box → markup m15. Footnote not reproduced in score: '*Alternatively, this unit could be divided after the word “Natur.” A possible label for these smaller units would be “fragment.”' OMR fixes: 4/4 header → 6/8 (all bars short), \\partial removed, m16 voice/RH/LH rewritten (garbage tuplets/spacers), m6 RH chords 1/5 Bb3 not G3/Ab3, m3 voice fake triplet → Bb8. A16, m4 voice e8. vs e4 (sys2), stray d''8\\rest octaves; system 1 OMR'd from the #162 crop because every #151 crop of system 1 returned 'empty result'. m16 lyrics slur on schlum-mernd read from small scan."
+ },
+ {
+  "index": 162,
+  "image": "v2/media/2019/06/Example_013-e1623946067355.png",
+  "lyl": "v2/lilylet/images/2019/06/Example_013-e1623946067355.lyl",
+  "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+  "method": "omr+hand",
+  "status": "ok-with-notes",
+  "omr": "sys1 (2x) quality 99.0%, solved 5 / issue 0 / fatal 0; sys2/sys3 reused from #151",
+  "notes": "Image is pixel-identical to #151 (4 px shift), so the transcription is shared. mm. 1–16, 6/8. Phrase arc (mm. 3–15, dashed continuation across systems) and bracket lines not drawn; labels as markup: 'phrase (13 mm., mm. 3–15): b.i. (mm. 3–5)' m3, 'c.i. 1 * (mm. 6–8)' m6, 'c.i. 2 (mm. 9–11)' m9, 'cad. (mm. 12–15)' m12, orange 'PAC' box → markup m15. Footnote not reproduced in score: '*Alternatively, this unit could be divided after the word “Natur.” A possible label for these smaller units would be “fragment.”' OMR fixes: 4/4 header → 6/8 (all bars short), \\partial removed, m16 voice/RH/LH rewritten (garbage tuplets/spacers), m6 RH chords 1/5 Bb3 not G3/Ab3, m3 voice fake triplet → Bb8. A16, m4 voice e8. vs e4 (sys2), stray d''8\\rest octaves; system 1 OMR'd from the #162 crop because every #151 crop of system 1 returned 'empty result'. m16 lyrics slur on schlum-mernd read from small scan."
+ },
+ {
+  "index": 154,
+  "image": "v2/media/2019/06/Example_005-150x150.png",
+  "lyl": "v2/lilylet/images/2019/06/Example_005-150x150.lyl",
+  "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+  "method": "omr+hand",
+  "status": "ok-with-notes",
+  "omr": "sys1 (2x) quality 94.0%, solved 4 / issue 0 / fatal 0; sys2 (2x) 77.4%, 1/3/0 (3x: 69.9%, 1/3/0) - unusable",
+  "notes": "Full-size file, mm. 1–8, cello + piano, 6/8. Brackets not drawn; labels as markup: presentation/basic idea m1, basic idea m3, continuation/fragment m5, fragment m6, cadential idea m7, HC box m8. The summary diagram on the right of the image is omitted. LOW CONFIDENCE: the scan is ~5.6 px per staff space, and the cello's 32nd-note runs in mm. 5–6 can't be read. Their rhythm placement (run, quarter rest, eighth) follows the image, but the pitches are a contour guess (Eb3–D4–A3/G3); m8 cello sixteenths are A♮2/B♭2 alternation then D3–C3–B♭2–A2 (moderately confident). Piano mm. 5–6 sixteenth dyads come from OMR and were checked loosely. Cello mm. 1–4: dotted half Eb2/Eb2/D2/Eb2 (heads look partly filled in the scan). OMR fixes: 4/4 → 6/8, cello F2 → Eb2, all of system 2 rewritten, m7 RH dotted rhythm. 'Dol.' added."
+ }
+]

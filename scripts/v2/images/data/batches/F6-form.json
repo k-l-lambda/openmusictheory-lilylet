@@ -1,0 +1,55 @@
+[
+ {
+  "index": 178,
+  "image": "v2/media/2019/07/Slide12-13.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/Slide12-13.png",
+  "lyl": "v2/lilylet/images/2019/07/Slide12-13.lyl",
+  "chapter": "04-form/04-expansion-and-contraction.md",
+  "recommendation": "omr+hand",
+  "caption": "Example 7. External expansion via small prefix in Cécile Chaminade, “L’amour captif,” mm. 1–10 ( 0:00–0:13 ).",
+  "flags": [
+   "scan",
+   "lyrics",
+   "form-brackets"
+  ],
+  "reason": "Chaminade song prefix",
+  "bars": 10,
+  "staves": 3,
+  "effort_min": 30
+ },
+ {
+  "index": 179,
+  "image": "v2/media/2019/07/Example_010_Chaminade_Presents-150x150.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/Example_010_Chaminade_Presents-e1623956324859.png",
+  "lyl": "v2/lilylet/images/2019/07/Example_010_Chaminade_Presents-150x150.lyl",
+  "chapter": "04-form/04-expansion-and-contraction.md",
+  "recommendation": "omr+hand",
+  "caption": "Notation",
+  "flags": [
+   "thumbnail-150px",
+   "full-size-local:media/2019/07/Example_010_Chaminade_Presents-e1623956324859.png"
+  ],
+  "reason": "Chaminade period + suffix, voice+piano 8 bars; use full-size file",
+  "bars": 8,
+  "staves": 3,
+  "effort_min": 25
+ },
+ {
+  "index": 180,
+  "image": "v2/media/2019/07/Example_011_codetta_Beethoven_2_1-e1623956414121.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/Example_011_codetta_Beethoven_2_1-e1623956414121.png",
+  "lyl": "v2/lilylet/images/2019/07/Example_011_codetta_Beethoven_2_1-e1623956414121.lyl",
+  "chapter": "04-form/04-expansion-and-contraction.md",
+  "recommendation": "omr+hand",
+  "caption": "Notation",
+  "flags": [
+   "scan",
+   "form-brackets",
+   "fingering"
+  ],
+  "reason": "Beethoven codetta (suffix)",
+  "bars": 10,
+  "staves": 2,
+  "effort_min": 25
+ }
+]

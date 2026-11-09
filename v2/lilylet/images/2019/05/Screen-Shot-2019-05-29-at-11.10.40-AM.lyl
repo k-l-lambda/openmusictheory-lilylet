@@ -1,0 +1,3 @@
+[title "Alto clef: letter names of the lines"]
+
+\omit Score.TimeSignature \clef "alto" f,4^\markup "F" a^\markup "A" c^\markup "C" e^\markup "E" g^\markup "G" | %1

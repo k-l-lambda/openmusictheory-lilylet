@@ -1,0 +1,22 @@
+[title "Chord Spacing Types"]
+
+\omit Score.TimeSignature \key c \major \time 1/2 \clef "treble" \stemUp <g' c>2^\markup "Superposition" \\
+\stemDown <c e>2 | %1
+
+s2 \\
+s2 | %2
+
+\stemUp <e c'>2^\markup "Interlock" \\
+\stemDown <c g'>2 | %3
+
+s2 \\
+s2 | %4
+
+\stemUp <e g>2^\markup "Enclosed" \\
+\stemDown <c c'>2 | %5
+
+s2 \\
+s2 | %6
+
+\stemUp <g' c>2^\markup "Overlap" \\
+\stemDown <c g'>2 | %7

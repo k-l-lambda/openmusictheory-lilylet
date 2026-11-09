@@ -1,0 +1,18 @@
+[title "From the Island of Bali (Mikrokosmos No. 109): Extract 2"]
+[composer "Béla Bartók"]
+[staves "{-}"]
+
+\staff "1" \key c \major \numericTimeSignature \time 4/4 \clef "treble" \tempo "Risoluto" 4=96 r2 r8 \ottava #1 b''-1\f( c f \\
+\staff "2" \clef "bass" r2 r8 \clef "treble" b_5( c f | %1
+
+\staff "1" gf'''4-- gf--) gf8( f c gf') \\
+\staff "2" gf'4-- gf--) gf8( f c gf') | %2
+
+\staff "1" f''8( c gf'4--) r8 b,( c f \\
+\staff "2" f8( c gf'4--) r8 b,( c f | %3
+
+\staff "1" gf'''4--)-5 aff---5 gf8-5( f c gf') \\
+\staff "2" gf'4--_1 aff--)_1 gf8_1( f c gf') | %4
+
+\partial 2 \staff "1" f''8( c b4--) \ottava #0 \\
+\staff "2" f8( c b4--) | %5

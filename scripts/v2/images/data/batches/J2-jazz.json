@@ -1,0 +1,53 @@
+[
+ {
+  "index": 229,
+  "image": "v2/media/2019/08/afternoon-in-paris.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/08/afternoon-in-paris.png",
+  "lyl": "v2/lilylet/images/2019/08/afternoon-in-paris.lyl",
+  "chapter": "06-jazz/04-ii-v-i.md",
+  "recommendation": "hand",
+  "caption": "Example 4. “ Afternoon in Paris ” by John Lewis uses ii–V–I progressions in different keys in sequence.",
+  "flags": [
+   "chord-symbols",
+   "slash-bars",
+   "check-support"
+  ],
+  "reason": "Afternoon in Paris chord chart with ii-V-I brackets",
+  "bars": 26,
+  "staves": 1,
+  "effort_min": 15
+ },
+ {
+  "index": 235,
+  "image": "v2/media/2019/08/parentheses-1-e1677584256731.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/08/parentheses-1-e1677584256731.png",
+  "lyl": "v2/lilylet/images/2019/08/parentheses-1-e1677584256731.lyl",
+  "chapter": "06-jazz/06-substitutions.md",
+  "recommendation": "hand",
+  "caption": "Example 7. Substitutions can be (a) improvised and not notated in the score at all, (b) written directly into the chord symbols, or (c) written in parentheses to indicate that the substitution is optional.",
+  "flags": [
+   "chord-symbols"
+  ],
+  "reason": "substitutions improvised vs notated",
+  "bars": 15,
+  "staves": 3,
+  "effort_min": 12
+ },
+ {
+  "index": 236,
+  "image": "v2/media/2019/08/16-bar-blues.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/08/16-bar-blues.png",
+  "lyl": "v2/lilylet/images/2019/08/16-bar-blues.lyl",
+  "chapter": "06-jazz/08-blues-harmony.md",
+  "recommendation": "hand",
+  "caption": "Example 3 . 16-bar blues.",
+  "flags": [
+   "chord-symbols",
+   "measure-repeat"
+  ],
+  "reason": "16-bar blues",
+  "bars": 16,
+  "staves": 4,
+  "effort_min": 10
+ }
+]

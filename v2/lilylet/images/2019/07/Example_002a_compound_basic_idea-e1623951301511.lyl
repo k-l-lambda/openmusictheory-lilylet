@@ -1,0 +1,18 @@
+[title "Compound basic idea: Piano Sonata Hob. XVI:35, I, mm. 1–4"]
+[composer "Joseph Haydn"]
+[staves "{-}"]
+
+\staff "1" \key c \major \time 2/2 \partial 4 \clef "treble" \tempo "Allegro con brio" \stemDown c'8.[^\markup "b.i."^\markup "compound basic idea" e16] \\
+\staff "2" \clef "bass" \partial 4 e,4\rest | %0
+
+\staff "1" \stemDown g''4-! g-! g-! \grace b8 c4(\fz \\
+\staff "2" \stemDown <c e>4 d,\rest d2\rest | %1
+
+\staff "1" \stemDown g''4)-! g-! g-! e8.[^\markup "c.i." c16] \\
+\staff "2" \stemDown <c e>4 e,\rest d2\rest | %2
+
+\staff "1" \stemDown b'4-! b-! c-! c-! \\
+\staff "2" \stemDown <g d' f>4 <g d' f> <g c e> <g c e> | %3
+
+\staff "1" \stemDown d'4-! c\rest b\rest s4 \\
+\staff "2" \stemDown <g b d>4 d\rest d2\rest | %4

@@ -1,0 +1,29 @@
+[title "Gondellied, Op. 1 No. 6 (mm. 18-21)"]
+[composer "Fanny Mendelssohn Hensel"]
+[staves "<voice> {pr-pl}"]
+[instrument-voice "Voice"]
+[instrument-pr-pl "Piano"]
+
+\omit Score.TimeSignature \key a \major \time 6/8 \clef "treble" as'8 b as e'4 as,8
+\addlyrics { mit in die Lust hin -- }
+\addlyrics { zu -- rück die See -- le } \\\\
+\staff "1" \clef "treble" <e as>8[ <e as> <e as>] <e e'>4 <e as>8 \\
+\staff "2" \clef "bass" <e, g cs>8[ <e g cs> <e g cs>] <e g cs>4 <e g cs>8 | %18
+
+b'4.^\<( bs4.)\!
+\addlyrics { ein, }
+\addlyrics { nicht, } \\\\
+\staff "1" <fs b>4. <e bs'>4 d8\p \\
+\staff "2" <ds, fs b>4 a'8 <e gs>4. | %19
+
+cs'8^\p e, a cs4.
+\addlyrics { o komm zu mir }
+\addlyrics { o komm zu mir } \\\\
+\staff "1" <cs cs'>16[ e' a b cs b] a[ e cs a e a] \\
+\staff "2" <a, e' a>8[ e' a] <cs e>4. | %20
+
+e8 a cs^\markup "cresc." e4.
+\addlyrics { wenn durch die Nacht, }
+\addlyrics { wenn durch die Nacht, } \\\\
+\staff "1" cs'16[ e a b cs b] a[ e cs a e a] \\
+\staff "2" g,8[ e' a] <cs e>4. | %21

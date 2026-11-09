@@ -1,0 +1,5 @@
+[title "Pitches below the treble staff and above the bass staff (condensed grand staff)"]
+[staves "{-}"]
+
+\staff "1" \omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" \stemUp d2 c b a g \\
+\staff "2" \clef "bass" \stemDown d2 c b a g \undo \omit Score.BarLine \bar "|" | %1

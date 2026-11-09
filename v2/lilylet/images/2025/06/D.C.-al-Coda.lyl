@@ -1,0 +1,12 @@
+[title "D.C. al Coda"]
+
+\omit Score.TimeSignature \time 4/4 \clef "treble" c'1^\markup "1. Play or sing from the beginning to the D.C. al Coda" | %1
+b'1 | %2
+a'1 | %3
+g'1 | %4
+c'1 | %5
+b'1^\markup "2. At the D.C. al Coda, return to beginning" | %6
+g'1\coda _\markup "3. At the To Coda sign, go to the Coda" | %7
+c'1^\markup "D.C. al Coda" \bar "||" | %8
+f'1\coda^\markup "Coda" _\markup "4. Play or sing the coda" | %9
+e'1 \bar "|." | %10

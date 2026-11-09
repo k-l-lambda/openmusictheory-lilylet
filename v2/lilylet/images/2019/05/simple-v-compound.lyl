@@ -1,0 +1,6 @@
+[title "A simple and a compound interval"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "bass" \stemUp c,2 c' \\
+\stemDown a,2 a \bar "|"
+\addlyrics { m3 m10 }
+\addlyrics { simple compound } | %1

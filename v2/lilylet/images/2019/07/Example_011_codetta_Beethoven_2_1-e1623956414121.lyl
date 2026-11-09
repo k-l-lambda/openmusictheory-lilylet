@@ -1,0 +1,42 @@
+[title "Piano Sonata in F minor, Op. 2 No. 1, I, mm. 36–48 (codetta)"]
+[composer "Ludwig van Beethoven"]
+[staves "{-}"]
+
+\staff "1" \key af \major \time 4/4 \omit Score.TimeSignature \clef "treble" ^\markup "cad." ^\markup "phrase" d8(-2[ ef-3 f-4 ef] d[ ef f ef)] \\
+\staff "2" \key af \major \time 4/4 \clef "bass" df4(-2 bf-3 g-1 df)-3 | %36
+
+\staff "1" r8 af''(-1\f^\markup "cad."[ f'-5 ef-3] df[ c-1 bf-4 af] \\
+\staff "2" c,,4-5 ef2-3 af4 | %37
+
+\staff "1" g''8[ f ef-3 df] c[ bf-4 af g] \\
+\staff "2" df,4-4 f2-2\sf bf4 | %38
+
+\staff "1" f8\p[ ef-3 df c] \staff "2" bf-4[ af g f] \\
+\staff "2" ef,4-4 af2-2\sf c4-1 | %39
+
+\staff "2" ef,8-2[ f-1 g af] bf-4[ c-1 df-5 bf-3] \\
+\staff "2" df,4-1 bf-2 g-3 ef-5 | %40
+
+\staff "2" af4)-2^\markup "PAC" \staff "1" r4 \grace d8( cf'4.-4^\markup "u."^\markup "suffix (codetta)" bf8)_\markup "con espress." \\
+\staff "2" <af, af'>4-4 af'-.-1 r <d, f af cf>-. | %41
+
+\staff "1" af'2 g4.( ef'8)-4 \\
+\staff "2" r4 <ef, a c>-. r <ef bf' df>-. | %42
+
+\staff "1" ef'4(-3\sf af,)-1 \grace d,8( cf'4.^\markup "u." bf8) \\
+\staff "2" r4 <af c>-. r <d, f af cf>-. | %43
+
+\staff "1" af'2 g4.( ef'8) \\
+\staff "2" r4 <ef, a c>-. r <ef bf' df>-. | %44
+
+\staff "1" ef''4(-3\sf af,)-1 \grace d,8( cf'4.-4^\markup "u." bf8) \\
+\staff "2" r4 <af c>-. \clef "treble" r <d f af cf>-. | %45
+
+\staff "1" af''2 g4.( ef'8)-4 \\
+\staff "2" r4 <ef a c>-. r <ef bf' df>-. \clef "bass" | %46
+
+\staff "1" <df ef g df' g ef'>1\ff\> \\
+\staff "2" <af bf>1 | %47
+
+\staff "1" \partial 2. <c ef af c ef af>4-4\!\p r r \bar ":|." \\
+\staff "2" \partial 2. af4 r r \bar ":|." | %48

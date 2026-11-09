@@ -1,0 +1,42 @@
+[
+ {
+  "index": 247,
+  "image": "v2/media/2019/05/dorian-1.png",
+  "lyl": "v2/lilylet/images/2019/05/dorian-1.lyl",
+  "chapter": "07-popular-music/13-modal-schemas.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Two side-by-side systems (natural minor | dorian) stacked as two lines of one score. Boxed titles as plain markup (box not drawn); blue highlighting of 6 and the chords that hold it not drawn; scale-degree carets as markup '1̂'...'↑6̂'. Courtesy naturals (a!) on IV and vi° so every A♮ shows, as in the original."
+ },
+ {
+  "index": 248,
+  "image": "v2/media/2019/05/get_lucky.png",
+  "lyl": "v2/lilylet/images/2019/05/get_lucky.lyl",
+  "chapter": "07-popular-music/13-modal-schemas.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Voice + bass, 4 bars, end repeat. Two lyric lanes; chord symbols via \\chords; Roman numerals as a lane under the bass. The two blue arrows showing IV–i across the repeat aren't drawn. The tied G#4 into bar 4 gets its sharp again in the render (the original leaves it off)."
+ },
+ {
+  "index": 249,
+  "image": "v2/media/2019/05/lydian-1.png",
+  "lyl": "v2/lilylet/images/2019/05/lydian-1.lyl",
+  "chapter": "07-popular-music/13-modal-schemas.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Two side-by-side systems (major | lydian) stacked as two lines of one score. Boxed titles as plain markup (box not drawn); blue highlighting of 4 / F♯ not drawn; scale-degree carets as markup. II♯ written as 'II♯' in the lane (the original has a superscript sharp)."
+ },
+ {
+  "index": 250,
+  "image": "v2/media/2019/05/forget-you.png",
+  "lyl": "v2/lilylet/images/2019/05/forget-you.lyl",
+  "chapter": "07-popular-music/13-modal-schemas.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Voice (lead stems down + background-vocal dyads stems up) and bass; 2-beat pickup and a 2-beat last bar via \\partial 2 in every voice. Lyrics lane on the lead; chord symbols C D F C; Roman numerals (C: I II♯ IV I) as a lane under the bass. The parenthesised cautionary natural on F5 (bar 4 BV) can't be drawn: lilylet has no cautionary-accidental syntax and `!` only draws after an in-bar accidental. The last BV dyad looks like a whole note in the original but is written as a half to fit the 2-beat bar. The explanatory text is split into two stacked markups. Blue colouring of the BV line not drawn."
+ }
+]

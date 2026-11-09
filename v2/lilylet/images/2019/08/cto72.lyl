@@ -1,0 +1,25 @@
+[title "Common-tone diminished sevenths"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "treble" <e g>1 \chords "C" \\
+c1~
+\addlyrics { "C: I" } | %1
+
+<ef fs a>1 \chords "C°7" \\
+c1~
+\addlyrics { CT°7 } | %2
+
+<e g>1 \chords "C" \bar "||" \\
+c1
+\addlyrics { I } | %3
+
+<c a'>1 \chords "F/C" \\
+f1~
+\addlyrics { "C: IV64" } | %4
+
+<b d gs>1 \chords "B°7" \\
+f1~
+\addlyrics { CT°7 } | %5
+
+<c a'>1 \chords "F/C" \bar "||" \\
+f1
+\addlyrics { IV64 } | %6

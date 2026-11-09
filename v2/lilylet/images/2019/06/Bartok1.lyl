@@ -1,0 +1,15 @@
+[title "From the Island of Bali (Mikrokosmos No. 109): Extract 1"]
+[composer "Béla Bartók"]
+[staves "{-}"]
+
+\staff "1" \key c \major \time 6/8 \clef "treble" \tempo "Andante" 8=134 R2. \\
+\staff "2" \clef "bass" ef8_1^\markup "dolce"\p([ d_2 a_4] gs[ a d] | %1
+
+\staff "1" b!8-1([ c-2 f-4] gf[ f c] \\
+\staff "2" ef2.~ | %2
+
+\staff "1" b4.~ b8)[ f' c]( \\
+\staff "2" ef8)[ d( a] gs4.~ | %3
+
+\staff "1" b4 c b8) r \\
+\staff "2" gs8)[ a( d] ef4 d8) | %4

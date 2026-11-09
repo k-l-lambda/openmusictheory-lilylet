@@ -1,0 +1,53 @@
+[
+ {
+  "index": 291,
+  "image": "v2/media/2022/07/OMT-S2-Maj-2-e1657135052359.jpg",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2022/07/OMT-S2-Maj-2-e1657135052359.jpg",
+  "lyl": "v2/lilylet/images/2022/07/OMT-S2-Maj-2-e1657135052359.lyl",
+  "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+  "recommendation": "omr",
+  "caption": null,
+  "flags": [
+   "ear-training",
+   "low-res"
+  ],
+  "reason": "4 melodies major",
+  "bars": 32,
+  "staves": 6,
+  "effort_min": 15
+ },
+ {
+  "index": 292,
+  "image": "v2/media/2022/07/OMT-S2-Min-3-e1657202939938.jpg",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2022/07/OMT-S2-Min-3-e1657202939938.jpg",
+  "lyl": "v2/lilylet/images/2022/07/OMT-S2-Min-3-e1657202939938.lyl",
+  "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+  "recommendation": "omr",
+  "caption": null,
+  "flags": [
+   "ear-training",
+   "low-res"
+  ],
+  "reason": "4 melodies minor",
+  "bars": 32,
+  "staves": 6,
+  "effort_min": 15
+ },
+ {
+  "index": 293,
+  "image": "v2/media/2022/07/OMT-S2-2PM-1-e1657304186640.jpg",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2022/07/OMT-S2-2PM-1-e1657304186640.jpg",
+  "lyl": "v2/lilylet/images/2022/07/OMT-S2-2PM-1-e1657304186640.lyl",
+  "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+  "recommendation": "omr",
+  "caption": null,
+  "flags": [
+   "ear-training",
+   "low-res"
+  ],
+  "reason": "2 two-part melodies",
+  "bars": 24,
+  "staves": 6,
+  "effort_min": 15
+ }
+]

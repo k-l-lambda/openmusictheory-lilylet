@@ -1,0 +1,45 @@
+[title "Internal expansion via stretching (Piano Sonata D. 459, I, mm. 1–9)"]
+[composer "Franz Schubert"]
+[staves "{-}"]
+
+\staff "1" \key e \major \time 4/4 \tempo "Allegro moderato" \clef "treble" e4.(\p\<^\markup "b.i."^\markup "presentation" fs16[ e] ds4 e)\! \\
+\staff "2" \key e \major \time 4/4 \clef "bass" b1 \\
+\staff "2" <e, gs>2( <fs a>4 <e gs>) | %1
+
+\staff "1" fs4~\> fs16[(\! e ds cs)] b8([ b') b-. b-.] \\
+\staff "2" b2. r4 \\
+\staff "2" <b, fs' a>2. s4 | %2
+
+\staff "1" b'1^\markup "b.i." \\
+\staff "1" fs4.( gs16\<[ fs] e4 fss)\! \\
+\staff "2" b1 \\
+\staff "2" a2( gs4 ds) | %3
+
+\staff "1" b'4~ b16[( a gs fs)] e8([ e') e-. e-.] \\
+\staff "1" gs'4~ gs4 s2 \\
+\staff "2" b4..(-> a16 gs4-.) r4 \\
+\staff "2" e,2. s4 | %4
+
+\staff "1" e'4->(^\markup "f."^\markup "continuation" ds16[ cs b as)] g'4->( as,8) r \\
+\staff "2" cs4( ds e fs8[ g]) \clef "treble" \\
+\staff "2" fs,2.-> s4 | %5
+
+\staff "1" a''4->(^\markup "f."^\markup "(continuation)" gs16[ fs e ds)] cs'4( b16[ a gs fs)] \\
+\staff "2" fs4(-> gs a ds,) \\
+\staff "2" <b ds>2. <a b>4 | %6
+
+\staff "1" \tuplet 3/2 { fss'8([^\markup "cad." gs b)] } \tuplet 3/2 { ds,8([ e gs)] } \tuplet 3/2 { as,8([ b e)] } \tuplet 3/2 { fss,8([ gs b)] } \\
+\staff "2" <gs b e>4_\markup "(stretching - - -" r r2 \clef "bass"
+\addlyrics { I6 } | %7
+
+\staff "1" e2.\< fs8.([ gs16]) \\
+\staff "1" s2. ds4 \\
+\staff "2" r4 <g as>( <gs b> a) \\
+\staff "2" r4 c,( b2)
+\addlyrics { Ger6 V8–7 _ }
+\addlyrics { _ 6–5 _ }
+\addlyrics { _ 4–3 _ } | %8
+
+\staff "1" <e e'>2\mf^\markup "PAC" s2 \bar "||" \\
+\staff "2" <e, gs>2_\markup "- - -)" s2 \bar "||"
+\addlyrics { I } | %9

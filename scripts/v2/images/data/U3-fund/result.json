@@ -1,0 +1,112 @@
+[
+ {
+  "index": 65,
+  "image": "v2/media/2025/06/Fur-Elise-A-Tempo.png",
+  "lyl": "v2/lilylet/images/2025/06/Fur-Elise-A-Tempo.lyl",
+  "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+  "method": "omr+hand",
+  "status": "ok-with-notes",
+  "omr": "quality 97.5%, solved 4 / issue 0 / fatal 0 (whole system, upscale 2x)",
+  "notes": "Beethoven, Für Elise bb. 77-80, 3/8 (time signature hidden; excerpt shows none). OMR pitches/rhythms were right; fixed: 4/4 + fake \\partial 4. -> 3/8, two parts merged into one {-} grand staff, missing end-of-bar-4 courtesy bass clef, p -> pp, missing fingerings 2/5 (b.2), 3 (LH b.2), 4 (b.3), slurs completed. Added 'dim. poco rit.' and 'a tempo' markup and the bar-4 < > hairpins. Not expressible: LH D#5-E5 beam across the bar 2/3 barline (split into two unbeamed 16ths, slur kept); tie/slur coming into bar 1 from the previous bar omitted."
+ },
+ {
+  "index": 72,
+  "image": "v2/media/2025/06/D.C.-al-Coda.png",
+  "lyl": "v2/lilylet/images/2025/06/D.C.-al-Coda.lyl",
+  "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Pitches/barlines match (C5 B4 A4 G4 | C5 B4 G4 C5 || F5 E5 |.). Time signature hidden (none in original). Coda bars 9-10 follow on the same system: no forced system break / indented coda system in lilylet. \\coda signs (bars 7, 9) render small and BELOW the staff (lilylet emits <dir> without place). Numbered instruction texts as markup; bold-italic emphasis inside text lost. lilylet bug: '\\coda_\\markup' (no space before _) lexes the command as notes c d a; wrote '\\coda _\\markup'."
+ },
+ {
+  "index": 73,
+  "image": "v2/media/2025/06/D.C.-al-Fine.png",
+  "lyl": "v2/lilylet/images/2025/06/D.C.-al-Fine.lyl",
+  "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Pitches/barlines match (C5 B4 A4 G4 | B4 C5 |. G4 C5 ||). Time signature hidden (none in original). 'Fine' put on bar 6 (original prints it over the bar 6 final barline); instruction texts as markup, bold-italic emphasis lost."
+ },
+ {
+  "index": 76,
+  "image": "v2/media/2021/06/Example-3-Chapter-8.png",
+  "lyl": null,
+  "chapter": "01-fundamentals/09-notating-rhythm.md",
+  "method": "hand",
+  "status": "failed",
+  "omr": null,
+  "notes": "Image shows only a double whole note (breve) on a line: breve not expressible in lilylet (c'0 becomes a quarter; \\breve lexes as notes). Two tied whole notes would misrepresent the very glyph being taught, so no file written."
+ },
+ {
+  "index": 78,
+  "image": "v2/media/2019/05/Breve-Rest.png",
+  "lyl": null,
+  "chapter": "01-fundamentals/09-notating-rhythm.md",
+  "method": "hand",
+  "status": "failed",
+  "omr": null,
+  "notes": "Image shows only a breve rest glyph: not expressible in lilylet (no breve duration). Two whole rests would misrepresent the glyph being taught, so no file written."
+ },
+ {
+  "index": 85,
+  "image": "v2/media/2020/01/pickup.png",
+  "lyl": "v2/lilylet/images/2020/01/pickup.lyl",
+  "chapter": "01-fundamentals/10-simple-meter-and-time-signatures.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Anacrusis (\\partial 4) + full bar + \\partial 2. final bar, all F5 (top line), counts 4 | 1 2 3 4 | 1 (2) 3 as an \\addlyrics lane. '(2)' has no note under it: placed as _\\markup on a hidden spacer voice; it renders italic and a bit right of the original (between the half note and beat 3). Percussion clef drawn as treble (not supported). lilylet: a markup written before a spacer binds to the PRECEDING event, so 's4 _\\markup \"x\" s4' and 's4_\\markup \"x\"' draw nothing; it only works after a non-note token (e.g. '\\stemDown _\\markup \"x\" s4')."
+ },
+ {
+  "index": 86,
+  "image": "v2/media/2020/01/withoutbeams.png",
+  "lyl": "v2/lilylet/images/2020/01/withoutbeams.lyl",
+  "chapter": "01-fundamentals/10-simple-meter-and-time-signatures.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "All G4; rhythms and beam groups match (unbeamed: q 8 8 8 8 | 8 16 16 16 16 8 q; beamed: same with beams per beat). Original has two separate systems each with its own clef and 3/4; written as one 4-bar staff with || between the halves (no forced system break). Boxed labels 'unbeamed'/'beamed' as plain markup (boxes not drawn)."
+ },
+ {
+  "index": 88,
+  "image": "v2/media/2021/05/Stemming2.png",
+  "lyl": "v2/lilylet/images/2021/05/Stemming2.lyl",
+  "chapter": "01-fundamentals/10-simple-meter-and-time-signatures.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Pitches, stem directions and beam groups match (bar 1: C5 B4 down, A4 up, B4 down; bar 2: E5-B4 down, E4-D5 up, G4-C5 up, E5-B4 down; final barline). Percussion clef drawn as treble (not supported). Numeric 4/4 via \\numericTimeSignature."
+ },
+ {
+  "index": 89,
+  "image": "v2/media/2020/01/Flag-Direction.png",
+  "lyl": "v2/lilylet/images/2020/01/Flag-Direction.lyl",
+  "chapter": "01-fundamentals/10-simple-meter-and-time-signatures.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Rhythm, stem/flag directions and staff positions match (C5 B4 stems down, A4 B4 stems up; 4/8). Original uses a neutral percussion clef: lilylet has no percussion clef (unknown clef names fall back to treble), so a treble clef is drawn; note positions kept."
+ },
+ {
+  "index": 90,
+  "image": "v2/media/2020/01/Multi-Measure-Rest.png",
+  "lyl": "v2/lilylet/images/2020/01/Multi-Measure-Rest.lyl",
+  "chapter": "01-fundamentals/10-simple-meter-and-time-signatures.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Multi-measure rest symbol (H-bar) not expressible: R1*4 ignores *4. Approximated as one R1 with ^\\markup \"4\" (a whole rest + number, not the H-bar). Percussion clef drawn as treble (not supported). Markup on R1 is dropped; written as '\\stemUp ^\\markup \"4\" R1' (a markup right after a context token attaches to the next rest)."
+ },
+ {
+  "index": 93,
+  "image": "v2/media/2020/05/3-4_6-8.png",
+  "lyl": "v2/lilylet/images/2020/05/3-4_6-8.lyl",
+  "chapter": "01-fundamentals/11-compound-meters-and-time-signatures.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "All G4; 3/4 bar beamed 4+4+4 sixteenths, 6/8 bar beamed 6+6; both end with |. as in the original. Original shows two separate staves side by side (each with its own clef); written as one staff with a \\time change, so the second treble clef is not repeated."
+ }
+]

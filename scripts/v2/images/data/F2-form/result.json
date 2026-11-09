@@ -1,0 +1,42 @@
+[
+ {
+  "index": 157,
+  "image": "v2/media/2019/06/Example_008-e1623945581474.png",
+  "lyl": "v2/lilylet/images/2019/06/Example_008-e1623945581474.lyl",
+  "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+  "method": "omr+hand",
+  "status": "ok-with-notes",
+  "omr": "full score (11 staves, 3x): quality 93.4%, solved 5 / issue 0 / fatal 0",
+  "notes": "11 staves (not 14) as printed: Fl. picc., Ob., Cl. in A, Cor. in D, Tr. in D, Tamburo grande, Tamburo militare, Triangolo, Cinelli, Fag., Cfag.; one part per staff, one bracket. Transposing parts written as printed (Cl. in A, Cor./Tr. in D), but lilylet has one global key signature per measure, so every staff shows D major: clarinets lose their 1-flat signature and horns/trumpet their empty one, so their written C/F/Bb carry explicit naturals/flats. Percussion on treble staves at the printed positions; possible tremolo strokes on Tamburo militare not legible, omitted. Labels sentence/presentation/b.i./b.i./continuation/HC as ^\\markup on the piccolo; brackets, the sentence arc and the HC box not drawn; the form diagram at right is cut off and not notation. Last bar cut after beat 2.5 in the image: notes to that point plus s4. OMR fixes: bar 4 rewritten (OMR merged parts), relative octaves, ff->f on Cl./Cor. pickup, added f on Tamb. mil.; composer/title from the caption (WoO 21)."
+ },
+ {
+  "index": 158,
+  "image": "v2/media/2019/06/Example_009-e1623945687930.png",
+  "lyl": "v2/lilylet/images/2019/06/Example_009-e1623945687930.lyl",
+  "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+  "method": "omr+hand",
+  "status": "ok-with-notes",
+  "omr": "system 1 (bars 1-7, 2x): quality 95.0%, solved 6 / issue 1 / fatal 0; system 2 (bar 8, 2x): failed (service error: Cannot set properties of null)",
+  "notes": "Op. 7 II (C major) bars 1-8. Labels sentence / presentation / b.i. (bars 1, 3), continuation / u. (bar 5), cad. (bar 7), PAC (bar 8) as ^\\markup at the start of each bracket; bracket lines, boxes and the dashed sentence arc not drawn. The form diagram at right (8 = 4+4, 2+2 / 4) is not notation and is omitted. Bar 8 is cut after beat 1 in the image: written as \\partial 4. (each voice). OMR draft was heavily rewritten from pixel-level reading: bar 2 voice split, bar 3 upper staff in bass clef (chord E3-G3-C4-E4 / D3-A3-D4), bar 4 voices (sf on the lower dyad), bar 6 missing A3 half in the inner voice, bar 7 three voices with B3 half tied to B3 eighth, bar 8 hand-written (OMR failed). Staccato dot on bass B2 in bar 8 slightly uncertain."
+ },
+ {
+  "index": 159,
+  "image": "v2/media/2019/06/Example_010-e1623945819436.png",
+  "lyl": "v2/lilylet/images/2019/06/Example_010-e1623945819436.lyl",
+  "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+  "method": "omr+hand",
+  "status": "ok-with-notes",
+  "omr": "system 1 (2x): quality 68.6%, solved 2 / issue 4 / fatal 0; system 2 (2x): quality 93.7%, solved 3 / issue 0 / fatal 0",
+  "notes": "K. 622 III bars 1-8 (plus pickup): clarinet staff + string reduction (grand staff). Clarinet in A written as printed (C major, sounds a minor third lower). lilylet has one global key signature per measure (meiEncoder scoreDef key.sig), so the strings cannot show their A-major signature: written in C with explicit sharps (same sounding pitches; repeated sharps redrawn within a bar). Labels antecedent/consequent, basic idea, contrasting idea, (consequent)/(basic idea) at system 2, HC, PAC as ^\\markup; brackets, the HC/PAC boxes and the dashed arcs not drawn. The period diagram at right is not notation and is omitted. Last bar is cut after 5 eighths in the image: filled with a spacer to keep 6/8. OMR draft largely rewritten (fake 4/4, wrong keys, merged rests); pitches read from local staff-line grids on a skewed, low-res scan. Uncertain: bar 2 string chord (D4 included as a displaced 2nd with E4: E7), bar 6 clarinet eighth read as written C6."
+ },
+ {
+  "index": 161,
+  "image": "v2/media/2019/06/Example_012-150x150.png",
+  "lyl": "v2/lilylet/images/2019/06/Example_012-150x150.lyl",
+  "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+  "method": "omr+hand",
+  "status": "ok-with-notes",
+  "omr": "3 system crops: quality 98.3% / 100% / 100%, solved 5/5/6, issue 0, fatal 0",
+  "notes": "Transcribed from the full-size Example_012-e1623946034206.png. Phrase labels (antecedent/consequent, presentation/(presentation)/continuation, b.i., f., cad., HC, PAC) as stacked ^\\markup on the first note of each bracket; bracket lines, dashed slurs and the HC/PAC boxes not drawn. The form diagram at right (compound period 16 = 8+8, sentence groupings 4/2/1) is not notation and is omitted. OMR fixes: bar 1 bass chord G3-B3-D4 (OMR dropped G3 and duplicated the voice), added appoggiatura B4 in bar 8, mordent on bar 3 C5 kept; bar 12 small mark above the 2nd G4 read as staccato (uncertain)."
+ }
+]

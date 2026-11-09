@@ -1,0 +1,3 @@
+[title "Successive L transformations on C major and E minor triads"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" <c e g>1 ^\markup "L" s1 <b e g>1 ^\markup "L" s1 <c e g>1 ^\markup "L" s1 <b e g>1 ^\markup "L" s1 <c e g>1 ^\markup "L" s1 <b e g>1 ^\markup "etc." s1 | %1

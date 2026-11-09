@@ -1,0 +1,28 @@
+[title "Afternoon in Paris (chord chart, ii–V–I in sequence)"]
+[composer "John Lewis"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "treble" s1 \chords "Cma7" | %1
+s2 \chords "Cmi7" ^\markup "♭VII" s2 \chords "F7" | %2
+s1 \chords "B♭ma7" | %3
+s2 \chords "B♭mi7" ^\markup "♭VI" s2 \chords "E♭7" | %4
+s1 \chords "A♭ma7" | %5
+s2 \chords "Dmi7" ^\markup "I" s2 \chords "G7" | %6
+s1 \chords "Cma7" | %7
+s2 \chords "Dmi7" ^\markup "1." s2 \chords "G7" \bar ":|." | %8
+s1 \chords "Cma7" ^\markup "2." \bar "||" | %9
+s1 \chords "Dmi7" | %10
+s1 \chords "G7" | %11
+s1 \chords "Cma7/E" | %12
+s1 \chords "A7" | %13
+s1 \chords "Dmi7" | %14
+s1 \chords "G7" | %15
+s1 \chords "Cma7" | %16
+s2 \chords "Dmi7" s2 \chords "G7" \bar "||" | %17
+s1 \chords "Cma7" | %18
+s2 \chords "Cmi7" s2 \chords "F7" | %19
+s1 \chords "B♭ma7" | %20
+s2 \chords "B♭mi7" s2 \chords "E♭7" | %21
+s1 \chords "A♭ma7" | %22
+s2 \chords "Dmi7" s2 \chords "G7" | %23
+s1 \chords "Cma7" | %24
+s2 \chords "Dmi7" s2 \chords "G7" | %25

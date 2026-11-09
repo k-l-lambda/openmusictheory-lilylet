@@ -1,0 +1,14 @@
+[title "A stemming error"]
+[staves "{-}"]
+
+\staff "1" \key c \major \time 2/4 \clef "treble" \stemDown g'2 ^\markup "Incorrect" \\
+\staff "1" \stemUp d2 _\markup "stems in wrong direction!" \\
+\staff "2" \clef "bass" \stemUp g2 \\
+\staff "2" \stemDown b,2
+\addlyrics { "C: V⁶" } | %1
+
+\staff "1" \stemUp g'2 ^\markup "Correct" \\
+\staff "1" \stemDown d2 \\
+\staff "2" \stemUp g2 \\
+\staff "2" \stemDown b,2
+\addlyrics { "C: V⁶" } | %2

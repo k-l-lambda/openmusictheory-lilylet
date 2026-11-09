@@ -1,0 +1,3 @@
+[title "Bass clef: letter names of the lines"]
+
+\omit Score.TimeSignature \clef "bass" g,4^\markup "G" b^\markup "B" d^\markup "D" f^\markup "F" a^\markup "A" | %1

@@ -1,0 +1,4 @@
+[title "Ordered pitch-class intervals"]
+
+\omit Score.TimeSignature \key c \major \time 2/2 \clef "treble" cs2_\markup "ordered pitch-class interval: 7" af'' \bar "||" | %1
+a''2_\markup "ordered pitch-class interval: 6" ds, \bar "||" | %2

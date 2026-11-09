@@ -1,0 +1,83 @@
+[
+ {
+  "index": 94,
+  "image": "v2/media/2025/07/Shots-Rhythm-LMFAO.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2025/07/Shots-Rhythm-LMFAO.png",
+  "lyl": "v2/lilylet/images/2025/07/Shots-Rhythm-LMFAO.lyl",
+  "chapter": "01-fundamentals/12-other-rhythmic-essentials.md",
+  "recommendation": "hand",
+  "caption": "Example 2. An excerpt from the chorus of “Shots” (2009) by LMFAO.",
+  "flags": [
+   "lyrics"
+  ],
+  "reason": "Shots (LMFAO) rhythm, triplet",
+  "bars": 2,
+  "staves": 1,
+  "effort_min": 3
+ },
+ {
+  "index": 95,
+  "image": "v2/media/2025/07/Memory-Cats-Webber.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2025/07/Memory-Cats-Webber.png",
+  "lyl": "v2/lilylet/images/2025/07/Memory-Cats-Webber.lyl",
+  "chapter": "01-fundamentals/12-other-rhythmic-essentials.md",
+  "recommendation": "hand",
+  "caption": "Example 5. An excerpt from the reprise of “Cats” (1980) by Andrew Lloyd Webber.",
+  "flags": [
+   "lyrics"
+  ],
+  "reason": "Memory (Cats) 12/8 melody with lyrics",
+  "bars": 9,
+  "staves": 1,
+  "effort_min": 15
+ },
+ {
+  "index": 96,
+  "image": "v2/media/2025/07/Love-Story-Swift.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2025/07/Love-Story-Swift.png",
+  "lyl": "v2/lilylet/images/2025/07/Love-Story-Swift.lyl",
+  "chapter": "01-fundamentals/13-major-scales.md",
+  "recommendation": "hand",
+  "caption": "Example 3. An excerpt from Taylor Swift’s “Love Story” (2008).",
+  "flags": [
+   "lyrics"
+  ],
+  "reason": "Love Story (Swift) voice+violin",
+  "bars": 5,
+  "staves": 2,
+  "effort_min": 10
+ },
+ {
+  "index": 107,
+  "image": "v2/media/2025/07/Yesterday-Beatles.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2025/07/Yesterday-Beatles.png",
+  "lyl": "v2/lilylet/images/2025/07/Yesterday-Beatles.lyl",
+  "chapter": "01-fundamentals/14-minor-scales.md",
+  "recommendation": "hand",
+  "caption": "Example 1. An excerpt from “Yesterday” (1964) by Paul McCartney and John Lennon.",
+  "flags": [
+   "lyrics"
+  ],
+  "reason": "Yesterday melody",
+  "bars": 4,
+  "staves": 1,
+  "effort_min": 6
+ },
+ {
+  "index": 113,
+  "image": "v2/media/2020/05/reichardt.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2020/05/reichardt.png",
+  "lyl": "v2/lilylet/images/2020/05/reichardt.lyl",
+  "chapter": "01-fundamentals/14-minor-scales.md",
+  "recommendation": "omr+hand",
+  "caption": "Example 15. The first three measures of “Durch die bunten Rosenhecken.”",
+  "flags": [
+   "lyrics",
+   "circled-notes"
+  ],
+  "reason": "Reichardt lied, voice+piano, 3 bars",
+  "bars": 3,
+  "staves": 3,
+  "effort_min": 15
+ }
+]

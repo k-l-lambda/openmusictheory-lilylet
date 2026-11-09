@@ -1,0 +1,24 @@
+[title "Concerto for Violin and Cello, I, mm. 270–76, reduction"]
+[composer "Johannes Brahms"]
+[staves "{-}"]
+
+\staff "1" \time 4/4 \key c \major \clef "treble" <af' c ef>1 \\
+\staff "2" \clef "bass" af1 | %1
+
+\staff "1" <gs' b ds>1 \\
+\staff "2" gs1 | %2
+
+\staff "1" <gs' b e>1 \\
+\staff "2" e,1 | %3
+
+\staff "1" <g' b e>1 \\
+\staff "2" e,1 | %4
+
+\staff "1" <g' c e>1 \\
+\staff "2" c,1 | %5
+
+\staff "1" <g' c ef>1 \\
+\staff "2" c,1 | %6
+
+\staff "1" <af' c ef>1 \bar "|." \\
+\staff "2" af,1 \bar "|." | %7

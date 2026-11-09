@@ -1,0 +1,56 @@
+[
+ {
+  "index": 311,
+  "image": "v2/media/2022/07/OMT-S6-Maj-2-1-e1659022418621.jpg",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2022/07/OMT-S6-Maj-2-1-e1659022418621.jpg",
+  "lyl": "v2/lilylet/images/2022/07/OMT-S6-Maj-2-1-e1659022418621.lyl",
+  "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+  "recommendation": "omr",
+  "caption": "There are four melodies in the major mode that contain leaps of fifths and octaves within the tonic triad as well as dynamic and articulation markings.",
+  "flags": [
+   "ear-training",
+   "low-res",
+   "dynamics"
+  ],
+  "reason": "4 melodies major",
+  "bars": 32,
+  "staves": 7,
+  "effort_min": 15
+ },
+ {
+  "index": 312,
+  "image": "v2/media/2022/07/OMT-S6-Min-2-e1658950414559.jpg",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2022/07/OMT-S6-Min-2-e1658950414559.jpg",
+  "lyl": "v2/lilylet/images/2022/07/OMT-S6-Min-2-e1658950414559.lyl",
+  "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+  "recommendation": "omr",
+  "caption": "There are four melodies in the minor mode that contain leaps of fifths and octaves within the tonic triad as well as dynamic and articulation markings.",
+  "flags": [
+   "ear-training",
+   "low-res",
+   "dynamics"
+  ],
+  "reason": "4 melodies minor",
+  "bars": 32,
+  "staves": 8,
+  "effort_min": 15
+ },
+ {
+  "index": 313,
+  "image": "v2/media/2022/07/OMT-S6-2PM-2-1-e1659022671424.jpg",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2022/07/OMT-S6-2PM-2-1-e1659022671424.jpg",
+  "lyl": "v2/lilylet/images/2022/07/OMT-S6-2PM-2-1-e1659022671424.lyl",
+  "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+  "recommendation": "omr",
+  "caption": "There are two two-part melodies that contain leaps of fifths and octaves within the tonic triad as well as dynamic markings and articulations.",
+  "flags": [
+   "ear-training",
+   "low-res",
+   "dynamics"
+  ],
+  "reason": "2 two-part melodies",
+  "bars": 24,
+  "staves": 6,
+  "effort_min": 18
+ }
+]

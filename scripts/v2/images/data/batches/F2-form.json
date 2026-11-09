@@ -1,0 +1,70 @@
+[
+ {
+  "index": 157,
+  "image": "v2/media/2019/06/Example_008-e1623945581474.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/06/Example_008-e1623945581474.png",
+  "lyl": "v2/lilylet/images/2019/06/Example_008-e1623945581474.lyl",
+  "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+  "recommendation": "omr",
+  "caption": "Example 9. A sentence without fragmentation in Beethoven, Polonaise for Military Band (0:00–0:06) .",
+  "flags": [
+   "scan",
+   "form-brackets"
+  ],
+  "reason": "Beethoven 9 finale (orchestra) sentence",
+  "bars": 4,
+  "staves": 14,
+  "effort_min": 40
+ },
+ {
+  "index": 158,
+  "image": "v2/media/2019/06/Example_009-e1623945687930.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/06/Example_009-e1623945687930.png",
+  "lyl": "v2/lilylet/images/2019/06/Example_009-e1623945687930.lyl",
+  "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+  "recommendation": "omr+hand",
+  "caption": "Example 10. A sentence whose continuation doesn’t exhibit fragmentation in Beethoven, Piano Sonata no. 4, Op. 7, II (0:00–0:45) .",
+  "flags": [
+   "scan",
+   "form-brackets"
+  ],
+  "reason": "Beethoven sonata sentence",
+  "bars": 8,
+  "staves": 2,
+  "effort_min": 20
+ },
+ {
+  "index": 159,
+  "image": "v2/media/2019/06/Example_010-e1623945819436.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/06/Example_010-e1623945819436.png",
+  "lyl": "v2/lilylet/images/2019/06/Example_010-e1623945819436.lyl",
+  "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+  "recommendation": "omr+hand",
+  "caption": "Example 11. A period in Mozart’s Clarinet Concerto, III (0:00–0:11) .",
+  "flags": [
+   "scan",
+   "form-brackets"
+  ],
+  "reason": "Mozart Clarinet Concerto III period (reduction)",
+  "bars": 8,
+  "staves": 2,
+  "effort_min": 20
+ },
+ {
+  "index": 161,
+  "image": "v2/media/2019/06/Example_012-150x150.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/06/Example_012-e1623946034206.png",
+  "lyl": "v2/lilylet/images/2019/06/Example_012-150x150.lyl",
+  "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+  "recommendation": "omr+hand",
+  "caption": "Example 13. A compound period in Christian Petzold’s Minuet in G Major (0:00–0:25).",
+  "flags": [
+   "thumbnail-150px",
+   "full-size-local:media/2019/06/Example_012-e1623946034206.png"
+  ],
+  "reason": "Petzold Minuet in G, compound period, 16 bars 2 voices; clean scan",
+  "bars": 16,
+  "staves": 2,
+  "effort_min": 15
+ }
+]

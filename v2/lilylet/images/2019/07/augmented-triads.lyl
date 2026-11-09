@@ -1,0 +1,4 @@
+[title "The R transformation with an intervening augmented triad"]
+
+\omit Score.TimeSignature \time 4/4 \key c \major \clef "treble" <c e g>4^\markup "R" s4 <c e gs>4 a'4 \bar "|"
+\addlyrics { C C+ Am } | %1

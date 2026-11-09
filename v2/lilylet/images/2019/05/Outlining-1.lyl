@@ -1,0 +1,10 @@
+[title "Melodic Outlinings"]
+
+\omit Score.TimeSignature \time 4/4 \key c \major \clef "treble" f4^\markup "Avoid changing direction at the tritone:"_\markup "[" g a b_\markup "] X" | %1
+a'4 g a2 \bar "|." | %2
+f4^\markup "Continue instead to the 5th:"_\markup "[" g a b | %3
+c'4_\markup "]" a b c \bar "|." | %4
+d4^\markup "Avoid changing direction at the 7th:"_\markup "[" e f g | %5
+a'4 b c_\markup "] X" b \bar "|." | %6
+d4^\markup "Continue instead to the 8ve:"_\markup "[" e f g | %7
+a'4 b c d_\markup "]" \bar "|." | %8

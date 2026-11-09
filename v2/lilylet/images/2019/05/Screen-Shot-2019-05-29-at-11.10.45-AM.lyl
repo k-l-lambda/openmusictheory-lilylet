@@ -1,0 +1,3 @@
+[title "Alto clef: letter names of the spaces"]
+
+\omit Score.TimeSignature \clef "alto" g4^\markup "G" b^\markup "B" d^\markup "D" f^\markup "F" \bar "|." | %1

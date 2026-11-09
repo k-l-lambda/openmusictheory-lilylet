@@ -1,0 +1,35 @@
+[title "Antecedent + continuation: Piano Sonata Op. 13, II, mm. 1–8"]
+[composer "Ludwig van Beethoven"]
+[staves "{-}"]
+
+\staff "1" \key af \major \time 2/4 \clef "treble" \tempo "Adagio cantabile" \stemUp c4(\p^\markup "b.i."^\markup "antecedent" bf \\
+\staff "2" \clef "bass" \stemUp af16[ ef af ef] g[ ef g ef] \\
+\staff "2" \stemDown af,4( df | %1
+
+\staff "1" \stemUp ef4. df8) \\
+\staff "2" \stemUp af16[ ef af ef] bf'[ ef, bf' ef,] \\
+\staff "2" \stemDown c,4 g) | %2
+
+\staff "1" \stemUp c8([^\markup "c.i." ef af bf)] \\
+\staff "2" \stemUp af16[ ef bf' ef,] c'[ af d af] \\
+\staff "2" \stemDown af,8([ g f f')] | %3
+
+\staff "1" \stemUp ef4.( e8^\markup "HC" \\
+\staff "2" \stemUp g16[ bf g bf] g[ bf g bf] \\
+\staff "2" \stemDown ef,4( ef, | %4
+
+\staff "1" \stemUp f4)^\markup "f."^\markup "continuation" bf,8.([ c32 df)] \\
+\staff "2" \stemUp g16[ bf g bf] g[ ef g ef] \\
+\staff "2" \stemDown df,,4 df') | %5
+
+\staff "1" \stemUp ef4(^\markup "f."^\markup "(continuation)" a, \\
+\staff "2" \stemUp af16[ ef af ef] ef[ c ef c] \\
+\staff "2" \stemDown c,4( f, | %6
+
+\staff "1" \stemUp df4)^\markup "cad." c16([-. bf-. af-. g-.)] \\
+\staff "2" \stemUp f,16[ df f df] df[ df df df] \\
+\staff "2" \stemDown bf,,4 ef) | %7
+
+\staff "1" \stemUp <g bf>4(^\markup "PAC" \tuplet 3/2 { <c, af'>16)[-. ef-. af-.] } \tuplet 3/2 { c16[-. ef-. af-.] } \bar "|." \\
+\staff "2" \stemUp df,16([ ef df ef)] c8 df\rest \\
+\staff "2" \stemDown af,,8[ af'] af, s | %8

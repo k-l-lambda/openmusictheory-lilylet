@@ -1,0 +1,14 @@
+[title "A range error"]
+[staves "{-}"]
+
+\staff "1" \omit Score.TimeSignature \key c \major \clef "treble" \stemUp d''2 ^\markup "too high!" ^\markup "Incorrect" \\
+\staff "1" \stemDown f2 \\
+\staff "2" \clef "bass" \stemUp a2 \\
+\staff "2" \stemDown d,,2 _\markup "too low!"
+\addlyrics { "C: ii" } | %1
+
+\staff "1" \stemUp d'2 ^\markup "Correct" \\
+\staff "1" \stemDown f2 \\
+\staff "2" \stemUp a2 \\
+\staff "2" \stemDown d,2
+\addlyrics { "C: ii" } | %2

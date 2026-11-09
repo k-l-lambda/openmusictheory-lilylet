@@ -1,0 +1,29 @@
+[title "Get Lucky"]
+[composer "Daft Punk"]
+[staves "<voice-bass>"]
+[instrument-voice "Voice"]
+[instrument-bass "Bass"]
+
+\key b \minor \numericTimeSignature \time 4/4 \clef "treble" d2 \chords "Bmi" r8 cs8[ d fs]~
+\addlyrics { We've come too far __ }
+\addlyrics { Let's raise the bar __ } \\\\
+\key b \minor \clef "bass" b,4^\markup "ad lib." b8.[ b'16]~ b8 b,4 cs8
+\addlyrics { "Bm: i" _ _ _ _ _ } | %1
+
+fs2 \chords "D" r8 fs8[ gs a]~
+\addlyrics { _ to give up __ }
+\addlyrics { _ and our cups __ } \\\\
+d,4 d8.[ d'16]~ d8 d,4 e8
+\addlyrics { III _ _ _ _ _ } | %2
+
+a'2 \chords "F#mi" r8 a8[ b gs]~
+\addlyrics { _ who we are __ }
+\addlyrics { _ to the stars __ } \\\\
+fs,4 fs8.[ fs'16]~ fs8 fs,4 fs8
+\addlyrics { v _ _ _ _ _ } | %3
+
+gs'2 \chords "E" r2 \bar ":|."
+\addlyrics { _ }
+\addlyrics { _ } \\\\
+e,4 e8.[ e16]~ e8[ fs] a16[ b b,8] \bar ":|."
+\addlyrics { IV _ _ _ _ _ _ _ } | %4

@@ -1,0 +1,32 @@
+[
+ {
+  "index": 229,
+  "image": "v2/media/2019/08/afternoon-in-paris.png",
+  "lyl": "v2/lilylet/images/2019/08/afternoon-in-paris.lyl",
+  "chapter": "06-jazz/04-ii-v-i.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "25 bars of chord symbols on spacers, repeat :|. at bar 8, || at 9 and 17. Not expressible: slash noteheads, the one-line staff and its percussion clef (plain treble staff with spacers), ii–V–I bracket lines (labels ♭VII / ♭VI / I as markup at the bracket start, bars 2/4/6), volta brackets (markup '1.' / '2.' on bars 8/9), circled rehearsal bar numbers 1/10/18, the original's line breaks. Lilylet bug: ^\\markup directly on a spacer/rest (s1^\\markup \"x\", r1^\\markup \"x\") is dropped in parsing; workaround: put it after \\chords (s1 \\chords \"C\" ^\\markup \"x\")."
+ },
+ {
+  "index": 235,
+  "image": "v2/media/2019/08/parentheses-1-e1677584256731.png",
+  "lyl": "v2/lilylet/images/2019/08/parentheses-1-e1677584256731.md",
+  "chapter": "06-jazz/06-substitutions.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "3 blocks (a/b/c, 3 bars each; Satin Doll). (a) starts with a quarter rest, (b)/(c) with an eighth rest + dotted quarter. Time sig shown only on (a), so \\omit on (b)/(c). Not expressible: boxed labels (now .md paragraphs), grey colour of the substitute chord symbols, (c)'s stacked '(Aø7)' above 'Ami7' (markup attached to the same rest; it renders under the chord-symbol row, not above it). Second B♭ in bar 2 has no flat in the original (carried in the bar) but the render prints one again: meiEncoder encodePitch shows accid whenever it differs from the key, even if the same accidental already appeared earlier in the bar (repro: '\\key c \\major \\time 4/4 bf'4 a bf c' -> both B♭ show ♭)."
+ },
+ {
+  "index": 236,
+  "image": "v2/media/2019/08/16-bar-blues.png",
+  "lyl": "v2/lilylet/images/2019/08/16-bar-blues.lyl",
+  "chapter": "06-jazz/08-blues-harmony.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "16 bars of whole-note root-position seventh chords (C7 C4–B♭4, F7 F4–E♭5, G7 G4–F5) with chord symbols; no time signature (\\omit); end repeat :|. on bar 16. Not expressible: measure-repeat signs (bars 2–4, 6–8, 10, 12, 16), written out as the repeated chord; the original's 4-bars-per-line layout."
+ }
+]

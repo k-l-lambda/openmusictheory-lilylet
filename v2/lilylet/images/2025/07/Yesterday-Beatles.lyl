@@ -1,0 +1,11 @@
+[title "Yesterday, opening"]
+[composer "Paul McCartney and John Lennon"]
+
+\key f \major \numericTimeSignature \time 4/4 \clef "treble" g'8.[ f16] f2 r4
+\addlyrics { Yes -- ter -- day } | %1
+
+r4 a'8[ b] cs16[ d8.] e8[ f]
+\addlyrics { all my trou -- bles seemed so } | %2
+
+e'4. d8 d2 \bar "|."
+\addlyrics { far a -- way } | %3

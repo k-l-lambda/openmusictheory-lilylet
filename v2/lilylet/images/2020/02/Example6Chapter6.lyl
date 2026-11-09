@@ -1,0 +1,3 @@
+[title "A note in treble clef with a fermata"]
+
+\omit Score.TimeSignature \key c \major \clef "treble" g'1\fermata \bar "|" | %1

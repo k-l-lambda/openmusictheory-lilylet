@@ -1,0 +1,4 @@
+[title "Altered extensions in chord symbols and notation"]
+
+\omit Score.TimeSignature \key c \major \clef "treble" <f a c ef gf b>1 \chords "F7(♭9/♯11)" ^\markup "♯11 (B♮!), ♭9" \bar "||" | %1
+<b ds fs a c es>1 \chords "B7(♭9/♯11)" ^\markup "♯11, ♭9 (C♮!)" \bar "||" | %2

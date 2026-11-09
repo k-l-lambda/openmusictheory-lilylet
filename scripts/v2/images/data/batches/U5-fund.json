@@ -1,0 +1,163 @@
+[
+ {
+  "index": 97,
+  "image": "v2/media/2025/07/Scale-Degree-Names-Derivation-1024x228.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2025/07/Scale-Degree-Names-Derivation-1024x228.png",
+  "lyl": "v2/lilylet/images/2025/07/Scale-Degree-Names-Derivation-1024x228.lyl",
+  "chapter": "01-fundamentals/13-major-scales.md",
+  "recommendation": "hand",
+  "caption": "Example 8. The notes of the A♭ major scale arranged to show the derivation of scale-degree names.",
+  "flags": [
+   "labels"
+  ],
+  "reason": "scale-degree names Ab major, arcs",
+  "bars": 1,
+  "staves": 1,
+  "effort_min": 4
+ },
+ {
+  "index": 98,
+  "image": "v2/media/2019/05/Screen-Shot-2020-06-08-at-12.17.31-PM.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/Screen-Shot-2020-06-08-at-12.17.31-PM.png",
+  "lyl": "v2/lilylet/images/2019/05/Screen-Shot-2020-06-08-at-12.17.31-PM.lyl",
+  "chapter": "01-fundamentals/13-major-scales.md",
+  "recommendation": "hand",
+  "caption": "Example 9. A key signature goes after a clef, but before a time signature.",
+  "flags": [],
+  "reason": "key sig before time sig",
+  "bars": 1,
+  "staves": 1,
+  "effort_min": 2
+ },
+ {
+  "index": 99,
+  "image": "v2/media/2019/05/Screen-Shot-2020-06-08-at-12.28.24-PM.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/Screen-Shot-2020-06-08-at-12.28.24-PM.png",
+  "lyl": "v2/lilylet/images/2019/05/Screen-Shot-2020-06-08-at-12.28.24-PM.lyl",
+  "chapter": "01-fundamentals/13-major-scales.md",
+  "recommendation": "hand",
+  "caption": "Example 10. Both Bs are flat, regardless of octave.",
+  "flags": [],
+  "reason": "both Bs flat",
+  "bars": 1,
+  "staves": 1,
+  "effort_min": 2
+ },
+ {
+  "index": 100,
+  "image": "v2/media/2019/05/Screen-Shot-2020-06-08-at-1.11.04-PM.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/Screen-Shot-2020-06-08-at-1.11.04-PM.png",
+  "lyl": "v2/lilylet/images/2019/05/Screen-Shot-2020-06-08-at-1.11.04-PM.lyl",
+  "chapter": "01-fundamentals/13-major-scales.md",
+  "recommendation": "hand",
+  "caption": "Example 11. The order of sharps and flats in treble, bass, alto, and tenor clefs.",
+  "flags": [
+   "key-sig-only",
+   "md5-identical:109"
+  ],
+  "reason": "order of sharps/flats in 4 clefs (key sigs need a note or empty bar)",
+  "bars": 0,
+  "staves": 8,
+  "effort_min": 5
+ },
+ {
+  "index": 101,
+  "image": "v2/media/2019/05/sharp-sigs.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/sharp-sigs.png",
+  "lyl": "v2/lilylet/images/2019/05/sharp-sigs.lyl",
+  "chapter": "01-fundamentals/13-major-scales.md",
+  "recommendation": "hand",
+  "caption": "Example 12. Three different sharp key signatures in treble, bass, and alto clefs.",
+  "flags": [
+   "key-sig-only"
+  ],
+  "reason": "sharp key sigs",
+  "bars": 0,
+  "staves": 3,
+  "effort_min": 3
+ },
+ {
+  "index": 102,
+  "image": "v2/media/2019/05/flat-sigs.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/flat-sigs.png",
+  "lyl": "v2/lilylet/images/2019/05/flat-sigs.lyl",
+  "chapter": "01-fundamentals/13-major-scales.md",
+  "recommendation": "hand",
+  "caption": "Example 13. Three different flat key signatures in bass, treble, and tenor clefs.",
+  "flags": [
+   "key-sig-only"
+  ],
+  "reason": "flat key sigs",
+  "bars": 0,
+  "staves": 3,
+  "effort_min": 3
+ },
+ {
+  "index": 103,
+  "image": "v2/media/2019/05/cmajfmaj-e1659817325208.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/cmajfmaj-e1659817325208.png",
+  "lyl": "v2/lilylet/images/2019/05/cmajfmaj-e1659817325208.lyl",
+  "chapter": "01-fundamentals/13-major-scales.md",
+  "recommendation": "hand",
+  "caption": "Example 14. The key signatures of C major (top) and F major (bottom).",
+  "flags": [
+   "key-sig-only"
+  ],
+  "reason": "C and F major sigs",
+  "bars": 0,
+  "staves": 2,
+  "effort_min": 2
+ },
+ {
+  "index": 104,
+  "image": "v2/media/2021/06/Sharp-Key-Signatures.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2021/06/Sharp-Key-Signatures.png",
+  "lyl": "v2/lilylet/images/2021/06/Sharp-Key-Signatures.lyl",
+  "chapter": "01-fundamentals/13-major-scales.md",
+  "recommendation": "hand",
+  "caption": null,
+  "flags": [
+   "key-sig-only",
+   "dup-of:110",
+   "near-duplicate:110"
+  ],
+  "reason": "sharp key sigs in 4 clefs",
+  "bars": 7,
+  "staves": 4,
+  "effort_min": 6
+ },
+ {
+  "index": 108,
+  "image": "v2/media/2020/05/Screen-Shot-2020-06-11-at-11.20.05-AM.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2020/05/Screen-Shot-2020-06-11-at-11.20.05-AM.png",
+  "lyl": "v2/lilylet/images/2020/05/Screen-Shot-2020-06-11-at-11.20.05-AM.lyl",
+  "chapter": "01-fundamentals/14-minor-scales.md",
+  "recommendation": "hand",
+  "caption": "Example 9. A B melodic minor scale.",
+  "flags": [
+   "labels"
+  ],
+  "reason": "B melodic minor with W/H brackets and degree names",
+  "bars": 2,
+  "staves": 2,
+  "effort_min": 6
+ },
+ {
+  "index": 111,
+  "image": "v2/media/2019/05/Screen-Shot-2020-06-08-at-1.57.09-PM-e1658435818939.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/Screen-Shot-2020-06-08-at-1.57.09-PM-e1658435818939.png",
+  "lyl": "v2/lilylet/images/2019/05/Screen-Shot-2020-06-08-at-1.57.09-PM-e1658435818939.lyl",
+  "chapter": "01-fundamentals/14-minor-scales.md",
+  "recommendation": "hand",
+  "caption": null,
+  "flags": [
+   "key-sig-only",
+   "dup-of:105",
+   "near-duplicate:105"
+  ],
+  "reason": "flat key sigs (same as #105)",
+  "bars": 7,
+  "staves": 4,
+  "effort_min": 6
+ }
+]

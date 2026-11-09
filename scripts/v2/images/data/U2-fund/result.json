@@ -1,0 +1,162 @@
+[
+ {
+  "index": 43,
+  "image": "v2/media/2019/11/Screen-Shot-2019-11-23-at-11.48.12-AM.png",
+  "lyl": "v2/lilylet/images/2019/11/Screen-Shot-2019-11-23-at-11.48.12-AM.lyl",
+  "chapter": "01-fundamentals/04-the-keyboard-and-grand-staff.md",
+  "method": "hand",
+  "status": "ok",
+  "omr": null,
+  "notes": "Grand staff, D4 C4 B3 A3 G3 half notes in both staves (treble stems up, bass stems down), unmetered, no barlines but a single final barline. Letter names as markups above treble / below bass."
+ },
+ {
+  "index": 44,
+  "image": "v2/media/2019/05/Screen-Shot-2019-05-30-at-2.03.57-PM.png",
+  "lyl": "v2/lilylet/images/2019/05/Screen-Shot-2019-05-30-at-2.03.57-PM.lyl",
+  "chapter": "01-fundamentals/04-the-keyboard-and-grand-staff.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Same notes as Example 7 (D4 C4 B3 A3 G3 halves, both staves). The vertically condensed layout (staves one ledger-line apart, each pair sharing one notehead with two stems) is not expressible: rendered as a normal-spacing grand staff."
+ },
+ {
+  "index": 45,
+  "image": "v2/media/2019/12/ch4-ex9-middle_c-1.jpg",
+  "lyl": "v2/lilylet/images/2019/12/ch4-ex9-middle_c-1.lyl",
+  "chapter": "01-fundamentals/04-the-keyboard-and-grand-staff.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Bass A3 B3 C4, treble C4 D4 E4 (half notes), final barline. Box around middle C not drawable (omitted). Condensed layout (C4 one shared notehead with two stems) not expressible: rendered as normal grand staff with C4 in both staves. Same lyl content as #46."
+ },
+ {
+  "index": 46,
+  "image": "v2/media/2019/11/vertically_expanded_example_9-revised.jpg",
+  "lyl": "v2/lilylet/images/2019/11/vertically_expanded_example_9-revised.lyl",
+  "chapter": "01-fundamentals/04-the-keyboard-and-grand-staff.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Expanded version of #45, same notes: bass A3 B3 C4, treble C4 D4 E4 (half notes), final barline. Box around the two middle Cs not drawable (omitted)."
+ },
+ {
+  "index": 47,
+  "image": "v2/media/2019/12/ch4-ex11-fifth.jpg",
+  "lyl": "v2/lilylet/images/2019/12/ch4-ex11-fifth.lyl",
+  "chapter": "01-fundamentals/04-the-keyboard-and-grand-staff.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "F4+C5 whole-note dyad, treble, no barline. The blue bracket and the label 5 to the right of the dyad aren't drawable: the label is a ^markup \"5\" above it, with no bracket or colour."
+ },
+ {
+  "index": 51,
+  "image": "v2/media/2025/06/Same-Note-Two-Accidentals-e1750264867259.png",
+  "lyl": "v2/lilylet/images/2025/06/Same-Note-Two-Accidentals-e1750264867259.lyl",
+  "chapter": "01-fundamentals/05-half-and-whole-steps.md",
+  "method": "hand",
+  "status": "ok",
+  "omr": null,
+  "notes": "Unison chord Bb4 + B4 whole notes (two noteheads side by side, flat and natural), treble, unmetered, no barline."
+ },
+ {
+  "index": 54,
+  "image": "v2/media/2019/05/Scientific_pitch_notation_octaves_of_C.png",
+  "lyl": "v2/lilylet/images/2019/05/Scientific_pitch_notation_octaves_of_C.lyl",
+  "chapter": "01-fundamentals/06-aspn.md",
+  "method": "hand",
+  "status": "ok",
+  "omr": null,
+  "notes": "C0–C9 quarter notes on one staff (bass clef C0–C3, treble clef C4–C9, many ledger lines), unmetered, single final barline. Labels C0..C9 in one \\addlyrics lane (in the original they are staggered by note height)."
+ },
+ {
+  "index": 55,
+  "image": "v2/media/2019/05/Screen-Shot-2019-07-24-at-3.50.53-PM.png",
+  "lyl": "v2/lilylet/images/2019/05/Screen-Shot-2019-07-24-at-3.50.53-PM.lyl",
+  "chapter": "01-fundamentals/06-aspn.md",
+  "method": "hand",
+  "status": "ok",
+  "omr": null,
+  "notes": "C4 D4 E4 F4 G4 A4 B4 quarter notes, treble, unmetered, single final barline, no labels in the image."
+ },
+ {
+  "index": 59,
+  "image": "v2/media/2020/02/a-slur.png",
+  "lyl": "v2/lilylet/images/2020/02/a-slur.lyl",
+  "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+  "method": "hand",
+  "status": "ok",
+  "omr": null,
+  "notes": "Bass clef, Bb major, 2 bars: Bb3 A3 G3 F3 | Eb3 F3 G3 A3 quarter notes, time signature hidden (4/4 kept for bar check), single final barline. One slur over all 8 notes."
+ },
+ {
+  "index": 60,
+  "image": "v2/media/2020/02/b-tenuto.png",
+  "lyl": "v2/lilylet/images/2020/02/b-tenuto.lyl",
+  "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+  "method": "hand",
+  "status": "ok",
+  "omr": null,
+  "notes": "Bass clef, Bb major, 2 bars: Bb3 A3 G3 F3 | Eb3 F3 G3 A3 quarter notes, time signature hidden (4/4 kept for bar check), single final barline. Tenuto (--) on every note."
+ },
+ {
+  "index": 61,
+  "image": "v2/media/2020/02/c-staccato.png",
+  "lyl": "v2/lilylet/images/2020/02/c-staccato.lyl",
+  "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+  "method": "hand",
+  "status": "ok",
+  "omr": null,
+  "notes": "Bass clef, Bb major, 2 bars: Bb3 A3 G3 F3 | Eb3 F3 G3 A3 quarter notes, time signature hidden (4/4 kept for bar check), single final barline. Staccato (-.) on every note."
+ },
+ {
+  "index": 62,
+  "image": "v2/media/2020/02/d-accent.png",
+  "lyl": "v2/lilylet/images/2020/02/d-accent.lyl",
+  "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+  "method": "hand",
+  "status": "ok",
+  "omr": null,
+  "notes": "Bass clef, Bb major, 2 bars: Bb3 A3 G3 F3 | Eb3 F3 G3 A3 quarter notes, time signature hidden (4/4 kept for bar check), single final barline. Accent (->) on every note."
+ },
+ {
+  "index": 63,
+  "image": "v2/media/2020/02/e-marcato.png",
+  "lyl": "v2/lilylet/images/2020/02/e-marcato.lyl",
+  "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+  "method": "hand",
+  "status": "ok",
+  "omr": null,
+  "notes": "Bass clef, Bb major, 2 bars: Bb3 A3 G3 F3 | Eb3 F3 G3 A3 quarter notes, time signature hidden (4/4 kept for bar check), single final barline. Marcato (-^) on every note."
+ },
+ {
+  "index": 66,
+  "image": "v2/media/2020/02/Example6Chapter6.png",
+  "lyl": "v2/lilylet/images/2020/02/Example6Chapter6.lyl",
+  "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+  "method": "hand",
+  "status": "ok",
+  "omr": null,
+  "notes": "G4 whole note with fermata, treble clef, no time signature, single barline."
+ },
+ {
+  "index": 67,
+  "image": "v2/media/2020/02/Example7Chapter6.png",
+  "lyl": "v2/lilylet/images/2020/02/Example7Chapter6.lyl",
+  "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "F3 whole note, bass clef, single barline. Caesura not supported in lilylet: approximated as ^\\markup \"//\" on the note (drawn above the note, not after it)."
+ },
+ {
+  "index": 68,
+  "image": "v2/media/2020/02/Example8Chapter6.png",
+  "lyl": "v2/lilylet/images/2020/02/Example8Chapter6.lyl",
+  "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+  "method": "hand",
+  "status": "ok",
+  "omr": null,
+  "notes": "B3 whole note with breath mark (\\breathe), alto clef, single barline."
+ }
+]

@@ -1,0 +1,15 @@
+[title "Vocal ranges"]
+[staves "<s-a-t-b>"]
+[instrument-s "Soprano" "S"]
+[instrument-a "Alto" "A"]
+[instrument-t "Tenor" "T"]
+[instrument-b "Bass" "B"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "treble" \stemUp c2\glissando \stemDown g''2
+\addlyrics { C₄ G₅ } \\\\
+\clef "treble" \stemUp g2\glissando \stemDown d''2
+\addlyrics { G₃ D₅ } \\\\
+\clef "bass" \stemUp c,2\glissando \stemDown g''2
+\addlyrics { C₃ G₄ } \\\\
+\clef "bass" \stemUp f,,2\glissando \stemDown d''2
+\addlyrics { F₂ D₄ } | %1

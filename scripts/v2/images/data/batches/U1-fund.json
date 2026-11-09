@@ -1,0 +1,259 @@
+[
+ {
+  "index": 8,
+  "image": "v2/media/2022/07/Correct-Noteheads.jpg",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2022/07/Correct-Noteheads.jpg",
+  "lyl": "v2/lilylet/images/2022/07/Correct-Noteheads.lyl",
+  "chapter": "01-fundamentals/02-notation-of-notes-clefs-and-ledger-lines.md",
+  "recommendation": "hand",
+  "caption": "Example 3. Correct noteheads, open (white) and filled in (black), both on lines and in spaces.",
+  "flags": [
+   "no-clef",
+   "low-value"
+  ],
+  "reason": "correct noteheads demo",
+  "bars": 4,
+  "staves": 1,
+  "effort_min": 3
+ },
+ {
+  "index": 10,
+  "image": "v2/media/2022/07/Stemming-Directions.jpg",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2022/07/Stemming-Directions.jpg",
+  "lyl": "v2/lilylet/images/2022/07/Stemming-Directions.lyl",
+  "chapter": "01-fundamentals/02-notation-of-notes-clefs-and-ledger-lines.md",
+  "recommendation": "hand",
+  "caption": "Example 5. Correct stemming directions.",
+  "flags": [
+   "no-clef",
+   "low-value"
+  ],
+  "reason": "stem directions",
+  "bars": 1,
+  "staves": 1,
+  "effort_min": 2
+ },
+ {
+  "index": 11,
+  "image": "v2/media/2022/07/Correct-Seconds-1-e1657554954232.jpg",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2022/07/Correct-Seconds-1-e1657554954232.jpg",
+  "lyl": "v2/lilylet/images/2022/07/Correct-Seconds-1-e1657554954232.lyl",
+  "chapter": "01-fundamentals/02-notation-of-notes-clefs-and-ledger-lines.md",
+  "recommendation": "hand",
+  "caption": "Example 6. Three correct seconds.",
+  "flags": [
+   "no-clef",
+   "low-value"
+  ],
+  "reason": "seconds (chords)",
+  "bars": 1,
+  "staves": 1,
+  "effort_min": 2
+ },
+ {
+  "index": 20,
+  "image": "v2/media/2019/05/LedgerLineswithNotes.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/LedgerLineswithNotes.png",
+  "lyl": "v2/lilylet/images/2019/05/LedgerLineswithNotes.lyl",
+  "chapter": "01-fundamentals/02-notation-of-notes-clefs-and-ledger-lines.md",
+  "recommendation": "hand",
+  "caption": "Example 15. Notes (with stems and beams) on ledger lines, above and below a staff with a treble clef.",
+  "flags": [],
+  "reason": "notes on ledger lines",
+  "bars": 2,
+  "staves": 1,
+  "effort_min": 3
+ },
+ {
+  "index": 21,
+  "image": "v2/media/2019/12/ch2-ex13-ledger_lines.jpg",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/12/ch2-ex13-ledger_lines.jpg",
+  "lyl": "v2/lilylet/images/2019/12/ch2-ex13-ledger_lines.lyl",
+  "chapter": "01-fundamentals/02-notation-of-notes-clefs-and-ledger-lines.md",
+  "recommendation": "hand",
+  "caption": "Example 16. Correct and incorrect notation of ledger lines.",
+  "flags": [
+   "incorrect-notation"
+  ],
+  "reason": "correct half encodable; incorrect half is graphic",
+  "bars": 2,
+  "staves": 1,
+  "effort_min": 3
+ },
+ {
+  "index": 22,
+  "image": "v2/media/2019/05/Screen-Shot-2019-05-29-at-10.28.19-AM.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/Screen-Shot-2019-05-29-at-10.28.19-AM.png",
+  "lyl": "v2/lilylet/images/2019/05/Screen-Shot-2019-05-29-at-10.28.19-AM.lyl",
+  "chapter": "01-fundamentals/03-clefs.md",
+  "recommendation": "hand",
+  "caption": "Example 1. The letter names for the lines with a treble clef.",
+  "flags": [
+   "letter-labels"
+  ],
+  "reason": "treble lines",
+  "bars": 1,
+  "staves": 1,
+  "effort_min": 2
+ },
+ {
+  "index": 23,
+  "image": "v2/media/2019/05/Screen-Shot-2019-05-29-at-10.28.23-AM.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/Screen-Shot-2019-05-29-at-10.28.23-AM.png",
+  "lyl": "v2/lilylet/images/2019/05/Screen-Shot-2019-05-29-at-10.28.23-AM.lyl",
+  "chapter": "01-fundamentals/03-clefs.md",
+  "recommendation": "hand",
+  "caption": "Example 2. The letter names for the spaces with a treble clef.",
+  "flags": [
+   "letter-labels"
+  ],
+  "reason": "treble spaces",
+  "bars": 1,
+  "staves": 1,
+  "effort_min": 2
+ },
+ {
+  "index": 27,
+  "image": "v2/media/2019/05/Screen-Shot-2019-05-29-at-11.00.29-AM.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/Screen-Shot-2019-05-29-at-11.00.29-AM.png",
+  "lyl": "v2/lilylet/images/2019/05/Screen-Shot-2019-05-29-at-11.00.29-AM.lyl",
+  "chapter": "01-fundamentals/03-clefs.md",
+  "recommendation": "hand",
+  "caption": "Example 6. The letter names for the lines with a bass clef.",
+  "flags": [
+   "letter-labels"
+  ],
+  "reason": "bass lines",
+  "bars": 1,
+  "staves": 1,
+  "effort_min": 2
+ },
+ {
+  "index": 28,
+  "image": "v2/media/2019/05/Screen-Shot-2019-05-29-at-11.00.34-AM.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/Screen-Shot-2019-05-29-at-11.00.34-AM.png",
+  "lyl": "v2/lilylet/images/2019/05/Screen-Shot-2019-05-29-at-11.00.34-AM.lyl",
+  "chapter": "01-fundamentals/03-clefs.md",
+  "recommendation": "hand",
+  "caption": "Example 7. The letter names for the spaces with a bass clef.",
+  "flags": [
+   "letter-labels"
+  ],
+  "reason": "bass spaces",
+  "bars": 1,
+  "staves": 1,
+  "effort_min": 2
+ },
+ {
+  "index": 29,
+  "image": "v2/media/2019/05/Screen-Shot-2019-05-29-at-11.10.40-AM.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/Screen-Shot-2019-05-29-at-11.10.40-AM.png",
+  "lyl": "v2/lilylet/images/2019/05/Screen-Shot-2019-05-29-at-11.10.40-AM.lyl",
+  "chapter": "01-fundamentals/03-clefs.md",
+  "recommendation": "hand",
+  "caption": "Example 8. The letter names for the lines with an alto clef.",
+  "flags": [
+   "letter-labels"
+  ],
+  "reason": "alto lines",
+  "bars": 1,
+  "staves": 1,
+  "effort_min": 2
+ },
+ {
+  "index": 30,
+  "image": "v2/media/2019/05/Screen-Shot-2019-05-29-at-11.10.45-AM.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/Screen-Shot-2019-05-29-at-11.10.45-AM.png",
+  "lyl": "v2/lilylet/images/2019/05/Screen-Shot-2019-05-29-at-11.10.45-AM.lyl",
+  "chapter": "01-fundamentals/03-clefs.md",
+  "recommendation": "hand",
+  "caption": "Example 9. The letter names for the spaces with an alto clef.",
+  "flags": [
+   "letter-labels"
+  ],
+  "reason": "alto spaces",
+  "bars": 1,
+  "staves": 1,
+  "effort_min": 2
+ },
+ {
+  "index": 31,
+  "image": "v2/media/2019/05/Screen-Shot-2019-05-29-at-11.27.17-AM.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/Screen-Shot-2019-05-29-at-11.27.17-AM.png",
+  "lyl": "v2/lilylet/images/2019/05/Screen-Shot-2019-05-29-at-11.27.17-AM.lyl",
+  "chapter": "01-fundamentals/03-clefs.md",
+  "recommendation": "hand",
+  "caption": "Example 10. The letter names for the lines with a tenor clef.",
+  "flags": [
+   "letter-labels"
+  ],
+  "reason": "tenor lines",
+  "bars": 1,
+  "staves": 1,
+  "effort_min": 2
+ },
+ {
+  "index": 32,
+  "image": "v2/media/2019/05/Screen-Shot-2019-05-29-at-11.27.22-AM.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/Screen-Shot-2019-05-29-at-11.27.22-AM.png",
+  "lyl": "v2/lilylet/images/2019/05/Screen-Shot-2019-05-29-at-11.27.22-AM.lyl",
+  "chapter": "01-fundamentals/03-clefs.md",
+  "recommendation": "hand",
+  "caption": "Example 11. The letter names for the spaces with a tenor clef.",
+  "flags": [
+   "letter-labels"
+  ],
+  "reason": "tenor spaces",
+  "bars": 1,
+  "staves": 1,
+  "effort_min": 2
+ },
+ {
+  "index": 33,
+  "image": "v2/media/2025/06/Soprano-Mezzo-Soprano-Baritone-Clef-Line-Letters-scaled-e1749827413950.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2025/06/Soprano-Mezzo-Soprano-Baritone-Clef-Line-Letters-scaled-e1749827413950.png",
+  "lyl": "v2/lilylet/images/2025/06/Soprano-Mezzo-Soprano-Baritone-Clef-Line-Letters-scaled-e1749827413950.lyl",
+  "chapter": "01-fundamentals/03-clefs.md",
+  "recommendation": "hand",
+  "caption": "Example 12. The letter names for the lines with a soprano, mezzo-soprano, and baritone clef.",
+  "flags": [
+   "letter-labels"
+  ],
+  "reason": "soprano/mezzo/baritone C clefs (check clef support)",
+  "bars": 3,
+  "staves": 3,
+  "effort_min": 4
+ },
+ {
+  "index": 34,
+  "image": "v2/media/2019/05/Screen-Shot-2019-05-29-at-12.05.34-PM.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/Screen-Shot-2019-05-29-at-12.05.34-PM.png",
+  "lyl": "v2/lilylet/images/2019/05/Screen-Shot-2019-05-29-at-12.05.34-PM.lyl",
+  "chapter": "01-fundamentals/03-clefs.md",
+  "recommendation": "hand",
+  "caption": "Example 13. Ledger lines extend a staff upwards with a treble clef.",
+  "flags": [
+   "letter-labels"
+  ],
+  "reason": "ledger lines above",
+  "bars": 1,
+  "staves": 1,
+  "effort_min": 2
+ },
+ {
+  "index": 35,
+  "image": "v2/media/2019/05/Screen-Shot-2019-05-29-at-12.14.51-PM.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/Screen-Shot-2019-05-29-at-12.14.51-PM.png",
+  "lyl": "v2/lilylet/images/2019/05/Screen-Shot-2019-05-29-at-12.14.51-PM.lyl",
+  "chapter": "01-fundamentals/03-clefs.md",
+  "recommendation": "hand",
+  "caption": "Example 14. Ledger lines extend a staff downwards with a bass clef.",
+  "flags": [
+   "letter-labels"
+  ],
+  "reason": "ledger lines below",
+  "bars": 1,
+  "staves": 1,
+  "effort_min": 2
+ }
+]

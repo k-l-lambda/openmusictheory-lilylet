@@ -1,0 +1,6 @@
+[title "Drawing a D major triad in four steps"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "bass" d,1^\markup "1" \bar "||" | %1
+<d, f a>1^\markup "2" \bar "||" | %2
+\key d \major ^\markup "3" s1 \bar "||" | %3
+\key c \major <d, fs a>1^\markup "4" \bar "||" | %4

@@ -1,0 +1,5 @@
+[title "Intervallic inversion"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "bass" \stemUp e,2 c' \\
+\stemDown c,2 e \bar "|"
+\addlyrics { ma3 mi6 } | %1

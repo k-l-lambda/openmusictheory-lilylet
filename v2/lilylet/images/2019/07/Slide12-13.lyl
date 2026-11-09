@@ -1,0 +1,73 @@
+[title "L'amour captif, mm. 1–11 (external expansion via small prefix)"]
+[composer "Cécile Chaminade"]
+[staves "<voice> {pr-pl}"]
+[instrument-voice "Voice"]
+[instrument-pr-pl "Piano"]
+
+\staff "1" \key ef \major \time 3/8 \clef "treble" \partial 8 \tempo "Allegretto." ^\markup "prefix" r8 \\\\
+\staff "1" \key ef \major \time 3/8 \clef "treble" \partial 8 r8 \\
+\staff "2" \key ef \major \time 3/8 \clef "bass" \partial 8 a16(\p[ bf)] | %1
+
+\staff "1" R4. \\\\
+\staff "1" <d af' bf>4 r8 \\
+\staff "2" r4 b16([ c)] | %2
+
+\staff "1" r4 bf'8^\markup "dolce"^\markup "b.i."^\markup "c.b.i."
+\addlyrics { Sweet -- }
+\addlyrics { Mi -- } \\\\
+\staff "1" <ef af bf>8 r <f af bf> \\
+\staff "2" r8 cs16([ d)] r8 | %3
+
+\staff "1" ef'4.
+\addlyrics { heart, }
+\addlyrics { gnon -- } \\\\
+\staff "1" r4 <ef g bf c>8 \\
+\staff "2" <ef,, ef'>8 bf''16[ c] r8 | %4
+
+\staff "1" d'16 f d4
+\addlyrics { I have bound }
+\addlyrics { "ne, à" l'a -- mour } \\\\
+\staff "1" r4 <d af' bf d>8 \\
+\staff "2" <f,, f'>8 bf'16[ c] r8 | %5
+
+\staff "1" c'16^\markup "c.i."^\markup "(c.b.i.)" ef d8 c
+\addlyrics { way -- ward Love's light }
+\addlyrics { j'ai li -- é les } \\\\
+\staff "1" r8 <d' bf' d>[ <c af' c>] \\
+\staff "2" r8 <c af'>[ <d af'>] \\
+\staff "2" bf,4. | %6
+
+\staff "1" g'16([ bf)] bf4
+\addlyrics { pin -- _ ions, }
+\addlyrics { ai -- _ les; } \\\\
+\staff "1" <g' ef' g>8([ <bf g' bf> <bf' g' bf>)] \\
+\staff "2" <ef,, ef'>8( <bf'' g'>4) | %7
+
+\staff "1" ^\markup "u." ^\markup "cad." r16 bf' bf c bf c
+\addlyrics { He nev -- er -- more can }
+\addlyrics { Il ne pour -- ra plus } \\\\
+\staff "1" r8 <df g bf>16([ c' <df, g bf> c')] \\
+\staff "2" r8 bf16([ c bf c)] \\
+\staff "2" <e,, e'>4. | %8
+
+\staff "1" bf'8([ af)] af
+\addlyrics { wan -- _ ton }
+\addlyrics { pren -- _ dre } \\\\
+\staff "1" bf'8([ af)] af \\
+\staff "1" <c f>4. \\
+\staff "2" bf8([ af)] af \\
+\staff "2" f,4. | %9
+
+\staff "1" g'4(^\markup "u." \tuplet 3/2 { f16[ g f] }
+\addlyrics { oth -- er -- _ _ }
+\addlyrics { son es -- _ _ } \\\\
+\staff "1" g'4 \tuplet 3/2 { f16[ g f] } \\
+\staff "1" r8 <af d>4 \\
+\staff "2" g4 \tuplet 3/2 { f16[ g f] } \\
+\staff "2" r8 bf,4 | %10
+
+\staff "1" \partial 4 ef4)
+\addlyrics { where, }
+\addlyrics { sor } \\\\
+\staff "1" \partial 4 ef8[ \staff "2" <g, bf>] \\
+\staff "2" \partial 4 ef,8[ ef,] | %11

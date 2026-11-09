@@ -1,0 +1,7 @@
+[title "Drawing an A-flat minor triad in five steps"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "treble" af'1^\markup "1" \bar "||" | %1
+<af' c e>1^\markup "2" \bar "||" | %2
+\key af \major ^\markup "3" s1 \bar "||" | %3
+\key c \major <af' c ef>1^\markup "4" \bar "||" | %4
+<af' cf ef>1^\markup "5" \bar "||" | %5

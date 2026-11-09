@@ -1,0 +1,7 @@
+[title "Common chords of closely related keys: C major and G major"]
+
+\omit Score.TimeSignature \omit Score.BarLine \time 7/4 \key c \major \clef "treble" <c e g>4_\markup "*" \chords "C" <d f a> \chords "Dm" <e g b>_\markup "*" \chords "Em" <f a c> \chords "F" <g b d>_\markup "*" \chords "G" <a c e>_\markup "*" \chords "Am" <b d f> \chords "Bdim"
+\addlyrics { I ii iii IV V vi vii° } | %1
+
+\key g \major <g' b d>4_\markup "*" \chords "G" <a c e>_\markup "*" \chords "Am" <b d fs> \chords "Bm" <c e g>_\markup "*" \chords "C" <d fs a> \chords "D" <e g b>_\markup "*" \chords "Em" <fs a c> \chords "F♯dim"
+\addlyrics { I ii iii IV V vi vii° } | %2

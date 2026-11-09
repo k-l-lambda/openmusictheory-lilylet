@@ -1,0 +1,12 @@
+[title "B melodic minor scale with whole/half steps and scale-degree names"]
+
+\key b \minor \numericTimeSignature \time 4/4 \clef "bass" b,4^\markup "W" cs^\markup "H" d^\markup "W" e^\markup "W"
+\addlyrics { Tonic Supertonic Mediant Subdominant } | %1
+fs,4^\markup "W" gs^\markup "W" as^\markup "H" b
+\addlyrics { Dominant Submediant Leading Tonic }
+\addlyrics { _ "(raised)" Tone _ } | %2
+a4 g fs e
+\addlyrics { Subtonic Submediant Dominant Subdominant }
+\addlyrics { _ "(lowered)" _ _ } | %3
+d,4 cs b2 \bar "|."
+\addlyrics { Mediant Supertonic Tonic } | %4

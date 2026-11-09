@@ -1,0 +1,92 @@
+[title "Internal expansion via varied repetition (Horn Concerto No. 3, K. 447, I, mm. 1–9)"]
+[composer "Wolfgang Amadeus Mozart"]
+[staves "cl,bn,hn,<v1-v2-va-vc>"]
+[instrument-cl "Clarinetto in B" "Cl."]
+[instrument-bn "Fagotto" "Fg."]
+[instrument-hn "Corno in Es" "Cor."]
+[instrument-v1 "Violino I" "Vl. I"]
+[instrument-v2 "Violino II" "Vl. II"]
+[instrument-va "Viola" "Va."]
+[instrument-vc "Violoncello e Basso" "Vc."]
+
+\key f \major \time 4/4 \partial 4 \clef "treble" r4 \\\
+\key ef \major \time 4/4 \partial 4 \clef "bass" r4 \\\
+\key c \major \time 4/4 \partial 4 \clef "treble" r4 \\\
+\key ef \major \time 4/4 \partial 4 \clef "treble" bf4\p^\markup "b.i."^\markup "compound basic idea" \\\
+\key ef \major \time 4/4 \partial 4 \clef "treble" r4 \\\
+\key ef \major \time 4/4 \partial 4 \clef "alto" r4 \\\
+\key ef \major \time 4/4 \partial 4 \clef "bass" r4 | %0
+
+R1 \\\
+R1 \\\
+R1 \\\
+g'4.( ef8) af([ f ef d)] \\\
+r8 bf\p[ bf bf] bf[ bf bf bf] \\\
+r8 ef,-.\p[ ef( g)] f([ af g f)] \\\
+ef,4\p r bf r | %1
+
+R1 \\\
+R1 \\\
+R1 \\\
+ef4( bf) r8 bf([ ef g)] \\\
+r8 bf[ bf bf] bf[ bf bf bf] \\\
+r8 g[ g g] g[ g g g] \\\
+ef,4 r r ef8 r | %2
+
+R1 \\\
+R1 \\\
+R1 \\\
+bf'2.(^\markup "c.i." bf16[ af g af)] \\\
+bf8[ bf d d] ef[ ef f f] \\\
+f,8[ f bf bf] bf[ bf bf bf] \\\
+d,8 r bf r c r d r | %3
+
+R1 \\\
+r8 <ef, ef'>\p[ <ef ef'> <ef ef'>] <ef ef'>4 r \\\
+R1 \\\
+fs4( g) r8 ef'16\f[ f] g[ af bf g] \\\
+d4( ef) r2 \\\
+bf8([ ef ef,) ef] ef4 r \\\
+ef,4 r r2 | %4
+
+<b' af'>2\f <c g'> \\\
+<ef gf>2\f <d f> \\\
+c'2 g \\\
+c''4.^\markup "model"^\markup "continuation" ef,,8 d4 bf'' \\\
+gf''2:16\f f:16 \\\
+a'2:16\f bf:16 \\\
+ef8\f[ ef ef ef] d[ d d d] | %5
+
+f'8[ bf a gs] a4 g8[ fs] \\
+d'4 f e ef \\\
+<c ef>2 <b d>4( <bf df> \\\
+c2 r \\\
+af''4.^\markup "copy" c,,8 b4 g'' \\\
+ef'2:16 d4:16 df:16 \\\
+c'16[ c af af] g[ g fs fs] g4:16 f16[ f e e] \\\
+c8[ c c c] b[ b bf bf] | %6
+
+g''4 f8[ e] f2 \\
+d'4 df c2 \\\
+<a c>4 <af cf>) <g cf>2 \\\
+R1 \\\
+f'4.^\markup "(copy)" af,,8 g4 ef'' \\\
+c'4:16 cf:16 bf2:16 \\\
+f4:16 ef16[ ef d d] ef4:16 g:16 \\\
+a8[ a af af] g[ g g g] | %7
+
+<bf' e>8 r <g' bf>4. <g c>8[ <f a> <f a>] \\\
+<f, af>8 r <bf f'>4. <bf f'>8[ <g ef'> <g ef'>] \\\
+r8 g'[ g g] g[ g e c] \\\
+d'8^\markup "cadential" r <bf af'>4. <bf af'>8[ <bf g'> <bf g'>] \\\
+bf'8 r <bf f'>4. <bf f'>8[ ef ef] \\\
+af'4 r8 bf,16[ c] d[ bf c d] ef[ f g af] \\\
+f,4 r8 bf,16[ c] d[ bf c d] ef[ f g af] | %8
+
+<e' g>4 c r2 \\\
+<bf d>4 bf, r2 \\\
+g'4 g, r2 \\\
+<bf' f'>4^\markup "HC" <bf, d bf'> r2 \\\
+d'4 <bf, f' d'> r2 \\\
+d'4 d, r2 \\\
+bf4 bf, r2 | %9

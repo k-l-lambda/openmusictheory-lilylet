@@ -1,0 +1,6 @@
+[title "A triad with root, third, and fifth labelled"]
+
+\omit Score.TimeSignature \key c \major \clef "bass" <a, c e>1 \bar "|"
+\addlyrics { Fifth }
+\addlyrics { Third }
+\addlyrics { Root } | %1

@@ -1,0 +1,172 @@
+[
+ {
+  "index": 65,
+  "image": "v2/media/2025/06/Fur-Elise-A-Tempo.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2025/06/Fur-Elise-A-Tempo.png",
+  "lyl": "v2/lilylet/images/2025/06/Fur-Elise-A-Tempo.lyl",
+  "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+  "recommendation": "omr",
+  "caption": "Example 9. A musical example with a ritardando and an a tempo marking.",
+  "flags": [
+   "scan"
+  ],
+  "reason": "Fur Elise rit./a tempo, dense 32nds, fingering",
+  "bars": 4,
+  "staves": 2,
+  "effort_min": 10
+ },
+ {
+  "index": 72,
+  "image": "v2/media/2025/06/D.C.-al-Coda.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2025/06/D.C.-al-Coda.png",
+  "lyl": "v2/lilylet/images/2025/06/D.C.-al-Coda.lyl",
+  "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+  "recommendation": "hand",
+  "caption": "Example 18. A musical example that shows the D.C. al Coda process.",
+  "flags": [
+   "check-support"
+  ],
+  "reason": "D.C. al Coda roadmap",
+  "bars": 10,
+  "staves": 1,
+  "effort_min": 6
+ },
+ {
+  "index": 73,
+  "image": "v2/media/2025/06/D.C.-al-Fine.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2025/06/D.C.-al-Fine.png",
+  "lyl": "v2/lilylet/images/2025/06/D.C.-al-Fine.lyl",
+  "chapter": "01-fundamentals/07-other-aspects-of-notation.md",
+  "recommendation": "hand",
+  "caption": "Example 19. A musical example that shows the D.C. al Fine process.",
+  "flags": [
+   "check-support"
+  ],
+  "reason": "D.C. al Fine roadmap",
+  "bars": 8,
+  "staves": 1,
+  "effort_min": 5
+ },
+ {
+  "index": 76,
+  "image": "v2/media/2021/06/Example-3-Chapter-8.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2021/06/Example-3-Chapter-8.png",
+  "lyl": "v2/lilylet/images/2021/06/Example-3-Chapter-8.lyl",
+  "chapter": "01-fundamentals/09-notating-rhythm.md",
+  "recommendation": "hand",
+  "caption": "Example 3. A double whole note on a line.",
+  "flags": [
+   "check-support"
+  ],
+  "reason": "breve",
+  "bars": 1,
+  "staves": 1,
+  "effort_min": 2
+ },
+ {
+  "index": 78,
+  "image": "v2/media/2019/05/Breve-Rest.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/Breve-Rest.png",
+  "lyl": "v2/lilylet/images/2019/05/Breve-Rest.lyl",
+  "chapter": "01-fundamentals/09-notating-rhythm.md",
+  "recommendation": "hand",
+  "caption": "Example 5. A breve rest.",
+  "flags": [
+   "check-support"
+  ],
+  "reason": "breve rest",
+  "bars": 1,
+  "staves": 1,
+  "effort_min": 2
+ },
+ {
+  "index": 85,
+  "image": "v2/media/2020/01/pickup.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2020/01/pickup.png",
+  "lyl": "v2/lilylet/images/2020/01/pickup.lyl",
+  "chapter": "01-fundamentals/10-simple-meter-and-time-signatures.md",
+  "recommendation": "hand",
+  "caption": "Example 13. An anacrusis.",
+  "flags": [
+   "counts"
+  ],
+  "reason": "anacrusis with counts",
+  "bars": 3,
+  "staves": 1,
+  "effort_min": 3
+ },
+ {
+  "index": 86,
+  "image": "v2/media/2020/01/withoutbeams.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2020/01/withoutbeams.png",
+  "lyl": "v2/lilylet/images/2020/01/withoutbeams.lyl",
+  "chapter": "01-fundamentals/10-simple-meter-and-time-signatures.md",
+  "recommendation": "hand",
+  "caption": "Example 16. Beaming makes rhythms easier to read by showing the beat unit.",
+  "flags": [
+   "v1-same-name-different-content:Graphics/withoutbeams.png"
+  ],
+  "reason": "unbeamed vs beamed",
+  "bars": 4,
+  "staves": 2,
+  "effort_min": 4
+ },
+ {
+  "index": 88,
+  "image": "v2/media/2021/05/Stemming2.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2021/05/Stemming2.png",
+  "lyl": "v2/lilylet/images/2021/05/Stemming2.lyl",
+  "chapter": "01-fundamentals/10-simple-meter-and-time-signatures.md",
+  "recommendation": "hand",
+  "caption": "Example 18. Beaming with different stem directions.",
+  "flags": [],
+  "reason": "beaming stem directions",
+  "bars": 2,
+  "staves": 1,
+  "effort_min": 3
+ },
+ {
+  "index": 89,
+  "image": "v2/media/2020/01/Flag-Direction.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2020/01/Flag-Direction.png",
+  "lyl": "v2/lilylet/images/2020/01/Flag-Direction.lyl",
+  "chapter": "01-fundamentals/10-simple-meter-and-time-signatures.md",
+  "recommendation": "hand",
+  "caption": "Example 19. Flagging is determined by stem direction.",
+  "flags": [],
+  "reason": "flag direction",
+  "bars": 1,
+  "staves": 1,
+  "effort_min": 2
+ },
+ {
+  "index": 90,
+  "image": "v2/media/2020/01/Multi-Measure-Rest.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2020/01/Multi-Measure-Rest.png",
+  "lyl": "v2/lilylet/images/2020/01/Multi-Measure-Rest.lyl",
+  "chapter": "01-fundamentals/10-simple-meter-and-time-signatures.md",
+  "recommendation": "hand",
+  "caption": "Example 21. A multi-measure rest lasting four measures.",
+  "flags": [
+   "check-support"
+  ],
+  "reason": "multi-measure rest",
+  "bars": 1,
+  "staves": 1,
+  "effort_min": 2
+ },
+ {
+  "index": 93,
+  "image": "v2/media/2020/05/3-4_6-8.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2020/05/3-4_6-8.png",
+  "lyl": "v2/lilylet/images/2020/05/3-4_6-8.lyl",
+  "chapter": "01-fundamentals/11-compound-meters-and-time-signatures.md",
+  "recommendation": "hand",
+  "caption": "Example 8. Proper beaming is essential in both simple and compound meters.",
+  "flags": [],
+  "reason": "3/4 vs 6/8 beaming",
+  "bars": 2,
+  "staves": 2,
+  "effort_min": 4
+ }
+]

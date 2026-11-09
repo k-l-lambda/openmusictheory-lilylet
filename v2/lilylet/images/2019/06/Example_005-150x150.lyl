@@ -1,0 +1,37 @@
+[title "Cello Sonata, Op. 46, II (a sentence)"]
+[composer "Louise Farrenc"]
+[staves "<vc> {pr-pl}"]
+[instrument-vc "Violoncello" "Vc."]
+[instrument-pr-pl "Piano" "Pno."]
+
+\key ef \major \time 6/8 \tempo "Andante sostenuto" \clef "bass" ef,,2.\p \\\\
+\staff "1" \key ef \major \clef "treble" ef4^\markup "presentation: basic idea" bf8_\markup "Dol." ef4 g8 \\
+\staff "2" \clef "bass" <ef, g c>4 <ef g>8 <ef g bf>4 <ef g c>8 | %1
+
+ef,,2. \\\\
+\staff "1" g'8[ f af] c,4 f8 \\
+\staff "2" <ef, f af d>4 <ef f af c>8 <ef f af>4 <ef f af bf d>8 | %2
+
+d,,2. \\\\
+\staff "1" bf4^\markup "basic idea" d8 f4 af8 \\
+\staff "2" <d, f bf>4 <d f af c>8 <d f af c>4 <d f bf>8 | %3
+
+ef,,2. \\\\
+\staff "1" af'8[ g c] bf4 <g b>8 \\
+\staff "2" <ef, bf'>4 <ef af>8 <ef g>4 ef8 | %4
+
+ef,32([ g bf c d c bf a bf c bf a]) r4 a8 \\\\
+\staff "1" <af' c>4^\markup "continuation: fragment" <ef af>8 <c' ef>16[ <b d> <d f> <c ef> <bf d> <af c>] \\
+\staff "2" <ef,, ef'>4 <ef ef'>8 <ef ef'>4 <ef ef'>8 | %5
+
+ef,32([ g bf c d c bf g bf c bf g]) r4 g8 \\\\
+\staff "1" <g' bf>4^\markup "fragment" <ef g>8 <g ef'>16[ <f d'> <af f'> <g ef'> <g bf> <ef g>] \\
+\staff "2" <ef,, ef'>4 <ef ef'>8 <ef ef'>4 <ef ef'>8 | %6
+
+c,4 b8 r4 d8 \\\\
+\staff "1" <g' bf>8[(^\markup "cadential idea" <f af>8.) <bf, f'>16] <f' af>8[( <ef g>8.) <g, ef'>16] \\
+\staff "2" <d,, d'>4 <d d'>8 <ef ef'>4 <c c'>8 | %7
+
+a,16\<[ bf a bf a bf] a[ bf d c bf a\!] \\\\
+\staff "1" <ef g>4.(^\markup "HC" <d f>4) r8 \\
+\staff "2" <bf,, bf'>4. <bf bf'>4 r8 | %8

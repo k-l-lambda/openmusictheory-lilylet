@@ -1,0 +1,4 @@
+[title "Flag direction follows stem direction"]
+[auto-beam "off"]
+
+\time 4/8 \clef "treble" \stemDown c'8 b \stemUp a b \bar "|" | %1

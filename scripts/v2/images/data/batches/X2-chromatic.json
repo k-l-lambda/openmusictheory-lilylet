@@ -1,0 +1,122 @@
+[
+ {
+  "index": 196,
+  "image": "v2/media/2020/01/chromatic-modulation-closely-related-keys.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2020/01/chromatic-modulation-closely-related-keys.png",
+  "lyl": "v2/lilylet/images/2020/01/chromatic-modulation-closely-related-keys.lyl",
+  "chapter": "05-chromaticism/06-reinterpreting-augmented-sixth-chords.md",
+  "recommendation": "hand",
+  "caption": null,
+  "flags": [
+   "roman",
+   "chord-names",
+   "highlight"
+  ],
+  "reason": "common chords C and G major (closely related keys)",
+  "bars": 14,
+  "staves": 2,
+  "effort_min": 8
+ },
+ {
+  "index": 197,
+  "image": "v2/media/2020/01/distantly-related-keys-mixture-to-diatonic.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2020/01/distantly-related-keys-mixture-to-diatonic.png",
+  "lyl": "v2/lilylet/images/2020/01/distantly-related-keys-mixture-to-diatonic.lyl",
+  "chapter": "05-chromaticism/06-reinterpreting-augmented-sixth-chords.md",
+  "recommendation": "hand",
+  "caption": null,
+  "flags": [
+   "roman",
+   "chord-names",
+   "highlight"
+  ],
+  "reason": "Eb major/c minor/C major chords in common",
+  "bars": 21,
+  "staves": 3,
+  "effort_min": 10
+ },
+ {
+  "index": 198,
+  "image": "v2/media/2020/01/distantly-related-keys-diatonic-to-mixture.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2020/01/distantly-related-keys-diatonic-to-mixture.png",
+  "lyl": "v2/lilylet/images/2020/01/distantly-related-keys-diatonic-to-mixture.lyl",
+  "chapter": "05-chromaticism/06-reinterpreting-augmented-sixth-chords.md",
+  "recommendation": "hand",
+  "caption": null,
+  "flags": [
+   "roman",
+   "chord-names",
+   "highlight"
+  ],
+  "reason": "A major/a minor/C chords in common",
+  "bars": 21,
+  "staves": 3,
+  "effort_min": 10
+ },
+ {
+  "index": 199,
+  "image": "v2/media/2020/01/Atlas.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2020/01/Atlas.png",
+  "lyl": "v2/lilylet/images/2020/01/Atlas.lyl",
+  "chapter": "05-chromaticism/07-augmented-options.md",
+  "recommendation": "omr+hand",
+  "caption": "Example 1. Extract from the start of Schubert’s “Der Atlas” (from Schwanengesang , D.957), showing the augmented triad III+ (possibly, depending on your analytical viewpoint) and certainly how closely related this chord is to both V and i.",
+  "flags": [
+   "tremolo"
+  ],
+  "reason": "Schubert Der Atlas opening, piano tremolo",
+  "bars": 3,
+  "staves": 3,
+  "effort_min": 15
+ },
+ {
+  "index": 200,
+  "image": "v2/media/2020/01/Bach.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2020/01/Bach.png",
+  "lyl": "v2/lilylet/images/2020/01/Bach.lyl",
+  "chapter": "05-chromaticism/07-augmented-options.md",
+  "recommendation": "omr+hand",
+  "caption": "Example 2. A prominent augmented chord in the “Fecit Potentiam” of Bach’s Magnificat with a possible harmonic reading of this passage that sees the augmented triad setting up a deceptive cadence in the middle of a passage in V minor enclosed by two secondary dominants, vii o7 /v.",
+  "flags": [
+   "lyrics",
+   "roman",
+   "reduction"
+  ],
+  "reason": "Bach Magnificat Fecit potentiam, 5 voices + reduction",
+  "bars": 4,
+  "staves": 7,
+  "effort_min": 25
+ },
+ {
+  "index": 201,
+  "image": "v2/media/2020/01/Hensel-Extract.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2020/01/Hensel-Extract.png",
+  "lyl": "v2/lilylet/images/2020/01/Hensel-Extract.lyl",
+  "chapter": "05-chromaticism/07-augmented-options.md",
+  "recommendation": "omr+hand",
+  "caption": "Example 3. Extract from Fanny Mendelssohn Hensel’s Gondellied (6 Lieder, Op. 1, no. 6)",
+  "flags": [
+   "lyrics"
+  ],
+  "reason": "Hensel Gondellied extract",
+  "bars": 4,
+  "staves": 3,
+  "effort_min": 15
+ },
+ {
+  "index": 202,
+  "image": "v2/media/2019/07/brahms-concerto-for-vln-vc-268-79.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/brahms-concerto-for-vln-vc-268-79.png",
+  "lyl": "v2/lilylet/images/2019/07/brahms-concerto-for-vln-vc-268-79.lyl",
+  "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+  "recommendation": "omr",
+  "caption": "Example 1. Brahms, Concerto for Violin and Cello, I, mm. 268–79 (10:22) .",
+  "flags": [
+   "scan"
+  ],
+  "reason": "Brahms Double Concerto mm. 268ff (full score)",
+  "bars": 8,
+  "staves": 6,
+  "effort_min": 35
+ }
+]

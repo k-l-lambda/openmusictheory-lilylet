@@ -1,0 +1,3 @@
+[title "Both Bs are flat, regardless of octave (E♭ major, bass clef)"]
+
+\key ef \major \numericTimeSignature \time 4/4 \clef "bass" bf,2 bf' | %1

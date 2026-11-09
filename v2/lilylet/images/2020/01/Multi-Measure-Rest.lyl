@@ -1,0 +1,3 @@
+[title "A multi-measure rest (four measures)"]
+
+\numericTimeSignature \time 4/4 \clef "treble" \stemUp ^\markup "4" R1 | %1

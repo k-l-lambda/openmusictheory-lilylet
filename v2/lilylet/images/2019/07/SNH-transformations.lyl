@@ -1,0 +1,8 @@
+[title "S, N, and H transformations"]
+
+\omit Score.TimeSignature \time 4/4 \key c \major \clef "treble" <c e g>1^\markup "S (\"Slide\")" | %1
+<cs e gs>1 | %2
+<c e g>1^\markup "N (\"Neberverwandt\")" | %3
+<c f af>1 | %4
+<c e g>1^\markup "H (\"Hexatonic Pole\")" | %5
+<cf ef af>1 \bar "||" | %6

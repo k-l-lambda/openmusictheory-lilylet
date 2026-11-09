@@ -1,0 +1,53 @@
+[
+ {
+  "index": 296,
+  "image": "v2/media/2022/07/OMT-S3-Maj-2-e1657569450534.jpg",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2022/07/OMT-S3-Maj-2-e1657569450534.jpg",
+  "lyl": "v2/lilylet/images/2022/07/OMT-S3-Maj-2-e1657569450534.lyl",
+  "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+  "recommendation": "omr",
+  "caption": "There are four melodies in simple triple meter and the major mode. The first two are in 3/4 and the second two are in 3/8.",
+  "flags": [
+   "ear-training",
+   "low-res"
+  ],
+  "reason": "4 melodies major",
+  "bars": 32,
+  "staves": 6,
+  "effort_min": 15
+ },
+ {
+  "index": 297,
+  "image": "v2/media/2022/07/OMT-S3-Min-4-e1657563213827.jpg",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2022/07/OMT-S3-Min-4-e1657563213827.jpg",
+  "lyl": "v2/lilylet/images/2022/07/OMT-S3-Min-4-e1657563213827.lyl",
+  "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+  "recommendation": "omr",
+  "caption": "There are four melodies in simple triple meter and the minor mode. The first two are in 3/4 and the second two are in 3/8.",
+  "flags": [
+   "ear-training",
+   "low-res"
+  ],
+  "reason": "4 melodies minor",
+  "bars": 32,
+  "staves": 8,
+  "effort_min": 15
+ },
+ {
+  "index": 298,
+  "image": "v2/media/2022/07/OMT-S3-2PM-3-e1657563731166.jpg",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2022/07/OMT-S3-2PM-3-e1657563731166.jpg",
+  "lyl": "v2/lilylet/images/2022/07/OMT-S3-2PM-3-e1657563731166.lyl",
+  "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+  "recommendation": "omr",
+  "caption": "There are two two part melodies in simple triple meter. The first is in 3/4 and the second is in 3/8.",
+  "flags": [
+   "ear-training",
+   "low-res"
+  ],
+  "reason": "2 two-part melodies",
+  "bars": 24,
+  "staves": 6,
+  "effort_min": 15
+ }
+]

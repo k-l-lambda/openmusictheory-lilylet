@@ -1,0 +1,7 @@
+[title "Spelling a D major-major seventh chord in second inversion in five steps"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "treble" d1^\markup "1" | %1
+<d f a c>1^\markup "2" | %2
+\key d \major ^\markup "3" s1 | %3
+\key c \major <d fs a cs>1^\markup "4" | %4
+<a' cs d fs>1^\markup "5" \bar "||" | %5

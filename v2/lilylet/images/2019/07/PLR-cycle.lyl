@@ -1,0 +1,4 @@
+[title "The PLR cycle"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" <c e g>1^\markup "P" s2 <c ef g>1^\markup "L" s2 <c ef! af>1^\markup "R" s2 <c f af!>1^\markup "P" s2 | %1
+<c f a>1^\markup "L" s2 <c e a>1^\markup "R" s2 <c e g>1 s2 \undo \omit Score.BarLine \bar "||" | %2

@@ -1,0 +1,32 @@
+[
+ {
+  "index": 296,
+  "image": "v2/media/2022/07/OMT-S3-Maj-2-e1657569450534.jpg",
+  "lyl": "v2/lilylet/images/2022/07/OMT-S3-Maj-2-e1657569450534.md",
+  "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+  "method": "omr",
+  "status": "ok",
+  "omr": "M17 quality 100%, solved 2/issue 0/fatal 0; M18 100%, 2/0/0; M19 100%, 8/0/0; M20 98.5%, 8/0/0 (one crop per melody, upscale 2)",
+  "notes": "M17 (Eb, 3/4, treble, 8 bars) and M19 (D, 3/8, treble, 16th pickup + short final bar) OMR exactly right. M18 (A, 3/4, bass): pitches right; rests written as positioned 'd,\\rest' replaced by plain r. M20 (F, 3/8, bass, 16 bars): pitches right. Every pitch checked against a staff-line grid on 5-8x crops and against a notehead detector. Stem directions left to Verovio (OMR forced \\stemUp/\\stemDown on whole lines)."
+ },
+ {
+  "index": 297,
+  "image": "v2/media/2022/07/OMT-S3-Min-4-e1657563213827.jpg",
+  "lyl": "v2/lilylet/images/2022/07/OMT-S3-Min-4-e1657563213827.md",
+  "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+  "method": "omr",
+  "status": "ok-with-notes",
+  "omr": "M21 quality 100%, solved 5/issue 0/fatal 0; M22 100%, 5/0/0; M23 98.8%, 2/0/0; M24 100%, 7/0/0 (one crop per melody, upscale 2)",
+  "notes": "OMR pitches and rhythms were right in all four; fixes: OMR keys given as relative major (F/G/C/Ab major) rewritten as d/e/a/f minor (same signatures); positioned rests (d,\\rest) replaced by r; M21 half-bar pickup \\partial 2 + 1-beat final bar kept. Verified bar by bar on gridded 5x crops. Lilylet bug visible: M23 bar 2 G#-F#-G# draws the sharp on the second G# again (original prints it once)."
+ },
+ {
+  "index": 298,
+  "image": "v2/media/2022/07/OMT-S3-2PM-3-e1657563731166.jpg",
+  "lyl": "v2/lilylet/images/2022/07/OMT-S3-2PM-3-e1657563731166.md",
+  "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+  "method": "omr",
+  "status": "ok",
+  "omr": "2-PM5 quality 100%, solved 4/issue 0/fatal 0; 2-PM6 100%, 9/0/0 (one crop per melody, upscale 2)",
+  "notes": "Two braced treble+bass parts ([staves \"{u-l}\"], 4-backslash separator). 2-PM5 (A major, 3/4, 6 bars) and 2-PM6 (D minor, 3/8, 10 bars over two systems) OMR pitches/rhythms right in both; fixes: [staves \",\"] -> braced {u-l}, 3-backslash separators -> 4, F major -> d minor, positioned rests (d,\\rest, bf'\\rest) -> r with the following note's octave mark adjusted (2-PM6 bass bar 1 r8 a, r), stray repeated \\clef at the system break dropped. The printed '2-PM5'/'2-PM6' labels left of the brace are the headings/titles, not instrument names."
+ }
+]

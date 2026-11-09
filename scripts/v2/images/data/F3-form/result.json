@@ -1,0 +1,62 @@
+[
+ {
+  "index": 163,
+  "image": "v2/media/2019/07/Example_001_AntCont-e1623950650588.png",
+  "lyl": "v2/lilylet/images/2019/07/Example_001_AntCont-e1623950650588.lyl",
+  "chapter": "04-form/03-hybrid-phrase-level-forms.md",
+  "method": "omr+hand",
+  "status": "ok-with-notes",
+  "omr": "system 1: quality 99.8%, solved 5 / issue 0 / fatal 0; system 2 (cropped, 2x): quality 98.5%, solved 3 / issue 0 / fatal 0",
+  "notes": "Phrase labels (antecedent, b.i., c.i., HC, continuation, f., (continuation), cad., PAC) as ^markup at bracket starts; bracket lines and their colours not drawn. Boxed form diagram at bottom right (antecedent b.i.+c.i. 4 mm. | continuation f.+f.+cad. 4 mm.) omitted, its content is the labels. Courtesy flat on Ab3 in bar 7 (after the A-natural of bar 6) not drawable (courtesy only after an in-bar accidental). OMR missed system 2 (whole image); cropped and re-run. OMR fixes: system 2 read as 4/4 with \\partial, staves split into 3 parts merged into one {-} part, missing staccatos bar 7-8, missing tempo/dynamic."
+ },
+ {
+  "index": 166,
+  "image": "v2/media/2019/07/Example_008_antcont-e1623950775418.png",
+  "lyl": "v2/lilylet/images/2019/07/Example_008_antcont-e1623950775418.lyl",
+  "chapter": "04-form/03-hybrid-phrase-level-forms.md",
+  "method": "omr+hand",
+  "status": "ok-with-notes",
+  "omr": "reused from #163 (same excerpt, same annotations)",
+  "notes": "Same image content and annotations as #163 (slightly different crop); same file content. Same limitations: bracket lines/colours not drawn, form diagram omitted, courtesy flat bar 7 not drawable."
+ },
+ {
+  "index": 167,
+  "image": "v2/media/2019/07/Example_009a_CBIcont-e1623951374474.png",
+  "lyl": "v2/lilylet/images/2019/07/Example_009a_CBIcont-e1623951374474.lyl",
+  "chapter": "04-form/03-hybrid-phrase-level-forms.md",
+  "method": "omr+hand",
+  "status": "ok-with-notes",
+  "omr": "quality 98.4%, solved 2 / issue 0 / fatal 0 (draft agreed with V1 Graphics/lilylet/form/haydn-XVI-35-i.lyl, used as base)",
+  "notes": "Labels b.i., compound basic idea, c.i., u., continuation, cad., PAC as ^markup at bracket starts; bracket lines/colours not drawn. Excerpt ends with a 1-beat bar (\\partial 4). lilylet bug: the slur inside the last-bar bass \\tuplet is dropped from MEI (slur fully inside a tuplet); triplet number 3 drawn though the image shows none. Grace B5 drawn slashed (lilylet graces are always acciaccaturas); image shows an unslashed grace. V1 fingerings/p dynamic removed (not in this image), sfz -> fz."
+ },
+ {
+  "index": 164,
+  "image": "v2/media/2019/07/Example_002a_compound_basic_idea-e1623951301511.png",
+  "lyl": "v2/lilylet/images/2019/07/Example_002a_compound_basic_idea-e1623951301511.lyl",
+  "chapter": "04-form/03-hybrid-phrase-level-forms.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Notes reused from #167 (pickup + mm. 1-4). Image is cut after beat 3 of bar 4: padded with a spacer (treble) / half rest (bass, printed in the image). Labels compound basic idea, b.i., c.i. as ^markup; bracket lines not drawn. Grace note drawn slashed (image unslashed)."
+ },
+ {
+  "index": 168,
+  "image": "v2/media/2019/07/Example_010_antece-e1623951152615.png",
+  "lyl": "v2/lilylet/images/2019/07/Example_010_antece-e1623951152615.lyl",
+  "chapter": "04-form/03-hybrid-phrase-level-forms.md",
+  "method": "omr+hand",
+  "status": "ok-with-notes",
+  "omr": "quality 99.8%, solved 9 / issue 0 / fatal 0",
+  "notes": "OMR pitches/rhythms all correct (checked per staff against labelled staff-line grids); fixes: 4 separate parts -> <v1-v2-va-vc> with \\\\\\\\ separators, positioned rests -> plain r, rest-padded pickup/last bar -> \\partial 4 / \\partial 2, missing Allegretto, Vn1 f, Vn2 bar 5 p, grace-note slur, final barline. Labels b.i./antecedent, c.i., HC, cadential, PAC as ^markup on Vn1 at bracket starts; bracket lines/colours not drawn. Form diagram below the score (antecedent+cadential 8 = antecedent 4 [b.i. 2, c.i. 2, HC] + cadential 4 [PAC]) omitted: same content as the labels. Image label reads cadential (caption says extended cadential)."
+ },
+ {
+  "index": 165,
+  "image": "v2/media/2019/07/Example_004a_cadential-e1623951336715.png",
+  "lyl": "v2/lilylet/images/2019/07/Example_004a_cadential-e1623951336715.lyl",
+  "chapter": "04-form/03-hybrid-phrase-level-forms.md",
+  "method": "omr+hand",
+  "status": "ok-with-notes",
+  "omr": "reused from #168 (same quartet excerpt): quality 99.8%, solved 9 / issue 0 / fatal 0",
+  "notes": "Same notes as #168. Grey shading over mm. 0-4 (to beat 2 of bar 4, all four staves) not expressible: those notes are transcribed normally. Labels cadential (Vn1 D4 bar 4) and PAC as ^markup; bracket not drawn. Bass scale degrees 3̂ 4̂ 5̂ 1̂ as an \\addlyrics lane under the cello (combining caret renders slightly offset), Bass: as _markup on the cello D4 in bar 4. Form diagram (antecedent+cadential 8, b.i./c.i./HC, cadential/PAC) omitted."
+ }
+]

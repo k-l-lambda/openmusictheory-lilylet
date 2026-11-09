@@ -1,0 +1,4 @@
+[title "A♭ major scale arranged to show the derivation of scale-degree names"]
+
+\omit Score.TimeSignature \omit Score.BarLine \clef "bass" df,,1^\markup "fifth" f^\markup "third" gf^\markup "second" af bf^\markup "second" c^\markup "third" ef^\markup "fifth" \undo \omit Score.BarLine \bar "|"
+\addlyrics { subdominant submediant subtonic tonic supertonic mediant dominant } | %1

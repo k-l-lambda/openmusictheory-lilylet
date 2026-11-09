@@ -1,0 +1,72 @@
+[
+ {
+  "index": 256,
+  "image": "v2/media/2019/05/ordered-vs-unordered-pitch-interval.png",
+  "lyl": "v2/lilylet/images/2019/05/ordered-vs-unordered-pitch-interval.lyl",
+  "chapter": "08-20th-and-21st-century-techniques/03-intervals-in-integer-notation.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "2x2 grid of examples written as 4 bars on one staff (C#4-Ab5, A5-D#5, then repeated) with the labels as _\\markup on the first note; dotted vertical divider between examples not expressible, drawn as \\bar \"||\"; no time signature (omitted)."
+ },
+ {
+  "index": 257,
+  "image": "v2/media/2019/05/Screen-Shot-2019-09-10-at-12.27.55-PM.png",
+  "lyl": "v2/lilylet/images/2019/05/Screen-Shot-2019-09-10-at-12.27.55-PM.lyl",
+  "chapter": "08-20th-and-21st-century-techniques/03-intervals-in-integer-notation.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "C#4-Ab5 (opci 7), A5-D#5 (opci 6). Clock-face diagrams below each example (circled pcs, dotted arrows, 'N semitones') not drawable; omitted. Dotted divider between the two examples drawn as \\bar \"||\"; label as _\\markup on the first note; no time signature."
+ },
+ {
+  "index": 258,
+  "image": "v2/media/2019/05/Screen-Shot-2019-09-10-at-12.36.47-PM.png",
+  "lyl": "v2/lilylet/images/2019/05/Screen-Shot-2019-09-10-at-12.36.47-PM.lyl",
+  "chapter": "08-20th-and-21st-century-techniques/03-intervals-in-integer-notation.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "C#4-Ab5 (upci 5), A5-D#5 (upci 6). Clock-face diagrams below each example (circled pcs, dotted arrows, 'N semitones') not drawable; omitted. Dotted divider between the two examples drawn as \\bar \"||\"; label as _\\markup on the first note; no time signature."
+ },
+ {
+  "index": 263,
+  "image": "v2/media/2020/01/tallying.001-e1662403759208.png",
+  "lyl": "v2/lilylet/images/2020/01/tallying.001-e1662403759208.lyl",
+  "chapter": "08-20th-and-21st-century-techniques/06-interval-class-vectors.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Only step 1 is notation: the chord E4-F#4-C5-A5, with the set label [4, 6, 9, 0] (printed to the right of the staff) as ^\\markup. Not drawable, omitted: circled step numbers 1-3, the step-2 arc diagram (4 6 9 0 with IC 2/5/4/3/3/6 arcs, coloured), the IC tally table (IC 1-6, tally marks), the arrow, and the vector <012111>."
+ },
+ {
+  "index": 265,
+  "image": "v2/media/2019/06/Bartok1.png",
+  "lyl": "v2/lilylet/images/2019/06/Bartok1.lyl",
+  "chapter": "08-20th-and-21st-century-techniques/10-analyzing-with-collections-scales-and-modes.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "4 bars (batch said 3). Mikrokosmos No. 109 opening; RH {B,C,F,Gb}, LH {D,Eb,G#,A}. Pitches/rhythms/fingerings/tempo match. lilylet: tied Eb4 (b.2-3) and G#3 (b.3-4) redraw their accidental on the tie continuation in the next bar; courtesy natural on RH B3 b.2 not drawable (no prior in-bar accidental); p printed below LH staff (original: above, between staves; ^ on dynamics ignored). Slur ends approximated: RH slur from b.2 B3 ends on b.3 B3 eighth; original long LH slur from b.1 runs to the tied Eb4 in b.3."
+ },
+ {
+  "index": 266,
+  "image": "v2/media/2019/06/Bartok2.png",
+  "lyl": "v2/lilylet/images/2019/06/Bartok2.lyl",
+  "chapter": "08-20th-and-21st-century-techniques/10-analyzing-with-collections-scales-and-modes.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "4 full bars + truncated 5th (\\partial 2; image cuts after beat 2) (batch said 3). RH under 8va (written at sounding pitch with \\ottava #1, ends after b.5 B), both hands in octaves {B,C,F,Gb} + Abb neighbour in b.4. LH clef change bass->treble after the opening half rest in b.1 (single voice on staff 2, renders correctly mid-bar). Tempo Risoluto q=96, f, tenutos, fingerings, slurs as printed. lilylet: repeated Gb in a bar redraws its flat each time (b.2, b.4; the original prints it once); 8va bracket starts on the B (original's '8' begins over the eighth rest; markup/ottava can't start on a rest)."
+ },
+ {
+  "index": 267,
+  "image": "v2/media/2019/06/Bartok3.png",
+  "lyl": "v2/lilylet/images/2019/06/Bartok3.lyl",
+  "chapter": "08-20th-and-21st-century-techniques/10-analyzing-with-collections-scales-and-modes.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Scan; pickup bar (\\partial 2: eighth rest + A-Bb-D) + 2 full 4/4 bars; hands in octaves on {A,Bb,D,Eb}. No time signature visible in the extract (\\omit, 4/4 kept for checking). ff, tenutos, slurs, fingerings (RH 1, LH 5) as printed. Courtesy naturals on A3/A2 (b.1) not drawable (no prior in-bar accidental). lilylet redraws repeated flats within a bar (Eb b.2, Bb/Eb b.3). Last LH note b.3 read as Bb2 (scan slightly blurry; octave with RH Bb3)."
+ }
+]

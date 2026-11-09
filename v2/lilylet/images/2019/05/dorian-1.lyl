@@ -1,0 +1,10 @@
+[title "C natural minor and C dorian"]
+[staves "-"]
+
+\omit Score.TimeSignature \time 8/1 \key c \minor \clef "treble" c1^\markup "natural minor"^\markup "1̂" d^\markup "2̂" ef^\markup "3̂" f^\markup "4̂" g^\markup "5̂" af^\markup "6̂" bf^\markup "7̂" c^\markup "1̂" \\\\
+\key c \minor \clef "treble" <c ef g>1 <d f af> <ef g bf> <f af c> <g bf d> <af c ef> <bf d f> <c ef g> \bar "||"
+\addlyrics { i ii° III iv v VI VII i } | %1
+
+c1^\markup "dorian"^\markup "1̂" d^\markup "2̂" ef^\markup "3̂" f^\markup "4̂" g^\markup "5̂" a^\markup "↑6̂" bf^\markup "7̂" c^\markup "1̂" \\\\
+<c ef g>1 <d f a> <ef g bf> <f a! c> <g bf d> <a! c ef> <bf d f> <c ef g> \bar "||"
+\addlyrics { i ii III IV v vi° VII i } | %2

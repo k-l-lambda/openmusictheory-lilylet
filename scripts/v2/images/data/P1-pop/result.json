@@ -1,0 +1,62 @@
+[
+ {
+  "index": 241,
+  "image": "v2/media/2019/05/modal_harmonic_function.png",
+  "lyl": "v2/lilylet/images/2019/05/modal_harmonic_function.md",
+  "chapter": "07-popular-music/13-modal-schemas.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "3 systems (tonic/subdominant/dominant) as 3 lyl blocks in a .md; unmetered (hidden time sig, bars sized by modal row), diatonic row padded with spacers; staves 'd-m' (barlines through, no bracket). Boxed section headings became block titles. Roman numerals as lanes; 'II#' superscript sharp drawn inline. Render adds a courtesy natural on F in bII after II# (dominant bar 4) that the original omits."
+ },
+ {
+  "index": 242,
+  "image": "v2/media/2019/05/mixolydian-1.png",
+  "lyl": "v2/lilylet/images/2019/05/mixolydian-1.lyl",
+  "chapter": "07-popular-music/13-modal-schemas.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Two side-by-side examples written as 2 bars of an unmetered 8/1 (whole notes stand in for the stemless filled noteheads, which can't be drawn). Scale degrees with carets as markups above the notes (caret drawn offset/italic); boxed 'C major'/'C mixolydian' labels as plain markup (no box). Blue colouring of 7̂/↓7̂ and the chord tones it touches (iii, V, vii° / iii°, v, ♭VII) can't be drawn."
+ },
+ {
+  "index": 243,
+  "image": "v2/media/2019/05/tired_of_waiting.png",
+  "lyl": "v2/lilylet/images/2019/05/tired_of_waiting.lyl",
+  "chapter": "07-popular-music/13-modal-schemas.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Voice (treble_8) + bass, separate staves. Bass measure-repeat signs (bars 2-4) written out as the bar-1 pattern. Boxed blue callouts ('Melody could be major...', '...but F♮ here confirms mixolydian') as plain markup; box, colour and arrow not drawn. Chord symbols via \\chords; RN lane 'G: I / ♭VII' under bass bar 1 only, as printed."
+ },
+ {
+  "index": 244,
+  "image": "v2/media/2019/05/somebody_that_I_used_to_know-2.png",
+  "lyl": "v2/lilylet/images/2019/05/somebody_that_I_used_to_know-2.md",
+  "chapter": "07-popular-music/13-modal-schemas.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Intro (xylophone+bass) and Chorus (voice+bass) as 2 lyl blocks; boxed 'Intro (0:04)'/'Chorus (1:32)' as headings. Chorus bar 1: the two x-noteheads ('But you', spoken) drawn as normal noteheads at A3 (x noteheads not expressible). Shuttle brackets (solid on first unit, dashed on repeats) not drawn; label as _\\markup on the first bass note; box/colour lost. Chorus last bar \\partial 4. as printed."
+ },
+ {
+  "index": 245,
+  "image": "v2/media/2019/05/lotr.png",
+  "lyl": "v2/lilylet/images/2019/05/lotr.lyl",
+  "chapter": "07-popular-music/13-modal-schemas.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Grand staff, 6/8, 5 bars; chord symbols via \\chords, RN lane under bass (♭III⁶₄ with Unicode super/subscripts). Blue colouring of the cadence (bars 4-5 F G A / ♭VI ♭VII I) not drawn; boxed 'aeolian cadence' label as plain markup on the F chord. Bar 2: repeated-accidental bug draws a second sharp on the tied C#4 (original has none)."
+ },
+ {
+  "index": 246,
+  "image": "v2/media/2019/05/I-dont-like-you.png",
+  "lyl": "v2/lilylet/images/2019/05/I-dont-like-you.lyl",
+  "chapter": "07-popular-music/13-modal-schemas.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Grand staff, G minor 4/4, 4 bars; chord symbols, lyrics and RN lane as printed (bar 4 'VII' without flat, as in the original). Bass rhythm Eb8. Eb8. Eb8 r8 D8 D8 D8. Bar 1→2 F–F curve with two syllables ('dark – ness') written as a slur, bar 3→4 as a tie. Boxed blue callout and arrow as plain markup above bar 1's F4; 'lament schema' bracket (solid bars 2-3, dashed bar 4 on) not drawn, label as _\\markup on bar 2's bass; blue colouring of the F notes not drawn. Render warns about cross-bar slurs ('not encoded in the measure of its start') but draws them."
+ }
+]

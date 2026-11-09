@@ -1,0 +1,32 @@
+[
+ {
+  "index": 286,
+  "image": "v2/media/2022/07/OMT-S1-Maj-3-e1657114644431.jpg",
+  "lyl": "v2/lilylet/images/2022/07/OMT-S1-Maj-3-e1657114644431.md",
+  "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+  "method": "omr",
+  "status": "ok",
+  "omr": "M1 quality 97.1%, solved 0/issue 0/fatal 0; M2 100%, 0/0/0; M3 100%, 6/0/0; M4 100%, 1/0/0 (each staff cropped, 3x upscale)",
+  "notes": "4 melodies, one ```lyl block each. M1 Bb major bass 2/4 (9 bars), M2 C major bass 2/4 (8), M3 Eb major treble 2/8 (8), M4 D major treble 2/8 (8). OMR pitches and rhythms were all correct (checked with a notehead-centroid staff-step script and by eye); I only removed the stem directions and set [auto-beam \"off\"] for the 2/8 melodies (the original has flagged, unbeamed eighths). Labels M1-M4 are rendered as titles, not as instrument names in the margin."
+ },
+ {
+  "index": 287,
+  "image": "v2/media/2022/07/OMT-S1-Min-2-e1657116759903.jpg",
+  "lyl": "v2/lilylet/images/2022/07/OMT-S1-Min-2-e1657116759903.md",
+  "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+  "method": "omr",
+  "status": "ok-with-notes",
+  "omr": "M5 quality 100%, solved 0/issue 0/fatal 0; M6 97.1%, 0/0/0; M7 100%, 6/0/0; M8 100%, 2/0/0 (each staff cropped, 3x upscale)",
+  "notes": "4 forms of one D minor melody (9 bars each): M5 natural (bass 2/4), M6 melodic (treble 2/4; B natural and C# ascending in bar 4), M7 raised 6/7 both ways (bass 2/8), M8 harmonic (treble 2/8). OMR pitches were correct except that it read M8 bar 4 (b)Bb as B natural (b8 for bf8); fixed. The parenthesised cautionary flats in M8 bars 2 and 4 can't be drawn (no parenthesised cautionary accidental); the Bb is right and comes from the key signature. Stem directions removed; [auto-beam \"off\"] for 2/8."
+ },
+ {
+  "index": 288,
+  "image": "v2/media/2022/07/OMT-S1-2PM-e1657120594452.jpg",
+  "lyl": "v2/lilylet/images/2022/07/OMT-S1-2PM-e1657120594452.md",
+  "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+  "method": "omr",
+  "status": "ok-with-notes",
+  "omr": "2-PM1 quality 100%, solved 2/issue 0/fatal 0; 2-PM2 97.6%, 8/0/0 (each system cropped, 3x upscale)",
+  "notes": "2 two-part melodies, treble+bass parts (4-backslash separator), [staves \"{u-l}\"] brace with barlines through. 2-PM1 C major 2/4, 8 bars; 2-PM2 G minor (2 flats) 2/8, 8 bars. OMR pitches were correct, except that it wrote bass bar 3 as eff (Eb with a parenthesised flat in the original); fixed to ef. Braces were added by hand. The cautionary (b) on bass bar 3 Eb can't be drawn. A lilylet bug redraws the sharp on the second F#3 of bass bar 7 (the original shows it once). The 2-PM1/2-PM2 margin labels are rendered as titles."
+ }
+]

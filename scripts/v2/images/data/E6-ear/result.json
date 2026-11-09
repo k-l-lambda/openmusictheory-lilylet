@@ -1,0 +1,32 @@
+[
+ {
+  "index": 311,
+  "image": "v2/media/2022/07/OMT-S6-Maj-2-1-e1659022418621.jpg",
+  "lyl": "v2/lilylet/images/2022/07/OMT-S6-Maj-2-1-e1659022418621.md",
+  "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+  "method": "omr",
+  "status": "ok",
+  "omr": "M41 quality 100%, solved 0/issue 0/fatal 0; M42 99.2%, 9/0/0; M43 100%, 3/0/0; M44 100%, 6/0/0",
+  "notes": "4 melodies M41 (G, 2/4), M42 (Eb, 4/8, 3/16 pickup), M43 (Ab, bass, 3/4, quarter pickup), M44 (C# major, bass, C). Pitches all correct from OMR (checked with a notehead detector + grid). Fixes: M42 OMR dropped every augmentation dot (bars 1,3,4,5,8: ef8. f16 etc.), missed many staccatos/tenutos, misread bar 8 rhythm and final bar; final bar is 5/16 (no single \\partial duration expresses it: \\partial 4. with a trailing s16 spacer). M41 cresc hairpin extended to the f, staccato on bar 7 D4 added; M43 OK; M44 last-bar rest written as r, dim. hairpin end added. Hairpins: added explicit \\! ends (M43 dim to the final p, M44 bar 6 cres) because of a lilylet hairpin-carry bug (see M47 notes in row 312)."
+ },
+ {
+  "index": 312,
+  "image": "v2/media/2022/07/OMT-S6-Min-2-e1658950414559.jpg",
+  "lyl": "v2/lilylet/images/2022/07/OMT-S6-Min-2-e1658950414559.md",
+  "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+  "method": "omr",
+  "status": "ok-with-notes",
+  "omr": "M45 quality 100%, solved 5/issue 0/fatal 0; M46 100%, 8/0/0; M47 99.7%, 1/0/0; M48 100%, 9/0/0",
+  "notes": "4 melodies M45 (E minor, bass, 4/8), M46 (F# minor, 3/8), M47 (F minor, 16 bars, 3/4), M48 (D minor, bass, 4/4). OMR read every key as its relative major (G/A/Ab/F); spelling was already key-independent so pitches were right, keys corrected. OMR fixes: M45 bars 5-6 fake tuplets (\\tuplet 3/2, 5/4) rewritten (E F# G. B / A B C16 B A), spurious staccato on B2 removed, 'cresc.' text added as markup, slurs split into 1-4 and 5-8; M46 dropped dots (bar 4 C#8., bar 8 G#8.), missing staccatos, dim/cres hairpins placed; M47 hairpins (cres 1-2, dim 3-4, cres 7-8, dim 11-12), slur E5-Eb5 bar 7-8 and tie F4 bars 15-16 added; M48 staccato on bar 9 D4, hairpins. lilylet hairpin bug: after one hairpin crosses a barline its carry state is never cleared, so a later cross-barline hairpin is cut at the end of its first bar and a ghost copy of the first hairpin is drawn to the later end; and \\! always closes a cres, so it closes that stale one instead of an in-bar dim. Workaround: at most one cross-barline hairpin per melody; shortened ones: M47 cres bar 1 (orig. bars 1-2), dim bar 3 (orig. 3-4), dim bar 11 (orig. 11-12); M48 cres ends at the last note of bar 4 (orig. to the f in bar 5); M46 cres ends at the end of bar 7. M48 bar 8: second C# redraws its sharp (known repeated-accidental bug)."
+ },
+ {
+  "index": 313,
+  "image": "v2/media/2022/07/OMT-S6-2PM-2-1-e1659022671424.jpg",
+  "lyl": "v2/lilylet/images/2022/07/OMT-S6-2PM-2-1-e1659022671424.md",
+  "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+  "method": "omr",
+  "status": "ok-with-notes",
+  "omr": "each staff cropped and OMR'd alone: 2-PM11 treble 100%, solved 4/issue 0/fatal 0; bass 100%, 4/0/0; 2-PM12 line 1 treble 98.5%, 5/0/0; bass 98.5%, 4/0/0; line 2 treble 100%, 4/0/0; bass 100%, 4/0/0",
+  "notes": "2-PM11 (C major, 4/8) and 2-PM12 (Bb minor, C, 3/8 pickup), each one [staves \"{-}\"] part pair (treble + bass). Clefs/keys right per staff crop; OMR read 2-PM12 as Db major (key set to Bb minor: ends on Bb with A naturals). OMR fixes: 2-PM11 fake \\partial in treble bar 4 / bass bar 1, dropped dots (treble bar 3 A8., bar 4 D8.; bass bar 1 C8.), beaming, missing slur starts, 'cresc.' markup in both staves; 2-PM12 octave of the treble pickup, many missing staccatos and hairpins (treble: cres/dim per bar in bars 1-4, cres bars 5-6 to f; bass: cres 1-2, dim 4, cres 5-6 to f). Last bar is 5/8 (3/8 pickup): written as \\partial 2. with a trailing s8 spacer in each staff. Hairpin-carry bug workaround: bass cres bars 1-2 shortened to bar 1 so the bars 5-6 cres can cross the barline."
+ }
+]

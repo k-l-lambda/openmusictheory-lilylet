@@ -1,0 +1,4 @@
+[title "ASPN octave designations: octaves of C (C0–C9)"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "bass" c,,,,4 c' c' c' \clef "treble" c' c' c' c' c' c' \undo \omit Score.BarLine \bar "|"
+\addlyrics { C0 C1 C2 C3 C4 C5 C6 C7 C8 C9 } | %1

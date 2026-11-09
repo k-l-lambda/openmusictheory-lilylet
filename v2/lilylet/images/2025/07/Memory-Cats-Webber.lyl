@@ -1,0 +1,20 @@
+[title "Memory, reprise excerpt"]
+[composer "Andrew Lloyd Webber"]
+
+\key bf \major \time 12/8 \clef "treble" bf'4. bf~ bf8[ a bf] c8.[ bf16 g8]
+\addlyrics { Mem -- ory, _ turn your face to the } | %1
+
+bf'4. bf~ bf8[ a bf] c8.[ bf16 f8]
+\addlyrics { moon light, _ let your mem -- o -- ry } | %2
+
+g'4. g~ g8[ ef f] g8.[ f16 ef8]
+\addlyrics { lead you, _ op -- en up en -- ter } | %3
+
+d4.~ d4 r8 r4. r8 d[ f]
+\addlyrics { in. _ If you } | %4
+
+f4. c4 d8 \tuplet 2/3 { ef8[ f] } \tuplet 2/3 { g8[ a] }
+\addlyrics { find there the mean -- ing of what } | %5
+
+bf'8[ a g] f4. r4. r4. \bar "|."
+\addlyrics { hap -- pi ness is... } | %6

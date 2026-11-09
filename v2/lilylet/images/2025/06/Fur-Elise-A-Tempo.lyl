@@ -1,0 +1,12 @@
+[title "Für Elise (excerpt): poco rit. and a tempo"]
+[composer "Ludwig van Beethoven"]
+[staves "{-}"]
+
+\omit Score.TimeSignature \time 3/8 \staff "1" \clef "treble" \stemDown e'8. b16([ e-5 ds] \\
+\staff "2" \clef "bass" R4. | %1
+\staff "1" \stemDown e'8.) b16-2([ e-5)_\markup "dim. poco rit."] r16 \\
+\staff "2" r4 r16 \clef "treble" ds'16-3( | %2
+\staff "1" r16 \stemDown ds'([ e)] r r ds-4\pp( \\
+\staff "2" e'16) r r ds([ e)] r | %3
+\staff "1" \stemDown e'16^\markup "a tempo"\<[ ds e\! b\> d c\!]) \\
+\staff "2" R4. \clef "bass" | %4

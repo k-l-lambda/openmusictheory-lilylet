@@ -1,0 +1,24 @@
+[title "Love Story, excerpt"]
+[composer "Taylor Swift"]
+[staves "s,vn"]
+[instrument-s "Soprano"]
+[instrument-vn "Violin"]
+
+\key e \major \numericTimeSignature \time 4/4 \clef "treble" R1 \\\\
+\clef "treble" e'4 ds cs b | %1
+
+r2 r4 r8 b8
+\addlyrics { Cause' } \\\\
+a'4 gs fs e | %2
+
+e8[ e] e4 e r8 e
+\addlyrics { we were both young when } \\\\
+R1 | %3
+
+ds8 e4 fs2 e8~
+\addlyrics { I first saw you. } \\\\
+R1 | %4
+
+e1
+\addlyrics { _ } \\\\
+R1 | %5

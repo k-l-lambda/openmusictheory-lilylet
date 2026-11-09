@@ -1,0 +1,32 @@
+[
+ {
+  "index": 291,
+  "image": "v2/media/2022/07/OMT-S2-Maj-2-e1657135052359.jpg",
+  "lyl": "v2/lilylet/images/2022/07/OMT-S2-Maj-2-e1657135052359.md",
+  "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+  "method": "omr",
+  "status": "ok",
+  "omr": "M9 quality 100%, solved 3/issue 0/fatal 0; M10 100%, 3/0/0; M11 100%, 4/0/0; M12 100%, 8/0/0 (each melody cropped, upscale 3)",
+  "notes": "4 melodies as 4 lyl blocks in a .md (M9 E major 4/4, 4 bars; M10 G major common time, 8 bars; M11 Bb major 4/8 bass clef, 4 bars; M12 Ab major 4/8 bass clef, 8 bars). OMR pitches and rhythms all correct, checked against an automatic notehead-to-staff-line reading and enlarged crops; cleanup only (dropped per-bar key/time repeats and stem directions; restored 16th beaming in pairs as printed). Only M10 uses the C symbol; the others print numeric time signatures. Melody labels M9-M12 are block titles. Verovio's system breaks differ from the original's."
+ },
+ {
+  "index": 292,
+  "image": "v2/media/2022/07/OMT-S2-Min-3-e1657202939938.jpg",
+  "lyl": "v2/lilylet/images/2022/07/OMT-S2-Min-3-e1657202939938.md",
+  "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+  "method": "omr",
+  "status": "ok",
+  "omr": "M13 quality 100%, solved 2/issue 0/fatal 0; M14 100%, 6/0/0; M15 100%, 4/0/0; M16 100%, 7/0/0 (each melody cropped, upscale 3)",
+  "notes": "4 melodies as 4 lyl blocks in a .md (M13 B minor 4/4 treble, 4 bars; M14 E minor common time bass, 8 bars; M15 C minor 4/8 bass, 4 bars; M16 F minor 4/8 treble with eighth rests, 8 bars). OMR pitches, rhythms, rests and accidentals (A#/G#, D#, B natural, D/E natural) all correct, checked against a notehead-to-staff-line reading and enlarged crops; only per-bar key/time repeats and stem directions dropped. OMR key signatures were relative majors (D/G/Eb/Ab); written as the minor keys, same signatures. Only M14 uses the C symbol. Verovio's system breaks differ from the original's."
+ },
+ {
+  "index": 293,
+  "image": "v2/media/2022/07/OMT-S2-2PM-1-e1657304186640.jpg",
+  "lyl": "v2/lilylet/images/2022/07/OMT-S2-2PM-1-e1657304186640.md",
+  "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+  "method": "omr+hand",
+  "status": "ok-with-notes",
+  "omr": "2-PM3 quality 100%, solved 4/issue 0/fatal 0; 2-PM4 98.4%, solved 9/issue 0/fatal 0 (each melody cropped, upscale 3)",
+  "notes": "2 two-part melodies as 2 lyl blocks in a .md, each two parts (treble + bass, separated by \\\\\\\\) under [staves \"{-}\"] (brace, barlines through both staves as printed). 2-PM3: D major 4/4, 4 bars. 2-PM4: G minor 4/8, 8 bars. OMR lost both key signatures (read as C major) and both clefs; 2-PM3's bass was read in treble clef (pitches a third high). 2-PM4's lower staff came out as R2 rests in bars 1-8, with the bass merged into bogus bars 9-12 (fake tuplets, odd spacers). So the 2-PM3 bass and the whole 2-PM4 bass were rewritten by hand; the treble lines were OMR-correct apart from key spelling. Pitches checked against a notehead-to-staff-line reading. lilylet bug visible: a repeated F# within a bar gets its sharp printed again (2-PM4 bass bars 2, 4, 6, last note; the original prints one sharp per bar). Verovio's system breaks differ from the original's."
+ }
+]

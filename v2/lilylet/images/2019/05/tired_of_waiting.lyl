@@ -1,0 +1,22 @@
+[title "Tired of Waiting for You"]
+[composer "The Kinks (Ray Davies)"]
+[staves "voice,bass"]
+[instrument-voice "Voice"]
+[instrument-bass "Bass"]
+
+\key g \major \numericTimeSignature \time 4/4 \clef "treble_8" g'4.^\markup "Melody could be major..." \chords "G" a8~ a4 \chords "F" r4
+\addlyrics { So tired, __ _ } \\\\
+\key g \major \clef "bass" g,4. g8 f4. f8
+\addlyrics { "G: I" _ ♭VII _ } | %1
+
+g'4 \chords "G" a8[ b]~ b[ \chords "F" b] r4
+\addlyrics { tired of wai -- _ ting, } \\\\
+g,4. g8 f4. f8 | %2
+
+b'4. \chords "G" c8 d \chords "F" d4 e8
+\addlyrics { tired of wai -- ting for } \\\\
+g,4. g8 f4. f8 | %3
+
+e'4( \chords "G" f8^\markup "...but F♮ here confirms mixolydian"[ e] d4) \chords "F" r4 \bar "||"
+\addlyrics { you __ _ _ _ } \\\\
+g,4. g8 f4. f8 \bar "||" | %4

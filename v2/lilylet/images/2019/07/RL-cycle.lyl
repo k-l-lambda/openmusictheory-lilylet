@@ -1,0 +1,3 @@
+[title "The RL cycle"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" <c e g>1^\markup "R" s2 <c e a>1^\markup "L" s2 <c f a>1^\markup "R" s2 <d f a>1^\markup "L" s2 <d f bf>1^\markup "R" s2 <d g bf!>1^\markup "L" s2 <ef g bf!>1^\markup "R" s2 <ef! g c>1^\markup "L" s2 <ef! af c>1^\markup "R" s2 <f af! c>1^\markup "etc." s2 | %1

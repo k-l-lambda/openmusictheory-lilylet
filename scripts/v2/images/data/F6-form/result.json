@@ -1,0 +1,32 @@
+[
+ {
+  "index": 178,
+  "image": "v2/media/2019/07/Slide12-13.png",
+  "lyl": "v2/lilylet/images/2019/07/Slide12-13.lyl",
+  "chapter": "04-form/04-expansion-and-contraction.md",
+  "method": "omr+hand",
+  "status": "ok-with-notes",
+  "omr": "sys1 quality 99.8%, solved 5 / issue 0 / fatal 0; sys2 quality 97.1%, solved 5 / issue 0 / fatal 0; sys3 (1-beat fragment) failed: regulation error / no data",
+  "notes": "Pickup numbered m1 so the cadence bass E-F-Bb-Eb falls on mm. 8-11 as in the chapter text; last bar is the cut-off first beat of m11 (\\partial 4, written by hand). Form brackets (prefix, c.b.i., b.i., c.i., (c.b.i.), cad., u., (cad.)/(u.)) as markup on the note where each starts; bracket lines, colours and the PAC box not drawn; the form diagram at the bottom of the slide omitted. Inner slur under the voice triplet in m10 omitted (nested inside the long slur m10-11). OMR fixes: sys2 read as 4/4 with merged/duplicated voices and fake tuplets in mm. 9-10, rewritten; piano parts merged into one {-} part; tempo, dolce, p, lyrics (2 lanes) added. lilylet bug: m11 RH cross-staff chord (\\staff \"2\" inside the piano part) renders in the treble staff, because cross-staff staff numbers are not offset by the preceding voice part. Stacked labels on one note: the first written markup is drawn nearest the staff, so they are written bottom-up."
+ },
+ {
+  "index": 179,
+  "image": "v2/media/2019/07/Example_010_Chaminade_Presents-150x150.png",
+  "lyl": "v2/lilylet/images/2019/07/Example_010_Chaminade_Presents-150x150.lyl",
+  "chapter": "04-form/04-expansion-and-contraction.md",
+  "method": "omr+hand",
+  "status": "ok-with-notes",
+  "omr": "sys1 quality 96.2%, solved 4 / issue 0 / fatal 0; sys2 quality 90.0%, solved 5 / issue 0 / fatal 0",
+  "notes": "Transcribed from the full-size file (9 bars, 3/4). Uncertain readings: m2 RH 7-note chord read as C#-E-G (natural on E4, no accidental seen on E5; could be Eb5); m3 RH chord D4 F4 Ab4 D5 Ab5 Bb5 D6 (blurry cluster, OMR reading kept); m7 RH beat 2 middle note G5 (or Ab5). Small arrow/accent marks on the LH stems in mm. 1-3 and above the RH chords in m6 not expressed. Voice m4: the small tie between the two Eb eighths written as a slur from the first Eb (lyric Qu'el-le). Form labels ((ant.), HC, cons./(cons.), b.i., c.i., PAC, suffix (p.c.e.)) as markup; bracket lines, coloured shading and the form diagram on the right omitted. OMR fixes: read as 4/4 with fake tuplets in m3 and m6, garbled m7 (voice and LH), m9 LH upper chord missing; piano parts merged into one {-} part; clef changes in LH mm. 7-9, 8va (mm. 8-9), cresc., pp dolce, f and the lyrics added by hand. Stacked labels on one note: the first written markup is drawn nearest the staff, so they are written bottom-up."
+ },
+ {
+  "index": 180,
+  "image": "v2/media/2019/07/Example_011_codetta_Beethoven_2_1-e1623956414121.png",
+  "lyl": "v2/lilylet/images/2019/07/Example_011_codetta_Beethoven_2_1-e1623956414121.lyl",
+  "chapter": "04-form/04-expansion-and-contraction.md",
+  "method": "omr+hand",
+  "status": "ok-with-notes",
+  "omr": "sys1 quality 85.9%, solved 6 / issue 0 / fatal 0; sys2 quality 97.6%, solved 7 / issue 0 / fatal 0",
+  "notes": "mm. 36-48, numbered %36-%48; time signature hidden (excerpt starts mid-piece), last bar \\partial 2. before the repeat. RH crosses into the bass staff in mm. 39-41 (\\staff \"2\" inside the RH voice). Labels phrase, cad., cad., PAC, suffix (codetta), u. x3 as markup; bracket lines, the dashed unit dividers, the coloured highlighting, the circled bar number 45 and the form diagram below the staves are omitted. Some fingerings above m37 are partly hidden behind the bracket in the original; the visible ones are written. m40 LH double fingering (2-1 substitution over 2 3 4 5) written as one row 1 2 3 5. Uncertain: m47 RH chord read as Db4 Eb4 G4 Db5 G5 Eb6 (displaced noteheads, blurry). OMR fixes: fake tuplets in m39-40, a wrong RH note in m37 (G6 for F6), a dropped beat-1 rest in m41, the clef changes in mm. 45-46 moved to the right voice, staves merged into one {-} part; sf in mm. 43 and 45, ff > p hairpin added. lilylet bug: the slur from m37 (RH, staff 1) to m41 (same voice, now \\staff \"2\") is dropped in MEI; any slur whose start and end notes sit on different staves within one voice is lost (repro: [staves \"{-}\"] \\staff \"1\" c'4( d | e4 \\staff \"2\" c, | c4) r -> 0 slurs)."
+ }
+]

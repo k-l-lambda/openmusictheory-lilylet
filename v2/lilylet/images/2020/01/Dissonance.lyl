@@ -1,0 +1,14 @@
+[title "Dissonance: third-species dissonance types"]
+
+\omit Score.TimeSignature \time 4/4 \key c \major \clef "treble" d'4^\markup "Passing" c b a
+\addlyrics { _ P _ _ } \\
+d1 \bar "|." | %1
+b'4^\markup "Neighbour" c b a
+\addlyrics { _ N _ _ } \\
+d1 \bar "|." | %2
+c'4^\markup "Double Neighbour" d b c
+\addlyrics { _ N N _ } \\
+c1 \bar "|." | %3
+d'4^\markup "Nota Cambiata" c a b
+\addlyrics { _ * _ _ } \\
+d1 \bar "|." | %4

@@ -1,0 +1,51 @@
+[title "Common chords of distantly related keys: A major, A minor and C major"]
+[staves ",,"]
+
+\omit Score.TimeSignature \omit Score.BarLine \time 1/4 \key a \major \clef "treble" <a' cs e>4 \chords "A"
+\addlyrics { I } \\\\
+\clef "treble" <a' c e>4 \chords "Am"
+\addlyrics { i } \\\\
+\clef "treble" <c e g>4^\markup "7 chords in common with row 2, 0 with row 1" \chords "C"
+\addlyrics { I } | %1
+
+<b' d fs>4 \chords "Bm"
+\addlyrics { ii } \\\\
+<b' d f>4 \chords "Bdim"
+\addlyrics { ii° } \\\\
+<d f a>4 \chords "Dm"
+\addlyrics { ii } | %2
+
+<cs' e gs>4 \chords "C♯m"
+\addlyrics { iii } \\\\
+<c' e g>4 \chords "C"
+\addlyrics { ♭III } \\\\
+<e g b>4 \chords "Em"
+\addlyrics { iii } | %3
+
+<d' fs a>4 \chords "D"
+\addlyrics { IV } \\\\
+<d' f a>4 \chords "Dm"
+\addlyrics { iv } \\\\
+<f a c>4 \chords "F"
+\addlyrics { IV } | %4
+
+<e' gs b>4 \chords "E"
+\addlyrics { V } \\\\
+<e' g b>4 \chords "Em"
+\addlyrics { v } \\\\
+<g' b d>4 \chords "G"
+\addlyrics { V } | %5
+
+<fs' a cs>4 \chords "F♯m"
+\addlyrics { vi } \\\\
+<f' a c>4 \chords "F"
+\addlyrics { ♭VI } \\\\
+<a' c e>4 \chords "Am"
+\addlyrics { vi } | %6
+
+<gs'' b d>4 \chords "G♯dim"
+\addlyrics { vii° } \\\\
+<g'' b d>4 \chords "G"
+\addlyrics { ♭VII } \\\\
+<b' d f>4 \chords "Bdim"
+\addlyrics { vii° } | %7

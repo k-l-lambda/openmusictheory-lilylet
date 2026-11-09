@@ -1,0 +1,5 @@
+[title "The three basic neo-Riemannian operations: R, P, and L"]
+
+\omit Score.TimeSignature \time 3/1 \key c \major \clef "treble" <c e g>1^\markup "Relative (R)" s1 <c e a>1 \bar "||" | %1
+<c e g>1^\markup "Parallel (P)" s1 <c ef g>1 \bar "||" | %2
+<c e g>1^\markup "Leading-Tone Exchange (L)" s1 <b e g>1 \bar "||" | %3

@@ -1,0 +1,5 @@
+[title "Articulation: tenuto"]
+
+\key bf \major \time 4/4 \omit Score.TimeSignature \clef "bass" bf4-- a-- g-- f-- | %1
+
+ef,4-- f-- g-- a-- \bar "|" | %2

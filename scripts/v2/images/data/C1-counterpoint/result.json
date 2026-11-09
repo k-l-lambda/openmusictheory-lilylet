@@ -1,0 +1,62 @@
+[
+ {
+  "index": 137,
+  "image": "v2/media/2019/05/Consonance.png",
+  "lyl": "v2/lilylet/images/2019/05/Consonance.lyl",
+  "chapter": "02-counterpoint/01-species-counterpoint.md",
+  "method": "hand",
+  "status": "ok",
+  "omr": null,
+  "notes": "13 whole-note dyads, interval names in one lane, group headings as markup; barline types (|., ||) follow the image."
+ },
+ {
+  "index": 138,
+  "image": "v2/media/2019/05/Outlining-1.png",
+  "lyl": "v2/lilylet/images/2019/05/Outlining-1.lyl",
+  "chapter": "02-counterpoint/01-species-counterpoint.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "4 examples on one staff, separated by |. as in the image; headings as ^markup. Outlining brackets under the staff not drawable: approximated as _markup '[' at the start note and ']' (or '] X') at the end note."
+ },
+ {
+  "index": 139,
+  "image": "v2/media/2020/01/consonant.png",
+  "lyl": "v2/lilylet/images/2020/01/consonant.md",
+  "chapter": "02-counterpoint/03-second-species-counterpoint.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "One ```lyl block per labelled type (a-g); each block holds the image's two side-by-side examples (CP above / below CF) as one bracketed 2-staff system separated by ||. Pitches read by notehead detection against measured staff lines. Interval labels are in a lane under the half-note voice; in the right-hand examples (CP in bass) they therefore render below the bass staff instead of between the staves. Heading boxes become block titles. Only example a shows 4/4 (numeric), as in the image."
+ },
+ {
+  "index": 140,
+  "image": "v2/media/2020/01/Dissonance.png",
+  "lyl": "v2/lilylet/images/2020/01/Dissonance.lyl",
+  "chapter": "02-counterpoint/04-third-species-counterpoint.md",
+  "method": "hand",
+  "status": "ok",
+  "omr": null,
+  "notes": "4 one-bar examples (quarters over a whole-note CF, two voices on one staff), type names as ^markup, P/N/* in a lane; image has 4 bars (batch said 8). Bold 'Dissonance' heading used in the title."
+ },
+ {
+  "index": 143,
+  "image": "v2/media/2020/07/Generic_Embellishing_Tone_Layout.png",
+  "lyl": "v2/lilylet/images/2020/07/Generic_Embellishing_Tone_Layout.lyl",
+  "chapter": "03-diatonic-harmony/04-embellishing-tones.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Original is a one-line percussion staff (rhythm-only): lilylet has no percussion clef / 1-line staff, so written as three B4 quarters (stems up) on a treble staff in 3/4. Boxed labels become plain markup; arrows, boxes and the blue colour of the middle note are not drawable."
+ },
+ {
+  "index": 145,
+  "image": "v2/media/2019/05/resolving.png",
+  "lyl": "v2/lilylet/images/2019/05/resolving.lyl",
+  "chapter": "03-diatonic-harmony/15-tonicization.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Grand staff, 2 bars (batch said 3): V7/V (D3 | C5 D5 F#5) - V7 (G3 | B4 D5 F5) - I (C3 | G4 C5 E5); RN lane under the bass. The boxed 'secondary leading tone' callout is ^markup; the box, arrow and blue colouring of F#5 -> F5 -> E5 are not drawable."
+ }
+]

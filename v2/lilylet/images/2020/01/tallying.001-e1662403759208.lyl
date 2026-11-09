@@ -1,0 +1,3 @@
+[title "Tallying interval classes: [4, 6, 9, 0]"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \time 4/4 \clef "treble" <e fs c' a'>1^\markup "[4, 6, 9, 0]" | %1

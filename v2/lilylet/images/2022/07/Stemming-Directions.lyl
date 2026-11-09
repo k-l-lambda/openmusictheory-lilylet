@@ -1,0 +1,3 @@
+[title "Correct stemming directions"]
+
+\omit Score.TimeSignature \omit Score.BarLine \clef "treble" f'4 e d c b a g f | %1

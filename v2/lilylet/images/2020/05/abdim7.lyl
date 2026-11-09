@@ -1,0 +1,8 @@
+[title "Spelling an A-flat fully diminished seventh chord in six steps"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "bass" af,1^\markup "1" | %1
+<af, c e g>1^\markup "2" \bar "||" | %2
+\key af \major ^\markup "3" s1 \bar "||" | %3
+\key c \major <af, c ef g>1^\markup "4" | %4
+<af, cf eff g>1^\markup "5" | %5
+<af, cf eff gff>1^\markup "6" \bar "|" | %6

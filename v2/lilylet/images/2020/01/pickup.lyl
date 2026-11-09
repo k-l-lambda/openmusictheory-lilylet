@@ -1,0 +1,9 @@
+[title "An anacrusis"]
+
+\numericTimeSignature \time 4/4 \clef "treble" \partial 4 \stemUp f'4
+\addlyrics { 4 } | %1
+\stemUp f'4 f f f
+\addlyrics { 1 2 3 4 } | %2
+\partial 2. \stemUp f'2 f4 \bar "|." 
+\addlyrics { 1 3 } \\
+s4 s4 \stemDown _\markup "(2)" s4 | %3

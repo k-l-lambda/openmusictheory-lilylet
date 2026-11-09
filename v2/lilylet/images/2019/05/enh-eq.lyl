@@ -1,0 +1,4 @@
+[title "Enharmonic equivalence to identify a difficult interval"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "bass" \stemUp af2 gs \\
+\stemDown eff,2 d \bar "|" | %1

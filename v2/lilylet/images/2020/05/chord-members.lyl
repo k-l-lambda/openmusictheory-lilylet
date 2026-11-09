@@ -1,0 +1,7 @@
+[title "A seventh chord with root, third, fifth, and seventh labelled"]
+
+\omit Score.TimeSignature \key c \major \clef "bass" <a, c e g>1 \bar "|"
+\addlyrics { Seventh }
+\addlyrics { Fifth }
+\addlyrics { Third }
+\addlyrics { Root } | %1

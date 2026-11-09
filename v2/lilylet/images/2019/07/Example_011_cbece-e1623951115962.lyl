@@ -1,0 +1,31 @@
+[title "Compound basic idea + cadential (Symphony No. 95, III, mm. 1–8)"]
+[composer "Joseph Haydn"]
+[staves "{-}"]
+
+\staff "1" \key ef \major \time 3/4 \partial 4 \tempo "Menuetto" \clef "treble" g'4-.\p^\markup "b.i."^\markup "compound basic idea" \\
+\staff "2" \key ef \major \time 3/4 \partial 4 \clef "bass" r4 | %0
+
+\staff "1" g'4-. r c-. \\
+\staff "2" r4 \clef "treble" <c ef>4-. <c ef>-. | %1
+
+\staff "1" c'4-. r ef-.^\markup "c.i." \\
+\staff "2" r4 <c ef g>-. <c ef g>-. | %2
+
+\staff "1" \grace ef'8 d4 d8([ c d b] \\
+\staff "2" <c f g>4-. <c f g>-. <c f g>-. | %3
+
+\staff "1" c'4) r g'-.\f^\markup "cadential" \\
+\staff "2" <c ef g>4-. <c ef g>-. r4 \clef "bass" | %4
+
+\staff "1" <c' c'>4-. \grace d'8 <c, c'>8([ b'] <c, c'>4)-. \\
+\staff "2" <ef, g c>4 <ef g c> <ef g c> | %5
+
+\staff "1" <af' af'>4( f' d \\
+\staff "2" \stemUp c2( f4 \\
+\staff "2" \stemDown <f, af>2. | %6
+
+\staff "1" b'4)-. g'8([ af) g-. f-.] \\
+\staff "2" <g d'>4) <g b d> <g b d> | %7
+
+\staff "1" \partial 2 ef'4( c)^\markup "IAC" \bar "|." \\
+\staff "2" \partial 2 <c ef>4 r \bar "|." | %8

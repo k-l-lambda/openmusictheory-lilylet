@@ -1,0 +1,52 @@
+[title "Antecedent + cadential: String Quartet Op. 64 No. 4, II, mm. 1–8"]
+[composer "Joseph Haydn"]
+[staves "<v1-v2-va-vc>"]
+[instrument-v1 "Violin I" "Vn. I"]
+[instrument-v2 "Violin II" "Vn. II"]
+[instrument-va "Viola" "Va."]
+[instrument-vc "Violoncello" "Vc."]
+
+\key g \major \time 3/4 \partial 4 \tempo "Allegretto" d'8(\f[^\markup "b.i."^\markup "antecedent" b)] \\\\
+\partial 4 r4 \\\\
+\clef "alto" \partial 4 r4 \\\\
+\clef "bass" \partial 4 r4 | %0
+
+fs8([ g)] d4-. b''8([ g)] \\\\
+r4 d4-.\f d-. \\\\
+r4 b-.\f b-. \\\\
+r4 g-.\f g-. | %1
+
+fs'8([ a)] c,4-. a8([^\markup "c.i." c)] \\\\
+r4 fs-. fs-. \\\\
+r4 a-. a-. \\\\
+r4 d,-. d-. | %2
+
+c'16([ b)] r8 d16([ c)] r8 e16([ c)] r8 \\\\
+g'8-. r g-. r g-. r \\\\
+g8-. r e-. r c-. r \\\\
+g8-. r e-. r c-. r | %3
+
+a'2^\markup "HC" d,4\p^\markup "cadential" \\\\
+fs2 r4 \\\\
+d,4-. r r \\\\
+d,4-. d'-. r | %4
+
+g'2( b8[ gs)] \\\\
+r4 d-.\p d-. \\\\
+r4 g-.\p f'-. \\\\
+r4 b,-.\p b-. | %5
+
+b'8([ a)] c4-. c8([ b)] \\\\
+e4 r e8([ d)] \\\\
+e4 r r \\\\
+c,4 r r | %6
+
+\grace b'8( a4) a8([ g a d,)] \\\\
+c2.( \\\\
+fs2.( \\\\
+d,4-. d-. d-. | %7
+
+\partial 2 g'4^\markup "PAC" r \bar "|." \\\\
+\partial 2 b4) r \bar "|." \\\\
+\partial 2 g4) r \bar "|." \\\\
+\partial 2 g,4-. g'-. \bar "|." | %8

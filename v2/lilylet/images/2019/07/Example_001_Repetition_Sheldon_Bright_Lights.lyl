@@ -1,0 +1,22 @@
+[title "Internal expansion via exact repetition (Bright Lights!)"]
+[composer "Robert Sheldon"]
+
+\numericTimeSignature \key ef \major \time 4/4 \clef "treble" bf'4->(^\markup "b.i."^\markup "antecedent" ef) r8 bf-. r f'-. | %1
+
+r8 bf'-. r g->~( g[ af]) bf4 | %2
+
+ef4->^\markup "c.i." g8-.[ f->~] f[ ef16( f] g[ af bf8)] | %3
+
+c'4-> ef8-.[ d->~] d[^\markup "HC" f16(^\markup "consequent" ef] d[ c bf af)] | %4
+
+bf'4->(^\markup "(b.i.)" ef) r8 bf-. r f'-. | %5
+
+r8 bf'-. r g->~( g[ af]) bf4 | %6
+
+c'4->^\markup "c.i." ef8-.[ d->~] d4 c->_\markup "repeated motive" | %7
+
+ef'8-.[ d->~] d4 c8[( d) ef-. f-.] | %8
+
+g''1->~^\markup "(c.i.)"^\markup "(consequent)" | %9
+
+g''8^\markup "IAC" r r4 r2 \bar "||" | %10

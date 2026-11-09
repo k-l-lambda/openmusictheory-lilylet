@@ -1,0 +1,3 @@
+[title "A note in bass clef with a caesura"]
+
+\omit Score.TimeSignature \key c \major \clef "bass" f,1^\markup "//" \bar "|" | %1

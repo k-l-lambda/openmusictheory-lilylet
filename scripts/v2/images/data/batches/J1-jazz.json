@@ -1,0 +1,144 @@
+[
+ {
+  "index": 221,
+  "image": "v2/media/2019/08/anything-goes-1.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/08/anything-goes-1.png",
+  "lyl": "v2/lilylet/images/2019/08/anything-goes-1.lyl",
+  "chapter": "06-jazz/01-swing-rhythms.md",
+  "recommendation": "hand",
+  "caption": "Example 2. The entire ensemble plays the notated rhythm at 0:36 of the overture to Anything Goes .",
+  "flags": [
+   "accents",
+   "triplets"
+  ],
+  "reason": "Anything Goes rhythm notated vs sounded",
+  "bars": 2,
+  "staves": 2,
+  "effort_min": 4
+ },
+ {
+  "index": 222,
+  "image": "v2/media/2019/08/anything-goes-2.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/08/anything-goes-2.png",
+  "lyl": "v2/lilylet/images/2019/08/anything-goes-2.lyl",
+  "chapter": "06-jazz/01-swing-rhythms.md",
+  "recommendation": "hand",
+  "caption": "Example 3. This rhythm, with straight eighths, occurs in a drum part throughout the second part of the Anything Goes overture.",
+  "flags": [],
+  "reason": "Anything Goes drum rhythm",
+  "bars": 1,
+  "staves": 1,
+  "effort_min": 2
+ },
+ {
+  "index": 224,
+  "image": "v2/media/2019/08/extensions.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/08/extensions.png",
+  "lyl": "v2/lilylet/images/2019/08/extensions.lyl",
+  "chapter": "06-jazz/02-chord-symbols.md",
+  "recommendation": "hand",
+  "caption": "Example 4. Adding more thirds beyond the seventh produces ninths, elevenths, and thirteenths.",
+  "flags": [
+   "labels"
+  ],
+  "reason": "stacked thirds to 13th",
+  "bars": 1,
+  "staves": 1,
+  "effort_min": 2
+ },
+ {
+  "index": 225,
+  "image": "v2/media/2019/08/altered_exts.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/08/altered_exts.png",
+  "lyl": "v2/lilylet/images/2019/08/altered_exts.lyl",
+  "chapter": "06-jazz/02-chord-symbols.md",
+  "recommendation": "hand",
+  "caption": "Example 5. Accidentals in chord symbols and in the corresponding notation—note that in chord symbols, sharp/flat signs indicated a bigger/smaller interval, not necessarily an actual sharp/flat note.",
+  "flags": [
+   "chord-symbols",
+   "arrows"
+  ],
+  "reason": "altered extensions",
+  "bars": 2,
+  "staves": 1,
+  "effort_min": 4
+ },
+ {
+  "index": 226,
+  "image": "v2/media/2019/08/adds.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/08/adds.png",
+  "lyl": "v2/lilylet/images/2019/08/adds.lyl",
+  "chapter": "06-jazz/02-chord-symbols.md",
+  "recommendation": "hand",
+  "caption": "Example 6. Examples of chords with added notes.",
+  "flags": [
+   "chord-symbols"
+  ],
+  "reason": "add chords",
+  "bars": 4,
+  "staves": 1,
+  "effort_min": 3
+ },
+ {
+  "index": 227,
+  "image": "v2/media/2019/08/sus.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/08/sus.png",
+  "lyl": "v2/lilylet/images/2019/08/sus.lyl",
+  "chapter": "06-jazz/02-chord-symbols.md",
+  "recommendation": "hand",
+  "caption": "Example 7. Chords with suspensions (sus chords).",
+  "flags": [
+   "chord-symbols"
+  ],
+  "reason": "sus chords",
+  "bars": 3,
+  "staves": 1,
+  "effort_min": 3
+ },
+ {
+  "index": 228,
+  "image": "v2/media/2019/08/harmonic-series_0001.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/08/harmonic-series_0001.png",
+  "lyl": "v2/lilylet/images/2019/08/harmonic-series_0001.lyl",
+  "chapter": "06-jazz/03-jazz-voicings.md",
+  "recommendation": "hand",
+  "caption": "Example 1. The harmonic series, as approximated in notation.",
+  "flags": [
+   "labels"
+  ],
+  "reason": "harmonic series 1-16",
+  "bars": 1,
+  "staves": 2,
+  "effort_min": 4
+ },
+ {
+  "index": 232,
+  "image": "v2/media/2019/08/cto72.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/08/cto72.png",
+  "lyl": "v2/lilylet/images/2019/08/cto72.lyl",
+  "chapter": "06-jazz/05-jazz-embellishing-chords.md",
+  "recommendation": "hand",
+  "caption": "Example 4. Common-tone diminished sevenths share a common tone with the root of the chord being embellished, shown here with ties.",
+  "flags": [
+   "chord-symbols",
+   "roman"
+  ],
+  "reason": "common-tone diminished sevenths",
+  "bars": 6,
+  "staves": 2,
+  "effort_min": 5
+ },
+ {
+  "index": "bebop",
+  "image": "v2/media/2019/08/COMP-bebop-part-2.mscz",
+  "source_png": "/tmp/omt-v2-img/bebop/COMP-bebop-part-2-1.png",
+  "lyl": "v2/lilylet/images/2019/08/COMP-bebop-part-2.lyl",
+  "chapter": "06-jazz/05-jazz-embellishing-chords.md",
+  "recommendation": "omr+hand",
+  "caption": "COMP-bebop-part-2 (a 1-page PDF named .mscz), rasterized at 200 dpi",
+  "flags": [
+   "pdf-as-mscz"
+  ],
+  "reason": "composition worksheet"
+ }
+]

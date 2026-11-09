@@ -1,0 +1,9 @@
+[title "A short viola solo"]
+
+\numericTimeSignature \clef "alto" \key c \major \time 4/4 \tempo "Very slow and free" c,16--\f[ d-- fs8--] r4 r r8 c'8-._\markup "echo"\pp( | %1
+
+r8 d8-. r fs-.) r4 r8 c,16\f[( d)] | %2
+
+\time 5/8 fs,8--[ c'16\p( d] fs8)[ c,16--\f( d fs) bf] | %3
+
+\time 4/4 d,4-- fs-- bf-- r | %4

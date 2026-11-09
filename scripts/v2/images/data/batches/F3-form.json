@@ -1,0 +1,111 @@
+[
+ {
+  "index": 163,
+  "image": "v2/media/2019/07/Example_001_AntCont-e1623950650588.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/Example_001_AntCont-e1623950650588.png",
+  "lyl": "v2/lilylet/images/2019/07/Example_001_AntCont-e1623950650588.lyl",
+  "chapter": "04-form/03-hybrid-phrase-level-forms.md",
+  "recommendation": "omr+hand",
+  "caption": "Example 1. An antecedent + continuation in Beethoven, Piano Sonata Op. 13, II, mm. 1–8 ( 0:00–0:32 ).",
+  "flags": [
+   "scan",
+   "form-brackets"
+  ],
+  "reason": "Beethoven sonata antecedent+continuation",
+  "bars": 8,
+  "staves": 2,
+  "effort_min": 20
+ },
+ {
+  "index": 164,
+  "image": "v2/media/2019/07/Example_002a_compound_basic_idea-e1623951301511.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/Example_002a_compound_basic_idea-e1623951301511.png",
+  "lyl": "v2/lilylet/images/2019/07/Example_002a_compound_basic_idea-e1623951301511.lyl",
+  "chapter": "04-form/03-hybrid-phrase-level-forms.md",
+  "recommendation": "hand",
+  "caption": "Example 2. A compound basic idea in Haydn’s Piano Sonata in C, Hob. XVI:35, I, mm. 1–8 ( 0:00–0:05 ).",
+  "flags": [
+   "form-brackets",
+   "subset-of:167"
+  ],
+  "reason": "Haydn CBI, first 4 bars of #167",
+  "bars": 4,
+  "staves": 2,
+  "effort_min": 4
+ },
+ {
+  "index": 166,
+  "image": "v2/media/2019/07/Example_008_antcont-e1623950775418.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/Example_008_antcont-e1623950775418.png",
+  "lyl": "v2/lilylet/images/2019/07/Example_008_antcont-e1623950775418.lyl",
+  "chapter": "04-form/03-hybrid-phrase-level-forms.md",
+  "recommendation": "omr+hand",
+  "caption": "An antecedent + continuation in Beethoven's Piano Sonata Opus 13, movement 2, measures 1-8.",
+  "flags": [
+   "scan",
+   "form-brackets",
+   "crop-of:163",
+   "same-excerpt:163"
+  ],
+  "reason": "Beethoven ant+cont; same excerpt as #163, re-annotate",
+  "bars": 8,
+  "staves": 2,
+  "effort_min": 5
+ },
+ {
+  "index": 167,
+  "image": "v2/media/2019/07/Example_009a_CBIcont-e1623951374474.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/Example_009a_CBIcont-e1623951374474.png",
+  "lyl": "v2/lilylet/images/2019/07/Example_009a_CBIcont-e1623951374474.lyl",
+  "chapter": "04-form/03-hybrid-phrase-level-forms.md",
+  "recommendation": "omr+hand",
+  "caption": "A compound basic idea + continuation in Haydn, Piano Sonata Hob. XVI:35, I, mm. 1–8.",
+  "flags": [
+   "form-brackets",
+   "crop-of:164",
+   "superset-of:164"
+  ],
+  "reason": "Haydn CBI+continuation (extends #164)",
+  "bars": 8,
+  "staves": 2,
+  "effort_min": 18
+ },
+ {
+  "index": 165,
+  "image": "v2/media/2019/07/Example_004a_cadential-e1623951336715.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/Example_004a_cadential-e1623951336715.png",
+  "lyl": "v2/lilylet/images/2019/07/Example_004a_cadential-e1623951336715.lyl",
+  "chapter": "04-form/03-hybrid-phrase-level-forms.md",
+  "recommendation": "omr+hand",
+  "caption": "Example 4. A cadential ending in Haydn, String Quartet Op. 64, No. 4, II, mm. 1–8 ( 0:05–0:10 ).",
+  "flags": [
+   "scan",
+   "form-brackets",
+   "greyed",
+   "bass-degrees"
+  ],
+  "reason": "Haydn quartet cadential ending",
+  "bars": 8,
+  "staves": 4,
+  "effort_min": 25
+ },
+ {
+  "index": 168,
+  "image": "v2/media/2019/07/Example_010_antece-e1623951152615.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/Example_010_antece-e1623951152615.png",
+  "lyl": "v2/lilylet/images/2019/07/Example_010_antece-e1623951152615.lyl",
+  "chapter": "04-form/03-hybrid-phrase-level-forms.md",
+  "recommendation": "omr+hand",
+  "caption": "An antecedent + extended cadential ending in Haydn's String Quartet Opus 64, number 4, movement 2, measures 1-8",
+  "flags": [
+   "scan",
+   "form-brackets",
+   "crop-of:165",
+   "same-work:165"
+  ],
+  "reason": "Haydn quartet antecedent+extended cadential (same quartet as #165)",
+  "bars": 8,
+  "staves": 4,
+  "effort_min": 25
+ }
+]

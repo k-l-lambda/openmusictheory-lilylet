@@ -1,0 +1,10 @@
+[title "C major and C mixolydian"]
+[staves "-"]
+
+\omit Score.TimeSignature \time 8/1 \clef "treble" c1^\markup "C major"^\markup "1̂" d^\markup "2̂" e^\markup "3̂" f^\markup "4̂" g^\markup "5̂" a^\markup "6̂" b^\markup "7̂" c^\markup "1̂" \\\\
+\clef "treble" <c e g>1 <d f a> <e g b> <f a c> <g b d> <a c e> <b d f> <c e g> \bar "||"
+\addlyrics { I ii iii IV V vi vii° I } | %1
+
+c1^\markup "C mixolydian"^\markup "1̂" d^\markup "2̂" e^\markup "3̂" f^\markup "4̂" g^\markup "5̂" a^\markup "6̂" bf^\markup "↓7̂" c^\markup "1̂" \\\\
+<c e g>1 <d f a> <e g bf> <f a c> <g bf d> <a c e> <bf d f> <c e g> \bar "||"
+\addlyrics { I ii iii° IV v vi ♭VII I } | %2

@@ -1,0 +1,72 @@
+[
+ {
+  "index": 196,
+  "image": "v2/media/2020/01/chromatic-modulation-closely-related-keys.png",
+  "lyl": "v2/lilylet/images/2020/01/chromatic-modulation-closely-related-keys.lyl",
+  "chapter": "05-chromaticism/06-reinterpreting-augmented-sixth-chords.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Two rows (C major, G major diatonic triads) as two unmetered bars without barlines; chord names via \\chords, Roman numerals in a lane. Orange highlighting of the common chords (C, Em, G, Am / G, Am, C, Em) not expressible: marked with _\\markup \"*\" instead. Two printed systems render on one line."
+ },
+ {
+  "index": 197,
+  "image": "v2/media/2020/01/distantly-related-keys-mixture-to-diatonic.png",
+  "lyl": "v2/lilylet/images/2020/01/distantly-related-keys-mixture-to-diatonic.lyl",
+  "chapter": "05-chromaticism/06-reinterpreting-augmented-sixth-chords.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Three unconnected staves (E♭ major / C minor by mixture / C major), one chord per (hidden) bar so accidentals reprint as in the original. lilylet has one key signature per measure for all staves, so row 1's E♭-major key signature is replaced by explicit flats on the notes. Pink highlight boxes and the red '7 Chords in Common' / '0 Chords in Common' brackets not expressible: approximated by ^\\markup text on rows 2 and 3."
+ },
+ {
+  "index": 198,
+  "image": "v2/media/2020/01/distantly-related-keys-diatonic-to-mixture.png",
+  "lyl": "v2/lilylet/images/2020/01/distantly-related-keys-diatonic-to-mixture.lyl",
+  "chapter": "05-chromaticism/06-reinterpreting-augmented-sixth-chords.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Three unconnected staves (A major / A minor by mixture with A-major key signature and naturals / C major), one chord per hidden bar. lilylet has one key signature per measure for all staves, so row 3 (no key signature in the original) shows the A-major signature plus naturals; pitches are right. Blue highlight boxes and the '7 Chords in Common' (rows 2-3) / '0 Chords in Common' (rows 1-3) brackets not expressible: approximated by ^\\markup on row 3."
+ },
+ {
+  "index": 199,
+  "image": "v2/media/2020/01/Atlas.png",
+  "lyl": "v2/lilylet/images/2020/01/Atlas.lyl",
+  "chapter": "05-chromaticism/07-augmented-options.md",
+  "method": "omr+hand",
+  "status": "ok-with-notes",
+  "omr": "quality 95.1%, solved 0 / issue 0 / fatal 0",
+  "notes": "Written by hand from a pitch grid, then checked against OMR (which agreed on pitches but missed the tremolo strokes, read the half-bar tremolo as a plain half chord, put 2 instead of 3 staves in one group and gave the key as B♭ major). Two-note tremolo <G3 B♭3>/D4 written as \\repeat tremolo 8 { <g, bf>32 d' }: lilylet draws each tremolo note at half the total (quarter), as in modern LilyPond; Schubert's print shows half notes. lilylet bug: an accidental is redrawn on every repeated note in the bar (all four F♯ chords in bars 2-3 show a sharp; the original shows it once). Verovio hides the voice staff (rests only) on the 2nd system."
+ },
+ {
+  "index": 200,
+  "image": "v2/media/2020/01/Bach.png",
+  "lyl": "v2/lilylet/images/2020/01/Bach.lyl",
+  "chapter": "05-chromaticism/07-augmented-options.md",
+  "method": "omr+hand",
+  "status": "ok-with-notes",
+  "omr": "quality 95.1%, solved 3 / issue 0 / fatal 0",
+  "notes": "5 voices (S I, S II, A, T treble_8, B) + two-staff reduction, one .lyl. OMR draft got bar 1 nearly right but bar 2 was garbage (fake 6/5 tuplets, voices on wrong staves) and lyrics/labels missing; every pitch re-read from a grid. Roman numerals in a lane on the reduction's upper staff (printed below the lower staff; lanes skip rests). Original has no time signature: \\omit Score.TimeSignature. lilylet accidental bug redraws the sharp on the 2nd G♯5 (S I bar 1), E♯3 (B bar 1), G♯ chord (reduction bar 1) and the 2nd A♯ chord (reduction bar 2)."
+ },
+ {
+  "index": 201,
+  "image": "v2/media/2020/01/Hensel-Extract.png",
+  "lyl": "v2/lilylet/images/2020/01/Hensel-Extract.lyl",
+  "chapter": "05-chromaticism/07-augmented-options.md",
+  "method": "omr+hand",
+  "status": "ok-with-notes",
+  "omr": "quality 99.9%, solved 4 / issue 0 / fatal 0",
+  "notes": "mm. 18-21, 6/8 (no time signature printed: \\omit). OMR pitches were right but metre was 4/4 with fake \\partial 2., voice bar 18 had an A♮, no lyrics, no cresc.; fixed and added both lyric verses. Not expressible: the courtesy natural on the RH D4 (bar 19; caused by the LH D♯, other staff); hairpin and p above the voice staff (lilylet ignores ^ on dynamics/hairpins, they render below). lilylet accidental bug: A♯ redrawn on every repeat in bar 18 (voice and RH)."
+ },
+ {
+  "index": 202,
+  "image": "v2/media/2019/07/brahms-concerto-for-vln-vc-268-79.png",
+  "lyl": "v2/lilylet/images/2019/07/brahms-concerto-for-vln-vc-268-79.lyl",
+  "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+  "method": "omr+hand",
+  "status": "ok-with-notes",
+  "omr": "quality 73.4%, solved 5 / issue 6 / fatal 0 (2x upscale)",
+  "notes": "The image is a violin + cello + piano-reduction score, not a full orchestral score, so there are no transposing instruments. 11 bars (268-278), 4 staves; the caption says 268-79, but the image ends at 278. OMR read system 1's piano well but dropped most solo notes, merged bars and invented tuplets in system 2, so the rest was transcribed by hand from pitch grids (cross-checked against the hexatonic chord cycle Ab-G#m-E-Em-C-Cm-Ab-G#m). Time signature hidden (none printed). Uncertain: piano RH bar 278 eighth-note dyads above the staff (the scan is cut off at the top) and the piano LH last-eighth chord (read as E3-G#3-D4). fpp written as markup (no \\fpp in lilylet). Outer phrase slurs over the cello/violin lines are not drawn (only the inner slurs). Tremolo notes render as quarters (lilylet convention), but the print shows half notes. The accidental bug redraws the flat on the tied Eb5 in cello bar 276."
+ }
+]

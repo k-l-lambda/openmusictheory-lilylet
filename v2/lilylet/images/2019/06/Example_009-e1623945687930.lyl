@@ -1,0 +1,34 @@
+[title "Piano Sonata No. 4 in E-flat major, Op. 7, II (sentence)"]
+[composer "Ludwig van Beethoven"]
+[staves "{-}"]
+
+\staff "1" \key c \major \time 3/4 \tempo "Largo, con gran espressione" \clef "treble" \stemUp <g c e>4(^\markup "b.i."^\markup "presentation"^\markup "sentence" <g d' f>8) r8 r4 \\
+\staff "2" \clef "bass" <c,, g' c>4(\p <b g' b>8) r8 r4 | %1
+
+\staff "1" \stemUp g'8.([ d16] e8) r8 r4 \clef "bass" \\
+\staff "1" \stemDown g4 g8 s4. \\
+\staff "2" <b,, g' b>4( <c g' c>8) r8 r4 | %2
+
+\staff "1" \stemDown <e, g c e>4(^\markup "b.i." <d a' d>8) r8 r4 \\
+\staff "2" <c,, c'>4( <fs, fs'>8) r8 r4 | %3
+
+\staff "1" \stemUp d8.[ a16] c4.( b8) \\
+\staff "1" \stemDown d,4 <d g>2\sf \\
+\staff "2" <fs,,, fs'>4( <f f'>2) | %4
+
+\staff "1" \stemDown <e, g c>4(^\markup "u."^\markup "continuation" <f g b d> <g c e> \\
+\staff "2" e,,4 <d d'> <c c'> | %5
+
+\staff "1" \stemUp <g e'>4 <f d'> <e a c>-.) \\
+\staff "1" \stemDown a2 s4 \\
+\staff "2" <f,,, f'>2. | %6
+
+\staff "1" \stemUp b2~^\markup "cad." b8[ b] \\
+\staff "1" \stemUp d,2 s4 \\
+\staff "1" \stemDown a4 g8[ af <d, g> <d f>] \\
+\staff "2" <g,, g'>2 <g g'>4 | %7
+
+\staff "1" \partial 4. \stemUp <c e>4(^\markup "PAC" c8) \\
+\staff "1" \partial 4. \stemDown f,4( e8) \\
+\staff "2" \partial 4. \stemUp g,4( b8-.) \\
+\staff "2" \partial 4. \stemDown c,,4. | %8

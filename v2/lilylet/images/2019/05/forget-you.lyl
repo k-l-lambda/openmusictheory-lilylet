@@ -1,0 +1,34 @@
+[title "Forget You"]
+[composer "CeeLo Green"]
+[staves "<voice-bass>"]
+[instrument-voice "Voice"]
+[instrument-bass "Bass"]
+
+\numericTimeSignature \time 4/4 \partial 2 \clef "treble" \stemUp r2 \\
+\partial 2 \stemDown r8 c8[ e g]
+\addlyrics { I see you } \\\\
+\partial 2 \clef "bass" r8 g,8[ a c]~
+\addlyrics { _ _ "C:" } | %1
+
+\stemUp <e' g>1^\markup "the characteristic chromaticism of the lydian cadence."^\markup "Background vocals (written up one octave for clarity) clearly outline"( \\
+\stemDown a'8[ \chords "C" a] g4 e d8[ c]
+\addlyrics { dri -- vin' 'round town with the } \\\\
+c,2 r8 g8[ a d]~
+\addlyrics { I _ _ _ } | %2
+
+\stemUp <fs' a>1 \\
+\stemDown c8 \chords "D" d4 a8~ a[ g a c]
+\addlyrics { girl I love, _ and I'm like, } \\\\
+d,2 r8 d8[ e f]~
+\addlyrics { II♯ _ _ _ } | %3
+
+\stemUp <f' a>1 \\
+\stemDown r8 \chords "F" c8 g'4 e d8[ c]
+\addlyrics { for -- get you. __ _ } \\\\
+f,2 r8 f8[ g c,]~
+\addlyrics { IV _ _ _ } | %4
+
+\partial 2 \stemUp <e' g>2) \\
+\partial 2 \stemDown r2 \chords "C" \bar "||" \\\\
+\partial 2 c,2 \bar "||"
+\addlyrics { I } | %5

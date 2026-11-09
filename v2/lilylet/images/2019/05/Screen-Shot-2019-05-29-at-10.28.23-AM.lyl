@@ -1,0 +1,3 @@
+[title "Treble clef: letter names of the spaces"]
+
+\omit Score.TimeSignature \clef "treble" f4^\markup "F" a^\markup "A" c^\markup "C" e^\markup "E" \bar "|." | %1

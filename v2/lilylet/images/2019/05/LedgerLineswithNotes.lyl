@@ -1,0 +1,5 @@
+[title "Notes on ledger lines above and below the treble staff"]
+
+\omit Score.TimeSignature \time 4/4 \clef "treble" f'8[ g a b] c[ d e f] | %1
+
+e8[ d c b] a[ g f e] \bar "|." | %2

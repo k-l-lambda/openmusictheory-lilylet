@@ -1,0 +1,42 @@
+[title "Sharp key signatures (C major to C♯ major) in treble, bass, alto, and tenor clefs"]
+[staves ",,,"]
+
+\time 1/4 \omit Score.TimeSignature \key c \major \clef "treble" s4 \bar "||" \\\\
+\clef "bass" s4 \bar "||" \\\\
+\clef "alto" s4 \bar "||" \\\\
+\clef "tenor" s4 \bar "||" | %1
+
+\key g \major s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %2
+
+\key d \major s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %3
+
+\key a \major s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %4
+
+\key e \major s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %5
+
+\key b \major s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %6
+
+\key fs \major s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %7
+
+\key cs \major s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %8

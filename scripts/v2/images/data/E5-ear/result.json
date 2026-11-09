@@ -1,0 +1,14 @@
+[
+ {"index": 306, "image": "v2/media/2022/07/OMT-S5-Maj-4-e1658757688843.jpg", "lyl": "v2/lilylet/images/2022/07/OMT-S5-Maj-4-e1658757688843.md",
+  "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md", "method": "omr", "status": "ok-with-notes",
+  "omr": "M33 quality 100% (solved 0/issue 0/fatal 0, 8 bars read correctly); M34 100%, 7/0/0; M35 100%, 16/0/0; M36 96.5%, 8/0/0",
+  "notes": "One block per melody. M33 (A maj 2/4): OMR read the tenuto dashes as portato (-_), corrected to tenuto. M34 (Gb maj, C): OMR missed the slur end on bar 2 Db. M35 (B maj 2/8, pickup): OMR dropped the dot on B in bars 1, 5, 9 (8.+16), missed staccatos on A# in bar 4 and the bar 7-8 dim hairpin; added. M36 (C maj 4/8, pickup): added staccato bar 5 and the 'dim.' (bar 3) and 'cresc.' (bar 7) texts as plain markup (no italics: \\italic is not supported). All pitches checked with --pitches and the compare PNGs. lilylet bug: hairpins crossing a barline leave stale carried state (meiEncoder.ts ~1901 only sets pendingHairpins when non-null, never clears), so M35's later hairpins render as long wedges from bar 1; the source is correct."},
+ {"index": 307, "image": "v2/media/2022/07/OMT-S5-Min-2--e1658759374812.jpg", "lyl": "v2/lilylet/images/2022/07/OMT-S5-Min-2--e1658759374812.md",
+  "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md", "method": "omr", "status": "ok",
+  "omr": "M37 quality 100%, solved 2/issue 0/fatal 0; M38 100%, 5/0/0; M39 100%, 5/0/0; M40 99.3%, 5/0/0",
+  "notes": "Keys written as minor (G# min, Eb min, A min, D min). M37: OMR correct. M38 (3/4): removed a spurious slur start on bar 2 Bb, closed the slurs on bar 4 D natural and the final Eb, added 'cresc.' bar 3 and the hairpin end at bar 8 p. M39 (4/4 numeric): positioned rests d\\rest -> r. M40 (C, pickup): added 'sub.' before the bar 4 p. Bar 7 naturals on C/D render correctly."},
+ {"index": 308, "image": "v2/media/2022/07/OMT-S5-2PM-2-2-e1659014467286.jpg", "lyl": "v2/lilylet/images/2022/07/OMT-S5-2PM-2-2-e1659014467286.md",
+  "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md", "method": "omr+hand", "status": "ok-with-notes",
+  "omr": "2-PM9 quality 100%, solved 8/issue 0/fatal 0; 2-PM10 100%, 8/0/0",
+  "notes": "Two parts per melody, [staves \"{u-l}\"] brace, 4-backslash separator. 2-PM9 (Eb maj 3/8): OMR invented fake tuplets (4/3, 5/3, 5/4) in bass bars 3, 4, 8 and a bogus voice in bar 4; those bars were rewritten from the image (F3 8. G16 Ab8 | Bb8. Ab16 G F | Eb16 G Bb8. G16). Hairpins (dim bars 3-4, cresc bars 7-8 into f) added in both parts. 2-PM10 (C# min 4/4): OMR notes correct; added hairpin ends, slur ends and 'cresc. al fine' (bar 6, both parts). Rendering: the hairpin carry bug (see 306) mis-pairs the wedges in PM9 bars 3-8 and partly in PM10 bars 2-4; the source is correct. Repeated B# in PM10 bass bars 3 and 7 redraws its sharp (known bug)."}
+]

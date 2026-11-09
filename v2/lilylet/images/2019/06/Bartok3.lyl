@@ -1,0 +1,12 @@
+[title "From the Island of Bali (Mikrokosmos No. 109): Extract 3"]
+[composer "Béla Bartók"]
+[staves "{-}"]
+
+\partial 2 \staff "1" \omit Score.TimeSignature \key c \major \time 4/4 \clef "treble" r8 a^1\ff( bf d \\
+\staff "2" \clef "bass" r8 a,_5( bf d | %1
+
+\staff "1" ef4--) ef-- ef-- d8( bf) \\
+\staff "2" ef,4--) ef-- ef-- d8( bf) | %2
+
+\staff "1" ef8( d) bf4-- d8( ef d bf) \\
+\staff "2" ef,8( d) bf4-- d8( ef d bf) | %3

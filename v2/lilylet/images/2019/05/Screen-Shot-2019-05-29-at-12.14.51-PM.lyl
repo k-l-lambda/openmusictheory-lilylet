@@ -1,0 +1,3 @@
+[title "Bass clef: ledger lines below the staff"]
+
+\omit Score.TimeSignature \clef "bass" g,4^\markup "G" f^\markup "F" e^\markup "E" d^\markup "D" c^\markup "C" | %1

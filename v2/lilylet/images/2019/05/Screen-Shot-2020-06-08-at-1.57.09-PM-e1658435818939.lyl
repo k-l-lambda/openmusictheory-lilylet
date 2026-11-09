@@ -1,0 +1,42 @@
+[title "Flat minor key signatures (A minor to A♭ minor) in treble, bass, alto, and tenor clefs"]
+[staves ",,,"]
+
+\time 1/4 \omit Score.TimeSignature \key a \minor \clef "treble" s4 \bar "||" \\\\
+\clef "bass" s4 \bar "||" \\\\
+\clef "alto" s4 \bar "||" \\\\
+\clef "tenor" s4 \bar "||" | %1
+
+\key d \minor s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %2
+
+\key g \minor s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %3
+
+\key c \minor s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %4
+
+\key f \minor s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %5
+
+\key bf \minor s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %6
+
+\key ef \minor s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %7
+
+\key af \minor s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %8

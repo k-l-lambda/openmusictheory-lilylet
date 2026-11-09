@@ -1,0 +1,162 @@
+[
+ {
+  "index": 203,
+  "image": "v2/media/2019/07/brahms_vc_vln_concerto_reduction.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/brahms_vc_vln_concerto_reduction.png",
+  "lyl": "v2/lilylet/images/2019/07/brahms_vc_vln_concerto_reduction.lyl",
+  "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+  "recommendation": "hand",
+  "caption": "Example 2. Brahms, Concerto for Violin and Cello, I, mm. 270–76, reduction.",
+  "flags": [],
+  "reason": "Brahms reduction (chord progression)",
+  "bars": 7,
+  "staves": 2,
+  "effort_min": 5
+ },
+ {
+  "index": 204,
+  "image": "v2/media/2019/07/NROs_-_basic_voice_leading_examples-PLR.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/NROs_-_basic_voice_leading_examples-PLR.png",
+  "lyl": "v2/lilylet/images/2019/07/NROs_-_basic_voice_leading_examples-PLR.lyl",
+  "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+  "recommendation": "hand",
+  "caption": "Example 3. The three basic Neo-Riemannian operations: Relative, Parallel, and Leading-Tone Exchange.",
+  "flags": [
+   "labels",
+   "arrows"
+  ],
+  "reason": "R, P, L operations",
+  "bars": 6,
+  "staves": 1,
+  "effort_min": 4
+ },
+ {
+  "index": 205,
+  "image": "v2/media/2019/07/multiple-L-transforms.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/multiple-L-transforms.png",
+  "lyl": "v2/lilylet/images/2019/07/multiple-L-transforms.lyl",
+  "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+  "recommendation": "hand",
+  "caption": "Example 4. Successive L transformations on C major and E minor triads.",
+  "flags": [
+   "labels"
+  ],
+  "reason": "successive L transforms",
+  "bars": 7,
+  "staves": 1,
+  "effort_min": 3
+ },
+ {
+  "index": 209,
+  "image": "v2/media/2019/07/PL-and-RP-cycles.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/PL-and-RP-cycles.png",
+  "lyl": "v2/lilylet/images/2019/07/PL-and-RP-cycles.lyl",
+  "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+  "recommendation": "hand",
+  "caption": "Example 9. PL and RP cycles.",
+  "flags": [
+   "labels"
+  ],
+  "reason": "PL and RP cycles",
+  "bars": 14,
+  "staves": 2,
+  "effort_min": 6
+ },
+ {
+  "index": 210,
+  "image": "v2/media/2019/07/RL-cycle.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/RL-cycle.png",
+  "lyl": "v2/lilylet/images/2019/07/RL-cycle.lyl",
+  "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+  "recommendation": "hand",
+  "caption": "Example 10. The RL cycle.",
+  "flags": [
+   "labels"
+  ],
+  "reason": "RL cycle",
+  "bars": 13,
+  "staves": 1,
+  "effort_min": 5
+ },
+ {
+  "index": 211,
+  "image": "v2/media/2019/07/PLR-cycle.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/PLR-cycle.png",
+  "lyl": "v2/lilylet/images/2019/07/PLR-cycle.lyl",
+  "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+  "recommendation": "hand",
+  "caption": "Example 11. The PLR cycle.",
+  "flags": [
+   "labels"
+  ],
+  "reason": "PLR cycle",
+  "bars": 7,
+  "staves": 1,
+  "effort_min": 3
+ },
+ {
+  "index": 213,
+  "image": "v2/media/2019/07/SNH-transformations.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/SNH-transformations.png",
+  "lyl": "v2/lilylet/images/2019/07/SNH-transformations.lyl",
+  "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+  "recommendation": "hand",
+  "caption": "Example 13. S, N, and H transformations.",
+  "flags": [
+   "labels"
+  ],
+  "reason": "S, N, H transformations",
+  "bars": 6,
+  "staves": 1,
+  "effort_min": 4
+ },
+ {
+  "index": 214,
+  "image": "v2/media/2019/07/augmented-triads.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/augmented-triads.png",
+  "lyl": "v2/lilylet/images/2019/07/augmented-triads.lyl",
+  "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+  "recommendation": "hand",
+  "caption": "Example 14. The R transformation with an intervening augmented triad.",
+  "flags": [
+   "chord-names",
+   "arrow"
+  ],
+  "reason": "R via augmented triad",
+  "bars": 1,
+  "staves": 1,
+  "effort_min": 2
+ },
+ {
+  "index": 215,
+  "image": "v2/media/2019/07/augmented_triads2.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/augmented_triads2.png",
+  "lyl": "v2/lilylet/images/2019/07/augmented_triads2.lyl",
+  "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+  "recommendation": "hand",
+  "caption": "Example 15. Three different spellings of the augmented triad resolving to three different minor triads.",
+  "flags": [
+   "chord-names"
+  ],
+  "reason": "augmented triad spellings",
+  "bars": 6,
+  "staves": 1,
+  "effort_min": 3
+ },
+ {
+  "index": 216,
+  "image": "v2/media/2019/07/augmented_triads3.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/augmented_triads3.png",
+  "lyl": "v2/lilylet/images/2019/07/augmented_triads3.lyl",
+  "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+  "recommendation": "hand",
+  "caption": "Example 16. Three different major triads connect to the same augmented triad.",
+  "flags": [
+   "chord-names"
+  ],
+  "reason": "major triads to augmented",
+  "bars": 6,
+  "staves": 1,
+  "effort_min": 3
+ }
+]

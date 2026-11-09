@@ -1,0 +1,101 @@
+[
+ {
+  "index": 137,
+  "image": "v2/media/2019/05/Consonance.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/Consonance.png",
+  "lyl": "v2/lilylet/images/2019/05/Consonance.lyl",
+  "chapter": "02-counterpoint/01-species-counterpoint.md",
+  "recommendation": "hand",
+  "caption": "Example 1. Perfect consonances, imperfect consonances, and dissonances.",
+  "flags": [
+   "labels"
+  ],
+  "reason": "consonance/dissonance dyads (counterpoint)",
+  "bars": 15,
+  "staves": 1,
+  "effort_min": 6
+ },
+ {
+  "index": 138,
+  "image": "v2/media/2019/05/Outlining-1.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/Outlining-1.png",
+  "lyl": "v2/lilylet/images/2019/05/Outlining-1.lyl",
+  "chapter": "02-counterpoint/01-species-counterpoint.md",
+  "recommendation": "hand",
+  "caption": "Example 4. Melodic outlinings.",
+  "flags": [
+   "labels",
+   "brackets"
+  ],
+  "reason": "melodic outlinings (counterpoint)",
+  "bars": 8,
+  "staves": 2,
+  "effort_min": 8
+ },
+ {
+  "index": 139,
+  "image": "v2/media/2020/01/consonant.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2020/01/consonant.png",
+  "lyl": "v2/lilylet/images/2020/01/consonant.lyl",
+  "chapter": "02-counterpoint/03-second-species-counterpoint.md",
+  "recommendation": "hand",
+  "caption": "Example 2. Examples of consonant weak beat types, above and below a cantus firmus.",
+  "flags": [
+   "labels",
+   "tall-image"
+  ],
+  "reason": "2nd-species consonant weak-beat types, 7 pairs of 2-voice examples",
+  "bars": 28,
+  "staves": 14,
+  "effort_min": 25
+ },
+ {
+  "index": 140,
+  "image": "v2/media/2020/01/Dissonance.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2020/01/Dissonance.png",
+  "lyl": "v2/lilylet/images/2020/01/Dissonance.lyl",
+  "chapter": "02-counterpoint/04-third-species-counterpoint.md",
+  "recommendation": "hand",
+  "caption": "Example 2. Third-species dissonance types.",
+  "flags": [
+   "labels"
+  ],
+  "reason": "3rd-species dissonance types",
+  "bars": 8,
+  "staves": 1,
+  "effort_min": 6
+ },
+ {
+  "index": 143,
+  "image": "v2/media/2020/07/Generic_Embellishing_Tone_Layout.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2020/07/Generic_Embellishing_Tone_Layout.png",
+  "lyl": "v2/lilylet/images/2020/07/Generic_Embellishing_Tone_Layout.lyl",
+  "chapter": "03-diatonic-harmony/04-embellishing-tones.md",
+  "recommendation": "hand",
+  "caption": "Example 2. Common three-note layout of most embellishing tones.",
+  "flags": [
+   "labels",
+   "arrows"
+  ],
+  "reason": "embellishing tone layout",
+  "bars": 1,
+  "staves": 1,
+  "effort_min": 2
+ },
+ {
+  "index": 145,
+  "image": "v2/media/2019/05/resolving.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/resolving.png",
+  "lyl": "v2/lilylet/images/2019/05/resolving.lyl",
+  "chapter": "03-diatonic-harmony/15-tonicization.md",
+  "recommendation": "hand",
+  "caption": "Example 6. If the applied chord is proceeding to another seventh chord, the secondary leading tone may resolve downward, instead of upward like a leading tone normally would, into the seventh of the next chord.",
+  "flags": [
+   "roman"
+  ],
+  "reason": "V7/V-V7-I secondary leading tone",
+  "bars": 3,
+  "staves": 2,
+  "effort_min": 4
+ }
+]

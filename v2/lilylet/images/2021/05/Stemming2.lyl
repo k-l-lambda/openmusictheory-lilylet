@@ -1,0 +1,4 @@
+[title "Stem direction with beams"]
+
+\numericTimeSignature \time 4/4 \clef "treble" \stemDown c'4 b \stemUp a \stemDown b | %1
+\stemDown e'8[ b] \stemUp e,[ d'] g,[ c] \stemDown e[ b] \bar "|." | %2

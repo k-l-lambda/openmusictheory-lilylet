@@ -1,0 +1,4 @@
+[title "White-key sevenths"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" <d c'>1 <e d'> <f e'> <g f'> <a g'> <b a'> <c b'> \undo \omit Score.BarLine \bar "||"
+\addlyrics { mi mi ma mi mi mi ma } | %1

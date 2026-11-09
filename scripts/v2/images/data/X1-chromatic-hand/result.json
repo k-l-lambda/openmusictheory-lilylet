@@ -1,0 +1,102 @@
+[
+ {
+  "index": 203,
+  "image": "v2/media/2019/07/brahms_vc_vln_concerto_reduction.png",
+  "lyl": "v2/lilylet/images/2019/07/brahms_vc_vln_concerto_reduction.lyl",
+  "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+  "method": "hand",
+  "status": "ok",
+  "omr": null,
+  "notes": "Grand staff, 4/4, 7 whole-note bars: Ab, g# (G#-B-D#, enharmonic as printed), E, e, C, c, Ab; bass Ab3 G#3 E3 E3 C3 C3 Ab2; final |."
+ },
+ {
+  "index": 204,
+  "image": "v2/media/2019/07/NROs_-_basic_voice_leading_examples-PLR.png",
+  "lyl": "v2/lilylet/images/2019/07/NROs_-_basic_voice_leading_examples-PLR.lyl",
+  "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Three unmetered chord pairs (C→Am, C→Cm, C→Em in close position), one bar each with || between. Blue double-headed arrows between the chords are not drawable (a spacer keeps the gap; markup on a spacer is not rendered)."
+ },
+ {
+  "index": 205,
+  "image": "v2/media/2019/07/multiple-L-transforms.png",
+  "lyl": "v2/lilylet/images/2019/07/multiple-L-transforms.lyl",
+  "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Unmetered, barless: C / Em (B3-E4-G4) alternating x6. Each 'L' printed between two chords is attached as ^markup to the left chord (markup on a spacer/rest is dropped by the MEI encoder); 'etc.' on the last chord. Spacers keep the gaps."
+ },
+ {
+  "index": 209,
+  "image": "v2/media/2019/07/PL-and-RP-cycles.png",
+  "lyl": "v2/lilylet/images/2019/07/PL-and-RP-cycles.lyl",
+  "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Two independent unbraced treble staves ([staves \",\"], two parts), unmetered. PL: C c Ab ab(Cb-Eb-Ab) E(B-E-G#, enharmonic respelling as printed) e C; RP: C a A f# F#(C#-F#-A#) eb(Eb-Gb-Bb) Eb c(Eb-G-C) C(E-G-C). Labels printed between chords are ^markup on the left chord. Hidden barlines (barlines omitted) split the line into 4 bars only to reset accidentals so no extra naturals print; chord spacing therefore differs slightly from the original."
+ },
+ {
+  "index": 210,
+  "image": "v2/media/2019/07/RL-cycle.png",
+  "lyl": "v2/lilylet/images/2019/07/RL-cycle.lyl",
+  "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Unmetered, barless, 10 chords C a F d Bb g Eb c Ab f; flats repeated on every chord as printed (courtesy ! inside the single bar). Each R/L label printed between chords is ^markup on the left chord; 'etc.' on the last chord."
+ },
+ {
+  "index": 211,
+  "image": "v2/media/2019/07/PLR-cycle.png",
+  "lyl": "v2/lilylet/images/2019/07/PLR-cycle.lyl",
+  "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Unmetered: C c Ab f F a C, final ||. Labels printed between chords are ^markup on the left chord (rendered italic). A hidden barline after the 4th chord resets accidentals so A/E print without naturals, as in the original."
+ },
+ {
+  "index": 213,
+  "image": "v2/media/2019/07/SNH-transformations.png",
+  "lyl": "v2/lilylet/images/2019/07/SNH-transformations.lyl",
+  "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+  "method": "hand",
+  "status": "ok",
+  "omr": null,
+  "notes": "Six barred whole-note chords, no time signature, final ||: C→C# major (S), C→f (N), C→ab (Cb-Eb-Ab) (H). Labels kept verbatim incl. the image's spelling \"Neberverwandt\" (usual term: Nebenverwandt); markup renders italic."
+ },
+ {
+  "index": 214,
+  "image": "v2/media/2019/07/augmented-triads.png",
+  "lyl": "v2/lilylet/images/2019/07/augmented-triads.lyl",
+  "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "One bar: C (C4-E4-G4) → C+ (C4-E4-G#4) → A4 alone (only the moving voice is printed; C and E are held implicitly). Original has stemless filled noteheads (rendered as quarters). Curved arrow from C to Am labelled R is not drawable: 'R' is ^markup on the first chord. Chord names in a lyrics lane."
+ },
+ {
+  "index": 215,
+  "image": "v2/media/2019/07/augmented_triads2.png",
+  "lyl": "v2/lilylet/images/2019/07/augmented_triads2.lyl",
+  "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+  "method": "hand",
+  "status": "ok",
+  "omr": null,
+  "notes": "6 barred whole-note chords, no time signature: C+ (C-E-G#), Am, E+ (B#3-E-G#), C#m, Ab+ (C-E-Ab), Fm; chord names in a lyrics lane."
+ },
+ {
+  "index": 216,
+  "image": "v2/media/2019/07/augmented_triads3.png",
+  "lyl": "v2/lilylet/images/2019/07/augmented_triads3.lyl",
+  "chapter": "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+  "method": "hand",
+  "status": "ok",
+  "omr": null,
+  "notes": "6 barred whole-note chords, no time signature: C, C+ (C-E-G#), E (B3-E-G#), E+ (B#3-E-G#), Ab (C-Eb-Ab), Ab+ (C-E-Ab); chord names in a lyrics lane."
+ }
+]

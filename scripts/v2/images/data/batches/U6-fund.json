@@ -1,0 +1,208 @@
+[
+ {
+  "index": 115,
+  "image": "v2/media/2019/05/simple-v-compound.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/simple-v-compound.png",
+  "lyl": "v2/lilylet/images/2019/05/simple-v-compound.lyl",
+  "chapter": "01-fundamentals/17-intervals.md",
+  "recommendation": "hand",
+  "caption": "Example 9. A simple and compound interval.",
+  "flags": [
+   "labels"
+  ],
+  "reason": "simple vs compound",
+  "bars": 2,
+  "staves": 1,
+  "effort_min": 2
+ },
+ {
+  "index": 116,
+  "image": "v2/media/2019/05/inversion-3.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/inversion-3.png",
+  "lyl": "v2/lilylet/images/2019/05/inversion-3.lyl",
+  "chapter": "01-fundamentals/17-intervals.md",
+  "recommendation": "hand",
+  "caption": "Example 10. Intervallic inversion.",
+  "flags": [
+   "labels"
+  ],
+  "reason": "inversion",
+  "bars": 2,
+  "staves": 1,
+  "effort_min": 2
+ },
+ {
+  "index": 117,
+  "image": "v2/media/2019/05/imaginary.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/imaginary.png",
+  "lyl": "v2/lilylet/images/2019/05/imaginary.lyl",
+  "chapter": "01-fundamentals/17-intervals.md",
+  "recommendation": "hand",
+  "caption": "Example 11. Inverting an interval may help with identification by putting a simpler note on the bottom.",
+  "flags": [
+   "labels"
+  ],
+  "reason": "imaginary inversion",
+  "bars": 2,
+  "staves": 1,
+  "effort_min": 3
+ },
+ {
+  "index": 118,
+  "image": "v2/media/2019/05/white-key-sevenths.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/white-key-sevenths.png",
+  "lyl": "v2/lilylet/images/2019/05/white-key-sevenths.lyl",
+  "chapter": "01-fundamentals/17-intervals.md",
+  "recommendation": "hand",
+  "caption": "Example 15. White-key sevenths.",
+  "flags": [
+   "labels"
+  ],
+  "reason": "white-key sevenths",
+  "bars": 7,
+  "staves": 1,
+  "effort_min": 3
+ },
+ {
+  "index": 119,
+  "image": "v2/media/2019/05/enh-eq.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/enh-eq.png",
+  "lyl": "v2/lilylet/images/2019/05/enh-eq.lyl",
+  "chapter": "01-fundamentals/17-intervals.md",
+  "recommendation": "hand",
+  "caption": "Example 17. Use enharmonic equivalence to aid in identifying difficult intervals.",
+  "flags": [],
+  "reason": "enharmonic equivalence",
+  "bars": 2,
+  "staves": 1,
+  "effort_min": 2
+ },
+ {
+  "index": 121,
+  "image": "v2/media/2019/05/Screen-Shot-2020-08-17-at-1.39.09-PM.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/Screen-Shot-2020-08-17-at-1.39.09-PM.png",
+  "lyl": "v2/lilylet/images/2019/05/Screen-Shot-2020-08-17-at-1.39.09-PM.lyl",
+  "chapter": "01-fundamentals/18-triads.md",
+  "recommendation": "hand",
+  "caption": "Example 3. A triad with the root, third, and fifth labeled.",
+  "flags": [
+   "labels"
+  ],
+  "reason": "triad members",
+  "bars": 1,
+  "staves": 1,
+  "effort_min": 2
+ },
+ {
+  "index": 122,
+  "image": "v2/media/2019/05/d-major.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/d-major.png",
+  "lyl": "v2/lilylet/images/2019/05/d-major.lyl",
+  "chapter": "01-fundamentals/18-triads.md",
+  "recommendation": "hand",
+  "caption": "Example 8. Drawing a D major triad in four steps.",
+  "flags": [
+   "step-sequence"
+  ],
+  "reason": "drawing D major triad",
+  "bars": 4,
+  "staves": 1,
+  "effort_min": 3
+ },
+ {
+  "index": 123,
+  "image": "v2/media/2019/05/ab-minor.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/ab-minor.png",
+  "lyl": "v2/lilylet/images/2019/05/ab-minor.lyl",
+  "chapter": "01-fundamentals/18-triads.md",
+  "recommendation": "hand",
+  "caption": "Example 9. Drawing an A♭ minor triad in five steps.",
+  "flags": [
+   "step-sequence"
+  ],
+  "reason": "drawing Ab minor triad",
+  "bars": 5,
+  "staves": 1,
+  "effort_min": 3
+ },
+ {
+  "index": 124,
+  "image": "v2/media/2020/05/chord-members.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2020/05/chord-members.png",
+  "lyl": "v2/lilylet/images/2020/05/chord-members.lyl",
+  "chapter": "01-fundamentals/19-seventh-chords.md",
+  "recommendation": "hand",
+  "caption": "Example 2. A seventh chord with the root, third, fifth, and seventh labeled. Click to enlarge.",
+  "flags": [
+   "labels"
+  ],
+  "reason": "seventh-chord members",
+  "bars": 1,
+  "staves": 1,
+  "effort_min": 2
+ },
+ {
+  "index": 125,
+  "image": "v2/media/2020/05/dmaj.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2020/05/dmaj.png",
+  "lyl": "v2/lilylet/images/2020/05/dmaj.lyl",
+  "chapter": "01-fundamentals/19-seventh-chords.md",
+  "recommendation": "hand",
+  "caption": "Example 8. Spelling a D major-major seventh chord in four steps.",
+  "flags": [
+   "step-sequence"
+  ],
+  "reason": "D MM7",
+  "bars": 4,
+  "staves": 1,
+  "effort_min": 3
+ },
+ {
+  "index": 126,
+  "image": "v2/media/2020/05/abdim7.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2020/05/abdim7.png",
+  "lyl": "v2/lilylet/images/2020/05/abdim7.lyl",
+  "chapter": "01-fundamentals/19-seventh-chords.md",
+  "recommendation": "hand",
+  "caption": "Example 9. Spelling an A♭ fully diminished seventh chord in six steps. Click to enlarge.",
+  "flags": [
+   "step-sequence"
+  ],
+  "reason": "Ab o7",
+  "bars": 6,
+  "staves": 1,
+  "effort_min": 3
+ },
+ {
+  "index": 127,
+  "image": "v2/media/2025/07/Ab-Minor-Triad-in-Inversion.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2025/07/Ab-Minor-Triad-in-Inversion.png",
+  "lyl": "v2/lilylet/images/2025/07/Ab-Minor-Triad-in-Inversion.lyl",
+  "chapter": "01-fundamentals/20-inversion.md",
+  "recommendation": "hand",
+  "caption": "Example 3. Drawing an A♭ minor triad in first inversion in six steps.",
+  "flags": [
+   "step-sequence"
+  ],
+  "reason": "Ab minor first inversion",
+  "bars": 6,
+  "staves": 1,
+  "effort_min": 3
+ },
+ {
+  "index": 128,
+  "image": "v2/media/2025/07/D-Major-Major-Seventh-Chord-in-Inversion.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2025/07/D-Major-Major-Seventh-Chord-in-Inversion.png",
+  "lyl": "v2/lilylet/images/2025/07/D-Major-Major-Seventh-Chord-in-Inversion.lyl",
+  "chapter": "01-fundamentals/20-inversion.md",
+  "recommendation": "hand",
+  "caption": "Example 8. Spelling a D major-major seventh chord in inversion in five steps.",
+  "flags": [
+   "step-sequence"
+  ],
+  "reason": "D MM7 in inversion",
+  "bars": 5,
+  "staves": 1,
+  "effort_min": 3
+ }
+]

@@ -1,0 +1,52 @@
+[title "Magnificat, BWV 243: Fecit potentiam (augmented triad as III+6)"]
+[composer "Johann Sebastian Bach"]
+[staves "<s1-s2-a-t-b> {pr-pl}"]
+[instrument-s1 "Soprano I" "S I"]
+[instrument-s2 "Soprano II" "S II"]
+[instrument-a "Alto" "A"]
+[instrument-t "Tenor" "T"]
+[instrument-b "Bass" "B"]
+[instrument-pr-pl "Reduction"]
+
+\omit Score.TimeSignature \key d \major \time 4/4 \clef "treble" r4 r8 r16 cs'16 gs'8[ gs] r4
+\addlyrics { su -- per -- bos } \\\\
+\clef "treble" r4 r8 r16 a'16 d8[ d] r4
+\addlyrics { su -- per -- bos } \\\\
+\clef "treble" e8[ cs] r r16 e b'8[ b] r4
+\addlyrics { sper -- sit su -- per -- bos } \\\\
+\clef "treble_8" r8 e' cs[ a16 cs] b8[ gs] r4
+\addlyrics { di -- sper -- sit su -- per -- bos } \\\\
+\clef "bass" r4 r8 r16 a16 es8[ es] r4
+\addlyrics { su -- per -- bos } \\\\
+\staff "1" \clef "treble" <a' cs>16[ <e a> <cs e a> <e a cs>] <a cs e>[ <e a> <e a cs> <a cs e>] <gs b d gs>8[ <gs b d gs>] r4
+\addlyrics { "[D: V]" _ _ _ _ _ _ _ "b: viio7/v" _ } \\
+\staff "2" \clef "bass" r4 r16 e,[ cs a] es8[ es'] r4 | %1
+
+r4 fs'2 d4
+\addlyrics { men -- te } \\\\
+r4 d'2 as4
+\addlyrics { men -- te } \\\\
+r4 fs2 fs4
+\addlyrics { men -- te } \\\\
+r4 as'2 fs4
+\addlyrics { men -- te } \\\\
+r4 fs,2 fs4
+\addlyrics { men -- te } \\\\
+\staff "1" \stemUp r4 <fs as d fs>2 <fs as d fs>4
+\addlyrics { III+6 _ } \\
+\staff "1" \stemDown s4 d'4. e8[ fs d] \\
+\staff "2" r4 fs,,2 fs4 | %2
+
+b'2 b
+\addlyrics { cor -- dis } \\\\
+b'2 d,
+\addlyrics { cor -- dis } \\\\
+fs2 es
+\addlyrics { cor -- dis } \\\\
+d'2 b
+\addlyrics { cor -- dis } \\\\
+g2 gs
+\addlyrics { cor -- dis } \\\\
+\staff "1" <fs b d fs>2 <gs b d es>
+\addlyrics { VI7 viio65/v } \\
+\staff "2" g,2 gs | %3

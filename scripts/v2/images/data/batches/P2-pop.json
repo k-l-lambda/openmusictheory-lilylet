@@ -1,0 +1,72 @@
+[
+ {
+  "index": 247,
+  "image": "v2/media/2019/05/dorian-1.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/dorian-1.png",
+  "lyl": "v2/lilylet/images/2019/05/dorian-1.lyl",
+  "chapter": "07-popular-music/13-modal-schemas.md",
+  "recommendation": "hand",
+  "caption": "notation of natural minor vs dorian, with inflections of 6 highlighted",
+  "flags": [
+   "roman",
+   "scale-degrees"
+  ],
+  "reason": "natural minor vs dorian",
+  "bars": 16,
+  "staves": 4,
+  "effort_min": 8
+ },
+ {
+  "index": 248,
+  "image": "v2/media/2019/05/get_lucky.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/get_lucky.png",
+  "lyl": "v2/lilylet/images/2019/05/get_lucky.lyl",
+  "chapter": "07-popular-music/13-modal-schemas.md",
+  "recommendation": "hand",
+  "caption": "Example 11. “Get Lucky” is in B dorian and features a characteristic IV–i motion every four bars (shown here by the arrows) to emphasize Bmi as tonic.",
+  "flags": [
+   "lyrics",
+   "chord-symbols",
+   "roman"
+  ],
+  "reason": "Get Lucky voice+bass",
+  "bars": 4,
+  "staves": 2,
+  "effort_min": 10
+ },
+ {
+  "index": 249,
+  "image": "v2/media/2019/05/lydian-1.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/lydian-1.png",
+  "lyl": "v2/lilylet/images/2019/05/lydian-1.lyl",
+  "chapter": "07-popular-music/13-modal-schemas.md",
+  "recommendation": "hand",
+  "caption": "Example 13: Lydian is like major with a raised scale-degree 4. This results in a major II chord. (ivº and vii are not used.)",
+  "flags": [
+   "roman",
+   "scale-degrees"
+  ],
+  "reason": "major vs lydian",
+  "bars": 16,
+  "staves": 4,
+  "effort_min": 8
+ },
+ {
+  "index": 250,
+  "image": "v2/media/2019/05/forget-you.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/forget-you.png",
+  "lyl": "v2/lilylet/images/2019/05/forget-you.lyl",
+  "chapter": "07-popular-music/13-modal-schemas.md",
+  "recommendation": "hand",
+  "caption": "Example 15: “Forget You” loops a lydian cadence throughout the song. The background vocals always have the characteristic chromatic line.",
+  "flags": [
+   "lyrics",
+   "chord-symbols",
+   "roman"
+  ],
+  "reason": "Forget You, lydian cadence",
+  "bars": 5,
+  "staves": 2,
+  "effort_min": 12
+ }
+]

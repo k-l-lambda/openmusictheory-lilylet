@@ -1,0 +1,42 @@
+[title "Clarinet Concerto in A major, K. 622, III (period)"]
+[composer "Wolfgang Amadeus Mozart"]
+[staves "<cl> {vn-bs}"]
+[instrument-cl "Clarinet in A" "Cl."]
+[instrument-vn-bs "Strings" "Str."]
+
+\key c \major \time 6/8 \partial 8 \tempo "Allegro" \clef "treble" e'16(\p^\markup "basic idea"^\markup "antecedent"^\markup "Solo" f) \\\\
+\staff "1" \partial 8 \clef "treble" r8 \\
+\staff "2" \partial 8 \clef "bass" r8 | %1
+
+g''8-. g-. g-. a16( g fs g a g) \\\\
+\staff "1" <a' cs>8_\markup "Viol."\p[ r <a cs>] <a cs>[ <a cs> <a cs>] \\
+\staff "2" R2. | %2
+
+f'4.( e8) r c'16(^\markup "contrasting idea" b) \\\\
+\staff "1" <d e gs b>4.( <a' cs>8) r r \\
+\staff "2" R2. | %3
+
+a''8-. a-. a16( g) f8-. f16( e d c) \\\\
+\staff "1" <d a'>8-.[ <d a'>-.] r <fs a>-.[ <fs a>-.] r \\
+\staff "2" R2. | %4
+
+b'8([ c cs)] d^\markup "HC" r e16(^\markup "basic idea"^\markup "consequent" f) \\\\
+\staff "1" e8-.([ <e fs>-. <e g>-.] <e gs>) r a16( b) \\
+\staff "2" R2. | %5
+
+g''8-. g-. g-. a16( g fs g a g) \\\\
+\staff "1" <a' cs>8[ r <a cs>] <a cs>[ <a cs> <a cs>] \\
+\staff "2" R2. | %6
+
+a''4.(^\markup "(basic idea)"^\markup "(consequent)" c8) r c16(^\markup "contrasting idea" b) \\\\
+\staff "1" \stemUp <b' d>4.( <fs a cs>8) r r \\
+\staff "1" \stemDown e4( es8) s4. \\
+\staff "2" R2. | %7
+
+a''16([ g f e d c)] b([ c d e f b,)] \\\\
+\staff "1" <fs a>8 r r <b, d> r r \\
+\staff "2" d8 r r e,8 r r | %8
+
+c'4(^\markup "PAC" e8) c4 s8 \\\\
+\staff "1" cs4( e8) cs4 s8 \\
+\staff "2" a8[ a a] a r s | %9

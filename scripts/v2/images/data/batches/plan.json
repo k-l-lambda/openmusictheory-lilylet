@@ -1,0 +1,501 @@
+{
+ "batches": [
+  {
+   "name": "J1-jazz",
+   "items": [
+    221,
+    222,
+    224,
+    225,
+    226,
+    227,
+    228,
+    232,
+    "bebop"
+   ],
+   "effort_min": 27
+  },
+  {
+   "name": "J2-jazz",
+   "items": [
+    229,
+    235,
+    236
+   ],
+   "effort_min": 37
+  },
+  {
+   "name": "C1-counterpoint",
+   "items": [
+    137,
+    138,
+    139,
+    140,
+    143,
+    145
+   ],
+   "effort_min": 51
+  },
+  {
+   "name": "X1-chromatic-hand",
+   "items": [
+    203,
+    204,
+    205,
+    209,
+    210,
+    211,
+    213,
+    214,
+    215,
+    216
+   ],
+   "effort_min": 38
+  },
+  {
+   "name": "X2-chromatic",
+   "items": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202
+   ],
+   "effort_min": 118
+  },
+  {
+   "name": "F1-form",
+   "items": [
+    149,
+    150,
+    151,
+    154,
+    160,
+    162
+   ],
+   "effort_min": 103
+  },
+  {
+   "name": "F2-form",
+   "items": [
+    157,
+    158,
+    159,
+    161
+   ],
+   "effort_min": 95
+  },
+  {
+   "name": "F3-form",
+   "items": [
+    163,
+    164,
+    166,
+    167,
+    165,
+    168
+   ],
+   "effort_min": 97
+  },
+  {
+   "name": "F4-form",
+   "items": [
+    169,
+    170,
+    172,
+    173,
+    174
+   ],
+   "effort_min": 109
+  },
+  {
+   "name": "F5-form",
+   "items": [
+    175,
+    176,
+    177
+   ],
+   "effort_min": 105
+  },
+  {
+   "name": "F6-form",
+   "items": [
+    178,
+    179,
+    180
+   ],
+   "effort_min": 80
+  },
+  {
+   "name": "R1-rhythm",
+   "items": [
+    317,
+    327
+   ],
+   "effort_min": 40
+  },
+  {
+   "name": "P1-pop",
+   "items": [
+    241,
+    242,
+    243,
+    244,
+    245,
+    246
+   ],
+   "effort_min": 67
+  },
+  {
+   "name": "P2-pop",
+   "items": [
+    247,
+    248,
+    249,
+    250
+   ],
+   "effort_min": 38
+  },
+  {
+   "name": "T1-posttonal",
+   "items": [
+    256,
+    257,
+    258,
+    263,
+    265,
+    266,
+    267
+   ],
+   "effort_min": 33
+  },
+  {
+   "name": "T2-twelvetone-orch",
+   "items": [
+    269,
+    270,
+    271,
+    273,
+    274,
+    275
+   ],
+   "effort_min": 101
+  },
+  {
+   "name": "U1-fund",
+   "items": [
+    8,
+    10,
+    11,
+    20,
+    21,
+    22,
+    23,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+   ],
+   "effort_min": 37
+  },
+  {
+   "name": "U2-fund",
+   "items": [
+    43,
+    44,
+    45,
+    46,
+    47,
+    51,
+    54,
+    55,
+    59,
+    60,
+    61,
+    62,
+    63,
+    66,
+    67,
+    68
+   ],
+   "effort_min": 38
+  },
+  {
+   "name": "U3-fund",
+   "items": [
+    65,
+    72,
+    73,
+    76,
+    78,
+    85,
+    86,
+    88,
+    89,
+    90,
+    93
+   ],
+   "effort_min": 43
+  },
+  {
+   "name": "U4-fund",
+   "items": [
+    94,
+    95,
+    96,
+    107,
+    113
+   ],
+   "effort_min": 49
+  },
+  {
+   "name": "U5-fund",
+   "items": [
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    108,
+    111
+   ],
+   "effort_min": 39
+  },
+  {
+   "name": "U6-fund",
+   "items": [
+    115,
+    116,
+    117,
+    118,
+    119,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128
+   ],
+   "effort_min": 34
+  },
+  {
+   "name": "U7-fund",
+   "items": [
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136
+   ],
+   "effort_min": 28
+  },
+  {
+   "name": "E1-ear",
+   "items": [
+    286,
+    287,
+    288
+   ],
+   "effort_min": 40
+  },
+  {
+   "name": "E2-ear",
+   "items": [
+    291,
+    292,
+    293
+   ],
+   "effort_min": 45
+  },
+  {
+   "name": "E3-ear",
+   "items": [
+    296,
+    297,
+    298
+   ],
+   "effort_min": 45
+  },
+  {
+   "name": "E4-ear",
+   "items": [
+    301,
+    302,
+    303
+   ],
+   "effort_min": 48
+  },
+  {
+   "name": "E5-ear",
+   "items": [
+    306,
+    307,
+    308
+   ],
+   "effort_min": 48
+  },
+  {
+   "name": "E6-ear",
+   "items": [
+    311,
+    312,
+    313
+   ],
+   "effort_min": 48
+  }
+ ],
+ "skipped": [
+  {
+   "index": 83,
+   "image": "v2/media/2020/01/Measures-and-Barlines.png",
+   "chapter": "01-fundamentals/10-simple-meter-and-time-signatures.md",
+   "why": "percussion notation (user decision)"
+  },
+  {
+   "index": 84,
+   "image": "v2/media/2020/05/Screen-Shot-2020-05-12-at-3.32.33-PM-1.png",
+   "chapter": "01-fundamentals/10-simple-meter-and-time-signatures.md",
+   "why": "percussion notation (user decision)"
+  },
+  {
+   "index": 87,
+   "image": "v2/media/2020/01/beaming-beat-unit.png",
+   "chapter": "01-fundamentals/10-simple-meter-and-time-signatures.md",
+   "why": "percussion notation (user decision)"
+  },
+  {
+   "index": 91,
+   "image": "v2/media/2020/01/ties-clarify-beat.png",
+   "chapter": "01-fundamentals/10-simple-meter-and-time-signatures.md",
+   "why": "percussion notation (user decision)"
+  },
+  {
+   "index": 92,
+   "image": "v2/media/2020/05/Compound-Meter-Time-Signature.png",
+   "chapter": "01-fundamentals/11-compound-meters-and-time-signatures.md",
+   "why": "percussion notation (user decision)"
+  },
+  {
+   "index": 105,
+   "image": "v2/media/2019/05/Screen-Shot-2020-06-08-at-1.57.09-PM-300x225.png",
+   "chapter": "01-fundamentals/13-major-scales.md",
+   "dup_of": 111
+  },
+  {
+   "index": 109,
+   "image": "v2/media/2020/05/Screen-Shot-2020-06-08-at-1.11.04-PM.png",
+   "chapter": "01-fundamentals/14-minor-scales.md",
+   "dup_of": 100
+  },
+  {
+   "index": 110,
+   "image": "v2/media/2019/05/Screen-Shot-2020-06-08-at-1.51.08-PM-2-e1658435801975.png",
+   "chapter": "01-fundamentals/14-minor-scales.md",
+   "dup_of": 104
+  },
+  {
+   "index": 238,
+   "image": "v2/media/2022/12/drum_key-e1687967119512.png",
+   "chapter": "07-popular-music/02-drumbeats.md",
+   "why": "percussion notation (user decision)"
+  },
+  {
+   "index": 272,
+   "image": "v2/media/2021/05/Rhythmic-cycles.png",
+   "chapter": "09-twelve-tone-music/05-composing-with-twelve-tones.md",
+   "why": "percussion notation (user decision)"
+  },
+  {
+   "index": 276,
+   "image": "v2/media/2022/10/tresillo-grouping-300x195.png",
+   "chapter": "11-rhythm-and-meter/06-metrical-dissonance.md",
+   "why": "percussion notation (user decision)"
+  },
+  {
+   "index": 284,
+   "image": "v2/media/2022/06/OMT-SDR-e1656617611791.jpg",
+   "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+   "why": "percussion notation (user decision)"
+  },
+  {
+   "index": 285,
+   "image": "v2/media/2022/07/OMT-T1-CC-e1656706984911.jpg",
+   "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+   "why": "percussion notation (user decision)"
+  },
+  {
+   "index": 289,
+   "image": "v2/media/2022/06/OMT-SQR-e1656618135193.jpg",
+   "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+   "why": "percussion notation (user decision)"
+  },
+  {
+   "index": 290,
+   "image": "v2/media/2022/07/OMT-S2-2PR-e1657131309755.jpg",
+   "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+   "why": "percussion notation (user decision)"
+  },
+  {
+   "index": 294,
+   "image": "v2/media/2022/07/OMT-S3-R-e1657569179616.jpg",
+   "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+   "why": "percussion notation (user decision)"
+  },
+  {
+   "index": 295,
+   "image": "v2/media/2022/07/OMT-S3-2PR-e1657305442179.jpg",
+   "chapter": "14-ear-training/02-examples-for-sight-counting-and-sight-singing.md",
+   "why": "percussion notation (user decision)"
+  },
+  {
+   "index": 299,
+   "image": "v2/media/2022/07/OMT-S4-R-2-e1657652011988.jpg",
+   "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+   "why": "percussion notation (user decision)"
+  },
+  {
+   "index": 300,
+   "image": "v2/media/2022/07/OMT-S4-2PR-3-e1657652422328.jpg",
+   "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+   "why": "percussion notation (user decision)"
+  },
+  {
+   "index": 304,
+   "image": "v2/media/2022/07/OMT-S5-Rhythms-2-e1658412568382.jpg",
+   "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+   "why": "percussion notation (user decision)"
+  },
+  {
+   "index": 305,
+   "image": "v2/media/2022/07/OMT-S5-2PR-e1658412890155.jpg",
+   "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+   "why": "percussion notation (user decision)"
+  },
+  {
+   "index": 309,
+   "image": "v2/media/2022/07/OMT-S6-R-2-e1658760305190.jpg",
+   "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+   "why": "percussion notation (user decision)"
+  },
+  {
+   "index": 310,
+   "image": "v2/media/2022/07/OMT-S6-2PR--e1658774921802.jpg",
+   "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+   "why": "percussion notation (user decision)"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+[title "Durch die bunten Rosenhecken, bars 1-3"]
+[composer "Louise Reichardt"]
+[staves "<voice> {pr-pl}"]
+[instrument-voice "Voice"]
+[instrument-pr-pl "Piano"]
+
+\key f \minor \time 4/4 \clef "treble" \tempo "Unruhig und klagend" \partial 4 f8^\markup "(circled)" af \bar ".|:"
+\addlyrics { Durch die } \\\\
+\staff "1" \clef "treble" r4 \\
+\staff "2" \clef "bass" r4 | %0
+
+c'4. c8 df4. bf8
+\addlyrics { bun -- ten Ro -- sen -- } \\\\
+\staff "1" r8 <af c f>[ <af c f> <af c f>] r8 <bf df f>[ <bf df f> <bf df f>] \\
+\staff "2" <f,, f'>4_\markup "(circled)" r <f f'> r | %1
+
+c'4 c r c8 af
+\addlyrics { he -- cken flat -- tern } \\\\
+\staff "1" r8 <af c f>[ <af c f> <af c f>] r8 <af c f>[ <af c f> <af c f>] \\
+\staff "2" <f,, f'>4 r <f f'> r | %2
+
+g'4. g8 af4. g8
+\addlyrics { Schmet -- ter -- lin -- ge } \\\\
+\staff "1" r8 <df f g>[ <df f g> <df f g>] r8 <d f af>[ <d f af> <d f af>] \\
+\staff "2" bf4 r b r | %3

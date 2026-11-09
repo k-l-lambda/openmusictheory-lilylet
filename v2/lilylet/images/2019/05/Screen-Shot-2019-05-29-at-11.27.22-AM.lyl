@@ -1,0 +1,3 @@
+[title "Tenor clef: letter names of the spaces"]
+
+\omit Score.TimeSignature \clef "tenor" e,4^\markup "E" g^\markup "G" b^\markup "B" d^\markup "D" \bar "|." | %1

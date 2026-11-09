@@ -1,0 +1,14 @@
+[title "A doubling error"]
+[staves "{-}"]
+
+\staff "1" \key c \major \time 2/4 \clef "treble" \stemUp b'2 ^\markup "Incorrect" \\
+\staff "1" \stemDown f2 _\markup "doubled leading tone!" \\
+\staff "2" \clef "bass" \stemUp b2 \\
+\staff "2" \stemDown d,2
+\addlyrics { "C: vii°⁶" } | %1
+
+\staff "1" \stemUp d'2 ^\markup "Correct" \\
+\staff "1" \stemDown f2 \\
+\staff "2" \stemUp b2 \\
+\staff "2" \stemDown d,2
+\addlyrics { "C: vii°⁶" } | %2

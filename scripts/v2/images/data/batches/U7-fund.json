@@ -1,0 +1,121 @@
+[
+ {
+  "index": 130,
+  "image": "v2/media/2022/08/stemming.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2022/08/stemming.png",
+  "lyl": "v2/lilylet/images/2022/08/stemming.lyl",
+  "chapter": "01-fundamentals/23-chords-in-satb-style.md",
+  "recommendation": "hand",
+  "caption": "Example 1. A stemming error.",
+  "flags": [
+   "incorrect-correct-pair",
+   "roman"
+  ],
+  "reason": "SATB stemming error",
+  "bars": 2,
+  "staves": 2,
+  "effort_min": 4
+ },
+ {
+  "index": 131,
+  "image": "v2/media/2022/08/wrong-notes.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2022/08/wrong-notes.png",
+  "lyl": "v2/lilylet/images/2022/08/wrong-notes.lyl",
+  "chapter": "01-fundamentals/23-chords-in-satb-style.md",
+  "recommendation": "hand",
+  "caption": "Example 2. A chord construction error.",
+  "flags": [
+   "incorrect-correct-pair",
+   "roman"
+  ],
+  "reason": "SATB wrong notes",
+  "bars": 2,
+  "staves": 2,
+  "effort_min": 4
+ },
+ {
+  "index": 132,
+  "image": "v2/media/2022/08/range.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2022/08/range.png",
+  "lyl": "v2/lilylet/images/2022/08/range.lyl",
+  "chapter": "01-fundamentals/23-chords-in-satb-style.md",
+  "recommendation": "hand",
+  "caption": "Example 3. Vocal ranges.",
+  "flags": [
+   "labels",
+   "glissando-lines"
+  ],
+  "reason": "vocal ranges",
+  "bars": 4,
+  "staves": 4,
+  "effort_min": 4
+ },
+ {
+  "index": 133,
+  "image": "v2/media/2020/05/too-high.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2020/05/too-high.png",
+  "lyl": "v2/lilylet/images/2020/05/too-high.lyl",
+  "chapter": "01-fundamentals/23-chords-in-satb-style.md",
+  "recommendation": "hand",
+  "caption": "Example 4. A range error.",
+  "flags": [
+   "incorrect-correct-pair",
+   "roman"
+  ],
+  "reason": "SATB range error",
+  "bars": 2,
+  "staves": 2,
+  "effort_min": 4
+ },
+ {
+  "index": 134,
+  "image": "v2/media/2022/08/spacing.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2022/08/spacing.png",
+  "lyl": "v2/lilylet/images/2022/08/spacing.lyl",
+  "chapter": "01-fundamentals/23-chords-in-satb-style.md",
+  "recommendation": "hand",
+  "caption": "Example 15. A spacing error.",
+  "flags": [
+   "incorrect-correct-pair",
+   "roman"
+  ],
+  "reason": "SATB spacing error",
+  "bars": 2,
+  "staves": 2,
+  "effort_min": 4
+ },
+ {
+  "index": 135,
+  "image": "v2/media/2022/08/voice-crossing.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2022/08/voice-crossing.png",
+  "lyl": "v2/lilylet/images/2022/08/voice-crossing.lyl",
+  "chapter": "01-fundamentals/23-chords-in-satb-style.md",
+  "recommendation": "hand",
+  "caption": "Example 6. A voice crossing error.",
+  "flags": [
+   "incorrect-correct-pair",
+   "roman"
+  ],
+  "reason": "SATB voice crossing",
+  "bars": 2,
+  "staves": 2,
+  "effort_min": 4
+ },
+ {
+  "index": 136,
+  "image": "v2/media/2022/08/doubled_lt.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2022/08/doubled_lt.png",
+  "lyl": "v2/lilylet/images/2022/08/doubled_lt.lyl",
+  "chapter": "01-fundamentals/23-chords-in-satb-style.md",
+  "recommendation": "hand",
+  "caption": "Example 7. A doubling error.",
+  "flags": [
+   "incorrect-correct-pair",
+   "roman"
+  ],
+  "reason": "SATB doubled leading tone",
+  "bars": 2,
+  "staves": 2,
+  "effort_min": 4
+ }
+]

@@ -1,0 +1,5 @@
+[title "Middle C on the grand staff (vertically expanded)"]
+[staves "{-}"]
+
+\staff "1" \omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" s2 s2 \stemUp c2 d e \\
+\staff "2" \clef "bass" \stemDown a2 b c s2 s2 \undo \omit Score.BarLine \bar "|." | %1

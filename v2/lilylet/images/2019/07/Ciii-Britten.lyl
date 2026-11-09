@@ -1,0 +1,46 @@
+[title "Four Sea Interludes: attack-sustain detail (flutes and harp)"]
+[composer "Benjamin Britten"]
+[staves "<f1-f2>,{h1-h2}"]
+[instrument-f1 "Fl.1"]
+[instrument-f2 "Fl.2"]
+[instrument-h1-h2 "Harp"]
+
+\key ef \major \numericTimeSignature \time 2/2 \clef "treble" \tuplet 3/2 { bf''8->\f[ bf,->] r } r4 r2 \\\\
+\clef "treble" \tuplet 3/2 { bf'4\portato\pp bf8->~ } bf2.~ \\\\
+\staff "1" \clef "treble" \tuplet 3/2 { bf''8->\f[ bf,] s8 } r4 r2 \\
+\staff "2" \clef "treble" \tuplet 3/2 { s8 s bf^\markup "o" } r4 r2 | %1
+
+R1 \\\\
+bf'2 r \\\\
+\staff "1" R1 \\
+\staff "2" R1 | %2
+
+\tuplet 3/2 { bf''8->\f[ bf,->] r } r4 r2 \\\\
+\tuplet 3/2 { bf'4\portato\pp bf8->~ } bf2.~ \\\\
+\staff "1" \tuplet 3/2 { bf''8->\f[ bf,] s8 } r4 r2 \\
+\staff "2" \tuplet 3/2 { s8 s bf^\markup "o" } r4 r2 | %3
+
+R1 \\\\
+bf'1~ \\\\
+\staff "1" R1 \\
+\staff "2" R1 | %4
+
+R1 \\\\
+bf'2 r \\\\
+\staff "1" R1 \\
+\staff "2" R1 | %5
+
+\tuplet 3/2 { c''8->[ c,->] r } r4 \tuplet 3/2 { af''8->[ af,->] r } r4 \\\\
+\tuplet 3/2 { c'4\portato c8->~ } c4 \tuplet 3/2 { af'4\portato^\markup "[portato]" af8->~ } af4~ \\\\
+\staff "1" \tuplet 3/2 { c''8->[ c,] s8 } r4 \tuplet 3/2 { af''8->[ af,] s8 } r4 \\
+\staff "2" \tuplet 3/2 { s8 s c^\markup "o" } r4 \tuplet 3/2 { s8 s af'^\markup "o" } r4 | %6
+
+r2 \tuplet 3/2 { c''8->[ c,->] r } r4 \\\\
+af''2 \tuplet 3/2 { c,4\portato c8->~ } c4 \\\\
+\staff "1" r2 \tuplet 3/2 { c''8->[ c,] s8 } r4 \\
+\staff "2" r2 \tuplet 3/2 { s8 s c^\markup "o" } r4 | %7
+
+\tuplet 3/2 { bf''8->[ bf,->] r } r4 r2 \\\\
+\tuplet 3/2 { bf'4\portato bf8->~ } bf2. \\\\
+\staff "1" \tuplet 3/2 { bf''8->[ bf,] s8 } r4 r2 \\
+\staff "2" \tuplet 3/2 { s8 s bf^\markup "o" } r4 r2 | %8

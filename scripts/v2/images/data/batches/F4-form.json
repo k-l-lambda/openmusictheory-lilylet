@@ -1,0 +1,87 @@
+[
+ {
+  "index": 169,
+  "image": "v2/media/2019/07/Example_011_cbece-e1623951115962.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/Example_011_cbece-e1623951115962.png",
+  "lyl": "v2/lilylet/images/2019/07/Example_011_cbece-e1623951115962.lyl",
+  "chapter": "04-form/03-hybrid-phrase-level-forms.md",
+  "recommendation": "omr+hand",
+  "caption": "A contrasting beginning + extended cadential ending in Haydn's Symphony 95, Movement 3, measures 1-8",
+  "flags": [
+   "form-brackets"
+  ],
+  "reason": "contrasting beginning + extended cadential (minuet)",
+  "bars": 8,
+  "staves": 2,
+  "effort_min": 15
+ },
+ {
+  "index": 170,
+  "image": "v2/media/2019/07/Example_012_cbcons-e1623951073372.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/Example_012_cbcons-e1623951073372.png",
+  "lyl": "v2/lilylet/images/2019/07/Example_012_cbcons-e1623951073372.lyl",
+  "chapter": "04-form/03-hybrid-phrase-level-forms.md",
+  "recommendation": "omr+hand",
+  "caption": "A contrasting beginning + consequent in Haydn's Symphony 87, movement 3, measures 1-8",
+  "flags": [
+   "form-brackets"
+  ],
+  "reason": "Haydn symphony CB+consequent (reduction)",
+  "bars": 8,
+  "staves": 2,
+  "effort_min": 15
+ },
+ {
+  "index": 172,
+  "image": "v2/media/2019/07/Example_001_Repetition_Sheldon_Bright_Lights.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/Example_001_Repetition_Sheldon_Bright_Lights.png",
+  "lyl": "v2/lilylet/images/2019/07/Example_001_Repetition_Sheldon_Bright_Lights.lyl",
+  "chapter": "04-form/04-expansion-and-contraction.md",
+  "recommendation": "hand",
+  "caption": "Example 1 . Internal expansion via exact repetition in Robert Sheldon’s Bright Lights! ( 0:49–1:03 ).",
+  "flags": [
+   "form-brackets",
+   "circles"
+  ],
+  "reason": "Sheldon \"Bright Lights\" flute part, exact repetition",
+  "bars": 10,
+  "staves": 1,
+  "effort_min": 12
+ },
+ {
+  "index": 173,
+  "image": "v2/media/2021/06/combined-Example_002b_Repetition_Mozart_447-3.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2021/06/combined-Example_002b_Repetition_Mozart_447-3.png",
+  "lyl": "v2/lilylet/images/2021/06/combined-Example_002b_Repetition_Mozart_447-3.lyl",
+  "chapter": "04-form/04-expansion-and-contraction.md",
+  "recommendation": "omr",
+  "caption": "Example 2. Internal expansion via varied repetition in Mozart’s Horn Concerto, K. 447, I, mm. 1–9 ( 0:00–0:18 ).",
+  "flags": [
+   "scan",
+   "form-brackets"
+  ],
+  "reason": "orchestral varied repetition (two systems)",
+  "bars": 12,
+  "staves": 12,
+  "effort_min": 45
+ },
+ {
+  "index": 174,
+  "image": "v2/media/2019/07/Example_003a_Stretching_Schubert_459.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/Example_003a_Stretching_Schubert_459.png",
+  "lyl": "v2/lilylet/images/2019/07/Example_003a_Stretching_Schubert_459.lyl",
+  "chapter": "04-form/04-expansion-and-contraction.md",
+  "recommendation": "omr+hand",
+  "caption": "Example 3. Internal expansion via stretching in Schubert’s Piano Sonata D. 459, I, mm. 1–9 ( 0:00–0:17 ).",
+  "flags": [
+   "scan",
+   "form-brackets",
+   "roman",
+   "greyed"
+  ],
+  "reason": "Schubert stretching, Ger+6",
+  "bars": 9,
+  "staves": 2,
+  "effort_min": 22
+ }
+]

@@ -1,0 +1,62 @@
+[
+ {
+  "index": 269,
+  "image": "v2/media/2021/05/Solo.png",
+  "lyl": "v2/lilylet/images/2021/05/Solo.lyl",
+  "chapter": "09-twelve-tone-music/05-composing-with-twelve-tones.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Matches note for note. Bar 3 6th 16th: printed F with no accidental after F#3 earlier in the bar, so it's F#3 (fits the C-D-F# trichord); lilylet redraws the sharp (repeated-accidental bug). 'pp, echo' rendered as pp + 'echo' markup below. Single-staff [staves \"va\"] + [instrument-va] crashed Verovio (RuntimeError: null function), so no instrument name header."
+ },
+ {
+  "index": 270,
+  "image": "v2/media/2021/05/Moto-perpetuo.png",
+  "lyl": "v2/lilylet/images/2021/05/Moto-perpetuo.lyl",
+  "chapter": "09-twelve-tone-music/05-composing-with-twelve-tones.md",
+  "method": "omr",
+  "status": "ok-with-notes",
+  "omr": "sys1 quality 99.6% (solved 0/issue 0/fatal 0 reported); sys2 95.3%, solved 3 / issue 1 / fatal 0; sys3 98.0%, solved 6 / issue 0 / fatal 0 (3x upscale per system)",
+  "notes": "16 bars (not 12). The pitches match row form [0,2,6,10,11,9,8,3,5,1,4,7] on G trichord by trichord. OMR fixes: Vn2 bar 1 ff->f, Vn2 bar 2 p moved to 2nd note, Vn1 bar 7 octave, Vn2 bar 8 octave (E4/D#4), Va/Vc bar 1 accents removed (not printed), bar 10 p added to all parts, Vc bar 10 spurious fingering '1' removed, bar 16 Vn1 f added. Added tempo 'Moto perpetuo.' half=120 and the 'pizz.' text. Bartok (snap) pizzicato symbol not expressible: shown as markup 'snap pizz.' (bars 1, 16). 'New cycle begins (piece continues)' as markup. Instrument names not printed in the original, so no [instrument-*]. The original spells Gb in Vn1 against F# elsewhere; kept."
+ },
+ {
+  "index": 271,
+  "image": "v2/media/2021/05/Rows_and_rotations.png",
+  "lyl": "v2/lilylet/images/2021/05/Rows_and_rotations.md",
+  "chapter": "09-twelve-tone-music/05-composing-with-twelve-tones.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": "one section at 1/4 scale: quality 95.7%, solved 2 / issue 0 / fatal 0, but only ~4 of 48 notes read, so unusable",
+  "notes": "OMR unusable (stemless notes), so written by hand from programmatic notehead detection (staff-line positions), each bar checked against the image; 192 notes. .md with 4 lyl blocks (Initial row; Rotate +3; Rotate +/- 6; Rotate +9 (-3)), each with two grand staves. Labels (Trichord A..D, A(i), B(r), B(ri), 'Now I2') as markup; the section-1 side labels ('Hexachord-combinatorial pair:', 'Both rows in retrograde and rotated by 6') as instrument names. Original noteheads have no stems; lilylet can't hide stems, so stems are drawn. No time signature (omitted, 3/4 kept for bar checks)."
+ },
+ {
+  "index": 273,
+  "image": "v2/media/2019/07/C3-Chord-Spacing-Types.png",
+  "lyl": "v2/lilylet/images/2019/07/C3-Chord-Spacing-Types.lyl",
+  "chapter": "10-orchestration/01-core-principles-of-orchestration.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "4 two-voice dyad pairs (upper voice stem up, lower stem down) with empty bars between, as printed; labels as markup. Verovio doesn't offset the two voices' noteheads the way the original does, and the Overlap unison G4 is drawn as one shared head (original: two heads side by side). No time signature printed (omitted; 1/2 kept for bar checks)."
+ },
+ {
+  "index": 274,
+  "image": "v2/media/2019/07/Ciii-Britten.png",
+  "lyl": "v2/lilylet/images/2019/07/Ciii-Britten.lyl",
+  "chapter": "10-orchestration/02-subtle-color-changes.md",
+  "method": "omr+hand",
+  "status": "ok-with-notes",
+  "omr": "quality 94.9%, solved 18 / issue 4 / fatal 0 (2x upscale), but structurally wrong: 32 bars instead of 8, fake 5/4 tuplets, merged and split staves",
+  "notes": "OMR output was used only to confirm pitches; the bars were rewritten by hand (8 bars, Eb major, 2/2). Pitches checked with notehead detection. Not expressible: (1) the harp's cross-staff triplet beam. \\staff \"2\" inside a \\tuplet is dropped in MEI (the note stays on staff 1), so the low harmonic note is in a separate LH voice inside a spacer triplet, and the beam to the RH is lost. (2) Harp harmonic circles are shown as markup 'o'; l.v. ties on the harp harmonics are omitted. (3) Fl.2's bracketed portato in bar 6 is shown as portato + '[portato]' markup. lilylet bug: a tie starting on the last note inside a \\tuplet loses its end (tie='i', next note gets no 't'), in MEI. Verovio still draws the Fl.2 ties in bars 1 and 3 but not the eighth-to-quarter ties in bars 6 and 7. Repro: \\time 2/2 \\tuplet 3/2 { c''4 c8~ } c4 r2 |"
+ },
+ {
+  "index": 275,
+  "image": "v2/media/2019/07/Diii-Berg-Wozzeck.png",
+  "lyl": "v2/lilylet/images/2019/07/Diii-Berg-Wozzeck.lyl",
+  "chapter": "10-orchestration/02-subtle-color-changes.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "3 alto-clef staves (Wind/Brass/Strings, bracketed), 5 bars, all B3. Instrument labels as \\addlyrics lanes (stacked rows such as 'Solo / 1st Vln / (muted)', '4 Tpt / B.Tbn'). The subtitle carries the header text; the fff-chord text is markup on bar 5. Ties drawn only where two notes are adjacent. The original's sustain arcs that run into rests or off the last bar (bars 1, 3, 5) are omitted. The pppp-to-fff hairpin spans all staves under the strings in the original. Here it is on the horn's first note (dynamics on rests are dropped) and runs to fff on bar 5 wind; across the system break only its end is drawn. No time signature printed (omitted; 4/4 kept for bar checks)."
+ }
+]

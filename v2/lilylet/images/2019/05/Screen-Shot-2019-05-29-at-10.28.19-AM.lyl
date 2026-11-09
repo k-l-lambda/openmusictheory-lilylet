@@ -1,0 +1,3 @@
+[title "Treble clef: letter names of the lines"]
+
+\omit Score.TimeSignature \clef "treble" e4^\markup "E" g^\markup "G" b^\markup "B" d^\markup "D" f^\markup "F" | %1

@@ -1,0 +1,32 @@
+[
+ {
+  "index": 301,
+  "image": "v2/media/2022/07/OMT-S4-Maj-4-copy-1-e1657895292228.jpg",
+  "lyl": "v2/lilylet/images/2022/07/OMT-S4-Maj-4-copy-1-e1657895292228.md",
+  "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+  "method": "omr",
+  "status": "ok",
+  "omr": "M25 quality 100%, solved 1/issue 0/fatal 0; M26 100%, 0/0/0; M27 92.8%, 0/0/0; M28 100%, 6/0/0 (crops upscaled 3x)",
+  "notes": "M25 (F, 3/8): OMR read bar 3 dotted eighth as plain eighth, fixed. M26 (D, 3/4): removed spurious staccato bar 2. M27 (G, 2/4, bass, 8th pickup): hairpin end added. M28 (Eb, 4/4 bass): hairpin ends added (bars 4, 6). Pitches checked bar by bar against enlarged crops; all OMR pitches were right."
+ },
+ {
+  "index": 302,
+  "image": "v2/media/2022/07/OMT-S4-Min-2-copy-e1658341159739.jpg",
+  "lyl": "v2/lilylet/images/2022/07/OMT-S4-Min-2-copy-e1658341159739.md",
+  "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+  "method": "omr",
+  "status": "ok-with-notes",
+  "omr": "M29 quality 100%, solved 2/issue 0/fatal 0; M30 97.2%, 7/0/0; M31 100%, 4/0/0; M32 100%, 7/0/0 (crops upscaled 3x)",
+  "notes": "Pitches and rhythms from OMR were all right (checked against enlarged crops); fixes were hairpin ends only (M31 bars 2,3,6,7; M32), b\\rest -> r. M32 (Bb minor, 2/8): the original's three hairpins each cross a barline (cresc bars 1-2, dim 3-4, cresc 5-6); because of a lilylet encoder bug (stale cross-measure hairpin carry) only one cross-bar hairpin can render correctly, so the first two are shortened to end inside bars 1 and 3."
+ },
+ {
+  "index": 303,
+  "image": "v2/media/2022/07/OMT-S4-2PM-3-e1659019793142.jpg",
+  "lyl": "v2/lilylet/images/2022/07/OMT-S4-2PM-3-e1659019793142.md",
+  "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+  "method": "omr+hand",
+  "status": "ok",
+  "omr": "2-PM7 quality 100%, solved 8/issue 0/fatal 0; 2-PM8 99.8%, 8/1/0 (crops upscaled 3x)",
+  "notes": "2-PM7 (Bb major, 3/4, quarter pickup): OMR pitches/rhythms right; added cresc. text (bar 5, both parts), fixed bar-4 dim end, merged into braced {u-l} part pair. 2-PM8 (B minor, 2/8, dotted-eighth pickup): OMR garbled bars 3-8 (fake tuplets, a stray third voice, dropped notes), transcribed those by hand against pitch-grid crops; added mf< f, dim., cresc. text and missing dynamics. The 'f dim.' renders as f with dim. under it, not side by side."
+ }
+]

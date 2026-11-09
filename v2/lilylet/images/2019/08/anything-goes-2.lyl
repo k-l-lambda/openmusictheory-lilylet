@@ -1,0 +1,4 @@
+[title "Anything Goes overture, drum rhythm at 0:52"]
+[composer "Cole Porter"]
+
+\key c \major \numericTimeSignature \time 4/4 \clef "treble" f8[ f16 f] f8[ f] r8 f r f \bar ":|." | %1

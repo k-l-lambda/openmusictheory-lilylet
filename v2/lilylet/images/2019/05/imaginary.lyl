@@ -1,0 +1,4 @@
+[title "Inverting an interval to put a simpler note on the bottom"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "bass" \stemUp af2 eff \\
+\stemDown eff,2 af, \bar "|" | %1

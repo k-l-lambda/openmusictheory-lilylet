@@ -1,0 +1,92 @@
+[
+ {
+  "index": 221,
+  "image": "v2/media/2019/08/anything-goes-1.png",
+  "lyl": "v2/lilylet/images/2019/08/anything-goes-1.md",
+  "chapter": "06-jazz/01-swing-rhythms.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Two separate one-bar examples (notated / sounded) as two lyl blocks in a .md; the boxed blue titles became paragraph text. Box styling not expressible."
+ },
+ {
+  "index": 222,
+  "image": "v2/media/2019/08/anything-goes-2.png",
+  "lyl": "v2/lilylet/images/2019/08/anything-goes-2.lyl",
+  "chapter": "06-jazz/01-swing-rhythms.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Boxed title \"Drum rhythm at 0:52\" kept only as the [title]. Final repeat barline drawn."
+ },
+ {
+  "index": 224,
+  "image": "v2/media/2019/08/extensions.png",
+  "lyl": "v2/lilylet/images/2019/08/extensions.lyl",
+  "chapter": "06-jazz/02-chord-symbols.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Image is a cropped chord (C4 E4 G4 Bb4 D5 F5 A5) with no clef visible; treble clef assumed (only reading consistent with the ledger lines). The labels printed to the right of each note are under the chord as 7 lyric lanes, top to bottom; coloured text not expressible."
+ },
+ {
+  "index": 225,
+  "image": "v2/media/2019/08/altered_exts.png",
+  "lyl": "v2/lilylet/images/2019/08/altered_exts.lyl",
+  "chapter": "06-jazz/02-chord-symbols.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "F7(b9/#11) = F4 A4 C5 Eb5 Gb5 B5; B7(b9/#11) = B3 D#4 F#4 A4 C5 E#5. Chord symbols via \\chords. The coloured (red/blue) notes and the arrows to the labels are not expressible; the labels became one ^\\markup per chord."
+ },
+ {
+  "index": 226,
+  "image": "v2/media/2019/08/adds.png",
+  "lyl": "v2/lilylet/images/2019/08/adds.lyl",
+  "chapter": "06-jazz/02-chord-symbols.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Four separate staves joined into one staff with || between them. Superscript chord-symbol layout (C^add2, C 6/9 stacked) is written flat. The boxed callout with arrows (chords with added notes, but add is not in the symbol) became ^\\markup on C6 and (same) on C6/9."
+ },
+ {
+  "index": 227,
+  "image": "v2/media/2019/08/sus.png",
+  "lyl": "v2/lilylet/images/2019/08/sus.lyl",
+  "chapter": "06-jazz/02-chord-symbols.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Three separate staves joined into one staff with || between them. The superscript chord symbols (Csus^2, C7 with sus as subscript) are written flat: Csus2, C7sus."
+ },
+ {
+  "index": 228,
+  "image": "v2/media/2019/08/harmonic-series_0001.png",
+  "lyl": "v2/lilylet/images/2019/08/harmonic-series_0001.lyl",
+  "chapter": "06-jazz/03-jazz-voicings.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Partials 1-16 on F2 (F2 F3 C4 | F4 A4 C5 Eb5 F5 G5 A5 B5 C6 D6 Eb6 E6 F6) as one cross-staff voice in one unmetered bar (time 16/4 hidden). Stemless noteheads not expressible: quarter notes with stems. The numbers sit in one row between the staves in the original; here 1-3 print under the bass staff and 4-16 under the treble, because lyrics follow the staff the note is on."
+ },
+ {
+  "index": 232,
+  "image": "v2/media/2019/08/cto72.png",
+  "lyl": "v2/lilylet/images/2019/08/cto72.lyl",
+  "chapter": "06-jazz/05-jazz-embellishing-chords.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Two 3-bar systems on one staff: C - C°7 (C Eb F# A) - C over a tied C4; F/C - B°7 (B D F G#) - F/C over a tied F4. The tied common tone is in its own voice (lilylet cannot tie one note of a chord). Key label C: merged into the first Roman numeral; IV6/4 written flat as IV64."
+ },
+ {
+  "index": "bebop",
+  "image": "v2/media/2019/08/COMP-bebop-part-2.mscz",
+  "lyl": "v2/lilylet/images/2019/08/COMP-bebop-part-2.lyl",
+  "chapter": "06-jazz/05-jazz-embellishing-chords.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Blank worksheet (page 4 of 4, Voicing Example): empty grand staff, 16 bars, no key/time/chord symbols, rehearsal marks A (bar 1) and B (bar 9), end repeat after bar 8, final barline after 16. No notes or chord symbols to transcribe, so OMR was not run. Spacer bars, time signature hidden; the instruction text box is kept as % comments. System breaks (4 bars per system) are not expressible. lilylet bug: post-event ^\\markup on a rest or spacer (r1^\\markup \"A\", s1^\\markup \"A\") is silently dropped by the parser, so rehearsal letters use leading ^\\markup \"A\" s1 instead."
+ }
+]

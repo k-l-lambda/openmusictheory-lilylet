@@ -1,0 +1,56 @@
+[
+ {
+  "index": 301,
+  "image": "v2/media/2022/07/OMT-S4-Maj-4-copy-1-e1657895292228.jpg",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2022/07/OMT-S4-Maj-4-copy-1-e1657895292228.jpg",
+  "lyl": "v2/lilylet/images/2022/07/OMT-S4-Maj-4-copy-1-e1657895292228.lyl",
+  "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+  "recommendation": "omr",
+  "caption": "There are four melodies in the major mode that contain leaps within the tonic triad as well as dynamic markings.",
+  "flags": [
+   "ear-training",
+   "low-res",
+   "dynamics"
+  ],
+  "reason": "4 melodies major",
+  "bars": 32,
+  "staves": 8,
+  "effort_min": 15
+ },
+ {
+  "index": 302,
+  "image": "v2/media/2022/07/OMT-S4-Min-2-copy-e1658341159739.jpg",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2022/07/OMT-S4-Min-2-copy-e1658341159739.jpg",
+  "lyl": "v2/lilylet/images/2022/07/OMT-S4-Min-2-copy-e1658341159739.lyl",
+  "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+  "recommendation": "omr",
+  "caption": "There are four melodies in the minor mode that contain leaps within the tonic triad as well as dynamic markings.",
+  "flags": [
+   "ear-training",
+   "low-res",
+   "dynamics"
+  ],
+  "reason": "4 melodies minor",
+  "bars": 32,
+  "staves": 8,
+  "effort_min": 15
+ },
+ {
+  "index": 303,
+  "image": "v2/media/2022/07/OMT-S4-2PM-3-e1659019793142.jpg",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2022/07/OMT-S4-2PM-3-e1659019793142.jpg",
+  "lyl": "v2/lilylet/images/2022/07/OMT-S4-2PM-3-e1659019793142.lyl",
+  "chapter": "14-ear-training/03-examples-for-sight-counting-and-sight-singing-level-2.md",
+  "recommendation": "omr",
+  "caption": "There are two two-part melodies that contain leaps within the tonic triad as well as dynamic markings.",
+  "flags": [
+   "ear-training",
+   "low-res",
+   "dynamics"
+  ],
+  "reason": "2 two-part melodies",
+  "bars": 24,
+  "staves": 8,
+  "effort_min": 18
+ }
+]

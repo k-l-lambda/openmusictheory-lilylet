@@ -1,0 +1,8 @@
+[title "Shots, chorus rhythm"]
+[composer "LMFAO"]
+
+\key c \major \numericTimeSignature \time 4/4 \clef "treble" \stemUp b'4 b \tuplet 3/2 { b4 b b }
+\addlyrics { Shots, shots, shots, shots, shots, } | %1
+
+\partial 4 \stemUp b'4
+\addlyrics { shots! } | %2

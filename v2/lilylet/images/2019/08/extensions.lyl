@@ -1,0 +1,10 @@
+[title "Extensions: thirds stacked to the thirteenth"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" <c e g bf d f a>1
+\addlyrics { 13th }
+\addlyrics { 11th }
+\addlyrics { 9th }
+\addlyrics { 7th }
+\addlyrics { 5th }
+\addlyrics { 3rd }
+\addlyrics { root } | %1

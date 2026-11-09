@@ -1,0 +1,14 @@
+[title "PL and RP cycles"]
+[staves ","]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" <c e g>1^\markup "P" s2 <c ef g>1^\markup "L" s2 <c ef af>1^\markup "P" s2 <cf ef af>1^\markup "L" s2 \\\\
+\key c \major \clef "treble" <c e g>1^\markup "R" <c e a>1^\markup "P" <cs e a>1^\markup "R" <cs fs a>1^\markup "P" <cs fs as>1^\markup "R" <ef gf bf>1^\markup "P" | %1
+
+<b e gs>1^\markup "P" s1 \\\\
+<ef g bf>1^\markup "R" <ef g c>1^\markup "P" | %2
+
+<b e g>1^\markup "L" \\\\
+<e g c>1 | %3
+
+<c e g>1 \undo \omit Score.BarLine \bar "||" \\\\
+s1 \undo \omit Score.BarLine \bar "||" | %4

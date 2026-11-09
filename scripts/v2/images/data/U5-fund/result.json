@@ -1,0 +1,102 @@
+[
+ {
+  "index": 97,
+  "image": "v2/media/2025/07/Scale-Degree-Names-Derivation-1024x228.png",
+  "lyl": "v2/lilylet/images/2025/07/Scale-Degree-Names-Derivation-1024x228.lyl",
+  "chapter": "01-fundamentals/13-major-scales.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Bass clef, no key/time sig. Notes Db2 F2 Gb2 Ab2 Bb2 C3 Eb3 (subtonic printed as Gb2). Original draws the tonic as an open stemless head and the other six as filled stemless heads; all written as whole notes (no stemless filled head in lilylet). The three nested arcs to the tonic (fifth/third/second) are not drawable: their labels are ^markup on both end notes. Scale-degree names in one \\\\addlyrics lane."
+ },
+ {
+  "index": 98,
+  "image": "v2/media/2019/05/Screen-Shot-2020-06-08-at-12.17.31-PM.png",
+  "lyl": "v2/lilylet/images/2019/05/Screen-Shot-2020-06-08-at-12.17.31-PM.lyl",
+  "chapter": "01-fundamentals/13-major-scales.md",
+  "method": "hand",
+  "status": "ok",
+  "omr": null,
+  "notes": "Bass clef, Eb major, 4/4, whole rest."
+ },
+ {
+  "index": 99,
+  "image": "v2/media/2019/05/Screen-Shot-2020-06-08-at-12.28.24-PM.png",
+  "lyl": "v2/lilylet/images/2019/05/Screen-Shot-2020-06-08-at-12.28.24-PM.lyl",
+  "chapter": "01-fundamentals/13-major-scales.md",
+  "method": "hand",
+  "status": "ok",
+  "omr": null,
+  "notes": "Bass clef, Eb major (3 flats; caption only mentions Bb), 4/4, half notes Bb2 Bb3."
+ },
+ {
+  "index": 100,
+  "image": "v2/media/2019/05/Screen-Shot-2020-06-08-at-1.11.04-PM.png",
+  "lyl": "v2/lilylet/images/2019/05/Screen-Shot-2020-06-08-at-1.11.04-PM.md",
+  "chapter": "01-fundamentals/13-major-scales.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Written as .md with 2 blocks (sharps row, flats row), each 4 unconnected staves (treble, bass, alto, tenor) with C#/Cb major signatures. The original prints each row on ONE staff with clef changes, the signature restated after each clef and double barlines; lilylet writes a key only when it changes, so a restated \\\\key after a mid-staff \\\\clef is not drawn (repro: \\\\key cs \\\\major \\\\clef \"treble\" s1 \\\\clef \"bass\" \\\\bar \"||\" | \\\\key cs \\\\major s1 shows no 2nd signature). Unconnected staves still get the system start line. Copy #109 is left to the coordinator."
+ },
+ {
+  "index": 101,
+  "image": "v2/media/2019/05/sharp-sigs.png",
+  "lyl": "v2/lilylet/images/2019/05/sharp-sigs.md",
+  "chapter": "01-fundamentals/13-major-scales.md",
+  "method": "hand",
+  "status": "ok",
+  "omr": null,
+  "notes": "3 lyl blocks in .md (G major treble, A major bass, F# major alto), spacer bar, final single barline as printed. Boxed numbers 1-3 as ^markup (boxes not drawn)."
+ },
+ {
+  "index": 102,
+  "image": "v2/media/2019/05/flat-sigs.png",
+  "lyl": "v2/lilylet/images/2019/05/flat-sigs.md",
+  "chapter": "01-fundamentals/13-major-scales.md",
+  "method": "hand",
+  "status": "ok",
+  "omr": null,
+  "notes": "3 lyl blocks in .md (Bb major bass, Ab major treble, Db major tenor), spacer bar, final single barline as printed. Boxed numbers 1-3 as ^markup (boxes not drawn)."
+ },
+ {
+  "index": 103,
+  "image": "v2/media/2019/05/cmajfmaj-e1659817325208.png",
+  "lyl": "v2/lilylet/images/2019/05/cmajfmaj-e1659817325208.md",
+  "chapter": "01-fundamentals/13-major-scales.md",
+  "method": "hand",
+  "status": "ok",
+  "omr": null,
+  "notes": "Two lyl blocks in .md: C major treble (no accidentals) and F major bass (Bb), spacer bar, single final barline as printed. Two blocks because lilylet uses one key signature per measure for all staves."
+ },
+ {
+  "index": 104,
+  "image": "v2/media/2021/06/Sharp-Key-Signatures.png",
+  "lyl": "v2/lilylet/images/2021/06/Sharp-Key-Signatures.lyl",
+  "chapter": "01-fundamentals/13-major-scales.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Four unconnected staves (treble, bass, alto, tenor), hidden 1/4 spacer bars: an empty bar after the clef, then 1 to 7 sharps (G to C# major), double barlines. Differences: the original ends only the treble staff with a double bar (the other three end with a single bar), but lilylet barlines apply to all staves, so all four end with ||. The empty first segment is a little wider than in the original. The system start line is drawn (no hidden one for independent staves). Near-duplicate #110 is left to the coordinator."
+ },
+ {
+  "index": 108,
+  "image": "v2/media/2020/05/Screen-Shot-2020-06-11-at-11.20.05-AM.png",
+  "lyl": "v2/lilylet/images/2020/05/Screen-Shot-2020-06-11-at-11.20.05-AM.lyl",
+  "chapter": "01-fundamentals/14-minor-scales.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Bass clef, B minor, 4/4: ascending B2 C#3 D E | F#3 G#3 A#3 B3 | descending A3 G3 F#3 E3 | D3 C#3 B2 (half). Scale-degree names in lanes (second lane for \"(raised)\", \"Tone\", \"(lowered)\"). Not drawn: the cautionary naturals on A3 and G3 in bar 3 (they cancel the previous bar accidentals; lilylet has no way to force a natural there: a! and g! are ignored). The W/H step brackets: the labels are ^markup on the first note of each step and the bracket lines are not drawn (the unlabeled brackets on the descending line are dropped). The system break after bar 2 (the second system restarts with clef and key) is up to the layout."
+ },
+ {
+  "index": 111,
+  "image": "v2/media/2019/05/Screen-Shot-2020-06-08-at-1.57.09-PM-e1658435818939.png",
+  "lyl": "v2/lilylet/images/2019/05/Screen-Shot-2020-06-08-at-1.57.09-PM-e1658435818939.lyl",
+  "chapter": "01-fundamentals/14-minor-scales.md",
+  "method": "hand",
+  "status": "ok-with-notes",
+  "omr": null,
+  "notes": "Example 13 (A, D, G, C, F, Bb, Eb, Ab minor) as \\key X \\minor. Four unconnected staves (treble, bass, alto, tenor), hidden 1/4 spacer bars: an empty bar after the clef, then 1 to 7 flats, double barlines. Differences: the original ends the tenor staff with a single bar (lilylet barlines apply to all staves, so it gets ||). The system start line is drawn. #105 (thumbnail) is left to the coordinator."
+ }
+]

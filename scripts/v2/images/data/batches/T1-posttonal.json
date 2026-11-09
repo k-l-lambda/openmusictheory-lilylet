@@ -1,0 +1,118 @@
+[
+ {
+  "index": 256,
+  "image": "v2/media/2019/05/ordered-vs-unordered-pitch-interval.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/ordered-vs-unordered-pitch-interval.png",
+  "lyl": "v2/lilylet/images/2019/05/ordered-vs-unordered-pitch-interval.lyl",
+  "chapter": "08-20th-and-21st-century-techniques/03-intervals-in-integer-notation.md",
+  "recommendation": "hand",
+  "caption": "Example 3. The top row of examples shows ordered pitch intervals: the number of semitones between the pitches, with a plus or minus sign to indicate direction. The bottom row shows unordered intervals, which simply disregard the direction and thus drop the plus or minus sign.",
+  "flags": [
+   "labels"
+  ],
+  "reason": "ordered vs unordered pitch intervals",
+  "bars": 4,
+  "staves": 1,
+  "effort_min": 4
+ },
+ {
+  "index": 257,
+  "image": "v2/media/2019/05/Screen-Shot-2019-09-10-at-12.27.55-PM.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/Screen-Shot-2019-09-10-at-12.27.55-PM.png",
+  "lyl": "v2/lilylet/images/2019/05/Screen-Shot-2019-09-10-at-12.27.55-PM.lyl",
+  "chapter": "08-20th-and-21st-century-techniques/03-intervals-in-integer-notation.md",
+  "recommendation": "hand",
+  "caption": "Example 4 . Ordered pitch class intervals always travel clockwise around the clock face.",
+  "flags": [
+   "labels",
+   "clock"
+  ],
+  "reason": "ordered pc intervals (clock half not encodable)",
+  "bars": 2,
+  "staves": 1,
+  "effort_min": 3
+ },
+ {
+  "index": 258,
+  "image": "v2/media/2019/05/Screen-Shot-2019-09-10-at-12.36.47-PM.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/Screen-Shot-2019-09-10-at-12.36.47-PM.png",
+  "lyl": "v2/lilylet/images/2019/05/Screen-Shot-2019-09-10-at-12.36.47-PM.lyl",
+  "chapter": "08-20th-and-21st-century-techniques/03-intervals-in-integer-notation.md",
+  "recommendation": "hand",
+  "caption": "Example 5. Unordered pitch class intervals are also known as interval classes. Interval classes measure the smallest possible distance between pitch classes.",
+  "flags": [
+   "labels",
+   "clock"
+  ],
+  "reason": "unordered pc intervals (clock half not encodable)",
+  "bars": 2,
+  "staves": 1,
+  "effort_min": 3
+ },
+ {
+  "index": 263,
+  "image": "v2/media/2020/01/tallying.001-e1662403759208.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2020/01/tallying.001-e1662403759208.png",
+  "lyl": "v2/lilylet/images/2020/01/tallying.001-e1662403759208.lyl",
+  "chapter": "08-20th-and-21st-century-techniques/06-interval-class-vectors.md",
+  "recommendation": "hand",
+  "caption": "Example 2. Illustration of how to count interval classes in a pitch class set to create an interval-class vector.",
+  "flags": [
+   "labels"
+  ],
+  "reason": "one chord + IC tally (only the chord encodable)",
+  "bars": 1,
+  "staves": 1,
+  "effort_min": 2
+ },
+ {
+  "index": 265,
+  "image": "v2/media/2019/06/Bartok1.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/06/Bartok1.png",
+  "lyl": "v2/lilylet/images/2019/06/Bartok1.lyl",
+  "chapter": "08-20th-and-21st-century-techniques/10-analyzing-with-collections-scales-and-modes.md",
+  "recommendation": "hand",
+  "caption": "Bartók’s From the Island of Bali: Extract 1",
+  "flags": [
+   "fingering"
+  ],
+  "reason": "Bartok From the Island of Bali extract 1",
+  "bars": 3,
+  "staves": 2,
+  "effort_min": 8
+ },
+ {
+  "index": 266,
+  "image": "v2/media/2019/06/Bartok2.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/06/Bartok2.png",
+  "lyl": "v2/lilylet/images/2019/06/Bartok2.lyl",
+  "chapter": "08-20th-and-21st-century-techniques/10-analyzing-with-collections-scales-and-modes.md",
+  "recommendation": "hand",
+  "caption": "Bartók’s From the Island of Bali: Extract 2",
+  "flags": [
+   "fingering",
+   "clef-change"
+  ],
+  "reason": "Bartok Bali extract 2",
+  "bars": 3,
+  "staves": 2,
+  "effort_min": 8
+ },
+ {
+  "index": 267,
+  "image": "v2/media/2019/06/Bartok3.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/06/Bartok3.png",
+  "lyl": "v2/lilylet/images/2019/06/Bartok3.lyl",
+  "chapter": "08-20th-and-21st-century-techniques/10-analyzing-with-collections-scales-and-modes.md",
+  "recommendation": "hand",
+  "caption": "Bartók’s From the Island of Bali: Extract 3",
+  "flags": [
+   "scan",
+   "fingering"
+  ],
+  "reason": "Bartok Bali extract 3",
+  "bars": 2,
+  "staves": 2,
+  "effort_min": 5
+ }
+]

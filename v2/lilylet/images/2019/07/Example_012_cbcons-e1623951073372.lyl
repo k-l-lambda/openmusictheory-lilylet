@@ -1,0 +1,35 @@
+[title "Compound basic idea + consequent (Symphony No. 87, III, mm. 1–8)"]
+[composer "Joseph Haydn"]
+[staves "{-}"]
+
+\staff "1" \key a \major \time 3/4 \tempo "Menuet" \clef "treble" cs'32[(^\markup "b.i."^\markup "compound basic idea" d e8.] cs4 a) \\
+\staff "1" e4 s2 \\
+\staff "2" \key a \major \time 3/4 \clef "bass" <a, e' cs'>4\f r r | %1
+
+\staff "1" <e a>2( <fs as>4) \\
+\staff "1" s2. \\
+\staff "2" <a cs>32([ <b d> <cs e>8.] <a cs>4 <fs cs' e>) | %2
+
+\staff "1" \grace cs'8 b8([^\markup "c.i." as b cs d e]) \\
+\staff "1" fs2 e4 \\
+\staff "2" <d, b' d>2 <cs cs'>4 | %3
+
+\staff "1" d'4-. r r \\
+\staff "1" d4-. s2 \\
+\staff "2" <b, b'>4 <d d'> <fs fs'> | %4
+
+\staff "1" d'32[(^\markup "b.i."^\markup "consequent" e fs8.] d4 b) \\
+\staff "1" fs2( d4) \\
+\staff "2" <b d>4 r r | %5
+
+\staff "1" a'2( gs4) \\
+\staff "1" b32[ cs d8.] d4 d \\
+\staff "2" e,,4 <e' b'> <e b'> | %6
+
+\staff "1" \grace b'8 <cs, e a>8[(^\markup "c.i." gs' a cs <d, e b'>) gs] \\
+\staff "1" s2. \\
+\staff "2" <a, a'>4 r <e e'> | %7
+
+\staff "1" <cs a'>4^\markup "PAC" r r \bar "|." \\
+\staff "1" s2. \bar "|." \\
+\staff "2" <a, a'>4 cs e \bar "|." | %8

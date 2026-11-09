@@ -1,0 +1,9 @@
+[title "Correct noteheads: open and filled, on lines and in spaces"]
+
+\omit Score.TimeSignature \clef "treble" e1 g b d f | %1
+
+e'1 c a f | %2
+
+e4 g b d f | %3
+
+e'4 c a f \bar "||" | %4

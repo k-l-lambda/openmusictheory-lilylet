@@ -1,0 +1,32 @@
+[
+ {
+  "index": 175,
+  "image": "v2/media/2019/07/Slide5-6.png",
+  "lyl": "v2/lilylet/images/2019/07/Slide5-6.lyl",
+  "chapter": "04-form/04-expansion-and-contraction.md",
+  "method": "omr+hand",
+  "status": "ok-with-notes",
+  "omr": "system 1 left half: quality 96.7%, solved 3/issue 0/fatal 0; system 1 right half: 98.2%, solved 7/0/0 but garbage (wrong key, dropped staff); system 2: 93.8%, solved 6/0/0; system 3 left: 98.9%, solved 2/0/0 (wrong); full system 1 and system 3 crops failed ('empty result', 'Cannot set properties of null')",
+  "notes": "Mostly hand-read from a low-res slanted scan (staff space ~8 px) with pixel profiles; system 2 voice/RH taken from OMR and checked. Uncertain: piano mm. 10-13 (RH inner voice of m. 10, LH mm. 11-12, RH chord voicings of m. 13), LH m. 5 (G3 dotted half + G2 eighth). Verse-2 lyric of m. 3 ('willst du heu-te') read from a blurry scan. Bar numbers count the piano intro as m. 1 (14 bars). Phrase labels as markup at bracket starts (b.i., c.i., HC, f., f., cad., cad. (evaded) at the crossed-out CAD, o.m.t., PAC); bracket lines, the strike-through on CAD, blue/red colour and the bottom-right bracket chart (b.i. 2 / c.i. 2 / f. 1 / f. 1 / cad. 2 / o.m.t. 2) not drawn. Original prints the second-verse text in a second lyric line: both lanes kept. Repeat barlines shown; the original's tied F2 whole + quarter in m. 1/14 LH is drawn as two unison noteheads."
+ },
+ {
+  "index": 176,
+  "image": "v2/media/2019/07/Slide8-10.png",
+  "lyl": "v2/lilylet/images/2019/07/Slide8-10.lyl",
+  "chapter": "04-form/04-expansion-and-contraction.md",
+  "method": "omr+hand",
+  "status": "ok-with-notes",
+  "omr": "system 1 (mm. 7-10): quality 99.3%, solved 2/issue 2/fatal 0; system 2 (mm. 11-14): 95.1%, 4/0/0; system 3 (mm. 15-18): 99.9%, 4/0/0; system 4 (mm. 19-22): 94.8%, 4/0/0; system 5 (mm. 23-26): failed twice ('empty result'), hand-written",
+  "notes": "Piano reduction, mm. 7-26 (the image starts two bars before the caption's m. 9); the render numbers bars from 1. Phrase labels as markup at bracket starts (presentation, b.i. x2, continuation, u., cad., PAC, repetition of continuation, u., cad., detour, cad., PAC); bracket lines, colour and the bracket chart not drawn. The original's Roman numerals (b: iv, vii°7) are kept as markup. m. 26 is cut off after beat 1 in the image, so it is written as \\partial 4. OMR fixes: many octave errors (relative-pitch jumps in mm. 7, 11, 15, 25), fake tuplets (8/5, 12/11) rewritten, LH m. 7-8 written as two-note tremolos, voices re-split, pedal and dynamics (pp, p, sf, dim.) added. Uncertain: mm. 21-22 RH sixteenth figuration, m. 15 grace note, mm. 23-25 inner chord voicings (low-res scan). Pedal marks can't go inside \\repeat tremolo (parse error), so they're left off in mm. 7-8. The render's page 1 shows mm. 7-24 only; mm. 25-26 were checked from the --pitches output, not by eye."
+ },
+ {
+  "index": 177,
+  "image": "v2/media/2019/07/Slide10-11.png",
+  "lyl": "v2/lilylet/images/2019/07/Slide10-11.lyl",
+  "chapter": "04-form/04-expansion-and-contraction.md",
+  "method": "omr+hand",
+  "status": "ok-with-notes",
+  "omr": "3 crops (systems 1, 2, bar 10); quality figures not recorded; pitches correct, solved all bars",
+  "notes": "Phrase brackets drawn as markup at bracket starts (antecedent/consequent, b.i., c.i.1, c.i.2 + reroute, cad., IAC, PAC); bracket lines, IAC/PAC boxes, colours and the bottom-right bracket summary chart (period 10 = ant. 4 + cons. 6) not drawn; continuation labels (cad.)/(cons.) at bar 10 omitted. First-ending volta drawn as markup \"1.\". Grace notes Eb-F before bar 4 render at the start of bar 4 (the original prints them at the end of bar 3 after the trill). OMR fixes: 2/4-style misread of system 2 as 4/4 -> 6/8, parts merged into one 3-staff part {s1-s2}-s3, stray slurs/dynamics duplicated on the piano removed, tempo Andantino, dynamics p/mf/</f>/p and the grace notes added."
+ }
+]

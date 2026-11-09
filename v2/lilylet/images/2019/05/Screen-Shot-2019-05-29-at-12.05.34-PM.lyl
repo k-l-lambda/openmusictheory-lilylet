@@ -1,0 +1,3 @@
+[title "Treble clef: ledger lines above the staff"]
+
+\omit Score.TimeSignature \clef "treble" f'4^\markup "F" g^\markup "G" a^\markup "A" b^\markup "B" c^\markup "C" | %1

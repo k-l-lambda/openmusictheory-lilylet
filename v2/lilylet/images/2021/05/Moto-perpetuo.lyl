@@ -1,0 +1,82 @@
+[title "Moto perpetuo (twelve-tone string quartet)"]
+[staves "<v1-v2-va-vc>"]
+
+\key c \major \time 2/2 \clef "treble" \tempo "Moto perpetuo." 2=120 g8^\markup "snap pizz."\f r r4 r2 \\\\
+\clef "treble" g8\f[ a cs g] a[ cs g a] \\\\
+\clef "alto" g8^\markup "snap pizz."\f r r4 r2 \\\\
+\clef "bass" g,8^\markup "snap pizz."\f r r4 r2 | %1
+
+R1 \\\\
+cs8[ g'\p a cs] g[ a cs g,\f] \\\\
+R1 \\\\
+R1 | %2
+
+a8\f[ cs f a,] cs[ f a, cs] \\\\
+a8 r r4 r2 \\\\
+a8->^\markup "pizz." r r4 r2 \\\\
+a,8->^\markup "pizz." r r4 r2 | %3
+
+f8\p[ a cs f] a,[ cs f a,\f] \\\\
+R1 \\\\
+R1 \\\\
+R1 | %4
+
+\time 2/4 cs'8 r r4 \\\\
+cs'8\f[ es] fs[ cs] \\\\
+cs8-> r r4 \\\\
+cs,8-> r r4 | %5
+
+\time 5/4 f'8[ gf e f gf e] f[ gf e f] \\\\
+f'8 r r2 r \\\\
+f8-> r r2 r \\\\
+f,,8-> r r2 r | %6
+
+gf''8 r r2 r \\\\
+fs'8[ e ds fs e ds] fs[ e ds fs] \\\\
+fs8-> r r2 r \\\\
+fs,,8-> r r2 r | %7
+
+\time 2/2 e'8[ ds as e'] ds[ as e' ds] \\\\
+e8[ ds] r4 r2 \\\\
+e8-> r r4 r2 \\\\
+e,,8-> r r4 r2 | %8
+
+as'8[ e' ds as] e'[ ds as e'] \\\\
+R1 \\\\
+R1 \\\\
+R1 | %9
+
+\time 2/4 ef'8\p r r4 \\\\
+ef'8\p[ bf] c[ ef] \\\\
+ds8->\p r r4 \\\\
+ds,,8->\p r r4 | %10
+
+bf'8[ c] af[ bf] \\\\
+bf'8 r r4 \\\\
+as'8-> r r4 \\\\
+as,8-> r r4 | %11
+
+\time 7/8 c'8 r4 r r \\\\
+c'8[ gs b] c[ gs] b[ c] \\\\
+c'8-> r4 r r \\\\
+c,8-> r4 r r | %12
+
+\time 2/4 gs'8\<[ b] d[ gs,] \\\\
+gs'8\< r r4 \\\\
+gs'8->\< r r4 \\\\
+gs,8->\< r r4 | %13
+
+b'8 r r4 \\\\
+b'8[ d] g[ b,] \\\\
+b'8-> r r4 \\\\
+b,8-> r r4 | %14
+
+d'8[ g] a[ d,] \bar "||" \\\\
+d'8 r r4 \bar "||" \\\\
+d'8-> r r4 \bar "||" \\\\
+d,8-> r r4 \bar "||" | %15
+
+\time 2/2 g''8^\markup "New cycle begins (piece continues)"\!\f r r4 r2 \\\\
+g''8\!\f[ a cs g] a[ cs g a] \\\\
+g8^\markup "snap pizz."\!->\f r r4 r2 \\\\
+g,8^\markup "snap pizz."\!->\f r r4 r2 | %16

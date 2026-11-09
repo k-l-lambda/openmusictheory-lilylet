@@ -1,0 +1,6 @@
+[title "Unbeamed and beamed rhythms"]
+
+\time 3/4 \clef "treble" g'4^\markup "unbeamed" g8 g g g | %1
+g'8 g16 g g g g8 g4 \bar "||" | %2
+g'4^\markup "beamed" g8[ g] g[ g] | %3
+g'8[ g16 g] g[ g g8] g4 \bar "||" | %4

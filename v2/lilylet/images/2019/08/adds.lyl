@@ -1,0 +1,6 @@
+[title "Chords with added notes"]
+
+\omit Score.TimeSignature \key c \major \clef "treble" <c d e g>1 \chords "Cadd2" \bar "||" | %1
+<c e g d'>1 \chords "Cadd9" \bar "||" | %2
+<c e g a>1 \chords "C6" ^\markup "added note, but add is not in the symbol" \bar "||" | %3
+<c e g a d>1 \chords "C6/9" ^\markup "(same)" \bar "||" | %4

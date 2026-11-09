@@ -1,0 +1,37 @@
+[
+ {
+  "index": 317,
+  "image": "v2/media/2025/06/image-2.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2025/06/image-2.png",
+  "lyl": "v2/lilylet/images/2025/06/image-2.lyl",
+  "chapter": "15-chapters-in-development/01-graphic-notation-and-scores.md",
+  "recommendation": "hand",
+  "caption": "Example 6. Measures 10–12 from “Fabric” by Henry Cowell.",
+  "flags": [
+   "tuplets",
+   "cross-rhythm"
+  ],
+  "reason": "Cowell Fabric mm. 10-12, nested tuplets",
+  "bars": 3,
+  "staves": 2,
+  "effort_min": 15
+ },
+ {
+  "index": 327,
+  "image": "v2/media/2025/08/hypermeter_joplin_1.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2025/08/hypermeter_joplin_1.png",
+  "lyl": "v2/lilylet/images/2025/08/hypermeter_joplin_1.lyl",
+  "chapter": "15-chapters-in-development/02-hypermeter2.md",
+  "recommendation": "omr+hand",
+  "caption": "This is a the score of Scott Joplin's \"Harmony Club Waltz\" with they hyperbeats shown between the staves of the measures and each hypermeasure is grouped with a bracket and label that captures which hypermeasure it is part of.",
+  "flags": [
+   "scan",
+   "hypermeter-labels",
+   "color"
+  ],
+  "reason": "Joplin Harmony Club Waltz with hypermeasure numbers",
+  "bars": 16,
+  "staves": 4,
+  "effort_min": 25
+ }
+]

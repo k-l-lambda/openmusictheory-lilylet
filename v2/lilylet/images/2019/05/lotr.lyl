@@ -1,0 +1,23 @@
+[title "The Fellowship Theme (The Lord of the Rings)"]
+[composer "Howard Shore"]
+[staves "{-}"]
+
+\staff "1" \time 6/8 \clef "treble" <cs e a>4. \chords "A" <c e g>4 \chords "C" <c e g>16[ <c e g>] \\
+\staff "2" \clef "bass" a,4. c
+\addlyrics { "Am: I" ♭III } | %1
+
+\staff "1" <cs e a>4.~ \chords "A" <cs e a>4 d'16[ e] \\
+\staff "2" a,2.
+\addlyrics { I } | %2
+
+\staff "1" <a' c f>4 \chords "F" e'16[ d] <e, g c>4 \chords "C/G" d'16[ e] \\
+\staff "2" f,,4. g
+\addlyrics { ♭VI ♭III⁶₄ } | %3
+
+\staff "1" <e a d>4. \chords "Asus" <f a c>4^\markup "aeolian cadence" \chords "F" <d g b>8 \chords "G" \\
+\staff "2" a,4. f4 g8
+\addlyrics { Isus ♭VI ♭VII } | %4
+
+\staff "1" <cs e a>2. \chords "A" \bar "||" \\
+\staff "2" a,2. \bar "||"
+\addlyrics { I } | %5

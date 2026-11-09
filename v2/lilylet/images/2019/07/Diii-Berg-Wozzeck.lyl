@@ -1,0 +1,27 @@
+[title "Extract from Wozzeck, Murder Scene"]
+[subtitle "All parts sustain B3 until the chord at the end of the passage. Order of instruments' entry as given."]
+[composer "Alban Berg"]
+[staves "[w-b-s]"]
+[instrument-w "Wind"]
+[instrument-b "Brass"]
+[instrument-s "Strings"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "alto" R1 \\\\
+\clef "alto" r2 b2\pppp\< \addlyrics { "Solo Hn" } \addlyrics { "(muted)" } \\\\
+\clef "alto" r2 r4 b4 \addlyrics { Solo } \addlyrics { "1st Vln" } \addlyrics { "(muted)" } | %1
+
+b2.~ b4 \addlyrics { BCl "4 Cl" } \\\\
+R1 \\\\
+r4 b2. \addlyrics { Tutti } \addlyrics { "1st Vln" } | %2
+
+r2. b4 \addlyrics { "4 Ob" } \\\\
+b1 \addlyrics { "3 Hn" } \\\\
+b4~ b2.~ \addlyrics { Solo Solo } \addlyrics { Vla Vc } | %3
+
+r2 r8 b4.~ \addlyrics { "3 Bsn" } \\\\
+r2 b8[ b] b4~ \addlyrics { "4 Tpt" _ "4 Tbn" } \addlyrics { _ B.Tbn _ } \\\\
+b2.~ b8[ b] \addlyrics { Tutti Tutti Tutti } \addlyrics { "2nd Vln" Vla Vc } | %4
+
+b1\fermata^\markup "fff Chord: full register; addition of 4 picc, C Bsn, B.D. solo" \\\\
+b1\fermata\!\fff \\\\
+b1\fermata \addlyrics { Db } | %5

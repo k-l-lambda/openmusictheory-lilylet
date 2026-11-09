@@ -1,0 +1,23 @@
+[title "I Don't Like You"]
+[composer "Eva Simons"]
+[staves "{-}"]
+
+\staff "1" \key g \minor \numericTimeSignature \time 4/4 \clef "treble" d4 \chords "Eb" r r8 bf[ \chords "Dmi" bf f'(^\markup "Use of F instead of F♯ creates an aeolian sound"]
+\addlyrics { Fade to the dark -- } \\
+\staff "2" \key g \minor \clef "bass" ef,8.[ ef ef8] r8 d[ d d]
+\addlyrics { "Gmi: ♭VI" _ _ v _ _ } | %1
+
+\staff "1" f4) \chords "Gmi" ef d \chords "F" c8[ c](
+\addlyrics { ness all the way, __ } \\
+\staff "2" g8.[_\markup "lament schema" g g8] r8 f[ f f]
+\addlyrics { i _ _ ♭VII _ _ } | %2
+
+\staff "1" d4) \chords "Eb" r r8 bf[ \chords "Dmi" bf f']~
+\addlyrics { _ at the start, __ } \\
+\staff "2" ef,8.[ ef ef8] r8 d[ d d]
+\addlyrics { ♭VI _ _ v _ _ } | %3
+
+\staff "1" f4 \chords "Gmi" g d2 \chords "F" \bar "||"
+\addlyrics { _ guess I… } \\
+\staff "2" g8.[ g g8] r8 f[ f f] \bar "||"
+\addlyrics { i _ _ VII _ _ } | %4

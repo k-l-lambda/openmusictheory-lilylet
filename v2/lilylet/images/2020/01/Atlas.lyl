@@ -1,0 +1,17 @@
+[title "Der Atlas, D. 957 No. 8 (opening)"]
+[composer "Franz Schubert"]
+[staves "<voice> {pr-pl}"]
+[instrument-voice "Voice"]
+[instrument-pr-pl "Piano"]
+
+\key g \minor \time 3/4 \tempo "Etwas geschwind" \clef "treble" R2. \\\\
+\staff "1" \clef "bass" <g bf>32[ d' <g, bf> d' <g, bf> d' <g, bf> d'] <g, bf>[ d' <g, bf> d' <g, bf> d' <g, bf> d'] <g, bf>[ d' <g, bf> d' <g, bf> d' <g, bf> d'] \\
+\staff "2" \clef "bass" <g,, g'>4\f <g g'> r8. <bf bf'>16 | %1
+
+R2. \\\\
+\staff "1" <fs, bf>32[\> d' <fs, bf> d' <fs, bf> d' <fs, bf> d'\!] \repeat tremolo 8 { <g, bf>32 d' } \\
+\staff "2" <fs,,, fs'>4( <g g'>) r8. <bf bf'>16 | %2
+
+R2. \\\\
+\staff "1" <fs, bf>32[\> d' <fs, bf> d' <fs, bf> d' <fs, bf> d'\!] \repeat tremolo 8 { <g, bf>32 d' } \\
+\staff "2" <fs,,, fs'>4( <g g'>) r8. d'16 | %3

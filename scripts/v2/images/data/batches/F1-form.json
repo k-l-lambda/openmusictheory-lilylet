@@ -1,0 +1,112 @@
+[
+ {
+  "index": 149,
+  "image": "v2/media/2019/05/Not_a_Motive-1.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/Not_a_Motive-1.png",
+  "lyl": "v2/lilylet/images/2019/05/Not_a_Motive-1.lyl",
+  "chapter": "04-form/01-foundational-concepts.md",
+  "recommendation": "omr",
+  "caption": "Example 5. Beethoven, Symphony 5, I, mm. 1–13 (0:00–0:17) . The boxed measures indicate something that is too long to be considered a motive.",
+  "flags": [
+   "scan",
+   "box"
+  ],
+  "reason": "Beethoven 5 strings, mm. 1-13 \"not a motive\"",
+  "bars": 8,
+  "staves": 5,
+  "effort_min": 25
+ },
+ {
+  "index": 150,
+  "image": "v2/media/2019/06/Example_001-e1623944080164.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/06/Example_001-e1623944080164.png",
+  "lyl": "v2/lilylet/images/2019/06/Example_001-e1623944080164.lyl",
+  "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+  "recommendation": "omr+hand",
+  "caption": "Example 1. A segmentation analysis of a phrase of common length in Schubert, “Du bist die Ruh” (0:21–0:32) .",
+  "flags": [
+   "scan",
+   "lyrics",
+   "form-brackets",
+   "greyed-intro",
+   "same-score:160"
+  ],
+  "reason": "Schubert Du bist die Ruh, 4 bars; derive from #160",
+  "bars": 4,
+  "staves": 3,
+  "effort_min": 5
+ },
+ {
+  "index": 151,
+  "image": "v2/media/2019/06/Example_002-e1623944015483.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/06/Example_002-e1623944015483.png",
+  "lyl": "v2/lilylet/images/2019/06/Example_002-e1623944015483.lyl",
+  "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+  "recommendation": "omr+hand",
+  "caption": "Example 2. A segmentation analysis of a phrase of unique length in Fanny Hensel, “Abendbild” (0:00–0:40).",
+  "flags": [
+   "scan",
+   "lyrics",
+   "form-brackets",
+   "same-score:162"
+  ],
+  "reason": "Hensel lied segmentation (same score as #162)",
+  "bars": 10,
+  "staves": 3,
+  "effort_min": 30
+ },
+ {
+  "index": 154,
+  "image": "v2/media/2019/06/Example_005-150x150.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/06/Example_005-e1623945293487.png",
+  "lyl": "v2/lilylet/images/2019/06/Example_005-150x150.lyl",
+  "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+  "recommendation": "omr+hand",
+  "caption": "EXAMPLE 6 . A sentence at the beginning of Louise Farrenc, Cello Sonata, II (0:00–0:28) .",
+  "flags": [
+   "thumbnail-150px",
+   "full-size-local:media/2019/06/Example_005-e1623945293487.png"
+  ],
+  "reason": "Farrenc sentence, piano+flute(?) 8 bars; use the full-size local file",
+  "bars": 8,
+  "staves": 2,
+  "effort_min": 20
+ },
+ {
+  "index": 160,
+  "image": "v2/media/2019/06/Example_011-150x150.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/06/Example_011-e1623945999625.png",
+  "lyl": "v2/lilylet/images/2019/06/Example_011-150x150.lyl",
+  "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+  "recommendation": "omr+hand",
+  "caption": "Example 12. A repeated phrase in Schubert’s “Du bist die Ruh” (0:22–0:44) .",
+  "flags": [
+   "thumbnail-150px",
+   "full-size-local:media/2019/06/Example_011-e1623945999625.png",
+   "same-score:150"
+  ],
+  "reason": "Schubert Du bist die Ruh repeated phrase, voice+piano 8 bars; use full-size file",
+  "bars": 8,
+  "staves": 3,
+  "effort_min": 15
+ },
+ {
+  "index": 162,
+  "image": "v2/media/2019/06/Example_013-e1623946067355.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/06/Example_013-e1623946067355.png",
+  "lyl": "v2/lilylet/images/2019/06/Example_013-e1623946067355.lyl",
+  "chapter": "04-form/02-phrase-archetypes-unique-forms.md",
+  "recommendation": "omr+hand",
+  "caption": "Example 14. A unique phrase-level form in Fanny Hensel’s “Abendbild” (0:00–0:40) .",
+  "flags": [
+   "scan",
+   "lyrics",
+   "form-brackets",
+   "same-score:151"
+  ],
+  "reason": "Hensel lied; same score as #151, only annotations differ",
+  "bars": 10,
+  "staves": 3,
+  "effort_min": 8
+ }
+]

@@ -1,0 +1,3 @@
+[title "Tenor clef: letter names of the lines"]
+
+\omit Score.TimeSignature \clef "tenor" d,4^\markup "D" f^\markup "F" a^\markup "A" c^\markup "C" e^\markup "E" | %1

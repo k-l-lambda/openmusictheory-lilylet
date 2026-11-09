@@ -1,0 +1,110 @@
+[
+ {
+  "index": 241,
+  "image": "v2/media/2019/05/modal_harmonic_function.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/modal_harmonic_function.png",
+  "lyl": "v2/lilylet/images/2019/05/modal_harmonic_function.lyl",
+  "chapter": "07-popular-music/13-modal-schemas.md",
+  "recommendation": "hand",
+  "caption": "Example 2. Modal harmony allows many more “flavors” of the same chord to be implemented without changing the function of the chord.",
+  "flags": [
+   "roman"
+  ],
+  "reason": "diatonic vs modal harmony by function",
+  "bars": 12,
+  "staves": 6,
+  "effort_min": 12
+ },
+ {
+  "index": 242,
+  "image": "v2/media/2019/05/mixolydian-1.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/mixolydian-1.png",
+  "lyl": "v2/lilylet/images/2019/05/mixolydian-1.lyl",
+  "chapter": "07-popular-music/13-modal-schemas.md",
+  "recommendation": "hand",
+  "caption": "Illustration in notation.",
+  "flags": [
+   "roman",
+   "scale-degrees",
+   "color"
+  ],
+  "reason": "C major vs C mixolydian",
+  "bars": 16,
+  "staves": 4,
+  "effort_min": 8
+ },
+ {
+  "index": 243,
+  "image": "v2/media/2019/05/tired_of_waiting.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/tired_of_waiting.png",
+  "lyl": "v2/lilylet/images/2019/05/tired_of_waiting.lyl",
+  "chapter": "07-popular-music/13-modal-schemas.md",
+  "recommendation": "hand",
+  "caption": "Example 5. “Tired of Waiting for You” by the Kinks uses the subtonic shuttle in its intro and verses. Transcription begins at 0:07.",
+  "flags": [
+   "lyrics",
+   "chord-symbols",
+   "roman",
+   "measure-repeat"
+  ],
+  "reason": "Tired of Waiting (Kinks) voice+bass",
+  "bars": 8,
+  "staves": 2,
+  "effort_min": 10
+ },
+ {
+  "index": 244,
+  "image": "v2/media/2019/05/somebody_that_I_used_to_know-2.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/somebody_that_I_used_to_know-2.png",
+  "lyl": "v2/lilylet/images/2019/05/somebody_that_I_used_to_know-2.lyl",
+  "chapter": "07-popular-music/13-modal-schemas.md",
+  "recommendation": "hand",
+  "caption": "Example 7. “Somebody That I Used to Know” by Gotye features the subtonic shuttle in its intro/verses and the aeolian shuttle in its choruses. The Intro transcription begins at 0:04, and the Chorus transcription begins at 1:32.",
+  "flags": [
+   "lyrics",
+   "chord-symbols",
+   "roman",
+   "brackets"
+  ],
+  "reason": "Somebody That I Used to Know, xylophone/voice+bass",
+  "bars": 8,
+  "staves": 4,
+  "effort_min": 15
+ },
+ {
+  "index": 245,
+  "image": "v2/media/2019/05/lotr.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/lotr.png",
+  "lyl": "v2/lilylet/images/2019/05/lotr.lyl",
+  "chapter": "07-popular-music/13-modal-schemas.md",
+  "recommendation": "hand",
+  "caption": "Example 8. The Fellowship Theme from the Lord of the Rings soundtrack by Howard Shore concludes its phrases with an aeolian cadence. Transcription begins at 0:27.",
+  "flags": [
+   "chord-symbols",
+   "roman"
+  ],
+  "reason": "LOTR Fellowship theme, aeolian cadence",
+  "bars": 8,
+  "staves": 2,
+  "effort_min": 10
+ },
+ {
+  "index": 246,
+  "image": "v2/media/2019/05/I-dont-like-you.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/05/I-dont-like-you.png",
+  "lyl": "v2/lilylet/images/2019/05/I-dont-like-you.lyl",
+  "chapter": "07-popular-music/13-modal-schemas.md",
+  "recommendation": "hand",
+  "caption": "Example 9. “I Don’t Like You” by Eva Simons uses a lament schema with ♭VII and minor v.",
+  "flags": [
+   "lyrics",
+   "chord-symbols",
+   "roman",
+   "brackets"
+  ],
+  "reason": "I Don't Like You (Eva Simons), lament schema",
+  "bars": 8,
+  "staves": 2,
+  "effort_min": 12
+ }
+]

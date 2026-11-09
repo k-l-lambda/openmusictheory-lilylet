@@ -1,0 +1,5 @@
+[title "Suspended (sus) chords"]
+
+\omit Score.TimeSignature \key c \major \clef "treble" <c f g>1 \chords "Csus" \bar "||" | %1
+<c d g>1 \chords "Csus2" \bar "||" | %2
+<c f g bf>1 \chords "C7sus" \bar "||" | %3

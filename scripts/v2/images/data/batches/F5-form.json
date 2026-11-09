@@ -1,0 +1,54 @@
+[
+ {
+  "index": 175,
+  "image": "v2/media/2019/07/Slide5-6.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/Slide5-6.png",
+  "lyl": "v2/lilylet/images/2019/07/Slide5-6.lyl",
+  "chapter": "04-form/04-expansion-and-contraction.md",
+  "recommendation": "omr+hand",
+  "caption": "Example 4. Internal expansion via the one-more-time technique in Mendelssohn, Op. 8, no. 5, “Pilgerspruch” ( 0:00–0:37 ).",
+  "flags": [
+   "scan",
+   "lyrics",
+   "form-brackets"
+  ],
+  "reason": "lied one-more-time technique",
+  "bars": 12,
+  "staves": 3,
+  "effort_min": 35
+ },
+ {
+  "index": 176,
+  "image": "v2/media/2019/07/Slide8-10.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/Slide8-10.png",
+  "lyl": "v2/lilylet/images/2019/07/Slide8-10.lyl",
+  "chapter": "04-form/04-expansion-and-contraction.md",
+  "recommendation": "omr+hand",
+  "caption": "Example 5. Internal expansion via alternative path (detour) in Mendelssohn, Hebrides Overture, mm. 9–26 ( 0:20–0:58 ).",
+  "flags": [
+   "scan",
+   "form-brackets"
+  ],
+  "reason": "alternative path (deterioration), 5 systems",
+  "bars": 20,
+  "staves": 2,
+  "effort_min": 40
+ },
+ {
+  "index": 177,
+  "image": "v2/media/2019/07/Slide10-11.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/Slide10-11.png",
+  "lyl": "v2/lilylet/images/2019/07/Slide10-11.lyl",
+  "chapter": "04-form/04-expansion-and-contraction.md",
+  "recommendation": "omr+hand",
+  "caption": "Example 6. Internal expansion via alternative path (reroute) in Maria Theresia von Paradis, Sicilienne, mm. 1–10 ( 0:00–0:42 ).",
+  "flags": [
+   "scan",
+   "form-brackets"
+  ],
+  "reason": "alternative path (reroute)",
+  "bars": 12,
+  "staves": 2,
+  "effort_min": 30
+ }
+]

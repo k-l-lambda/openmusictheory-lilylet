@@ -1,0 +1,47 @@
+[title "Sicilienne, mm. 1–10: internal expansion via alternative path (reroute)"]
+[composer "Maria Theresia von Paradis"]
+[staves "{s1-s2}-s3"]
+
+\staff "1" \key ef \major \time 6/8 \partial 8 \tempo "Andantino" \clef "treble" g'8\p^\markup "b.i."^\markup "antecedent" \\
+\staff "2" \partial 8 \clef "treble" r8 \\
+\staff "3" \partial 8 \clef "bass" r8 \bar ".|:" | %0
+
+\staff "1" bf'4 bf8 cf8.([ bf16 af8)] \\
+\staff "2" <bf ef g>4 <bf ef g>8 <cf ef af>4 <cf ef af>8 \\
+\staff "3" ef,,4 ef'8 ef4 ef8 | %1
+
+\staff "1" bf'4 g8^\markup "c.i.¹" af8.(\prall[ g16 f8)] \\
+\staff "2" <bf ef g>4 <bf g'>8 <cf ef f>4 <cf ef af>8 \\
+\staff "3" ef,,4 ef'8 ef4 ef8 | %2
+
+\staff "1" g'8.[ bf,16 ef g] f4.\trill \\
+\staff "2" <bf ef g>4 <bf ef g>8 <af ef' f>4 <af d f>8 \\
+\staff "3" ef,,4 ef'8 bf4 bf8 | %3
+
+\staff "1" \grace { ef16[( f] } g4.)^\markup "IAC"~ g4 bf8\mf^\markup "b.i."^\markup "consequent" \\
+\staff "2" <g bf ef>4 <g bf ef>8 <g bf ef>4 <bf ef g>8 \\
+\staff "3" ef,,4 ef'8 ef4 ef8 | %4
+
+\staff "1" ef'4 bf8 cf8.([ bf16 af8)] \\
+\staff "2" <bf ef bf'>4 <bf ef bf'>8 <cf ef af>4 <cf ef af>8 \\
+\staff "3" g4 g8 af4 af8 | %5
+
+\staff "1" bf'4 ef16(\<^\markup "c.i.²"^\markup "reroute"[ f)] g4 g8\! \\
+\staff "2" <ef bf'>4 <ef bf'>8 <d g d'>4 <d g d'>8 \\
+\staff "3" g4 g8 bf4 bf8 | %6
+
+\staff "1" g''4\f\> d8 ef8.([ d16 c8)]\! \\
+\staff "2" <f g d'>4 <f g d'>8 <ef g c>4 <ef g c>8 \\
+\staff "3" b4 b8 c4 c8 | %7
+
+\staff "1" g''4\p d8 ef4 c8^\markup "cad." \\
+\staff "2" <f g d'>4 <f g d'>8 <ef g c>4 <ef g c>8 \\
+\staff "3" b4 b8 c4 c8 | %8
+
+\staff "1" df'8.([ c16 bf af] g4) b,8 \\
+\staff "2" <f af df>4 <f af df>8 <f g b>4 <b, f' g>8 \\
+\staff "3" f,4 f8 g4 g,8 | %9
+
+\staff "1" c'4.^\markup "PAC"^\markup "1."~ c4 g8 \\
+\staff "2" <c ef g>4 <c ef g>8 <c ef g>4 r8 \\
+\staff "3" c,4 c8 c4 r8 \bar ":|." | %10

@@ -1,0 +1,102 @@
+[
+ {
+  "index": 269,
+  "image": "v2/media/2021/05/Solo.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2021/05/Solo.png",
+  "lyl": "v2/lilylet/images/2021/05/Solo.lyl",
+  "chapter": "09-twelve-tone-music/05-composing-with-twelve-tones.md",
+  "recommendation": "hand",
+  "caption": "A short viola solo",
+  "flags": [
+   "alto-clef",
+   "dynamics"
+  ],
+  "reason": "viola solo (twelve-tone composition)",
+  "bars": 3,
+  "staves": 1,
+  "effort_min": 6
+ },
+ {
+  "index": 270,
+  "image": "v2/media/2021/05/Moto-perpetuo.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2021/05/Moto-perpetuo.png",
+  "lyl": "v2/lilylet/images/2021/05/Moto-perpetuo.lyl",
+  "chapter": "09-twelve-tone-music/05-composing-with-twelve-tones.md",
+  "recommendation": "omr",
+  "caption": "Moto perpetuo section",
+  "flags": [
+   "string-quartet"
+  ],
+  "reason": "Moto perpetuo section, 3 systems quartet",
+  "bars": 12,
+  "staves": 4,
+  "effort_min": 25
+ },
+ {
+  "index": 271,
+  "image": "v2/media/2021/05/Rows_and_rotations.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2021/05/Rows_and_rotations.png",
+  "lyl": "v2/lilylet/images/2021/05/Rows_and_rotations.lyl",
+  "chapter": "09-twelve-tone-music/05-composing-with-twelve-tones.md",
+  "recommendation": "omr+hand",
+  "caption": null,
+  "flags": [
+   "tiny-text",
+   "labels"
+  ],
+  "reason": "rows and rotations, 4 grand-staff systems",
+  "bars": 24,
+  "staves": 8,
+  "effort_min": 30
+ },
+ {
+  "index": 273,
+  "image": "v2/media/2019/07/C3-Chord-Spacing-Types.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/C3-Chord-Spacing-Types.png",
+  "lyl": "v2/lilylet/images/2019/07/C3-Chord-Spacing-Types.lyl",
+  "chapter": "10-orchestration/01-core-principles-of-orchestration.md",
+  "recommendation": "hand",
+  "caption": null,
+  "flags": [
+   "labels"
+  ],
+  "reason": "chord spacing types",
+  "bars": 4,
+  "staves": 1,
+  "effort_min": 3
+ },
+ {
+  "index": 274,
+  "image": "v2/media/2019/07/Ciii-Britten.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/Ciii-Britten.png",
+  "lyl": "v2/lilylet/images/2019/07/Ciii-Britten.lyl",
+  "chapter": "10-orchestration/02-subtle-color-changes.md",
+  "recommendation": "omr+hand",
+  "caption": "“Attack-sustain” detail from Britten’s Four Sea Interludes",
+  "flags": [
+   "triplets",
+   "dynamics"
+  ],
+  "reason": "Britten Four Sea Interludes, flutes+harp",
+  "bars": 8,
+  "staves": 4,
+  "effort_min": 25
+ },
+ {
+  "index": 275,
+  "image": "v2/media/2019/07/Diii-Berg-Wozzeck.png",
+  "source_png": "/home/camus/work/openmusictheory-lilylet/v2/media/2019/07/Diii-Berg-Wozzeck.png",
+  "lyl": "v2/lilylet/images/2019/07/Diii-Berg-Wozzeck.lyl",
+  "chapter": "10-orchestration/02-subtle-color-changes.md",
+  "recommendation": "hand",
+  "caption": "Summary of the instrument entrances in the B3 unison of Berg’s Wozzeck",
+  "flags": [
+   "alto-clef",
+   "text-labels"
+  ],
+  "reason": "Wozzeck B3 entrances summary (instrument labels as text)",
+  "bars": 8,
+  "staves": 3,
+  "effort_min": 12
+ }
+]
