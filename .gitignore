@@ -12,3 +12,6 @@ _site/
 *.local.*
 
 node_modules/
+
+# OMT 2nd edition media (images, score files, audio): local only, see scripts/v2/README.md
+/v2/media/
