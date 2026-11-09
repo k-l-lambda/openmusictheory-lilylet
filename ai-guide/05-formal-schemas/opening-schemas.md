@@ -2,7 +2,7 @@
 title: Opening Schemas
 category: formal-schemas
 tags: [schema, galant, opening, presentation, meyer, jupiter]
-related: [continuation-schemas, sentence]
+related: [continuation-schemas, sentence, rule-of-the-octave]
 difficulty: intermediate
 examples: [05-haydnxvi27]
 ---
@@ -82,6 +82,8 @@ Opening schemas are 4-stage melodic-harmonic patterns used at phrase beginnings,
 
 **Character**: Simple ascending scale fragment, very common.
 
+**Note (OMT 2e):** `v2/02-counterpoint/12-galant-schemas-summary.md` gives a **3-stage** Do–Re–Mi: melody do–re–mi over bass do–ti–do, figures 5–6–5, I–V6–I, meter S–W–S. Its halves are a question–answer pair (Do–Re: I–V6; Re–Mi: V6–I). The 4-stage form above doubles the middle stage. Both are standard.
+
 ## The Sol-Fa-Mi
 
 | Stage | 1 | 2 | 3 | 4 |
@@ -104,7 +106,9 @@ Opening schemas are 4-stage melodic-harmonic patterns used at phrase beginnings,
 | **RN** | I | V | VI | I |
 | **Function** | T | D | Tx | T |
 
-**Character**: Descending bass by thirds, more common in slow movements.
+**Character**: Descending stepwise bass (do–ti–la, then mi), more common in slow movements.
+
+**Note (OMT 2e):** `v2/02-counterpoint/12-galant-schemas-summary.md` gives the Romanesca melody as do–sol–do–do over the same bass do–ti–la–mi (5–6–5–6, I–V6–vi–I6, S–W–S–W). The melody line varies by piece; the descending-step bass with alternating 5/3–6/3 is what defines the schema. The sol–sol–do–sol version above is also attested.
 
 ## Compositional Application
 
@@ -144,6 +148,13 @@ Based on Robert Gjerdingen's galant schemata as presented in OMT:
 
 **Primary theoretical reference**: Gjerdingen, Robert. *Music in the Galant Style*. Oxford University Press, 2007.
 
+OMT 2e (v2):
+
+| v2 chapter | Source URL | Used for |
+|------------|------------|----------|
+| `v2/02-counterpoint/12-galant-schemas-summary.md` | https://viva.pressbooks.pub/openmusictheory/chapter/galant-schemas-summary/ | Do–Re–Mi, Romanesca variants |
+
+
 ## Score Examples
 
 | Example | What it shows |
@@ -155,3 +166,4 @@ Based on Robert Gjerdingen's galant schemata as presented in OMT:
 - [Continuation Schemas](continuation-schemas.md) - Prinner, Fonte, Monte
 - [Sentence](../04-phrase-structure/sentence.md) - Schema in context
 - [Cadential Schemas](cadential-schemas.md) - Ending patterns
+- [Rule of the Octave and Cadential Schemas](rule-of-the-octave.md)

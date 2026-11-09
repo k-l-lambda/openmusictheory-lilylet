@@ -69,6 +69,8 @@ difficulty: intermediate
 
 **Character**: Simple ascending scale, very common.
 
+**Note (OMT 2e):** `v2/02-counterpoint/12-galant-schemas-summary.md` gives a **3-stage** Do–Re–Mi: melody do–re–mi over bass do–ti–do, figures 5–6–5, I–V6–I, meter S–W–S. Its halves are a question–answer pair (Do–Re: I–V6; Re–Mi: V6–I). The 4-stage form above doubles the middle stage. Both are standard.
+
 ### Sol-Fa-Mi
 
 | Stage | 1 | 2 | 3 | 4 |
@@ -89,7 +91,9 @@ difficulty: intermediate
 | RN | I | V6 | VI | I6 |
 | Function | T | D | Tx | T |
 
-**Character**: Descending bass by thirds, slow movements.
+**Character**: Descending bass by steps (do–ti–la, then a leap to mi), slow movements.
+
+**Note (OMT 2e):** `v2/02-counterpoint/12-galant-schemas-summary.md` gives the Romanesca melody as do–sol–do–do over the same bass do–ti–la–mi (5–6–5–6, I–V6–vi–I6, S–W–S–W). The melody line varies by piece; the descending-step bass with alternating 5/3–6/3 is what defines the schema. The sol–sol–do–sol version above is also attested.
 
 ## Continuation Schemas
 
@@ -133,6 +137,9 @@ difficulty: intermediate
 
 **Character**: First two stages of Prinner, makes room for cadence.
 
+**Conventions:** V1 (above) defines the Passo Indietro as the Prinner's first two stages: la–sol over fa–mi, IV–I6. `v2/02-counterpoint/12-galant-schemas-summary.md` instead gives **ti–do over fa–mi, figures 6/4/2 → 6 (V4/2–I6)**, Gjerdingen's usual form, while still calling it "essentially the first two stages of a Prinner". Both share the bass fa–mi before a cadence.
+- Read fa as a V4/2 bass when the upper voices hold ti/re/sol. Read it as IV when they hold la/do.
+
 ### Fonte
 
 **Structure**: Model (2 bars) + Sequence (2 bars, step lower)
@@ -154,6 +161,8 @@ difficulty: intermediate
 | Key area | Subdominant | Dominant |
 
 **Character**: Ascending sequence, builds toward dominant.
+
+*Do not copy OMT 2e's Monte stage table (v2 02/12): it labels stage 2 (bass fa, figure 5) "V". It should be IV (V7/IV–IV–V7/V–V over mi–fa–fi–sol).*
 
 ### Ponte
 
@@ -255,3 +264,10 @@ A:  Opening schema → V:PAC
 B:  Fonte/Monte → I:HC
 A': Opening schema variant → I:PAC
 ```
+
+## Sources (OMT 2e)
+
+| v2 chapter | Source URL | Used for |
+|------------|------------|----------|
+| `v2/02-counterpoint/12-galant-schemas-summary.md` | https://viva.pressbooks.pub/openmusictheory/chapter/galant-schemas-summary/ | Do–Re–Mi, Romanesca, Passo Indietro variants; Monte note |
+

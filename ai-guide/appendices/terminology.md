@@ -27,6 +27,9 @@ difficulty: foundational
 | **HC** | Half Cadence: phrase ends on V |
 | **DC** | Deceptive Cadence: V-vi (or other non-tonic) |
 | **PC** | Plagal Cadence: IV-I |
+| **PHC** | Phrygian Half Cadence: iv6–V in minor, bass le–sol |
+
+*Note (OMT 2e): `v2/03-diatonic-harmony/10-plagal-motion.md` and `11-la-in-the-bass.md` prefer **plagal motion** ((IV)–I prolonging tonic, usually after a PAC) and **deceptive motion** (V–vi avoiding a cadence), since neither usually ends a phrase. Keep DC/PC as codes, but don't count them as theme-closing cadences.*
 
 ## Chromatic Harmony
 
@@ -87,7 +90,7 @@ difficulty: foundational
 | **C (Closing)** | Post-cadential material after EEC |
 | **MC (Medial caesura)** | Rhetorical break ending Part 1 |
 | **EEC** | Essential Expositional Closure: first PAC in secondary key |
-| **ESC** | Essential Sonata Closure: PAC in tonic in recap |
+| **ESC** | Essential Structural Closure: PAC in tonic in recap |
 | **Crux** | Point in recap where alterations end |
 | **Retransition** | Dominant preparation for recapitulation |
 
@@ -150,7 +153,7 @@ difficulty: foundational
 | HC | Half cadence |
 | MC | Medial caesura |
 | EEC | Essential expositional closure |
-| ESC | Essential sonata closure |
+| ESC | Essential structural closure |
 | PC | Pitch class |
 | IC | Interval class |
 | P/I/R/RI | Prime/Inversion/Retrograde/Retrograde Inversion |
@@ -271,6 +274,7 @@ Standardized fields for AI-generated harmonic analysis.
 | Half Cadence | HC | weak |
 | Deceptive | DC | evaded |
 | Plagal | PC | weak |
+| Phrygian Half | PHC | weak |
 
 ### Function Encoding
 
@@ -282,3 +286,12 @@ Standardized fields for AI-generated harmonic analysis.
 | Tonic-substitute | Tx | vi function |
 | Chromatic | [X] | bracketed |
 | Applied | D/x, S/x | two-layer |
+
+## Sources (OMT 2e)
+
+| v2 chapter | Source URL | Used for |
+|------------|------------|----------|
+| `v2/04-form/08-sonata-form.md` | https://viva.pressbooks.pub/openmusictheory/chapter/sonata-form/ | ESC |
+| `v2/03-diatonic-harmony/10-plagal-motion.md` | https://viva.pressbooks.pub/openmusictheory/chapter/plagal-motion/ | plagal motion |
+| `v2/03-diatonic-harmony/11-la-in-the-bass.md` | https://viva.pressbooks.pub/openmusictheory/chapter/la-in-the-bass/ | PHC, deceptive motion |
+

@@ -2,7 +2,7 @@
 title: Modulation
 category: chromatic-harmony
 tags: [modulation, key-change, pivot-chord, tonicization]
-related: [applied-chords, cadences]
+related: [applied-chords, cadences, chromatic-sequences, neo-riemannian-and-mediants]
 difficulty: advanced
 examples: [02-pivot-chord-modulation]
 ---
@@ -108,6 +108,21 @@ Bracket notation shows the pivot chord analyzed in both keys simultaneously.
 | i (minor) | III | Old: i=New: vi, Old: iv=New: ii |
 | i (minor) | v | Old: i=New: iv, Old: III=New: VI |
 
+## Chromatic Modulation to Distant Keys (OMT 2e)
+
+Source: `v2/05-chromaticism/06-reinterpreting-augmented-sixth-chords.md` (chapter title "Chromatic Modulation"). Use these techniques when the target key is more than one accidental away.
+
+| Technique | Mechanism | Typical distance | Rule |
+|-----------|-----------|------------------|------|
+| **Mixture pivot** | a mixture chord in the old key is diatonic in the new key, or the reverse | flat side (e.g. C → E♭, A♭); "diatonic-as-mixture" goes sharpwards (e.g. C → A) | A major iv (D minor) = F major vi (v2 Ex. 3); A♭ major vi (F minor) = C major iv (v2 Ex. 6) |
+| **Common-tone (pivot-pitch) modulation** | one sustained or repeated pitch is reinterpreted (often respelled) as a member of the new tonic | chromatic mediants: C ↔ A♭ (common tone C), C ↔ E♭ (G), C ↔ A (E), C ↔ E (E) | the held tone carries the ear across; confirm the new key by cadence (Schumann "Widmung": A♭ = G♯, the 3rd of E) |
+| **V7 → Ger+6** | respell the 7th of a V7 as an augmented 6th (e.g. F → E♯ over G) and resolve outward to the new key's sol, usually via cad. 6/4 | **down a half step** (V7 of C = Ger+6 of B) | the 7th now resolves *up* by half step; bass falls by half step |
+| **Ger+6 → V7** | respell fi as the 7th (e.g. G♯ → A♭ over B♭) and resolve as V7 | **up a half step** (Ger+6 of D = V7 of E♭) | works with any dominant 7th, including applied (Ger+6 → V7/IV) |
+| **dim7 respelling** | any member of a °7 can be the leading tone | 4 possible tonics, a minor 3rd apart (B–D–F–A♭ → C, E♭, F♯/G♭, A), each major or minor | spell the °7 for the key it actually resolves to (Beethoven Op. 13: F♯–A–C–E♭ → G minor, then F♯–A–C–D♯ → E minor) |
+
+- A V7 and a Ger+6 sound the same; only the resolution distinguishes them. As V7, the 7th resolves *down* by step. As +6, the augmented 6th resolves *outward* to sol.
+- An It+6 (no fifth above the bass) respells as an incomplete V7 in the same way.
+
 ## Functional Analysis
 
 ### Pivot-Chord Functional Bass
@@ -147,6 +162,12 @@ Two-layer analysis overlaps on the pivot chord.
 3. **Functional coherence** — Smoothest pivots maintain function
 4. **Confirm new key** — At least one cadence affirming new tonic (PAC or IAC preferred)
 
+## Sources (OMT 2e)
+
+| v2 chapter | Source URL | Used for |
+|------------|------------|----------|
+| `v2/05-chromaticism/06-reinterpreting-augmented-sixth-chords.md` | https://viva.pressbooks.pub/openmusictheory/chapter/reinterpreting-augmented-sixth-chords/ | chromatic modulation table |
+
 ## Score Examples
 
 Transcribed in lilylet (see the [primer](../examples/lilylet-primer.md)); each example says what to look for, bar by bar.
@@ -160,3 +181,5 @@ Transcribed in lilylet (see the [primer](../examples/lilylet-primer.md)); each e
 - [Applied Chords](applied-chords.md) - Tonicization technique
 - [Cadences](../01-harmonic-functions/cadences.md) - Cadence types
 - [Pop-Rock Progressions](../03-progressions/pop-rock-progressions.md) - Pop modulation context
+- [Chromatic Sequences](chromatic-sequences.md)
+- [Neo-Riemannian Transformations and Mediants](neo-riemannian-and-mediants.md)

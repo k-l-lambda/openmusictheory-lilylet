@@ -2,7 +2,7 @@
 title: Voice-Leading Rules
 category: harmonic-functions
 tags: [voice-leading, tendency-tones, dissonance, resolution]
-related: [tonic-subdominant-dominant, cadences]
+related: [tonic-subdominant-dominant, cadences, jazz-voicings, species-counterpoint]
 difficulty: intermediate
 examples: [05-champagne, 05-d4i, 05-d5dropfifth, 05-d5problem, 05-deceptive, 05-deceptive7, 05-paralleltenths, 05-s4dropthird, 05-s4problem, 05-t1dropfifth, 05-ve63, 05-ve64]
 ---
@@ -159,3 +159,5 @@ Transcribed in lilylet (see the [primer](../examples/lilylet-primer.md)); each e
 - [T-S-D Functions](tonic-subdominant-dominant.md) - Functional framework
 - [Cadences](cadences.md) - Voice-leading at phrase endings
 - [Applied Chords](../02-chromatic-harmony/applied-chords.md) - Chromatic tendency tones
+- [Jazz Voicings and Blues](../09-jazz/jazz-voicings.md)
+- [Species Counterpoint](../10-counterpoint/species-counterpoint.md)

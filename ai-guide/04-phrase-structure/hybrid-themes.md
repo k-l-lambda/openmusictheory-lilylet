@@ -119,6 +119,30 @@ Phrase 2: Consequent (BI + CI' → strong cadence)
 | **Hybrid 3** | CBI | Continuation | none → PAC |
 | **Hybrid 4** | CBI | Consequent | none → PAC |
 
+### Beginning × Ending Matrix (OMT 2e)
+
+OMT 2e (`v2/04-form/03-hybrid-phrase-level-forms.md`, Example 7) frames hybrids as any of 3 beginnings × 3 endings. The sentence and the period are two cells of the matrix. Ranked frequencies:
+
+| Beginning ↓ / Ending → | Continuation | Consequent | Cadential |
+|------------------------|--------------|------------|-----------|
+| **Presentation** | sentence: very common | rare or non-existent | rare or non-existent |
+| **Antecedent** | Hybrid 1: slightly less common | period: very common | Hybrid 2: occasional |
+| **c.b.i.** | Hybrid 3: slightly less common | Hybrid 4: slightly less common | occasional (c.b.i. + cad.) |
+
+- Use this order of likelihood when classifying an 8-bar theme.
+- c.b.i. + cadential is a fifth hybrid that the four-hybrid list omits.
+
+**Ending diagnostics (v2 Ex. 5):**
+
+| Ending | Cadence | Bass | Ideas |
+|--------|---------|------|-------|
+| Consequent | PAC/IAC, never HC | varies | b.i. + c.i. |
+| Continuation | HC, IAC or PAC | varies | often 1+1+2 or 2+2 |
+| Cadential | PAC/IAC, never HC | mi–fa–sol–do (me in minor), harmonized I6–ii6/IV–V(7) (often with cad. 6/4)–I; may add fi before sol | 2+2 or indivisible; **never fragmentation** |
+
+- Clearest cadential ending: 4 bars, one bass note per bar.
+- A cadential *idea* ends a continuation. A cadential *ending* is that idea expanded to 4 bars and taking the continuation's place.
+
 ## Identification Guide
 
 ### Is it Antecedent or CBI?
@@ -148,6 +172,12 @@ Phrase 2: Consequent (BI + CI' → strong cadence)
 | Hybrid 2 | Clear opening + dignified, simple close |
 | Hybrid 3 | Open beginning + driven, developmental close |
 | Hybrid 4 | Open beginning + parallel, satisfying close |
+
+## Sources (OMT 2e)
+
+| v2 chapter | Source URL | Used for |
+|------------|------------|----------|
+| `v2/04-form/03-hybrid-phrase-level-forms.md` | https://viva.pressbooks.pub/openmusictheory/chapter/hybrid-phrase-level-forms/ | 3×3 matrix, ending diagnostics |
 
 ## Score Examples
 

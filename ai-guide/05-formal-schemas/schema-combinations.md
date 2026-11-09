@@ -2,7 +2,7 @@
 title: Schema Combinations
 category: formal-schemas
 tags: [schema, galant, composition, phrase-building]
-related: [opening-schemas, continuation-schemas, cadential-schemas, sentence, period]
+related: [opening-schemas, continuation-schemas, cadential-schemas, sentence, period, rule-of-the-octave]
 difficulty: intermediate
 examples: [05-haydnxvi27, 05-ve64, 05-ve63, 05-d4i, 05-paralleltenths, 05-champagne, 05-pinkchampagne, 05-deceptive, 05-deceptive7, 05-d5problem, 05-t1dropfifth, 05-d5dropfifth, 05-s4problem, 05-s4dropthird]
 ---
@@ -253,3 +253,4 @@ Based on Robert Gjerdingen's galant schemata as presented in OMT:
 - [Cadential Schemas](cadential-schemas.md) - PAC, IAC, HC
 - [Sentence](../04-phrase-structure/sentence.md) - 8-bar sentence form
 - [Period](../04-phrase-structure/period.md) - Antecedent-consequent
+- [Rule of the Octave and Cadential Schemas](rule-of-the-octave.md)

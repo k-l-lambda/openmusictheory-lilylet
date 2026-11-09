@@ -2,7 +2,7 @@
 title: Prolongation
 category: harmonic-functions
 tags: [prolongation, passing-chord, neighbor-chord, pedal, contrapuntal]
-related: [tonic-subdominant-dominant, cadences, voice-leading-rules]
+related: [tonic-subdominant-dominant, cadences, voice-leading-rules, rule-of-the-octave]
 difficulty: intermediate
 examples: [01-k331-reduction, 01-subsidiary-progression, 01-rns-functional-prolongation, 01-interpreted-functional-bass, 01-haydn-xvi21-prolongation, 05-champagne, 05-d4i, 05-paralleltenths, 05-pinkchampagne, 05-ve63, 05-ve64]
 ---
@@ -209,3 +209,4 @@ Transcribed in lilylet (see the [primer](../examples/lilylet-primer.md)); each e
 - [T-S-D Functions](tonic-subdominant-dominant.md) - Functional framework
 - [Cadences](cadences.md) - Phrase endings
 - [Voice-Leading Rules](voice-leading-rules.md) - Contrapuntal basis
+- [Rule of the Octave and Cadential Schemas](../05-formal-schemas/rule-of-the-octave.md)

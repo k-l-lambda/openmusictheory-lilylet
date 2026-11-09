@@ -94,7 +94,7 @@ Score example: [Mozart, K. 284, III, Tema](../examples/06-large-forms/k284-small
 
 ## Rounded Binary
 
-The term "rounded binary" describes a small ternary with repeat signs.
+In Caplin's terms (V1), "rounded binary" describes a small ternary with repeat signs. OMT 2e treats rounded binary as a type of binary and keeps "ternary" for forms whose A and B never repeat together; see Conventions below.
 
 ```
 ||: A :||: B - A' :||
@@ -105,6 +105,35 @@ The term "rounded binary" describes a small ternary with repeat signs.
 **Why "rounded"?** The return of A material "rounds out" the form.
 
 This is the most common type of small ternary in classical music.
+
+## Conventions: Caplin (V1) vs. OMT 2e
+
+The sections above use Caplin's theme-level categories (small binary / small ternary), as in V1. OMT 2e (`v2/04-form/06-binary-form.md`, `v2/04-form/07-ternary-form.md`) classifies by **repeat structure** instead, and the two systems name the same piece differently.
+
+| Piece shape | Caplin / V1 | OMT 2e |
+|-------------|-------------|--------|
+| `\|\|: A :\|\|: B A′ :\|\|` (A returns *inside* the second reprise) | small ternary (= "rounded binary") | **rounded binary**. It is *not* ternary, because B and A′ repeat together. |
+| `\|\|: A :\|\|: B :\|\|`, no return | small binary | **simple binary**, second reprise = B |
+| `\|\|: A :\|\|: A′ :\|\|`, second reprise continues A's ideas without a "return" | small binary | **simple binary**, second reprise = A′ (e.g. Bach, Bourrée BWV 996) |
+| A, B, A, each section separately closed and repeatable | (large) ternary | **ternary** |
+
+**OMT 2e binary rules (06):**
+- Two types only: **rounded** (the *beginning* of A returns in the home key in the middle of the second reprise; not all of A need return) and **simple** (no substantial return).
+- **Balanced** is an *aspect* either type may have, not a third type: the tail (x) of the first reprise returns at the tail of the second, in the home key.
+  - It needs a **crux** point, from which bar-for-bar mapping begins.
+  - A rounded binary that repeats the whole first reprise verbatim is not "balanced", because there is no crux at the tail.
+- 18th c.: an HC before A's return in rounded binary is common. 19th c.: the boundary may be elided.
+- The first reprise ends with a PAC, IAC or HC. In the 19th c. it may end with a tonic prolongation instead.
+- The second reprise ends with an authentic cadence in the home key, which is essentially obligatory. If a piece starts and ends in different keys, it has **progressive tonality**, not monotonality.
+
+**OMT 2e ternary rules (07):**
+- A may repeat immediately and B may repeat immediately, but **A and B never repeat together, and neither do B and A**. This is the test that separates ternary from rounded binary.
+- Repeat signs are common but not required.
+- **Compound** (composite) ternary: at least one section is itself a complete form, usually binary (minuet & trio, scherzo & trio). **Simple** ternary: no section is a complete form.
+- B contrasts in key, mode, texture, meter, material, etc. Its length is roughly proportional to A.
+  - Minuet/trio: A and B are similarly stable.
+  - Aria: B is often less stable, because it starts and ends in different keys.
+- Transitions, retransitions, prefixes and suffixes may join the sections.
 
 ## Contrasting Middle Techniques
 
@@ -185,6 +214,13 @@ Typical plan:
 2. **Ternary**: A material must return audibly in A'
 3. **Recapitulation**: Must end in tonic (I:PAC)
 4. **Contrasting middle**: Must end on or prepare dominant
+
+## Sources (OMT 2e)
+
+| v2 chapter | Source URL | Used for |
+|------------|------------|----------|
+| `v2/04-form/06-binary-form.md` | https://viva.pressbooks.pub/openmusictheory/chapter/binary-form/ | rounded/simple, balanced, progressive tonality |
+| `v2/04-form/07-ternary-form.md` | https://viva.pressbooks.pub/openmusictheory/chapter/ternary-form/ | repeat rule, compound ternary |
 
 ## Score Examples
 

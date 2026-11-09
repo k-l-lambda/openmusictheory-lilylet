@@ -2,7 +2,7 @@
 title: Continuation Schemas
 category: formal-schemas
 tags: [schema, galant, continuation, prinner, fonte, monte, ponte]
-related: [opening-schemas, cadential-schemas, sentence]
+related: [opening-schemas, cadential-schemas, sentence, chromatic-sequences, rule-of-the-octave]
 difficulty: intermediate
 examples: [05-haydn27fonte, 05-haydnxvi27, 06-k284-small-ternary]
 ---
@@ -83,6 +83,9 @@ First two stages of a Prinner, often elided to make room for a cadence.
 | **RN** | I | V |
 
 **Character**: Truncated Prinner, creates space for subsequent cadential gesture.
+
+**Conventions:** V1 (above) defines the Passo Indietro as the Prinner's first two stages: la–sol over fa–mi, IV–I6. `v2/02-counterpoint/12-galant-schemas-summary.md` instead gives **ti–do over fa–mi, figures 6/4/2 → 6 (V4/2–I6)**, Gjerdingen's usual form, while still calling it "essentially the first two stages of a Prinner". Both share the bass fa–mi before a cadence.
+- Read fa as a V4/2 bass when the upper voices hold ti/re/sol. Read it as IV when they hold la/do.
 
 ## The Fonte
 
@@ -199,6 +202,13 @@ Based on Robert Gjerdingen's galant schemata as presented in OMT:
 
 **Primary theoretical reference**: Gjerdingen, Robert. *Music in the Galant Style*. Oxford University Press, 2007.
 
+OMT 2e (v2):
+
+| v2 chapter | Source URL | Used for |
+|------------|------------|----------|
+| `v2/02-counterpoint/12-galant-schemas-summary.md` | https://viva.pressbooks.pub/openmusictheory/chapter/galant-schemas-summary/ | Passo Indietro (V4/2–I6) |
+
+
 ## Score Examples
 
 | Example | What it shows |
@@ -212,3 +222,5 @@ Based on Robert Gjerdingen's galant schemata as presented in OMT:
 - [Opening Schemas](opening-schemas.md) - Meyer, Jupiter, Aprile
 - [Cadential Schemas](cadential-schemas.md) - PAC, IAC, HC patterns
 - [Sentence](../04-phrase-structure/sentence.md) - Presentation + continuation
+- [Chromatic Sequences](../02-chromatic-harmony/chromatic-sequences.md)
+- [Rule of the Octave and Cadential Schemas](rule-of-the-octave.md)

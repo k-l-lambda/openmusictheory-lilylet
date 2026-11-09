@@ -60,6 +60,19 @@ The inversion reversed.
 
 **RIn**: Retrograde of In
 
+### Naming Conventions (fixed vs. moveable zero)
+
+OMT 2e (`v2/09-twelve-tone-music/02-naming-conventions-for-rows.md`) names two conventions. Both use the same operations; only the reference row differs.
+
+| Convention | P0 | I0 | R0 / RI0 |
+|------------|----|----|----------|
+| **Fixed zero** (most common today; used in this file) | the transposition starting on C (pc 0) | starts on C | R0 = P0 backwards; RI0 = I0 backwards (they *end* on C) |
+| **Moveable zero** | the form the analyst chooses (first heard, or most meaningful) | starts on P0's first pc | R0 = P0 backwards; RI0 = I0 backwards |
+
+- A hybrid is also common: the matrix's top row is the analyst's chosen form, but forms are labelled by fixed zero (top row = P<sub>n</sub>, n = its first pc).
+- Rule for this guide: Rn and RIn are named after the P or I form they reverse, so R<sub>n</sub> *ends* on n. Some published matrices (including some in OMT 2e) instead label R and RI by their first pc. Check which one a source uses before comparing labels.
+- Which orientation counts as P vs. I is often arbitrary; no standard rule exists (v2 09/02).
+
 ## The Twelve-Tone Matrix
 
 A 12×12 grid showing all 48 row forms.
@@ -129,14 +142,25 @@ For any row, calculate the interval from each PC to the next (mod 12). A 12-note
 
 ## Row Properties
 
-### Combinatoriality
+### Hexachordal Combinatoriality
 
-Two row forms are **combinatorial** if their first hexachords (6 notes) together contain all 12 PCs.
+Two row forms are **combinatorial** if their first hexachords together contain all 12 PCs (each one is the other's complement). Source: `v2/09-twelve-tone-music/03-row-properties.md`.
 
-**Types**:
-- **P-combinatorial**: P and I forms
-- **R-combinatorial**: P and RI forms
-- **All-combinatorial**: Multiple relationships
+- **Trivial case**: P<sub>n</sub> and R<sub>n</sub> (and I<sub>n</sub>/RI<sub>n</sub>) are always combinatorial, because R's first hexachord is P's second. This says nothing about the row.
+- The property is meaningful only when it holds between P and another P (Tn, n ≠ 0), between P and I, or between P and RI.
+
+| Degree (Babbitt) | Definition |
+|------------------|------------|
+| **Semi-combinatorial** | holds for one of these transformation types: P–P (transposition), P–I (inversion), or P–RI (retrograde inversion) |
+| **All-combinatorial** | holds for all of them (P–P, P–I and P–RI) |
+
+- Combinatoriality depends only on the first hexachord's set class and how it maps onto its complement. The common inversional case is P<sub>0</sub> paired with I<sub>n</sub> whose first hexachord = P<sub>0</sub>'s second hexachord.
+- Only six hexachord types give all-combinatorial rows. (OMT 2e says "six distinct rows"; it means six hexachord types, since many rows share each.) Examples: (012345) chromatic hexachord (Webern Op. 21), (014589) "magic"/hexatonic hexachord (Webern Op. 24; Schoenberg *Ode to Napoleon*), (02468T) whole-tone.
+- (014589) is all-combinatorial by transposition at T2, T6 and T10 (v2 09/03). Of all hexachords, only the whole-tone hexachord gives more transpositional combinatoriality: at every odd Tn.
+
+**Worked check (fixed-zero labels)**:
+- Webern Op. 21, P9 = <9 6 7 8 4 5 | 11 10 2 1 0 3>: first hexachord complemented by P3, I10 and RI4, so it is all-combinatorial.
+- Webern Op. 24, P11 = <11 10 2 3 7 6 | 8 4 5 0 1 9>: complemented by P1/P5/P9, I0/I4/I8 and RI2/RI6/RI10.
 
 ### Derived Rows
 
@@ -211,18 +235,29 @@ Within a segment, notes may be:
 
 1. **All 12 PCs**: Row must contain each PC exactly once
 2. **Complete statement**: Generally use entire row before repeating
-3. **48 forms**: P, I, R, RI × 12 transpositions
+3. **48 forms**: P, I, R, RI × 12 transpositions (24 distinct if the row is retrograde-symmetric)
 4. **Order matters**: Unlike pitch-class sets, sequence is significant
 
 ## Common Row Types
 
 ### All-Interval Row
 
-Contains each interval class (1-11) exactly once.
+The 11 **ordered pitch-class intervals** between adjacent pcs are all different, so each of 1–11 occurs exactly once. (These are not interval classes. There are only six ics, and an ordinary row repeats them.)
+- Always true: positions 1&12, 2&11, 3&10, 4&9, 5&8 and 6&7 are each a tritone apart, and the middle interval (6→7) is 6.
+- There are 1,928 all-interval rows (v2 09/03).
+- The example row in this file, <0 1 4 2 9 5 11 3 8 10 7 6>, is all-interval: OPCIs <1 3 10 7 8 6 4 5 2 9 11>.
 
-### Symmetric Row
+### Retrograde-Symmetric Row
 
-Retrograde equals a transposition of prime.
+R of the row equals a transposition of P. For a 12-tone row this transposition is always T6: R(P<sub>n</sub>) = P<sub>n+6</sub>. Such a row has only 24 distinct forms instead of 48.
+- Example: Webern *Symphonie* Op. 21 (`v2/09-twelve-tone-music/04-twelve-tone-analysis-examples-webern-op-21-and-24.md`). Its hexachords are both (012345) and its trichords are (013)(014)(014)(013).
+
+### Cell-Permutation Equivalence (Webern Op. 24)
+
+All four discrete trichords of the Op. 24 row are (014), and the ordered cells are related to each other by P, R, I and RI.
+- Reordering the cells (1234 → 4321 / 2143 / 3412) yields R, I and RI forms. Each row form therefore shares its four ordered trichords with three other forms, and only 12 distinct trichord-content groups remain.
+- Example: P11 shares its cells with I0, R5 and RI6 (fixed zero).
+- Both hexachords are (014589).
 
 ### Derived Row
 
@@ -243,6 +278,25 @@ Based on Open Music Theory materials:
 - `twelveToneBasics.md` - Row fundamentals, P/I/R/RI forms
 - `twelveToneIntervallicStructure.md` - Interval relationships between forms
 - `twelveToneOperations.md` - Transformational operations
+
+OMT 2e (v2):
+
+| v2 chapter | Source URL | Used for |
+|------------|------------|----------|
+| `v2/09-twelve-tone-music/02-naming-conventions-for-rows.md` | https://viva.pressbooks.pub/openmusictheory/chapter/naming-conventions-for-rows/ | fixed vs. moveable zero |
+| `v2/09-twelve-tone-music/03-row-properties.md` | https://viva.pressbooks.pub/openmusictheory/chapter/row-properties/ | all-interval, semi-/all-combinatorial, (014589) |
+| `v2/09-twelve-tone-music/04-twelve-tone-analysis-examples-webern-op-21-and-24.md` | https://viva.pressbooks.pub/openmusictheory/chapter/twelve-tone-analysis-examples-webern-op-21-and-24/ | Op. 21 and Op. 24 rows |
+
+**Known errors in OMT 2e (do not copy)**:
+- 09/03 prints 12! as 490,001,600; the correct value is 479,001,600.
+- 09/04's Op. 24 matrix gives P0 as <11 8 2 3 …>, repeating pc 8. The correct row is <11 10 2 3 7 6 8 4 5 0 1 9>.
+- Some 2e matrices label R forms by first pc, which contradicts the text's rule that R0 is P0 reversed.
+
+## Score Examples (planned)
+
+- Webern Op. 21 row with its trichord/hexachord divisions (v2 09/04, Example 1)
+- Webern Op. 24 row in four (014) cells (v2 09/04, Example 4)
+- Nono *Il canto sospeso* all-interval row (v2 09/03, Example 1)
 
 ## Score Examples
 

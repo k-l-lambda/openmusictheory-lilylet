@@ -40,20 +40,21 @@ difficulty: intermediate
 | Name | Pattern | Function |
 |------|---------|----------|
 | 50s Doo-Wop | I-vi-IV-V | T-T-S-D |
-| Axis | I-V-vi-IV | T-D-T-S |
+| Axis (rotation of singer/songwriter; v2 does not use the name "Axis") | I-V-vi-IV | T-D-T-S |
 | Singer/Songwriter | vi-IV-I-V | T-S-T-D |
 | Pachelbel | I-V-vi-iii-IV-I-IV-V | T-D-T-T-S-T-S-D |
-| Puff | I-IV | T-S |
-| Four Chords | I-IV-vi-V | T-S-T-D |
+| Puff | I–iii–IV (variants I–III♯–IV, i–III–iv) | T-T-S |
+| Hopscotch | IV–V–vi–I | S-D-T-T |
 
 ### Minor Key
 
 | Name | Pattern | Function |
 |------|---------|----------|
-| Lament | i-VII-VI-V | T-D-S-D |
-| Aeolian Shuttle | i-VII | T-D |
+| Lament (= Andalusian) | i–♭VII–♭VI–V (bass do–te–le–sol) | T-D-S-D |
+| Subtonic Shuttle (aeolian) | i–♭VII | T-D |
+| Aeolian Shuttle | i–♭VII–♭VI–♭VII | T-D-S-D |
+| Aeolian Cadence | ♭VI–♭VII–i (often –I) | S-D-T |
 | Minor Plagal | i-iv-i | T-S-T |
-| Andalusian | i-VII-VI-V | T-D-S-D |
 
 ### Modal Progressions
 
@@ -154,3 +155,13 @@ All 4-chord loops can rotate:
 | I-V-vi-IV | I-V-iv-IV, I-V-vi-ii |
 | I-vi-IV-V | I-vi-ii-V, I-vi-IV-I |
 | i-VII-VI-V | i-VII-iv-V, i-VII-VI-iv |
+
+## Sources (OMT 2e)
+
+| v2 chapter | Source URL | Used for |
+|------------|------------|----------|
+| `v2/07-popular-music/12-puff-schemas.md` | https://viva.pressbooks.pub/openmusictheory/chapter/puff-schemas/ | Puff |
+| `v2/07-popular-music/13-modal-schemas.md` | https://viva.pressbooks.pub/openmusictheory/chapter/modal-schemas/ | shuttles, aeolian cadence |
+| `v2/07-popular-music/10-4-chord-schemas.md` | https://viva.pressbooks.pub/openmusictheory/chapter/4-chord-schemas/ | hopscotch |
+| `v2/07-popular-music/11-classical-schemas.md` | https://viva.pressbooks.pub/openmusictheory/chapter/classical-schemas/ | lament |
+

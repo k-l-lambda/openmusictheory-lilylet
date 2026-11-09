@@ -2,7 +2,7 @@
 title: Modal Mixture
 category: chromatic-harmony
 tags: [modal-mixture, borrowed-chords, chromaticism, parallel-key]
-related: [applied-chords, modulation]
+related: [applied-chords, modulation, jazz-harmony, neo-riemannian-and-mediants, pop-schemas]
 difficulty: intermediate
 ---
 
@@ -129,3 +129,6 @@ Source: [MarkGotham/When-in-Rome](https://github.com/MarkGotham/When-in-Rome) (C
 
 - [Applied Chords](applied-chords.md) - Another chromatic technique
 - [Modulation](modulation.md) - When borrowing becomes key change *(planned)*
+- [Jazz Harmony](../09-jazz/jazz-harmony.md)
+- [Neo-Riemannian Transformations and Mediants](neo-riemannian-and-mediants.md)
+- [Pop Harmonic Schemas](../03-progressions/pop-schemas.md)

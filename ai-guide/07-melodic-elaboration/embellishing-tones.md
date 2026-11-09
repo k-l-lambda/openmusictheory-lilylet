@@ -2,7 +2,7 @@
 title: Embellishing Tones
 category: melodic-elaboration
 tags: [passing-tone, neighbor-tone, suspension, appoggiatura, anticipation]
-related: [voice-leading-rules]
+related: [voice-leading-rules, species-counterpoint]
 examples: [07-passing-tone, 07-neighbor-tone, 07-double-neighbor, 07-incomplete-neighbor, 07-appoggiatura, 07-escape-tone, 07-anticipation, 07-syncopation, 07-suspension, 07-retardation]
 difficulty: intermediate
 ---
@@ -238,3 +238,4 @@ All ten figures from the source page, transcribed into [lilylet](../examples/lil
 
 - [Voice-Leading Rules](../01-harmonic-functions/voice-leading-rules.md) — Counterpoint context
 - [Cadences](../01-harmonic-functions/cadences.md) — NCTs at phrase endings
+- [Species Counterpoint](../10-counterpoint/species-counterpoint.md)

@@ -13,6 +13,11 @@ examples: [04-k283-presentation, 04-k283-sentence, 04-op2-3-phrase-expansion]
 
 The sentence is an 8-measure thematic structure consisting of a 4-bar presentation phrase (tonic prolongation) followed by a 4-bar continuation phrase (cadential drive), ending with a single cadence.
 
+**Conventions (OMT 2e):** `v2/04-form/02-phrase-archetypes-unique-forms.md` treats the sentence as **one phrase** made of two **subphrases**, presentation and continuation (bracketed, not arced, because neither needs its own cadence). This file's "presentation phrase" / "continuation phrase" mean those subphrases.
+- The continuation traits are fragmentation, increased rhythmic activity, sequence and faster harmonic rhythm. Usually only some are present.
+- **Fragmentation is optional.** v2 gives continuations without it (Beethoven, Polonaise for Military Band; Op. 7, II).
+- "Fragmentation" refers only to *unit length*, not melodic content.
+
 ## Structure
 
 ```
@@ -118,7 +123,8 @@ Continuations are often 6 bars (not 4):
 1. Presentation must prolong tonic (no modulation)
 2. BI must be repeated (varied OK, but recognizable)
 3. Single cadence at end (not multiple)
-4. Continuation must show momentum increase
+4. Continuation must show momentum increase (any of the traits; fragmentation is not required)
+5. A sentence is a single phrase; do not analyze presentation + continuation as two phrases (v2 04/02)
 
 ## Comparison with Period
 
@@ -128,6 +134,12 @@ Continuations are often 6 bars (not 4):
 | Cadences | 1 (end) | 2 (weak + strong) |
 | Repetition | Immediate (BI+BI) | Structural (Ant.→Cons.) |
 | Character | Forward momentum | Balance/symmetry |
+
+## Sources (OMT 2e)
+
+| v2 chapter | Source URL | Used for |
+|------------|------------|----------|
+| `v2/04-form/02-phrase-archetypes-unique-forms.md` | https://viva.pressbooks.pub/openmusictheory/chapter/phrase-archetypes-unique-forms/ | sentence as one phrase; optional fragmentation |
 
 ## Score Examples
 

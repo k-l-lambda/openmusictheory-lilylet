@@ -23,13 +23,15 @@ This guide assumes familiarity with:
 | Section | Content |
 |---------|---------|
 | **01-harmonic-functions/** | Core T-S-D framework, prolongation, cadences |
-| **02-chromatic-harmony/** | Applied chords, modal mixture, Aug6, modulation |
-| **03-progressions/** | Stock progressions (classical, pop/rock, blues) |
+| **02-chromatic-harmony/** | Applied chords, modal mixture, Aug6, modulation, chromatic sequences, neo-Riemannian/mediants |
+| **03-progressions/** | Stock progressions (classical, pop/rock, OMT 2e pop schemas, blues) |
 | **04-phrase-structure/** | Sentence, period, hybrid themes |
-| **05-formal-schemas/** | Galant schemata (Meyer, Prinner, Fonte, etc.) |
+| **05-formal-schemas/** | Galant schemata (Meyer, Prinner, Fonte, etc.), rule of the octave |
 | **06-large-forms/** | Binary, ternary, sonata, rondo |
 | **07-melodic-elaboration/** | Embellishing tones (PT, NT, SUS, etc.) |
 | **08-post-tonal/** | Basic pitch-class sets and twelve-tone concepts |
+| **09-jazz/** | Jazz harmony (chord symbols, ii–V–I, substitutions, chord-scale) and voicings (OMT 2e) |
+| **10-counterpoint/** | Species counterpoint, 16th-century style, fugal exposition (OMT 2e) |
 | **appendices/** | Quick reference tables, glossary |
 | **examples/** | 79 lilylet score examples transcribed from the OMT figures, linked from each topic ([index](examples/README.md)) |
 
@@ -54,7 +56,7 @@ The topic files link to **score examples** in [`examples/`](examples/README.md).
 
 ## Source
 
-Derived from [Open Music Theory](https://viva.pressbooks.pub/openmusictheory/) with content from:
+Derived from [Open Music Theory](https://viva.pressbooks.pub/openmusictheory/): first edition (repo-root `*.md`) and second edition (`v2/`, OMT 2e). Topics added from 2e cite `v2/<part>/<chapter>.md` plus the chapter URL in their Sources. Where V1 and 2e differ in convention, the file states both ("Conventions" / "Note (OMT 2e)"). Content also comes from:
 - Mark Gotham's When-in-Rome corpus
 - Fux's Gradus ad Parnassum exercises
 - Classical and pop/rock harmony analysis

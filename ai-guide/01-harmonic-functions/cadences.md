@@ -2,7 +2,7 @@
 title: Cadences
 category: harmonic-functions
 tags: [cadence, PAC, IAC, HC, phrase-ending, closure]
-related: [prolongation, phrase-structure]
+related: [prolongation, phrase-structure, species-counterpoint, rule-of-the-octave]
 difficulty: foundational
 examples: [01-cadential64, 01-cadential64-full, 01-cadential64-7th, 01-compound43, 01-compound43-full, 01-double-cadence, 05-d5dropfifth, 05-d5problem, 05-deceptive, 05-deceptive7, 05-t1dropfifth]
 ---
@@ -81,8 +81,20 @@ V5/3 → V6/4 → V5/4 → V5/3 → I
 | PAC | V-I | D-T |
 | IAC | V-I | D-T |
 | HC | ...V | ...D |
-| Plagal | IV-I | S-T |
-| Deceptive | V-vi | D-T(x) |
+| Phrygian HC (minor only) | iv6–V | S-D |
+| Plagal *motion* (see note) | (IV)–I | T prolongation |
+| Deceptive *motion* (see note) | V(7)–vi | D-T(x) |
+
+**Phrygian half cadence (PHC)** (`v2/03-diatonic-harmony/11-la-in-the-bass.md`):
+- Minor only: iv6–V with bass le–sol (a half step, like phrygian ra–do).
+- Double **do** in iv6 to avoid parallels and the augmented 2nd le–ti.
+- Usually approached from i, with soprano me–fa–sol.
+
+**Conventions:** V1 lists "plagal" and "deceptive" as cadence types. OMT 2e keeps "cadence" for phrase endings and uses:
+- **plagal motion**: (IV)–I prolonging tonic, usually *after* a PAC or at a phrase beginning. It is written with IV in parentheses. True (IV)–I phrase endings exist but are rare in 18th–19th-c. music (`v2/03-diatonic-harmony/10-plagal-motion.md`).
+- **deceptive motion**: V(7) moves to vi (less often IV6) instead of I, avoiding the cadence. The phrase then continues to a real cadence (v2 03/11).
+
+Do not treat (IV)–I or V–vi as the cadence that closes a theme.
 
 ## Melodic Considerations
 
@@ -133,6 +145,13 @@ V5/3 → V6/4 → V5/4 → V5/3 → I
    - Both V and I in root position
    - Melody arrives on do
 
+## Sources (OMT 2e)
+
+| v2 chapter | Source URL | Used for |
+|------------|------------|----------|
+| `v2/03-diatonic-harmony/10-plagal-motion.md` | https://viva.pressbooks.pub/openmusictheory/chapter/plagal-motion/ | plagal motion |
+| `v2/03-diatonic-harmony/11-la-in-the-bass.md` | https://viva.pressbooks.pub/openmusictheory/chapter/la-in-the-bass/ | deceptive motion, phrygian HC |
+
 ## Score Examples
 
 Transcribed in lilylet (see the [primer](../examples/lilylet-primer.md)); each example says what to look for, bar by bar.
@@ -156,3 +175,5 @@ Transcribed in lilylet (see the [primer](../examples/lilylet-primer.md)); each e
 - [Phrase Structure](../04-phrase-structure/_overview.md) - Periods and sentences
 - [Prolongation](prolongation.md) - Extending functions before cadence *(planned)*
 - [Formal Schemas](../05-formal-schemas/_overview.md) - Cadential patterns in schemas
+- [Species Counterpoint](../10-counterpoint/species-counterpoint.md)
+- [Rule of the Octave and Cadential Schemas](../05-formal-schemas/rule-of-the-octave.md)

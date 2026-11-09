@@ -42,7 +42,9 @@ Chromatic harmony provides:
 ## Section Contents
 
 - [Applied Chords](applied-chords.md) - Secondary dominants (V/x)
-- [Modal Mixture](modal-mixture.md) - Borrowing from parallel mode *(planned)*
-- [Augmented Sixths](augmented-sixths.md) - It, Fr, Ger, Sw +6 *(planned)*
-- [Neapolitan](neapolitan.md) - bII chord *(planned)*
-- [Modulation](modulation.md) - Changing keys *(planned)*
+- [Modal Mixture](modal-mixture.md) - Borrowing from parallel mode
+- [Augmented Sixths](augmented-sixths.md) - It, Fr, Ger (+ri spelling / Sw), Ger°3
+- [Neapolitan](neapolitan.md) - ♭II6 chord
+- [Modulation](modulation.md) - Changing keys; chromatic modulation (mixture pivots, common-tone, Ger+6↔V7, dim7)
+- [Chromatic Sequences](chromatic-sequences.md) - Chromatic vs. chromaticized sequences, omnibus, equal divisions of the octave
+- [Neo-Riemannian and Mediants](neo-riemannian-and-mediants.md) - P/L/R, S/N/H, hexatonic/octatonic cycles, Weitzmann, Cube Dance, mediant grades

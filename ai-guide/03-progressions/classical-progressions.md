@@ -2,7 +2,7 @@
 title: Classical Progressions
 category: progressions
 tags: [classical, common-practice, T-S-D, circle-of-fifths, cadential]
-related: [tonic-subdominant-dominant, cadences, prolongation]
+related: [tonic-subdominant-dominant, cadences, prolongation, jazz-harmony, chromatic-sequences, pop-schemas]
 difficulty: intermediate
 ---
 
@@ -117,7 +117,9 @@ i → iv → VII → III → VI → iio → V → i
 | Primary | Substitutes | Bass |
 |---------|-------------|------|
 | I | vi, iii | 1, 6, 3 |
-| I6 | iii | 3 |
+| I6 | iii | 3 (V1 only: champagne variant I–IV6–III) |
+
+*Note (OMT 2e): `v2/03-diatonic-harmony/12-the-mediant.md` says iii is **not** a substitute for I6 in common-practice style. iii follows I over a descending ti and moves on to a strong predominant (weak-predominant role). Do not write I–V4/3–iii for I–V4/3–I6.*
 
 ### Subdominant Family
 
@@ -229,9 +231,18 @@ i - VII - VI - V    (Root position variant)
 | 7ths | Functional | Color |
 | Retrogression | Avoided | Common |
 
+## Sources (OMT 2e)
+
+| v2 chapter | Source URL | Used for |
+|------------|------------|----------|
+| `v2/03-diatonic-harmony/12-the-mediant.md` | https://viva.pressbooks.pub/openmusictheory/chapter/the-mediant/ | iii is not a substitute for I6 |
+
 ## Related Topics
 
 - [T-S-D Functions](../01-harmonic-functions/tonic-subdominant-dominant.md) - Functional framework
 - [Cadences](../01-harmonic-functions/cadences.md) - Phrase endings
 - [Prolongation](../01-harmonic-functions/prolongation.md) - Extending functions
 - [Pop-Rock Progressions](pop-rock-progressions.md) - Modern patterns
+- [Jazz Harmony](../09-jazz/jazz-harmony.md)
+- [Chromatic Sequences](../02-chromatic-harmony/chromatic-sequences.md)
+- [Pop Harmonic Schemas](pop-schemas.md)

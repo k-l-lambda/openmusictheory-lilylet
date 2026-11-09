@@ -2,7 +2,7 @@
 title: Blues Progressions
 category: progressions
 tags: [blues, 12-bar, 16-bar, turnaround, pop-rock]
-related: [pop-rock-progressions, classical-progressions]
+related: [pop-rock-progressions, classical-progressions, jazz-harmony, jazz-voicings, pop-schemas]
 difficulty: intermediate
 ---
 
@@ -71,7 +71,8 @@ Chord:| I | I | I | I | I | I | I | I | IV| IV| I | I | V | IV| I | I |
 | Standard | Variant | Example |
 |----------|---------|---------|
 | V - IV - I | II - V - I | "Don't Be Cruel" |
-| V - IV - I | V - V - I | Standard jazz |
+| V - IV - I | V - V - I | (V1 label "standard jazz"; see note) |
+| V - IV - I | ii - V - I | jazz blues; minor blues (OMT 2e) |
 | I - I - I - I | V - V - I - I | "Surfin' USA" |
 
 ### Quick IV
@@ -87,6 +88,20 @@ Some versions add a "quick IV" in bar 2:
 ```
 | I7 | IV7 | I7 | I7 | IV7 | IV7 | I7 | VI7 | ii7 | V7 | I7 | V7 |
 ```
+
+**Note (OMT 2e):** `v2/06-jazz/08-blues-harmony.md` defines the jazz blues by its added ii–V's, which replace the structural plagal motions:
+- bar 8 holds an **applied ii–V that leads to ii** in bar 9 (iii7–VI7 = ii7/ii–V7/ii; the VI7 above is its V);
+- the third phrase's V–IV–I becomes **ii–V–I**, so that phrase starts on ii, not V;
+- it ends with a turnaround.
+
+V1's "V–V–I = standard jazz" row is not v2's jazz blues.
+
+**Minor blues (v2 06/08):**
+- i and iv are **minor sevenths**; V stays dominant.
+- Major V → minor iv sounds anticlimactic, so the third phrase usually becomes ii–V–i (iiø7–V7–i in practice).
+- Variant: ♭VI–V in place of ii–V (B.B. King, "The Thrill Is Gone").
+
+Bar-by-bar jazz and minor blues voicings are in [Jazz Voicings](../09-jazz/jazz-voicings.md).
 
 ## Form Context
 
@@ -138,7 +153,15 @@ Blues progressions typically appear in:
 3. **Subdominant phrase starts on IV** — Creates contrast
 4. **Dominant phrase starts on V** — Creates resolution drive
 
+## Sources (OMT 2e)
+
+| v2 chapter | Source URL | Used for |
+|------------|------------|----------|
+| `v2/06-jazz/08-blues-harmony.md` | https://viva.pressbooks.pub/openmusictheory/chapter/blues-harmony/ | jazz blues, minor blues |
+
 ## Related Topics
 
 - [Pop-Rock Progressions](pop-rock-progressions.md) - Four-chord loops and variants
 - [Classical Progressions](classical-progressions.md) - T-S-D patterns *(planned)*
+- [Jazz Harmony](../09-jazz/jazz-harmony.md)
+- [Pop Harmonic Schemas](pop-schemas.md)

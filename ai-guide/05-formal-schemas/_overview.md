@@ -59,3 +59,4 @@ Each schema is described by:
 - [Continuation Schemas](continuation-schemas.md) - Prinner, Fonte, Monte
 - [Cadential Schemas](cadential-schemas.md) - PAC, IAC, HC patterns
 - [Schema Combinations](schema-combinations.md) - Building phrases
+- [Rule of the Octave](rule-of-the-octave.md) - Bass-degree → figure table; pre-/post-cadential schemas (Fenaroli, Indugio, Comma, Quiescenza, cadenza semplice/composta/doppia)

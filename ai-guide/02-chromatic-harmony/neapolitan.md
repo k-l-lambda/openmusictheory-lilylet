@@ -40,7 +40,8 @@ Always **subdominant function** [S] — a chromatic intensification of pre-domin
 ### Roman Numeral
 
 - **N.** or **N.6** — replaces Roman numeral
-- NOT labeled as ♭II in classical analysis (though pop/jazz may use ♭II)
+- V1 convention: the chord is labelled N. instead of ♭II
+- **Conventions:** OMT 2e labels it **♭II6** ("Neapolitan sixth (♭II6)", `v2/05-chromaticism/02-bii6.md`) and root position ♭II. N6 and ♭II6 mean the same chord; use one consistently.
 
 ### Functional Bass
 
@@ -71,7 +72,7 @@ fa → sol (up by step, or fa → fi → sol via cad. 6/4)
 The hallmark voice-leading involves:
 - **ra → do** (♭2 → 1) in an upper voice — the expressive chromatic descent
 - **le → sol** (♭6 → 5) — standard resolution
-- Often via **cadential 6/4**: N.6 → cad. 6/4 → V, where ra moves to sol (of cad. 6/4) then ti
+- Often via **cadential 6/4**: N.6 → cad. 6/4 → V. Here ra moves to **do** (the 4 of the cad. 6/4), then to ti: ra–do–ti (v2 05/02). ra never goes to sol; that would be a diminished-fifth leap.
 
 ## Compositional Application
 
@@ -140,7 +141,14 @@ Source: MarkGotham/When-in-Rome (CC BY-SA 4.0)
 2. **Double fa** (the bass note)
 3. **Resolves to V** (directly or via cad. 6/4)
 4. **Minor key preferred** - Major key possible but less common
-5. **ra resolves to do (or sol)** - ♭2 moves down to 1 or up to cad. 6/4
+5. **ra resolves down**: to ti over V, or ra–do–ti when a cad. 6/4 intervenes. le → sol.
+6. **Stock progressions (v2 05/02)**: ♭II6–V, ♭II6–(cad. 6/4)–V, and ♭II6–vii°7/V–V. Less often: root-position ♭II, ♭II6 → V4/2, or ♭II tonicized as a key area.
+
+## Sources (OMT 2e)
+
+| v2 chapter | Source URL | Used for |
+|------------|------------|----------|
+| `v2/05-chromaticism/02-bii6.md` | https://viva.pressbooks.pub/openmusictheory/chapter/bii6/ | ♭II6 label, ra–do–ti, stock progressions |
 
 ## Score Examples
 

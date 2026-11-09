@@ -2,7 +2,7 @@
 title: Pop/Rock Progressions
 category: progressions
 tags: [pop, rock, stock-progressions, cyclical, loop]
-related: [blues-progressions, everett-tonal-systems]
+related: [blues-progressions, everett-tonal-systems, jazz-voicings, pop-schemas]
 difficulty: intermediate
 ---
 
@@ -11,6 +11,8 @@ difficulty: intermediate
 ## Summary
 
 Pop/rock harmony is characterized by cyclical four-chord progressions (loops) that repeat throughout sections. These stock progressions recur across thousands of songs.
+
+**Superseded in part by [Pop Harmonic Schemas](pop-schemas.md)** (OMT 2e, `v2/07-popular-music/08`–`15`). That file adds hopscotch (IV–V–vi–I), the plagal sigh, the modal shuttles and cadences, and the mode flowchart, with v2's names and functions. Where the two files differ, follow pop-schemas.md. The lament, shuttle and Puff entries here were corrected to match it.
 
 ## Major Key Progressions
 
@@ -105,25 +107,26 @@ Pop/rock harmony is characterized by cyclical four-chord progressions (loops) th
 
 **Example:** "Hey Joe" verse (Jimi Hendrix)
 
-### Puff (I-III-IV)
+### Puff (I–iii–IV)
 
-**Pattern:** `I - III - IV...` (phrase opener)
+**Pattern:** `I - iii - IV ...` (phrase opener; not usually looped)
 
 | Feature | Description |
 |---------|-------------|
 | Function | T - T - S |
-| Position | Beginning of phrases only |
+| Position | Opening of phrases; what follows IV varies (I, V, ...) |
 | Character | Folk, narrative |
 
-**Key feature:** Bass moves 1-3-4, with 3 harmonized as III chord (not I6)
+**Key feature:** the bass moves do–mi–fa, and mi is harmonized as a root-position **iii** (minor), not as I6.
 
-**Minor/modal context (most common):** `i - III - iv`
-- "House of the Rising Sun" is in minor, where III is diatonic
+**Variants (OMT 2e, `v2/07-popular-music/12-puff-schemas.md`):**
+- `I - III♯ - IV`: iii's third is raised, making a major III♯ with the inner line sol–si–la (e.g. Radiohead, "Creep": G–B–C–Cm, I–III♯–IV–iv).
+  - III♯ can also be heard as V/vi. III♯–IV is then a deceptive resolution of V/vi.
+- Minor: `i - III - iv`, or with major IV: "House of the Rising Sun" is i–III–IV–VI | i–III–V (Am–C–D–F | Am–C–E).
 
-**Major context:** `I - III - IV` uses chromatic mediant III (contains #^5 relative to the key)
-- "Puff the Magic Dragon" uses this in major
+**Examples:** "Puff, the Magic Dragon" (A–C♯m–D–A = I–iii–IV–I), Marvin Gaye "Let's Get It On" (I–iii7–IV–V11), "House of the Rising Sun" (minor)
 
-**Examples:** "Puff the Magic Dragon," "House of the Rising Sun"
+*Correction note: an earlier version of this file gave the Puff as I–III–IV, with major III in "Puff". The song has minor iii (C♯m in A). III♯ is a variant.*
 
 ### Circle of Fifths
 
@@ -139,7 +142,7 @@ Pop/rock harmony is characterized by cyclical four-chord progressions (loops) th
 
 ### Lament
 
-**Pattern:** `i - VII - VI - V`
+**Pattern:** `i - ♭VII - ♭VI - V`
 
 | Feature | Description |
 |---------|-------------|
@@ -147,17 +150,23 @@ Pop/rock harmony is characterized by cyclical four-chord progressions (loops) th
 | Character | Sad, descending |
 | Origin | Baroque ground bass |
 
-**Bass line:** Descending chromatic or diatonic from tonic to dominant
+**Bass line:** do–te–le–sol (the descending minor tetrachord, v2 07/11). The chromatic form fills in the semitones.
+
+**Variants (v2 07/08):** i–♭VII–♭VI–v (aeolian lament, no leading tone); major I in place of i; passing V6 or IV6 between chords. "Andalusian cadence" is another name for this progression, not a separate schema.
 
 ### Aeolian Shuttle
 
-**Pattern:** `i - VII` or `i - VI - VII`
+**Pattern:** `i - ♭VII - ♭VI - ♭VII` (OMT 2e, `v2/07-popular-music/13-modal-schemas.md`)
 
 | Feature | Description |
 |---------|-------------|
 | Mode | Natural minor (Aeolian) |
-| Character | Dark, modal |
-| No V-i | Avoids dominant function |
+| Shape | a shuttle between i and ♭VI, with passing ♭VII; circular, no cadence |
+| No V-i | ♭VII stands in for the dominant |
+
+- The two-chord **i–♭VII** (or ♭VII–i) is the **subtonic shuttle** (aeolian version), not the aeolian shuttle.
+- **♭VI–♭VII–i** (usually ♭VI–♭VII–I) is the goal-directed **aeolian cadence**.
+- *Correction note: an earlier version gave the aeolian shuttle as "i–VII or i–VI–VII".*
 
 ### Minor Plagal
 
@@ -190,7 +199,7 @@ All cyclical progressions can begin on any chord:
 | Triumphant/anthemic | Double-plagal (bVII-IV-I) |
 | Building/climactic | Extended plagal |
 | Dark/heavy | Lament, Aeolian |
-| Narrative/opening | Puff (I-III-IV) |
+| Narrative/opening | Puff (I–iii–IV) |
 | Sophisticated | Circle of fifths |
 
 ### Extending Progressions
@@ -229,8 +238,20 @@ Based on Open Music Theory materials:
 
 Walter Everett's terminology: [Making Sense of Rock's Tonal Systems](http://www.mtosmt.org/issues/mto.04.10.4/mto.04.10.4.w_everett.html)
 
+OMT 2e (v2):
+
+| v2 chapter | Source URL | Used for |
+|------------|------------|----------|
+| `v2/07-popular-music/12-puff-schemas.md` | https://viva.pressbooks.pub/openmusictheory/chapter/puff-schemas/ | Puff |
+| `v2/07-popular-music/13-modal-schemas.md` | https://viva.pressbooks.pub/openmusictheory/chapter/modal-schemas/ | aeolian shuttle, subtonic shuttle, aeolian cadence |
+| `v2/07-popular-music/11-classical-schemas.md` | https://viva.pressbooks.pub/openmusictheory/chapter/classical-schemas/ | lament bass |
+| `v2/07-popular-music/08-intro-to-pop-schemas.md` | https://viva.pressbooks.pub/openmusictheory/chapter/intro-to-pop-schemas/ | lament variants |
+
+
 ## Related Topics
 
+- [Pop Harmonic Schemas](pop-schemas.md) - OMT 2e schema catalog (supersedes parts of this file)
 - [Blues Progressions](blues-progressions.md) - 12/16-bar structures
 - [Everett Tonal Systems](everett-tonal-systems.md) - Modal systems in pop
 - [Classical Progressions](classical-progressions.md) - Function-based patterns
+- [Jazz Voicings and Blues](../09-jazz/jazz-voicings.md)

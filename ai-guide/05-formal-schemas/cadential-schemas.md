@@ -2,7 +2,7 @@
 title: Cadential Schemas
 category: formal-schemas
 tags: [schema, galant, cadence, PAC, IAC, HC]
-related: [opening-schemas, continuation-schemas, cadences]
+related: [opening-schemas, continuation-schemas, cadences, rule-of-the-octave]
 difficulty: intermediate
 ---
 
@@ -198,3 +198,4 @@ Based on Robert Gjerdingen's galant schemata as presented in OMT:
 - [Cadences](../01-harmonic-functions/cadences.md) - Functional cadence types
 - [Opening Schemas](opening-schemas.md) - Phrase beginnings
 - [Continuation Schemas](continuation-schemas.md) - Prinner leads to cadence
+- [Rule of the Octave and Cadential Schemas](rule-of-the-octave.md)

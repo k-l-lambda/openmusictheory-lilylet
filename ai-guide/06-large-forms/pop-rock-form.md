@@ -2,7 +2,7 @@
 title: Pop/Rock Form
 category: large-forms
 tags: [pop-rock, verse-chorus, AABA, strophic, bridge]
-related: [binary-ternary, blues-progressions]
+related: [binary-ternary, blues-progressions, pop-schemas]
 difficulty: intermediate
 ---
 
@@ -213,3 +213,4 @@ Verse-Chorus: ╱╲╱╲╱╲▲━━━━  (builds to final chorus)
 - [Binary and Ternary](binary-ternary.md) - Classical small forms
 - [Blues Progressions](../03-progressions/blues-progressions.md) - Blues as strophic form
 - [Pop-Rock Progressions](../03-progressions/pop-rock-progressions.md) - Harmonic patterns
+- [Pop Harmonic Schemas](../03-progressions/pop-schemas.md)

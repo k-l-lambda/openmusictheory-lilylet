@@ -4,8 +4,28 @@
 
 | Status | Count |
 |--------|-------|
-| Completed | 45 |
+| Completed | 54 |
 | Planned | 0 |
+
+## OMT 2nd edition pass (2026-11-09)
+
+New topics from v2 (each rule cites a `v2/...md` chapter and its URL):
+- [x] `09-jazz/jazz-harmony.md`, `09-jazz/jazz-voicings.md` (+ `_overview.md`)
+- [x] `02-chromatic-harmony/chromatic-sequences.md`: chromatic sequences, omnibus, equal divisions
+- [x] `02-chromatic-harmony/neo-riemannian-and-mediants.md`
+- [x] `10-counterpoint/species-counterpoint.md` (+ `_overview.md`)
+- [x] `05-formal-schemas/rule-of-the-octave.md`: RO, pre-/post-cadential schemas
+- [x] `03-progressions/pop-schemas.md`: modal/pentatonic pop schemas; supersedes parts of `pop-rock-progressions.md`
+
+Fixes: tetrachord vectors/labels and the Rahn/Forte convention (pitch-class-sets); combinatoriality and fixed/moveable zero (twelve-tone); Puff = I–iii–IV; ESC = Essential *Structural* Closure; plus convention notes where V1 and v2 differ. Each new topic lists v2 figures worth transcribing under "Score Examples (planned)".
+
+### Future work (from v2, not yet written)
+
+| Topic | v2 sources | Notes |
+|-------|------------|-------|
+| Hypermeter and metrical dissonance | `v2/11-rhythm-and-meter/05-hypermeter.md`, `06-metrical-dissonance.md`, `v2/15-chapters-in-development/02-hypermeter2.md`, `v2/08-20th-and-21st-century-techniques/01-twentieth-century-rhythmic-techniques.md` | grouping/displacement dissonance, hypermetric reinterpretation |
+| Drumbeats and pop texture | `v2/07-popular-music/01-rhythm-and-meter-in-pop-music.md`, `02-drumbeats.md`, `07-texture-in-pop-music.md` | standard rock beat, textural layers |
+| Orchestration principles | `v2/10-orchestration/01-core-principles-of-orchestration.md`, `02-subtle-color-changes.md`, `03-transcription-from-piano.md` | ranges, doubling, piano-to-orchestra |
 
 ## Recently Completed (2026-02-04 Session 3)
 

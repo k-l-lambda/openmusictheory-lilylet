@@ -2,7 +2,7 @@
 title: Pitch-Class Sets
 category: post-tonal
 tags: [pitch-class, set-theory, atonal, interval-vector]
-related: [twelve-tone]
+related: [twelve-tone, neo-riemannian-and-mediants]
 examples: [08-subject-and-reflection, 08-prime-form, 08-transposition-debussy, 08-inversion-debussy]
 difficulty: advanced
 ---
@@ -42,11 +42,10 @@ An unordered collection of pitch classes, notated in curly braces.
 
 ### Interval Class (IC)
 
-The distance between two pitch classes, reduced to 0-6.
+The shortest distance between two pitch classes. There are six interval classes, 1–6 (OMT 2e, `v2/08-20th-and-21st-century-techniques/03-intervals-in-integer-notation.md`). Unison/octave (0) is not an interval class in the vector and is never tallied.
 
 | IC | Intervals |
 |----|-----------|
-| 0 | Unison, octave |
 | 1 | m2, M7 |
 | 2 | M2, m7 |
 | 3 | m3, M6 |
@@ -74,6 +73,8 @@ Add n to each pitch class (mod 12).
 
 Invert around 0, then transpose by n.
 
+**Notation**: TnI (V1, Forte/Straus style) and I<sub>n</sub> (OMT 2e, `v2/08-.../04-pc-sets-normal-order-and-transformations.md`) name the same operation: invert, then add n. Index number n = sum of any pc and its image (x + y = n mod 12).
+
 **Inversion formula**: New PC = n - original PC (mod 12)
 
 **Example**: {0, 4, 7} under T0I = {0, 8, 5}
@@ -93,7 +94,10 @@ The most compact arrangement of a set.
 **Procedure**:
 1. Arrange PCs in ascending order
 2. Find rotation with smallest outer interval
-3. If tied, compare successively inner intervals
+3. If tied, compare the interval from the first to the next-to-last pc, then first to third-from-last, and so on; choose the smaller (packed to the left)
+4. If still tied (symmetrical set), choose the rotation starting on the lowest pc number
+
+**Conventions (normal order / prime form)**: this guide uses Rahn's tie-break (step 3, comparing from the right end inward), which is what V1 `normalOrder.md` and the OMT 2e set-class table use. Forte's original method compares from the left (first-to-second interval) and gives a different prime form for six set classes: 5-20, 6-Z29, 6-31, 7-Z18, 7-20 and 8-26. Example: 5-20 is (01568) by Rahn (OMT 2e table) but (01378) in Forte's list. Interval vectors and Forte numbers are unaffected. State the convention when reporting prime forms.
 
 **Example**: {0, 4, 7}
 - Rotations: [0, 4, 7], [4, 7, 0], [7, 0, 4]
@@ -151,19 +155,20 @@ Interval vector: <001110>
 | Prime Form | Name | IC Vector |
 |------------|------|-----------|
 | (0123) | Chromatic tetrachord | <321000> |
-| (0127) | — | <201210> |
-| (0134) | — | <211110> |
-| (0135) | — | <211110> |
-| (0147) | Mm7 chord | <102111> |
-| (0148) | M7 chord | <101310> |
+| (0127) | — | <210021> |
+| (0134) | — | <212100> |
+| (0135) | — | <121110> |
+| (0147) | — | <102111> |
+| (0148) | — | <101310> |
 | (0156) | — | <200121> |
-| (0167) | — | <110121> |
-| (0235) | — | <121110> |
+| (0158) | M7 chord | <101220> |
+| (0167) | — | <200022> |
+| (0235) | — | <122010> |
 | (0237) | — | <111120> |
-| (0257) | — | <021120> |
-| (0258) | Half-dim/Dom7 | <012111> |
+| (0257) | — | <021030> |
+| (0258) | Mm7 (dominant 7th) and ø7 (half-diminished 7th) | <012111> |
 | (0268) | Fr+6 / Tritone pair | <020202> |
-| (0347) | Mm triad + M2 | <102210> |
+| (0347) | C–E♭–E–G: major and minor third over one root | <102210> |
 | (0358) | min7 chord | <012120> |
 | (0369) | dim7 chord | <004002> |
 
@@ -245,7 +250,7 @@ Identify discrete pitch collections based on:
 1. List PCs in ascending order (circular arrangement)
 2. Calculate all rotations
 3. Choose rotation with smallest outer interval (span)
-4. If tied, compare successively from left: choose rotation where first interval is smallest, then second, etc.
+4. If tied, compare the interval from the first to the next-to-last pc, then to the third-from-last, etc.; choose the smaller (Rahn method, see Conventions above)
 
 ### Step 4: Find Prime Form
 
@@ -298,6 +303,15 @@ Based on Open Music Theory materials:
 
 Allen Forte's set-class numbering system provides standard catalog numbers (3-1, 4-Z15, etc.).
 
+OMT 2e (v2):
+
+| v2 chapter | Source URL | Used for |
+|------------|------------|----------|
+| `v2/08-20th-and-21st-century-techniques/03-intervals-in-integer-notation.md` | https://viva.pressbooks.pub/openmusictheory/chapter/intervals-in-integer-notation/ | ic 1–6 |
+| `v2/08-20th-and-21st-century-techniques/04-pc-sets-normal-order-and-transformations.md` | https://viva.pressbooks.pub/openmusictheory/chapter/pc-sets-normal-order-and-transformations/ | normal order, I_n |
+| `v2/08-20th-and-21st-century-techniques/05-set-class-and-prime-form.md` | https://viva.pressbooks.pub/openmusictheory/chapter/set-class-and-prime-form/ | prime form, set-class table (Rahn) |
+
+
 ## Score Examples
 
 Musical passages from the source pages, transcribed into [lilylet](../examples/lilylet-primer.md), with the set operations worked on the actual notes:
@@ -313,3 +327,4 @@ Musical passages from the source pages, transcribed into [lilylet](../examples/l
 
 - [Twelve-Tone Technique](twelve-tone.md) - Ordered use of all 12 PCs
 - [Augmented Sixths](../02-chromatic-harmony/augmented-sixths.md) - (0268) in tonal context
+- [Neo-Riemannian Transformations and Mediants](../02-chromatic-harmony/neo-riemannian-and-mediants.md)

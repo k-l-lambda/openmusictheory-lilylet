@@ -64,6 +64,13 @@ The three harmonic functions (T, S, D) are determined by the scale degrees prese
 | VI | 6-1-3 | T (Tx) |
 | vii° | 7-2-4 | D |
 
+**Note (OMT 2e) on iii/III:** the tables above follow V1's functional-bass (trigger) model, where iii/III is T because its bass is mi/me. OMT 2e (`v2/03-diatonic-harmony/12-the-mediant.md` (https://viva.pressbooks.pub/openmusictheory/chapter/the-mediant/)) treats iii/III as a **weak predominant**, like vi:
+- it typically follows I, harmonizing a *descending* ti (te in minor), and moves through a strong predominant (IV/ii) to V;
+- it is usually in root position and is uncommon;
+- it is **not** a substitute for I6 (I–V4/3–iii is not normative).
+
+Both readings describe the same progressions (e.g. I–iii–IV–V). When composing, follow the 2e voice-leading: iii → S → V, ti descending to la. Direct iii → V works in major only, because minor III contains te, not ti.
+
 ## Special Cases
 
 ### Destabilized Tonic (Tx)
@@ -105,6 +112,13 @@ Combine function + bass scale degree:
 |---------|-------|
 | D-S | Retrogression (weak) |
 | D-D-D... | No resolution |
+
+## Sources (OMT 2e)
+
+| v2 chapter | Source URL | Used for |
+|------------|------------|----------|
+| `v2/03-diatonic-harmony/12-the-mediant.md` | https://viva.pressbooks.pub/openmusictheory/chapter/the-mediant/ | iii/III as weak predominant |
+| `v2/03-diatonic-harmony/01-intro-to-harmony.md` | https://viva.pressbooks.pub/openmusictheory/chapter/intro-to-harmony/ | weak vs. strong predominants |
 
 ## Score Examples
 

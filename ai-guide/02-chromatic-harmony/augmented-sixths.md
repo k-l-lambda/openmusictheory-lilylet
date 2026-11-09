@@ -2,7 +2,7 @@
 title: Augmented-Sixth Chords
 category: chromatic-harmony
 tags: [augmented-sixth, italian, french, german, chromaticism]
-related: [neapolitan, applied-chords]
+related: [neapolitan, applied-chords, chromatic-sequences]
 difficulty: advanced
 examples: [02-neapolitan-and-augmented-sixths, 02-beethoven-op119-1-italian-sixth, 02-mozart-k465-iv-french-sixth, 02-beethoven-op109-iii-german-sixth]
 ---
@@ -88,6 +88,16 @@ All augmented-sixth chords contain:
 
 **Usage:** In major keys; ri → mi, do carries over to cadential 6/4.
 
+**Conventions:** "Swiss" is V1's name. OMT 2e (`v2/05-chromaticism/03-augmented-sixth-chords.md`) does not name a separate chord. It calls le–do–ri–fi a **Ger+6 spelled with ri**, the usual major-key spelling, because the following cad. 6/4 has mi and ri–mi shows the rising line. The sound and voice-leading are the same either way.
+
+### German Diminished Third (Ger°3)
+
+**Members:** fi in the **bass**, then le, do, me (19th-century variant, v2 05/03).
+
+- Inverting le/fi turns the augmented 6th into a diminished 3rd (fi below le).
+- It resolves to root-position V: fi → sol up, le → sol down.
+- It differs from vii°7/V (fi–la–do–me) only in having le instead of la.
+
 ## Comparison Table
 
 | Type | Members (solfege) | Members (C major) | Figured Bass |
@@ -130,6 +140,13 @@ le-do-me-fi  →  sol-do-mi   →   sol-ti-re
 me → mi (or me holds, then → mi)
 do → (holds) → ti
 ```
+
+### Approach and Context (OMT 2e)
+
+- **Bass approach la–le–sol**: the +6 can be approached by chromatic step in the bass: a chord with la in the bass (e.g. IV6, as in the K. 465 example below) → +6 on le → V on sol.
+- **Lament bass / phrygian HC**: in a lament-bass progression do–te–le–sol, replacing iv6's fa with fi on le turns iv6–V (phrygian HC) into +6–V.
+- +6 chords resolve to V (with or without a seventh). The Ger+6 is normally followed by a cad. 6/4, which avoids the parallel fifths le–me → sol–re.
+- They can also act as embellishing (common-tone) chords; see v2 05/04.
 
 ## Compositional Application
 
@@ -180,7 +197,17 @@ Source: MarkGotham/When-in-Rome (CC BY-SA 4.0)
 1. **le in bass** (standard position)
 2. **Resolves to V** (directly or via cad. 6/4)
 3. **Do not double fi** (chromatic alteration)
-4. **German sixth requires cad. 6/4** (parallel 5ths otherwise)
+4. **German sixth goes to cad. 6/4** (le–me → sol–re would make parallel 5ths). The alternative is to resolve me or le to another chord tone; v2 05/03 calls the cad. 6/4 typical.
+5. **Ger°3**: fi in the bass resolves up to sol; the upper le resolves down to sol.
+
+## Sources
+
+| v2 chapter | Source URL | Used for |
+|------------|------------|----------|
+| `v2/05-chromaticism/03-augmented-sixth-chords.md` | https://viva.pressbooks.pub/openmusictheory/chapter/augmented-sixth-chords/ | ri spelling, Ger°3, la–le–sol bass, lament connection |
+| `v2/05-chromaticism/06-reinterpreting-augmented-sixth-chords.md` | https://viva.pressbooks.pub/openmusictheory/chapter/reinterpreting-augmented-sixth-chords/ | Ger+6 ↔ V7 respelling (see [Modulation](modulation.md)) |
+
+V1: `alteredSubdominants.md`.
 
 ## Score Examples
 
@@ -198,3 +225,4 @@ Transcribed in lilylet (see the [primer](../examples/lilylet-primer.md)); each e
 - [Neapolitan](neapolitan.md) - Another altered subdominant
 - [Applied Chords](applied-chords.md) - Other chromatic approaches
 - [Cadences](../01-harmonic-functions/cadences.md) - Cadential context
+- [Chromatic Sequences](chromatic-sequences.md)

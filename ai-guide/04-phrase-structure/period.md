@@ -124,10 +124,32 @@ The consequent **must** end with PAC:
 
 ### Parallel vs. Contrasting Period
 
-| Type | Consequent CI |
-|------|---------------|
-| Parallel | Similar to antecedent CI |
-| Contrasting | New CI material |
+The distinction depends on how the consequent **begins** (its basic idea), not on its contrasting idea:
+
+| Type | Consequent begins with | Frequency |
+|------|------------------------|-----------|
+| Parallel | the antecedent's b.i. (same or similar) | the norm |
+| Contrasting | a different b.i. (label b.i.¹ / b.i.²) | rare |
+
+The consequent's c.i. almost always differs from the antecedent's anyway, because it must reach a stronger cadence. OMT 2e uses plain "period" for parallel periods and names the type only for the rare contrasting case (`v2/04-form/02-phrase-archetypes-unique-forms.md`, n. 3).
+
+### Period vs. Repeated Phrase (OMT 2e)
+
+| Feature | Period | Repeated phrase |
+|---------|--------|-----------------|
+| Second phrase | consequent | written-out (often varied) repeat of phrase 1 |
+| Cadences | phrase 2's cadence is **stronger** than phrase 1's (usually HC → PAC) | **same** cadence both times (any type) |
+| Repeat signs | — | a phrase between repeat signs is *not* a repeated phrase; the repeat must be written out |
+
+Other v2 rules:
+- The consequent is the same length as the antecedent or longer, rarely shorter.
+- A modulating period usually changes key in the consequent.
+
+## Sources (OMT 2e)
+
+| v2 chapter | Source URL | Used for |
+|------------|------------|----------|
+| `v2/04-form/02-phrase-archetypes-unique-forms.md` | https://viva.pressbooks.pub/openmusictheory/chapter/phrase-archetypes-unique-forms/ | parallel/contrasting, repeated phrase |
 
 ## Score Examples
 

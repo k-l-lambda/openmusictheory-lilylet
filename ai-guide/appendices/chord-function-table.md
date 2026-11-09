@@ -23,6 +23,8 @@ difficulty: foundational
 | **Subdominant (S)** | iv | iio | ii°7, iv7 |
 | **Dominant (D)** | V | viio | V7, viio7 |
 
+*Convention: iii/III and vi/VI are listed as tonic associates (V1 functional-bass model). OMT 2e treats both as weak predominants that usually pass through IV/ii before V. It also says iii is not a substitute for I6 (`v2/03-diatonic-harmony/12-the-mediant.md`). See [T-S-D](../01-harmonic-functions/tonic-subdominant-dominant.md).*
+
 ## Function Flow
 
 ```
@@ -94,3 +96,10 @@ T → D → T (direct)
 | No parallel 5ths/8ves | Consecutive P5 or P8 in same direction |
 | No direct 5ths/8ves | Similar motion to P5/P8 in outer voices |
 | Double root | Normally double root of chord |
+
+## Sources (OMT 2e)
+
+| v2 chapter | Source URL | Used for |
+|------------|------------|----------|
+| `v2/03-diatonic-harmony/12-the-mediant.md` | https://viva.pressbooks.pub/openmusictheory/chapter/the-mediant/ | iii/III convention note |
+

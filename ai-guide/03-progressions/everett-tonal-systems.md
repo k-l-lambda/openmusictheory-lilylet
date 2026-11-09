@@ -2,7 +2,7 @@
 title: Everett's Six Tonal Systems
 category: progressions
 tags: [pop-rock, tonal-systems, modes, blues, pentatonic, everett]
-related: [pop-rock-progressions, blues-progressions]
+related: [pop-rock-progressions, blues-progressions, pop-schemas]
 difficulty: intermediate
 ---
 
@@ -48,6 +48,8 @@ Draws on Western folk modal traditions (not Medieval church modes).
 | Aeolian | do-re-me-fa-sol-le-te | i, ♭VI, ♭VII |
 
 *(Lydian rare; Locrian very rare due to diminished 5th; Phrygian typically in System 5)*
+
+**Note (OMT 2e):** the chord that *marks* dorian is **major IV** with a minor tonic (also minor ii), which comes from la (`v2/07-popular-music/13-modal-schemas.md`). i, III and ♭VII are shared with aeolian, so they do not identify dorian. The dorian shuttle is i–IV. See [Pop Harmonic Schemas](pop-schemas.md).
 
 ### Characteristic Harmonies
 
@@ -169,6 +171,12 @@ Songs often combine systems:
 | 4 | Blues-rock, classic rock, R&B |
 | 5 | Hard rock, metal, grunge, punk |
 | 6 | Progressive rock, art rock |
+
+## Sources (OMT 2e)
+
+| v2 chapter | Source URL | Used for |
+|------------|------------|----------|
+| `v2/07-popular-music/13-modal-schemas.md` | https://viva.pressbooks.pub/openmusictheory/chapter/modal-schemas/ | dorian marker chord |
 
 ## Related Topics
 

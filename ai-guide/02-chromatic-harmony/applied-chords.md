@@ -2,7 +2,7 @@
 title: Applied Chords (Secondary Dominants)
 category: chromatic-harmony
 tags: [secondary-dominant, tonicization, chromaticism, V-of]
-related: [modal-mixture, modulation]
+related: [modal-mixture, modulation, jazz-harmony, chromatic-sequences, neo-riemannian-and-mediants]
 difficulty: intermediate
 examples: [02-d7-of-v, 02-applied-chord-bass-line]
 ---
@@ -193,3 +193,6 @@ Transcribed in lilylet (see the [primer](../examples/lilylet-primer.md)); each e
 - [Modal Mixture](modal-mixture.md) - Borrowing from parallel mode *(planned)*
 - [Modulation](modulation.md) - When tonicization becomes key change *(planned)*
 - [Voice-Leading Rules](../01-harmonic-functions/voice-leading-rules.md) - Tendency tones *(planned)*
+- [Jazz Harmony](../09-jazz/jazz-harmony.md)
+- [Chromatic Sequences](chromatic-sequences.md)
+- [Neo-Riemannian Transformations and Mediants](neo-riemannian-and-mediants.md)

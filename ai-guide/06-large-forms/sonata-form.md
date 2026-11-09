@@ -66,6 +66,8 @@ Part 2: S → EEC → C
 - **Independent TR**: New thematic material
 - **Dissolving TR**: Begins like P, then degenerates
 
+**Conventions (OMT 2e):** `v2/04-form/08-sonata-form.md` uses **dependent** (TR material clearly derives from P; it may begin as a restatement of P, then veer off) vs. **independent** (new material). V1's "dissolving TR" is a kind of dependent TR: it starts as a P restatement. Every dissolving TR is dependent. Not every dependent TR begins as a literal restatement.
+
 **Characteristics**: Continuation function—fragmentation, liquidation, acceleration
 
 #### Subordinate Theme (S)
@@ -76,7 +78,7 @@ Part 2: S → EEC → C
 | Drive to EEC | Goal-oriented |
 | Dramatize closure | Delay and emphasize PAC |
 
-- In secondary key (V in major, III in minor)
+- In secondary key (V in major; in minor usually III, sometimes minor v, per v2 04/08; other keys appear in the 19th century)
 - Looser than P—extended continuations, expanded cadential passages
 - May share material with P (mono-thematic sonata)
 - Leads to Essential Expositional Closure (EEC)
@@ -106,6 +108,12 @@ Part 2: S → EEC → C
 - Types: I:HC MC, V:HC MC, III:HC MC
 
 **Common approach**: fa-fi-sol bass line into HC
+
+**MC complex (Richards, via v2 04/08)**: an MC needs all three stages.
+1. **Harmonic preparation**: usually an HC, often with a dominant-pedal suffix, in the home key or in S's key.
+2. **Textural gap**: rests, or a single-voice **caesura fill**, often after "hammer blows".
+3. **Acceptance by S**: what follows really starts S. If the music falls back into TR material, it was not an MC.
+- The recap MC may differ, since TR is often recomposed. The development often ends with an MC-like effect before the recap.
 
 #### Essential Expositional Closure (EEC)
 
@@ -168,7 +176,7 @@ P → TR → MC → S → ESC → C
 
 All in tonic key.
 
-### Essential Sonata Closure (ESC)
+### Essential Structural Closure (ESC)
 
 **Definition**: The recapitulation's counterpart to the EEC.
 
@@ -211,9 +219,11 @@ The point where alterations give way to renewed correspondence (usually before S
 | Section | Key |
 |---------|-----|
 | Exposition P | i |
-| Exposition S/C | III (relative major) |
+| Exposition S/C | III (relative major), or minor v |
 | Development | Various (iv, v, etc.) |
 | Recapitulation | i throughout |
+
+- **Minor-key recap rule**: S and C are transposed from III to i, adjusting the mode from major to minor. TR must be rewritten so that it no longer modulates to III (v2 04/08, analysis of Mozart K. 310, I).
 
 ## Sonata Form Template
 
@@ -276,6 +286,7 @@ This content synthesizes the Hepokoski/Darcy "sonata theory" framework as presen
 |-------------|---------|
 | `sonataThematicModules.md` | P, TR, S, C module definitions |
 | `sonataStructuralPointsOfArrival.md` | MC, EEC, ESC concepts |
+| `v2/04-form/08-sonata-form.md` (https://viva.pressbooks.pub/openmusictheory/chapter/sonata-form/) | dependent/independent TR, MC complex, minor-key S (III or v), ESC term |
 | `sonataDevelopment.md` | Development section organization |
 | `sonataRecap.md` | Recapitulation recomposition |
 | `sonataFramingModules.md` | Introduction and coda |
