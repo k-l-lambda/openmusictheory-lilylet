@@ -125,23 +125,23 @@ R1 | %40
 <a, fs'>2 s \bar "||" \\\
 R1 \bar "||" | %41
 
-\key bf \major \numericTimeSignature \time 4/4 \clef "treble_8" \tuplet 3/2 { cs8^\markup "mi2"([ d) f,~] } \stemUp f4 r r8 fs \addlyrics { Cra -- _ zy __ _ I'm } \\\
+\key bf \major \numericTimeSignature \time 4/4 \clef "treble_8" \tuplet 3/2 { cs'8^\markup "mi2"([ d) f,~] } \stemUp f4 r r8 fs \addlyrics { Cra -- _ zy __ _ I'm } \\\
 bf'4 \chords "Bb" bf bf bf \chords "Ab7" | %42
 
-\tuplet 3/2 { g4 b d } \stemDown g8[ f~] f[ d] \addlyrics { cra -- zy for feel -- in' __ _ so } \\\
+\tuplet 3/2 { g'4 b d } \stemDown g8[ f~] f[ d] \addlyrics { cra -- zy for feel -- in' __ _ so } \\\
 bf'4 \chords "G7" bf bf bf | %43
 
-\stemDown ef8[ g~] g2.~ \addlyrics { lone -- ly. __ _ } \\\
+\stemDown ef'8[ g~] g2.~ \addlyrics { lone -- ly. __ _ } \\\
 bf'4 \chords "Cmi" bf bf bf | %44
 
-\stemDown g'2 r4 g8([ f)] \addlyrics { _ I'm __ _ } \\\
+\stemDown g''2 r4 g8([ f)] \addlyrics { _ I'm __ _ } \\\
 bf'4 \chords "Cmi" bf bf bf | %45
 
-\stemDown g'8[ a,~] \stemUp a4 r2 \addlyrics { cra -- zy __ _ } \\\
+\stemDown g''8[ a,~] \stemUp a4 r2 \addlyrics { cra -- zy __ _ } \\\
 bf'4 \chords "F7" bf bf bf | %46
 
-\tuplet 3/2 { f,4 a c } \stemDown b'8[ g(] a4) \addlyrics { cra -- zy for feel -- in' __ _ } \\\
+\tuplet 3/2 { f4 a c } \stemDown b'8[ g(] a4) \addlyrics { cra -- zy for feel -- in' __ _ } \\\
 bf'4 \chords "F7" bf bf \chords "F+7" bf | %47
 
-\tuplet 3/2 { g'8([ f) g(] } \stemDown f2.) \bar "|." \addlyrics { so __ _ blue. __ _ } \\\
+\tuplet 3/2 { g''8([ f) g(] } \stemDown f2.) \bar "|." \addlyrics { so __ _ blue. __ _ } \\\
 bf'4 \chords "Bb" bf bf bf \bar "|." | %48

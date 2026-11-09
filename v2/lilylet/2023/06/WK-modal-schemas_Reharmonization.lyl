@@ -1,99 +1,99 @@
 [title "Desperado Reharmonization"]
 
-\key af \major \time 3/4 \clef "treble_8" \tempo 4=188 r4 \stemDown c8[ bf] \stemUp c[ f,] | %1
+\key af \major \time 3/4 \clef "treble_8" \tempo 4=188 r4 \stemDown c'8[ bf] \stemUp c[ f,] | %1
 
 R1 | %2
 
 R1 | %3
 
-\stemDown c8[ bf] \stemUp c[ f,~] f4 | %4
+\stemDown c'8[ bf] \stemUp c[ f,~] f4 | %4
 
-\stemDown c4. c8 bf[ c] | %5
+\stemDown c'4. c8 bf[ c] | %5
 
-\stemUp f,8 r r4 r8 f | %6
+\stemUp f8 r r4 r8 f | %6
 
-\stemDown c8[ bf] c[ bf] \stemUp c[ f,] | %7
+\stemDown c'8[ bf] c[ bf] \stemUp c[ f,] | %7
 
-r4 \stemUp f,( af) | %8
+r4 \stemUp f( af) | %8
 
-\stemDown c8[ bf] c4( \stemUp bf8\glissando[ f~] | %9
+\stemDown c'8[ bf] c4( \stemUp bf8\glissando[ f~] | %9
 
-\stemUp f,4) r2 | %10
+\stemUp f4) r2 | %10
 
-r4 \stemDown c8[ bf] c[ bf] | %11
+r4 \stemDown c'8[ bf] c[ bf] | %11
 
-\stemDown c8[ bf] \stemUp af[ f] r4 | %12
+\stemDown c'8[ bf] \stemUp af[ f] r4 | %12
 
-r4 \stemDown c8[ bf] c[ bf] | %13
+r4 \stemDown c'8[ bf] c[ bf] | %13
 
-\stemDown c8[ bf] \stemUp af[ f] r4 | %14
+\stemDown c'8[ bf] \stemUp af[ f] r4 | %14
 
-r4 \stemDown bf8[ bf] c[ bf] | %15
+r4 \stemDown bf'8[ bf] c[ bf] | %15
 
-\stemDown c8[ bf] c([ bf)] c[ bf] | %16
+\stemDown c'8[ bf] c([ bf)] c[ bf] | %16
 
-\stemDown c4( \stemUp bf8\glissando[ f~] f4~ | %17
+\stemDown c'4( \stemUp bf8\glissando[ f~] f4~ | %17
 
-\stemUp f,4) f8[ f~] f[ af] | %18
+\stemUp f4) f8[ f~] f[ af] | %18
 
-\stemDown bf8 r r4 c | %19
+\stemDown bf'8 r r4 c | %19
 
-\stemDown c4 c bf | %20
+\stemDown c'4 c bf | %20
 
-\stemUp af4 \stemDown c c | %21
+\stemUp af'4 \stemDown c c | %21
 
-\stemDown c8[ c] bf4 \stemUp af | %22
+\stemDown c'8[ c] bf4 \stemUp af | %22
 
-\stemUp f,4 \stemDown c' c | %23
+\stemUp f4 \stemDown c' c | %23
 
-\stemDown c4 c c | %24
+\stemDown c'4 c c | %24
 
-\stemDown c4( \stemUp bf8[ af~] af4~ | %25
+\stemDown c'4( \stemUp bf8[ af~] af4~ | %25
 
-\stemUp af4) af8[ af~] af[ af] | %26
+\stemUp af'4) af8[ af~] af[ af] | %26
 
-\stemDown bf8 r r2 | %27
+\stemDown bf'8 r r2 | %27
 
-\stemDown c8[ c] bf4 \stemUp af | %28
+\stemDown c'8[ c] bf4 \stemUp af | %28
 
-r4 \stemDown c c | %29
+r4 \stemDown c' c | %29
 
-\stemDown c8[ c] bf4 \stemUp af | %30
+\stemDown c'8[ c] bf4 \stemUp af | %30
 
-\stemUp f,4 \stemDown c' c | %31
+\stemUp f4 \stemDown c' c | %31
 
-\stemDown c4 bf \stemUp af | %32
+\stemDown c'4 bf \stemUp af | %32
 
-\stemUp f,4^\markup "Chorus" \stemDown ef'8[ f] f4 | %33
+\stemUp f4^\markup "Chorus" \stemDown ef'8[ f] f4 | %33
 
 R1 | %34
 
-\stemDown ef8[ f] f4 r8 c( | %35
+\stemDown ef'8[ f] f4 r8 c( | %35
 
-\stemDown ef8)[ f] f4 r8 c( | %36
+\stemDown ef'8)[ f] f4 r8 c( | %36
 
-\stemDown ef8)[ f] f4 r8 r | %37
+\stemDown ef'8)[ f] f4 r8 r | %37
 
-r2 \stemDown c8[ c] | %38
+r2 \stemDown c'8[ c] | %38
 
-\stemDown ef8[ f] f4 r | %39
+\stemDown ef'8[ f] f4 r | %39
 
-r4 \stemDown c c | %40
+r4 \stemDown c' c | %40
 
-\stemDown ef8[ f] f4 ef | %41
+\stemDown ef'8[ f] f4 ef | %41
 
 R1 | %42
 
-\stemDown ef8[ f] f4 ef | %43
+\stemDown ef'8[ f] f4 ef | %43
 
-\stemDown c4 bf \stemUp af | %44
+\stemDown c'4 bf \stemUp af | %44
 
-\stemDown ef8[ f] f4 ef | %45
+\stemDown ef'8[ f] f4 ef | %45
 
-\stemDown c4 bf \stemUp af | %46
+\stemDown c'4 bf \stemUp af | %46
 
-\stemDown bf8[ c] bf4 r8 \stemUp af | %47
+\stemDown bf'8[ c] bf4 r8 \stemUp af | %47
 
-\stemDown bf8[ c] bf[ bf] \stemUp bf[ af] | %48
+\stemDown bf'8[ c] bf[ bf] \stemUp bf[ af] | %48
 
-\tuplet 3/2 { bf8([ af f~] } \stemUp f2)\fermata \bar "|." | %49
+\tuplet 3/2 { bf'8([ af f~] } \stemUp f2)\fermata \bar "|." | %49

@@ -29,7 +29,7 @@ R1 \bar ";" | %6
 
 f1 \stemDown bf2. \stemUp af4 \bar ";" \addlyrics { nit, qui _ } \\\
 \stemUp ef2 d4 c d ef f2~ \bar ";" \\\
-bf1~ bf \bar ";" \addlyrics { Be -- _ } | %7
+bf'1~ bf \bar ";" \addlyrics { Be -- _ } | %7
 
 \stemUp g'2 f4 ef f2 \stemDown bf~ \bar ";" \addlyrics { ve -- _ _ _ _ } \\\
 \stemUp f4 ef \stemNeutral ef1 \stemUp d4 c \bar ";" \\\

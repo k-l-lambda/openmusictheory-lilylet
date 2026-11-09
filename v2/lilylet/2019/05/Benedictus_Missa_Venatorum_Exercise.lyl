@@ -3,16 +3,16 @@
 [composer "O. Lassus"]
 [staves "<s1,s2>"]
 
-\key c \major \time 4/2 \clef "treble_8" \stemUp g2. a4 b \stemDown c d2~ \bar ";" \addlyrics { Be -- _ _ _ _ } \\\
+\key c \major \time 4/2 \clef "treble_8" \stemUp g'2. a4 b \stemDown c d2~ \bar ";" \addlyrics { Be -- _ _ _ _ } \\\
 \clef "bass" R1 \bar ";" | %1
 
-\stemDown d2 \stemUp b \stemNeutral c1 \bar ";" \addlyrics { _ ne -- di -- } \\\
+\stemDown d'2 \stemUp b \stemNeutral c1 \bar ";" \addlyrics { _ ne -- di -- } \\\
 r1 \stemUp c,2. d4 \bar ";" \addlyrics { Be -- _ } | %2
 
-\stemUp b2. \stemDown c4 d \stemUp b \stemDown e2~ \bar ";" \addlyrics { ctus __ _ _ _ _ } \\\
+\stemUp b'2. \stemDown c4 d \stemUp b \stemDown e2~ \bar ";" \addlyrics { ctus __ _ _ _ _ } \\\
 \stemDown e,4 f \stemNeutral g1 \stemDown e2 \bar ";" \addlyrics { _ _ _ ne -- } | %3
 
-\stemDown e2 d s1 \bar ";" \addlyrics { _ qui } \\\
+\stemDown e'2 d s1 \bar ";" \addlyrics { _ qui } \\\
 f,1 \stemDown e2. f4 \bar ";" \addlyrics { di -- ctus __ _ } | %4
 
 s1.. s4 \bar ";" \\\

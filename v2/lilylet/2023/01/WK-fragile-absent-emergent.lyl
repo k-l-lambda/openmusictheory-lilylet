@@ -16,23 +16,23 @@ r8 \stemUp gs'[ gs b] b[ fs] fs[ fs16 fs] | %7
 
 \stemUp fs4 r2 r8 | %8
 
-\clef "treble_8" \stemUp e,8^\markup "Prechorus" | %9
+\clef "treble_8" \stemUp e8^\markup "Prechorus" | %9
 
-\stemUp gs8[ b b b] b[ a a gs] | %10
+\stemUp gs'8[ b b b] b[ a a gs] | %10
 
-\stemUp gs8[ fs fs fs] fs[ fs e e] | %11
+\stemUp gs'8[ fs fs fs] fs[ fs e e] | %11
 
-\stemUp e,8[ e e fs] fs[ fs fs e] | %12
+\stemUp e8[ e e fs] fs[ fs fs e] | %12
 
-\stemDown b8[ b b cs] \stemUp b8.([ a16] gs4) | %13
+\stemDown b'8[ b b cs] \stemUp b8.([ a16] gs4) | %13
 
-r8 \stemDown b[ b b] \stemUp b[ a gs gs] | %14
+r8 \stemDown b'[ b b] \stemUp b[ a gs gs] | %14
 
-\stemUp fs,8[ fs fs fs] fs[ fs fs fs] | %15
+\stemUp fs8[ fs fs fs] fs[ fs fs fs] | %15
 
-\stemUp e,8[ e fs fs] fs[ fs fs fs] | %16
+\stemUp e8[ e fs fs] fs[ fs fs fs] | %16
 
-\stemUp e,8[ b' b cs] b8.[ a16] gs8 | %17
+\stemUp e8[ b' b cs] b8.[ a16] gs8 | %17
 
 \clef "treble" \stemUp e8^\markup "Chorus" | %18
 

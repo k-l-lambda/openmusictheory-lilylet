@@ -11,8 +11,7 @@
  },
  "2019/05/Modal_Reharmonization": {
   "checked": "2026-11-09",
-  "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)",
-  "minor": false
+  "note": "octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
  },
  "2019/05/Surge_Propera_Exercise": {
   "checked": "2026-11-09"
@@ -281,14 +280,11 @@
  },
  "2022/08/I-Exercises": {
   "checked": "2026-11-09",
-  "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)",
-  "minor": false,
-  "note": "Fig. labels on the empty answer staff lost (see notes)"
+  "note": "Fig. labels on the empty answer staff lost (see notes); octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
  },
  "2022/08/I-Solutions": {
   "checked": "2026-11-09",
-  "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)",
-  "minor": false
+  "note": "octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
  },
  "2022/08/II-Distinct": {
   "checked": "2026-11-09",
@@ -296,39 +292,30 @@
  },
  "2022/08/II-Exercises": {
   "checked": "2026-11-09",
-  "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)",
-  "minor": false,
-  "note": "Fig. labels on the empty answer staff lost (see notes)"
+  "note": "Fig. labels on the empty answer staff lost (see notes); octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
  },
  "2022/08/II-Solutions": {
   "checked": "2026-11-09",
-  "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)",
-  "minor": false
+  "note": "octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
  },
  "2022/08/III-Distinct": {
   "checked": "2026-11-09",
-  "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)",
-  "minor": false,
-  "note": "labels on empty bars lost (see notes)"
+  "note": "labels on empty bars lost (see notes); octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
  },
  "2022/08/III-Exercises": {
   "checked": "2026-11-09",
-  "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)",
-  "minor": false,
-  "note": "Fig. labels on the empty answer staff lost (see notes)"
+  "note": "Fig. labels on the empty answer staff lost (see notes); octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
  },
  "2022/08/III-Solutions": {
   "checked": "2026-11-09",
-  "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)",
-  "minor": false
+  "note": "octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
  },
  "2023/01/WK-12-bar-blues-no-jazz": {
   "checked": "2026-11-09"
  },
  "2023/01/WK-fragile-absent-emergent": {
   "checked": "2026-11-09",
-  "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)",
-  "minor": false
+  "note": "octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
  },
  "2023/02/WK-Applied-Chords-C": {
   "checked": "2026-11-09",
@@ -338,8 +325,9 @@
  },
  "2023/06/WK-modal-schemas_Reharmonization": {
   "checked": "2026-11-09",
-  "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree); glissandi not drawn",
-  "minor": false
+  "issue": "glissandi not drawn",
+  "minor": false,
+  "note": "octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
  },
  "2023/07/WK-atonal-analysis-using-pc-sets": {
   "checked": "2026-11-09"
@@ -409,8 +397,9 @@
  },
  "2025/04/WK-16th-century-contraputal-style": {
   "checked": "2026-11-09",
-  "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree); dotted barlines drawn solid",
-  "minor": false
+  "issue": "dotted barlines drawn solid",
+  "minor": false,
+  "note": "octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
  },
  "2025/07/WK-Dim-and-Aug-Intervals-A": {
   "checked": "2026-11-09",

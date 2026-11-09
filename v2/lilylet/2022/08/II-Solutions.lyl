@@ -48,210 +48,210 @@ d,1 \bar "|." | %11
 
 f1^\markup "Fig. 104; Species: 1; Modal final: d; Cantus firmus: 2" \\\
 d1 \\\
-\clef "treble_8" d,1 | %12
+\clef "treble_8" d1 | %12
 
 a'1 \\\
 f1 \\\
-d,1 | %13
+d1 | %13
 
 c'1 \\\
 e1 \\\
-e,1 | %14
+e1 | %14
 
 b'1 \\\
 d1 \\\
-g1 | %15
+g'1 | %15
 
 b'1 \\\
 g'1 \\\
-e,1 | %16
+e1 | %16
 
 d'1 \\\
 f1 \\\
-d,1 | %17
+d1 | %17
 
 c'1 \\\
 a'1 \\\
-f,1 | %18
+f1 | %18
 
 e'1 \\\
 g'1 \\\
-c,1 | %19
+c1 | %19
 
 d'1 \\\
 f1 \\\
-d,1 | %20
+d1 | %20
 
 cs'1 \\\
 e1 \\\
-a1 | %21
+a'1 | %21
 
 d'1 \bar "|." \\\
 d1 \bar "|." \\\
-d,1 \bar "|." | %22
+d1 \bar "|." | %22
 
 f1^\markup "Fig. 105; Species: 1; Modal final: d; Cantus firmus: 3" \\\
-\clef "treble_8" d1 \\\
+\clef "treble_8" d'1 \\\
 \clef "bass" d,1 | %23
 
 a'1 \\\
-c1 \\\
+c'1 \\\
 f,1 | %24
 
 g'1 \\\
-c1 \\\
+c'1 \\\
 e,1 | %25
 
 f1 \\\
-d1 \\\
+d'1 \\\
 d,1 | %26
 
 e1 \\\
-bf1 \\\
+bf'1 \\\
 g1 | %27
 
 f1 \\\
-a1 \\\
+a'1 \\\
 f,1 | %28
 
 e1 \\\
-c1 \\\
+c'1 \\\
 a1 | %29
 
 g'1 \\\
-bf1 \\\
+bf'1 \\\
 g1 | %30
 
 d1 \\\
-a1 \\\
+a'1 \\\
 f,1 | %31
 
 cs1 \\\
-g1 \\\
+g'1 \\\
 e,1 | %32
 
 d1 \bar "|." \\\
-a1 \bar "|." \\\
+a'1 \bar "|." \\\
 d,1 \bar "|." | %33
 
 e1^\markup "Fig. 106; Species: 1; Modal final: e; Cantus firmus: 1" \\\
-g1 \\\
+g'1 \\\
 e,1 | %34
 
 c1 \\\
-a1 \\\
+a'1 \\\
 f,1 | %35
 
 d1 \\\
-f,1 \\\
+f1 \\\
 d,1 | %36
 
 c1 \\\
-e,1 \\\
+e1 \\\
 a,1 | %37
 
 a1 \\\
-f,1 \\\
+f1 \\\
 f,,1 | %38
 
 a'1 \\\
-c1 \\\
+c'1 \\\
 f,,1 | %39
 
 g'1 \\\
-e1 \\\
+e'1 \\\
 c,1 | %40
 
 e1 \\\
-c1 \\\
+c'1 \\\
 c,1 | %41
 
 f1 \\\
-a1 \\\
+a'1 \\\
 d,1 | %42
 
 e1 \bar "|." \\\
-gs1 \bar "|." \\\
+gs'1 \bar "|." \\\
 e,1 \bar "|." | %43
 
 g'1^\markup "Fig. 108; Species: 1; Modal final: e; Cantus firmus: 2" \\\
 \clef "treble" e1 \\\
-\clef "treble_8" e,1 | %44
+\clef "treble_8" e1 | %44
 
 e1 \\\
 c1 \\\
-a1 | %45
+a'1 | %45
 
 f1 \\\
 d1 \\\
-d,1 | %46
+d1 | %46
 
 a'1 \\\
 c1 \\\
-f,1 | %47
+f1 | %47
 
 c'1 \\\
 a1 \\\
-f,1 | %48
+f1 | %48
 
 c'1 \\\
 a'1 \\\
-f,1 | %49
+f1 | %49
 
 e'1 \\\
 g'1 \\\
-c1 | %50
+c'1 | %50
 
 c'1 \\\
 e1 \\\
-c1 | %51
+c'1 | %51
 
 a'1 \\\
 f1 \\\
-d1 | %52
+d'1 | %52
 
 gs'1 \bar "|." \\\
 e1 \bar "|." \\\
-e1 \bar "|." | %53
+e'1 \bar "|." | %53
 
 g'1^\markup "Fig. 109; Species: 1; Modal final: e; Cantus firmus: 3" \\\
-\clef "treble_8" b1 \\\
+\clef "treble_8" b'1 \\\
 \clef "bass" e,1 | %54
 
 e1 \\\
-c1 \\\
+c'1 \\\
 c,1 | %55
 
 f1 \\\
-a1 \\\
+a'1 \\\
 d,1 | %56
 
 e1 \\\
-a1 \\\
+a'1 \\\
 c,1 | %57
 
 e1 \\\
-c1 \\\
+c'1 \\\
 a,1 | %58
 
 e1 \\\
-c1 \\\
+c'1 \\\
 a1 | %59
 
 g'1 \\\
-b1 \\\
+b'1 \\\
 g1 | %60
 
 g'1 \\\
-b1 \\\
+b'1 \\\
 e,1 | %61
 
 d1 \\\
-a1 \\\
+a'1 \\\
 f,1 | %62
 
 e1 \bar "|." \\\
-b1 \bar "|." \\\
+b'1 \bar "|." \\\
 e,1 \bar "|." | %63
 
 f1^\markup "Fig. 110; Species: 1; Modal final: f; Cantus firmus: 1" \\\
@@ -304,154 +304,154 @@ f,,1 \bar "|." | %75
 
 a'1^\markup "Fig. 111; Species: 1; Modal final: f; Cantus firmus: 2" \\\
 f1 \\\
-\clef "treble_8" f1 | %76
+\clef "treble_8" f'1 | %76
 
 c'1 \\\
 g'1 \\\
-e1 | %77
+e'1 | %77
 
 c'1 \\\
 a'1 \\\
-f1 | %78
+f'1 | %78
 
 d'1 \\\
 f1 \\\
-d1 | %79
+d'1 | %79
 
 d'1 \\\
 d1 \\\
-bf1 | %80
+bf'1 | %80
 
 bf'1 \\\
 e1 \\\
-g1 | %81
+g'1 | %81
 
 a'1 \\\
 f1 \\\
-f,1 | %82
+f1 | %82
 
 g'1 \\\
 c'1 \\\
-e,1 | %83
+e1 | %83
 
 f1 \\\
 a'1 \\\
-f,1 | %84
+f1 | %84
 
 f'1 \\\
 f1 \\\
-d,1 | %85
+d1 | %85
 
 e'1 \\\
 g'1 \\\
-c,1 | %86
+c1 | %86
 
 f'1 \bar "|." \\\
 f1 \bar "|." \\\
-f,1 \bar "|." | %87
+f1 \bar "|." | %87
 
 a'1^\markup "Fig. 112; Species: 1; Modal final: f; Cantus firmus: 3" \\\
 f1 \\\
-f,1 | %88
+f1 | %88
 
 bf'1 \\\
 d1 \\\
-g1 | %89
+g'1 | %89
 
 c'1 \\\
 c1 \\\
-a1 | %90
+a'1 | %90
 
 a'1 \\\
 c1 \\\
-f,1 | %91
+f1 | %91
 
 bf'1 \\\
 f1 \\\
-d,1 | %92
+d1 | %92
 
 c'1 \\\
 g'1 \\\
-e,1 | %93
+e1 | %93
 
 a'1 \\\
 c1 \\\
-f,1 | %94
+f1 | %94
 
 g'1 \\\
 e1 \\\
-c1 | %95
+c'1 | %95
 
 c'1 \\\
 e1 \\\
-a1 | %96
+a'1 | %96
 
 a'1 \\\
 f1 \\\
-f,1 | %97
+f1 | %97
 
 bf'1 \\\
 e1 \\\
-g1 | %98
+g'1 | %98
 
 a'1 \bar "|." \\\
 f1 \bar "|." \\\
-f,1 \bar "|." | %99
+f1 \bar "|." | %99
 
 g1^\markup "Fig. 113; Species: 1; Modal final: g; Cantus firmus: 1" \\\
-\clef "treble_8" b1 \\\
+\clef "treble_8" b'1 \\\
 \clef "bass" g1 | %100
 
 c1 \\\
-g1 \\\
+g'1 \\\
 e,1 | %101
 
 b1 \\\
-g1 \\\
+g'1 \\\
 e,1 | %102
 
 g1 \\\
-b1 \\\
+b'1 \\\
 e,1 | %103
 
 c1 \\\
-e1 \\\
+e'1 \\\
 c,1 | %104
 
 e1 \\\
-c1 \\\
+c'1 \\\
 c,1 | %105
 
 d1 \\\
-b1 \\\
+b'1 \\\
 g1 | %106
 
 g'1 \\\
-g1 \\\
+g'1 \\\
 e,1 | %107
 
 e1 \\\
-g1 \\\
+g'1 \\\
 c,1 | %108
 
 c1 \\\
-a1 \\\
+a'1 \\\
 a,1 | %109
 
 d1 \\\
-fs,1 \\\
+fs1 \\\
 b,1 | %110
 
 b1 \\\
-g1 \\\
+g'1 \\\
 g,1 | %111
 
 a1 \\\
-fs,1 \\\
+fs1 \\\
 d,1 | %112
 
 g1 \bar "|." \\\
-g1 \bar "|." \\\
+g'1 \bar "|." \\\
 g,1 \bar "|." | %113
 
 b'1^\markup "Fig. 114; Species: 1; Modal final: g; Cantus firmus: 2" \\\
@@ -512,51 +512,51 @@ g,1 \bar "|." | %127
 
 a'1^\markup "Fig. 115; Species: 1; Modal final: a; Cantus firmus: 1" \\\
 c1 \\\
-\clef "treble_8" a1 | %128
+\clef "treble_8" a'1 | %128
 
 c'1 \\\
 e1 \\\
-a1 | %129
+a'1 | %129
 
 b'1 \\\
 g'1 \\\
-e1 | %130
+e'1 | %130
 
 d'1 \\\
 f1 \\\
-d1 | %131
+d'1 | %131
 
 c'1 \\\
 e1 \\\
-a1 | %132
+a'1 | %132
 
 e'1 \\\
 g'1 \\\
-g1 | %133
+g'1 | %133
 
 f'1 \\\
 a'1 \\\
-f,1 | %134
+f1 | %134
 
 e'1 \\\
 g'1 \\\
-c1 | %135
+c'1 | %135
 
 d'1 \\\
 f1 \\\
-d1 | %136
+d'1 | %136
 
 c'1 \\\
 a'1 \\\
-a1 | %137
+a'1 | %137
 
 b'1 \\\
 gs'1 \\\
-e1 | %138
+e'1 | %138
 
 a'1 \bar "|." \\\
 a'1 \bar "|." \\\
-a1 \bar "|." | %139
+a'1 \bar "|." | %139
 
 e1^\markup "Fig. 116; Species: 1; Modal final: a; Cantus firmus: 2" \\\
 a1 \\\
@@ -607,148 +607,148 @@ a1 \bar "|." \\\
 a,1 \bar "|." | %151
 
 c1^\markup "Fig. 117; Species: 1; Modal final: a; Cantus firmus: 3" \\\
-\clef "treble_8" a1 \\\
+\clef "treble_8" a'1 \\\
 a,1 | %152
 
 e1 \\\
-a1 \\\
+a'1 \\\
 c,1 | %153
 
 d1 \\\
-b1 \\\
+b'1 \\\
 b,1 | %154
 
 f1 \\\
-b1 \\\
+b'1 \\\
 d,1 | %155
 
 e1 \\\
-c1 \\\
+c'1 \\\
 c,1 | %156
 
 c1 \\\
-g1 \\\
+g'1 \\\
 e,1 | %157
 
 c1 \\\
-a1 \\\
+a'1 \\\
 f,1 | %158
 
 c1 \\\
-g1 \\\
+g'1 \\\
 e,1 | %159
 
 d1 \\\
-f,1 \\\
+f1 \\\
 d,1 | %160
 
 a1 \\\
-e,1 \\\
+e1 \\\
 c,1 | %161
 
 gs1 \\\
-d,1 \\\
+d1 \\\
 b,1 | %162
 
 a1 \bar "|." \\\
-e,1 \bar "|." \\\
+e1 \bar "|." \\\
 a,1 \bar "|." | %163
 
 c1^\markup "Fig. 118; Species: 1; Modal final: c; Cantus firmus: 1" \\\
-g1 \\\
+g'1 \\\
 a,1 | %164
 
 e1 \\\
-c1 \\\
+c'1 \\\
 c,1 | %165
 
 f1 \\\
-a1 \\\
+a'1 \\\
 b,1 | %166
 
 g'1 \\\
-g1 \\\
+g'1 \\\
 d,1 | %167
 
 e1 \\\
-c1 \\\
+c'1 \\\
 c,1 | %168
 
 a'1 \\\
-c1 \\\
+c'1 \\\
 e,1 | %169
 
 g'1 \\\
-e1 \\\
+e'1 \\\
 f,1 | %170
 
 e1 \\\
-c1 \\\
+c'1 \\\
 e,1 | %171
 
 f1 \\\
-b1 \\\
+b'1 \\\
 d,1 | %172
 
 e1 \\\
-c1 \\\
+c'1 \\\
 c,1 | %173
 
 d1 \\\
-b1 \\\
+b'1 \\\
 b,1 | %174
 
 c1 \bar "|." \\\
-c1 \bar "|." \\\
+c'1 \bar "|." \\\
 a,1 \bar "|." | %175
 
 e1^\markup "Fig. 119; Species: 1; Modal final: c; Cantus firmus: 2" \\\
 \clef "treble" c1 \\\
-\clef "treble_8" c1 | %176
+\clef "treble_8" c'1 | %176
 
 g'1 \\\
 e1 \\\
-c1 | %177
+c'1 | %177
 
 a'1 \\\
 f1 \\\
-a1 | %178
+a'1 | %178
 
 b'1 \\\
 g'1 \\\
-g1 | %179
+g'1 | %179
 
 c'1 \\\
 e1 \\\
-a1 | %180
+a'1 | %180
 
 c'1 \\\
 a'1 \\\
-f,1 | %181
+f1 | %181
 
 e'1 \\\
 g'1 \\\
-c1 | %182
+c'1 | %182
 
 c'1 \\\
 e1 \\\
-c1 | %183
+c'1 | %183
 
 a'1 \\\
 f1 \\\
-d1 | %184
+d'1 | %184
 
 c'1 \\\
 e1 \\\
-c1 | %185
+c'1 | %185
 
 b'1 \\\
 d1 \\\
-g1 | %186
+g'1 | %186
 
 c'1 \bar "|." \\\
 c1 \bar "|." \\\
-c1 \bar "|." | %187
+c'1 \bar "|." | %187
 
 d1^\markup "Fig. 121; Species: 2; Modal final: d; Cantus firmus: 1" \\\
 r2 \stemUp f, \\\
@@ -796,210 +796,210 @@ d,1 \bar "|." | %198
 
 r2 \stemUp f \\\
 d1 \\\
-\clef "treble_8" d,1 | %199
+\clef "treble_8" d1 | %199
 
 \stemUp a'2 \stemDown b \\\
 f1 \\\
-d,1 | %200
+d1 | %200
 
 \stemDown c'2 \stemUp a \\\
 e1 \\\
-c,1 | %201
+c1 | %201
 
 \stemDown b'2 \stemUp g \\\
 d1 \\\
-g1 | %202
+g'1 | %202
 
 \stemDown b'2 c \\\
 g'1 \\\
-e,1 | %203
+e1 | %203
 
 \stemDown d'2 f \\\
 f1 \\\
-d,1 | %204
+d1 | %204
 
 \stemDown c'2 d \\\
 a'1 \\\
-f,1 | %205
+f1 | %205
 
 \stemDown e'2 c \\\
 g'1 \\\
-c1 | %206
+c'1 | %206
 
 \stemUp a'2 \stemDown d~ \\\
 f1 \\\
-d1 | %207
+d'1 | %207
 
 \stemDown d'2 cs \\\
 e1 \\\
-a1 | %208
+a'1 | %208
 
 d'1 \bar "|." \\\
 d1 \bar "|." \\\
-d,1 \bar "|." | %209
+d1 \bar "|." | %209
 
 a'1^\markup "Fig. 123; Species: 2; Modal final: d; Cantus firmus: 2" \\\
 d1 \\\
-r2 \stemDown d | %210
+r2 \stemDown d' | %210
 
 a'1 \\\
 f1 \\\
-\stemUp d,2 f | %211
+\stemUp d2 f | %211
 
 c'1 \\\
 e1 \\\
-\stemUp a2 e | %212
+\stemUp a'2 e | %212
 
 b'1 \\\
 d1 \\\
-\stemUp g2 f | %213
+\stemUp g'2 f | %213
 
 b'1 \\\
 g'1 \\\
-\stemUp e,2 g | %214
+\stemUp e2 g | %214
 
 d'1 \\\
 f1 \\\
-\stemUp d,2 e | %215
+\stemUp d2 e | %215
 
 c'1 \\\
 a'1 \\\
-\stemUp f,2 a | %216
+\stemUp f2 a | %216
 
 e'1 \\\
 g'1 \\\
-\stemDown c2 \stemUp c, | %217
+\stemDown c'2 \stemUp c, | %217
 
 a'1 \\\
 f1 \\\
-\stemUp d,2 \stemDown d'~ | %218
+\stemUp d2 \stemDown d'~ | %218
 
 g'1 \\\
 e1 \\\
-\stemDown d2 cs | %219
+\stemDown d'2 cs | %219
 
 fs1 \bar "|." \\\
 d1 \bar "|." \\\
-d1 \bar "|." | %220
+d'1 \bar "|." | %220
 
 r2 \stemUp g' \\\
 e1 \\\
-e,1 | %221
+e1 | %221
 
 \stemUp a'2 g \\\
 c1 \\\
-f,1 | %222
+f1 | %222
 
 \stemUp f2 g \\\
 d1 \\\
-d,1 | %223
+d1 | %223
 
 \stemUp a'2 \stemDown b \\\
 c1 \\\
-f,1 | %224
+f1 | %224
 
 \stemDown c'2 d \\\
 a1 \\\
-f,1 | %225
+f1 | %225
 
 \stemDown c'2 d \\\
 a'1 \\\
-f1 | %226
+f'1 | %226
 
 \stemDown e'2 d \\\
 g'1 \\\
-c1 | %227
+c'1 | %227
 
 \stemDown c'2 b \\\
 e1 \\\
-c1 | %228
+c'1 | %228
 
 \stemUp a'2 \stemDown b \\\
 f1 \\\
-d1 | %229
+d'1 | %229
 
 gs'1 \bar "|." \\\
 e1 \bar "|." \\\
-e1 \bar "|." | %230
+e'1 \bar "|." | %230
 
 e1^\markup "Fig. 125; Species: 2; Modal final: e; Cantus firmus: 3" \\\
-\clef "treble_8" r2 \stemDown b \\\
+\clef "treble_8" r2 \stemDown b' \\\
 \clef "bass" e,1 | %231
 
 e1 \\\
-\stemDown c2 b \\\
+\stemDown c'2 b \\\
 c,1 | %232
 
 f1 \\\
-\stemUp a2 f \\\
+\stemUp a'2 f \\\
 d,1 | %233
 
 e1 \\\
-\stemUp e,2 g \\\
+\stemUp e2 g \\\
 c,1 | %234
 
 f1 \\\
-\stemUp a2 \stemDown b \\\
+\stemUp a'2 \stemDown b \\\
 a,1 | %235
 
 e1 \\\
-\stemDown c2 \stemUp a \\\
+\stemDown c'2 \stemUp a \\\
 a1 | %236
 
 g'1 \\\
-\stemDown b2 d \\\
+\stemDown b'2 d \\\
 g1 | %237
 
 g'1 \\\
-\stemDown e2 d \\\
+\stemDown e'2 d \\\
 e,1 | %238
 
 a'1 \\\
-\stemDown c2 \stemUp a \\\
+\stemDown c'2 \stemUp a \\\
 f,1 | %239
 
 gs'1 \bar "|." \\\
-b1 \bar "|." \\\
+b'1 \bar "|." \\\
 e,1 \bar "|." | %240
 
 e1^\markup "Fig. 126; Species: 2; Modal final: e; Cantus firmus: 1" \\\
-e,1 \\\
+e1 \\\
 r2 \stemDown e, | %241
 
 c1 \\\
-a1 \\\
+a'1 \\\
 \stemDown f,2 e | %242
 
 d1 \\\
-f,1 \\\
+f1 \\\
 \stemDown d,2 e | %243
 
 c1 \\\
-a1 \\\
+a'1 \\\
 \stemDown f,2 \stemUp c | %244
 
 a1 \\\
-f,1 \\\
+f1 \\\
 \stemDown d,2 e | %245
 
 a'1 \\\
-f1 \\\
+f'1 \\\
 \stemDown f,2 a | %246
 
 g'1 \\\
-e1 \\\
+e'1 \\\
 \stemDown c2 g | %247
 
 e1 \\\
-c1 \\\
+c'1 \\\
 \stemDown a2 e~ | %248
 
 f1 \\\
-a1 \\\
+a'1 \\\
 \stemDown e,2 d | %249
 
 e1 \bar "|." \\\
-gs1 \bar "|." \\\
+gs'1 \bar "|." \\\
 \stemDown e,2 r \bar "|." | %250
 
 f1^\markup "Fig. 127; Species: 2; Modal final: f; Cantus firmus: 1" \\\
@@ -1052,98 +1052,98 @@ f,,1 \bar "|." | %262
 
 r2 \stemDown f' \\\
 f1 \\\
-\clef "treble_8" f,1 | %263
+\clef "treble_8" f1 | %263
 
 \stemDown e'2 d \\\
 g'1 \\\
-c,1 | %264
+c1 | %264
 
 \stemDown c'2 bf \\\
 a'1 \\\
-f,1 | %265
+f1 | %265
 
 \stemUp a'2 \stemDown c \\\
 f1 \\\
-f,1 | %266
+f1 | %266
 
 \stemDown bf'2 \stemUp a \\\
 d1 \\\
-g1 | %267
+g'1 | %267
 
 \stemUp g'2 \stemDown c \\\
 e1 \\\
-c1 | %268
+c'1 | %268
 
 \stemUp a'2 \stemDown a' \\\
 f1 \\\
-d1 | %269
+d'1 | %269
 
 \stemDown g''2 e \\\
 c'1 \\\
-e1 | %270
+e'1 | %270
 
 \stemDown c'2 \stemUp a \\\
 a'1 \\\
-f1 | %271
+f'1 | %271
 
 \stemDown d'2 f~ \\\
 f1 \\\
-d1 | %272
+d'1 | %272
 
 \stemDown f'2 e \\\
 g'1 \\\
-c1 | %273
+c'1 | %273
 
 f'1 \bar "|." \\\
 f1 \bar "|." \\\
-f,1 \bar "|." | %274
+f1 \bar "|." | %274
 
 c1^\markup "Fig. 129; Species: 2; Modal final: f; Cantus firmus: 2" \\\
-\clef "treble_8" f,1 \\\
+\clef "treble_8" f1 \\\
 \clef "bass" r2 \stemDown f, | %275
 
 c1 \\\
-g1 \\\
+g'1 \\\
 \stemDown e,2 \stemUp c | %276
 
 c1 \\\
-a1 \\\
+a'1 \\\
 \stemDown f,2 e | %277
 
 d1 \\\
-f,1 \\\
+f1 \\\
 \stemDown d,2 \stemUp c | %278
 
 f1 \\\
-d,1 \\\
+d1 \\\
 \stemUp bf,2 a | %279
 
 g'1 \\\
-e,1 \\\
+e1 \\\
 \stemUp g,2 c | %280
 
 a'1 \\\
-f,1 \\\
+f1 \\\
 \stemUp f,,2 \stemDown f' | %281
 
 g'1 \\\
-c1 \\\
+c'1 \\\
 \stemDown e,2 \stemUp c | %282
 
 c1 \\\
-a1 \\\
+a'1 \\\
 \stemDown f,2 e | %283
 
 d1 \\\
-f,1 \\\
+f1 \\\
 \stemDown d,2 \stemUp bf | %284
 
 e1 \\\
-g1 \\\
+g'1 \\\
 \stemUp g,2 c | %285
 
 f1 \bar "|." \\\
-f,1 \bar "|." \\\
+f1 \bar "|." \\\
 f,,1 \bar "|." | %286
 
 \stemUp a'4^\markup "Fig. 130; Species: 3; Modal final: d; Cantus firmus: 2" d, f g \\\
@@ -1191,135 +1191,135 @@ d1 \bar "|." \\\
 d,1 \bar "|." | %297
 
 \stemUp d4^\markup "Fig. 131; Species: 3; Modal final: d; Cantus firmus: 3" e f g \\\
-\clef "treble_8" a1 \\\
+\clef "treble_8" a'1 \\\
 d,1 | %298
 
 \stemUp a'4 a, c d \\\
-a1 \\\
+a'1 \\\
 f,1 | %299
 
 \stemUp e4 f g e \\\
-cs1 \\\
+cs'1 \\\
 e,1 | %300
 
 \stemUp f4 a f e \\\
-d1 \\\
+d'1 \\\
 d,1 | %301
 
 \stemUp d4 bf d e \\\
-bf1 \\\
+bf'1 \\\
 g1 | %302
 
 \stemUp f4 a g f \\\
-a1 \\\
+a'1 \\\
 f,1 | %303
 
 \stemUp e4 c e f \\\
-c1 \\\
+c'1 \\\
 a1 | %304
 
 \stemUp g'4 e f g \\\
-bf1 \\\
+bf'1 \\\
 g1 | %305
 
 \stemUp a'4 a, c d \\\
-a1 \\\
+a'1 \\\
 f,1 | %306
 
 \stemUp e4 d b cs \\\
-g1 \\\
+g'1 \\\
 e,1 | %307
 
 d1 \bar "|." \\\
-fs,1 \bar "|." \\\
+fs1 \bar "|." \\\
 d,1 \bar "|." | %308
 
 a'1^\markup "Fig. 132; Species: 3; Modal final: d; Cantus firmus: 2" \\\
 \clef "treble" d1 \\\
-\clef "treble_8" r4 \stemUp d, f e | %309
+\clef "treble_8" r4 \stemUp d f e | %309
 
 a'1 \\\
 f1 \\\
-\stemUp d,4 e f g | %310
+\stemUp d4 e f g | %310
 
 c'1 \\\
 e1 \\\
-\stemUp a4 g e f | %311
+\stemUp a'4 g e f | %311
 
 b'1 \\\
 d1 \\\
-\stemUp g4 d g f | %312
+\stemUp g'4 d g f | %312
 
 b'1 \\\
 g'1 \\\
-\stemUp e,4 g f e | %313
+\stemUp e4 g f e | %313
 
 d'1 \\\
 f1 \\\
-\stemUp d,4 \stemDown d' \stemUp d, e | %314
+\stemUp d4 \stemDown d' \stemUp d, e | %314
 
 c'1 \\\
 a'1 \\\
-\stemUp f,4 g a \stemDown b | %315
+\stemUp f4 g a \stemDown b | %315
 
 e'1 \\\
 g'1 \\\
-\stemDown c4 e d c | %316
+\stemDown c'4 e d c | %316
 
 d'1 \\\
 f1 \\\
-\stemDown d4 \stemUp d, f g | %317
+\stemDown d'4 \stemUp d, f g | %317
 
 cs'1 \\\
 e1 \\\
-\stemUp a4 g a a, | %318
+\stemUp a'4 g a a, | %318
 
 d'1 \bar "|." \\\
 d1 \bar "|." \\\
-d,1 \bar "|." | %319
+d1 \bar "|." | %319
 
 \stemUp d4^\markup "Fig. 134; Species: 2,3; Modal final: d; Cantus firmus: 3" e f g \\\
-\clef "treble_8" \stemUp a2 \stemDown d \\\
+\clef "treble_8" \stemUp a'2 \stemDown d \\\
 \clef "bass" d,1 | %320
 
 \stemUp a'4 g f a \\\
-\stemDown c2 \stemUp a \\\
+\stemDown c'2 \stemUp a \\\
 f,1 | %321
 
 \stemUp g'4 f e g \\\
-\stemDown b2 cs \\\
+\stemDown b'2 cs \\\
 e,1 | %322
 
 \stemUp f4 a f e \\\
-\stemDown d2 \stemUp a \\\
+\stemDown d'2 \stemUp a \\\
 d,1 | %323
 
 \stemUp d4 bf d e \\\
-\stemDown bf2 \stemUp g \\\
+\stemDown bf'2 \stemUp g \\\
 g1 | %324
 
 \stemUp f4 a g f \\\
-\stemUp a2 \stemDown b \\\
+\stemUp a'2 \stemDown b \\\
 f,1 | %325
 
 \stemUp e4 c e f \\\
-\stemDown c2 \stemUp a \\\
+\stemDown c'2 \stemUp a \\\
 a1 | %326
 
 \stemUp g'4 f d e \\\
-\stemDown e2 b \\\
+\stemDown e'2 b \\\
 g1 | %327
 
 \stemUp f4 e c d \\\
-\stemDown d2 \stemUp a \\\
+\stemDown d'2 \stemUp a \\\
 f,1 | %328
 
 \stemUp e4 d b cs \\\
-g1 \\\
+g'1 \\\
 e,1 | %329
 
 d1 \bar "|." \\\
-a1 \bar "|." \\\
+a'1 \bar "|." \\\
 d,1 \bar "|." | %330
 
 r2 \stemUp a'~ \\\
@@ -1411,127 +1411,127 @@ d1 \bar "|." \\\
 d,1 \bar "|." | %352
 
 d1^\markup "Fig. 144; Species: 4; Modal final: d; Cantus firmus: 1" \\\
-\clef "treble_8" d,1 \\\
+\clef "treble_8" d1 \\\
 R1 | %353
 
 f1 \\\
-d1 \\\
+d'1 \\\
 r2 \stemDown d,~ | %354
 
 e1 \\\
-g1 \\\
+g'1 \\\
 \stemDown d,2 \stemUp c~ | %355
 
 d1 \\\
-g1 \\\
+g'1 \\\
 \stemUp c,2 b~ | %356
 
 g'1 \\\
-b1 \\\
+b'1 \\\
 \stemUp b,2 \stemDown e~ | %357
 
 f1 \\\
-a1 \\\
+a'1 \\\
 \stemDown e,2 d~ | %358
 
 a'1 \\\
-f,1 \\\
+f1 \\\
 \stemDown d,2 f~ | %359
 
 g'1 \\\
-c1 \\\
+c'1 \\\
 \stemDown f,2 e~ | %360
 
 f1 \\\
-a1 \\\
+a'1 \\\
 \stemDown e,2 d~ | %361
 
 e1 \\\
-g1 \\\
+g'1 \\\
 \stemDown d,2 \stemUp cs | %362
 
 d1 \bar "|." \\\
-fs,1 \bar "|." \\\
+fs1 \bar "|." \\\
 d,1 \bar "|." | %363
 
 r2 \stemDown e'~ \\\
 \clef "treble" e1 \\\
-\clef "treble_8" e,1 | %364
+\clef "treble_8" e1 | %364
 
 \stemDown e'2 c~ \\\
 c1 \\\
-a1 | %365
+a'1 | %365
 
 \stemDown c'2 b~ \\\
 d1 \\\
-g1 | %366
+g'1 | %366
 
 \stemDown b'2 \stemUp a~ \\\
 c1 \\\
-a1 | %367
+a'1 | %367
 
 \stemUp a'2 \stemDown c~ \\\
 a1 \\\
-f,1 | %368
+f1 | %368
 
 \stemDown c'2 d~ \\\
 a'1 \\\
-f,1 | %369
+f1 | %369
 
 \stemDown d'2 c~ \\\
 g'1 \\\
-e,1 | %370
+e1 | %370
 
 \stemDown c'2 \stemUp a~ \\\
 e1 \\\
-c,1 | %371
+c1 | %371
 
 \stemUp a'2 \stemDown b \\\
 f1 \\\
-d,1 | %372
+d1 | %372
 
 gs'1 \bar "|." \\\
 e1 \bar "|." \\\
-e,1 \bar "|." | %373
+e1 \bar "|." | %373
 
 e1^\markup "Fig. 147; Species: 4; Modal final: e; Cantus firmus: 1" \\\
-\clef "treble_8" r2 \stemDown e~ \\\
+\clef "treble_8" r2 \stemDown e'~ \\\
 \clef "bass" e,1 | %374
 
 c1 \\\
-\stemDown e2 c~ \\\
+\stemDown e'2 c~ \\\
 a1 | %375
 
 d1 \\\
-\stemDown c2 b~ \\\
+\stemDown c'2 b~ \\\
 g1 | %376
 
 c1 \\\
-\stemDown b2 \stemUp a~ \\\
+\stemDown b'2 \stemUp a~ \\\
 a1 | %377
 
 a1 \\\
-\stemUp a2 \stemDown d~ \\\
+\stemUp a'2 \stemDown d~ \\\
 f,1 | %378
 
 a'1 \\\
-\stemDown d2 c~ \\\
+\stemDown d'2 c~ \\\
 f,1 | %379
 
 g'1 \\\
-\stemDown c2 b~ \\\
+\stemDown c'2 b~ \\\
 e,1 | %380
 
 e1 \\\
-\stemDown b2 \stemUp a~ \\\
+\stemDown b'2 \stemUp a~ \\\
 c,1 | %381
 
 f1 \\\
-\stemUp a2 \stemDown b \\\
+\stemUp a'2 \stemDown b \\\
 d,1 | %382
 
 e1 \bar "|." \\\
-gs1 \bar "|." \\\
+gs'1 \bar "|." \\\
 e,1 \bar "|." | %383
 
 g'1^\markup "Fig. 148; Species: 4; Modal final: e; Cantus firmus: 2" \\\
@@ -1575,100 +1575,100 @@ e1 \bar "|." \\\
 e,1 \bar "|." | %393
 
 r2 \stemUp f~ \\\
-\clef "treble_8" f,1 \\\
+\clef "treble_8" f1 \\\
 f,1 | %394
 
 \stemUp f2 e~ \\\
-g1 \\\
+g'1 \\\
 c,1 | %395
 
 \stemUp e2 d~ \\\
-a1 \\\
+a'1 \\\
 f,1 | %396
 
 \stemUp d2 f~ \\\
-f,1 \\\
+f1 \\\
 d,1 | %397
 
 \stemUp f2 g~ \\\
-d,1 \\\
+d1 \\\
 bf,1 | %398
 
 \stemUp g'2 a~ \\\
-e,1 \\\
+e1 \\\
 c,1 | %399
 
 \stemUp a'2 f~ \\\
-f,1 \\\
+f1 \\\
 d,1 | %400
 
 \stemUp f2 e~ \\\
-c1 \\\
+c'1 \\\
 a1 | %401
 
 \stemUp e2 d~ \\\
-a1 \\\
+a'1 \\\
 f,1 | %402
 
 \stemUp d2 f~ \\\
-f,1 \\\
+f1 \\\
 d,1 | %403
 
 \stemUp f2 e \\\
-g1 \\\
+g'1 \\\
 c,1 | %404
 
 f1 \bar "|." \\\
-f,1 \bar "|." \\\
+f1 \bar "|." \\\
 f,,1 \bar "|." | %405
 
 a'1^\markup "Fig. 150; Species: 4; Modal final: f; Cantus firmus: 3" \\\
 \clef "treble" r2 \stemUp f~ \\\
-\clef "treble_8" f,1 | %406
+\clef "treble_8" f1 | %406
 
 b'1 \\\
 \stemUp f2 e~ \\\
-g1 | %407
+g'1 | %407
 
 c'1 \\\
 \stemUp e2 c~ \\\
-a1 | %408
+a'1 | %408
 
 a'1 \\\
 \stemUp c2 a~ \\\
-f,1 | %409
+f1 | %409
 
 f1 \\\
 \stemUp a2 d~ \\\
-d,1 | %410
+d1 | %410
 
 g'1 \\\
 \stemUp d2 c~ \\\
-e,1 | %411
+e1 | %411
 
 a'1 \\\
 \stemUp c2 f~ \\\
-f,1 | %412
+f1 | %412
 
 g'1 \\\
 \stemUp f2 e~ \\\
-c1 | %413
+c'1 | %413
 
 c'1 \\\
 \stemUp e2 c~ \\\
-a1 | %414
+a'1 | %414
 
 a'1 \\\
 \stemUp c2 f~ \\\
-f,1 | %415
+f1 | %415
 
 bf'1 \\\
 \stemUp f2 e \\\
-g1 | %416
+g'1 | %416
 
 a'1 \bar "|." \\\
 f1 \bar "|." \\\
-f,1 \bar "|." | %417
+f1 \bar "|." | %417
 
 f1^\markup "Fig. 151; Species: 4; Modal final: f; Cantus firmus: 1" \\\
 f,1 \\\
@@ -1720,90 +1720,90 @@ f,1 \bar "|." | %429
 
 r2 \stemUp a'~ \\\
 d1 \\\
-\clef "treble_8" d,1 | %430
+\clef "treble_8" d1 | %430
 
 \stemUp a'4 f a \stemDown b \\\
 f1 \\\
-d1 | %431
+d'1 | %431
 
 \stemDown c'4 \stemUp g \stemDown c2~ \\\
 e1 \\\
-c1 | %432
+c'1 | %432
 
 \stemDown c'4 \stemUp b8[ a] \stemDown b2~ \\\
 d1 \\\
-g1 | %433
+g'1 | %433
 
 \stemDown b'4 \stemUp g \stemDown b cs \\\
 g'1 \\\
-e,1 | %434
+e1 | %434
 
 \stemDown d'4 f e d \\\
 f1 \\\
-d,1 | %435
+d1 | %435
 
 \stemDown c'4 \stemUp f, \stemDown f'2~ \\\
 a'1 \\\
-f,1 | %436
+f1 | %436
 
 \stemDown f'4 e8[ d] e2~ \\\
 g'1 \\\
-c1 | %437
+c'1 | %437
 
 \stemDown e'4 \stemUp a, \stemDown d2~ \\\
 f1 \\\
-d1 | %438
+d'1 | %438
 
 \stemDown d'2 cs \\\
 e1 \\\
-a1 | %439
+a'1 | %439
 
 d'1 \bar "|." \\\
 d1 \bar "|." \\\
-d,1 \bar "|." | %440
+d1 \bar "|." | %440
 
 d1^\markup "Fig. 155; Species: 5; Modal final: d; Cantus firmus: 1" \\\
-\clef "treble_8" r2 \stemUp a~ \\\
+\clef "treble_8" r2 \stemUp a'~ \\\
 \clef "bass" d,1 | %441
 
 f1 \\\
-\stemUp a4 f8[ g] a4 \stemDown b \\\
+\stemUp a'4 f8[ g] a4 \stemDown b \\\
 d,1 | %442
 
 e1 \\\
-\stemDown c4 \stemUp g \stemDown c2~ \\\
+\stemDown c'4 \stemUp g \stemDown c2~ \\\
 c,1 | %443
 
 d1 \\\
-\stemDown c2 b~ \\\
+\stemDown c'2 b~ \\\
 g1 | %444
 
 g'1 \\\
-\stemDown b4 \stemUp g8[ a] \stemDown b4 cs \\\
+\stemDown b'4 \stemUp g8[ a] \stemDown b4 cs \\\
 e,1 | %445
 
 f1 \\\
-\stemDown d4 \stemUp a \stemDown d2~ \\\
+\stemDown d'4 \stemUp a \stemDown d2~ \\\
 d,1 | %446
 
 a'1 \\\
-\stemDown d4 c f2~ \\\
+\stemDown d'4 c f2~ \\\
 f,1 | %447
 
 g'1 \\\
-\stemDown f4 e8[ d] e2~ \\\
+\stemDown f'4 e8[ d] e2~ \\\
 c,1 | %448
 
 f1 \\\
-\stemDown e4 \stemUp a, \stemDown d2~ \\\
+\stemDown e'4 \stemUp a, \stemDown d2~ \\\
 d,1 | %449
 
 e1 \\\
-\stemDown d2 cs \\\
+\stemDown d'2 cs \\\
 a1 | %450
 
 d1 \bar "|." \\\
-d1 \bar "|." \\\
+d'1 \bar "|." \\\
 d,1 \bar "|." | %451
 
 a'1^\markup "Fig. 156; Species: 5; Modal final: d; Cantus firmus: 2" \\\
@@ -1852,82 +1852,82 @@ d,1 \bar "|." | %462
 
 r2 \stemDown e'~ \\\
 e1 \\\
-\clef "treble_8" e,1 | %463
+\clef "treble_8" e1 | %463
 
 \stemDown e'4 d c b \\\
 c1 \\\
-a1 | %464
+a'1 | %464
 
 \stemUp a'2 g4 f \\\
 d1 \\\
-f,1 | %465
+f1 | %465
 
 \stemUp e2 a~ \\\
 c1 \\\
-a1 | %466
+a'1 | %466
 
 \stemUp a'4 \stemDown b c2~ \\\
 a1 \\\
-f,1 | %467
+f1 | %467
 
 \stemDown c'2 f~ \\\
 a'1 \\\
-f,1 | %468
+f1 | %468
 
 \stemDown f'4 e8[ d] e4 d \\\
 g'1 \\\
-c1 | %469
+c'1 | %469
 
 \stemDown c'4 \stemUp g \stemDown c2~ \\\
 e1 \\\
-c1 | %470
+c'1 | %470
 
 \stemDown c'2 b4 \stemUp a \\\
 f1 \\\
-d1 | %471
+d'1 | %471
 
 gs'1 \bar "|." \\\
 e1 \bar "|." \\\
-e1 \bar "|." | %472
+e'1 \bar "|." | %472
 
 e1^\markup "Fig. 158; Species: 5; Modal final: e; Cantus firmus: 1" \\\
-\clef "treble_8" r2 \stemUp gs \\\
+\clef "treble_8" r2 \stemUp gs' \\\
 \clef "bass" e,1 | %473
 
 c1 \\\
-\stemUp a2. g4 \\\
+\stemUp a'2. g4 \\\
 f,1 | %474
 
 d1 \\\
-\stemUp f,4 d8[ e] f4 g \\\
+\stemUp f4 d8[ e] f4 g \\\
 d,1 | %475
 
 c1 \\\
-\stemUp a4 f8[ g] a4 \stemDown b \\\
+\stemUp a'4 f8[ g] a4 \stemDown b \\\
 f,1 | %476
 
 a1 \\\
-\stemDown c2. b4 \\\
+\stemDown c'2. b4 \\\
 f,1 | %477
 
 a'1 \\\
-\stemUp a4 \stemDown b c d \\\
+\stemUp a'4 \stemDown b c d \\\
 f,1 | %478
 
 g'1 \\\
-\stemDown e2 \stemUp e,4 f \\\
+\stemDown e'2 \stemUp e,4 f \\\
 c,1 | %479
 
 e1 \\\
-\stemUp g2 \stemDown c~ \\\
+\stemUp g'2 \stemDown c~ \\\
 c,1 | %480
 
 f1 \\\
-\stemDown c2 b4 \stemUp a \\\
+\stemDown c'2 b4 \stemUp a \\\
 d,1 | %481
 
 e1 \bar "|." \\\
-gs1 \bar "|." \\\
+gs'1 \bar "|." \\\
 e,1 \bar "|." | %482
 
 gs'1^\markup "Fig. 159; Species: 5; Modal final: e; Cantus firmus: 2" \\\

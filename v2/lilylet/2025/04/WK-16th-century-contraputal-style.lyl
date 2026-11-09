@@ -28,112 +28,112 @@ r1 r | %4
 
 s1.. s4 \\\
 \stemUp a'2 \stemDown c c \stemUp a \addlyrics { ra, a -- mi -- ca } \\\
-a1~ a \addlyrics { Sur -- _ } \\\
+a'1~ a \addlyrics { Sur -- _ } \\\
 r1 r | %5
 
 s1.. s4 \\\
 \stemDown c'2. b4 \stemUp a g a2 \addlyrics { me -- _ _ _ _ } \\\
-a1 \stemDown d2. d4 \addlyrics { ge, pro -- pe -- } \\\
+a'1 \stemDown d2. d4 \addlyrics { ge, pro -- pe -- } \\\
 r1 r | %6
 
 s1.. s4 \\\
 \stemUp f2 d a' \stemDown b~ \addlyrics { a, a -- mi -- ca } \\\
-\stemDown d2 f f d \addlyrics { ra, a -- mi -- ca } \\\
+\stemDown d'2 f f d \addlyrics { ra, a -- mi -- ca } \\\
 r1 r | %7
 
 s1.. s4 \\\
 \stemDown b'4 \stemUp a \stemNeutral a1 \stemUp gs2 \addlyrics { _ _ _ me -- } \\\
-f1 e \addlyrics { me -- a, } \\\
+f'1 e \addlyrics { me -- a, } \\\
 r1 r | %8
 
 s1.. s4 \\\
 a'1 d,~ \addlyrics { a. Sur -- } \\\
-r2 \stemDown f f d \addlyrics { a -- mi -- ca } \\\
+r2 \stemDown f' f d \addlyrics { a -- mi -- ca } \\\
 d,1~ d \addlyrics { Sur -- _ } | %9
 
 s1.. s4 \\\
 \stemUp d2 d c f \addlyrics { _ ge, pro -- pe -- } \\\
-f1 \stemDown e2 a~ \addlyrics { me -- a, a -- } \\\
+f'1 \stemDown e2 a~ \addlyrics { me -- a, a -- } \\\
 d,1 \stemDown a'2. a4 \addlyrics { ge, pro -- pe -- } | %10
 
 s1.. s4 \\\
 \stemUp e2. f4 g2 a~ \addlyrics { ra, __ _ _ a -- } \\\
-\stemDown a'2 g4 f e2 f~ \addlyrics { _ _ _ _ mi -- } \\\
+\stemDown a''2 g4 f e2 f~ \addlyrics { _ _ _ _ mi -- } \\\
 \stemDown a2 c c a \addlyrics { ra, a -- mi -- ca } | %11
 
 s1.. s4 \\\
 \stemUp a'2 \stemNeutral g1 \stemUp d2 \addlyrics { _ mi -- ca } \\\
-\stemDown f4 e e2~ e4 d d2~ \\\
+\stemDown f'4 e e2~ e4 d d2~ \\\
 c1 bf \addlyrics { me -- _ } | %12
 
 s1.. s4 \\\
 \stemUp f2 e d2. e4 \addlyrics { me -- _ _ _ } \\\
-\stemDown d2 c f2. e4 \addlyrics { _ ca me -- _ } \\\
+\stemDown d'2 c f2. e4 \addlyrics { _ ca me -- _ } \\\
 a1 r \addlyrics { a. } | %13
 
 s1.. s4 \\\
 \stemUp f4 g \stemNeutral a1 \stemUp g2 \\\
-\stemDown d2 c \stemNeutral b1 \\\
+\stemDown d'2 c \stemNeutral b1 \\\
 r1 r | %14
 
 s1.. s4 \\\
 \stemUp f2 d \stemNeutral a'1~ \addlyrics { _ _ a, __ } \\\
-a1 r2 \stemDown d~ \addlyrics { a. Sur -- } \\\
+a'1 r2 \stemDown d~ \addlyrics { a. Sur -- } \\\
 d,1~ d \addlyrics { Sur -- _ } | %15
 
 s1.. s4 \\\
 a'1 r2 \stemUp c, \addlyrics { _ a -- } \\\
-\stemDown d2 d c \stemUp a \addlyrics { _ ge, pro -- pe -- } \\\
+\stemDown d'2 d c \stemUp a \addlyrics { _ ge, pro -- pe -- } \\\
 d,1 \stemDown a'2. a4 \addlyrics { ge, pro -- pe -- } | %16
 
 s1.. s4 \\\
 \stemUp c2 a c2. d4 \addlyrics { mi -- ca me -- _ } \\\
-e1 r2 \stemDown e \addlyrics { ra, a -- } \\\
+e'1 r2 \stemDown e \addlyrics { ra, a -- } \\\
 \stemDown a2 c c a \addlyrics { ra a -- mi -- ca } | %17
 
 s1.. s4 \\\
 \stemUp e4 f g2~ g4 f d2 \\\
-\stemUp a2 \stemDown e'~ e4 d d2~ \addlyrics { mi -- ca _ _ me -- } \\\
+\stemUp a'2 \stemDown e'~ e4 d d2~ \addlyrics { mi -- ca _ _ me -- } \\\
 c1 bf \addlyrics { me -- _ } | %18
 
 s1.. s4 \\\
 e1 r2 \stemUp a \addlyrics { a, et } \\\
-\stemDown d2 cs \stemNeutral d1 \addlyrics { _ _ a, } \\\
+\stemDown d'2 cs \stemNeutral d1 \addlyrics { _ _ a, } \\\
 a1 d,~ \addlyrics { _ a, } | %19
 
 s1.. s4 \\\
 \stemUp d4 e f g a \stemDown b c2~ \addlyrics { ve -- _ _ _ _ _ _ } \\\
-r1 r2 \stemDown e \addlyrics { et } \\\
+r1 r2 \stemDown e' \addlyrics { et } \\\
 d,1 r | %20
 
 s1.. s4 \\\
 \stemDown c'4 b \stemNeutral a1 \stemUp gs2 \\\
-f1 \stemDown e2. d4 \addlyrics { ve -- _ _ } \\\
+f'1 \stemDown e2. d4 \addlyrics { ve -- _ _ } \\\
 r1 r | %21
 
 s1.. s4 \\\
 \stemUp a'2 e \stemNeutral f1 \addlyrics { ni, et ve -- } \\\
-\stemDown c4 b c2 \stemNeutral d1 \\\
+\stemDown c'4 b c2 \stemNeutral d1 \\\
 a1 \stemDown d,4 e f g \addlyrics { et ve -- _ _ _ } | %22
 
 s1.. s4 \\\
 e1 r2 \stemUp a \addlyrics { ni, et } \\\
-\stemDown c2 e \stemNeutral f1 \addlyrics { ni, et ve -- } \\\
+\stemDown c'2 e \stemNeutral f1 \addlyrics { ni, et ve -- } \\\
 \stemDown a4 b c2 \stemNeutral f,1 \addlyrics { _ _ _ ni, } | %23
 
 s1.. s4 \\\
 \stemDown c'2 b~ b4 \stemUp a a2~ \addlyrics { ve -- _ _ _ _ } \\\
-e1 r \addlyrics { ni, } \\\
+e'1 r \addlyrics { ni, } \\\
 r1 a \addlyrics { et } | %24
 
 s1.. s4 \\\
 \stemUp a'2 g \stemNeutral a1 \addlyrics { _ _ ni, } \\\
-d1 e \addlyrics { et ve -- } \\\
+d'1 e \addlyrics { et ve -- } \\\
 bf1 a \addlyrics { ve -- ni. __ } | %25
 
 d'1~ d \bar ";" \addlyrics { ni _ } \\\
 r2 \stemUp a' a d, \bar ";" \addlyrics { jam e -- nim } \\\
-d1 r2 \stemDown a' \bar ";" \addlyrics { ni jam } \\\
+d'1 r2 \stemDown a' \bar ";" \addlyrics { ni jam } \\\
 d,1~ d \bar ";" | %26
 
 \key ef \major bf'1~ bf \bar ";" \addlyrics { Be -- _ } \\\
@@ -168,7 +168,7 @@ R1 \bar ";" | %32
 
 f1 \stemDown bf2. \stemUp af4 \bar ";" \addlyrics { nit, qui _ } \\\
 \stemUp ef2 d4 c d ef f2~ \bar ";" \\\
-bf1~ bf \bar ";" \addlyrics { Be _ } \\\
+bf'1~ bf \bar ";" \addlyrics { Be _ } \\\
 R1 \bar ";" | %33
 
 \stemUp g'2 f4 ef f2 \stemDown bf~ \addlyrics { ve -- _ _ _ _ } \\\
@@ -463,22 +463,22 @@ R1 \bar "|." | %91
 
 \key c \major R1 \bar ";" \\\
 R1 \bar ";" \\\
-\stemUp g2. a4 b \stemDown c d2~ \bar ";" \addlyrics { Be -- _ _ _ _ } \\\
+\stemUp g'2. a4 b \stemDown c d2~ \bar ";" \addlyrics { Be -- _ _ _ _ } \\\
 R1 \bar ";" | %92
 
 R1 \bar ";" \\\
 R1 \bar ";" \\\
-\stemDown d2 \stemUp b \stemNeutral c1 \bar ";" \addlyrics { _ ne -- di -- } \\\
+\stemDown d'2 \stemUp b \stemNeutral c1 \bar ";" \addlyrics { _ ne -- di -- } \\\
 r1 \stemUp c,2. d4 \bar ";" \addlyrics { Be -- _ } | %93
 
 R1 \bar ";" \\\
 R1 \bar ";" \\\
-\stemUp b2. \stemDown c4 d \stemUp b \stemDown e2~ \bar ";" \addlyrics { ctus __ _ _ _ _ } \\\
+\stemUp b'2. \stemDown c4 d \stemUp b \stemDown e2~ \bar ";" \addlyrics { ctus __ _ _ _ _ } \\\
 \stemDown e,4 f \stemNeutral g1 \stemDown e2 \bar ";" \addlyrics { _ _ _ ne -- } | %94
 
 R1 \bar ";" \\\
 R1 \bar ";" \\\
-\stemDown e2 d s1 \bar ";" \addlyrics { _ qui } \\\
+\stemDown e'2 d s1 \bar ";" \addlyrics { _ qui } \\\
 f,1 \stemDown e2. f4 \bar ";" \addlyrics { di -- ctus __ _ } | %95
 
 R1 \bar ";" \\\

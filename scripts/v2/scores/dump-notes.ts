@@ -4,8 +4,14 @@
  * Staves are flattened in score order: part 1 staff 1..n, part 2 staff 1..n, ...
  * A note counts on the staff it is drawn on (after `\staff "N"` switches), as in
  * MusicXML's <staff>. Pitches are "<STEP><alter:+d><octave>", e.g. "F+14" = F#4.
+ *
+ * Pitches are SOUNDING pitches, like music21's reading of the MusicXML. A .lyl pitch is
+ * written pitch, and under an octave clef (treble_8, bass_8, treble^8, treble_15) lilylet
+ * sounds it the clef's octave(s) away, so the clef's whole-octave shift is applied here.
+ * The clef is tracked per part and staff and carries across bars, as in the score.
  */
 import type { LilyletDoc } from "../../../../lilylet/source/lilylet";
+import { clefSuffixSemitones } from "../../../../lilylet/source/lilylet/clefTransposition";
 
 type Frac = [number, number];
 const gcd = (a: number, b: number): number => (b ? gcd(b, a % b) : Math.abs(a));
@@ -15,7 +21,13 @@ const mul = (a: Frac, b: Frac): Frac => norm([a[0] * b[0], a[1] * b[1]]);
 const str = ([n, d]: Frac) => (d === 1 ? String(n) : `${n}/${d}`);
 
 const ALTER: Record<string, number> = { sharp: 1, flat: -1, natural: 0, doubleSharp: 2, doubleFlat: -2 };
-const pitchName = (p: any) => `${p.phonet.toUpperCase()}${(ALTER[p.accidental] ?? 0) >= 0 ? "+" : ""}${ALTER[p.accidental] ?? 0}${p.octave + 4}`;
+const pitchName = (p: any, octShift = 0) => `${p.phonet.toUpperCase()}${(ALTER[p.accidental] ?? 0) >= 0 ? "+" : ""}${ALTER[p.accidental] ?? 0}${p.octave + 4 + octShift}`;
+/** Whole octaves a clef moves sounding pitch by (-1 for treble_8, -2 for treble_15, +1 for treble^8). */
+const clefOctaves = (clef: string | undefined): number => {
+	if (!clef) return 0;
+	const semi = clefSuffixSemitones(String(clef));
+	return semi % 12 === 0 ? semi / 12 : 0;
+};
 
 /** quarterLength of a duration (ignores any tuplet; the caller applies tuplet ratios). */
 const ql = (d: any): Frac => {
@@ -51,22 +63,25 @@ export const dumpNotes = (doc: LilyletDoc) => {
 	const staves = Array.from({ length: total }, () => ({ notes: [] as any[] }));
 
 	let time: Frac = [4, 1];
+	const clefOf = new Map<string, number>();   // "part:staff" -> octave shift of the clef in force
 	doc.measures.forEach((m, mi) => {
 		if (m.timeSig) time = norm([m.timeSig.numerator * 4, m.timeSig.denominator]);
 		m.parts.forEach((p, pi) => p.voices.forEach(v => {
 			let staff = v.staff || 1;
 			let off: Frac = [0, 1];
+			const shift = (st: number) => clefOf.get(`${pi}:${st}`) ?? 0;
 			const walk = (evs: any[], ratio: Frac) => {
 				for (const e of evs) {
 					if (e.type === "context") {
 						if (e.staff) staff = e.staff;
+						if (e.clef) clefOf.set(`${pi}:${e.staff || staff}`, clefOctaves(e.clef));
 						if (e.time) time = norm([e.time.numerator * 4, e.time.denominator]);
 					} else if (e.type === "tuplet" || e.type === "times") {
 						walk(e.events, mul(ratio, [e.ratio.numerator, e.ratio.denominator]));
 					} else if (e.type === "note") {
 						const s = base[pi] + (e.staff || staff) - 1;
 						const d = mul(ql(e.duration), ratio);
-						const ps = e.pitches.map(pitchName).sort();
+						const ps = e.pitches.map((x: any) => pitchName(x, shift(e.staff || staff))).sort();
 						staves[s].notes.push([mi, str(off), ps, e.grace ? "0" : str(d), !!e.grace]);
 						if (!e.grace) off = add(off, d);
 					} else if (e.type === "rest") {
@@ -75,8 +90,8 @@ export const dumpNotes = (doc: LilyletDoc) => {
 						// \repeat tremolo n { a b }: n alternations of two notes of `division`.
 						const d: Frac = norm([4 * e.count, e.division]);
 						const s = base[pi] + staff - 1;
-						staves[s].notes.push([mi, str(off), e.pitchA.map(pitchName).sort(), str(d), false]);
-						staves[s].notes.push([mi, str(add(off, d)), e.pitchB.map(pitchName).sort(), str(d), false]);
+						staves[s].notes.push([mi, str(off), e.pitchA.map((x: any) => pitchName(x, shift(staff))).sort(), str(d), false]);
+						staves[s].notes.push([mi, str(add(off, d)), e.pitchB.map((x: any) => pitchName(x, shift(staff))).sort(), str(d), false]);
 						off = add(off, mul(d, [2, 1]));
 					}
 				}

@@ -157,10 +157,8 @@ for f in inv:
     if rel in SPLITS:
         notes.append(SPLITS[rel])
     code = open(lyl).read()
-    if re.search(r'\\clef "[a-z]+[_^](8|15)"', code):
-        doubt = True
-        notes.append('OCTAVE CLEF: lilylet draws notes under an octave clef (treble_8) an octave too low '
-                     '(decoder writes sounding pitch, MEI encoder reads it as written; repro.ts); the .lyl pitches are the sounding ones')
+    # Octave clefs (treble_8 etc.): fixed in lilylet 38805c8 (decoder writes WRITTEN pitch under
+    # <clef-octave-change> without <transpose>); dump-notes.ts compares sounding pitch.
     hsh = body_hash(code)
     if hsh in seen:
         notes.append(f'same music as {seen[hsh]}')

@@ -41,16 +41,12 @@
    "lyl": "v2/lilylet/2022/08/I-Exercises.lyl",
    "review": {
     "checked": "2026-11-09",
-    "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)",
-    "minor": false,
-    "note": "Fig. labels on the empty answer staff lost (see notes)"
+    "note": "Fig. labels on the empty answer staff lost (see notes); octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
    },
    "status": "ok-with-notes",
    "notes": [
     "TEXT ON RESTS LOST: 23 staff texts on rests (\"Fig. 5; Species: 1; \", \"Fig. 11; Species: 1;\", \"Fig. 13; Species: 1;\") dropped; lilylet cannot attach text to a rest or spacer",
-    "515 invisible rests written as spacers",
-    "OCTAVE CLEF: lilylet draws notes under an octave clef (treble_8) an octave too low (decoder writes sounding pitch, MEI encoder reads it as written; repro.ts); the .lyl pitches are the sounding ones",
-    "visual review: octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)"
+    "515 invisible rests written as spacers"
    ]
   },
   {
@@ -69,14 +65,11 @@
    "lyl": "v2/lilylet/2022/08/I-Solutions.lyl",
    "review": {
     "checked": "2026-11-09",
-    "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)",
-    "minor": false
+    "note": "octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
    },
    "status": "ok-with-notes",
    "notes": [
-    "TEXT ON RESTS LOST: 14 staff texts on rests (\"Fig. 36; Species: 2;\", \"Fig. 38; Species: 2;\", \"Fig. 40; Species: 2;\") dropped; lilylet cannot attach text to a rest or spacer",
-    "OCTAVE CLEF: lilylet draws notes under an octave clef (treble_8) an octave too low (decoder writes sounding pitch, MEI encoder reads it as written; repro.ts); the .lyl pitches are the sounding ones",
-    "visual review: octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)"
+    "TEXT ON RESTS LOST: 14 staff texts on rests (\"Fig. 36; Species: 2;\", \"Fig. 38; Species: 2;\", \"Fig. 40; Species: 2;\") dropped; lilylet cannot attach text to a rest or spacer"
    ]
   },
   {
@@ -117,16 +110,12 @@
    "lyl": "v2/lilylet/2022/08/II-Exercises.lyl",
    "review": {
     "checked": "2026-11-09",
-    "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)",
-    "minor": false,
-    "note": "Fig. labels on the empty answer staff lost (see notes)"
+    "note": "Fig. labels on the empty answer staff lost (see notes); octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
    },
    "status": "ok-with-notes",
    "notes": [
     "TEXT ON RESTS LOST: 30 staff texts on rests (\"Fig. 104; Species: 1\", \"Fig. 105; Species: 1\", \"Fig. 108; Species: 1\") dropped; lilylet cannot attach text to a rest or spacer",
-    "983 invisible rests written as spacers",
-    "OCTAVE CLEF: lilylet draws notes under an octave clef (treble_8) an octave too low (decoder writes sounding pitch, MEI encoder reads it as written; repro.ts); the .lyl pitches are the sounding ones",
-    "visual review: octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)"
+    "983 invisible rests written as spacers"
    ]
   },
   {
@@ -145,14 +134,11 @@
    "lyl": "v2/lilylet/2022/08/II-Solutions.lyl",
    "review": {
     "checked": "2026-11-09",
-    "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)",
-    "minor": false
+    "note": "octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
    },
    "status": "ok-with-notes",
    "notes": [
-    "TEXT ON RESTS LOST: 8 staff texts on rests (\"Fig. 122; Species: 2\", \"Fig. 124; Species: 2\", \"Fig. 128; Species: 2\") dropped; lilylet cannot attach text to a rest or spacer",
-    "OCTAVE CLEF: lilylet draws notes under an octave clef (treble_8) an octave too low (decoder writes sounding pitch, MEI encoder reads it as written; repro.ts); the .lyl pitches are the sounding ones",
-    "visual review: octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)"
+    "TEXT ON RESTS LOST: 8 staff texts on rests (\"Fig. 122; Species: 2\", \"Fig. 124; Species: 2\", \"Fig. 128; Species: 2\") dropped; lilylet cannot attach text to a rest or spacer"
    ]
   },
   {
@@ -171,16 +157,12 @@
    "lyl": "v2/lilylet/2022/08/III-Distinct.lyl",
    "review": {
     "checked": "2026-11-09",
-    "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)",
-    "minor": false,
-    "note": "labels on empty bars lost (see notes)"
+    "note": "labels on empty bars lost (see notes); octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
    },
    "status": "ok-with-notes",
    "notes": [
     "TEXT ON RESTS LOST: 18 staff texts on rests (\"Modal final: d; Cant\", \"Modal final: d; Cant\", \"Modal final: d; Cant\") dropped; lilylet cannot attach text to a rest or spacer",
-    "852 invisible rests written as spacers",
-    "OCTAVE CLEF: lilylet draws notes under an octave clef (treble_8) an octave too low (decoder writes sounding pitch, MEI encoder reads it as written; repro.ts); the .lyl pitches are the sounding ones",
-    "visual review: octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)"
+    "852 invisible rests written as spacers"
    ]
   },
   {
@@ -199,16 +181,12 @@
    "lyl": "v2/lilylet/2022/08/III-Exercises.lyl",
    "review": {
     "checked": "2026-11-09",
-    "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)",
-    "minor": false,
-    "note": "Fig. labels on the empty answer staff lost (see notes)"
+    "note": "Fig. labels on the empty answer staff lost (see notes); octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
    },
    "status": "ok-with-notes",
    "notes": [
     "TEXT ON RESTS LOST: 25 staff texts on rests (\"Fig. 160; Species: 1\", \"Fig. 164; Species: 1\", \"Fig. 165; Species: 1\") dropped; lilylet cannot attach text to a rest or spacer",
-    "1047 invisible rests written as spacers",
-    "OCTAVE CLEF: lilylet draws notes under an octave clef (treble_8) an octave too low (decoder writes sounding pitch, MEI encoder reads it as written; repro.ts); the .lyl pitches are the sounding ones",
-    "visual review: octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)"
+    "1047 invisible rests written as spacers"
    ]
   },
   {
@@ -227,14 +205,11 @@
    "lyl": "v2/lilylet/2022/08/III-Solutions.lyl",
    "review": {
     "checked": "2026-11-09",
-    "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)",
-    "minor": false
+    "note": "octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
    },
    "status": "ok-with-notes",
    "notes": [
-    "TEXT ON RESTS LOST: 3 staff texts on rests (\"Fig. 174; Species: 2\", \"Fig. 193; Species: 4\", \"Fig. 200; Species: 5\") dropped; lilylet cannot attach text to a rest or spacer",
-    "OCTAVE CLEF: lilylet draws notes under an octave clef (treble_8) an octave too low (decoder writes sounding pitch, MEI encoder reads it as written; repro.ts); the .lyl pitches are the sounding ones",
-    "visual review: octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)"
+    "TEXT ON RESTS LOST: 3 staff texts on rests (\"Fig. 174; Species: 2\", \"Fig. 193; Species: 4\", \"Fig. 200; Species: 5\") dropped; lilylet cannot attach text to a rest or spacer"
    ]
   },
   {
@@ -282,12 +257,11 @@
    "review": {
     "checked": "2026-11-09"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
     "31 invisible rests written as spacers",
     "8 breve(s) written as tied whole notes / two whole rests (lilylet has no breve)",
-    "9 full-bar rests in bars longer than a whole note written as R1",
-    "OCTAVE CLEF: lilylet draws notes under an octave clef (treble_8) an octave too low (decoder writes sounding pitch, MEI encoder reads it as written; repro.ts); the .lyl pitches are the sounding ones"
+    "9 full-bar rests in bars longer than a whole note written as R1"
    ]
   },
   {
@@ -305,12 +279,11 @@
    "review": {
     "checked": "2026-11-09"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
     "18 invisible rests written as spacers",
     "1 breve(s) written as tied whole notes / two whole rests (lilylet has no breve)",
-    "1 full-bar rests in bars longer than a whole note written as R1",
-    "OCTAVE CLEF: lilylet draws notes under an octave clef (treble_8) an octave too low (decoder writes sounding pitch, MEI encoder reads it as written; repro.ts); the .lyl pitches are the sounding ones"
+    "1 full-bar rests in bars longer than a whole note written as R1"
    ]
   },
   {
@@ -350,11 +323,10 @@
    "review": {
     "checked": "2026-11-09"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
     "22 invisible rests written as spacers",
-    "23 breve(s) written as tied whole notes / two whole rests (lilylet has no breve)",
-    "OCTAVE CLEF: lilylet draws notes under an octave clef (treble_8) an octave too low (decoder writes sounding pitch, MEI encoder reads it as written; repro.ts); the .lyl pitches are the sounding ones"
+    "23 breve(s) written as tied whole notes / two whole rests (lilylet has no breve)"
    ]
   },
   {
@@ -372,10 +344,9 @@
    "review": {
     "checked": "2026-11-09"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "29 breve(s) written as tied whole notes / two whole rests (lilylet has no breve)",
-    "OCTAVE CLEF: lilylet draws notes under an octave clef (treble_8) an octave too low (decoder writes sounding pitch, MEI encoder reads it as written; repro.ts); the .lyl pitches are the sounding ones"
+    "29 breve(s) written as tied whole notes / two whole rests (lilylet has no breve)"
    ]
   },
   {
@@ -395,8 +366,9 @@
    "lyl": "v2/lilylet/2025/04/WK-16th-century-contraputal-style.lyl",
    "review": {
     "checked": "2026-11-09",
-    "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree); dotted barlines drawn solid",
-    "minor": false
+    "issue": "dotted barlines drawn solid",
+    "minor": false,
+    "note": "octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
    },
    "status": "ok-with-notes",
    "notes": [
@@ -404,8 +376,7 @@
     "95 invisible rests written as spacers",
     "57 breve(s) written as tied whole notes / two whole rests (lilylet has no breve)",
     "142 full-bar rests in bars longer than a whole note written as R1",
-    "OCTAVE CLEF: lilylet draws notes under an octave clef (treble_8) an octave too low (decoder writes sounding pitch, MEI encoder reads it as written; repro.ts); the .lyl pitches are the sounding ones",
-    "visual review: octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree); dotted barlines drawn solid"
+    "visual review: dotted barlines drawn solid"
    ]
   },
   {
@@ -2006,14 +1977,11 @@
    "lyl": "v2/lilylet/2019/05/Modal_Reharmonization.lyl",
    "review": {
     "checked": "2026-11-09",
-    "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)",
-    "minor": false
+    "note": "octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "Verovio warnings: [Warning] Expected @tie median or terminal in note '…', skipping it (x1); [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x5)",
-    "OCTAVE CLEF: lilylet draws notes under an octave clef (treble_8) an octave too low (decoder writes sounding pitch, MEI encoder reads it as written; repro.ts); the .lyl pitches are the sounding ones",
-    "visual review: octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)"
+    "Verovio warnings: [Warning] Expected @tie median or terminal in note '…', skipping it (x1); [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x5)"
    ]
   },
   {
@@ -2033,14 +2001,11 @@
    "lyl": "v2/lilylet/2023/01/WK-fragile-absent-emergent.lyl",
    "review": {
     "checked": "2026-11-09",
-    "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)",
-    "minor": false
+    "note": "octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "1 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
-    "OCTAVE CLEF: lilylet draws notes under an octave clef (treble_8) an octave too low (decoder writes sounding pitch, MEI encoder reads it as written; repro.ts); the .lyl pitches are the sounding ones",
-    "visual review: octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree)"
+    "1 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)"
    ]
   },
   {
@@ -2080,15 +2045,15 @@
    "lyl": "v2/lilylet/2023/06/WK-modal-schemas_Reharmonization.lyl",
    "review": {
     "checked": "2026-11-09",
-    "issue": "octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree); glissandi not drawn",
-    "minor": false
+    "issue": "glissandi not drawn",
+    "minor": false,
+    "note": "octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
    },
    "status": "ok-with-notes",
    "notes": [
     "1 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "Verovio warnings: [Warning] Expected @tie median or terminal in note '…', skipping it (x1); [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x5)",
-    "OCTAVE CLEF: lilylet draws notes under an octave clef (treble_8) an octave too low (decoder writes sounding pitch, MEI encoder reads it as written; repro.ts); the .lyl pitches are the sounding ones",
-    "visual review: octave clef (treble_8) drawn an octave low (lilylet decoder/encoder disagree); glissandi not drawn"
+    "visual review: glissandi not drawn"
    ]
   },
   {
@@ -2268,7 +2233,6 @@
     "15 tuplet group(s) without a <tuplet> bracket in the source wrapped in \\tuplet",
     "5 duplicate chord ties merged",
     "Verovio warnings: [Warning] Hairpin '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x1); [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x2)",
-    "OCTAVE CLEF: lilylet draws notes under an octave clef (treble_8) an octave too low (decoder writes sounding pitch, MEI encoder reads it as written; repro.ts); the .lyl pitches are the sounding ones",
     "visual review: two-note tremolos come out as tuplets without tremolo beams; Cl.->Glock. change (G15ma clef) not shown"
    ]
   },
@@ -3333,8 +3297,7 @@
     "special noteheads (x/slash/diamond) not kept",
     "25 zero-net <backup>/<forward> pairs around directions removed",
     "5 invisible rests written as spacers",
-    "Verovio warnings: [Warning] Expected @tie median or terminal in note '…', skipping it (x1); [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x1)",
-    "OCTAVE CLEF: lilylet draws notes under an octave clef (treble_8) an octave too low (decoder writes sounding pitch, MEI encoder reads it as written; repro.ts); the .lyl pitches are the sounding ones"
+    "Verovio warnings: [Warning] Expected @tie median or terminal in note '…', skipping it (x1); [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x1)"
    ]
   },
   {

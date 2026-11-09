@@ -212,7 +212,7 @@ def readme(rows):
     return '\n'.join(md)
 
 
-def run(check=False, quiet=False):
+def run(check=False, quiet=False, images=True):
     man = load(os.path.join(LYL_DIR, 'MANIFEST.json'))
     if not man:
         if not quiet:
@@ -220,7 +220,7 @@ def run(check=False, quiet=False):
         return 0
     rows = man['files']
     usable = [r for r in rows if r.get('lyl') and not SKIP_STATUS.match(r['status']) and os.path.exists(os.path.join(ROOT, r['lyl']))]
-    img = load(os.path.join(LYL_DIR, 'images', 'MANIFEST.json'))
+    img = load(os.path.join(LYL_DIR, 'images', 'MANIFEST.json')) if images else None
     img_rows = []
     if img:
         mats = load(os.path.join(V2, 'materials.json')) or {'materials': []}
@@ -279,5 +279,6 @@ def run(check=False, quiet=False):
 if __name__ == '__main__':
     ap = argparse.ArgumentParser(description=__doc__.split('\n')[0])
     ap.add_argument('--check', action='store_true', help='report what would change, exit 1 if anything would')
+    ap.add_argument('--no-images', action='store_true', help='embed score files only; leave out (and remove) image transcriptions')
     a = ap.parse_args()
-    sys.exit(run(check=a.check))
+    sys.exit(run(check=a.check, images=not a.no_images))
