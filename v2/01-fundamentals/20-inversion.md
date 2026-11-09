@@ -57,6 +57,20 @@ Let’s complete this process for an A♭ minor triad in first inversion (A♭mi
 ![Example 3. Drawing an A♭ minor triad in first inversion in six steps.](../media/2025/07/Ab-Minor-Triad-in-Inversion.png)
 *Example 3. Drawing an A♭ minor triad in first inversion in six steps.*
 
+<!-- lilylet-begin: media/2025/07/Ab-Minor-Triad-in-Inversion.png -->
+Lilylet transcription of the example above ([Ab-Minor-Triad-in-Inversion.lyl](../lilylet/images/2025/07/Ab-Minor-Triad-in-Inversion.lyl)):
+
+```lyl.play
+[title "Drawing an A-flat minor triad in first inversion in six steps"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "treble" af'1^\markup "1" \bar "||" | %1
+<af' c e>1^\markup "2" \bar "||" | %2
+\key af \major ^\markup "3" s1 \bar "||" | %3
+\key c \major <af' c ef>1^\markup "4" \bar "||" | %4
+<af' cf ef>1^\markup "5" \bar "||" | %5
+<cf' ef af>1^\markup "6" \bar "||" | %6
+```
+<!-- lilylet-end -->
 1. The note A♭ is written because it is the root of the triad.
 2. A snowperson is drawn; in other words, the notes C and E are added because they are a generic third and fifth, respectively, above A♭.
 3. The key signature of A♭ major is recalled. A♭ major has four flats: B♭, E♭, A♭, and D♭.
@@ -141,6 +155,19 @@ Let’s complete this process for a D major major seventh chord in second invers
 
 ![Example 8. Spelling a D major-major seventh chord in inversion in five steps.](../media/2025/07/D-Major-Major-Seventh-Chord-in-Inversion.png)*Example 8. Spelling a D major-major seventh chord in inversion in five steps.*
 
+<!-- lilylet-begin: media/2025/07/D-Major-Major-Seventh-Chord-in-Inversion.png -->
+Lilylet transcription of the example above ([D-Major-Major-Seventh-Chord-in-Inversion.lyl](../lilylet/images/2025/07/D-Major-Major-Seventh-Chord-in-Inversion.lyl)):
+
+```lyl.play
+[title "Spelling a D major-major seventh chord in second inversion in five steps"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "treble" d1^\markup "1" | %1
+<d f a c>1^\markup "2" | %2
+\key d \major ^\markup "3" s1 | %3
+\key c \major <d fs a cs>1^\markup "4" | %4
+<a' cs d fs>1^\markup "5" \bar "||" | %5
+```
+<!-- lilylet-end -->
 1. The note D, the chord’s root, is drawn on the staff.
 2. An extra-long snowperson is drawn—an F, A, and C, the notes a generic third, fifth, and seventh above the D.
 3. The key signature of D major has been recalled. D major has two sharps, F♯ and C♯.

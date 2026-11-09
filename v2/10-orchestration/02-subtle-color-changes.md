@@ -59,6 +59,58 @@ Britten uses penetrating instruments for the attacks (including the harp again) 
 
 ![“Attack-sustain” detail from Britten’s Four Sea Interludes](../media/2019/07/Ciii-Britten.png)*“Attack-sustain” detail from Britten’s *Four Sea Interludes**
 
+<!-- lilylet-begin: media/2019/07/Ciii-Britten.png -->
+Lilylet transcription of the example above ([Ciii-Britten.lyl](../lilylet/images/2019/07/Ciii-Britten.lyl)):
+
+```lyl.play
+[title "Four Sea Interludes: attack-sustain detail (flutes and harp)"]
+[composer "Benjamin Britten"]
+[staves "<f1-f2>,{h1-h2}"]
+[instrument-f1 "Fl.1"]
+[instrument-f2 "Fl.2"]
+[instrument-h1-h2 "Harp"]
+
+\key ef \major \numericTimeSignature \time 2/2 \clef "treble" \tuplet 3/2 { bf''8->\f[ bf,->] r } r4 r2 \\\\
+\clef "treble" \tuplet 3/2 { bf'4\portato\pp bf8->~ } bf2.~ \\\\
+\staff "1" \clef "treble" \tuplet 3/2 { bf''8->\f[ bf,] s8 } r4 r2 \\
+\staff "2" \clef "treble" \tuplet 3/2 { s8 s bf^\markup "o" } r4 r2 | %1
+
+R1 \\\\
+bf'2 r \\\\
+\staff "1" R1 \\
+\staff "2" R1 | %2
+
+\tuplet 3/2 { bf''8->\f[ bf,->] r } r4 r2 \\\\
+\tuplet 3/2 { bf'4\portato\pp bf8->~ } bf2.~ \\\\
+\staff "1" \tuplet 3/2 { bf''8->\f[ bf,] s8 } r4 r2 \\
+\staff "2" \tuplet 3/2 { s8 s bf^\markup "o" } r4 r2 | %3
+
+R1 \\\\
+bf'1~ \\\\
+\staff "1" R1 \\
+\staff "2" R1 | %4
+
+R1 \\\\
+bf'2 r \\\\
+\staff "1" R1 \\
+\staff "2" R1 | %5
+
+\tuplet 3/2 { c''8->[ c,->] r } r4 \tuplet 3/2 { af''8->[ af,->] r } r4 \\\\
+\tuplet 3/2 { c'4\portato c8->~ } c4 \tuplet 3/2 { af'4\portato^\markup "[portato]" af8->~ } af4~ \\\\
+\staff "1" \tuplet 3/2 { c''8->[ c,] s8 } r4 \tuplet 3/2 { af''8->[ af,] s8 } r4 \\
+\staff "2" \tuplet 3/2 { s8 s c^\markup "o" } r4 \tuplet 3/2 { s8 s af'^\markup "o" } r4 | %6
+
+r2 \tuplet 3/2 { c''8->[ c,->] r } r4 \\\\
+af''2 \tuplet 3/2 { c,4\portato c8->~ } c4 \\\\
+\staff "1" r2 \tuplet 3/2 { c''8->[ c,] s8 } r4 \\
+\staff "2" r2 \tuplet 3/2 { s8 s c^\markup "o" } r4 | %7
+
+\tuplet 3/2 { bf''8->[ bf,->] r } r4 r2 \\\\
+\tuplet 3/2 { bf'4\portato bf8->~ } bf2. \\\\
+\staff "1" \tuplet 3/2 { bf''8->[ bf,] s8 } r4 r2 \\
+\staff "2" \tuplet 3/2 { s8 s bf^\markup "o" } r4 r2 | %8
+```
+<!-- lilylet-end -->
 (Note the octave transposition of the harp harmonics.) Later in the movement (around reh. 3), the same device appears with xylophone and piccolo on attack, and trumpet sustaining.
 
 This practice is related to the wider device of employing different articulations on doublings of the same melodic line. Clear examples include:
@@ -82,6 +134,39 @@ This reduction sets out the process:
 
 ![Summary of the instrument entrances in the B3 unison of Berg’s Wozzeck](../media/2019/07/Diii-Berg-Wozzeck.png)*Summary of the instrument entrances in the B3 unison of Berg’s *Wozzeck**
 
+<!-- lilylet-begin: media/2019/07/Diii-Berg-Wozzeck.png -->
+Lilylet transcription of the example above ([Diii-Berg-Wozzeck.lyl](../lilylet/images/2019/07/Diii-Berg-Wozzeck.lyl)):
+
+```lyl.play
+[title "Extract from Wozzeck, Murder Scene"]
+[subtitle "All parts sustain B3 until the chord at the end of the passage. Order of instruments' entry as given."]
+[composer "Alban Berg"]
+[staves "[w-b-s]"]
+[instrument-w "Wind"]
+[instrument-b "Brass"]
+[instrument-s "Strings"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "alto" R1 \\\\
+\clef "alto" r2 b2\pppp\< \addlyrics { "Solo Hn" } \addlyrics { "(muted)" } \\\\
+\clef "alto" r2 r4 b4 \addlyrics { Solo } \addlyrics { "1st Vln" } \addlyrics { "(muted)" } | %1
+
+b2.~ b4 \addlyrics { BCl "4 Cl" } \\\\
+R1 \\\\
+r4 b2. \addlyrics { Tutti } \addlyrics { "1st Vln" } | %2
+
+r2. b4 \addlyrics { "4 Ob" } \\\\
+b1 \addlyrics { "3 Hn" } \\\\
+b4~ b2.~ \addlyrics { Solo Solo } \addlyrics { Vla Vc } | %3
+
+r2 r8 b4.~ \addlyrics { "3 Bsn" } \\\\
+r2 b8[ b] b4~ \addlyrics { "4 Tpt" _ "4 Tbn" } \addlyrics { _ B.Tbn _ } \\\\
+b2.~ b8[ b] \addlyrics { Tutti Tutti Tutti } \addlyrics { "2nd Vln" Vla Vc } | %4
+
+b1\fermata^\markup "fff Chord: full register; addition of 4 picc, C Bsn, B.D. solo" \\\\
+b1\fermata\!\fff \\\\
+b1\fermata \addlyrics { Db } | %5
+```
+<!-- lilylet-end -->
 In a landmark book about sound spectra, Robert Cogan described the beginning of this passage as “almost entirely fundamental”: that is, almost a pure sine wave, with strictly minimized upper partials. We begin ***pppp*** with the muted French horn: an entirely appropriate choice in that it has the least spectrally active sound available in the standard symphony orchestra and, partly by definition, also the most distant one. Not only do the players sit near the back, but their instrument projects the sound backwards, further increasing the distance and ensuring that the majority of the audience hears primarily wall-reflected sound. Between this and the use of a mute, a great deal of high-register spectral content is removed, leaving that nearly pure fundamental. The mute on the solo violin, which is next to enter, has a similar spectral-auditory effect. When the bass clarinet joins the sound, some higher spectra are introduced, though few, as the instrument is high in its range and produces only odd-numbered partials. What follows continues this crescendo not only of sound, but of instrument types and spectral content. Naturally, the heavy brass are last to enter, burnishing the end to this spectral progression with brilliance.
 
 ## For timbrally nuanced melodies

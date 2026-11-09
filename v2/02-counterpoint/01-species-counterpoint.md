@@ -42,6 +42,40 @@ These categories are summarized in Example 1 below.
 
 ![Example 1. Perfect consonances, imperfect consonances, and dissonances.](../media/2019/05/Consonance.png)*Example 1. Perfect consonances, imperfect consonances, and dissonances.*
 
+<!-- lilylet-begin: media/2019/05/Consonance.png -->
+Lilylet transcription of the example above ([Consonance.lyl](../lilylet/images/2019/05/Consonance.lyl)):
+
+```lyl.play
+[title "Perfect consonances, imperfect consonances, and dissonances"]
+
+\omit Score.TimeSignature \key c \major \clef "treble" <d d>1^\markup "'Perfect' consonances"
+\addlyrics { P1 } | %1
+<d a'>1
+\addlyrics { P5 } | %2
+<d d'>1 \bar "|."
+\addlyrics { P8 } | %3
+<d f>1^\markup "'Imperfect' consonances"
+\addlyrics { m3 } | %4
+<f a>1 \bar "||"
+\addlyrics { M3 } | %5
+<f d'>1
+\addlyrics { M6 } | %6
+<a' f'>1 \bar "|."
+\addlyrics { m6 } | %7
+<e f>1^\markup "Dissonances"
+\addlyrics { m2 } | %8
+<f g>1 \bar "||"
+\addlyrics { M2 } | %9
+<f e'>1
+\addlyrics { M7 } | %10
+<g' f'>1 \bar "||"
+\addlyrics { m7 } | %11
+<f b>1
+\addlyrics { A4 } | %12
+<b' f'>1 \bar "|."
+\addlyrics { d5 } | %13
+```
+<!-- lilylet-end -->
 ### The elusive perfect fourth
 
 As in many theories of tonal music, the perfect fourth has a special status in species counterpoint that depends on where it appears in the texture. Basically, the interval of a perfect fourth is dissonant when it involves the lowest voice in the texture, but it is consonant when it occurs between two upper voices.
@@ -136,6 +170,22 @@ In species counterpoint, we both write and combine such melodic lines. The follo
 
 ![Example 4. Melodic outlinings.](../media/2019/05/Outlining-1.png)*Example 4. Melodic outlinings.*
 
+<!-- lilylet-begin: media/2019/05/Outlining-1.png -->
+Lilylet transcription of the example above ([Outlining-1.lyl](../lilylet/images/2019/05/Outlining-1.lyl)):
+
+```lyl.play
+[title "Melodic Outlinings"]
+
+\omit Score.TimeSignature \time 4/4 \key c \major \clef "treble" f4^\markup "Avoid changing direction at the tritone:"_\markup "[" g a b_\markup "] X" | %1
+a'4 g a2 \bar "|." | %2
+f4^\markup "Continue instead to the 5th:"_\markup "[" g a b | %3
+c'4_\markup "]" a b c \bar "|." | %4
+d4^\markup "Avoid changing direction at the 7th:"_\markup "[" e f g | %5
+a'4 b c_\markup "] X" b \bar "|." | %6
+d4^\markup "Continue instead to the 8ve:"_\markup "[" e f g | %7
+a'4 b c d_\markup "]" \bar "|." | %8
+```
+<!-- lilylet-end -->
 ### Harmonic writing (vertical intervals and the combination of parts)
 
 - The first interval should be a perfect unison, fifth, or octave, and the last interval should be a perfect unison or octave (not fifth).

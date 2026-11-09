@@ -67,30 +67,85 @@ Example 7: A marcato marking (an upside-down V) means to play or sing a note wi
 
 ![notation](../media/2020/02/a-slur.png)
 
+<!-- lilylet-begin: media/2020/02/a-slur.png -->
+Lilylet transcription of the example above ([a-slur.lyl](../lilylet/images/2020/02/a-slur.lyl)):
+
+```lyl.play
+[title "Articulation: slur"]
+
+\key bf \major \time 4/4 \omit Score.TimeSignature \clef "bass" bf4( a g f | %1
+
+ef,4 f g a) \bar "|" | %2
+```
+<!-- lilylet-end -->
 🔊 [a-slur.mp3](../media/2020/02/a-slur.mp3)
 
 Example 3. Slurred notes.
 
 ![notation](../media/2020/02/b-tenuto.png)
 
+<!-- lilylet-begin: media/2020/02/b-tenuto.png -->
+Lilylet transcription of the example above ([b-tenuto.lyl](../lilylet/images/2020/02/b-tenuto.lyl)):
+
+```lyl.play
+[title "Articulation: tenuto"]
+
+\key bf \major \time 4/4 \omit Score.TimeSignature \clef "bass" bf4-- a-- g-- f-- | %1
+
+ef,4-- f-- g-- a-- \bar "|" | %2
+```
+<!-- lilylet-end -->
 🔊 [b-tenuto.mp3](../media/2020/02/b-tenuto.mp3)
 
 Example 4. Tenuto notes.
 
 ![notation](../media/2020/02/c-staccato.png)
 
+<!-- lilylet-begin: media/2020/02/c-staccato.png -->
+Lilylet transcription of the example above ([c-staccato.lyl](../lilylet/images/2020/02/c-staccato.lyl)):
+
+```lyl.play
+[title "Articulation: staccato"]
+
+\key bf \major \time 4/4 \omit Score.TimeSignature \clef "bass" bf4-. a-. g-. f-. | %1
+
+ef,4-. f-. g-. a-. \bar "|" | %2
+```
+<!-- lilylet-end -->
 🔊 [c-staccato.mp3](../media/2020/02/c-staccato.mp3)
 
 Example 5. Staccato notes.
 
 ![notation](../media/2020/02/d-accent.png)
 
+<!-- lilylet-begin: media/2020/02/d-accent.png -->
+Lilylet transcription of the example above ([d-accent.lyl](../lilylet/images/2020/02/d-accent.lyl)):
+
+```lyl.play
+[title "Articulation: accent"]
+
+\key bf \major \time 4/4 \omit Score.TimeSignature \clef "bass" bf4-> a-> g-> f-> | %1
+
+ef,4-> f-> g-> a-> \bar "|" | %2
+```
+<!-- lilylet-end -->
 🔊 [d-accent.mp3](../media/2020/02/d-accent.mp3)
 
 Example 6. Accented notes.
 
 ![notation](../media/2020/02/e-marcato.png)
 
+<!-- lilylet-begin: media/2020/02/e-marcato.png -->
+Lilylet transcription of the example above ([e-marcato.lyl](../lilylet/images/2020/02/e-marcato.lyl)):
+
+```lyl.play
+[title "Articulation: marcato"]
+
+\key bf \major \time 4/4 \omit Score.TimeSignature \clef "bass" bf4-^ a-^ g-^ f-^ | %1
+
+ef,4-^ f-^ g-^ a-^ \bar "|" | %2
+```
+<!-- lilylet-end -->
 🔊 [e-marcato.mp3](../media/2020/02/e-marcato.mp3)
 
 Example 7. Marcato notes.
@@ -127,6 +182,24 @@ After a *ritardando* or *accelerando*it is common for a composer to return to 
 
 ![Example 9. A musical example with a ritardando and an a tempo marking.](../media/2025/06/Fur-Elise-A-Tempo.png)*Example 9. A musical example with a *ritardando* and an *a tempo* marking.*
 
+<!-- lilylet-begin: media/2025/06/Fur-Elise-A-Tempo.png -->
+Lilylet transcription of the example above ([Fur-Elise-A-Tempo.lyl](../lilylet/images/2025/06/Fur-Elise-A-Tempo.lyl)):
+
+```lyl.play
+[title "Für Elise (excerpt): poco rit. and a tempo"]
+[composer "Ludwig van Beethoven"]
+[staves "{-}"]
+
+\omit Score.TimeSignature \time 3/8 \staff "1" \clef "treble" \stemDown e'8. b16([ e-5 ds] \\
+\staff "2" \clef "bass" R4. | %1
+\staff "1" \stemDown e'8.) b16-2([ e-5)_\markup "dim. poco rit."] r16 \\
+\staff "2" r4 r16 \clef "treble" ds'16-3( | %2
+\staff "1" r16 \stemDown ds'([ e)] r r ds-4\pp( \\
+\staff "2" e'16) r r ds([ e)] r | %3
+\staff "1" \stemDown e'16^\markup "a tempo"\<[ ds e\! b\> d c\!]) \\
+\staff "2" R4. \clef "bass" | %4
+```
+<!-- lilylet-end -->
 In the third measure of Example 9, you can see there is a *ritardando*. Above the fourth measure, *a tempo* is written, indicating a return to the work’s original tempo.
 
 ## Structural Features
@@ -139,14 +212,41 @@ The following words and symbols indicate structural features in compositions. S
 
 ![](../media/2020/02/Example6Chapter6.png)
 
+<!-- lilylet-begin: media/2020/02/Example6Chapter6.png -->
+Lilylet transcription of the example above ([Example6Chapter6.lyl](../lilylet/images/2020/02/Example6Chapter6.lyl)):
+
+```lyl.play
+[title "A note in treble clef with a fermata"]
+
+\omit Score.TimeSignature \key c \major \clef "treble" g'1\fermata \bar "|" | %1
+```
+<!-- lilylet-end -->
 Example 10. A note in treble clef with a fermata.
 
 ![](../media/2020/02/Example7Chapter6.png)
 
+<!-- lilylet-begin: media/2020/02/Example7Chapter6.png -->
+Lilylet transcription of the example above ([Example7Chapter6.lyl](../lilylet/images/2020/02/Example7Chapter6.lyl)):
+
+```lyl.play
+[title "A note in bass clef with a caesura"]
+
+\omit Score.TimeSignature \key c \major \clef "bass" f,1^\markup "//" \bar "|" | %1
+```
+<!-- lilylet-end -->
 Example 11. A note in bass clef with a caesura after it.
 
 ![](../media/2020/02/Example8Chapter6.png)
 
+<!-- lilylet-begin: media/2020/02/Example8Chapter6.png -->
+Lilylet transcription of the example above ([Example8Chapter6.lyl](../lilylet/images/2020/02/Example8Chapter6.lyl)):
+
+```lyl.play
+[title "A note in alto clef with a breath mark"]
+
+\omit Score.TimeSignature \key c \major \clef "alto" b1\breathe \bar "|" | %1
+```
+<!-- lilylet-end -->
 Example 12. A note in alto clef with a breath mark after it.
 
 Repeat signs indicate that a section of music should be repeated (Example 13). If the repeated section ends differently each time, that is indicated with first and second endings (Example 14).
@@ -175,10 +275,44 @@ You may also come across several other structural markers, including *D.C. al Co
 
 ![Example 18. A musical example that shows the D.C. al Coda process.](../media/2025/06/D.C.-al-Coda.png)*Example 18. A musical example that shows the *D.C. al Coda* process.*
 
+<!-- lilylet-begin: media/2025/06/D.C.-al-Coda.png -->
+Lilylet transcription of the example above ([D.C.-al-Coda.lyl](../lilylet/images/2025/06/D.C.-al-Coda.lyl)):
+
+```lyl.play
+[title "D.C. al Coda"]
+
+\omit Score.TimeSignature \time 4/4 \clef "treble" c'1^\markup "1. Play or sing from the beginning to the D.C. al Coda" | %1
+b'1 | %2
+a'1 | %3
+g'1 | %4
+c'1 | %5
+b'1^\markup "2. At the D.C. al Coda, return to beginning" | %6
+g'1\coda _\markup "3. At the To Coda sign, go to the Coda" | %7
+c'1^\markup "D.C. al Coda" \bar "||" | %8
+f'1\coda^\markup "Coda" _\markup "4. Play or sing the coda" | %9
+e'1 \bar "|." | %10
+```
+<!-- lilylet-end -->
 *D.S. al Coda* works similarly to *D.C. al Coda*, except that one goes back to the sign on the right of Example 17 instead of the beginning of the work. *D.C. al Fine*, or *da capo al fine*, means to play or sing a work from the beginning until one sees *D.C. al Fine*. You then go back to the beginning, and play or sing until the *Fine*. Example 19 shows this process:
 
 ![Example 19. A musical example that shows the D.C. al Fine process.](../media/2025/06/D.C.-al-Fine.png)*Example 19. A musical example that shows the *D.C. al Fine* process.*
 
+<!-- lilylet-begin: media/2025/06/D.C.-al-Fine.png -->
+Lilylet transcription of the example above ([D.C.-al-Fine.lyl](../lilylet/images/2025/06/D.C.-al-Fine.lyl)):
+
+```lyl.play
+[title "D.C. al Fine"]
+
+\omit Score.TimeSignature \time 4/4 \clef "treble" c'1^\markup "1. Play or sing from the beginning to the D.C. al Fine" | %1
+b'1 | %2
+a'1 | %3
+g'1 | %4
+b'1 | %5
+c'1_\markup "3. End at the Fine" ^\markup "Fine" ^\markup "2. At the D.C. al Fine, return to beginning" \bar "|." | %6
+g'1 | %7
+c'1^\markup "D.C. al Fine" \bar "||" | %8
+```
+<!-- lilylet-end -->
 *D.S. al Fine* works similarly to *D.C. al Fine*, except that one goes back to the sign on the right of Example 17 instead of the beginning of the work.
 
 ## Stylistic Periods

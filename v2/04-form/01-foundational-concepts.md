@@ -63,6 +63,98 @@ Often when people are first asked to identify motives in a work, they tend to ch
 
 ![Example 5. Beethoven, Symphony 5, I, mm. 1–13 (0:00–0:17) . The boxed measures indicate something that is too long to be considered a motive.](../media/2019/05/Not_a_Motive-1.png)*Example 5. [Beethoven, Symphony 5, I, mm. 1–13 (0:00–0:17)](https://open.spotify.com/track/1UcsVXabDRUNnSUl65zdBT?si=Uw6lKqqTR_uhD18RYsQjAA). The boxed measures indicate something that is too long to be considered a motive.*
 
+<!-- lilylet-begin: media/2019/05/Not_a_Motive-1.png -->
+Lilylet transcription of the example above ([Not_a_Motive-1.lyl](../lilylet/images/2019/05/Not_a_Motive-1.lyl)):
+
+```lyl.play
+[title "Symphony No. 5 in C minor, Op. 67, I, mm. 1–13 (not a motive)"]
+[composer "Ludwig van Beethoven"]
+[staves "<vn1-vn2-va-vc-cb>"]
+[instrument-vn1 "Violino I." "Vl. I"]
+[instrument-vn2 "Violino II." "Vl. II"]
+[instrument-va "Viola." "Va."]
+[instrument-vc "Violoncello." "Vc."]
+[instrument-cb "Basso." "B."]
+
+\key ef \major \time 2/4 \clef "treble" r8 g'\ff[ g g] \\\\
+\clef "treble" r8 g'\ff[ g g] \\\\
+\clef "alto" r8 g\ff[ g g] \\\\
+\clef "bass" r8 g,\ff[ g g] \\\\
+\clef "bass" r8 g\ff[ g g] | %1
+
+ef2\fermata \\\\
+ef2\fermata \\\\
+ef,2\fermata \\\\
+ef,,2\fermata \\\\
+ef,2\fermata | %2
+
+r8 f[ f f] \\\\
+r8 f[ f f] \\\\
+r8 f,[ f f] \\\\
+r8 f,,[ f f] \\\\
+r8 f,[ f f] | %3
+
+d2~ \\\\
+d2~ \\\\
+d,2~ \\\\
+d,,2~ \\\\
+d,2~ | %4
+
+d2\fermata \bar "||" \\\\
+d2\fermata \bar "||" \\\\
+d,2\fermata \bar "||" \\\\
+d,,2\fermata \bar "||" \\\\
+d,2\fermata \bar "||" | %5
+
+R2 \\\\
+r8 g'\p[^\markup "[box: mm. 6–10 — Too long!" g g] \\\\
+R2 \\\\
+R2 \\\\
+R2 | %6
+
+R2 \\\\
+ef2~ \\\\
+r8 af'\p[ af af] \\\\
+c2\p~ \\\\
+R2 | %7
+
+r8 ef'\p[ ef ef] \\\\
+ef2~ \\\\
+g'2~ \\\\
+c2~ \\\\
+R2 | %8
+
+c'2~ \\\\
+ef2~ \\\\
+g'2~ \\\\
+c2~ \\\\
+R2 | %9
+
+c'4 r \\\\
+ef8[^\markup "box]" g g g] \\\\
+g'4 r \\\\
+c2 \\\\
+R2 | %10
+
+R2 \\\\
+d2~ \\\\
+r8 af'[ af af] \\\\
+b2~ \\\\
+R2 | %11
+
+r8 f'[ f f] \\\\
+d2 \\\\
+g'2 \\\\
+b2~ \\\\
+R2 | %12
+
+d'2 \\\\
+g'2 \\\\
+d2 \\\\
+b2 \\\\
+R2 | %13
+```
+<!-- lilylet-end -->
 > **Practice It! 1: Motivic Analysis**
 >
 >  This **Practice It!** will guide you through a motivic analysis of the opening of John Williams’s “Duel of the Fates.” To begin, [listen to the opening (0:15–0:26)](https://open.spotify.com/track/1ghlpxVfPbFH2jenrv9vVw?si=3VVyq5hrSsCa5VS1hkG_yg), then start the quiz.

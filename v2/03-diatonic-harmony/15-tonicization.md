@@ -93,6 +93,21 @@ The leading tone of the applied chord is referred to as the secondary leading to
 
 ![Example 6. If the applied chord is proceeding to another seventh chord, the secondary leading tone may resolve downward, instead of upward like a leading tone normally would, into the seventh of the next chord.](../media/2019/05/resolving.png)*Example 6. If the applied chord is proceeding to another seventh chord, the secondary leading tone may resolve downward, instead of upward like a leading tone normally would, into the seventh of the next chord.*
 
+<!-- lilylet-begin: media/2019/05/resolving.png -->
+Lilylet transcription of the example above ([resolving.lyl](../lilylet/images/2019/05/resolving.lyl)):
+
+```lyl.play
+[title "Secondary leading tone resolving down into a seventh: V7/V – V7 – I"]
+[staves "{-}"]
+
+\staff "1" \numericTimeSignature \time 4/4 \key c \major \clef "treble" <c' d fs>2^\markup "secondary leading tone" <b d f> \\
+\staff "2" \clef "bass" d,2 g
+\addlyrics { V7/V V7 } | %1
+\staff "1" <g' c e>1 \\
+\staff "2" c,1 \bar "||"
+\addlyrics { I } | %2
+```
+<!-- lilylet-end -->
 One exception is that when the tonicized chord is itself a seventh chord (as in the progression **D<sup>7</sup>–G<sup>7</sup>–C**), the secondary leading tone may resolve down by semitone into the seventh of the following chord. In the example progression, this would create a nice chromatic line: **F♯–F♮–E** (Example 6).
 
 The video in Example 7 walks through the steps for spelling V<sup>7</sup>/V, vii<sup>o7</sup>/V, and vii<sup>∅7</sup>/V in major and minor keys. Like with the previous video, we recommend pausing to try each exercise on staff paper. The steps are summarized below:

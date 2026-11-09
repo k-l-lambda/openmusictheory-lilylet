@@ -28,6 +28,15 @@ Example 1. Embellishing tones in Maria Szymanowska, March no. 6 from Six Marche
 
 ![Example 2. Common three-note layout of most embellishing tones.](../media/2020/07/Generic_Embellishing_Tone_Layout.png)*Example 2. Common three-note layout of most embellishing tones.*
 
+<!-- lilylet-begin: media/2020/07/Generic_Embellishing_Tone_Layout.png -->
+Lilylet transcription of the example above ([Generic_Embellishing_Tone_Layout.lyl](../lilylet/images/2020/07/Generic_Embellishing_Tone_Layout.lyl)):
+
+```lyl.play
+[title "Common three-note layout of embellishing tones"]
+
+\numericTimeSignature \time 3/4 \key c \major \clef "treble" \stemUp b'4_\markup "consonant with bass" b^\markup "embellishing tone (consonant or dissonant)" b_\markup "consonant with bass" \bar "||" | %1
+```
+<!-- lilylet-end -->
 In nearly all cases, an embellishing tone is the middle note of a three-note gesture in which the first and last notes are consonant with the bass (Example 2). The actual embellishing tone itself may be either consonant or dissonant with the bass. In almost all cases, however, the embellishing tone is a note that doesn’t belong to the underlying chord.
 
 ## Passing tones, neighbor tones: Embellishing tones that move by step

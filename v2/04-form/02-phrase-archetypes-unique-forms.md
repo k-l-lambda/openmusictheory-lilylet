@@ -27,8 +27,144 @@ modified: "2025-01-13"
 
 ![Example 1. A segmentation analysis of a phrase of common length in Schubert, “Du bist die Ruh” (0:21–0:32) .](../media/2019/06/Example_001-e1623944080164.png)*Example 1. A segmentation analysis of a phrase of common length in [Schubert, “Du bist die Ruh” (0:21–0:32)](https://open.spotify.com/track/27K996qPlCcnWSxr3zkDg6).*
 
+<!-- lilylet-begin: media/2019/06/Example_001-e1623944080164.png -->
+Lilylet transcription of the example above ([Example_001-e1623944080164.lyl](../lilylet/images/2019/06/Example_001-e1623944080164.lyl)):
+
+```lyl.play
+[title "Du bist die Ruh, D. 776 (segmentation of a phrase of common length)"]
+[composer "Franz Schubert"]
+[staves "<voice> {pr-pl}"]
+[instrument-voice "Voice"]
+[instrument-pr-pl "Piano"]
+
+\staff "1" \key ef \major \time 3/8 \clef "treble" R4. \\\\
+\staff "1" \clef "treble" \stemUp bf''4.~ \\
+\staff "1" \stemDown ef'8\>[ d16 c d8\!] \\
+\staff "1" \stemDown bf'4. \\
+\staff "2" \clef "treble" \stemUp f16[ af f af f af] \\
+\staff "2" \stemDown bf4. | %1
+
+\staff "1" R4. \\\\
+\staff "1" \stemUp bf''8 s4 \\
+\staff "1" \stemDown <bf' ef>8 g16[ bf g bf] \\
+\staff "1" s4. \\
+\staff "2" \stemUp <ef g>8 r r \clef "bass" \\
+\staff "2" s4. | %2
+
+\staff "1" bf'8^\markup "[mm. 3–4" bf8. bf16
+\addlyrics { Du bist die } \\\\
+\staff "1" g'16\pp[ bf g bf g bf] \\
+\staff "2" \stemDown ef8[ ef8. ef16] | %3
+
+\staff "1" c'4 c8^\markup "]"
+\addlyrics { Ruh, der } \\\\
+\staff "1" g'16[ c g c g c] \\
+\staff "2" \stemDown ef4. | %4
+
+\staff "1" ef'4^\markup "[mm. 5–6" d8
+\addlyrics { Frie -- de } \\\\
+\staff "1" \stemUp ef'4( d8 \\
+\staff "1" \stemDown g'16[ bf g bf af bf] \\
+\staff "2" <g ef'>4( <bf f'>8 | %5
+
+\staff "1" ef'4.^\markup "PAC ]"
+\addlyrics { mild, } \\\\
+\staff "1" \stemUp ef'4.) \\
+\staff "1" \stemDown g'16[ bf g bf g bf] \\
+\staff "2" <g ef'>4.) | %6
+```
+<!-- lilylet-end -->
 ![Example 2. A segmentation analysis of a phrase of unique length in Fanny Hensel, “Abendbild” (0:00–0:40).](../media/2019/06/Example_002-e1623944015483.png)*Example 2. A segmentation analysis of a phrase of unique length in [Fanny Hensel, “Abendbild” (0:00–0:40).](https://open.spotify.com/track/6ZHUs1Lg0A1LjIMRZIEepl)*
 
+<!-- lilylet-begin: media/2019/06/Example_002-e1623944015483.png -->
+Lilylet transcription of the example above ([Example_002-e1623944015483.lyl](../lilylet/images/2019/06/Example_002-e1623944015483.lyl)):
+
+```lyl.play
+[title "Abendbild (segmentation of a phrase of unique length)"]
+[composer "Fanny Hensel"]
+[staves "<voice> {pr-pl}"]
+[instrument-voice "Singstimme" "Sgst."]
+[instrument-pr-pl "Pianoforte" "Pfte."]
+
+\staff "1" \key ef \major \time 6/8 \tempo "Andante con moto. (Allegretto.)" \clef "treble" R2. \\\\
+\staff "1" \clef "treble" r8 <g bf ef>[ <bf ef g>] <ef g bf>[ <bf ef g> <g bf ef>] \\
+\staff "2" \clef "bass" <ef,, ef'>4. r4 r8 | %1
+
+\staff "1" R2. \\\\
+\staff "1" r8 <f, af d>[ <af d f>] <d f bf>[ <af d f> <f af d>] \\
+\staff "2" <ef,, ef'>4. r4 r8 | %2
+
+\staff "1" bf'8.^\markup "phrase (13 mm., mm. 3–15): b.i. (mm. 3–5)" a16 bf8 ef4 bf8
+\addlyrics { Fried -- li -- cher A -- bend } \\\\
+\staff "1" r8 <g bf ef>[ <bf ef g>] <ef g bf>[ <bf ef g> <g bf ef>] \\
+\staff "2" <ef,, ef'>4. r4 r8 | %3
+
+\staff "1" g'4 g8 f4 ef8
+\addlyrics { senkt sich auf's Ge -- } \\\\
+\staff "1" r8 <bf df ef>[ <df ef g>] <ef g df'>[ <df ef g> <g, df' ef>] \\
+\staff "2" <ef,, ef'>4. r4 r8 | %4
+
+\staff "1" bf'4. af4 r8
+\addlyrics { fil -- de; } \\\\
+\staff "1" r8 <c ef af>[ <ef af c>] <af c ef>[ <ef af c> <c ef af>] \\
+\staff "2" <ef,, ef'>4. r4 r8 | %5
+
+\staff "1" f'4^\markup "c.i. 1 * (mm. 6–8)" af,8 af8. g16 af8
+\addlyrics { sanft ent -- schlum -- mert Na -- } \\\\
+\staff "1" r8 <bf d af'>[ <d af' bf>] <af' bf f'>[ <d, af' bf> <bf d af'>] \\
+\staff "2" <ef,, ef'>4. r4 r8 | %6
+
+\staff "1" bf'4 bf8 a4 bf8
+\addlyrics { tur, um ih -- re } \\\\
+\staff "1" r8 <bf ef g>[ <ef g bf>] r <af, f'>[ <f' bf>] \\
+\staff "2" <ef,, ef'>4 r8 <d d'>4 r8 | %7
+
+\staff "1" ef'4. af,4 r8
+\addlyrics { Zü -- ge } \\\\
+\staff "1" r8 <bf ef>[ <ef bf'>] <af ef'>[ <ef af> <af, ef'>] \\
+\staff "2" <c,, c'>4. r4 r8 | %8
+
+\staff "1" g'4^\markup "c.i. 2 (mm. 9–11)" f8 e8. g16 bf8
+\addlyrics { schwebt der Däm -- me -- rung } \\\\
+\staff "1" r8 <g df' e>[ <df' e g>] <e g df'>[ <df e g> <g, df' e>] \\
+\staff "2" <bf,, bf'>4. r4 r8 | %9
+
+\staff "1" df'4.( c8) af f
+\addlyrics { zar -- te Ver -- } \\\\
+\staff "1" r8 <g df' e>[ <df' e bf'>] <af c f>[ <c f af> <f af c>] \\
+\staff "2" <af,, af'>4. r4 r8 | %10
+
+\staff "1" ef4 d8 r d' bf
+\addlyrics { hül -- lung, und sie } \\\\
+\staff "1" r8 <f, bf d>[ <af c f>] <d f bf>[ <bf d f> <f bf d>] \\
+\staff "2" <af,, af'>4. r4 r8 | %11
+
+\staff "1" ef'4.^\markup "cad. (mm. 12–15)" f,4 f8
+\addlyrics { lä -- chelt, die } \\\\
+\staff "1" r8 <bf ef>[ <ef bf'>] r <c ef f>[ <ef f c'>] \\
+\staff "2" <g,, g'>4 r8 <af af'>4 r8 | %12
+
+\staff "1" gf'4. a4 c8
+\addlyrics { Hol -- de, sie } \\\\
+\staff "1" r8 <c ef gf>[ <ef gf c>] r <a, ef' gf>[ <ef' gf a>] \\
+\staff "2" <a,, a'>4 r8 <c c'>4 r8 | %13
+
+\staff "1" c'4 bf8 r4 d,8
+\addlyrics { lä -- chelt, die } \\\\
+\staff "1" r8 <g bf ef>[ <bf ef g>] <af d af'>4 r8 \\
+\staff "2" <bf,, bf'>4 r8 <bf' f'>4 r8 | %14
+
+\staff "1" f4^\markup "PAC" ef8 r4 r8
+\addlyrics { Hol -- de; } \\\\
+\staff "1" r8 <g bf ef>[ <bf ef g>] <ef g bf>[ <bf ef g> <g bf ef>] \\
+\staff "2" <ef,, ef'>4. r4 r8 | %15
+
+\staff "1" bf'8.[ c16] bf8 bf[( c]) d
+\addlyrics { lä -- chelt, ein schlum -- mernd } \\\\
+\staff "1" bf'8.[ c16 bf8] bf[ c d] \\
+\staff "2" <d,, d'>8[ <f' bf> <bf d>] <d g>[ <bf d> <f bf>] | %16
+```
+<!-- lilylet-end -->
 A phrase is a relatively complete thought that exhibits trajectory toward a goal, arriving at a sense of closure. In tonal classical music, the goal of a phrase is almost always one of the kinds of cadences described in the [Introduction to Harmony, Cadences, and Phrase Endings chapter](../03-diatonic-harmony/01-intro-to-harmony.md): perfect authentic cadences (PACs), imperfect authentic cadences (IACs), and half cadences (HCs).[^1]
 
 A phrase can be any length, but phrases of 4, 8, or 16 measures are particularly common. Example 1 shows a segmentation analysis for a phrase of 4 measures (a common length), while **Example 2** shows a segmentation analysis for a phrase of 13 measures (an unusual length).
@@ -116,8 +252,128 @@ Continuations may therefore take one of two typical forms: with fragmentation (a
 
 ![Example 9. A sentence without fragmentation in Beethoven, Polonaise for Military Band (0:00–0:06) .](../media/2019/06/Example_008-e1623945581474.png)*Example 9. A sentence without fragmentation in [Beethoven, *Polonaise for Military Band* (0:00–0:06)](https://open.spotify.com/track/2iMZvEsrceSmaeE5aJPyW4).*
 
+<!-- lilylet-begin: media/2019/06/Example_008-e1623945581474.png -->
+Lilylet transcription of the example above ([Example_008-e1623945581474.lyl](../lilylet/images/2019/06/Example_008-e1623945581474.lyl)):
+
+```lyl.play
+[title "Polonaise for Military Band in D major, WoO 21 (sentence)"]
+[composer "Ludwig van Beethoven"]
+[staves "<picc-ob-cl-hn-tr-gc-tb-tri-pi-fg-cf>"]
+[instrument-picc "Flauto piccolo" "Fl. picc."]
+[instrument-ob "Oboi" "Ob."]
+[instrument-cl "Clarinetti in A" "Cl."]
+[instrument-hn "Corni in D" "Cor."]
+[instrument-tr "Tromba in D" "Tr."]
+[instrument-gc "Tamburo grande" "Tamb. gr."]
+[instrument-tb "Tamburo militare" "Tamb. mil."]
+[instrument-tri "Triangolo" "Tri."]
+[instrument-pi "Cinelli" "Cin."]
+[instrument-fg "Fagotti" "Fag."]
+[instrument-cf "Contrafagotto" "Cfag."]
+
+\key d \major \time 3/4 \partial 8 \clef "treble" a''8\f^\markup "b.i."^\markup "presentation"^\markup "sentence" \bar ".|:" \\\\
+\partial 8 \clef "treble" <fs' a>8\f \\\\
+\partial 8 \clef "treble" <a' c>8\f \\\\
+\partial 8 \clef "treble" <e' g>8\f \\\\
+\partial 8 \clef "treble" g'8\f \\\\
+\partial 8 \clef "treble" r8 \\\\
+\partial 8 \clef "treble" r8 \\\\
+\partial 8 \clef "treble" r8 \\\\
+\partial 8 \clef "treble" r8 \\\\
+\partial 8 \clef "bass" <fs, a>8\f \\\\
+\partial 8 \clef "bass" r8 | %1
+
+a''8[ a] a4. d8^\markup "b.i." \\\\
+<fs' a>8[ <fs a>] <fs a>4. <fs d'>8 \\\\
+<a' c>8[ <a c>] <a c>4. <a f'>8 \\\\
+<c' e>8[ <e g> <c e> <e g> <c e> <e g>] \\\\
+g'8[ g] g4. g8 \\\\
+d4\f r r \\\\
+r4 d\f d \\\\
+d'8\f[ d d d d d] \\\\
+d'4\f r r \\\\
+<d, d'>8 r <d d'> r <d d'> r \\\\
+d,8\f r d r d r | %2
+
+cs''8[ cs] cs4. cs8^\markup "continuation" \\\\
+<e' cs'>8[ <e cs'>] <e cs'>4. <e cs'>8 \\\\
+<g' e'>8[ <g e'>] <g e'>4. <g e'>8 \\\\
+<g' d'>8[ <d' f> <g, d'> <d' f> <g, d'> <d' f>] \\\\
+g'8[ g] g4. g8 \\\\
+d4 r r \\\\
+r4 d d \\\\
+d'8[ d d d d d] \\\\
+d'4 r r \\\\
+<a, a'>8 r <a a'> r <a a'> r \\\\
+a,8 r a r a r | %3
+
+d''8([ cs b a g fs)] \\\\
+<fs' d'>8([ <a cs> <g b> <fs a> <e g> <d fs>)] \\\\
+<a' f'>8([ <c e> <bf d> <a c> <g e'> <a f'>)] \\\\
+<c' e>4 r8 <e g>8[ <d f> <c e>] \\\\
+c'4 r8 c16[ c] c8[ c,] \\\\
+d4 d d \\\\
+r4 d d8[ d] \\\\
+d'8[ d d d d d] \\\\
+d'4 d d \\\\
+<d, d'>8([ <a' cs> <g b> <fs a> <e g> <d fs>)] \\\\
+d,4 d8[ d a' d,] | %4
+
+e'8^\markup "HC" a4 a8 s4 \\\\
+<cs' e>8 <a a'>4 <a a'>8 s4 \\\\
+<e' g>8[ <e g>16 <f a>] <g bf>8[ <f a>] s4 \\\\
+<g' d'>8[ <g d'>16 <c e>] <d f>8[ <c e>] s4 \\\\
+g'8 r g r s4 \\\\
+d4 d s4 \\\\
+d8[ d] d[ d] s4 \\\\
+d'8 r d r s4 \\\\
+d'4 d s4 \\\\
+<a, e'>8[ <a e'>16 <d fs>] <e g>8[ <d fs>] s4 \\\\
+a8 r a, r s4 | %5
+```
+<!-- lilylet-end -->
 ![Example 10. A sentence whose continuation doesn’t exhibit fragmentation in Beethoven, Piano Sonata no. 4, Op. 7, II (0:00–0:45) .](../media/2019/06/Example_009-e1623945687930.png)*Example 10. A sentence whose continuation doesn’t exhibit fragmentation in [Beethoven, Piano Sonata no. 4, Op. 7, II (0:00–0:45)](https://open.spotify.com/track/35XvZd3hlRtc8iN8HQymUs).*
 
+<!-- lilylet-begin: media/2019/06/Example_009-e1623945687930.png -->
+Lilylet transcription of the example above ([Example_009-e1623945687930.lyl](../lilylet/images/2019/06/Example_009-e1623945687930.lyl)):
+
+```lyl.play
+[title "Piano Sonata No. 4 in E-flat major, Op. 7, II (sentence)"]
+[composer "Ludwig van Beethoven"]
+[staves "{-}"]
+
+\staff "1" \key c \major \time 3/4 \tempo "Largo, con gran espressione" \clef "treble" \stemUp <g c e>4(^\markup "b.i."^\markup "presentation"^\markup "sentence" <g d' f>8) r8 r4 \\
+\staff "2" \clef "bass" <c,, g' c>4(\p <b g' b>8) r8 r4 | %1
+
+\staff "1" \stemUp g'8.([ d16] e8) r8 r4 \clef "bass" \\
+\staff "1" \stemDown g4 g8 s4. \\
+\staff "2" <b,, g' b>4( <c g' c>8) r8 r4 | %2
+
+\staff "1" \stemDown <e, g c e>4(^\markup "b.i." <d a' d>8) r8 r4 \\
+\staff "2" <c,, c'>4( <fs, fs'>8) r8 r4 | %3
+
+\staff "1" \stemUp d8.[ a16] c4.( b8) \\
+\staff "1" \stemDown d,4 <d g>2\sf \\
+\staff "2" <fs,,, fs'>4( <f f'>2) | %4
+
+\staff "1" \stemDown <e, g c>4(^\markup "u."^\markup "continuation" <f g b d> <g c e> \\
+\staff "2" e,,4 <d d'> <c c'> | %5
+
+\staff "1" \stemUp <g e'>4 <f d'> <e a c>-.) \\
+\staff "1" \stemDown a2 s4 \\
+\staff "2" <f,,, f'>2. | %6
+
+\staff "1" \stemUp b2~^\markup "cad." b8[ b] \\
+\staff "1" \stemUp d,2 s4 \\
+\staff "1" \stemDown a4 g8[ af <d, g> <d f>] \\
+\staff "2" <g,, g'>2 <g g'>4 | %7
+
+\staff "1" \partial 4. \stemUp <c e>4(^\markup "PAC" c8) \\
+\staff "1" \partial 4. \stemDown f,4( e8) \\
+\staff "2" \partial 4. \stemUp g,4( b8-.) \\
+\staff "2" \partial 4. \stemDown c,,4. | %8
+```
+<!-- lilylet-end -->
 Continuations may therefore take one of two typical forms:
 
 - Example 6 above showed a typical continuation with fragmentation.
@@ -144,6 +400,54 @@ To be clear, many sentences do not have all of these traits. At a minimum, to be
 
 ![Example 11. A period in Mozart’s Clarinet Concerto, III (0:00–0:11) .](../media/2019/06/Example_010-e1623945819436.png)*Example 11. A period in [Mozart’s Clarinet Concerto, III (0:00–0:11)](https://open.spotify.com/track/5johgHZOu21C42oDzKBBS8).*
 
+<!-- lilylet-begin: media/2019/06/Example_010-e1623945819436.png -->
+Lilylet transcription of the example above ([Example_010-e1623945819436.lyl](../lilylet/images/2019/06/Example_010-e1623945819436.lyl)):
+
+```lyl.play
+[title "Clarinet Concerto in A major, K. 622, III (period)"]
+[composer "Wolfgang Amadeus Mozart"]
+[staves "<cl> {vn-bs}"]
+[instrument-cl "Clarinet in A" "Cl."]
+[instrument-vn-bs "Strings" "Str."]
+
+\key c \major \time 6/8 \partial 8 \tempo "Allegro" \clef "treble" e'16(\p^\markup "basic idea"^\markup "antecedent"^\markup "Solo" f) \\\\
+\staff "1" \partial 8 \clef "treble" r8 \\
+\staff "2" \partial 8 \clef "bass" r8 | %1
+
+g''8-. g-. g-. a16( g fs g a g) \\\\
+\staff "1" <a' cs>8_\markup "Viol."\p[ r <a cs>] <a cs>[ <a cs> <a cs>] \\
+\staff "2" R2. | %2
+
+f'4.( e8) r c'16(^\markup "contrasting idea" b) \\\\
+\staff "1" <d e gs b>4.( <a' cs>8) r r \\
+\staff "2" R2. | %3
+
+a''8-. a-. a16( g) f8-. f16( e d c) \\\\
+\staff "1" <d a'>8-.[ <d a'>-.] r <fs a>-.[ <fs a>-.] r \\
+\staff "2" R2. | %4
+
+b'8([ c cs)] d^\markup "HC" r e16(^\markup "basic idea"^\markup "consequent" f) \\\\
+\staff "1" e8-.([ <e fs>-. <e g>-.] <e gs>) r a16( b) \\
+\staff "2" R2. | %5
+
+g''8-. g-. g-. a16( g fs g a g) \\\\
+\staff "1" <a' cs>8[ r <a cs>] <a cs>[ <a cs> <a cs>] \\
+\staff "2" R2. | %6
+
+a''4.(^\markup "(basic idea)"^\markup "(consequent)" c8) r c16(^\markup "contrasting idea" b) \\\\
+\staff "1" \stemUp <b' d>4.( <fs a cs>8) r r \\
+\staff "1" \stemDown e4( es8) s4. \\
+\staff "2" R2. | %7
+
+a''16([ g f e d c)] b([ c d e f b,)] \\\\
+\staff "1" <fs a>8 r r <b, d> r r \\
+\staff "2" d8 r r e,8 r r | %8
+
+c'4(^\markup "PAC" e8) c4 s8 \\\\
+\staff "1" cs4( e8) cs4 s8 \\
+\staff "2" a8[ a a] a r s | %9
+```
+<!-- lilylet-end -->
 In addition to the sentence, another common phrase-level form is the period (Example 11). Unlike the sentence, which is a single phrase, the period comprises two phrases, each consisting of a basic idea (b.i.) followed by a contrasting idea (c.i.) (see [below](#more-detail-the-antecedent) on how the treatment of these ideas differs in each phrase). The first phrase, called the antecedent, is often four measures long, and it ends with a weaker cadence, most often a half cadence (HC). The second phrase is called the consequent. It ends with a stronger cadence than the antecedent, most often a perfect authentic cadence (PAC). It may be the same length as or longer than the antecedent; it’s rare for it to be shorter.
 
 ### More Detail: The Antecedent
@@ -168,6 +472,85 @@ Another relatively common phrase-level form—one that sometimes gets confused w
 
 [![Example 12. A repeated phrase in Schubert’s “Du bist die Ruh” (0:22–0:44) .](../media/2019/06/Example_011-150x150.png)](../media/2019/06/Example_011-e1623945999625.png)*Example 12. A repeated phrase in [Schubert’s “Du bist die Ruh” (0:22–0:44)](https://open.spotify.com/track/27K996qPlCcnWSxr3zkDg6).*
 
+<!-- lilylet-begin: media/2019/06/Example_011-150x150.png -->
+Lilylet transcription of the example above ([Example_011-150x150.lyl](../lilylet/images/2019/06/Example_011-150x150.lyl)):
+
+```lyl.play
+[title "Du bist die Ruh, D. 776 (a repeated phrase)"]
+[composer "Franz Schubert"]
+[staves "<voice> {pr-pl}"]
+[instrument-voice "Voice"]
+[instrument-pr-pl "Piano"]
+
+\staff "1" \key ef \major \time 3/8 \clef "treble" R4. \\\\
+\staff "1" \clef "treble" \stemUp bf''4.~ \\
+\staff "1" \stemDown ef'8\>[ d16 c d8\!] \\
+\staff "1" \stemDown bf'4. \\
+\staff "2" \clef "treble" \stemUp f16[ af f af f af] \\
+\staff "2" \stemDown bf4. | %1
+
+\staff "1" R4. \\\\
+\staff "1" \stemUp bf''8 s4 \\
+\staff "1" \stemDown <bf' ef>8 g16[ bf g bf] \\
+\staff "1" s4. \\
+\staff "2" \stemUp <ef g>8 r r \clef "bass" \\
+\staff "2" s4. | %2
+
+\staff "1" bf'8^\markup "repeated phrase (8): phrase (4): b.i. (2)" bf8. bf16
+\addlyrics { Du bist die } \\\\
+\staff "1" g'16\pp[ bf g bf g bf] \\
+\staff "2" \stemDown ef8[ ef8. ef16] | %3
+
+\staff "1" c'4 c8
+\addlyrics { Ruh, der } \\\\
+\staff "1" g'16[ c g c g c] \\
+\staff "2" \stemDown ef4. | %4
+
+\staff "1" ef'4^\markup "c.i. (2)" d8
+\addlyrics { Frie -- de } \\\\
+\staff "1" \stemUp ef'4( d8 \\
+\staff "1" \stemDown g'16[ bf g bf af bf] \\
+\staff "2" <g ef'>4( <bf f'>8 | %5
+
+\staff "1" ef'4.^\markup "PAC"
+\addlyrics { mild, } \\\\
+\staff "1" \stemUp ef'4.) \\
+\staff "1" \stemDown g'16[ bf g bf g bf] \\
+\staff "2" <g ef'>4.) | %6
+
+\staff "1" bf'8^\markup "repetition of phrase (4): b.i. (2)" bf8. bf16
+\addlyrics { die Sehn -- sucht } \\\\
+\staff "1" g'16[ bf g bf g bf] \\
+\staff "2" \stemDown ef8[ ef8. ef16] | %7
+
+\staff "1" c'4 c8
+\addlyrics { du, und } \\\\
+\staff "1" g'16[ c g c g c] \\
+\staff "2" \stemDown ef4. | %8
+
+\staff "1" ef'4^\markup "c.i. (2)" d8
+\addlyrics { was sie } \\\\
+\staff "1" \stemUp ef'4( d8 \\
+\staff "1" \stemDown g'16[ bf g bf af bf] \\
+\staff "2" <g ef'>4( <bf f'>8 | %9
+
+\staff "1" ef'4.^\markup "PAC"
+\addlyrics { stillt. } \\\\
+\staff "1" \stemUp ef'4.) \\
+\staff "1" \stemDown g'16[ bf g bf g bf] \\
+\staff "2" <g ef'>4.) | %10
+
+\staff "1" c'8 c8. c16
+\addlyrics { Ich wei -- he } \\\\
+\staff "1" \stemUp <gf' a>16[ c <gf a> c <gf a> c] \\
+\staff "2" \stemDown ef8[ ef8. ef16]( | %11
+
+\staff "1" c'4( bf8)
+\addlyrics { dir _ } \\\\
+\staff "1" \stemUp f16[ c' f, c' f, bf] \\
+\staff "2" \stemDown d4.) | %12
+```
+<!-- lilylet-end -->
 A phrase between two repeat signs would typically not be considered a repeated phrase—this term refers to a phrase with a written-out repeat that adds additional measures to the piece. The repetition is often varied (for example, the melody may be embellished during the repeat), which explains why a composer may choose to write out the phrase a second time.
 
 In a repeated phrase, the first phrase can end with any kind of cadence, and the second phrase must therefore end with the same one. This distinguishes a repeated phrase from a period, in which the consequent ends with a stronger cadence than the antecedent.
@@ -176,10 +559,156 @@ In a repeated phrase, the first phrase can end with any kind of cadence, and the
 
 [![Example 13. A compound period in Christian Petzold’s Minuet in G Major (0:00–0:25).](../media/2019/06/Example_012-150x150.png)](../media/2019/06/Example_012-e1623946034206.png)*Example 13. A compound period in [Christian Petzold’s Minuet in G Major (0:00–0:25).](https://open.spotify.com/track/31OT71sADyqUXlW7ZKLn8R)*
 
+<!-- lilylet-begin: media/2019/06/Example_012-150x150.png -->
+Lilylet transcription of the example above ([Example_012-150x150.lyl](../lilylet/images/2019/06/Example_012-150x150.lyl)):
+
+```lyl.play
+[title "Minuet in G major (compound period)"]
+[composer "Christian Petzold"]
+[staves "{-}"]
+
+\staff "1" \key g \major \time 3/4 \clef "treble" d'4^\markup "b.i."^\markup "presentation"^\markup "antecedent" g,8[ a b c] \\
+\staff "2" \clef "bass" <g b d>2 a4 | %1
+
+\staff "1" d'4 g, g \\
+\staff "2" b2. | %2
+
+\staff "1" e'4^\markup "b.i." c8\mordent[ d e fs] \\
+\staff "2" c2. | %3
+
+\staff "1" g''4 g, g \\
+\staff "2" b2. | %4
+
+\staff "1" c'4^\markup "f."^\markup "continuation" d8[ c b a] \\
+\staff "2" a2. | %5
+
+\staff "1" b'4^\markup "f." c8[ b a g] \\
+\staff "2" g2. | %6
+
+\staff "1" fs4^\markup "cad." g8[ a b g] \\
+\staff "2" d4 b g | %7
+
+\staff "1" \grace b'8( a2.)^\markup "HC" \\
+\staff "2" d4 d,8[ c' b a] | %8
+
+\staff "1" d'4^\markup "b.i."^\markup "presentation"^\markup "consequent" g,8[ a b c] \\
+\staff "2" b2 a4 | %9
+
+\staff "1" d'4 g, g \\
+\staff "2" g4 b g | %10
+
+\staff "1" e'4^\markup "b.i."^\markup "(presentation)" c8\mordent[ d e fs] \\
+\staff "2" c2. | %11
+
+\staff "1" g''4 g,-. g \\
+\staff "2" b4 c8[ b a g] | %12
+
+\staff "1" c'4\mordent^\markup "f."^\markup "continuation" d8[ c b a] \\
+\staff "2" a2 fs4 | %13
+
+\staff "1" b'4^\markup "f." c8[ b a g] \\
+\staff "2" g2 b4 | %14
+
+\staff "1" a'4^\markup "cad." b8[ a g fs] \\
+\staff "2" c4 d d, | %15
+
+\staff "1" g'2.^\markup "PAC" \\
+\staff "2" b2 g,4 \bar ":|." | %16
+```
+<!-- lilylet-end -->
 Since the sentence is a single phrase, and since the period is composed of two phrases, it’s possible for a period to be made of two sentences, as in Example 13. When one form contains another kind of form in this way, we call the result a compound form.
 
 ![Example 14. A unique phrase-level form in Fanny Hensel’s “Abendbild” (0:00–0:40) .](../media/2019/06/Example_013-e1623946067355.png)*Example 14. A unique phrase-level form in [Fanny Hensel’s “Abendbild” (0:00–0:40)](https://open.spotify.com/track/6ZHUs1Lg0A1LjIMRZIEepl).*
 
+<!-- lilylet-begin: media/2019/06/Example_013-e1623946067355.png -->
+Lilylet transcription of the example above ([Example_013-e1623946067355.lyl](../lilylet/images/2019/06/Example_013-e1623946067355.lyl)):
+
+```lyl.play
+[title "Abendbild (a unique phrase-level form)"]
+[composer "Fanny Hensel"]
+[staves "<voice> {pr-pl}"]
+[instrument-voice "Singstimme" "Sgst."]
+[instrument-pr-pl "Pianoforte" "Pfte."]
+
+\staff "1" \key ef \major \time 6/8 \tempo "Andante con moto. (Allegretto.)" \clef "treble" R2. \\\\
+\staff "1" \clef "treble" r8 <g bf ef>[ <bf ef g>] <ef g bf>[ <bf ef g> <g bf ef>] \\
+\staff "2" \clef "bass" <ef,, ef'>4. r4 r8 | %1
+
+\staff "1" R2. \\\\
+\staff "1" r8 <f, af d>[ <af d f>] <d f bf>[ <af d f> <f af d>] \\
+\staff "2" <ef,, ef'>4. r4 r8 | %2
+
+\staff "1" bf'8.^\markup "phrase (13 mm., mm. 3–15): b.i. (mm. 3–5)" a16 bf8 ef4 bf8
+\addlyrics { Fried -- li -- cher A -- bend } \\\\
+\staff "1" r8 <g bf ef>[ <bf ef g>] <ef g bf>[ <bf ef g> <g bf ef>] \\
+\staff "2" <ef,, ef'>4. r4 r8 | %3
+
+\staff "1" g'4 g8 f4 ef8
+\addlyrics { senkt sich auf's Ge -- } \\\\
+\staff "1" r8 <bf df ef>[ <df ef g>] <ef g df'>[ <df ef g> <g, df' ef>] \\
+\staff "2" <ef,, ef'>4. r4 r8 | %4
+
+\staff "1" bf'4. af4 r8
+\addlyrics { fil -- de; } \\\\
+\staff "1" r8 <c ef af>[ <ef af c>] <af c ef>[ <ef af c> <c ef af>] \\
+\staff "2" <ef,, ef'>4. r4 r8 | %5
+
+\staff "1" f'4^\markup "c.i. 1 * (mm. 6–8)" af,8 af8. g16 af8
+\addlyrics { sanft ent -- schlum -- mert Na -- } \\\\
+\staff "1" r8 <bf d af'>[ <d af' bf>] <af' bf f'>[ <d, af' bf> <bf d af'>] \\
+\staff "2" <ef,, ef'>4. r4 r8 | %6
+
+\staff "1" bf'4 bf8 a4 bf8
+\addlyrics { tur, um ih -- re } \\\\
+\staff "1" r8 <bf ef g>[ <ef g bf>] r <af, f'>[ <f' bf>] \\
+\staff "2" <ef,, ef'>4 r8 <d d'>4 r8 | %7
+
+\staff "1" ef'4. af,4 r8
+\addlyrics { Zü -- ge } \\\\
+\staff "1" r8 <bf ef>[ <ef bf'>] <af ef'>[ <ef af> <af, ef'>] \\
+\staff "2" <c,, c'>4. r4 r8 | %8
+
+\staff "1" g'4^\markup "c.i. 2 (mm. 9–11)" f8 e8. g16 bf8
+\addlyrics { schwebt der Däm -- me -- rung } \\\\
+\staff "1" r8 <g df' e>[ <df' e g>] <e g df'>[ <df e g> <g, df' e>] \\
+\staff "2" <bf,, bf'>4. r4 r8 | %9
+
+\staff "1" df'4.( c8) af f
+\addlyrics { zar -- te Ver -- } \\\\
+\staff "1" r8 <g df' e>[ <df' e bf'>] <af c f>[ <c f af> <f af c>] \\
+\staff "2" <af,, af'>4. r4 r8 | %10
+
+\staff "1" ef4 d8 r d' bf
+\addlyrics { hül -- lung, und sie } \\\\
+\staff "1" r8 <f, bf d>[ <af c f>] <d f bf>[ <bf d f> <f bf d>] \\
+\staff "2" <af,, af'>4. r4 r8 | %11
+
+\staff "1" ef'4.^\markup "cad. (mm. 12–15)" f,4 f8
+\addlyrics { lä -- chelt, die } \\\\
+\staff "1" r8 <bf ef>[ <ef bf'>] r <c ef f>[ <ef f c'>] \\
+\staff "2" <g,, g'>4 r8 <af af'>4 r8 | %12
+
+\staff "1" gf'4. a4 c8
+\addlyrics { Hol -- de, sie } \\\\
+\staff "1" r8 <c ef gf>[ <ef gf c>] r <a, ef' gf>[ <ef' gf a>] \\
+\staff "2" <a,, a'>4 r8 <c c'>4 r8 | %13
+
+\staff "1" c'4 bf8 r4 d,8
+\addlyrics { lä -- chelt, die } \\\\
+\staff "1" r8 <g bf ef>[ <bf ef g>] <af d af'>4 r8 \\
+\staff "2" <bf,, bf'>4 r8 <bf' f'>4 r8 | %14
+
+\staff "1" f4^\markup "PAC" ef8 r4 r8
+\addlyrics { Hol -- de; } \\\\
+\staff "1" r8 <g bf ef>[ <bf ef g>] <ef g bf>[ <bf ef g> <g bf ef>] \\
+\staff "2" <ef,, ef'>4. r4 r8 | %15
+
+\staff "1" bf'8.[ c16] bf8 bf[( c]) d
+\addlyrics { lä -- chelt, ein schlum -- mernd } \\\\
+\staff "1" bf'8.[ c16 bf8] bf[ c d] \\
+\staff "2" <d,, d'>8[ <f' bf> <bf d>] <d g>[ <bf d> <f bf>] | %16
+```
+<!-- lilylet-end -->
 How is Example 13 like a period? The first phrase (the antecedent) ends with a half cadence, and the second phrase (the consequent) ends with a stronger cadence: a perfect authentic cadence. This weak-to-strong cadence pattern makes this example retain that sense of “question and answer” or “incomplete thought to completed thought” that is so characteristic of the period.
 
 How does Example 13 use sentences? The antecedent and the consequent are each a sentence: in each phrase, the first four measures are the presentation and the last four measure are the continuation.

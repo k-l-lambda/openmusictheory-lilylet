@@ -32,10 +32,108 @@ In the late 19<sup>th</sup> century, composers often used triadic progressions t
 
 ![Example 1. Brahms, Concerto for Violin and Cello, I, mm. 268–79 (10:22) .](../media/2019/07/brahms-concerto-for-vln-vc-268-79.png)*Example 1. Brahms, Concerto for Violin and Cello, I, mm. 268–79 [(10:22)](https://open.spotify.com/track/3m0nPszSygkCSHcuHthkK6).*
 
+<!-- lilylet-begin: media/2019/07/brahms-concerto-for-vln-vc-268-79.png -->
+Lilylet transcription of the example above ([brahms-concerto-for-vln-vc-268-79.lyl](../lilylet/images/2019/07/brahms-concerto-for-vln-vc-268-79.lyl)):
+
+```lyl.play
+[title "Double Concerto, Op. 102, I, mm. 268-278"]
+[composer "Johannes Brahms"]
+[staves "<vn> <vc> {pr-pl}"]
+[instrument-vn "Violin" "Vl."]
+[instrument-vc "Violoncello" "Vc."]
+[instrument-pr-pl "Piano"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "treble" R1 \\\\
+\clef "bass" R1 \\\\
+\staff "1" \clef "treble" <f df'>4 bf-. <bf, g'>-. ef-. \\
+\staff "2" \clef "bass" \tuplet 3/2 { <bf, bf'>4_. <c c'>_. <df df'>_. } \tuplet 3/2 { <ef, ef'>_. <f f'>_. <g g'>_. } | %268
+
+R1 \\\\
+c,8(\fp c4 c8) ef( ef4 ef8) \\\\
+\staff "1" \clef "bass" <ef, af c>1_\markup "fpp"( \\
+\staff "2" <af,, af'>1( | %269
+
+R1 \\\\
+af8( af4 af8) b( b4 b8) \clef "tenor" \\\\
+\staff "1" <ds, gs b>1) \\
+\staff "2" <gs,, gs'>1) | %270
+
+R1 \\\\
+e8( e4 e8) gs( gs4 gs8) \clef "treble" \\\\
+\staff "1" <e, gs b>1( \\
+\staff "2" <e,,, e'>1~ | %271
+
+R1 \\\\
+b'8( b4 b8) e( e4 e8) \\\\
+\staff "1" <g b e>1) \\
+\staff "2" <e,,, e'>1 | %272
+
+c'8(\p c4 c8) e( e4 e8) \\\\
+g''1~ \\\\
+\staff "1" <g c e>1( \\
+\staff "2" c,,1~ | %273
+
+c'8( c4 c8) ef( ef4 ef8) \\\\
+g''2 ef~ \\\\
+\staff "1" <g c ef>1) \\
+\staff "2" c,,1 | %274
+
+af''8( af4 af8) c( c4 c8) \\\\
+ef'1~ \\\\
+\staff "1" <af c ef>1 \clef "treble" \\
+\staff "2" <af,, af'>1( | %275
+
+ds''8( ds4 ds8) \ottava #1 gs( gs4 gs8) \\\\
+ef'2 b \\\\
+\staff "1" <gs' b ds>1 \\
+\staff "2" <gs,, gs'>1) | %276
+
+b'''8(\< b4 b8) a(\> a4 a8)\! \\\\
+g'!2(\< d'4.)\> cs8(\! \\\\
+\staff "1" \stemUp g'2(_\pp a) \\
+\staff "1" \stemDown <b d>1 \\
+\staff "2" \repeat tremolo 8 { e,,,32 e' } \repeat tremolo 8 { e,32 e' } | %277
+
+c'''2(\< gs4.)\> g8\!_\markup "dim." \\\\
+d'8[\< e f] cs d[\> e fs]\! cs)_\markup "dim." \\\\
+\staff "1" <d b'!>4. <a'' cs>8 <b d>8[\< <cs e>\> <d fs>]\! r8 \\
+\staff "2" <e,,, e'>2.. <e'' gs d'>8 | %278
+```
+<!-- lilylet-end -->
 A reduction of the chord progression in the excerpt above can be found in Example 2. The passage connects two A♭ major triads; however, the chords in between those triads do not belong to A♭ major in any useful way, nor do they follow any of the conventions of functional harmony.
 
 ![Example 2. Brahms, Concerto for Violin and Cello, I, mm. 270–76, reduction.](../media/2019/07/brahms_vc_vln_concerto_reduction.png)*Example 2. Brahms, Concerto for Violin and Cello, I, mm. 270–76, reduction.*
 
+<!-- lilylet-begin: media/2019/07/brahms_vc_vln_concerto_reduction.png -->
+Lilylet transcription of the example above ([brahms_vc_vln_concerto_reduction.lyl](../lilylet/images/2019/07/brahms_vc_vln_concerto_reduction.lyl)):
+
+```lyl.play
+[title "Concerto for Violin and Cello, I, mm. 270–76, reduction"]
+[composer "Johannes Brahms"]
+[staves "{-}"]
+
+\staff "1" \time 4/4 \key c \major \clef "treble" <af' c ef>1 \\
+\staff "2" \clef "bass" af1 | %1
+
+\staff "1" <gs' b ds>1 \\
+\staff "2" gs1 | %2
+
+\staff "1" <gs' b e>1 \\
+\staff "2" e,1 | %3
+
+\staff "1" <g' b e>1 \\
+\staff "2" e,1 | %4
+
+\staff "1" <g' c e>1 \\
+\staff "2" c,1 | %5
+
+\staff "1" <g' c ef>1 \\
+\staff "2" c,1 | %6
+
+\staff "1" <af' c ef>1 \bar "|." \\
+\staff "2" af,1 \bar "|." | %7
+```
+<!-- lilylet-end -->
 One might dismiss the passage altogether as “non-functional harmony,” but when you listen to it, it follows a certain kind of logic. As Richard Cohn writes, “if this music [music that is triadic but functionally indeterminate] is not fully coherent according to the principles of diatonic tonality, by what other principles might it cohere?” (1998, 169).
 
 ## Neo-Riemannian Transformations
@@ -48,12 +146,32 @@ Neo-Riemannian theory describes a way of connecting major and minor triads witho
 
 ![Example 3. The three basic Neo-Riemannian operations: Relative, Parallel, and Leading-Tone Exchange.](../media/2019/07/NROs_-_basic_voice_leading_examples-PLR.png)*Example 3. The three basic Neo-Riemannian operations: Relative, Parallel, and Leading-Tone Exchange.*
 
+<!-- lilylet-begin: media/2019/07/NROs_-_basic_voice_leading_examples-PLR.png -->
+Lilylet transcription of the example above ([NROs_-_basic_voice_leading_examples-PLR.lyl](../lilylet/images/2019/07/NROs_-_basic_voice_leading_examples-PLR.lyl)):
+
+```lyl.play
+[title "The three basic neo-Riemannian operations: R, P, and L"]
+
+\omit Score.TimeSignature \time 3/1 \key c \major \clef "treble" <c e g>1^\markup "Relative (R)" s1 <c e a>1 \bar "||" | %1
+<c e g>1^\markup "Parallel (P)" s1 <c ef g>1 \bar "||" | %2
+<c e g>1^\markup "Leading-Tone Exchange (L)" s1 <b e g>1 \bar "||" | %3
+```
+<!-- lilylet-end -->
 It’s important to note that each transformation is a toggle between two chords. As an analogy, think of the caps lock key on your keyboard, which toggles between two cases of letters. If you are typing with lowercase letters and then press caps lock, this tells your keyboard to begin typing in uppercase letters. But if you press caps lock again, it toggles back to lowercase—it doesn’t go to some third case.
 
 Similarly, if you do the L transformation on a C major triad, you get an E minor triad. If you do the L transformation on an E minor triad, you return to a C major triad. Put another way, successive repetitions of the same transformation alternate between two chords, as shown in Example 4.
 
 ![Example 4. Successive L transformations on C major and E minor triads.](../media/2019/07/multiple-L-transforms.png)*Example 4. Successive L transformations on C major and E minor triads.*
 
+<!-- lilylet-begin: media/2019/07/multiple-L-transforms.png -->
+Lilylet transcription of the example above ([multiple-L-transforms.lyl](../lilylet/images/2019/07/multiple-L-transforms.lyl)):
+
+```lyl.play
+[title "Successive L transformations on C major and E minor triads"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" <c e g>1 ^\markup "L" s1 <b e g>1 ^\markup "L" s1 <c e g>1 ^\markup "L" s1 <b e g>1 ^\markup "L" s1 <c e g>1 ^\markup "L" s1 <b e g>1 ^\markup "etc." s1 | %1
+```
+<!-- lilylet-end -->
 While most 19<sup>th</sup>-century composers didn’t write progressions using the same transformation over and over again, you will find this technique used in twentieth-century works like [“O Superman” by Laurie Anderson](https://open.spotify.com/track/421Gp1eSmOIcD6alTWowFR), which uses successive L transformations throughout.
 
 ## The *Tonnetz*
@@ -88,14 +206,53 @@ There are three possible cycles that use two transformations: the PL cycle, the 
 
 ![Example 9. PL and RP cycles.](../media/2019/07/PL-and-RP-cycles.png)*Example 9. PL and RP cycles.*
 
+<!-- lilylet-begin: media/2019/07/PL-and-RP-cycles.png -->
+Lilylet transcription of the example above ([PL-and-RP-cycles.lyl](../lilylet/images/2019/07/PL-and-RP-cycles.lyl)):
+
+```lyl.play
+[title "PL and RP cycles"]
+[staves ","]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" <c e g>1^\markup "P" s2 <c ef g>1^\markup "L" s2 <c ef af>1^\markup "P" s2 <cf ef af>1^\markup "L" s2 \\\\
+\key c \major \clef "treble" <c e g>1^\markup "R" <c e a>1^\markup "P" <cs e a>1^\markup "R" <cs fs a>1^\markup "P" <cs fs as>1^\markup "R" <ef gf bf>1^\markup "P" | %1
+
+<b e gs>1^\markup "P" s1 \\\\
+<ef g bf>1^\markup "R" <ef g c>1^\markup "P" | %2
+
+<b e g>1^\markup "L" \\\\
+<e g c>1 | %3
+
+<c e g>1 \undo \omit Score.BarLine \bar "||" \\\\
+s1 \undo \omit Score.BarLine \bar "||" | %4
+```
+<!-- lilylet-end -->
 Conversely, the RL cycle (Example 10) is is quite long: it passes through all 24 major and minor triads. Since this cycle takes so long to “close the loop,” it is often ignored or presented in truncated form.
 
 ![Example 10. The RL cycle.](../media/2019/07/RL-cycle.png)*Example 10. The RL cycle.*
 
+<!-- lilylet-begin: media/2019/07/RL-cycle.png -->
+Lilylet transcription of the example above ([RL-cycle.lyl](../lilylet/images/2019/07/RL-cycle.lyl)):
+
+```lyl.play
+[title "The RL cycle"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" <c e g>1^\markup "R" s2 <c e a>1^\markup "L" s2 <c f a>1^\markup "R" s2 <d f a>1^\markup "L" s2 <d f bf>1^\markup "R" s2 <d g bf!>1^\markup "L" s2 <ef g bf!>1^\markup "R" s2 <ef! g c>1^\markup "L" s2 <ef! af c>1^\markup "R" s2 <f af! c>1^\markup "etc." s2 | %1
+```
+<!-- lilylet-end -->
 There is one three-transformation cycle that is noteworthy: the PLR cycle. As Example 11 shows, it takes two cycles of the PLR transformations to return to the starting chord.
 
 ![Example 11. The PLR cycle.](../media/2019/07/PLR-cycle.png)*Example 11. The PLR cycle.*
 
+<!-- lilylet-begin: media/2019/07/PLR-cycle.png -->
+Lilylet transcription of the example above ([PLR-cycle.lyl](../lilylet/images/2019/07/PLR-cycle.lyl)):
+
+```lyl.play
+[title "The PLR cycle"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" <c e g>1^\markup "P" s2 <c ef g>1^\markup "L" s2 <c ef! af>1^\markup "R" s2 <c f af!>1^\markup "P" s2 | %1
+<c f a>1^\markup "L" s2 <c e a>1^\markup "R" s2 <c e g>1 s2 \undo \omit Score.BarLine \bar "||" | %2
+```
+<!-- lilylet-end -->
 ![Example 12. PL, RP, and PLR cycles related to their parent scales/common tones.](../media/2019/07/PL-RP-and-PLR-cycles.png)*Example 12. PL, RP, and PLR cycles related to their parent scales/common tones.*
 
 Of the cycles mentioned above, both the PL and RP cycles generate a parent scale made up of all of the notes used by its constituent triads. The PL cycle generates the hexatonic scale, a symmetrical scale made up of alternating semitones and minor thirds. The RP cycle generates an octatonic scale, another symmetrical scale made up of alternating semitones and major seconds. You might consider these scales to represent the “overall sound” of the cycle. Each PLR cycle is centered around a single pitch, which is contained in each of the triads within the cycle.
@@ -114,6 +271,20 @@ These three transformations are shown in Example 13.
 
 ![Example 13. S, N, and H transformations.](../media/2019/07/SNH-transformations.png)*Example 13. S, N, and H transformations.*
 
+<!-- lilylet-begin: media/2019/07/SNH-transformations.png -->
+Lilylet transcription of the example above ([SNH-transformations.lyl](../lilylet/images/2019/07/SNH-transformations.lyl)):
+
+```lyl.play
+[title "S, N, and H transformations"]
+
+\omit Score.TimeSignature \time 4/4 \key c \major \clef "treble" <c e g>1^\markup "S (\"Slide\")" | %1
+<cs e gs>1 | %2
+<c e g>1^\markup "N (\"Neberverwandt\")" | %3
+<c f af>1 | %4
+<c e g>1^\markup "H (\"Hexatonic Pole\")" | %5
+<cf ef af>1 \bar "||" | %6
+```
+<!-- lilylet-end -->
 Of course, all of the above transformations can be considered combinations of the staple P, L, and R transformations. For example, you could describe H as “PLP.” Indeed, you can describe the connection between *any* two major and/or minor triads as combinations of transformations: you can get from one triad to any other in five steps or less. The most interesting are those that use *parsimonious* voice leading: voice leading in which no single voice moves more than a step.  There are numerous other combinations you could come up with—try some on your own!
 
 ## More Networks of Neo-Riemannian Transformations
@@ -124,14 +295,64 @@ Although it is not part of the staple Neo-Riemannian transformations, which only
 
 ![Example 14. The R transformation with an intervening augmented triad.](../media/2019/07/augmented-triads.png)*Example 14. The R transformation with an intervening augmented triad.*
 
+<!-- lilylet-begin: media/2019/07/augmented-triads.png -->
+Lilylet transcription of the example above ([augmented-triads.lyl](../lilylet/images/2019/07/augmented-triads.lyl)):
+
+```lyl.play
+[title "The R transformation with an intervening augmented triad"]
+
+\omit Score.TimeSignature \time 4/4 \key c \major \clef "treble" <c e g>4^\markup "R" s4 <c e gs>4 a'4 \bar "|"
+\addlyrics { C C+ Am } | %1
+```
+<!-- lilylet-end -->
 Things get interesting when you consider the augmented triad’s ambiguity. Because it is a symmetrical chord (like the diminished seventh chord), you can enharmonically respell the augmented triad such that any of its chord members can act as the root. For example, the C augmented triad in Example 14 could also be spelled as an E augmented triad (E–G♯–B♯), or an A♭ augmented triad (A♭–C–E). As a result, you can resolve the augmented triad to three different minor triads by moving a single voice by semitone, depending on how its root is interpreted. Example 15 shows the three possible resolutions of the C<sup>+</sup> triad.
 
 ![Example 15. Three different spellings of the augmented triad resolving to three different minor triads.](../media/2019/07/augmented_triads2.png)*Example 15. Three different spellings of the augmented triad resolving to three different minor triads.*
 
+<!-- lilylet-begin: media/2019/07/augmented_triads2.png -->
+Lilylet transcription of the example above ([augmented_triads2.lyl](../lilylet/images/2019/07/augmented_triads2.lyl)):
+
+```lyl.play
+[title "Three spellings of the augmented triad resolving to three minor triads"]
+
+\omit Score.TimeSignature \time 4/4 \key c \major \clef "treble" <c e gs>1
+\addlyrics { C+ } | %1
+<c e a>1
+\addlyrics { Am } | %2
+<bs e gs>1
+\addlyrics { E+ } | %3
+<cs e gs>1
+\addlyrics { C♯m } | %4
+<c e af>1
+\addlyrics { A♭+ } | %5
+<c f af>1
+\addlyrics { Fm } | %6
+```
+<!-- lilylet-end -->
 Likewise, the same augmented triad can connect to three different major triads by moving a single voice by semitone, as shown in Example 16.
 
 ![Example 16. Three different major triads connect to the same augmented triad.](../media/2019/07/augmented_triads3.png)*Example 16. Three different major triads connect to the same augmented triad.*
 
+<!-- lilylet-begin: media/2019/07/augmented_triads3.png -->
+Lilylet transcription of the example above ([augmented_triads3.lyl](../lilylet/images/2019/07/augmented_triads3.lyl)):
+
+```lyl.play
+[title "Three major triads connecting to the same augmented triad"]
+
+\omit Score.TimeSignature \time 4/4 \key c \major \clef "treble" <c e g>1
+\addlyrics { C } | %1
+<c e gs>1
+\addlyrics { C+ } | %2
+<b e gs>1
+\addlyrics { E } | %3
+<bs e gs>1
+\addlyrics { E+ } | %4
+<c ef af>1
+\addlyrics { A♭ } | %5
+<c e af>1
+\addlyrics { A♭+ } | %6
+```
+<!-- lilylet-end -->
 ![Example 17. The four Weitzmann regions.](../media/2019/07/weintzmann-regions.png)*Example 17. The four Weitzmann regions.*
 
 Example 17 illustrates the four augmented triads (yes, there are *only*four, due to the symmetry of the chord) and the major and minor triads they can resolve to by moving only one voice by semitone. Each augmented triad and its six associated triads are referred to as Weitzmann regions, named after the theorist Carl Friedrich Weitzmann, who wrote at length about the augmented triad and its versatility in several 19<sup>th</sup>-century treatises.

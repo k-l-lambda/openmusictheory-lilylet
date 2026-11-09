@@ -58,6 +58,30 @@ Example 2. A simple voicing of the 12-bar blues that connects thirds and seventh
 
 ![Example 3 . 16-bar blues.](../media/2019/08/16-bar-blues.png)*Example 3. 16-bar blues.*
 
+<!-- lilylet-begin: media/2019/08/16-bar-blues.png -->
+Lilylet transcription of the example above ([16-bar-blues.lyl](../lilylet/images/2019/08/16-bar-blues.lyl)):
+
+```lyl.play
+[title "16-bar blues"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "treble" <c e g bf>1 \chords "C7" | %1
+<c e g bf>1 | %2
+<c e g bf>1 | %3
+<c e g bf>1 | %4
+<c e g bf>1 \chords "C7" | %5
+<c e g bf>1 | %6
+<c e g bf>1 | %7
+<c e g bf>1 | %8
+<f a c ef>1 \chords "F7" | %9
+<f a c ef>1 | %10
+<c e g bf>1 \chords "C7" | %11
+<c e g bf>1 | %12
+<g' b d f>1 \chords "G7" | %13
+<f a c ef>1 \chords "F7" | %14
+<c e g bf>1 \chords "C7" | %15
+<c e g bf>1 \bar ":|." | %16
+```
+<!-- lilylet-end -->
 Closely related is the 16-bar blues progression, which is composed of four 4-bar phrases, usually two iterations of tonic followed by subdominant and dominant (Example 3). [“Hoochie Coochie Man” by Muddy Waters](https://open.spotify.com/track/2ziWXUmQLrXTiYjCg2fZ2t?si=yzJhMY9bTFy99i92lcNUKw) (1954) is one example of a 16-bar blues. Notice that the final phrase may or may not end with a turnaround. The 16-bar blues is not as common as the 12-bar blues, but it has somewhat heightened frequency in blues-based rock music.
 
 Most commonly, the blues is in “major” (which, in this context, simply means that the tonic harmony has a major third above it—many pitches in a major blues fall outside the major scale). But another common variation on the blues is a minor blues. In a minor blues, the i and iv chords are minor sevenths instead of dominant sevenths; the V stays dominant. Because the motion from the major V to the minor iv can sound anticlimactic, the minor blues also typically replaces the V–IV–I motion in the third phrase with a ii–V–I (Example 4).

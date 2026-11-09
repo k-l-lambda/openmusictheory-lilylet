@@ -30,6 +30,20 @@ Triplets are extremely common in many different genres of music. One example can
 
 ![Example 2. An excerpt from the chorus of “Shots” (2009) by LMFAO.](../media/2025/07/Shots-Rhythm-LMFAO.png)*Example 2. An excerpt from the chorus of “Shots” (2009) by LMFAO.*
 
+<!-- lilylet-begin: media/2025/07/Shots-Rhythm-LMFAO.png -->
+Lilylet transcription of the example above ([Shots-Rhythm-LMFAO.lyl](../lilylet/images/2025/07/Shots-Rhythm-LMFAO.lyl)):
+
+```lyl.play
+[title "Shots, chorus rhythm"]
+[composer "LMFAO"]
+
+\key c \major \numericTimeSignature \time 4/4 \clef "treble" \stemUp b'4 b \tuplet 3/2 { b4 b b }
+\addlyrics { Shots, shots, shots, shots, shots, } | %1
+
+\partial 4 \stemUp b'4
+\addlyrics { shots! } | %2
+```
+<!-- lilylet-end -->
 You can listen to the chorus of “Shots” beginning at 1:18 in Example 3:
 
 ▶️ [Video: LMFAO - Shots ft. Lil Jon](https://www.youtube.com/watch?v=XNtTEibFvlQ)
@@ -46,6 +60,32 @@ Duplets are also fairly common, though perhaps not as common as triplets. Exampl
 
 ![Example 5. An excerpt from the reprise of “Cats” (1980) by Andrew Lloyd Webber.](../media/2025/07/Memory-Cats-Webber.png)*Example 5. An excerpt from the reprise of “Cats” (1980) by Andrew Lloyd Webber.*
 
+<!-- lilylet-begin: media/2025/07/Memory-Cats-Webber.png -->
+Lilylet transcription of the example above ([Memory-Cats-Webber.lyl](../lilylet/images/2025/07/Memory-Cats-Webber.lyl)):
+
+```lyl.play
+[title "Memory, reprise excerpt"]
+[composer "Andrew Lloyd Webber"]
+
+\key bf \major \time 12/8 \clef "treble" bf'4. bf~ bf8[ a bf] c8.[ bf16 g8]
+\addlyrics { Mem -- ory, _ turn your face to the } | %1
+
+bf'4. bf~ bf8[ a bf] c8.[ bf16 f8]
+\addlyrics { moon light, _ let your mem -- o -- ry } | %2
+
+g'4. g~ g8[ ef f] g8.[ f16 ef8]
+\addlyrics { lead you, _ op -- en up en -- ter } | %3
+
+d4.~ d4 r8 r4. r8 d[ f]
+\addlyrics { in. _ If you } | %4
+
+f4. c4 d8 \tuplet 2/3 { ef8[ f] } \tuplet 2/3 { g8[ a] }
+\addlyrics { find there the mean -- ing of what } | %5
+
+bf'8[ a g] f4. r4. r4. \bar "|."
+\addlyrics { hap -- pi ness is... } | %6
+```
+<!-- lilylet-end -->
 You can listen to this excerpt which includes duplets at the beginning of Example 6:
 
 ▶️ [Video: Memory (Reprise) | Cats the Musical](https://www.youtube.com/watch?v=8gd_ohoPzYc)

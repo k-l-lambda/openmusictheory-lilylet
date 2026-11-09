@@ -60,6 +60,21 @@ That starting premise could be realized in any number of different ways. Here’
 
 ![A short viola solo](../media/2021/05/Solo.png)
 
+<!-- lilylet-begin: media/2021/05/Solo.png -->
+Lilylet transcription of the example above ([Solo.lyl](../lilylet/images/2021/05/Solo.lyl)):
+
+```lyl.play
+[title "A short viola solo"]
+
+\numericTimeSignature \clef "alto" \key c \major \time 4/4 \tempo "Very slow and free" c,16--\f[ d-- fs8--] r4 r r8 c'8-._\markup "echo"\pp( | %1
+
+r8 d8-. r fs-.) r4 r8 c,16\f[( d)] | %2
+
+\time 5/8 fs,8--[ c'16\p( d] fs8)[ c,16--\f( d fs) bf] | %3
+
+\time 4/4 d,4-- fs-- bf-- r | %4
+```
+<!-- lilylet-end -->
 Many composers—serial and otherwise—find it helpful to set initial constraints in this way, partly because it can give you license to approach the more detailed matters freely. The restrictions leave open a wide range of possibilities for how to proceed. For instance, we might like to create an overall contour that works up to a high point and then comes back down from there. Alternatively, we might prefer a static and demonstrably constrained passage. It’s wide open.
 
 ### A process-driven “moto perpetuo”
@@ -72,6 +87,94 @@ Here’s a short passage realizing some of these ideas for string quartet, with 
 
 ![Moto perpetuo section](../media/2021/05/Moto-perpetuo.png)
 
+<!-- lilylet-begin: media/2021/05/Moto-perpetuo.png -->
+Lilylet transcription of the example above ([Moto-perpetuo.lyl](../lilylet/images/2021/05/Moto-perpetuo.lyl)):
+
+```lyl.play
+[title "Moto perpetuo (twelve-tone string quartet)"]
+[staves "<v1-v2-va-vc>"]
+
+\key c \major \time 2/2 \clef "treble" \tempo "Moto perpetuo." 2=120 g8^\markup "snap pizz."\f r r4 r2 \\\\
+\clef "treble" g8\f[ a cs g] a[ cs g a] \\\\
+\clef "alto" g8^\markup "snap pizz."\f r r4 r2 \\\\
+\clef "bass" g,8^\markup "snap pizz."\f r r4 r2 | %1
+
+R1 \\\\
+cs8[ g'\p a cs] g[ a cs g,\f] \\\\
+R1 \\\\
+R1 | %2
+
+a8\f[ cs f a,] cs[ f a, cs] \\\\
+a8 r r4 r2 \\\\
+a8->^\markup "pizz." r r4 r2 \\\\
+a,8->^\markup "pizz." r r4 r2 | %3
+
+f8\p[ a cs f] a,[ cs f a,\f] \\\\
+R1 \\\\
+R1 \\\\
+R1 | %4
+
+\time 2/4 cs'8 r r4 \\\\
+cs'8\f[ es] fs[ cs] \\\\
+cs8-> r r4 \\\\
+cs,8-> r r4 | %5
+
+\time 5/4 f'8[ gf e f gf e] f[ gf e f] \\\\
+f'8 r r2 r \\\\
+f8-> r r2 r \\\\
+f,,8-> r r2 r | %6
+
+gf''8 r r2 r \\\\
+fs'8[ e ds fs e ds] fs[ e ds fs] \\\\
+fs8-> r r2 r \\\\
+fs,,8-> r r2 r | %7
+
+\time 2/2 e'8[ ds as e'] ds[ as e' ds] \\\\
+e8[ ds] r4 r2 \\\\
+e8-> r r4 r2 \\\\
+e,,8-> r r4 r2 | %8
+
+as'8[ e' ds as] e'[ ds as e'] \\\\
+R1 \\\\
+R1 \\\\
+R1 | %9
+
+\time 2/4 ef'8\p r r4 \\\\
+ef'8\p[ bf] c[ ef] \\\\
+ds8->\p r r4 \\\\
+ds,,8->\p r r4 | %10
+
+bf'8[ c] af[ bf] \\\\
+bf'8 r r4 \\\\
+as'8-> r r4 \\\\
+as,8-> r r4 | %11
+
+\time 7/8 c'8 r4 r r \\\\
+c'8[ gs b] c[ gs] b[ c] \\\\
+c'8-> r4 r r \\\\
+c,8-> r4 r r | %12
+
+\time 2/4 gs'8\<[ b] d[ gs,] \\\\
+gs'8\< r r4 \\\\
+gs'8->\< r r4 \\\\
+gs,8->\< r r4 | %13
+
+b'8 r r4 \\\\
+b'8[ d] g[ b,] \\\\
+b'8-> r r4 \\\\
+b,8-> r r4 | %14
+
+d'8[ g] a[ d,] \bar "||" \\\\
+d'8 r r4 \bar "||" \\\\
+d'8-> r r4 \bar "||" \\\\
+d,8-> r r4 \bar "||" | %15
+
+\time 2/2 g''8^\markup "New cycle begins (piece continues)"\!\f r r4 r2 \\\\
+g''8\!\f[ a cs g] a[ cs g a] \\\\
+g8^\markup "snap pizz."\!->\f r r4 r2 \\\\
+g,8^\markup "snap pizz."\!->\f r r4 r2 | %16
+```
+<!-- lilylet-end -->
 ### A strict, fixed fugue
 
 Finally, let’s explore a stricter approach, without note repetitions, and with more than one row at a time. Let’s do this in the context of the classic strict polyphonic form: the fugue.[^2] We could make one of the rows directly into a twelve-tone subject and take a countersubject that’s hexachord-combinatorial with this subject. The subject and countersubject are going to be played together (by definition), so hexachordal combinatoriality will ensure that we don’t repeat a pitch within the half-cycle.
@@ -123,6 +226,119 @@ And here’s a demonstration of the rotation starting on the second pitch means 
 
 ![](../media/2021/05/Rows_and_rotations.png)
 
+<!-- lilylet-begin: media/2021/05/Rows_and_rotations.png -->
+Lilylet transcription of the example above ([Rows_and_rotations.md](../lilylet/images/2021/05/Rows_and_rotations.md)):
+
+**Initial row (no rotation)**
+
+```lyl.play
+[title "Initial row (no rotation)"]
+[staves "{a-b},{c-d}"]
+[instrument-a-b "Hexachord-combinatorial pair:"]
+[instrument-c-d "Both rows in retrograde and rotated by 6"]
+
+\staff "1" \omit Score.TimeSignature \key c \major \time 3/4 \clef "treble" d4^\markup "Trichord A" fs bf \\
+\staff "2" \clef "bass" f,4^\markup "A(i)" cs a \\\\
+\staff "1" \clef "treble" b'4^\markup "B(r)" e, g \\
+\staff "2" \clef "bass" af,4^\markup "B(ri)" ef' c | %1
+
+\staff "1" g'4^\markup "B" e b' \\
+\staff "2" c,4^\markup "B(i)" ef af, \\\\
+\staff "1" bf'4^\markup "A(r)" fs d \\
+\staff "2" a,4^\markup "A(ri)" cs f | %2
+
+\staff "1" a'4^\markup "C" af ef \\
+\staff "2" bf,4^\markup "C(i)" b! e \\\\
+\staff "1" c4^\markup "D(r)" df f \\
+\staff "2" g4^\markup "D(ri)" fs d | %3
+
+\staff "1" f4^\markup "D" df c \bar "|." \\
+\staff "2" d,4^\markup "D(i)" fs g \bar "|." \\\\
+\staff "1" ds4^\markup "C(r)" gs a \bar "|." \\
+\staff "2" e,4^\markup "C(ri)" b as \bar "|." | %4
+```
+
+**Rotate +3** (one trichord) and adjust the transpositions for combinatoriality
+
+```lyl.play
+[title "Rotate +3 and adjust the transpositions"]
+[staves "{a-b},{c-d}"]
+
+\staff "1" \omit Score.TimeSignature \key c \major \time 3/4 \clef "treble" g'4^\markup "B"_\markup "Now I2" e b' \\
+\staff "2" \clef "bass" d,4 f as, \\\\
+\staff "1" \clef "treble" ds4^\markup "C" gs a \\
+\staff "2" \clef "bass" fs,4 cs c! | %1
+
+\staff "1" a'4^\markup "C" af ef \\
+\staff "2" c,4 cs fs \\\\
+\staff "1" b'4^\markup "B" e, g \\
+\staff "2" as,4 f' d | %2
+
+\staff "1" f4^\markup "D" df c \\
+\staff "2" e,4 gs a \\\\
+\staff "1" bf'4^\markup "A" fs d \\
+\staff "2" b,4 ds g | %3
+
+\staff "1" d4^\markup "A" fs bf \bar "|." \\
+\staff "2" g4 ds b \bar "|." \\\\
+\staff "1" c4^\markup "D" df f \bar "|." \\
+\staff "2" a4 gs e \bar "|." | %4
+```
+
+**Rotate +/- 6**
+
+```lyl.play
+[title "Rotate +/- 6"]
+[staves "{a-b},{c-d}"]
+
+\staff "1" \omit Score.TimeSignature \key c \major \time 3/4 \clef "treble" a'4^\markup "C" af ef \\
+\staff "2" \clef "bass" bf,4 b! e \\\\
+\staff "1" \clef "treble" c4^\markup "D" df f \\
+\staff "2" \clef "bass" g4 fs d | %1
+
+\staff "1" f4^\markup "D" df c \\
+\staff "2" d,4 fs g \\\\
+\staff "1" ds4^\markup "C" gs a \\
+\staff "2" e,4 b as | %2
+
+\staff "1" d4^\markup "A" fs bf \\
+\staff "2" f,4 df a \\\\
+\staff "1" b'4^\markup "B" e, g \\
+\staff "2" gs,4 ds' c | %3
+
+\staff "1" g'4^\markup "B" e b' \bar "|." \\
+\staff "2" c,4 ef af, \bar "|." \\\\
+\staff "1" bf'4^\markup "A" fs d \bar "|." \\
+\staff "2" a,4 cs f \bar "|." | %4
+```
+
+**Rotate +9 (-3)**
+
+```lyl.play
+[title "Rotate +9 (-3)"]
+[staves "{a-b},{c-d}"]
+
+\staff "1" \omit Score.TimeSignature \key c \major \time 3/4 \clef "treble" f4^\markup "D" df c \\
+\staff "2" \clef "bass" e,4 gs a \\\\
+\staff "1" \clef "treble" bf'4^\markup "A" fs d \\
+\staff "2" \clef "bass" b,4 ds g | %1
+
+\staff "1" d4^\markup "A" fs bf \\
+\staff "2" g4 ds b \\\\
+\staff "1" c4^\markup "D" df f \\
+\staff "2" a4 gs e | %2
+
+\staff "1" g'4^\markup "B" e b' \\
+\staff "2" d,4 f as, \\\\
+\staff "1" ds4^\markup "C" gs a \\
+\staff "2" fs,4 cs c! | %3
+
+\staff "1" a'4^\markup "C" af ef \bar "|." \\
+\staff "2" c,4 cs fs \bar "|." \\\\
+\staff "1" b'4^\markup "B" e, g \bar "|." \\
+\staff "2" as,4 f' d \bar "|." | %4
+```
+<!-- lilylet-end -->
 We could start on any one of those trichords/rotations for this property. Of those options, let’s start on the second pitch, partly because it gives us the augmented triad, which seems like a good place from which to launch: a symmetrical trichord for a fugato with inverse-related subject and countersubject.
 
 #### Actual music!

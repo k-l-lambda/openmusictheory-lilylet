@@ -68,26 +68,79 @@ Let’s take a closer look at the ledger-line notes that might appear below the 
 
 ![Example 7. Pitches below the treble clef staff and above the bass clef staff, labeled with letter names.](../media/2019/11/Screen-Shot-2019-11-23-at-11.48.12-AM.png)*Example 7. Pitches below the treble clef staff and above the bass clef staff, labeled with letter names.*
 
+<!-- lilylet-begin: media/2019/11/Screen-Shot-2019-11-23-at-11.48.12-AM.png -->
+Lilylet transcription of the example above ([Screen-Shot-2019-11-23-at-11.48.12-AM.lyl](../lilylet/images/2019/11/Screen-Shot-2019-11-23-at-11.48.12-AM.lyl)):
+
+```lyl.play
+[title "Pitches below the treble staff and above the bass staff"]
+[staves "{-}"]
+
+\staff "1" \omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" \stemUp d2^\markup "D" c^\markup "C" b^\markup "B" a^\markup "A" g^\markup "G" \\
+\staff "2" \clef "bass" \stemDown d2_\markup "D" c_\markup "C" b_\markup "B" a_\markup "A" g_\markup "G" \undo \omit Score.BarLine \bar "|" | %1
+```
+<!-- lilylet-end -->
 Example 8 shows the staves of Example 7 vertically condensed—how these notes would appear if there were not so much space in between the treble clef and bass clef staves of a grand staff. The letter names are the same in Example 8 as they were in Example 7.
 
 ![<span class=](../media/2019/05/Screen-Shot-2019-05-30-at-2.03.57-PM.png)
 
+<!-- lilylet-begin: media/2019/05/Screen-Shot-2019-05-30-at-2.03.57-PM.png -->
+Lilylet transcription of the example above ([Screen-Shot-2019-05-30-at-2.03.57-PM.lyl](../lilylet/images/2019/05/Screen-Shot-2019-05-30-at-2.03.57-PM.lyl)):
+
+```lyl.play
+[title "Pitches below the treble staff and above the bass staff (condensed grand staff)"]
+[staves "{-}"]
+
+\staff "1" \omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" \stemUp d2 c b a g \\
+\staff "2" \clef "bass" \stemDown d2 c b a g \undo \omit Score.BarLine \bar "|" | %1
+```
+<!-- lilylet-end -->
 Example 8. The staves of Example 7 have been vertically condensed and the two notes combined into one (with two stems).
 
 Example 9 shows a vertically condensed grand staff with a box around the note C. This boxed C is called middle C, so named because in the vertically condensed grand staff shown in Example 9, it appears in the middle of the treble and bass clef staves. Additionally, middle C is the note that appears to be around the middle of a piano keyboard, usually underneath the brand name.
 
 ![Example 9. The note C is boxed in a vertically condensed grand staff.](../media/2019/12/ch4-ex9-middle_c-1.jpg)*Example 9. The note C is boxed in a vertically condensed grand staff.*
 
+<!-- lilylet-begin: media/2019/12/ch4-ex9-middle_c-1.jpg -->
+Lilylet transcription of the example above ([ch4-ex9-middle_c-1.lyl](../lilylet/images/2019/12/ch4-ex9-middle_c-1.lyl)):
+
+```lyl.play
+[title "Middle C on the grand staff (vertically condensed)"]
+[staves "{-}"]
+
+\staff "1" \omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" s2 s2 \stemUp c2 d e \\
+\staff "2" \clef "bass" \stemDown a2 b c s2 s2 \undo \omit Score.BarLine \bar "|." | %1
+```
+<!-- lilylet-end -->
 Example 10 shows Example 9 vertically expanded to its regular spacing, with middle C still boxed. Though it now appears in both the treble clef and bass clef staves, this note would still sound as the same pitch.
 
 ![Example 10. A vertically expanded Example 9 .](../media/2019/11/vertically_expanded_example_9-revised.jpg)*Example 10. A vertically expanded Example 9.*
 
+<!-- lilylet-begin: media/2019/11/vertically_expanded_example_9-revised.jpg -->
+Lilylet transcription of the example above ([vertically_expanded_example_9-revised.lyl](../lilylet/images/2019/11/vertically_expanded_example_9-revised.lyl)):
+
+```lyl.play
+[title "Middle C on the grand staff (vertically expanded)"]
+[staves "{-}"]
+
+\staff "1" \omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" s2 s2 \stemUp c2 d e \\
+\staff "2" \clef "bass" \stemDown a2 b c s2 s2 \undo \omit Score.BarLine \bar "|." | %1
+```
+<!-- lilylet-end -->
 ## Generic Intervals (Interval Size)
 
 Often in music theory, you will want to measure or describe the distance between notes—either on a piano keyboard or on a staff. This “count” of notes on a piano keyboard or staff is called a generic interval. When counting generic intervals, it is important to know that when you count the first note, it should be counted as one and not zero. Example 11 shows two notes, an F and a C, on a staff with a treble clef. If you count the notes F to C in Example 11 (by counting each line and space between the two notes), you may be tempted to do this: F to G is one, G to A is two, A to B is three, and B to C is four. However, this would be incorrect. Instead, you need to count F as one, F to G as two, G to A as three, A to B as four, and B to C as five. Therefore, we would say that F and C are five notes apart, not four. Music theorists and musicians would call the distance between these two notes a “generic fifth.”
 
 ![Example 11. An example of a generic fifth.](../media/2019/12/ch4-ex11-fifth.jpg)*Example 11. An example of a generic fifth.*
 
+<!-- lilylet-begin: media/2019/12/ch4-ex11-fifth.jpg -->
+Lilylet transcription of the example above ([ch4-ex11-fifth.lyl](../lilylet/images/2019/12/ch4-ex11-fifth.lyl)):
+
+```lyl.play
+[title "A generic fifth (F4–C5)"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" <f c'>1^\markup "5" | %1
+```
+<!-- lilylet-end -->
 > Further Reading
 
 - Gerou, Tom and Linda Lusk. 1996. *Essential Dictionary of Music Notation*. Los Angeles: Alfred.

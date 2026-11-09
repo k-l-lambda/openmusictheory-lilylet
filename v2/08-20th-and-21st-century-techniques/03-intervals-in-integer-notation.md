@@ -41,6 +41,18 @@ Example 2. Four interval types in atonal theory.
 
 ![Example 3. The top row of examples shows ordered pitch intervals: the number of semitones between the pitches, with a plus or minus sign to indicate direction. The bottom row shows unordered intervals, which simply disregard the direction and thus drop the plus or minus sign.](../media/2019/05/ordered-vs-unordered-pitch-interval.png)*Example 3. The top row of examples shows ordered pitch intervals: the number of semitones between the pitches, with a plus or minus sign to indicate direction. The bottom row shows unordered intervals, which simply disregard the direction and thus drop the plus or minus sign.*
 
+<!-- lilylet-begin: media/2019/05/ordered-vs-unordered-pitch-interval.png -->
+Lilylet transcription of the example above ([ordered-vs-unordered-pitch-interval.lyl](../lilylet/images/2019/05/ordered-vs-unordered-pitch-interval.lyl)):
+
+```lyl.play
+[title "Ordered vs. unordered pitch intervals"]
+
+\omit Score.TimeSignature \key c \major \time 2/2 \clef "treble" cs2_\markup "ordered pitch interval: +19" af'' \bar "||" | %1
+a''2_\markup "ordered pitch interval: -6" ds, \bar "||" | %2
+cs2_\markup "unordered pitch interval: 19" af'' \bar "||" | %3
+a''2_\markup "unordered pitch interval: 6" ds, \bar "||" | %4
+```
+<!-- lilylet-end -->
 Pitch intervals are the distance between pitches as measured in semitones, which is to say that octave is taken into consideration. Thus, the interval C<sub>4</sub>–E<sub>4</sub> is 4: four semitones are between these notes. But if that E is moved up an octave (C<sub>4</sub>–E<sub>5</sub>), the interval becomes 16: four semitones between C and E, plus an octave (twelve semitones) between the lower E and the higher E.
 
 Within pitch intervals, there are ordered and unordered variants. To create an ordered pitch interval, simply add a plus or minus sign to indicate whether the interval is ascending or descending. Unordered pitch intervals, by contrast, do not indicate which direction the pitches move in—they are thus more suitable for harmonic intervals. The differences between ordered and unordered pitch intervals are summarized in Example 3.
@@ -53,6 +65,16 @@ Ordered pitch-class intervals measure the distance between pitch classes, always
 
 ![Example 4 . Ordered pitch class intervals always travel clockwise around the clock face.](../media/2019/05/Screen-Shot-2019-09-10-at-12.27.55-PM.png)*Example 4. Ordered pitch class intervals always travel clockwise around the clock face.*
 
+<!-- lilylet-begin: media/2019/05/Screen-Shot-2019-09-10-at-12.27.55-PM.png -->
+Lilylet transcription of the example above ([Screen-Shot-2019-09-10-at-12.27.55-PM.lyl](../lilylet/images/2019/05/Screen-Shot-2019-09-10-at-12.27.55-PM.lyl)):
+
+```lyl.play
+[title "Ordered pitch-class intervals"]
+
+\omit Score.TimeSignature \key c \major \time 2/2 \clef "treble" cs2_\markup "ordered pitch-class interval: 7" af'' \bar "||" | %1
+a''2_\markup "ordered pitch-class interval: 6" ds, \bar "||" | %2
+```
+<!-- lilylet-end -->
 ## Interval Classes (IC)
 
 Unordered pitch-class intervals are usually called interval classes. Interval class is the smallest possible distance between two pitch classes. On the clock face, this means traveling either clockwise or counter-clockwise, whichever is shortest. Interval class is a useful concept because it relates intervals, their inversions, and any compound versions of those intervals. You should be able to connect this concept to the concept of pitch vs. pitch class: a pitch class is a pitch, its enharmonic respelling(s), and any octave displacements of those spellings.
@@ -61,6 +83,16 @@ This means that there are only six interval classes: 1, 2, 3, 4, 5, and 6. If yo
 
 ![Example 5. Unordered pitch class intervals are also known as interval classes. Interval classes measure the smallest possible distance between pitch classes.](../media/2019/05/Screen-Shot-2019-09-10-at-12.36.47-PM.png)*Example 5. Unordered pitch class intervals are also known as interval classes. Interval classes measure the smallest possible distance between pitch classes.*
 
+<!-- lilylet-begin: media/2019/05/Screen-Shot-2019-09-10-at-12.36.47-PM.png -->
+Lilylet transcription of the example above ([Screen-Shot-2019-09-10-at-12.36.47-PM.lyl](../lilylet/images/2019/05/Screen-Shot-2019-09-10-at-12.36.47-PM.lyl)):
+
+```lyl.play
+[title "Unordered pitch-class intervals (interval classes)"]
+
+\omit Score.TimeSignature \key c \major \time 2/2 \clef "treble" cs2_\markup "unordered pitch-class interval: 5" af'' \bar "||" | %1
+a''2_\markup "unordered pitch-class interval: 6" ds, \bar "||" | %2
+```
+<!-- lilylet-end -->
 ## Summary
 
 Using various combinations of pitch interval, pitch-class interval, ordered, and unordered, we arrive at four different conceptions of interval.To wrap your mind around each of these and begin to understand their various analytical uses, think of them on a sliding scale of most concrete (the ordered pitch interval) to most abstract (the unordered pitch-class interval). You can find this related to other concepts in the [Set Theory Quick Reference Sheet](https://viva.pressbooks.pub/app/uploads/sites/12/2019/05/INFO-set-theory-quick-reference-sheet.pdf).

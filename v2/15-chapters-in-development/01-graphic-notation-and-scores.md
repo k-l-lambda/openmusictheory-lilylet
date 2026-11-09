@@ -60,6 +60,27 @@ In his 1922 composition, “Fabric,” Cowell utilizes his new rhythmic notation
 
 ![Example 6. Measures 10–12 from “Fabric” by Henry Cowell.](../media/2025/06/image-2.png)*Example 6.  Measures 10–12  from “Fabric” by Henry Cowell.*
 
+<!-- lilylet-begin: media/2025/06/image-2.png -->
+Lilylet transcription of the example above ([image-2.lyl](../lilylet/images/2025/06/image-2.lyl)):
+
+```lyl.play
+[title "Fabric, mm. 10–12"]
+[composer "Henry Cowell"]
+[staves "{-}"]
+
+\staff "1" \omit Score.TimeSignature \time 2/4 \clef "treble" \stemUp \tuplet 7/4 { r8 gf''8[( f! d ds e cs]) } \\
+\staff "1" \stemDown \tuplet 3/2 { fs2 g4\<( } \\
+\staff "2" \clef "bass" \tuplet 9/8 { ef,,16[( bf' df f!) ef'( ff df cf bf]) } | %10
+
+\staff "1" \stemUp \tuplet 3/2 { r8 fs''[( gs,] } \tuplet 3/2 { a8[ e c!]) } \\
+\staff "1" \stemDown fs'4\sf\> cs8[\! a] \\
+\staff "2" \tuplet 9/8 { a,16[( fs' cs' e) gs( a fs d cs]) } | %11
+
+\staff "1" \stemUp \tuplet 7/4 { r8 b''8[( g gf f e ef]) } \\
+\staff "1" \stemDown \tuplet 3/2 { b'2) c4\< } \\
+\staff "2" gs,16[( ds' fs) b]( bs[ a g fs]) | %12
+```
+<!-- lilylet-end -->
 In this example, the square note heads denote “ninth notes” (nine notes per measure), while the triangle notes depict “third notes” (three notes per beat, or what we might call triplets), and the diamond-shaped notes show “seventh notes” (seven notes per measure).
 
 The use of graphic elements became increasingly popular in the mid-20th century. One of the earliest graphic scores to feature entirely original notation was composed in 1950 by Morton Feldman.[^9] A scrolling-score performance of Feldman’s *Projection 1* (1950) for solo cello can be seen in Example 7:

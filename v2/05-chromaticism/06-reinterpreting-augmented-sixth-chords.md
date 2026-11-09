@@ -21,6 +21,19 @@ modified: "2024-10-16"
 
 Modulation to closely-related keys is a relatively easy task; we can find a pivot chord by looking at the group of chords shared between two keys that have nearly-identical key signatures. There are plenty of them. See Example 1:![](../media/2020/01/chromatic-modulation-closely-related-keys.png)
 
+<!-- lilylet-begin: media/2020/01/chromatic-modulation-closely-related-keys.png -->
+Lilylet transcription of the example above ([chromatic-modulation-closely-related-keys.lyl](../lilylet/images/2020/01/chromatic-modulation-closely-related-keys.lyl)):
+
+```lyl.play
+[title "Common chords of closely related keys: C major and G major"]
+
+\omit Score.TimeSignature \omit Score.BarLine \time 7/4 \key c \major \clef "treble" <c e g>4_\markup "*" \chords "C" <d f a> \chords "Dm" <e g b>_\markup "*" \chords "Em" <f a c> \chords "F" <g b d>_\markup "*" \chords "G" <a c e>_\markup "*" \chords "Am" <b d f> \chords "Bdim"
+\addlyrics { I ii iii IV V vi vii° } | %1
+
+\key g \major <g' b d>4_\markup "*" \chords "G" <a c e>_\markup "*" \chords "Am" <b d fs> \chords "Bm" <c e g>_\markup "*" \chords "C" <d fs a> \chords "D" <e g b>_\markup "*" \chords "Em" <fs a c> \chords "F♯dim"
+\addlyrics { I ii iii IV V vi vii° } | %2
+```
+<!-- lilylet-end -->
 Example 1. Common chords in the keys of C and G major.
 
 When two keys are more than one accidental apart on the circle of fifths, however, it becomes more difficult it is to find a pivot chord that will enable a smooth modulation between the two keys.
@@ -31,6 +44,63 @@ To modulate to a distantly-related key, that is, a key that is more than one acc
 
 ![](../media/2020/01/distantly-related-keys-mixture-to-diatonic.png)Example 2. Shared chords between C major and E♭ major, made possible through mode mixture. 
 
+<!-- lilylet-begin: media/2020/01/distantly-related-keys-mixture-to-diatonic.png -->
+Lilylet transcription of the example above ([distantly-related-keys-mixture-to-diatonic.lyl](../lilylet/images/2020/01/distantly-related-keys-mixture-to-diatonic.lyl)):
+
+```lyl.play
+[title "Common chords of distantly related keys: E♭ major, C minor and C major"]
+[staves ",,"]
+
+\omit Score.TimeSignature \omit Score.BarLine \time 1/4 \key c \major \clef "treble" <ef g bf>4 \chords "E♭"
+\addlyrics { I } \\\\
+\clef "treble" <c ef g>4^\markup "7 chords in common with row 1" \chords "Cm"
+\addlyrics { i } \\\\
+\clef "treble" <c e g>4^\markup "0 chords in common with row 1" \chords "C"
+\addlyrics { I } | %1
+
+<f af c>4 \chords "Fm"
+\addlyrics { ii } \\\\
+<d f af>4 \chords "Ddim"
+\addlyrics { ii° } \\\\
+<d f a>4 \chords "Dm"
+\addlyrics { ii } | %2
+
+<g' bf d>4 \chords "Gm"
+\addlyrics { iii } \\\\
+<ef g bf>4 \chords "E♭"
+\addlyrics { ♭III } \\\\
+<e g b>4 \chords "Em"
+\addlyrics { iii } | %3
+
+<af' c ef>4 \chords "A♭"
+\addlyrics { IV } \\\\
+<f af c>4 \chords "Fm"
+\addlyrics { iv } \\\\
+<f a c>4 \chords "F"
+\addlyrics { IV } | %4
+
+<bf' d f>4 \chords "B♭"
+\addlyrics { V } \\\\
+<g' bf d>4 \chords "Gm"
+\addlyrics { v } \\\\
+<g' b d>4 \chords "G"
+\addlyrics { V } | %5
+
+<c' ef g>4 \chords "Cm"
+\addlyrics { vi } \\\\
+<af' c ef>4 \chords "A♭"
+\addlyrics { ♭VI } \\\\
+<a' c e>4 \chords "Am"
+\addlyrics { vi } | %6
+
+<d' f af>4 \chords "Ddim"
+\addlyrics { vii° } \\\\
+<bf' d f>4 \chords "B♭"
+\addlyrics { ♭VII } \\\\
+<b' d f>4 \chords "Bdim"
+\addlyrics { vii° } | %7
+```
+<!-- lilylet-end -->
 Example 3 shows a modulation from the key of A major to F major, using iv from A major as a pivot chord. Example 4 shows this technique being used by Verdi in his opera *Rigoletto.*
 
 🎼 [MuseScore score](https://musescore.com/user/32728834/scores/8935623)
@@ -45,6 +115,63 @@ Conversely, we can use diatonic chords in the old key as mixture chords in the n
 
 ![](../media/2020/01/distantly-related-keys-diatonic-to-mixture.png)
 
+<!-- lilylet-begin: media/2020/01/distantly-related-keys-diatonic-to-mixture.png -->
+Lilylet transcription of the example above ([distantly-related-keys-diatonic-to-mixture.lyl](../lilylet/images/2020/01/distantly-related-keys-diatonic-to-mixture.lyl)):
+
+```lyl.play
+[title "Common chords of distantly related keys: A major, A minor and C major"]
+[staves ",,"]
+
+\omit Score.TimeSignature \omit Score.BarLine \time 1/4 \key a \major \clef "treble" <a' cs e>4 \chords "A"
+\addlyrics { I } \\\\
+\clef "treble" <a' c e>4 \chords "Am"
+\addlyrics { i } \\\\
+\clef "treble" <c e g>4^\markup "7 chords in common with row 2, 0 with row 1" \chords "C"
+\addlyrics { I } | %1
+
+<b' d fs>4 \chords "Bm"
+\addlyrics { ii } \\\\
+<b' d f>4 \chords "Bdim"
+\addlyrics { ii° } \\\\
+<d f a>4 \chords "Dm"
+\addlyrics { ii } | %2
+
+<cs' e gs>4 \chords "C♯m"
+\addlyrics { iii } \\\\
+<c' e g>4 \chords "C"
+\addlyrics { ♭III } \\\\
+<e g b>4 \chords "Em"
+\addlyrics { iii } | %3
+
+<d' fs a>4 \chords "D"
+\addlyrics { IV } \\\\
+<d' f a>4 \chords "Dm"
+\addlyrics { iv } \\\\
+<f a c>4 \chords "F"
+\addlyrics { IV } | %4
+
+<e' gs b>4 \chords "E"
+\addlyrics { V } \\\\
+<e' g b>4 \chords "Em"
+\addlyrics { v } \\\\
+<g' b d>4 \chords "G"
+\addlyrics { V } | %5
+
+<fs' a cs>4 \chords "F♯m"
+\addlyrics { vi } \\\\
+<f' a c>4 \chords "F"
+\addlyrics { ♭VI } \\\\
+<a' c e>4 \chords "Am"
+\addlyrics { vi } | %6
+
+<gs'' b d>4 \chords "G♯dim"
+\addlyrics { vii° } \\\\
+<g'' b d>4 \chords "G"
+\addlyrics { ♭VII } \\\\
+<b' d f>4 \chords "Bdim"
+\addlyrics { vii° } | %7
+```
+<!-- lilylet-end -->
 Example 5. Potential pivot chords when modulating from C major to A major. 
 
 A modulation using this technique in a chorale setting is shown in Example 6.

@@ -48,6 +48,36 @@ Major scales are exceedingly common in many different genres in music. One examp
 
 ![Example 3. An excerpt from Taylor Swift’s “Love Story” (2008).](../media/2025/07/Love-Story-Swift.png)*Example 3. An excerpt from Taylor Swift’s “Love Story” (2008).*
 
+<!-- lilylet-begin: media/2025/07/Love-Story-Swift.png -->
+Lilylet transcription of the example above ([Love-Story-Swift.lyl](../lilylet/images/2025/07/Love-Story-Swift.lyl)):
+
+```lyl.play
+[title "Love Story, excerpt"]
+[composer "Taylor Swift"]
+[staves "s,vn"]
+[instrument-s "Soprano"]
+[instrument-vn "Violin"]
+
+\key e \major \numericTimeSignature \time 4/4 \clef "treble" R1 \\\\
+\clef "treble" e'4 ds cs b | %1
+
+r2 r4 r8 b8
+\addlyrics { Cause' } \\\\
+a'4 gs fs e | %2
+
+e8[ e] e4 e r8 e
+\addlyrics { we were both young when } \\\\
+R1 | %3
+
+ds8 e4 fs2 e8~
+\addlyrics { I first saw you. } \\\\
+R1 | %4
+
+e1
+\addlyrics { _ } \\\\
+R1 | %5
+```
+<!-- lilylet-end -->
 You can listen to the music in Example 3 starting at 3:42 in Example 4. Listen for the descending major scale in the violin shortly before the voice comes in:
 
 ▶️ [Video: Taylor Swift - Love Story](https://www.youtube.com/watch?v=8xg3vE8Ie_E)
@@ -106,6 +136,16 @@ Example 8 shows the notes and scale-degree names of the A♭ major scale in an 
 
 [![Example 8. The notes of the A♭ major scale arranged to show the derivation of scale-degree names.](../media/2025/07/Scale-Degree-Names-Derivation-1024x228.png)](../media/2025/07/Scale-Degree-Names-Derivation.png)*Example 8. The notes of the A♭ major scale arranged to show the derivation of scale-degree names.*
 
+<!-- lilylet-begin: media/2025/07/Scale-Degree-Names-Derivation-1024x228.png -->
+Lilylet transcription of the example above ([Scale-Degree-Names-Derivation-1024x228.lyl](../lilylet/images/2025/07/Scale-Degree-Names-Derivation-1024x228.lyl)):
+
+```lyl.play
+[title "A♭ major scale arranged to show the derivation of scale-degree names"]
+
+\omit Score.TimeSignature \omit Score.BarLine \clef "bass" df,,1^\markup "fifth" f^\markup "third" gf^\markup "second" af bf^\markup "second" c^\markup "third" ef^\markup "fifth" \undo \omit Score.BarLine \bar "|"
+\addlyrics { subdominant submediant subtonic tonic supertonic mediant dominant } | %1
+```
+<!-- lilylet-end -->
 You can practice matching scale degrees, solfège solmization, and scale-degree names of major keys in the following exercise:
 
 > **Practice**
@@ -120,12 +160,55 @@ Key signatures collect the accidentals in a scale and place them at the beginnin
 
 ![Example 9. A key signature goes after a clef, but before a time signature.](../media/2019/05/Screen-Shot-2020-06-08-at-12.17.31-PM.png)*Example 9. A key signature goes after a clef, but before a time signature.*
 
+<!-- lilylet-begin: media/2019/05/Screen-Shot-2020-06-08-at-12.17.31-PM.png -->
+Lilylet transcription of the example above ([Screen-Shot-2020-06-08-at-12.17.31-PM.lyl](../lilylet/images/2019/05/Screen-Shot-2020-06-08-at-12.17.31-PM.lyl)):
+
+```lyl.play
+[title "Key signature after the clef, before the time signature (E♭ major, bass clef)"]
+
+\key ef \major \numericTimeSignature \time 4/4 \clef "bass" R1 | %1
+```
+<!-- lilylet-end -->
 ![Example 10. Both Bs are flat, regardless of octave.](../media/2019/05/Screen-Shot-2020-06-08-at-12.28.24-PM.png)*Example 10. Both Bs are flat, regardless of octave.*
 
+<!-- lilylet-begin: media/2019/05/Screen-Shot-2020-06-08-at-12.28.24-PM.png -->
+Lilylet transcription of the example above ([Screen-Shot-2020-06-08-at-12.28.24-PM.lyl](../lilylet/images/2019/05/Screen-Shot-2020-06-08-at-12.28.24-PM.lyl)):
+
+```lyl.play
+[title "Both Bs are flat, regardless of octave (E♭ major, bass clef)"]
+
+\key ef \major \numericTimeSignature \time 4/4 \clef "bass" bf,2 bf' | %1
+```
+<!-- lilylet-end -->
 Flat key signatures have a specific order in which flats are added, and the same is true of the sharps in sharp key signatures. These orders apply regardless of clef. Example 11 shows the order of sharps and flats in the four most common clefs:
 
 ![Example 11. The order of sharps and flats in treble, bass, alto, and tenor clefs.](../media/2019/05/Screen-Shot-2020-06-08-at-1.11.04-PM.png)*Example 11. The order of sharps and flats in treble, bass, alto, and tenor clefs.*
 
+<!-- lilylet-begin: media/2019/05/Screen-Shot-2020-06-08-at-1.11.04-PM.png -->
+Lilylet transcription of the example above ([Screen-Shot-2020-06-08-at-1.11.04-PM.md](../lilylet/images/2019/05/Screen-Shot-2020-06-08-at-1.11.04-PM.md)):
+
+The order of sharps (top row of the image) and flats (bottom row) in treble, bass, alto, and tenor clefs. The image shows each row on one staff with clef changes and double barlines; here each clef is on its own staff.
+
+```lyl.play
+[title "Order of sharps in treble, bass, alto, and tenor clefs"]
+[staves ",,,"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key cs \major \clef "treble" s1 \\\\
+\clef "bass" s1 \\\\
+\clef "alto" s1 \\\\
+\clef "tenor" s1 | %1
+```
+
+```lyl.play
+[title "Order of flats in treble, bass, alto, and tenor clefs"]
+[staves ",,,"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key cf \major \clef "treble" s1 \\\\
+\clef "bass" s1 \\\\
+\clef "alto" s1 \\\\
+\clef "tenor" s1 | %1
+```
+<!-- lilylet-end -->
 The order of sharps is always F, C, G, D, A, E, B. This can be remembered with the mnemonic “Fat Cats Go Down Alleys (to) Eat Birds.” The sharps form a zig-zag pattern, alternating going down and up. In the treble, bass, and alto clefs, this pattern “breaks” after D♯ and then resumes. In the tenor clef, there is no break, but F♯ and G♯ appear in the lower octave instead of the upper octave.
 
 The order of the flats is the opposite of the order of the sharps: B, E, A, D, G, C, F. This makes the order of flats and sharps palindromes. The order of flats can be remembered with this mnemonic: “Birds Eat And Dive Going Copiously Far.” The flats always make a perfect zig-zag pattern, alternating going up and down, regardless of clef, as seen in Example 11.
@@ -134,6 +217,29 @@ There are easy ways to remember which key signature belongs to which major scale
 
 ![Example 12. Three different sharp key signatures in treble, bass, and alto clefs.](../media/2019/05/sharp-sigs.png)*Example 12. Three different sharp key signatures in treble, bass, and alto clefs.*
 
+<!-- lilylet-begin: media/2019/05/sharp-sigs.png -->
+Lilylet transcription of the example above ([sharp-sigs.md](../lilylet/images/2019/05/sharp-sigs.md)):
+
+Three different sharp key signatures in treble, bass, and alto clefs (the numbers 1–3 are boxed in the original).
+
+```lyl.play
+[title "Sharp key signature 1: one sharp, treble clef"]
+
+\omit Score.TimeSignature \key g \major \clef "treble" ^\markup "1" s1 \bar "|" | %1
+```
+
+```lyl.play
+[title "Sharp key signature 2: three sharps, bass clef"]
+
+\omit Score.TimeSignature \key a \major \clef "bass" ^\markup "2" s1 \bar "|" | %1
+```
+
+```lyl.play
+[title "Sharp key signature 3: six sharps, alto clef"]
+
+\omit Score.TimeSignature \key fs \major \clef "alto" ^\markup "3" s1 \bar "|" | %1
+```
+<!-- lilylet-end -->
 1. The last sharp (in this case the only sharp), F♯, is a half step below the note G. Therefore, this is the key signature of G major.
 2. The last sharp, G♯, is a half step below the note A. Therefore, this is the key signature of A major.
 3. The last sharp, E♯, is a half step below the note F♯. Therefore, this is the key signature of F♯ major.
@@ -142,6 +248,29 @@ In flat key signatures, the second-to-last flat is the tonic (the first note of 
 
 ![Example 13. Three different flat key signatures in bass, treble, and tenor clefs.](../media/2019/05/flat-sigs.png)*Example 13. Three different flat key signatures in bass, treble, and tenor clefs.*
 
+<!-- lilylet-begin: media/2019/05/flat-sigs.png -->
+Lilylet transcription of the example above ([flat-sigs.md](../lilylet/images/2019/05/flat-sigs.md)):
+
+Three different flat key signatures in bass, treble, and tenor clefs (the numbers 1–3 are boxed in the original).
+
+```lyl.play
+[title "Flat key signature 1: two flats, bass clef"]
+
+\omit Score.TimeSignature \key bf \major \clef "bass" ^\markup "1" s1 \bar "|" | %1
+```
+
+```lyl.play
+[title "Flat key signature 2: four flats, treble clef"]
+
+\omit Score.TimeSignature \key af \major \clef "treble" ^\markup "2" s1 \bar "|" | %1
+```
+
+```lyl.play
+[title "Flat key signature 3: five flats, tenor clef"]
+
+\omit Score.TimeSignature \key df \major \clef "tenor" ^\markup "3" s1 \bar "|" | %1
+```
+<!-- lilylet-end -->
 1. The second-to-last flat in this key signature is B♭. Therefore, this is the key signature of B♭ major.
 2. The second-to-last flat is A♭. Therefore, this is the key signature of A♭ major.
 3. The second-to-last flat is G♭. Therefore, this is the key signature of G♭ major.
@@ -150,16 +279,129 @@ There are two key signatures that have no “tricks” that you will simply have
 
 [![Example 14. The key signatures of C major (top) and F major (bottom).](../media/2019/05/cmajfmaj-e1659817325208.png)](../media/2019/05/cmajfmaj.png)*Example 14. The key signatures of C major (top) and F major (bottom).*
 
+<!-- lilylet-begin: media/2019/05/cmajfmaj-e1659817325208.png -->
+Lilylet transcription of the example above ([cmajfmaj-e1659817325208.md](../lilylet/images/2019/05/cmajfmaj-e1659817325208.md)):
+
+The key signatures of C major (top: treble clef, no sharps or flats) and F major (bottom: bass clef, one flat).
+
+```lyl.play
+[title "Key signature of C major (treble clef)"]
+
+\omit Score.TimeSignature \key c \major \clef "treble" s1 \bar "|" | %1
+```
+
+```lyl.play
+[title "Key signature of F major (bass clef)"]
+
+\omit Score.TimeSignature \key f \major \clef "bass" s1 \bar "|" | %1
+```
+<!-- lilylet-end -->
 Example 15 shows the key signature for C major (no sharps or flats) followed by all of the sharp key signatures in order in all four clefs: G, D, A, E, B, F♯, and C♯ major.
 
 ![](../media/2021/06/Sharp-Key-Signatures.png)
 
+<!-- lilylet-begin: media/2021/06/Sharp-Key-Signatures.png -->
+Lilylet transcription of the example above ([Sharp-Key-Signatures.lyl](../lilylet/images/2021/06/Sharp-Key-Signatures.lyl)):
+
+```lyl.play
+[title "Sharp key signatures (C major to C♯ major) in treble, bass, alto, and tenor clefs"]
+[staves ",,,"]
+
+\time 1/4 \omit Score.TimeSignature \key c \major \clef "treble" s4 \bar "||" \\\\
+\clef "bass" s4 \bar "||" \\\\
+\clef "alto" s4 \bar "||" \\\\
+\clef "tenor" s4 \bar "||" | %1
+
+\key g \major s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %2
+
+\key d \major s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %3
+
+\key a \major s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %4
+
+\key e \major s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %5
+
+\key b \major s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %6
+
+\key fs \major s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %7
+
+\key cs \major s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %8
+```
+<!-- lilylet-end -->
 Example 15. The key signatures of C, G, D, A, E, B, F♯, and C♯ in all four clefs.
 
 Example 16  first shows the key signature for C major (no sharps or flats), then all of the flat key signatures in order in all four clefs: F, B♭, E♭, A♭, D♭, G♭, and C♭ major.
 
 ![Example 16. The key signatures of C, F, B♭, E♭, A♭, D♭, G♭, and C♭ in all four clefs.](../media/2019/05/Screen-Shot-2020-06-08-at-1.57.09-PM-300x225.png)*Example 16. The key signatures of C, F, B♭, E♭, A♭, D♭, G♭, and C♭ in all four clefs.*
 
+<!-- lilylet-begin: media/2019/05/Screen-Shot-2020-06-08-at-1.57.09-PM-300x225.png -->
+Lilylet transcription of the example above ([Screen-Shot-2020-06-08-at-1.57.09-PM-e1658435818939.lyl](../lilylet/images/2019/05/Screen-Shot-2020-06-08-at-1.57.09-PM-e1658435818939.lyl)):
+
+```lyl.play
+[title "Flat minor key signatures (A minor to A♭ minor) in treble, bass, alto, and tenor clefs"]
+[staves ",,,"]
+
+\time 1/4 \omit Score.TimeSignature \key a \minor \clef "treble" s4 \bar "||" \\\\
+\clef "bass" s4 \bar "||" \\\\
+\clef "alto" s4 \bar "||" \\\\
+\clef "tenor" s4 \bar "||" | %1
+
+\key d \minor s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %2
+
+\key g \minor s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %3
+
+\key c \minor s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %4
+
+\key f \minor s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %5
+
+\key bf \minor s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %6
+
+\key ef \minor s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %7
+
+\key af \minor s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %8
+```
+<!-- lilylet-end -->
 Example 16 first shows the key signature of C major (with no sharps or flats), and then the key signatures of F, B♭, E♭, A♭, D♭, G♭, and C♭ in all four clefs.
 
 There is one other “trick” that might make memorization of the key signatures easier: C major is the key signature with no sharps or flats, C♭ major is the key signature with every note flat (7 flats total), and C♯ major is the key signature with every note sharp (7 sharps total).

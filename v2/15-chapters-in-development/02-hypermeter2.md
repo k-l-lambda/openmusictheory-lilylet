@@ -80,6 +80,69 @@ Example 4 shows a score excerpt from Scott Joplin’s “Harmony Club Waltz” (
 
 [![This is a the score of Scott Joplin's "Harmony Club Waltz" with they hyperbeats shown between the staves of the measures and each hypermeasure is grouped with a bracket and label that captures which hypermeasure it is part of.](../media/2025/08/hypermeter_joplin_1.png)](https://www.brianedwardjarvis.com/TheoryTopics/images/hypermeter_joplin_1.png)
 
+<!-- lilylet-begin: media/2025/08/hypermeter_joplin_1.png -->
+Lilylet transcription of the example above ([hypermeter_joplin_1.lyl](../lilylet/images/2025/08/hypermeter_joplin_1.lyl)):
+
+```lyl.play
+[title "Harmony Club Waltz, hypermeter"]
+[composer "Scott Joplin"]
+[staves "{-}"]
+
+\staff "1" \omit Score.TimeSignature \key bf \major \time 4/4 \clef "treble" \stemUp <f bf d f>4\arpeggio <d f bf d>\arpeggio \stemDown <a' c ef g>\arpeggio <a c ef f>\arpeggio \\
+\staff "2" \clef "bass" \stemUp <f,, f'>4 \stemDown <bf bf'> \stemUp <f f'> \stemDown <f' a c f> | %1
+
+\staff "1" \stemDown <bf' d f bf>4 <c ef g c>8[ <cs g' cs>] <d fs a d>4 <d fs a d>\fermata \bar ".|:" \\
+\staff "2" \stemDown <bf, bf'>4 \stemUp <g g'>8[ <ef ef'>] <d d'>4 <d d'>\fermata \bar ".|:" | %2
+
+\staff "1" \undo \omit Score.TimeSignature \time 3/4 \tempo "Waltz" \stemDown <a' c ef>2\segno^\markup "Hypermeasure 1" <a c ef f>4 \\
+\staff "2" \stemUp f,,4^\markup "1" \stemDown <f' a c ef> <f a c ef> | %3
+
+\staff "1" \stemDown <a' c ef g>2 <a c ef f>4 \\
+\staff "2" \stemUp f,,4^\markup "2" \stemDown <f' a c ef> <f a c ef> | %4
+
+\staff "1" \stemDown <bf' d>2 <bf d f>4 \\
+\staff "2" \stemUp bf,4^\markup "3" \stemDown <f' bf d> <f bf d> | %5
+
+\staff "1" \stemDown <bf' d g>2 <bf d f>4 \\
+\staff "2" \stemDown d,4^\markup "4" <f bf d> <f bf d> | %6
+
+\staff "1" \stemDown <a' c ef a>8[^\markup "Hypermeasure 2" <a c ef a>] <a c ef a>4. <a c ef a>8 \\
+\staff "2" \stemUp f,,4^\markup "1" \stemDown <f' a c ef> <f a c ef> | %7
+
+\staff "1" \stemDown <a' c ef a>2 <a c ef g>4 \\
+\staff "2" \stemUp f,,4^\markup "2" \stemDown <f' a c ef> <f a c ef> | %8
+
+\staff "1" \stemDown <bf' d g>8[ <bf d g>] <bf d g>4. <bf d g>8 \\
+\staff "2" \stemUp bf,4^\markup "3" \stemDown <f' bf d> <f bf d> | %9
+
+\staff "1" \stemDown <bf' d g>2. \\
+\staff "2" \stemDown d,4^\markup "4" <f bf d> <f bf d> | %10
+
+\staff "1" \stemDown <a' c ef>2^\markup "Hypermeasure 3" <a c ef f>4 \\
+\staff "2" \stemUp f,,4^\markup "1" \stemDown <f' a c ef> <f a c ef> | %11
+
+\staff "1" \stemDown <a' c ef g>2 <a c ef f>4 \\
+\staff "2" \stemUp f,,4^\markup "2" \stemDown <f' a c ef> <f a c ef> | %12
+
+\staff "1" \stemDown <bf' d>2 <bf d f>4 \\
+\staff "2" \stemUp bf,4^\markup "3" \stemDown <f' bf d> <f bf d> | %13
+
+\staff "1" \stemDown <bf' d g>2 <gs d' f>4 \\
+\staff "2" \stemUp bf,4^\markup "4" \stemDown <f' bf d> \stemUp <b,, b'> | %14
+
+\staff "1" \stemDown <c' f a>8[^\markup "Hypermeasure 4" <c f a>] <c f a>2 \\
+\staff "2" \stemUp <c,, c'>4^\markup "1" \stemDown <a'' c f> <a c f> | %15
+
+\staff "1" \stemDown <bf' e g>8[ <bf e g>] <bf e g>2 \\
+\staff "2" \stemUp <c,, c'>4^\markup "2" \stemDown <bf'' c e> <bf c e> | %16
+
+\staff "1" \stemDown f'8[ c a' f c a] \\
+\staff "2" \stemUp <f,, f'>4^\markup "3" \stemDown <a' c f> <a c f> | %17
+
+\staff "1" \stemUp f2. \bar ":|." \\
+\staff "2" \stemUp <f,, f'>4^\markup "4" \stemDown <f' a c ef> <f a c ef> \bar ":|." | %18
+```
+<!-- lilylet-end -->
 Example 4. Mm. 9–16 with hypermetrical counts written between the staves in Scott Joplin’s “Harmony Club Waltz” ([0:26](https://open.spotify.com/track/1A2Lc1129R4FrhOrdoKftx?si=54575d35db5341a0)).
 
 [![Example 5 . Regular speed version of Scott Joplin’s “Harmony Club Waltz.” Click to view interactive example.](../media/2025/06/joplin-harmony-club-waltz-briformer-regular-speed-e1755793961185-300x46.png)](https://www.brianedwardjarvis.com/MusicTheoryWebApps/BriFormer/briformer_editor.html?activity_type=load_from_web_link_audio_file&shared_briform_id=v_1_0/brian_custom/Joplin_-_HarmonyClubWaltz_Cropped_Regular_Speed)*Example 5. Regular speed version of Scott Joplin’s “Harmony Club Waltz.” Click to view interactive example.*

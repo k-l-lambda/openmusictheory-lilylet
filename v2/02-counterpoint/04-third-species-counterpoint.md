@@ -81,6 +81,26 @@ Dissonances in third species can occur on beat 2, 3, or 4, and should be preced
 
 ![Example 2. Third-species dissonance types.](../media/2020/01/Dissonance.png)*Example 2. Third-species dissonance types.*
 
+<!-- lilylet-begin: media/2020/01/Dissonance.png -->
+Lilylet transcription of the example above ([Dissonance.lyl](../lilylet/images/2020/01/Dissonance.lyl)):
+
+```lyl.play
+[title "Dissonance: third-species dissonance types"]
+
+\omit Score.TimeSignature \time 4/4 \key c \major \clef "treble" d'4^\markup "Passing" c b a
+\addlyrics { _ P _ _ } \\
+d1 \bar "|." | %1
+b'4^\markup "Neighbour" c b a
+\addlyrics { _ N _ _ } \\
+d1 \bar "|." | %2
+c'4^\markup "Double Neighbour" d b c
+\addlyrics { _ N N _ } \\
+c1 \bar "|." | %3
+d'4^\markup "Nota Cambiata" c a b
+\addlyrics { _ * _ _ } \\
+d1 \bar "|." | %4
+```
+<!-- lilylet-end -->
 - The dissonant passing tone fills in the space of a melodic third via stepwise motion. The notes before and after the passing tone must be consonant with the cantus firmus. However, it is possible to have two dissonant passing tones in a row (P4–d5 or d5–P4). As long as these dissonances do not fall on downbeats and the counterpoint moves in stepwise motion in a single direction, there is no negative effect.
 - The dissonant neighbor tone ornaments a consonant tone by stepping away and stepping back to the original consonance (6–7–6 over the cantus, for example). It is melodically identical to the consonant neighbor tone of second species, with the difference being the harmonic dissonance. Employing it on a weak beat (2 or 4) ensures the greatest smoothness.
 - The double neighbor occurs when beats 1 and 4 in the counterpoint are the same tone, and beats 2 and 3 include the notes a step higher and a step lower than the original tone: for example, C–D–B–C or C–B–D–C. Both beats 2 and 3 are dissonant, but since both are embellishing the original tone by step, the leap between them does not significantly diminish the smoothness of the line. When using a double neighbor, the direction between beats 3 and 4 should be the same as between beat 4 and the following downbeat. That motion across the bar line should also be stepwise. This further maintains smoothness to temper the effect of the dissonances.

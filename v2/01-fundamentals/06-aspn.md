@@ -29,12 +29,31 @@ ASPN differentiates between octaves, beginning with the pitch C and ending with 
 
 ![Example 1. ASPN octave designations; each octave begins with the pitch C.](../media/2019/05/Scientific_pitch_notation_octaves_of_C.png)*Example 1. ASPN octave designations; each octave begins with the pitch C.*
 
+<!-- lilylet-begin: media/2019/05/Scientific_pitch_notation_octaves_of_C.png -->
+Lilylet transcription of the example above ([Scientific_pitch_notation_octaves_of_C.lyl](../lilylet/images/2019/05/Scientific_pitch_notation_octaves_of_C.lyl)):
+
+```lyl.play
+[title "ASPN octave designations: octaves of C (C0–C9)"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "bass" c,,,,4 c' c' c' \clef "treble" c' c' c' c' c' c' \undo \omit Score.BarLine \bar "|"
+\addlyrics { C0 C1 C2 C3 C4 C5 C6 C7 C8 C9 } | %1
+```
+<!-- lilylet-end -->
  
 
 All letter names within an octave (below the C of the next octave) receive the same octave designation. For example, all of the notes in Example 2 would be designated in the 4 octave, because they are above C<sub>4</sub> but below C5. Accidentals applied to a note do not have an effect on its ASPN number. For example, B♯<sub>3</sub> and C<sub>4</sub> have different octave numbers despite being enharmonically equivalent, because the B♯ is still considered part of the lower octave.
 
 ![Example 2. The notes C 4 , D 4 , E 4 , F 4 , G 4 , A 4 , and B 4 .](../media/2019/05/Screen-Shot-2019-07-24-at-3.50.53-PM.png)*Example 2. The notes C<sub>4</sub>, D<sub>4</sub>, E<sub>4</sub>, F<sub>4</sub>, G<sub>4</sub>, A<sub>4</sub>, and B<sub>4</sub>.*
 
+<!-- lilylet-begin: media/2019/05/Screen-Shot-2019-07-24-at-3.50.53-PM.png -->
+Lilylet transcription of the example above ([Screen-Shot-2019-07-24-at-3.50.53-PM.lyl](../lilylet/images/2019/05/Screen-Shot-2019-07-24-at-3.50.53-PM.lyl)):
+
+```lyl.play
+[title "C4 to B4 (treble clef)"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" c4 d e f g a b \undo \omit Score.BarLine \bar "|" | %1
+```
+<!-- lilylet-end -->
 You can practice ASPN notation in all clefs in the following exercise:
 
 > **Practice**

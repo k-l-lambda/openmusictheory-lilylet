@@ -39,6 +39,29 @@ Overall, I’d say that the sound and usage of III+ typically suggests a dominan
 
 ![Example 1. Extract from the start of Schubert’s “Der Atlas” (from Schwanengesang , D.957), showing the augmented triad III+ (possibly, depending on your analytical viewpoint) and certainly how closely related this chord is to both V and i.](../media/2020/01/Atlas.png)*Example 1. Extract from the start of Schubert’s “Der Atlas” (from *Schwanengesang*, D.957), showing the augmented triad III+ (possibly, depending on your analytical viewpoint) and certainly how closely related this chord is to both V and i.*
 
+<!-- lilylet-begin: media/2020/01/Atlas.png -->
+Lilylet transcription of the example above ([Atlas.lyl](../lilylet/images/2020/01/Atlas.lyl)):
+
+```lyl.play
+[title "Der Atlas, D. 957 No. 8 (opening)"]
+[composer "Franz Schubert"]
+[staves "<voice> {pr-pl}"]
+[instrument-voice "Voice"]
+[instrument-pr-pl "Piano"]
+
+\key g \minor \time 3/4 \tempo "Etwas geschwind" \clef "treble" R2. \\\\
+\staff "1" \clef "bass" <g bf>32[ d' <g, bf> d' <g, bf> d' <g, bf> d'] <g, bf>[ d' <g, bf> d' <g, bf> d' <g, bf> d'] <g, bf>[ d' <g, bf> d' <g, bf> d' <g, bf> d'] \\
+\staff "2" \clef "bass" <g,, g'>4\f <g g'> r8. <bf bf'>16 | %1
+
+R2. \\\\
+\staff "1" <fs, bf>32[\> d' <fs, bf> d' <fs, bf> d' <fs, bf> d'\!] \repeat tremolo 8 { <g, bf>32 d' } \\
+\staff "2" <fs,,, fs'>4( <g g'>) r8. <bf bf'>16 | %2
+
+R2. \\\\
+\staff "1" <fs, bf>32[\> d' <fs, bf> d' <fs, bf> d' <fs, bf> d'\!] \repeat tremolo 8 { <g, bf>32 d' } \\
+\staff "2" <fs,,, fs'>4( <g g'>) r8. d'16 | %3
+```
+<!-- lilylet-end -->
 Here is the entire song:
 
 🎼 [MuseScore score](https://musescore.com/user/27638568/scores/4985985)
@@ -59,6 +82,64 @@ This may be true in the general case, though that’s not to say there aren’t 
 
 ![Example 2. A prominent augmented chord in the “Fecit Potentiam” of Bach’s Magnificat with a possible harmonic reading of this passage that sees the augmented triad setting up a deceptive cadence in the middle of a passage in V minor enclosed by two secondary dominants, vii o7 /v.](../media/2020/01/Bach.png)*Example 2. A prominent augmented chord in the “Fecit Potentiam” of Bach’s Magnificat with a possible harmonic reading of this passage that sees the augmented triad setting up a deceptive cadence in the middle of a passage in V minor enclosed by two secondary dominants, vii<sup>o7</sup>/v.*
 
+<!-- lilylet-begin: media/2020/01/Bach.png -->
+Lilylet transcription of the example above ([Bach.lyl](../lilylet/images/2020/01/Bach.lyl)):
+
+```lyl.play
+[title "Magnificat, BWV 243: Fecit potentiam (augmented triad as III+6)"]
+[composer "Johann Sebastian Bach"]
+[staves "<s1-s2-a-t-b> {pr-pl}"]
+[instrument-s1 "Soprano I" "S I"]
+[instrument-s2 "Soprano II" "S II"]
+[instrument-a "Alto" "A"]
+[instrument-t "Tenor" "T"]
+[instrument-b "Bass" "B"]
+[instrument-pr-pl "Reduction"]
+
+\omit Score.TimeSignature \key d \major \time 4/4 \clef "treble" r4 r8 r16 cs'16 gs'8[ gs] r4
+\addlyrics { su -- per -- bos } \\\\
+\clef "treble" r4 r8 r16 a'16 d8[ d] r4
+\addlyrics { su -- per -- bos } \\\\
+\clef "treble" e8[ cs] r r16 e b'8[ b] r4
+\addlyrics { sper -- sit su -- per -- bos } \\\\
+\clef "treble_8" r8 e' cs[ a16 cs] b8[ gs] r4
+\addlyrics { di -- sper -- sit su -- per -- bos } \\\\
+\clef "bass" r4 r8 r16 a16 es8[ es] r4
+\addlyrics { su -- per -- bos } \\\\
+\staff "1" \clef "treble" <a' cs>16[ <e a> <cs e a> <e a cs>] <a cs e>[ <e a> <e a cs> <a cs e>] <gs b d gs>8[ <gs b d gs>] r4
+\addlyrics { "[D: V]" _ _ _ _ _ _ _ "b: viio7/v" _ } \\
+\staff "2" \clef "bass" r4 r16 e,[ cs a] es8[ es'] r4 | %1
+
+r4 fs'2 d4
+\addlyrics { men -- te } \\\\
+r4 d'2 as4
+\addlyrics { men -- te } \\\\
+r4 fs2 fs4
+\addlyrics { men -- te } \\\\
+r4 as'2 fs4
+\addlyrics { men -- te } \\\\
+r4 fs,2 fs4
+\addlyrics { men -- te } \\\\
+\staff "1" \stemUp r4 <fs as d fs>2 <fs as d fs>4
+\addlyrics { III+6 _ } \\
+\staff "1" \stemDown s4 d'4. e8[ fs d] \\
+\staff "2" r4 fs,,2 fs4 | %2
+
+b'2 b
+\addlyrics { cor -- dis } \\\\
+b'2 d,
+\addlyrics { cor -- dis } \\\\
+fs2 es
+\addlyrics { cor -- dis } \\\\
+d'2 b
+\addlyrics { cor -- dis } \\\\
+g2 gs
+\addlyrics { cor -- dis } \\\\
+\staff "1" <fs b d fs>2 <gs b d es>
+\addlyrics { VI7 viio65/v } \\
+\staff "2" g,2 gs | %3
+```
+<!-- lilylet-end -->
 ## Chromatic passing chord
 
 Although there is only one diatonic form of the augmented triad (III+ in minor), there are clearly many more possibilities when we expand the remit to include chromatic alterations. Here too, however, some are more common than others. A particularly favored use sees the augmented chord as part of a chromatic passing motion from V to I in major, with the whole-tone step from $\hat2$ to $\hat3$ “filled in” with a chromatic semitone motion that gives a fleeing . This can appear in several ways:
@@ -74,6 +155,41 @@ Example 3, from Fanny Mendelssohn Hensel’s *Gondellied* (6 Lieder, Op. 1, no. 
 
 ![Example 3. Extract from Fanny Mendelssohn Hensel’s Gondellied (6 Lieder, Op. 1, no. 6)](../media/2020/01/Hensel-Extract.png)*Example 3. Extract from Fanny Mendelssohn Hensel’s *Gondellied* (6 Lieder, Op. 1, no. 6)*
 
+<!-- lilylet-begin: media/2020/01/Hensel-Extract.png -->
+Lilylet transcription of the example above ([Hensel-Extract.lyl](../lilylet/images/2020/01/Hensel-Extract.lyl)):
+
+```lyl.play
+[title "Gondellied, Op. 1 No. 6 (mm. 18-21)"]
+[composer "Fanny Mendelssohn Hensel"]
+[staves "<voice> {pr-pl}"]
+[instrument-voice "Voice"]
+[instrument-pr-pl "Piano"]
+
+\omit Score.TimeSignature \key a \major \time 6/8 \clef "treble" as'8 b as e'4 as,8
+\addlyrics { mit in die Lust hin -- }
+\addlyrics { zu -- rück die See -- le } \\\\
+\staff "1" \clef "treble" <e as>8[ <e as> <e as>] <e e'>4 <e as>8 \\
+\staff "2" \clef "bass" <e, g cs>8[ <e g cs> <e g cs>] <e g cs>4 <e g cs>8 | %18
+
+b'4.^\<( bs4.)\!
+\addlyrics { ein, }
+\addlyrics { nicht, } \\\\
+\staff "1" <fs b>4. <e bs'>4 d8\p \\
+\staff "2" <ds, fs b>4 a'8 <e gs>4. | %19
+
+cs'8^\p e, a cs4.
+\addlyrics { o komm zu mir }
+\addlyrics { o komm zu mir } \\\\
+\staff "1" <cs cs'>16[ e' a b cs b] a[ e cs a e a] \\
+\staff "2" <a, e' a>8[ e' a] <cs e>4. | %20
+
+e8 a cs^\markup "cresc." e4.
+\addlyrics { wenn durch die Nacht, }
+\addlyrics { wenn durch die Nacht, } \\\\
+\staff "1" cs'16[ e a b cs b] a[ e cs a e a] \\
+\staff "2" g,8[ e' a] <cs e>4. | %21
+```
+<!-- lilylet-end -->
 Here is the entire song:
 
 🎼 [MuseScore score](https://musescore.com/user/27638568/scores/5101361)

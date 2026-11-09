@@ -31,10 +31,28 @@ The treble clef is one of the most commonly used clefs today. Example 1 shows th
 
 ![Example 1. The letter names for the lines with a treble clef.](../media/2019/05/Screen-Shot-2019-05-29-at-10.28.19-AM.png)*Example 1. The letter names for the lines with a treble clef.*
 
+<!-- lilylet-begin: media/2019/05/Screen-Shot-2019-05-29-at-10.28.19-AM.png -->
+Lilylet transcription of the example above ([Screen-Shot-2019-05-29-at-10.28.19-AM.lyl](../lilylet/images/2019/05/Screen-Shot-2019-05-29-at-10.28.19-AM.lyl)):
+
+```lyl.play
+[title "Treble clef: letter names of the lines"]
+
+\omit Score.TimeSignature \clef "treble" e4^\markup "E" g^\markup "G" b^\markup "B" d^\markup "D" f^\markup "F" | %1
+```
+<!-- lilylet-end -->
 Example 2 shows the letter names used for the spaces of a staff with a treble clef. Remembering that these letter names spell the word “face” may make identifying these spaces easier.
 
 ![Example 2. The letter names for the spaces with a treble clef.](../media/2019/05/Screen-Shot-2019-05-29-at-10.28.23-AM.png)*Example 2. The letter names for the spaces with a treble clef.*
 
+<!-- lilylet-begin: media/2019/05/Screen-Shot-2019-05-29-at-10.28.23-AM.png -->
+Lilylet transcription of the example above ([Screen-Shot-2019-05-29-at-10.28.23-AM.lyl](../lilylet/images/2019/05/Screen-Shot-2019-05-29-at-10.28.23-AM.lyl)):
+
+```lyl.play
+[title "Treble clef: letter names of the spaces"]
+
+\omit Score.TimeSignature \clef "treble" f4^\markup "F" a^\markup "A" c^\markup "C" e^\markup "E" \bar "|." | %1
+```
+<!-- lilylet-end -->
 Example 3 shows an octave treble clef. Notice the small “8” at the bottom of the clef:
 
 ![Example 3. An octave treble clef with an “8” at the bottom of the clef.](../media/2025/06/Octave-Treble-Clef-8-Below-e1750256723896.jpeg)*Example 3. An octave treble clef with an “8” at the bottom of the clef.*
@@ -55,30 +73,84 @@ The other most commonly used clef today is the bass clef. Example 6 shows the l
 
 ![Example 6. The letter names for the lines with a bass clef.](../media/2019/05/Screen-Shot-2019-05-29-at-11.00.29-AM.png)*Example 6. The letter names for the lines with a bass clef.*
 
+<!-- lilylet-begin: media/2019/05/Screen-Shot-2019-05-29-at-11.00.29-AM.png -->
+Lilylet transcription of the example above ([Screen-Shot-2019-05-29-at-11.00.29-AM.lyl](../lilylet/images/2019/05/Screen-Shot-2019-05-29-at-11.00.29-AM.lyl)):
+
+```lyl.play
+[title "Bass clef: letter names of the lines"]
+
+\omit Score.TimeSignature \clef "bass" g,4^\markup "G" b^\markup "B" d^\markup "D" f^\markup "F" a^\markup "A" | %1
+```
+<!-- lilylet-end -->
 Example 7 shows the letter names used for the spaces of a staff with a bass clef. The mnemonic device “All Cows Eat Grass” (A, C, E, G) may make identifying these spaces easier.
 
 ![Example 7. The letter names for the spaces with a bass clef.](../media/2019/05/Screen-Shot-2019-05-29-at-11.00.34-AM.png)*Example 7. The letter names for the spaces with a bass clef.*
 
+<!-- lilylet-begin: media/2019/05/Screen-Shot-2019-05-29-at-11.00.34-AM.png -->
+Lilylet transcription of the example above ([Screen-Shot-2019-05-29-at-11.00.34-AM.lyl](../lilylet/images/2019/05/Screen-Shot-2019-05-29-at-11.00.34-AM.lyl)):
+
+```lyl.play
+[title "Bass clef: letter names of the spaces"]
+
+\omit Score.TimeSignature \clef "bass" a,4^\markup "A" c^\markup "C" e^\markup "E" g^\markup "G" \bar "|." | %1
+```
+<!-- lilylet-end -->
 ## Reading Alto Clef
 
 Example 8 shows the letter names used for the lines of the staff with the alto clef, which is less commonly used today. The mnemonic device “Fat Alley Cats Eat Garbage” (F, A, C, E, G) may help you remember this order of letter names. As seen in Example 8, the center of the alto clef is indented around the C line (the middle line). For this reason it is sometimes called a “C clef.”
 
 ![Example 8. The letter names for the lines with an alto clef.](../media/2019/05/Screen-Shot-2019-05-29-at-11.10.40-AM.png)*Example 8. The letter names for the lines with an alto clef.*
 
+<!-- lilylet-begin: media/2019/05/Screen-Shot-2019-05-29-at-11.10.40-AM.png -->
+Lilylet transcription of the example above ([Screen-Shot-2019-05-29-at-11.10.40-AM.lyl](../lilylet/images/2019/05/Screen-Shot-2019-05-29-at-11.10.40-AM.lyl)):
+
+```lyl.play
+[title "Alto clef: letter names of the lines"]
+
+\omit Score.TimeSignature \clef "alto" f,4^\markup "F" a^\markup "A" c^\markup "C" e^\markup "E" g^\markup "G" | %1
+```
+<!-- lilylet-end -->
 Example 9 shows the letter names used for the spaces of a staff with an alto clef, which can be remembered with the mnemonic device “Grand Boats Drift Flamboyantly” (G, B, D, F).
 
 ![Example 9. The letter names for the spaces with an alto clef.](../media/2019/05/Screen-Shot-2019-05-29-at-11.10.45-AM.png)*Example 9. The letter names for the spaces with an alto clef.*
 
+<!-- lilylet-begin: media/2019/05/Screen-Shot-2019-05-29-at-11.10.45-AM.png -->
+Lilylet transcription of the example above ([Screen-Shot-2019-05-29-at-11.10.45-AM.lyl](../lilylet/images/2019/05/Screen-Shot-2019-05-29-at-11.10.45-AM.lyl)):
+
+```lyl.play
+[title "Alto clef: letter names of the spaces"]
+
+\omit Score.TimeSignature \clef "alto" g4^\markup "G" b^\markup "B" d^\markup "D" f^\markup "F" \bar "|." | %1
+```
+<!-- lilylet-end -->
 ## Reading Tenor Clef
 
 The tenor clef, another less commonly used clef, is also sometimes called a “C clef,” but the center of the clef is indented around the second line from the top. Example 10 shows the letter names used for the lines of a staff when a tenor clef is employed, which can be remembered with the mnemonic device “Dodges, Fords, and Chevrolets Everywhere” (D, F, A, C, E):
 
 ![Example 10. The letter names for the lines with a tenor clef.](../media/2019/05/Screen-Shot-2019-05-29-at-11.27.17-AM.png)*Example 10. The letter names for the lines with a tenor clef.*
 
+<!-- lilylet-begin: media/2019/05/Screen-Shot-2019-05-29-at-11.27.17-AM.png -->
+Lilylet transcription of the example above ([Screen-Shot-2019-05-29-at-11.27.17-AM.lyl](../lilylet/images/2019/05/Screen-Shot-2019-05-29-at-11.27.17-AM.lyl)):
+
+```lyl.play
+[title "Tenor clef: letter names of the lines"]
+
+\omit Score.TimeSignature \clef "tenor" d,4^\markup "D" f^\markup "F" a^\markup "A" c^\markup "C" e^\markup "E" | %1
+```
+<!-- lilylet-end -->
 Example 11 shows the letter names used for the spaces of a staff with a tenor clef. The mnemonic device “Elvis’s Guitar Broke Down” (E, G, B, D) may make identifying these spaces easier.
 
 ![Example 11. The letter names for the spaces with a tenor clef.](../media/2019/05/Screen-Shot-2019-05-29-at-11.27.22-AM.png)*Example 11. The letter names for the spaces with a tenor clef.*
 
+<!-- lilylet-begin: media/2019/05/Screen-Shot-2019-05-29-at-11.27.22-AM.png -->
+Lilylet transcription of the example above ([Screen-Shot-2019-05-29-at-11.27.22-AM.lyl](../lilylet/images/2019/05/Screen-Shot-2019-05-29-at-11.27.22-AM.lyl)):
+
+```lyl.play
+[title "Tenor clef: letter names of the spaces"]
+
+\omit Score.TimeSignature \clef "tenor" e,4^\markup "E" g^\markup "G" b^\markup "B" d^\markup "D" \bar "|." | %1
+```
+<!-- lilylet-end -->
 You can practice identifying clefs in the following exercise:
 
 > **Practice**
@@ -97,10 +169,28 @@ When notes are too high or low to be written on a staff, small lines are drawn t
 
 ![Example 13. Ledger lines extend a staff upwards with a treble clef.](../media/2019/05/Screen-Shot-2019-05-29-at-12.05.34-PM.png)*Example 13. Ledger lines extend a staff upwards with a treble clef.*
 
+<!-- lilylet-begin: media/2019/05/Screen-Shot-2019-05-29-at-12.05.34-PM.png -->
+Lilylet transcription of the example above ([Screen-Shot-2019-05-29-at-12.05.34-PM.lyl](../lilylet/images/2019/05/Screen-Shot-2019-05-29-at-12.05.34-PM.lyl)):
+
+```lyl.play
+[title "Treble clef: ledger lines above the staff"]
+
+\omit Score.TimeSignature \clef "treble" f'4^\markup "F" g^\markup "G" a^\markup "A" b^\markup "B" c^\markup "C" | %1
+```
+<!-- lilylet-end -->
 Notice that each space and line above the staff gets a letter name with ledger lines, as if the staff were simply continuing upwards. The same is true for ledger lines below a staff, as shown in Example 14:
 
 ![Example 14. Ledger lines extend a staff downwards with a bass clef.](../media/2019/05/Screen-Shot-2019-05-29-at-12.14.51-PM.png)*Example 14. Ledger lines extend a staff downwards with a bass clef.*
 
+<!-- lilylet-begin: media/2019/05/Screen-Shot-2019-05-29-at-12.14.51-PM.png -->
+Lilylet transcription of the example above ([Screen-Shot-2019-05-29-at-12.14.51-PM.lyl](../lilylet/images/2019/05/Screen-Shot-2019-05-29-at-12.14.51-PM.lyl)):
+
+```lyl.play
+[title "Bass clef: ledger lines below the staff"]
+
+\omit Score.TimeSignature \clef "bass" g,4^\markup "G" f^\markup "F" e^\markup "E" d^\markup "D" c^\markup "C" | %1
+```
+<!-- lilylet-end -->
 Notice that each space and line below the staff gets a letter name with ledger lines, as if the staff were simply continuing downwards.
 
 ## Neutral Clef

@@ -30,6 +30,19 @@ Example 1. A seventh chord written melodically and harmonically.
 
 ![Example 2. A seventh chord with the root, third, fifth, and seventh labeled. Click to enlarge.](../media/2020/05/chord-members.png)*Example 2. A seventh chord with the root, third, fifth, and seventh labeled. Click to enlarge.*
 
+<!-- lilylet-begin: media/2020/05/chord-members.png -->
+Lilylet transcription of the example above ([chord-members.lyl](../lilylet/images/2020/05/chord-members.lyl)):
+
+```lyl.play
+[title "A seventh chord with root, third, fifth, and seventh labelled"]
+
+\omit Score.TimeSignature \key c \major \clef "bass" <a, c e g>1 \bar "|"
+\addlyrics { Seventh }
+\addlyrics { Fifth }
+\addlyrics { Third }
+\addlyrics { Root } | %1
+```
+<!-- lilylet-end -->
 Like in a triad, the lowest note of a seventh chord stacked in closed spacing is called the root, and the other notes are named for their generic intervals above the root, as shown in Example 2: the third, the fifth, and the seventh.
 
 ## Seventh Chord Qualities and Nomenclature
@@ -119,6 +132,18 @@ Example 8 shows this process for a D major-major seventh chord (D<sup>ma7</sup
 
 ![Example 8. Spelling a D major-major seventh chord in four steps.](../media/2020/05/dmaj.png)*Example 8. Spelling a D major-major seventh chord in four steps.*
 
+<!-- lilylet-begin: media/2020/05/dmaj.png -->
+Lilylet transcription of the example above ([dmaj.lyl](../lilylet/images/2020/05/dmaj.lyl)):
+
+```lyl.play
+[title "Spelling a D major-major seventh chord in four steps"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "treble" d1^\markup "1" | %1
+<d f a c>1^\markup "2" | %2
+\key d \major ^\markup "3" s1 | %3
+\key c \major <d fs a cs>1^\markup "4" \bar "|" | %4
+```
+<!-- lilylet-end -->
 1. The note D, the chord’s root, is drawn on the staff.
 2. An extra-long snowperson is drawn—an F, A, and C, the notes a generic third, fifth, and seventh above the D.
 3. The key signature of D major has been recalled. D major has two sharps, F♯ and C♯.
@@ -128,6 +153,20 @@ The quality of the next chord will require us to write additional accidentals, s
 
 ![Example 9. Spelling an A♭ fully diminished seventh chord in six steps. Click to enlarge.](../media/2020/05/abdim7.png)*Example 9. Spelling an A♭ fully diminished seventh chord in six steps. Click to enlarge.*
 
+<!-- lilylet-begin: media/2020/05/abdim7.png -->
+Lilylet transcription of the example above ([abdim7.lyl](../lilylet/images/2020/05/abdim7.lyl)):
+
+```lyl.play
+[title "Spelling an A-flat fully diminished seventh chord in six steps"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "bass" af,1^\markup "1" | %1
+<af, c e g>1^\markup "2" \bar "||" | %2
+\key af \major ^\markup "3" s1 \bar "||" | %3
+\key c \major <af, c ef g>1^\markup "4" | %4
+<af, cf eff g>1^\markup "5" | %5
+<af, cf eff gff>1^\markup "6" \bar "|" | %6
+```
+<!-- lilylet-end -->
 1. The note A♭ is written because it is the root of the triad.
 2. An extra-long snowperson is drawn: C, E, and G are added because they are a generic third, fifth, and seventh, respectively, above A♭.
 3. The key signature of A♭ major is recalled. A♭ major has four flats: B♭, E♭, A♭, and D♭.

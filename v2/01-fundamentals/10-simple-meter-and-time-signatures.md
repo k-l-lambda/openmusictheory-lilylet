@@ -137,6 +137,21 @@ Example 12. Beats that are not counted out loud are put in parentheses.
 
 ![Example 13. An anacrusis.](../media/2020/01/pickup.png)*Example 13. An anacrusis.*
 
+<!-- lilylet-begin: media/2020/01/pickup.png -->
+Lilylet transcription of the example above ([pickup.lyl](../lilylet/images/2020/01/pickup.lyl)):
+
+```lyl.play
+[title "An anacrusis"]
+
+\numericTimeSignature \time 4/4 \clef "treble" \partial 4 \stemUp f'4
+\addlyrics { 4 } | %1
+\stemUp f'4 f f f
+\addlyrics { 1 2 3 4 } | %2
+\partial 2. \stemUp f'2 f4 \bar "|." 
+\addlyrics { 1 3 } \\
+s4 s4 \stemDown _\markup "(2)" s4 | %3
+```
+<!-- lilylet-end -->
 When an example begins with a pickup note (anacrusis), your count will not begin on “1,” as shown in Example 13. An anacrusis is counted as the last note(s) of an imaginary measure. When a work begins with an anacrusis, the last measure is usually shortened by the length of the anacrusis. This is demonstrated in Example 13: the anacrusis is one quarter note in length, so the last measure is only three beats long (i.e., it is missing one quarter note).
 
 ## Counting with Beat Units of 2, 8, and 16
@@ -157,6 +172,18 @@ Example 15. Beaming in two different meters.
 
 ![Example 16. Beaming makes rhythms easier to read by showing the beat unit.](../media/2020/01/withoutbeams.png)*Example 16. Beaming makes rhythms easier to read by showing the beat unit.*
 
+<!-- lilylet-begin: media/2020/01/withoutbeams.png -->
+Lilylet transcription of the example above ([withoutbeams.lyl](../lilylet/images/2020/01/withoutbeams.lyl)):
+
+```lyl.play
+[title "Unbeamed and beamed rhythms"]
+
+\time 3/4 \clef "treble" g'4^\markup "unbeamed" g8 g g g | %1
+g'8 g16 g g g g8 g4 \bar "||" | %2
+g'4^\markup "beamed" g8[ g] g[ g] | %3
+g'8[ g16 g] g[ g g8] g4 \bar "||" | %4
+```
+<!-- lilylet-end -->
 Note that in vocal music, beaming is sometimes only used to connect notes sung on the same syllable. If you are accustomed to music without beaming, you may need to pay special attention to beaming conventions until you have mastered them. In the top staff of Example 16, the eighth notes are not grouped with beams, making it difficult to see where beats 2 and 3 in the triple meter begin. The bottom staff shows that if we re-notate the rhythm so that the notes that fall within the same beat are grouped together with a beam, it makes the music much easier to read. Note that these two rhythms sound the same, even though they are beamed differently. The ability to group events according to a hierarchy is an important part of human perception, which is why beaming helps us visually parse notated musical rhythms—the metrical structure provides a hierarchy that we show using notational tools like beaming.
 
 Example 17 shows several different note values beamed together to show the beat unit. The first line does not require beams because quarter notes are never beamed, but all subsequent lines do need beams to clarify beats.
@@ -171,10 +198,30 @@ You can practice categorizing simple meters in the following exercise, using the
 
 ![Example 18. Beaming with different stem directions.](../media/2021/05/Stemming2.png)*Example 18. Beaming with different stem directions.*
 
+<!-- lilylet-begin: media/2021/05/Stemming2.png -->
+Lilylet transcription of the example above ([Stemming2.lyl](../lilylet/images/2021/05/Stemming2.lyl)):
+
+```lyl.play
+[title "Stem direction with beams"]
+
+\numericTimeSignature \time 4/4 \clef "treble" \stemDown c'4 b \stemUp a \stemDown b | %1
+\stemDown e'8[ b] \stemUp e,[ d'] g,[ c] \stemDown e[ b] \bar "|." | %2
+```
+<!-- lilylet-end -->
 The second measure of Example 18 shows that when notes are grouped together with beams, the stem direction is determined by the note farthest from the middle line. On beat 1 of measure 2, this note is E<sub>5</sub>, which is above the middle line, so down-stems are used. Beat 2 uses up-stems because the note farthest from the middle line is the E<sub>4</sub> below it.
 
 ![Example 19. Flagging is determined by stem direction.](../media/2020/01/Flag-Direction.png)*Example 19. Flagging is determined by stem direction.*
 
+<!-- lilylet-begin: media/2020/01/Flag-Direction.png -->
+Lilylet transcription of the example above ([Flag-Direction.lyl](../lilylet/images/2020/01/Flag-Direction.lyl)):
+
+```lyl.play
+[title "Flag direction follows stem direction"]
+[auto-beam "off"]
+
+\time 4/8 \clef "treble" \stemDown c'8 b \stemUp a b \bar "|" | %1
+```
+<!-- lilylet-end -->
 Flagging is determined by stem direction (Example 19). Notes above the middle line receive a down-stem (on the left) and an inward-facing flag (facing right). Notes below the middle line receive an up-stem (on the right) and an outward-facing flag (facing left). Notes on the middle line can be flagged in either direction, usually depending on the contour of the musical line.
 
 Partial beams can be used for mixed rhythmic groupings, as shown in Example 20. Sometimes these beaming conventions look strange to students who have had less experience with reading beamed music. If this is the case, you will want to pay special attention to how the notes in Example 20 are beamed.
@@ -185,6 +232,15 @@ Example 20. Partial beams are used for some mixed rhythmic groupings.
 
 ![Example 21. A multi-measure rest lasting four measures.](../media/2020/01/Multi-Measure-Rest.png)*Example 21. A multi-measure rest lasting four measures.*
 
+<!-- lilylet-begin: media/2020/01/Multi-Measure-Rest.png -->
+Lilylet transcription of the example above ([Multi-Measure-Rest.lyl](../lilylet/images/2020/01/Multi-Measure-Rest.lyl)):
+
+```lyl.play
+[title "A multi-measure rest (four measures)"]
+
+\numericTimeSignature \time 4/4 \clef "treble" \stemUp ^\markup "4" R1 | %1
+```
+<!-- lilylet-end -->
 Rests that last for multiple full measures are sometimes notated as seen in Example 21. This example indicates that the musician is to rest for a duration of four full measures.
 
 ## A Note on Ties

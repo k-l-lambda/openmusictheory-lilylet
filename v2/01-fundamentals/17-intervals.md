@@ -165,6 +165,18 @@ The intervals discussed above, from unison to octave, are simple intervals, whic
 
 ![Example 9. A simple and compound interval.](../media/2019/05/simple-v-compound.png)*Example 9. A simple and compound interval.*
 
+<!-- lilylet-begin: media/2019/05/simple-v-compound.png -->
+Lilylet transcription of the example above ([simple-v-compound.lyl](../lilylet/images/2019/05/simple-v-compound.lyl)):
+
+```lyl.play
+[title "A simple and a compound interval"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "bass" \stemUp c,2 c' \\
+\stemDown a,2 a \bar "|"
+\addlyrics { m3 m10 }
+\addlyrics { simple compound } | %1
+```
+<!-- lilylet-end -->
 If you want to make a simple interval a compound interval, add 7 to its size. Consequently:
 
 - Unisons (which get the number 1) become octaves (8s)
@@ -182,6 +194,17 @@ Intervallic inversion occurs when two notes are “flipped.” In Example 10, f
 
 ![Example 10. Intervallic inversion.](../media/2019/05/inversion-3.png)*Example 10. Intervallic inversion.*
 
+<!-- lilylet-begin: media/2019/05/inversion-3.png -->
+Lilylet transcription of the example above ([inversion-3.lyl](../lilylet/images/2019/05/inversion-3.lyl)):
+
+```lyl.play
+[title "Intervallic inversion"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "bass" \stemUp e,2 c' \\
+\stemDown c,2 e \bar "|"
+\addlyrics { ma3 mi6 } | %1
+```
+<!-- lilylet-end -->
 Let’s start with the first point: the interesting properties. First, the size of inverted pairs always adds up to 9:
 
 - Unisons (1s) invert to octaves (8s) (1 + 8 = 9) and octaves invert to unisons.
@@ -199,6 +222,16 @@ With that information, you can now calculate the inversions of intervals without
 
 ![Example 11. Inverting an interval may help with identification by putting a simpler note on the bottom.](../media/2019/05/imaginary.png)*Example 11. Inverting an interval may help with identification by putting a simpler note on the bottom.*
 
+<!-- lilylet-begin: media/2019/05/imaginary.png -->
+Lilylet transcription of the example above ([imaginary.lyl](../lilylet/images/2019/05/imaginary.lyl)):
+
+```lyl.play
+[title "Inverting an interval to put a simpler note on the bottom"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "bass" \stemUp af2 eff \\
+\stemDown eff,2 af, \bar "|" | %1
+```
+<!-- lilylet-end -->
 Now for the second point: sometimes you will come across an interval that you do not want to calculate or identify from the bottom note. In the interval E𝄫–A♭ written in Example 11, for instance, identifying the interval using the “Major Scale” method would not work—the bottom note is E𝄫, and there is no key signature for this note (its key signature is “imaginary”). So, if you were given this interval to identify, you might consider inverting the interval. Now the inversion of the interval can be calculated from the non-imaginary key of A♭ major. The key of A♭ major has four flats (B♭, E♭, A♭, and D♭). An E♭ above A♭ would therefore be a perfect fifth; however, this interval has been contracted (made a half step smaller) because the E♭ has been lowered to E𝄫. That means this interval is a d5 (diminished fifth).
 
 Now that we know the inversion of the first interval is a d5, we can calculate the original interval. A diminished fifth inverts to an augmented fourth (because diminished intervals invert to augmented intervals and because five plus four equals nine). Thus, the first interval is an augmented fourth (A4).
@@ -252,6 +285,16 @@ Believe it or not, you now know all of the white-key intervals, as long as you u
 
 ![Example 15. White-key sevenths.](../media/2019/05/white-key-sevenths.png)*Example 15. White-key sevenths.*
 
+<!-- lilylet-begin: media/2019/05/white-key-sevenths.png -->
+Lilylet transcription of the example above ([white-key-sevenths.lyl](../lilylet/images/2019/05/white-key-sevenths.lyl)):
+
+```lyl.play
+[title "White-key sevenths"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" <d c'>1 <e d'> <f e'> <g f'> <a g'> <b a'> <c b'> \undo \omit Score.BarLine \bar "||"
+\addlyrics { mi mi ma mi mi mi ma } | %1
+```
+<!-- lilylet-end -->
 Once you’ve mastered the white-key intervals, you can figure out any other interval by taking into account any accidentals applied to the notes.
 
 ## Intervallic Enharmonic Equivalence
@@ -280,6 +323,16 @@ Example 16. Enharmonic equivalence of intervals.
 
 ![Example 17. Use enharmonic equivalence to aid in identifying difficult intervals.](../media/2019/05/enh-eq.png)*Example 17. Use enharmonic equivalence to aid in identifying difficult intervals.*
 
+<!-- lilylet-begin: media/2019/05/enh-eq.png -->
+Lilylet transcription of the example above ([enh-eq.lyl](../lilylet/images/2019/05/enh-eq.lyl)):
+
+```lyl.play
+[title "Enharmonic equivalence to identify a difficult interval"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "bass" \stemUp af2 gs \\
+\stemDown eff,2 d \bar "|" | %1
+```
+<!-- lilylet-end -->
  
 
 Intervallic enharmonic equivalence is useful when you come across an interval that you do not want to calculate or identify from the bottom note. We have already discussed one method for this situation previously, which was intervallic inversion. You may prefer one method or the other, though both will yield the same result. Example 17 reproduces the interval from Example 11. As you’ll recall, there is no key signature for the bottom note (E𝄫), making identification of this interval difficult. By using enharmonic equivalence, however, we can identify this interval more easily, recognizing that E𝄫 is enharmonically equivalent with D and that A♭ is enharmonically equivalent with G♯. Now we can identify the interval as an A4 (augmented fourth), using the key signature of the enharmonically equivalent bottom note (D).

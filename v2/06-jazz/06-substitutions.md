@@ -86,6 +86,44 @@ This is illustrated in Example 7, with different ways of showing a modally mixed
 
 [![Example 7. Substitutions can be (a) improvised and not notated in the score at all, (b) written directly into the chord symbols, or (c) written in parentheses to indicate that the substitution is optional.](../media/2019/08/parentheses-1-e1677584256731.png)](../media/2019/08/parentheses-1.png)*Example 7. Substitutions can be (a) improvised and not notated in the score at all, (b) written directly into the chord symbols, or (c) written in parentheses to indicate that the substitution is optional.*
 
+<!-- lilylet-begin: media/2019/08/parentheses-1-e1677584256731.png -->
+Lilylet transcription of the example above ([parentheses-1-e1677584256731.md](../lilylet/images/2019/08/parentheses-1-e1677584256731.md)):
+
+Example 7 ("Satin Doll", Duke Ellington): ways of showing a modally mixed ii∅7 chord.
+
+a. no substitution
+
+```lyl.play
+[title "Satin Doll: (a) no substitution"]
+[composer "Duke Ellington"]
+
+\key c \major \numericTimeSignature \time 4/4 \clef "treble" r4 \chords "Ami7" d'4 c8 \chords "D7" d4. | %1
+r8 \chords "A♭7" bf'4. af4 \chords "D♭7" bf8[ g]~ | %2
+g'1 \chords "C" \bar "||" | %3
+```
+
+b. notated mode mixture
+
+```lyl.play
+[title "Satin Doll: (b) notated mode mixture"]
+[composer "Duke Ellington"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "treble" r8 \chords "Aø7" d'4. c8 \chords "D7" d4. | %1
+r8 \chords "A♭7" bf'4. af4 \chords "D♭7" bf8[ g]~ | %2
+g'1 \chords "C" \bar "||" | %3
+```
+
+c. mode mixture as alternate harmonization
+
+```lyl.play
+[title "Satin Doll: (c) mode mixture as alternate harmonization"]
+[composer "Duke Ellington"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "treble" r8 \chords "Ami7" ^\markup "(Aø7)" d'4. c8 \chords "D7" d4. | %1
+r8 \chords "A♭7" bf'4. af4 \chords "D♭7" bf8[ g]~ | %2
+g'1 \chords "C" \bar "||" | %3
+```
+<!-- lilylet-end -->
  
 
 > Further reading

@@ -39,6 +39,21 @@ Noteheads on a line should fill in half of each space above and below. Noteheads
 
 ![Example 3. Correct noteheads, open (white) and filled in (black), both on lines and in spaces.](../media/2022/07/Correct-Noteheads.jpg)*Example 3. Correct noteheads, open (white) and filled in (black), both on lines and in spaces.*
 
+<!-- lilylet-begin: media/2022/07/Correct-Noteheads.jpg -->
+Lilylet transcription of the example above ([Correct-Noteheads.lyl](../lilylet/images/2022/07/Correct-Noteheads.lyl)):
+
+```lyl.play
+[title "Correct noteheads: open and filled, on lines and in spaces"]
+
+\omit Score.TimeSignature \clef "treble" e1 g b d f | %1
+
+e'1 c a f | %2
+
+e4 g b d f | %3
+
+e'4 c a f \bar "||" | %4
+```
+<!-- lilylet-end -->
 Noteheads should be oval (not round), and they are tilted slightly upward toward the right. Example 4 shows incorrect noteheads.[^1] As you can see, noteheads can be drawn too small, too big, or the wrong shape.
 
 ![Example 4. Incorrect examples of noteheads.](../media/2019/05/Incorrect-Noteheads.jpeg)*Example 4. Incorrect examples of noteheads.*
@@ -49,6 +64,15 @@ The stems of notes can point either upward (on the right side of a note) or down
 
 ![Example 5. Correct stemming directions.](../media/2022/07/Stemming-Directions.jpg)*Example 5. Correct stemming directions.*
 
+<!-- lilylet-begin: media/2022/07/Stemming-Directions.jpg -->
+Lilylet transcription of the example above ([Stemming-Directions.lyl](../lilylet/images/2022/07/Stemming-Directions.lyl)):
+
+```lyl.play
+[title "Correct stemming directions"]
+
+\omit Score.TimeSignature \omit Score.BarLine \clef "treble" f'4 e d c b a g f | %1
+```
+<!-- lilylet-end -->
 Stemming directions and beaming conventions are discussed more in [Simple Meter and Time Signatures](10-simple-meter-and-time-signatures.md) and [Compound Meter and Time Signatures](11-compound-meters-and-time-signatures.md). When hand-drawing stems, their length is equal to four lines of the staff. Beams are about four times thicker than stems.
 
 You can practice stemming directions by dragging and dropping in the following exercise:
@@ -63,6 +87,15 @@ When notes at the interval of a second (see the [Generic Intervals](04-the-keybo
 
 ![Example 6. Three correct seconds.](../media/2022/07/Correct-Seconds-1-e1657554954232.jpg)*Example 6. Three correct seconds.*
 
+<!-- lilylet-begin: media/2022/07/Correct-Seconds-1-e1657554954232.jpg -->
+Lilylet transcription of the example above ([Correct-Seconds-1-e1657554954232.lyl](../lilylet/images/2022/07/Correct-Seconds-1-e1657554954232.lyl)):
+
+```lyl.play
+[title "Three correct seconds"]
+
+\omit Score.TimeSignature \omit Score.BarLine \clef "treble" <a' b>1 <d e>2 <e, f>2 | %1
+```
+<!-- lilylet-end -->
 Seconds should not be stacked on top of one another, nor should the lower note be on the right, as seen in Example 7:
 
 ![Example 7. Three incorrect seconds.](../media/2022/07/Incorrect-Seconds-1-e1657554935562.jpg)*Example 7. Three incorrect seconds.*
@@ -124,10 +157,30 @@ Example 15 shows notes (with stems and beams) drawn on ledger lines, above and 
 
 ![Example 15. Notes (with stems and beams) on ledger lines, above and below a staff with a treble clef.](../media/2019/05/LedgerLineswithNotes.png)*Example 15. Notes (with stems and beams) on ledger lines, above and below a staff with a treble clef.*
 
+<!-- lilylet-begin: media/2019/05/LedgerLineswithNotes.png -->
+Lilylet transcription of the example above ([LedgerLineswithNotes.lyl](../lilylet/images/2019/05/LedgerLineswithNotes.lyl)):
+
+```lyl.play
+[title "Notes on ledger lines above and below the treble staff"]
+
+\omit Score.TimeSignature \time 4/4 \clef "treble" f'8[ g a b] c[ d e f] | %1
+
+e8[ d c b] a[ g f e] \bar "|." | %2
+```
+<!-- lilylet-end -->
 When writing ledger lines, be sure not to put in an extra ledger line above or below the note you are writing. Example 16 first shows the correct way of writing notes on ledger lines, followed by the incorrect way, with extra ledger lines above and below the notes:[^3]
 
 ![Example 16. Correct and incorrect notation of ledger lines.](../media/2019/12/ch2-ex13-ledger_lines.jpg)*Example 16. Correct and incorrect notation of ledger lines.*
 
+<!-- lilylet-begin: media/2019/12/ch2-ex13-ledger_lines.jpg -->
+Lilylet transcription of the example above ([ch2-ex13-ledger_lines.lyl](../lilylet/images/2019/12/ch2-ex13-ledger_lines.lyl)):
+
+```lyl.play
+[title "Correct notation of ledger lines"]
+
+\omit Score.TimeSignature \omit Score.BarLine \clef "treble" b''4^\markup "Correct" e d,, b \undo \omit Score.BarLine \bar "||" | %1
+```
+<!-- lilylet-end -->
 > Further Reading
 
 - 2001. “Ledger line.” *Grove Music Online*. <https://doi.org/10.1093/gmo/9781561592630.article.16296>.

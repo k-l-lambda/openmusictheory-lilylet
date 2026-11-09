@@ -32,6 +32,18 @@ Example 1. Two triads, shown melodically and harmonically.
 
 ![Example 3. A triad with the root, third, and fifth labeled.](../media/2019/05/Screen-Shot-2020-08-17-at-1.39.09-PM.png)*Example 3. A triad with the root, third, and fifth labeled.*
 
+<!-- lilylet-begin: media/2019/05/Screen-Shot-2020-08-17-at-1.39.09-PM.png -->
+Lilylet transcription of the example above ([Screen-Shot-2020-08-17-at-1.39.09-PM.lyl](../lilylet/images/2019/05/Screen-Shot-2020-08-17-at-1.39.09-PM.lyl)):
+
+```lyl.play
+[title "A triad with root, third, and fifth labelled"]
+
+\omit Score.TimeSignature \key c \major \clef "bass" <a, c e>1 \bar "|"
+\addlyrics { Fifth }
+\addlyrics { Third }
+\addlyrics { Root } | %1
+```
+<!-- lilylet-end -->
 Colloquially, when a triad is stacked in this fashion, we might call this “snowperson form,” but the official term is root position; this is explored more in the chapter titled [Inversion](20-inversion.md). As Example 3 shows, the lowest note of a triad is called the root, the middle note is called the third (a generic third above the root), and the highest note is called the fifth (a generic fifth above the root).
 
 ## Triadic Qualities and Listening to Triads
@@ -98,6 +110,18 @@ Example 8 shows this process for a D major triad:
 
 ![Example 8. Drawing a D major triad in four steps.](../media/2019/05/d-major.png)*Example 8. Drawing a D major triad in four steps.*
 
+<!-- lilylet-begin: media/2019/05/d-major.png -->
+Lilylet transcription of the example above ([d-major.lyl](../lilylet/images/2019/05/d-major.lyl)):
+
+```lyl.play
+[title "Drawing a D major triad in four steps"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "bass" d,1^\markup "1" \bar "||" | %1
+<d, f a>1^\markup "2" \bar "||" | %2
+\key d \major ^\markup "3" s1 \bar "||" | %3
+\key c \major <d, fs a>1^\markup "4" \bar "||" | %4
+```
+<!-- lilylet-end -->
 1. The note D, the chord’s root, is drawn on the staff.
 2. A snowperson is drawn—an F and A, the notes a generic third and a fifth above the D.
 3. The key signature of D major has been recalled. D major has two sharps, F♯ and C♯.
@@ -107,6 +131,19 @@ Let’s complete this process for an A♭ minor triad (A♭mi), as seen in Examp
 
 ![Example 9. Drawing an A♭ minor triad in five steps.](../media/2019/05/ab-minor.png)*Example 9. Drawing an A♭ minor triad in five steps.*
 
+<!-- lilylet-begin: media/2019/05/ab-minor.png -->
+Lilylet transcription of the example above ([ab-minor.lyl](../lilylet/images/2019/05/ab-minor.lyl)):
+
+```lyl.play
+[title "Drawing an A-flat minor triad in five steps"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "treble" af'1^\markup "1" \bar "||" | %1
+<af' c e>1^\markup "2" \bar "||" | %2
+\key af \major ^\markup "3" s1 \bar "||" | %3
+\key c \major <af' c ef>1^\markup "4" \bar "||" | %4
+<af' cf ef>1^\markup "5" \bar "||" | %5
+```
+<!-- lilylet-end -->
 1. The note A♭ is written because it is the root of the triad.
 2. A snowperson is drawn; in other words, the notes C and E are added because they are a generic third and fifth, respectively, above A♭.
 3. The key signature of A♭ major is recalled. A♭ major has four flats: B♭, E♭, A♭, and D♭.

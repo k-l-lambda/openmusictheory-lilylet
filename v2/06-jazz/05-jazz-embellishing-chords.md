@@ -50,6 +50,37 @@ Example 3. Inserting a Gm<sup>7</sup> chord before the C<sup>7</sup> chord creat
 
 ![Example 4. Common-tone diminished sevenths share a common tone with the root of the chord being embellished, shown here with ties.](../media/2019/08/cto72.png)*Example 4. Common-tone diminished sevenths share a common tone with the root of the chord being embellished, shown here with ties.*
 
+<!-- lilylet-begin: media/2019/08/cto72.png -->
+Lilylet transcription of the example above ([cto72.lyl](../lilylet/images/2019/08/cto72.lyl)):
+
+```lyl.play
+[title "Common-tone diminished sevenths"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "treble" <e g>1 \chords "C" \\
+c1~
+\addlyrics { "C: I" } | %1
+
+<ef fs a>1 \chords "C°7" \\
+c1~
+\addlyrics { CT°7 } | %2
+
+<e g>1 \chords "C" \bar "||" \\
+c1
+\addlyrics { I } | %3
+
+<c a'>1 \chords "F/C" \\
+f1~
+\addlyrics { "C: IV64" } | %4
+
+<b d gs>1 \chords "B°7" \\
+f1~
+\addlyrics { CT°7 } | %5
+
+<c a'>1 \chords "F/C" \bar "||" \\
+f1
+\addlyrics { IV64 } | %6
+```
+<!-- lilylet-end -->
 The common-tone diminished seventh chord (hereafter CT<sup>o7</sup>) is a voice-leading chord, which means that the chord is not based on a particular scale degree like most other harmonies, but rather the result of more basic embellishing patterns. In this case, the embellishing motion is the neighbor motion. To create a CT<sup>o7</sup>, the root of the chord being embellished is kept as a common tone (hence the name), and all other voices move by step to the notes of the diminished seventh chord that includes that common tone. This is best explained in notation, as in Example 4.
 
 The CT<sup>o7</sup> can be used to prolong any chord. Rhythmically, the chord would be inserted somewhere in the middle of the total duration of the harmony, leaving the prolonged harmony on either side of it (as in Example 4). Another option is to skip the initial statement of the prolonged harmony and instead jump straight into the CT<sup>o7</sup>. Example 5 adds both types of CT<sup>o7</sup> to “Mood Indigo,” the melody of which is particularly suggestive of CT<sup>o7</sup> embellishments. In this example, the CT<sup>o7</sup> chords are not given their own Roman numerals, to show that they do not significantly affect the harmonic progression of the phrase—instead, they embellish the chords around them with chromatic neighbor tones. Similarly, the CT<sup>o7</sup> chords are not shown with chord symbols, because these chords are often not written into lead sheets but improvised by the performers.
@@ -89,6 +120,71 @@ Example 7. Embellishing chords can be (a) unwritten and improvised by performers
 1. Bebop composition. Asks students to build on knowledge of [swing rhythms](01-swing-rhythms.md), [ii–V–I](04-ii-v-i.md), embellishing chords, and [substitutions](06-substitutions.md) to create a composition in a bebop style.
 	- [.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2019/08/COMP-bebop.pdf): Complete instructions + template
 	- .mscz: [Template for lead sheet](../media/2019/08/COMP-bebop.mscz), [template for voicings](../media/2019/08/COMP-bebop-part-2.mscz)
+      <!-- lilylet-begin: media/2019/08/COMP-bebop-part-2.mscz -->
+      Lilylet transcription of the example above ([COMP-bebop-part-2.lyl](../lilylet/images/2019/08/COMP-bebop-part-2.lyl)):
+
+      ```lyl.play
+      [title "Bebop Composition - Part 2"]
+      [subtitle "Voicing Example"]
+      [composer "Megan Lavengood"]
+      [staves "{-}"]
+
+      % Worksheet instructions (text box on the page):
+      % - Add a key signature on both staves, and a time signature of 4/4 on the first staff only.
+      % - Copy your original (unembellished) chord symbols on your voicing example.
+      % - Notate the harmonies on the staff. Write for piano, using simple whole/half notes.
+      % - Incorporate extensions in almost all of your chords (9ths/13ths).
+      % - Follow the three upper voices paradigm given in the Jazz Voicings chapter.
+
+      \staff "1" \omit Score.TimeSignature \key c \major \time 4/4 \clef "treble" ^\markup "A" s1 \\
+      \staff "2" \clef "bass" s1 | %1
+
+      \staff "1" s1 \\
+      \staff "2" s1 | %2
+
+      \staff "1" s1 \\
+      \staff "2" s1 | %3
+
+      \staff "1" s1 \\
+      \staff "2" s1 | %4
+
+      \staff "1" s1 \\
+      \staff "2" s1 | %5
+
+      \staff "1" s1 \\
+      \staff "2" s1 | %6
+
+      \staff "1" s1 \\
+      \staff "2" s1 | %7
+
+      \staff "1" s1 \bar ":|." \\
+      \staff "2" s1 | %8
+
+      \staff "1" ^\markup "B" s1 \\
+      \staff "2" s1 | %9
+
+      \staff "1" s1 \\
+      \staff "2" s1 | %10
+
+      \staff "1" s1 \\
+      \staff "2" s1 | %11
+
+      \staff "1" s1 \\
+      \staff "2" s1 | %12
+
+      \staff "1" s1 \\
+      \staff "2" s1 | %13
+
+      \staff "1" s1 \\
+      \staff "2" s1 | %14
+
+      \staff "1" s1 \\
+      \staff "2" s1 | %15
+
+      \staff "1" s1 \bar "|." \\
+      \staff "2" s1 | %16
+      ```
+      <!-- lilylet-end -->
 	- [.docx](https://viva.pressbooks.pub/app/uploads/sites/12/2019/08/COMP-bebop.docx): instructions only
 2. Bebop composition — audio option. Asks students to build on knowledge of [swing rhythms](01-swing-rhythms.md), [ii–V–I](04-ii-v-i.md), embellishing chords, and [substitutions](06-substitutions.md) to create a composition in a bebop style.
 	- [.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/02/COMP-bebop-audio-option.pdf): Complete instructions + template

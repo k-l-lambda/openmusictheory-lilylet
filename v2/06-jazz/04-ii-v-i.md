@@ -54,6 +54,40 @@ Take the rest of the A section of “[Afternoon in Paris](https://open.spotify.c
 
 ![Example 4. “ Afternoon in Paris ” by John Lewis uses ii–V–I progressions in different keys in sequence.](../media/2019/08/afternoon-in-paris.png)*Example 4. “[Afternoon in Paris](https://open.spotify.com/track/1WKNhhhwZkfqJVmi5cuD2z?si=OWXs3gb-TwGICSb0fKEQ7A)” by John Lewis uses ii–V–I progressions in different keys in sequence.*
 
+<!-- lilylet-begin: media/2019/08/afternoon-in-paris.png -->
+Lilylet transcription of the example above ([afternoon-in-paris.lyl](../lilylet/images/2019/08/afternoon-in-paris.lyl)):
+
+```lyl.play
+[title "Afternoon in Paris (chord chart, ii–V–I in sequence)"]
+[composer "John Lewis"]
+
+\omit Score.TimeSignature \key c \major \time 4/4 \clef "treble" s1 \chords "Cma7" | %1
+s2 \chords "Cmi7" ^\markup "♭VII" s2 \chords "F7" | %2
+s1 \chords "B♭ma7" | %3
+s2 \chords "B♭mi7" ^\markup "♭VI" s2 \chords "E♭7" | %4
+s1 \chords "A♭ma7" | %5
+s2 \chords "Dmi7" ^\markup "I" s2 \chords "G7" | %6
+s1 \chords "Cma7" | %7
+s2 \chords "Dmi7" ^\markup "1." s2 \chords "G7" \bar ":|." | %8
+s1 \chords "Cma7" ^\markup "2." \bar "||" | %9
+s1 \chords "Dmi7" | %10
+s1 \chords "G7" | %11
+s1 \chords "Cma7/E" | %12
+s1 \chords "A7" | %13
+s1 \chords "Dmi7" | %14
+s1 \chords "G7" | %15
+s1 \chords "Cma7" | %16
+s2 \chords "Dmi7" s2 \chords "G7" \bar "||" | %17
+s1 \chords "Cma7" | %18
+s2 \chords "Cmi7" s2 \chords "F7" | %19
+s1 \chords "B♭ma7" | %20
+s2 \chords "B♭mi7" s2 \chords "E♭7" | %21
+s1 \chords "A♭ma7" | %22
+s2 \chords "Dmi7" s2 \chords "G7" | %23
+s1 \chords "Cma7" | %24
+s2 \chords "Dmi7" s2 \chords "G7" | %25
+```
+<!-- lilylet-end -->
 ### ii–V space
 
 By relating all possible ii–V–I motions together, we can come up with a space in which these progressions operate, and visualize how the ii–V–Is in “Afternoon in Paris” are related. This idea comes from [Michael McClimon (2017)](http://mtosmt.org/issues/mto.17.23.1/mto.17.23.1.mcclimon.html), and his “ii–V space” is reproduced in Example 5. The space is arranged as the circle of fifths (note the letter names at the end of each progression), with each chord in the circle preceded by a ii–V.

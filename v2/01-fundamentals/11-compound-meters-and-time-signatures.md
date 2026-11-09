@@ -130,6 +130,16 @@ When the music involves note values smaller than a quarter note, you should alwa
 
 ![Example 8. Proper beaming is essential in both simple and compound meters.](../media/2020/05/3-4_6-8.png)*Example 8. Proper beaming is essential in both simple and compound meters.*
 
+<!-- lilylet-begin: media/2020/05/3-4_6-8.png -->
+Lilylet transcription of the example above ([3-4_6-8.lyl](../lilylet/images/2020/05/3-4_6-8.lyl)):
+
+```lyl.play
+[title "Sixteenth notes beamed in 3/4 and 6/8"]
+
+\time 3/4 \clef "treble" g'16[ g g g] g[ g g g] g[ g g g] \bar "|." | %1
+\time 6/8 g'16[ g g g g g] g[ g g g g g] \bar "|." | %2
+```
+<!-- lilylet-end -->
 The same rules of stemming and flagging that applied in simple meter still apply in compound meter. For notes above the middle line, stems and flags point downward on the left side of the note, and for notes below the middle line, stems and flags point upward on the right side of the note. Stems and flags on notes on the middle line can point in either direction, depending on the surrounding notes.
 
 Like in simple meters, partial beams can be used for mixed rhythmic groupings. If you aren’t yet familiar with these conventions, pay special attention to how the notes in Example 9 are beamed.

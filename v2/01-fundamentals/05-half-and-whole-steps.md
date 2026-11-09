@@ -55,6 +55,15 @@ When two notes appear on the same line or space but have a different accidental,
 
 ![Example 5. A B-flat and a B-natural side-by-side.](../media/2025/06/Same-Note-Two-Accidentals-e1750264867259.png)*Example 5. A B-flat and a B-natural side-by-side.*
 
+<!-- lilylet-begin: media/2025/06/Same-Note-Two-Accidentals-e1750264867259.png -->
+Lilylet transcription of the example above ([Same-Note-Two-Accidentals-e1750264867259.lyl](../lilylet/images/2025/06/Same-Note-Two-Accidentals-e1750264867259.lyl)):
+
+```lyl.play
+[title "B-flat and B-natural side by side"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" <bf' b!>1 | %1
+```
+<!-- lilylet-end -->
 You can practice identifying half and whole steps in treble and bass clefs by dragging and dropping in the following easier exercise:
 
 > **Practice**

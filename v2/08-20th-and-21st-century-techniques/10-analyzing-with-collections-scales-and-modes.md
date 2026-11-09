@@ -51,10 +51,73 @@ Consider the three moments below, which come from Béla Bartók’s *From the Is
 
 ![Bartók’s From the Island of Bali: Extract 1](../media/2019/06/Bartok1.png)*Bartók’s From the Island of Bali: Extract 1*
 
+<!-- lilylet-begin: media/2019/06/Bartok1.png -->
+Lilylet transcription of the example above ([Bartok1.lyl](../lilylet/images/2019/06/Bartok1.lyl)):
+
+```lyl.play
+[title "From the Island of Bali (Mikrokosmos No. 109): Extract 1"]
+[composer "Béla Bartók"]
+[staves "{-}"]
+
+\staff "1" \key c \major \time 6/8 \clef "treble" \tempo "Andante" 8=134 R2. \\
+\staff "2" \clef "bass" ef8_1^\markup "dolce"\p([ d_2 a_4] gs[ a d] | %1
+
+\staff "1" b!8-1([ c-2 f-4] gf[ f c] \\
+\staff "2" ef2.~ | %2
+
+\staff "1" b4.~ b8)[ f' c]( \\
+\staff "2" ef8)[ d( a] gs4.~ | %3
+
+\staff "1" b4 c b8) r \\
+\staff "2" gs8)[ a( d] ef4 d8) | %4
+```
+<!-- lilylet-end -->
 ![Bartók’s From the Island of Bali: Extract 2](../media/2019/06/Bartok2.png)*Bartók’s From the Island of Bali: Extract 2*
 
+<!-- lilylet-begin: media/2019/06/Bartok2.png -->
+Lilylet transcription of the example above ([Bartok2.lyl](../lilylet/images/2019/06/Bartok2.lyl)):
+
+```lyl.play
+[title "From the Island of Bali (Mikrokosmos No. 109): Extract 2"]
+[composer "Béla Bartók"]
+[staves "{-}"]
+
+\staff "1" \key c \major \numericTimeSignature \time 4/4 \clef "treble" \tempo "Risoluto" 4=96 r2 r8 \ottava #1 b''-1\f( c f \\
+\staff "2" \clef "bass" r2 r8 \clef "treble" b_5( c f | %1
+
+\staff "1" gf'''4-- gf--) gf8( f c gf') \\
+\staff "2" gf'4-- gf--) gf8( f c gf') | %2
+
+\staff "1" f''8( c gf'4--) r8 b,( c f \\
+\staff "2" f8( c gf'4--) r8 b,( c f | %3
+
+\staff "1" gf'''4--)-5 aff---5 gf8-5( f c gf') \\
+\staff "2" gf'4--_1 aff--)_1 gf8_1( f c gf') | %4
+
+\partial 2 \staff "1" f''8( c b4--) \ottava #0 \\
+\staff "2" f8( c b4--) | %5
+```
+<!-- lilylet-end -->
 ![Bartók’s From the Island of Bali: Extract 3](../media/2019/06/Bartok3.png)*Bartók’s From the Island of Bali: Extract 3*
 
+<!-- lilylet-begin: media/2019/06/Bartok3.png -->
+Lilylet transcription of the example above ([Bartok3.lyl](../lilylet/images/2019/06/Bartok3.lyl)):
+
+```lyl.play
+[title "From the Island of Bali (Mikrokosmos No. 109): Extract 3"]
+[composer "Béla Bartók"]
+[staves "{-}"]
+
+\partial 2 \staff "1" \omit Score.TimeSignature \key c \major \time 4/4 \clef "treble" r8 a^1\ff( bf d \\
+\staff "2" \clef "bass" r8 a,_5( bf d | %1
+
+\staff "1" ef4--) ef-- ef-- d8( bf) \\
+\staff "2" ef,4--) ef-- ef-- d8( bf) | %2
+
+\staff "1" ef8( d) bf4-- d8( ef d bf) \\
+\staff "2" ef,8( d) bf4-- d8( ef d bf) | %3
+```
+<!-- lilylet-end -->
 The first case is wonderfully ambiguous in relation to both mode and final. If you put the hands together, the pitches constitute a neat octatonic mode, but if you keep them apart, then it’s the 1:5 [distance model mode](09-collections.md#distance-model-modes) often associated with Bartók, also known as set class (0167). There’s good Bartókian symmetry in all of this, and very little sense of a single modal final emerging.
 
 In the latter two cases, there is a strong tonic arrival on the first downbeat, suggesting G♭ and E♭ as the respective tonics for these sections. However, notice how closely the pitches relate to the opening. First we have [B, C, F, G♭], which were the exact pitches of the right hand at the start. (Do you spot the one “chromatic” note in this reading? A𝄫 could be interpreted as a chromatic upper neighbor that doesn’t really fit the mode.)

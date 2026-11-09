@@ -31,8 +31,39 @@ While in some sense it may be more accurate to notate the eighth notes of a jazz
 
 ![Example 2. The entire ensemble plays the notated rhythm at 0:36 of the overture to Anything Goes .](../media/2019/08/anything-goes-1.png)*Example 2. The entire ensemble plays the notated rhythm at 0:36 of the overture to *Anything Goes*.*
 
+<!-- lilylet-begin: media/2019/08/anything-goes-1.png -->
+Lilylet transcription of the example above ([anything-goes-1.md](../lilylet/images/2019/08/anything-goes-1.md)):
+
+Rhythm at 0:36 as notated
+
+```lyl.play
+[title "Anything Goes overture, rhythm at 0:36 as notated"]
+[composer "Cole Porter"]
+
+\key c \major \numericTimeSignature \time 4/4 \clef "treble" f4-. f8[ f8->] r8 f8 f4-> \bar "|" | %1
+```
+
+Rhythm at 0:36 as sounded
+
+```lyl.play
+[title "Anything Goes overture, rhythm at 0:36 as sounded"]
+[composer "Cole Porter"]
+
+\key c \major \numericTimeSignature \time 4/4 \clef "treble" f4-. \tuplet 3/2 { f4 f8-> } \tuplet 3/2 { r4 f8 } f4-> \bar "|" | %1
+```
+<!-- lilylet-end -->
 ![Example 3. This rhythm, with straight eighths, occurs in a drum part throughout the second part of the Anything Goes overture.](../media/2019/08/anything-goes-2.png)*Example 3. This rhythm, with straight eighths, occurs in a drum part throughout the second part of the *Anything Goes* overture.*
 
+<!-- lilylet-begin: media/2019/08/anything-goes-2.png -->
+Lilylet transcription of the example above ([anything-goes-2.lyl](../lilylet/images/2019/08/anything-goes-2.lyl)):
+
+```lyl.play
+[title "Anything Goes overture, drum rhythm at 0:52"]
+[composer "Cole Porter"]
+
+\key c \major \numericTimeSignature \time 4/4 \clef "treble" f8[ f16 f] f8[ f] r8 f r f \bar ":|." | %1
+```
+<!-- lilylet-end -->
 The overture from the musical *Anything Goes*contains passages with both straight and swing eighths. The first few minutes are swung; this is easiest to hear at 0:36 when all the instruments in the ensemble play swing eighths together (Example 2).While listening, tap along to the swing eighths—and note that the tempo is very brisk, so you’ll be tapping quite quickly.
 
 Contrast this with the straight eighths in the middle section of the overture, which begins at 0:52 (Example 3). The feel changes dramatically during this straight section. As you listen, tap along to the straight eighths, which are at a considerably slower tempo than the first part’s swing eighths.

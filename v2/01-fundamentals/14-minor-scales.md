@@ -35,6 +35,23 @@ Like major scales, minor scales are very common in many different genres in musi
 
 ![Example 1. An excerpt from “Yesterday” (1964) by Paul McCartney and John Lennon.](../media/2025/07/Yesterday-Beatles.png)*Example 1. An excerpt from “Yesterday” (1964) by Paul McCartney and John Lennon.*
 
+<!-- lilylet-begin: media/2025/07/Yesterday-Beatles.png -->
+Lilylet transcription of the example above ([Yesterday-Beatles.lyl](../lilylet/images/2025/07/Yesterday-Beatles.lyl)):
+
+```lyl.play
+[title "Yesterday, opening"]
+[composer "Paul McCartney and John Lennon"]
+
+\key f \major \numericTimeSignature \time 4/4 \clef "treble" g'8.[ f16] f2 r4
+\addlyrics { Yes -- ter -- day } | %1
+
+r4 a'8[ b] cs16[ d8.] e8[ f]
+\addlyrics { all my trou -- bles seemed so } | %2
+
+e'4. d8 d2 \bar "|."
+\addlyrics { far a -- way } | %3
+```
+<!-- lilylet-end -->
 You can listen to the music in Example 1 starting at 0:05 in Example 2. Listen for the ascending minor scale in the voice:
 
 ▶️ [Video: Yesterday (Remastered 2009)](https://www.youtube.com/watch?v=TQemQRL_YVQ)
@@ -126,6 +143,24 @@ Example 9 shows a B melodic minor scale, ascending and descending, with scale-d
 
 ![Example 9. A B melodic minor scale.](../media/2020/05/Screen-Shot-2020-06-11-at-11.20.05-AM.png)*Example 9. A B melodic minor scale.*
 
+<!-- lilylet-begin: media/2020/05/Screen-Shot-2020-06-11-at-11.20.05-AM.png -->
+Lilylet transcription of the example above ([Screen-Shot-2020-06-11-at-11.20.05-AM.lyl](../lilylet/images/2020/05/Screen-Shot-2020-06-11-at-11.20.05-AM.lyl)):
+
+```lyl.play
+[title "B melodic minor scale with whole/half steps and scale-degree names"]
+
+\key b \minor \numericTimeSignature \time 4/4 \clef "bass" b,4^\markup "W" cs^\markup "H" d^\markup "W" e^\markup "W"
+\addlyrics { Tonic Supertonic Mediant Subdominant } | %1
+fs,4^\markup "W" gs^\markup "W" as^\markup "H" b
+\addlyrics { Dominant Submediant Leading Tonic }
+\addlyrics { _ "(raised)" Tone _ } | %2
+a4 g fs e
+\addlyrics { Subtonic Submediant Dominant Subdominant }
+\addlyrics { _ "(lowered)" _ _ } | %3
+d,4 cs b2 \bar "|."
+\addlyrics { Mediant Supertonic Tonic } | %4
+```
+<!-- lilylet-end -->
 Example 10 is a helpful visual for learning about the three forms of the minor scale. The order reflects the number of lowered scale degrees compared to a major scale starting on the same note.
 
 | Form of Minor Scale | Lowered Scale Degrees (versus major) |
@@ -160,14 +195,135 @@ Minor key signatures, like major key signatures, go after a clef but before a ti
 
 ![Example 11. The order of sharps and flats in all four clefs.](../media/2020/05/Screen-Shot-2020-06-08-at-1.11.04-PM.png)*Example 11. The order of sharps and flats in all four clefs.*
 
+<!-- lilylet-begin: media/2020/05/Screen-Shot-2020-06-08-at-1.11.04-PM.png -->
+Lilylet transcription of the example above ([Screen-Shot-2020-06-08-at-1.11.04-PM.md](../lilylet/images/2019/05/Screen-Shot-2020-06-08-at-1.11.04-PM.md)):
+
+The order of sharps (top row of the image) and flats (bottom row) in treble, bass, alto, and tenor clefs. The image shows each row on one staff with clef changes and double barlines; here each clef is on its own staff.
+
+```lyl.play
+[title "Order of sharps in treble, bass, alto, and tenor clefs"]
+[staves ",,,"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key cs \major \clef "treble" s1 \\\\
+\clef "bass" s1 \\\\
+\clef "alto" s1 \\\\
+\clef "tenor" s1 | %1
+```
+
+```lyl.play
+[title "Order of flats in treble, bass, alto, and tenor clefs"]
+[staves ",,,"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key cf \major \clef "treble" s1 \\\\
+\clef "bass" s1 \\\\
+\clef "alto" s1 \\\\
+\clef "tenor" s1 | %1
+```
+<!-- lilylet-end -->
 As previously mentioned, if you know the major key associated with a given key signature, you can go down three half steps from the tonic to find the minor key for that key signature. Example 12 shows all of the sharp minor key signatures in order, and Example 13 depicts all of the flat minor key signatures in order.
 
 ![](../media/2019/05/Screen-Shot-2020-06-08-at-1.51.08-PM-2-e1658435801975.png)
 
+<!-- lilylet-begin: media/2019/05/Screen-Shot-2020-06-08-at-1.51.08-PM-2-e1658435801975.png -->
+Lilylet transcription of the example above ([Sharp-Key-Signatures.lyl](../lilylet/images/2021/06/Sharp-Key-Signatures.lyl)):
+
+```lyl.play
+[title "Sharp key signatures (C major to C♯ major) in treble, bass, alto, and tenor clefs"]
+[staves ",,,"]
+
+\time 1/4 \omit Score.TimeSignature \key c \major \clef "treble" s4 \bar "||" \\\\
+\clef "bass" s4 \bar "||" \\\\
+\clef "alto" s4 \bar "||" \\\\
+\clef "tenor" s4 \bar "||" | %1
+
+\key g \major s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %2
+
+\key d \major s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %3
+
+\key a \major s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %4
+
+\key e \major s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %5
+
+\key b \major s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %6
+
+\key fs \major s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %7
+
+\key cs \major s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %8
+```
+<!-- lilylet-end -->
 Example 12. The key signatures of A, E, B, F♯, C♯, G♯, D♯, and A♯ minor.
 
 ![](../media/2019/05/Screen-Shot-2020-06-08-at-1.57.09-PM-e1658435818939.png)
 
+<!-- lilylet-begin: media/2019/05/Screen-Shot-2020-06-08-at-1.57.09-PM-e1658435818939.png -->
+Lilylet transcription of the example above ([Screen-Shot-2020-06-08-at-1.57.09-PM-e1658435818939.lyl](../lilylet/images/2019/05/Screen-Shot-2020-06-08-at-1.57.09-PM-e1658435818939.lyl)):
+
+```lyl.play
+[title "Flat minor key signatures (A minor to A♭ minor) in treble, bass, alto, and tenor clefs"]
+[staves ",,,"]
+
+\time 1/4 \omit Score.TimeSignature \key a \minor \clef "treble" s4 \bar "||" \\\\
+\clef "bass" s4 \bar "||" \\\\
+\clef "alto" s4 \bar "||" \\\\
+\clef "tenor" s4 \bar "||" | %1
+
+\key d \minor s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %2
+
+\key g \minor s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %3
+
+\key c \minor s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %4
+
+\key f \minor s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %5
+
+\key bf \minor s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %6
+
+\key ef \minor s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %7
+
+\key af \minor s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" \\\\
+s4 \bar "||" | %8
+```
+<!-- lilylet-end -->
 Example 13. The minor key signatures of A, D, G, C, F, B♭, E♭, and A♭ minor.
 
 Minor keys can also be imaginary (like imaginary major keys) if they contain double accidentals.
@@ -194,6 +350,37 @@ Example 15 shows the first three measures of a song by Louise Reichardt (1779�
 
 ![Example 15. The first three measures of “Durch die bunten Rosenhecken.”](../media/2020/05/reichardt.png)*Example 15. The first three measures of [“Durch die bunten Rosenhecken.”](https://open.spotify.com/track/6VaRf356HZBxo5RIryWiV4?si=9b3f8b4d00ea4660)*
 
+<!-- lilylet-begin: media/2020/05/reichardt.png -->
+Lilylet transcription of the example above ([reichardt.lyl](../lilylet/images/2020/05/reichardt.lyl)):
+
+```lyl.play
+[title "Durch die bunten Rosenhecken, bars 1-3"]
+[composer "Louise Reichardt"]
+[staves "<voice> {pr-pl}"]
+[instrument-voice "Voice"]
+[instrument-pr-pl "Piano"]
+
+\key f \minor \time 4/4 \clef "treble" \tempo "Unruhig und klagend" \partial 4 f8^\markup "(circled)" af \bar ".|:"
+\addlyrics { Durch die } \\\\
+\staff "1" \clef "treble" r4 \\
+\staff "2" \clef "bass" r4 | %0
+
+c'4. c8 df4. bf8
+\addlyrics { bun -- ten Ro -- sen -- } \\\\
+\staff "1" r8 <af c f>[ <af c f> <af c f>] r8 <bf df f>[ <bf df f> <bf df f>] \\
+\staff "2" <f,, f'>4_\markup "(circled)" r <f f'> r | %1
+
+c'4 c r c8 af
+\addlyrics { he -- cken flat -- tern } \\\\
+\staff "1" r8 <af c f>[ <af c f> <af c f>] r8 <af c f>[ <af c f> <af c f>] \\
+\staff "2" <f,, f'>4 r <f f'> r | %2
+
+g'4. g8 af4. g8
+\addlyrics { Schmet -- ter -- lin -- ge } \\\\
+\staff "1" r8 <df f g>[ <df f g> <df f g>] r8 <d f af>[ <d f af> <d f af>] \\
+\staff "2" bf4 r b r | %3
+```
+<!-- lilylet-end -->
 This example shows a vocal line (the top staff) and a piano part (the grand staff underneath the vocal part). The key signature contains four flats, which means we can narrow down the key of this work to A♭ major or F minor. In Example 15, the first note that is circled in the highest part (the vocalist) is F, as is the first note that is circled in the lowest part (the lowest note played by the piano). Therefore, it is likely that the key of this work is F minor instead of A♭ major.
 
 > Further Readings

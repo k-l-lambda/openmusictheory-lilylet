@@ -53,6 +53,15 @@ Example 2 illustrates this process with the collection of pitches E<sub>4</sub>
 
 ![Example 2. Illustration of how to count interval classes in a pitch class set to create an interval-class vector.](../media/2020/01/tallying.001-e1662403759208.png)*Example 2. Illustration of how to count interval classes in a pitch class set to create an interval-class vector.*
 
+<!-- lilylet-begin: media/2020/01/tallying.001-e1662403759208.png -->
+Lilylet transcription of the example above ([tallying.001-e1662403759208.lyl](../lilylet/images/2020/01/tallying.001-e1662403759208.lyl)):
+
+```lyl.play
+[title "Tallying interval classes: [4, 6, 9, 0]"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \time 4/4 \clef "treble" <e fs c' a'>1^\markup "[4, 6, 9, 0]" | %1
+```
+<!-- lilylet-end -->
 Sets containing a greater number of pitch classes will naturally have more and/or higher numbers in their interval class vectors because there are a lot more intervals at play. Each trichord has three available interval classes (and so the vector should always total to three), each tetrachord has six (and so should sum to six), each pentachord has ten, and so forth.
 
 One way of checking your work after calculating an interval-class vector is to add the number of interval classes up and ensure they total the correct number. If you know the prime form of your set, you can also check against a list of set classes, [such as this list from Wikipedia](https://en.wikipedia.org/wiki/List_of_pitch-class_sets), since they typically include interval-class vectors for each set class.

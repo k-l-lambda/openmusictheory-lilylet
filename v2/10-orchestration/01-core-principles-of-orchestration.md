@@ -33,6 +33,34 @@ We have terminology for the different types of chord spacing as summarized in Ex
 
 ![](../media/2019/07/C3-Chord-Spacing-Types.png)
 
+<!-- lilylet-begin: media/2019/07/C3-Chord-Spacing-Types.png -->
+Lilylet transcription of the example above ([C3-Chord-Spacing-Types.lyl](../lilylet/images/2019/07/C3-Chord-Spacing-Types.lyl)):
+
+```lyl.play
+[title "Chord Spacing Types"]
+
+\omit Score.TimeSignature \key c \major \time 1/2 \clef "treble" \stemUp <g' c>2^\markup "Superposition" \\
+\stemDown <c e>2 | %1
+
+s2 \\
+s2 | %2
+
+\stemUp <e c'>2^\markup "Interlock" \\
+\stemDown <c g'>2 | %3
+
+s2 \\
+s2 | %4
+
+\stemUp <e g>2^\markup "Enclosed" \\
+\stemDown <c c'>2 | %5
+
+s2 \\
+s2 | %6
+
+\stemUp <g' c>2^\markup "Overlap" \\
+\stemDown <c g'>2 | %7
+```
+<!-- lilylet-end -->
 Example 1. Chord spacing types.
 
 Context determines the best choice among these. For a blended sound, we often use integrated “interlocking” voicing, taking care to balance the different strengths of each instrument according to the register; conversely, to achieve a different color for each note, use wider spacing. [^1]

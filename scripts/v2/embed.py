@@ -162,7 +162,9 @@ def embed_text(text, chapter, items, inlined_elsewhere, stats):
             pat = re.compile(r'\]\(\.\./(?:\.\./)*' + re.escape(key) + r'\)')
         else:
             key = r['image'][len('v2/'):]
-            pat = re.compile(r'^\s*!\[[^\]]*\]\((?:\.\./)*' + re.escape(key) + r'\)')
+            # the image on its own line, inside a link ([![..](img)](full)), in a list or table,
+            # or a plain link to the file (e.g. a PDF named .mscz)
+            pat = re.compile(r'\]\((?:\.\./)*' + re.escape(key) + r'\)')
         hit = next((i for i, l in enumerate(lines) if pat.search(l)), None)
         if hit is None or key in seen:
             stats['not-found' if hit is None else 'dup'] += 1
@@ -182,6 +184,9 @@ def embed_text(text, chapter, items, inlined_elsewhere, stats):
     out = []
     for i in range(len(lines) + 1):
         for _, indent, blk in sorted(inserts.get(i, []), key=lambda x: x[0]):
+            # a block right after a table row (a table that ends the file) would be read as part of it
+            if out and out[-1].lstrip().startswith('|'):
+                out.append('')
             out += [(indent + l) if l else '' for l in blk]
         if i < len(lines):
             out.append(lines[i])

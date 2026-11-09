@@ -73,6 +73,22 @@ Significantly, the bass note does not need to be a member of the chord! C/F♯ w
 
 ![Example 4. Adding more thirds beyond the seventh produces ninths, elevenths, and thirteenths.](../media/2019/08/extensions.png)*Example 4. Adding more thirds beyond the seventh produces ninths, elevenths, and thirteenths.*
 
+<!-- lilylet-begin: media/2019/08/extensions.png -->
+Lilylet transcription of the example above ([extensions.lyl](../lilylet/images/2019/08/extensions.lyl)):
+
+```lyl.play
+[title "Extensions: thirds stacked to the thirteenth"]
+
+\omit Score.TimeSignature \omit Score.BarLine \key c \major \clef "treble" <c e g bf d f a>1
+\addlyrics { 13th }
+\addlyrics { 11th }
+\addlyrics { 9th }
+\addlyrics { 7th }
+\addlyrics { 5th }
+\addlyrics { 3rd }
+\addlyrics { root } | %1
+```
+<!-- lilylet-end -->
 Jazz harmony often involves not only playing the notes explicitly indicated by the chord symbol, but also adding upper extensions. The term extension comes from the idea of *extending* the stack of thirds that creates harmonies. The seventh is the most common triadic extension, but jazz often makes use of higher extensions—stacking more and more thirds onto the basic triad results in the ninth, eleventh, and thirteenth (Example 4).
 
 ### Interval size
@@ -90,6 +106,16 @@ Other interval qualities are shown with sharp and flat symbols that raise or low
 
 ![Example 5. Accidentals in chord symbols and in the corresponding notation—note that in chord symbols, sharp/flat signs indicated a bigger/smaller interval, not necessarily an actual sharp/flat note.](../media/2019/08/altered_exts.png)*Example 5. Accidentals in chord symbols and in the corresponding notation—note that in chord symbols, sharp/flat signs indicated a bigger/smaller interval, not necessarily an actual sharp/flat note.*
 
+<!-- lilylet-begin: media/2019/08/altered_exts.png -->
+Lilylet transcription of the example above ([altered_exts.lyl](../lilylet/images/2019/08/altered_exts.lyl)):
+
+```lyl.play
+[title "Altered extensions in chord symbols and notation"]
+
+\omit Score.TimeSignature \key c \major \clef "treble" <f a c ef gf b>1 \chords "F7(♭9/♯11)" ^\markup "♯11 (B♮!), ♭9" \bar "||" | %1
+<b ds fs a c es>1 \chords "B7(♭9/♯11)" ^\markup "♯11, ♭9 (C♮!)" \bar "||" | %2
+```
+<!-- lilylet-end -->
 Note that in this context, these symbols are to be interpreted relatively. So, ♯11 really means “raise the eleventh” and ♭9 really means “lower the ninth”—as Example 5 shows, the altered note will not necessarily be a sharp or flat pitch. This is discussed more below under “[Chord Symbols vs. Roman Numerals](#chord-symbols-vs-roman-numerals).”
 
 For clarity, always write “7” before listing altered extensions. Furthermore, altered extensions often placed in parentheses, so that a performer can easily see that the accidental is to be applied to the extension, not to the root of the chord. If multiple altered extensions are used, slashes might also be used to clearly delineate the alterations, as shown in Example 5.
@@ -100,6 +126,18 @@ For clarity, always write “7” before listing altered extensions. Furthermore
 
 ![Example 6. Examples of chords with added notes.](../media/2019/08/adds.png)*Example 6. Examples of chords with added notes.*
 
+<!-- lilylet-begin: media/2019/08/adds.png -->
+Lilylet transcription of the example above ([adds.lyl](../lilylet/images/2019/08/adds.lyl)):
+
+```lyl.play
+[title "Chords with added notes"]
+
+\omit Score.TimeSignature \key c \major \clef "treble" <c d e g>1 \chords "Cadd2" \bar "||" | %1
+<c e g d'>1 \chords "Cadd9" \bar "||" | %2
+<c e g a>1 \chords "C6" ^\markup "added note, but add is not in the symbol" \bar "||" | %3
+<c e g a d>1 \chords "C6/9" ^\markup "(same)" \bar "||" | %4
+```
+<!-- lilylet-end -->
 To indicate that a note is added to a chord *without*implying a seventh underneath, the word “add” is written into the symbol. C<sup>add9</sup>, for example, is a C-major triad with a D voiced above the triad, but without any seventh: **C–E–G–D**. (Recall that C<sup>9</sup> otherwise implies a minor seventh added to the C triad as well: **C–E–G–B♭–D**.) You can also add notes within a triad: C<sup>add2</sup> indicates a C-major triad with an additional D that is voiced *inside*the triad: **C–D–E–G**.
 
 In the case of an added sixth, we simply use the numeral 6 without “add”—for example, a C major triad with an added sixth is written as C<sup>6</sup>. There are two reasons why this is acceptable (and normal) shorthand: one, the added sixth is especially common, and two, there is no possible interpretation that one might confuse it with. Another common addition to triads is the sixth and ninth together, which is also indicated without the word “add”: for example, C$^6_9$.
@@ -108,6 +146,17 @@ In the case of an added sixth, we simply use the numeral 6 without “add”—f
 
 ![Example 7. Chords with suspensions (sus chords).](../media/2019/08/sus.png)*Example 7. Chords with suspensions (sus chords).*
 
+<!-- lilylet-begin: media/2019/08/sus.png -->
+Lilylet transcription of the example above ([sus.lyl](../lilylet/images/2019/08/sus.lyl)):
+
+```lyl.play
+[title "Suspended (sus) chords"]
+
+\omit Score.TimeSignature \key c \major \clef "treble" <c f g>1 \chords "Csus" \bar "||" | %1
+<c d g>1 \chords "Csus2" \bar "||" | %2
+<c f g bf>1 \chords "C7sus" \bar "||" | %3
+```
+<!-- lilylet-end -->
 Another alteration is the suspended chord, abbreviated “sus,” which indicates that the third of the chord should be replaced with another interval above the root (Example 6). The term comes from a common type of suspension, in which the fourth above the bass resolves to the third above the bass. Indeed, a sus chord will often be followed by a non-sus chord with the same root (though this is not required by any means).
 
 The default assumption is that the third of the chord is replaced with a perfect fourth above the root. Csus, then, would yield the notes **C–F–G**—the E of the C triad is replaced with F.

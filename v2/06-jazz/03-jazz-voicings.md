@@ -28,6 +28,17 @@ The harmonic series is approximated in Example 1. [^1]
 
 ![Example 1. The harmonic series, as approximated in notation.](../media/2019/08/harmonic-series_0001.png)*Example 1. The harmonic series, as approximated in notation.*
 
+<!-- lilylet-begin: media/2019/08/harmonic-series_0001.png -->
+Lilylet transcription of the example above ([harmonic-series_0001.lyl](../lilylet/images/2019/08/harmonic-series_0001.lyl)):
+
+```lyl.play
+[title "The harmonic series on F2, partials 1-16"]
+[staves "{-}"]
+
+\staff "1" \omit Score.TimeSignature \key c \major \time 16/4 \clef "treble" \staff "2" \clef "bass" f,,4 f' c' \staff "1" f a c ef f g a b c d ef e! f \undo \omit Score.BarLine \bar "||"
+\addlyrics { 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 } | %1
+```
+<!-- lilylet-end -->
 Note that the pitches are spaced widely apart in the lower harmonics, but become closer and closer together in the upper harmonics: the distance between partials 1 and 2 is an octave, but beginning at partial 13, the distance between subsequent partials is only a half step.
 
 In general, spacing in music approximates the harmonic series: notes are further apart in lower registers, and closer together in higher registers. Putting notes close together in a low register tends to sound muddy and dissonant, even when the chords are consonant. When notes are spaced wide apart in the upper registers, the upper note will sound quite prominent and isolated in the texture (though this can sometimes be a good thing).
