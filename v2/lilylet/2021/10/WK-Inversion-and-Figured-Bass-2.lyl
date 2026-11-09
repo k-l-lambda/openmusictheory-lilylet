@@ -1,0 +1,42 @@
+[title "Triads and Seventh Chords"]
+[subtitle "Seventh Chord Inversion"]
+
+\key c \major \clef "bass" <c, e g a>1^\markup "1" \bar "||" | %1
+
+<a' c d fs>1^\markup "2" \bar "||" | %2
+
+<e g bf c>1^\markup "3" \bar "||" | %3
+
+<g, a c ef>1^\markup "4" \bar "||" | %4
+
+<fs, as cs es>1^\markup "5" \bar "||" | %5
+
+\clef "treble" <gf' bff df ef>1^\markup "6" \bar "||" | %6
+
+<a' c ds fs>1^\markup "7" \bar "||" | %7
+
+<cs, d fs a>1^\markup "8" \bar "||" | %8
+
+<g bf d e>1^\markup "9" \bar "||" | %9
+
+<g, bf df e>1^\markup "10" \bar "|." | %10
+
+R1 \chords "Ab43" \bar "||" | %11
+
+R1 \chords "Fm65" \bar "||" | %12
+
+R1 \chords "43" \bar "||" | %13
+
+R1 \chords "42" \bar "||" | %14
+
+R1 \chords "65" \bar "||" | %15
+
+R1 \chords "43" \bar "||" | %16
+
+R1 \chords "42" \bar "||" | %17
+
+R1 \chords "43" \bar "||" | %18
+
+R1 \chords "42" \bar "||" | %19
+
+R1 \chords "65" \bar "|." | %20

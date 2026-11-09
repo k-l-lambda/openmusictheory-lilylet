@@ -1,0 +1,65 @@
+[title "Major Key Signatures A"]
+[subtitle "Treble/Bass only"]
+[composer "Kyle Gullings and Megan Lavengood"]
+
+\key af \major \clef "treble" R1 \bar "||" | %1
+
+\key a \major R1 \bar "||" | %2
+
+\key d \major R1 \bar "||" | %3
+
+\key cf \major R1 \bar "||" | %4
+
+\key bf \major \clef "bass" R1 \bar "||" | %5
+
+\key g \major R1 \bar "||" | %6
+
+\key gf \major R1 \bar "||" | %7
+
+\key b \major R1 \bar "||" | %8
+
+\key cs \major \clef "treble" R1 \bar "||" | %9
+
+\key ef \major R1 \bar "||" | %10
+
+\key f \major \clef "bass" R1 \bar "||" | %11
+
+\key df \major R1 \bar "||" | %12
+
+\key b \major \clef "treble" R1 \bar "||" | %13
+
+\key c \major R1 \bar "||" | %14
+
+R1 \bar "||" | %15
+
+R1 \bar "||" | %16
+
+\clef "bass" R1 \bar "||" | %17
+
+R1 \bar "||" | %18
+
+R1 \bar "||" | %19
+
+R1 \bar "||" | %20
+
+R1 \bar "||" | %21
+
+R1 \bar "||" | %22
+
+\clef "treble" R1 \bar "||" | %23
+
+R1 \bar "||" | %24
+
+\key df \major \time 8/4 \stemUp df4^\markup "______________"^\markup "D♭ major" ef f gf af \stemDown bf c df \bar "||" | %25
+
+\key g \major R1 \bar "||" | %26
+
+\key af \major \clef "bass" R1 \bar "||" | %27
+
+\key g \major \clef "treble" \stemUp d4^\markup "D major" e fs g a \stemDown b cs d \bar "||" | %28
+
+\key e \major R1 \bar "||" | %29
+
+\key ef \major \clef "bass" R1 \bar "||" | %30
+
+\key g \major R1 \bar "||" | %31

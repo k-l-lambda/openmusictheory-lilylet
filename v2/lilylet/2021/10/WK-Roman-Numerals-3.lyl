@@ -1,0 +1,53 @@
+[title "Intro to Roman Numerals"]
+[subtitle "Intro to Roman Numerals C"]
+[staves "{s1-s2}"]
+
+\staff "1" \key d \major \numericTimeSignature \time 4/4 \clef "treble" \stemUp fs4^\markup "Cantata No. 84, c. 1731\nHymn: Emilie Juliane, 1695\nMelody: Georg Neumark, 1657" \\
+\staff "1" \stemDown d4 \\
+\staff "2" \clef "bass" \stemUp b4 \\
+\staff "2" \stemDown b,4 | %1
+
+\staff "1" \stemUp b'4 cs d cs \\
+\staff "1" \stemDown fs4 fs fs e \\
+\staff "2" \stemUp d4 cs b as \\
+\staff "2" \stemDown b4 as b fs | %2
+
+\staff "1" \stemUp b'4 cs as2 \\
+\staff "1" \stemDown d4 g fs2 \\
+\staff "2" \stemUp b4 e cs2 \\
+\staff "2" \stemDown g4 e fs2 | %3
+
+\staff "1" \stemUp fs2 r4 as \\
+\staff "1" \stemDown cs2 r4 fs \\
+\staff "2" \stemUp as2 r4 cs \\
+\staff "2" \stemDown fs,,2 r4 fs' | %4
+
+\staff "1" \stemUp a'4 g fs b \\
+\staff "1" \stemDown fs4 e d d \\
+\staff "2" \stemUp d4 a a b \\
+\staff "2" \stemDown b,4 cs d g | %5
+
+\staff "1" \stemUp b'4 as b\breathe\fermata cs \\
+\staff "1" \stemDown g'4 fs fs as \\
+\staff "2" \stemUp cs4 cs d fs \\
+\staff "2" \stemDown e,4 fs b,\fermata fs' | %6
+
+\staff "1" \stemUp d'4 e fs fs \\
+\staff "1" \stemDown b'4 as b b \\
+\staff "2" \stemUp fs4 e d d \\
+\staff "2" \stemDown b4 cs d b | %7
+
+\staff "1" \stemUp e'4 e d\breathe\fermata fs \\
+\staff "1" \stemDown b'4 as b b \\
+\staff "2" \stemUp d4 cs fs d \\
+\staff "2" \stemDown g4 fs b\fermata d | %8
+
+\staff "1" \stemUp e'4 d cs b \\
+\staff "1" \stemDown as'4 b g g \\
+\staff "2" \stemUp e4 fs g e \\
+\staff "2" \stemDown cs4 b e, g | %9
+
+\staff "1" \time 3/4 \stemUp cs'4 cs b\fermata \bar "|." \\
+\staff "1" \stemDown as'4 as fs \\
+\staff "2" \stemUp fs4 e d \\
+\staff "2" \stemDown fs,4 fs b,\fermata | %10

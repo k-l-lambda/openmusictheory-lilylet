@@ -1,0 +1,170 @@
+[title "bass harmonizations"]
+[staves "{s1-s2}"]
+
+\staff "1" \key c \major \numericTimeSignature \time 4/4 \clef "treble" \stemUp <c ef g>2^\markup "Descending minor second" <d g> \\
+\staff "2" \clef "bass" \stemUp c,2_\markup "C:" \chords "I" b \chords "V6" | %1
+
+\staff "1" \key g \major \stemUp <g e'>2 <b ds fs> \\
+\staff "2" \stemUp c,2_\markup "Emi:" \chords "VI" b \chords "V" | %2
+
+\staff "1" \stemUp <a d fs>2 <g d' g> \\
+\staff "2" \stemUp c,2_\markup "G:" \chords "V42" b \chords "I6" | %3
+
+\staff "1" \key c \major \stemUp <a e' a>2 <b d gs> \\
+\staff "2" \stemUp c,2_\markup "Ami:" \chords "i6" b \chords "vii°6" | %4
+
+\staff "1" \key ef \major \stemUp <f af bf>2^\markup "Descending major second" <ef g c> \\
+\staff "2" \stemDown d,2_\markup "E♭:" \chords "V6" \stemUp c \chords "vi" | %5
+
+\staff "1" \key f \major \stemUp <f a>2 <e g c> \\
+\staff "2" \stemDown d,2_\markup "F:" \chords "vi" \stemUp c \chords "V" | %6
+
+\staff "1" \key g \major \stemUp <d fs a>2 <d fs a> \\
+\staff "2" \stemDown d,2_\markup "G:" \chords "V" \stemUp c \chords "V42" | %7
+
+\staff "1" \key c \major \stemUp <e gs b>2 <e a> \\
+\staff "2" \stemDown d,2_\markup "Ami:" \chords "V42" \stemUp c \chords "i6" | %8
+
+\staff "1" \key bf \major \stemUp <bf f' bf>2 <c ef a> \\
+\staff "2" \stemDown d,2_\markup "B♭:" \chords "I6" \stemUp c \chords "vii°6" | %9
+
+\staff "1" \key c \major \stemUp <d f b>2 <c ef c'> \\
+\staff "2" \stemDown d,2_\markup "C:" \chords "vii°6" \stemUp c \chords "I" | %10
+
+\staff "1" \stemDown <c' e g>2^\markup "Descending minor third" <c e a> \\
+\staff "2" \stemUp c,2_\markup "C:" \chords "I" a \chords "vi" | %11
+
+\staff "1" \stemDown <c' e a>2 <c f a> \\
+\staff "2" \stemUp c,2_\markup "Ami:" \chords "i6" a \chords "VI6" | %12
+
+\staff "1" \key f \major \stemDown <c' e g>2 <c f> \\
+\staff "2" \stemUp c,2_\markup "F:" \chords "V" a \chords "I6" | %13
+
+\staff "1" \key c \major \stemDown <c' e a>2 <c e a> \\
+\staff "2" \stemUp c,2_\markup "Ami:" \chords "i6" a \chords "i" | %14
+
+\staff "1" \key g \major \stemUp <e g b>2^\markup "Descending major third" <e g c> \\
+\staff "2" \stemDown e,2_\markup "Emi:" \chords "i" \stemUp c \chords "VI" | %15
+
+\staff "1" \key c \major \stemUp <e g c>2 <e a c> \\
+\staff "2" \stemDown e,2_\markup "C:" \chords "I6" \stemUp c \chords "vi6" | %16
+
+\staff "1" \stemUp <e gs b>2 <e a> \\
+\staff "2" \stemDown e,2_\markup "Ami:" \chords "V" \stemUp c \chords "i6" | %17
+
+\staff "1" \stemUp <e g c>2 <e g c> \\
+\staff "2" \stemDown e,2_\markup "C:" \chords "I6" \stemUp c \chords "I" | %18
+
+\staff "1" \stemDown <c' ef g>2^\markup "Descending perfect fourth" <b d g> \\
+\staff "2" \stemUp c,2_\markup "C:" \chords "I" g \chords "V" | %19
+
+\staff "1" \key ef \major \stemDown <c' ef g>2 <bf ef g> \\
+\staff "2" \stemUp c,2_\markup "E♭ (or Emi):" \chords "vi" g \chords "I6" | %20
+
+\staff "1" \key f \major \stemDown <c' e bf'>2 <c e bf'> \\
+\staff "2" \stemUp c,2_\markup "F:" \chords "V" g \chords "V43" | %21
+
+\staff "1" \key g \major \stemDown <c' ef g>2 <bf d g> \\
+\staff "2" \stemUp c,2_\markup "G:" \chords "IV" g \chords "I" | %22
+
+\staff "1" \key af \major \stemDown <c' ef af>2 <bf ef g> \\
+\staff "2" \stemUp c,2_\markup "A♭:" \chords "I6" g \chords "V6" | %23
+
+\staff "1" \key bf \major \stemDown <c' ef g>2 <bf d g> \\
+\staff "2" \stemUp c,2_\markup "B♭:" \chords "ii" g \chords "vi" | %24
+
+\staff "1" \key c \major \stemDown <d' g>2^\markup "Descending augmented fourth" <b d g> \\
+\staff "2" \stemUp b,2_\markup "C:" \chords "V6" f \chords "V42" | %25
+
+\staff "1" \key gf \major \stemDown <cf' ef gf>2 <cf ef af> \\
+\staff "2" \stemUp cf,2_\markup "E♭mi:" \chords "VI" f, \chords "ii7" | %26
+
+\staff "1" \stemDown <cf' ef gf>2 <cf df af'> \\
+\staff "2" \stemUp cf,2_\markup "G♭:" \chords "IV" f, \chords "V65" | %27
+
+\staff "1" \key c \major \stemDown <b' d gs>2 <a c a'> \\
+\staff "2" \stemUp b,2_\markup "Ami:" \chords "vii°6" f \chords "VI" | %28
+
+\staff "1" \stemDown <d' g>2^\markup "Ascending minor second" <c ef g> \\
+\staff "2" \stemUp b,2_\markup "C:" \chords "V6" c \chords "I" | %29
+
+\staff "1" \key g \major \stemDown <b' ds fs>2 <g e'> \\
+\staff "2" \stemUp b,2_\markup "Emi:" \chords "V" c \chords "VI" | %30
+
+\staff "1" \stemDown <g' d' g>2 <a d fs> \\
+\staff "2" \stemUp b,2_\markup "G:" \chords "I6" c \chords "V42" | %31
+
+\staff "1" \key c \major \stemDown <b' d gs>2 <a e' a> \\
+\staff "2" \stemUp b,2_\markup "Ami:" \chords "vii°6" c \chords "i6" | %32
+
+\staff "1" \key ef \major \stemUp <ef af c>2^\markup "Ascending major second" <f af bf> \\
+\staff "2" \stemUp c,2_\markup "E♭:" \chords "IV6" \stemDown d \chords "V6" | %33
+
+\staff "1" \key f \major \stemUp <e g bf>2 <f a> \\
+\staff "2" \stemUp c,2_\markup "F:" \chords "V7" \stemDown d \chords "vi" | %34
+
+\staff "1" \key g \major \stemUp <ef a c>2 <d fs a> \\
+\staff "2" \stemUp c,2_\markup "G:" \chords "ii6" \stemDown d \chords "V" | %35
+
+\staff "1" \key c \major \stemUp <e a>2 <d e gs> \\
+\staff "2" \stemUp c,2_\markup "Ami:" \chords "i6" \stemDown d \chords "V42" | %36
+
+\staff "1" \key bf \major \stemUp <c ef a>2 <bf f' bf> \\
+\staff "2" \stemUp c,2_\markup "B♭:" \chords "vii°6" \stemDown d \chords "I6" | %37
+
+\staff "1" \key c \major \stemUp <ef g c>2 <d f b> \\
+\staff "2" \stemUp c,2_\markup "C:" \chords "I" \stemDown d \chords "vii°6" | %38
+
+\staff "1" \stemDown <c' e a>2^\markup "Ascending minor third" <c e g> \\
+\staff "2" \stemUp a,2_\markup "C:" \chords "vi" c \chords "I" | %39
+
+\staff "1" \stemDown <c' f a>2 <c e a> \\
+\staff "2" \stemUp a,2_\markup "Ami:" \chords "VI6" c \chords "i6" | %40
+
+\staff "1" \stemDown <c' e a>2 <c e a> \\
+\staff "2" \stemUp a,2_\markup "Ami:" \chords "i" c \chords "i6" | %41
+
+\staff "1" \key f \major \stemDown <a' c f>2 <g c e> \\
+\staff "2" \stemUp a,2_\markup "F:" \chords "I6" c \chords "V" | %42
+
+\staff "1" \key g \major \stemUp <e g c>2^\markup "Ascending major third" <e g b> \\
+\staff "2" \stemUp c,2_\markup "Emi:" \chords "VI" \stemDown e \chords "i" | %43
+
+\staff "1" \key c \major \stemUp <e a c>2 <e g c> \\
+\staff "2" \stemUp c,2_\markup "C:" \chords "vi6" \stemDown e \chords "I6" | %44
+
+\staff "1" \stemUp <e g c>2 <e g c> \\
+\staff "2" \stemUp c,2_\markup "C:" \chords "I" \stemDown e \chords "I6" | %45
+
+\staff "1" \stemUp <e a c>2 <e gs b> \\
+\staff "2" \stemUp c,2_\markup "Ami:" \chords "i6" \stemDown e \chords "V" | %46
+
+\staff "1" \stemDown <g' b f'>2^\markup "Ascending perfect fourth" <g c e> \\
+\staff "2" \stemUp g,2_\markup "C:" \chords "V7" c \chords "I" | %47
+
+\staff "1" \key ef \major \stemDown <g' bf ef>2 <g c ef> \\
+\staff "2" \stemUp g,2_\markup "E♭ (or Emi):" \chords "I6" c \chords "vi" | %48
+
+\staff "1" \key f \major \stemDown <d' g bf>2 <e g bf> \\
+\staff "2" \stemUp g,2_\markup "F:" \chords "ii" c \chords "V7" | %49
+
+\staff "1" \key g \major \stemDown <d' g bf>2 <d fs a> \\
+\staff "2" \stemUp g,2_\markup "G:" \chords "I" c \chords "V42" | %50
+
+\staff "1" \key af \major \stemDown <bf' ef bf'>2 <c ef af> \\
+\staff "2" \stemUp g,2_\markup "A♭:" \chords "V6" c \chords "I6" | %51
+
+\staff "1" \key bf \major \stemUp <ef g bf>2 <ef f a> \\
+\staff "2" \stemUp g,2_\markup "B♭:" \chords "IV6" c \chords "V43" | %52
+
+\staff "1" \key c \major \stemDown <c' f a>2^\markup "Ascending augmented fourth" <d f g> \\
+\staff "2" \stemUp f,,2_\markup "C:" \chords "IV" b \chords "V65" | %53
+
+\staff "1" \key gf \major \stemDown <d' f af>2 <ef gf> \\
+\staff "2" \stemUp f,,2_\markup "E♭mi:" \chords "vii°6" cf' \chords "VI" | %54
+
+\staff "1" \stemDown <df' af'>2 <df f af> \\
+\staff "2" \stemUp f,,2_\markup "G♭:" \chords "V6" cf' \chords "V42" | %55
+
+\staff "1" \key c \major \stemDown <c' f a>2 <d f a> \\
+\staff "2" \stemUp f,,2_\markup "Ami:" \chords "VI" b \chords "ii7" | %56

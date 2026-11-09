@@ -1,0 +1,62 @@
+[title "Diminished and Augmented Intervals A"]
+[composer "Kyle Gullings"]
+
+\key c \major \numericTimeSignature \time 4/4 \clef "treble" <c gs'>1_\markup "A5" \bar "||" | %1
+
+\clef "tenor" <c ff>1 \bar "||" | %2
+
+\clef "alto" <b af'>1 \bar "||" | %3
+
+\clef "bass" <c fs>1 \bar "||" | %4
+
+\clef "tenor" <df fs>1 \bar "||" | %5
+
+\clef "treble" <f eff'>1 | %6
+
+\clef "bass" <d, ds'>1 \bar "||" | %7
+
+\clef "alto" <ef, gff>1 \bar "||" | %8
+
+\clef "tenor" <fs, df'>1 \bar "||" | %9
+
+\clef "treble" <bf' e>1 \bar "||" | %10
+
+<g' bff>1_\markup "↑d3" \bar "||" | %11
+
+\clef "alto" af1_\markup "↑d5" \bar "||" | %12
+
+\clef "tenor" e,1_\markup "↑A6" \bar "||" | %13
+
+\clef "bass" b,1_\markup "↑d2" \bar "||" | %14
+
+df,1_\markup "↑A2" \bar "||" | %15
+
+\clef "treble" f1_\markup "↑d2" \bar "||" | %16
+
+\clef "alto" ef1_\markup "↑A3" \bar "||" | %17
+
+\clef "tenor" b1_\markup "↑A7" \bar "||" | %18
+
+\clef "treble" ds1_\markup "↑d7" \bar "||" | %19
+
+\clef "bass" af,1_\markup "↑A3" \bar "||" | %20
+
+<dff, c'>1_\markup "↓A7" \bar "||" | %21
+
+\clef "treble" bf''1_\markup "↓d2" \bar "||" | %22
+
+f1_\markup "↓A3" \bar "||" | %23
+
+\clef "bass" fs,1_\markup "↓d4" \bar "||" | %24
+
+ef'1_\markup "↓A8" \bar "||" | %25
+
+e,1_\markup "↓d5" \bar "||" | %26
+
+\clef "alto" ef1_\markup "↓d7" \bar "||" | %27
+
+\clef "tenor" c1_\markup "↓A3" \bar "||" | %28
+
+\clef "bass" bf1_\markup "↓A2" \bar "||" | %29
+
+\clef "alto" c1_\markup "↓d2" \bar "||" | %30

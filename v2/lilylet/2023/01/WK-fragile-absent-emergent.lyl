@@ -1,0 +1,53 @@
+[title "WK fragile absent emergent"]
+
+\key e \major \numericTimeSignature \time 4/4 \clef "treble" r8 \stemUp gs'^\markup "Verse" gs[ b16 b~] b8[ fs] fs[ fs16 fs~] | %1
+
+\stemUp fs8[ ds] ds[ ds16 ds~] ds8[ cs16 ds~] ds8[ e] | %2
+
+r8 \stemUp gs' gs[ b16 b~] b8[ fs] fs[ fs16 fs~] | %3
+
+\stemUp fs4 r r2 | %4
+
+r8 \stemUp gs' gs[ b16 b~] b8[ fs] fs[ fs16 fs~] | %5
+
+\stemUp fs8[ ds] ds[ cs16 ds~] ds8[ cs16 ds~] ds8[ e] | %6
+
+r8 \stemUp gs'[ gs b] b[ fs] fs[ fs16 fs] | %7
+
+\stemUp fs4 r2 r8 | %8
+
+\clef "treble_8" \stemUp e,8^\markup "Prechorus" | %9
+
+\stemUp gs8[ b b b] b[ a a gs] | %10
+
+\stemUp gs8[ fs fs fs] fs[ fs e e] | %11
+
+\stemUp e,8[ e e fs] fs[ fs fs e] | %12
+
+\stemDown b8[ b b cs] \stemUp b8.([ a16] gs4) | %13
+
+r8 \stemDown b[ b b] \stemUp b[ a gs gs] | %14
+
+\stemUp fs,8[ fs fs fs] fs[ fs fs fs] | %15
+
+\stemUp e,8[ e fs fs] fs[ fs fs fs] | %16
+
+\stemUp e,8[ b' b cs] b8.[ a16] gs8 | %17
+
+\clef "treble" \stemUp e8^\markup "Chorus" | %18
+
+\stemUp gs'4 r gs r | %19
+
+\stemUp fs8[ fs16 fs~] fs[ fs fs8] e4 r8 b | %20
+
+\stemUp gs'4 r gs r | %21
+
+\stemUp fs8[ fs16 fs~] fs[ fs fs8] e4 r | %22
+
+r8 \stemUp gs' gs[ gs16 gs~] gs8[ gs] gs[ gs16 fs~] | %23
+
+\stemUp fs8[ fs] fs[ fs16 fs~] fs8[ fs16 fs~] fs8[ e16 e~] | %24
+
+\stemUp e8[ b] b[ b16 b~] b8[ a16 a~] a8[ gs] | %25
+
+\stemUp fs,8[ fs] fs[ fs16 fs~] fs8[ fs16 fs~] fs8[ e] \bar "|." | %26

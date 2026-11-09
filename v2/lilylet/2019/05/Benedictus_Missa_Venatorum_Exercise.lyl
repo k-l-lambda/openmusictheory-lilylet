@@ -1,0 +1,64 @@
+[title "Benedictus"]
+[subtitle "Task: Complete the missing part using imitation"]
+[composer "O. Lassus"]
+[staves "<s1,s2>"]
+
+\key c \major \time 4/2 \clef "treble_8" \stemUp g2. a4 b \stemDown c d2~ \bar ";" \addlyrics { Be -- _ _ _ _ } \\\
+\clef "bass" R1 \bar ";" | %1
+
+\stemDown d2 \stemUp b \stemNeutral c1 \bar ";" \addlyrics { _ ne -- di -- } \\\
+r1 \stemUp c,2. d4 \bar ";" \addlyrics { Be -- _ } | %2
+
+\stemUp b2. \stemDown c4 d \stemUp b \stemDown e2~ \bar ";" \addlyrics { ctus __ _ _ _ _ } \\\
+\stemDown e,4 f \stemNeutral g1 \stemDown e2 \bar ";" \addlyrics { _ _ _ ne -- } | %3
+
+\stemDown e2 d r1 \bar ";" \addlyrics { _ qui } \\\
+f,1 \stemDown e2. f4 \bar ";" \addlyrics { di -- ctus __ _ } | %4
+
+R1 \bar ";" \\\
+\stemDown g4 e \stemNeutral a1 \stemDown g2 \bar ";" \addlyrics { _ _ _ qui } | %5
+
+R1 \bar ";" \\\
+\stemDown f,2 e4 \stemUp d \stemNeutral e1 \bar ";" \addlyrics { ve -- _ _ _ } | %6
+
+R1 \bar ";" \\\
+d,1 r2 \stemDown g \bar ";" \addlyrics { nit in } | %7
+
+R1 \bar ";" \\\
+\stemDown e,2 \stemUp d \stemDown g f4 e \bar ";" \addlyrics { no -- mi -- ne _ _ } | %8
+
+R1 \bar ";" \\\
+\stemUp d,4 \stemDown e f2. e4 \stemUp c d \bar ";" | %9
+
+R1 \bar ";" \\\
+\stemDown e,4 f g2 \stemUp d4 \stemDown e f g \bar ";" \addlyrics { _ _ _ Do -- _ _ _ } | %10
+
+R1 \bar ";" \\\
+\stemDown a4 g \stemNeutral g1 \stemDown fs2 \bar ";" \addlyrics { _ _ _ mi -- } | %11
+
+R1 \bar ";" \\\
+g1 r2 \stemUp d \bar ";" \addlyrics { ni, in } | %12
+
+R1 \bar ";" \\\
+\stemUp b,2 a d c4 b \bar ";" \addlyrics { no -- mi -- ne, _ _ } | %13
+
+R1 \bar ";" \\\
+a,1 r2 \stemUp c \bar ";" \addlyrics { _ in } | %14
+
+R1 \bar ";" \\\
+\stemUp a,2 g c b4 a \bar ";" \addlyrics { no -- mi -- ne, _ _ } | %15
+
+R1 \bar ";" \\\
+\stemUp g,2 \stemDown g' e \stemUp d \bar ";" \addlyrics { _ in no -- mi -- } | %16
+
+R1 \bar ";" \\\
+\stemDown g2 f4 e \stemUp d2 \stemDown f~ \bar ";" \addlyrics { ne, _ _ _ Do -- } | %17
+
+R1 \bar ";" \\\
+\stemDown f,4 e \stemUp c d \stemDown e2. \stemUp d4 \bar ";" | %18
+
+R1 \bar ";" \\\
+\stemUp c,4 b b a8[ g] a2 a \bar ";" \addlyrics { _ _ _ _ _ _ mi -- } | %19
+
+R1 \bar "|." \\\
+g,1~ g\fermata \bar "|." \addlyrics { ni. _ } | %20

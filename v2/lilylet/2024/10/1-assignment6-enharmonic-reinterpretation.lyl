@@ -1,0 +1,104 @@
+[title "1 assignment6 enharmonic reinterpretation"]
+[staves "s1,{s2-s3}"]
+
+\key c \major \numericTimeSignature \time 4/4 \clef "treble" <cs e g bf>1^\markup "1. Write the pairs of enharmonically equivalent chords and complete the chord analysis below the staff by writing\nin the key that corresponds to the given analysis."_\markup "___:" \chords "vii°7" \\\
+\staff "1" \clef "treble" R1 \\
+\staff "2" \clef "bass" R1 | %1
+
+\staff "1" <df ff g bf>1_\markup "___:" \chords "vii°43" \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %2
+
+\staff "1" <fs a c ef>1_\markup "___:" \chords "vii°7" \\\
+\staff "1" R1 \\
+\staff "2" R1 | %3
+
+\staff "1" <fs a c ds>1_\markup "___:" \chords "vii°65" \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %4
+
+\staff "1" <f af cf d>1_\markup "___:" \chords "vii°65" \\\
+\staff "1" R1 \\
+\staff "2" R1 | %5
+
+\staff "1" <es gs b d>1_\markup "___:" \chords "vii°7" \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %6
+
+\staff "1" <g' b d f>1^\markup "2. Write the pairs of enharmonicially equivalent chords and complete the chord analysis below the staff by writing\nin the key that corresponds to the given analysis."_\markup "___:" \chords "V7" \\\
+\staff "1" R1 \\
+\staff "2" R1 | %7
+
+\staff "1" <g' b d es>1_\markup "___:" \chords "Gr.653" \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %8
+
+\staff "1" <df f af cf>1_\markup "___:" \chords "V7" \\\
+\staff "1" R1 \\
+\staff "2" R1 | %9
+
+\staff "1" <df f af b>1_\markup "___:" \chords "Gr.653" \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %10
+
+\staff "1" <bf' d f af>1_\markup "___:" \chords "V7" \\\
+\staff "1" R1 \\
+\staff "2" R1 | %11
+
+\staff "1" <bf' d f gs>1_\markup "___:" \chords "Gr.653" \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %12
+
+\staff "1" \key ef \major R1 \\\
+\staff "1" f'4 g a f \\
+\staff "1" a'4 a a a \\
+\staff "2" \stemDown d,4 \chords "i" e \chords "V43" f \chords "i6" d \chords "i" \\
+\staff "2" d4 cs d d | %13
+
+\staff "1" R1 \\\
+\staff "1" f'2. e4 \\
+\staff "1" gs'2 a4 fss \\
+\staff "2" \stemDown bf,2 \chords "Gr.653" a \chords "V864--------------753" \chords "Gr.653" \\
+\staff "2" d2. cs4 | %14
+
+\staff "1" R1 \\\
+\staff "1" es'2 ds \\
+\staff "1" gs'2 fs \\
+\staff "2" gs,1 \chords "V864---------------------753" \\
+\staff "2" cs2 bs | %15
+
+\staff "1" R1 \bar "||" \\\
+\staff "1" cs'1 \bar "||" \\
+\staff "1" es1 \\
+\staff "2" cs,1 \chords "I" \\
+\staff "2" gs1 | %16
+
+\staff "1" R1 \\\
+\staff "1" g'4 g f f \\
+\staff "1" ef4 df c cf \\
+\staff "2" ef,4_\markup "___:" \chords "I" e \chords "vii°7/ii" f \chords "ii" d \chords "vii°7" \\
+\staff "2" bf4 bf af af | %17
+
+\staff "1" R1 \\\
+\staff "1" ef4 es fs es \\
+\staff "1" bf4 b cs cs \\
+\staff "2" ef,4 \chords "I" d_\markup "___:" \chords "vii°7" \chords "vii°42" cs \chords "V64---------53" cs \\
+\staff "2" g4 gs as gs | %18
+
+\staff "1" R1 \\\
+\staff "1" fs4 c' b c \\
+\staff "1" cs4 fs d e \\
+\staff "2" fs,4 \chords "i" d_\markup "___:" \chords "Gr.653" \chords "V7" g \chords "I" c, \chords "IV" \\
+\staff "2" a4 a g g | %19
+
+\staff "1" R1 \\\
+\staff "1" b'2 a \\
+\staff "1" d2 d \\
+\staff "2" d,2 \chords "V64---------------53" d \\
+\staff "2" g2 fs | %20
+
+\staff "1" R1 \bar "||" \\\
+\staff "1" g'1 \bar "||" \\
+\staff "1" b1 \\
+\staff "2" g,1 \chords "I" \\
+\staff "2" g1 | %21

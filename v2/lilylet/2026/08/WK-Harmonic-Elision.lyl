@@ -1,0 +1,245 @@
+[title "Harmonic Elision"]
+[composer "Brian Jarvis"]
+[staves "s1,s2,{s3-s4}"]
+[instrument-s1 "Cello" "Cello"]
+[instrument-s2 "Voice" "Voice"]
+
+\key c \major \time 2/4 \clef "bass" R2 \\\
+\clef "treble" R2 \\\
+\staff "1" \clef "treble" \stemDown <g' c e>4^\markup "Original progression" <g d' f> \\
+\staff "2" \clef "bass" \stemUp c,4_\markup "C:" \chords "I" b \chords "V65" | %1
+
+\staff "1" r4 \bar "|." \\\
+r4 \bar "|." \\\
+\staff "1" \stemDown <g' c e>4 \bar "|." \\
+\staff "2" \stemUp c,4 \chords "I" | %2
+
+\staff "1" R2 \\\
+R2 \\\
+\staff "1" \stemDown <g' c e>4^\markup "Rewrite using a raised-root elision" <g d' f> \\
+\staff "2" \stemUp c,4 \chords "I" b( \chords "V65" | %3
+
+\staff "1" R2 \bar "|." \\\
+R2 \bar "|." \\\
+\staff "1" \stemDown <g' a e'>4 \stemUp <f a d> \bar "|." \\
+\staff "2" \stemUp cs,4_\markup "I") \chords "V65" d \chords "ii" | %4
+
+\staff "1" \key f \major R2 \\\
+R2 \\\
+\staff "1" \stemUp <f a d>4^\markup "Original progression" <g a cs> \\
+\staff "2" \stemDown f,4_\markup "d:" \chords "i" e \chords "V43" | %5
+
+\staff "1" r4 \bar "|." \\\
+r4 \bar "|." \\\
+\staff "1" \stemUp <f a d>4 \bar "|." \\
+\staff "2" \stemDown d,4 \chords "i" | %6
+
+\staff "1" R2 \\\
+R2 \\\
+\staff "1" \stemUp <f a d>4^\markup "Rewrite using a leading-tone elision" <g a cs> \\
+\staff "2" \stemDown f,4 \chords "i" e \chords "V43" | %7
+
+\staff "1" R2 \bar "|." \\\
+R2 \bar "|." \\\
+\staff "1" r4 r \bar "|." \\
+\staff "2" r4 r | %8
+
+\staff "1" \key a \major \numericTimeSignature \time 4/4 r2 r \\\
+r2 r \\\
+\staff "1" \stemUp <e a cs>2^\markup "Original progression" <d fs b>4 <b fs' a> \\
+\staff "2" \stemUp a,2_\markup "A:" \chords "I" \stemDown d4 \chords "ii6" ds( \chords "V65" | %9
+
+\staff "1" \time 2/4 R2 \bar "|." \\\
+R2 \bar "|." \\\
+\staff "1" \stemUp <b e gs>4 r \bar "|." \\
+\staff "2" \stemDown e,4) \chords "V" r | %10
+
+\staff "1" \numericTimeSignature \time 4/4 r2 r \\\
+r2 r \\\
+\staff "1" \stemUp <e a cs>2^\markup "Rewrite using a raised-root elision" <d fs b>4 <b fs' a> \\
+\staff "2" \stemUp a,2 \chords "I" \stemDown d4 \chords "ii6" ds \chords "V65/V" | %11
+
+\staff "1" R1 \bar "|." \\\
+R1 \bar "|." \\\
+\staff "1" R1 \bar "|." \\
+\staff "2" R1 | %12
+
+\staff "1" \key d \major R1 \\\
+R1 \\\
+\staff "1" R1 \\
+\staff "2" \stemDown d,2 \stemUp cs | %13
+
+\staff "1" R1 \\\
+R1 \\\
+\staff "1" R1 \\
+\staff "2" \stemDown d,2 \stemUp cs | %14
+
+\staff "1" R1 \\\
+R1 \\\
+\staff "1" R1 \\
+\staff "2" \stemUp b,2 \stemDown e | %15
+
+\staff "1" R1 \bar "|." \\\
+R1 \bar "|." \\\
+\staff "1" R1 \bar "|." \\
+\staff "2" a,1 | %16
+
+\staff "1" \key ef \major \time 4/4 R1 \\\
+R1 \\\
+\staff "1" R1 \\
+\staff "2" \stemUp c,2 \stemDown d | %17
+
+\staff "1" R1 \\\
+R1 \\\
+\staff "1" R1 \\
+\staff "2" \stemDown ef,2 f | %18
+
+\staff "1" R1 \\\
+R1 \\\
+\staff "1" R1 \\
+\staff "2" \stemDown f,2 e | %19
+
+\staff "1" R1 \\\
+R1 \\\
+\staff "1" R1 \\
+\staff "2" \stemDown f,2 fs | %20
+
+\staff "1" R1 \\\
+R1 \\\
+\staff "1" R1 \\
+\staff "2" \stemDown g2 g | %21
+
+\staff "1" R1 \bar "|." \\\
+R1 \bar "|." \\\
+\staff "1" R1 \bar "|." \\
+\staff "2" c,1 | %22
+
+\staff "1" \key f \major \time 2/4 R2 \\\
+R2 \\\
+\staff "1" R2 \\
+\staff "2" r4 \chords "I" r \chords "IV6" | %23
+
+\staff "1" R2 \\\
+R2 \\\
+\staff "1" R2 \\
+\staff "2" r4 \chords "I6" e,( \chords "V65" | %24
+
+\staff "1" R2 \\\
+R2 \\\
+\staff "1" R2 \\
+\staff "2" r4 \chords "V42" r \chords "I6" | %25
+
+\staff "1" R2 \\\
+R2 \\\
+\staff "1" R2 \\
+\staff "2" r4 \chords "ii6" r \chords "V7" | %26
+
+\staff "1" R2 \\\
+R2 \\\
+\staff "1" R2 \\
+\staff "2" c,4_\markup "̂"_\markup " pedal"_\markup "I"( \chords "V7" r \chords "IV" | %27
+
+\staff "1" R2 \bar "|." \\\
+R2 \bar "|." \\\
+\staff "1" R2 \bar "|." \\
+\staff "2" r4 \chords "V7" r \chords "I" | %28
+
+\staff "1" \key c \major \time 2/2 R1 \\\
+R1 \\\
+\staff "1" R1 \\
+\staff "2" r2 \chords "I" r \chords "V65" | %29
+
+\staff "1" R1 \\\
+R1 \\\
+\staff "1" R1 \\
+\staff "2" r2 \chords "vii°7" r \chords "ii" | %30
+
+\staff "1" R1 \\\
+R1 \\\
+\staff "1" R1 \\
+\staff "2" b,2( \chords "V43" r \chords "ii6" | %31
+
+\staff "1" R1 \\\
+R1 \\\
+\staff "1" R1 \\
+\staff "2" r2 \chords "V864---------" b,4( \chords "vii°7" \chords "---------" \chords "---------" \chords "---------" b) \chords "753" | %32
+
+\staff "1" R1 \\\
+R1 \\\
+\staff "1" R1 \\
+\staff "2" r2 \chords "vi" r \chords "IV" | %33
+
+\staff "1" R1 \\\
+R1 \\\
+\staff "1" R1 \\
+\staff "2" r2 \chords "V64------------------------53" r | %34
+
+\staff "1" R1 \bar "|." \\\
+R1 \bar "|." \\\
+\staff "1" r2 r \bar "|." \\
+\staff "2" r2 \chords "I" r | %35
+
+\staff "1" \key f \major \time 3/4 \clef "tenor" \tuplet 3/2 { a8^\markup "37"(-.[ bf-. b)-.] } \stemDown c4( cs) \\\
+r8 \stemUp f f f \tuplet 3/2 { a8([ g)] f } \addlyrics { dann trag' feh es __ _ im } \\\
+\staff "1" \tuplet 3/2 { <f a>8[ <g bf> <gs b>] } \stemUp c4 cs \\
+\staff "1" r4 \tuplet 3/2 { a'8[ f f] } \tuplet 3/2 { a8[ f f] } \\
+\staff "2" \tuplet 3/2 { f,8[ <f g> <f gs>] } \stemDown <f a>4 f | %36
+
+\staff "1" \stemDown d2( f4) \\\
+\stemDown f'2 \stemUp f,8. g16 \addlyrics { Her -- zen den } \\\
+\staff "1" \stemUp d'2 f4 \\
+\staff "1" \tuplet 3/2 { r8 <f g>[ <f g>] } \tuplet 3/2 { <f g>8[ <f g> <f g>] } \tuplet 3/2 { <f g>8[ <f g> <f g>] } \\
+\staff "2" \tuplet 3/2 { bf,8[ bf' bf] } \tuplet 3/2 { bf8[ bf bf] } \tuplet 3/2 { b,8[ <b' d> <b d>] } | %37
+
+\staff "1" \tuplet 3/2 { f8(-.[ e-. d-.] } \tuplet 3/2 { c8-.[ bf-. a)-.] } \stemUp g4~ \\\
+\stemUp a'4~( \tuplet 3/2 { a8[ g)] a } \stemDown d8. c16 \addlyrics { gan -- _ _ zen Tag um -- } \\\
+\staff "1" r2 \stemUp <e g>4\> \\
+\staff "1" \tuplet 3/2 { <f a f'>8\![ <f a e'> <f a d>] } \tuplet 3/2 { <f a c>8[ <c f bf> <c f a>] } \tuplet 3/2 { <bf c>8[ <bf c> <bf c>] } \\
+\staff "2" \tuplet 3/2 { <c, f a c>8[ <c f a c> <c f a c>] } \tuplet 3/2 { <c f a>8[ <c f a> <c f a>] } \stemUp <c, c'>4 | %38
+
+\staff "1" \stemUp g4^\markup "40" \stemDown cs d \\\
+\stemUp a'2 r8 a \addlyrics { her. dann } \\\
+\staff "1" \stemUp <e g>4 cs' d \\
+\staff "1" \tuplet 3/2 { cs8[ a a] } \tuplet 3/2 { cs8[ <e g> <e g>] } \tuplet 3/2 { d8[ <f a> <f a>] } \\
+\staff "2" \stemUp <a,, a'>4 \stemDown <a' a'> <d a'> | %39
+
+\staff "1" \stemDown ds4( e2) \\\
+\stemUp a'4 \stemDown bf \stemUp a8. \stemDown bf16 \addlyrics { trag' ich es im } \\\
+\staff "1" \stemUp ds'4\<( e2\!\f) \\
+\staff "1" \tuplet 3/2 { ds8\![ <a' c> <a c>] } \tuplet 3/2 { e8[ <g c> <g c>\>] } \tuplet 3/2 { e8[ <g c> <g c>] } \\
+\staff "2" r4 \tuplet 3/2 { r8 <bf c>[ <bf c>] } \tuplet 3/2 { <bf c>8[ <bf c> <bf c>] } \\
+\staff "2" \tuplet 3/2 { <fs,, fs'>8[ <fs' a> <fs a>] } \stemDown g2 | %40
+
+\staff "1" \stemDown ds4( e2) \\\
+\stemDown c'4~( c \tuplet 3/2 { e8) d c } \addlyrics { Her -- _ _ zen den } \\\
+\staff "1" \stemUp ds'4\<( e2\!\f) \\
+\staff "1" \tuplet 3/2 { ds8\![ <a' c> <a c>] } \tuplet 3/2 { e8[ <g c>\> <g c>] } \tuplet 3/2 { e8[ <g c> <g c>] } \\
+\staff "2" \tuplet 3/2 { <fs,, fs'>8[ <fs' a c> <fs a c>] } \tuplet 3/2 { <g, g'>8[ <g' bf c> <g bf c>] } \tuplet 3/2 { <g bf c>8[ <g bf c> <g bf c>] } | %41
+
+\staff "1" \stemDown fs4^\markup "43"( g_\markup "cresc." gs) \\\
+\stemDown ef'4^\markup "stringendo"( d) f \addlyrics { gan -- _ zen } \\\
+\staff "1" \stemUp fs'4_\markup "stringendo"-^ g-^ gs-^ \\
+\staff "1" \tuplet 3/2 { fs8[ <a c> <a c>] } \tuplet 3/2 { g8[ <bf d> <bf d>] } \tuplet 3/2 { gs8[ <d' f> <d f>] } \\
+\staff "2" \tuplet 3/2 { a,8[ <a' c> <a c>] } \tuplet 3/2 { <bf, bf'>8[ <bf' d> <bf d>] } \tuplet 3/2 { b,8[ <b' d> <b d>] } | %42
+
+\staff "1" \stemDown a'4\ff~ \tuplet 3/2 { a8[ g(-. f-.] } \tuplet 3/2 { e8_\markup "dim."-.[ d-. c)-.] } \\\
+\stemDown f'2\ff( \stemUp a,8) r16 a \addlyrics { Tag __ _ im } \\\
+\staff "1" \tuplet 3/2 { <a' c a'>8\ff[ <a c a'> <a c a'>] } \tuplet 3/2 { <a c a'>8[ <a c g'> <a c f>] } \tuplet 3/2 { <f a e'>8[ <f a d> <f a c>] } \\
+\staff "2" \tuplet 3/2 { <c, f a c>8[ <c f a c> <c f a c>] } \tuplet 3/2 { <c f a c>8[ <c f a c> <c f a c>] } \tuplet 3/2 { <c f a>8[ <c f a> <c f a>] } | %43
+
+\staff "1" \tuplet 3/2 { b8\<(-.[ b-. b-.] } \tuplet 3/2 { b8-.[ b\!\>-. b-.] } \tuplet 3/2 { b8-.[ b-. b)-.] } \\\
+\stemUp g'2 fs8. g16 \addlyrics { Her -- zen, im } \\\
+\staff "1" \tuplet 3/2 { <d f g b>8\f[ <d f g b> <d f g b>] } \tuplet 3/2 { <d f g b>8[ <d f g b> <d f g b>] } \tuplet 3/2 { <d f g b>8[ <d f g b> <d f g b>] } \\
+\staff "2" \tuplet 3/2 { <c, f g b>8[ <c f g b> <c f g b>] } \tuplet 3/2 { <c f g b>8[ <c f g b> <c f g b>] } \tuplet 3/2 { <c f g b>8[ <c f g b> <c f g b>] } | %44
+
+\staff "1" \tuplet 3/2 { bf8^\markup "46"(-.[ bf-. bf)-.] } \stemDown bf2_\markup "rit."\fermata \\\
+\stemDown e'4\f^\markup "ad libitum."~(\fermata \tuplet 3/2 { e4 c8 } \tuplet 3/2 { bf8)[ d, e(] } \addlyrics { Her -- _ _ _ zen um -- } \\\
+\staff "1" \tuplet 3/2 { <c f g bf>8\f-^[ <c f g bf>-^ <c f g bf>-^] } \stemUp <c g' bf>2_\markup "ad lib."\fermata \\
+\staff "1" r4 \stemDown f e\p \\
+\staff "2" \tuplet 3/2 { <c, f g bf>8[ <c f g bf> <c f g bf>] } \stemUp <c g'>2\fermata \\
+\staff "2" r4 \stemDown f, e | %45
+
+\staff "1" \clef "bass" \tempo "a tempo." \tuplet 3/2 { a8-.[ c,-. c-.] } \tuplet 3/2 { c8-.[ c-. c-.] } b4 \bar "|." \\\
+\stemUp f2) \stemNeutral b4 \bar "|." \addlyrics { her! _ } \\\
+\staff "1" \tempo "a tempo." \tuplet 3/2 { <f a>8\f[ <a, c> <a c>] } \tuplet 3/2 { <a c>8[ <a c> <a c>] } b'4 \bar "|." \\
+\staff "2" \tuplet 3/2 { f,,8[ <c' f> <c f>] } \tuplet 3/2 { <c f>8[ <c f> <c f>] } b4 | %46

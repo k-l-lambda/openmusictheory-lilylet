@@ -1,0 +1,104 @@
+[title "Rhythmic Notation: Simple"]
+[staves "{s1-s2}"]
+
+\staff "1" \key d \major \numericTimeSignature \time 4/4 \clef "treble" \stemUp d4.^\markup "1" a' fs4 \\
+\staff "2" \clef "bass" R1 | %1
+
+\staff "1" \stemDown b'4 \stemUp a r r \\
+\staff "2" R1 | %2
+
+\staff "1" \stemUp e4 b'8^\markup "*"[ g fs e] cs4 \\
+\staff "2" R1 | %3
+
+\staff "1" \stemUp e2..^\markup "*" fs16[ g] \\
+\staff "2" R1 | %4
+
+\staff "1" \stemUp fs4 a8 \stemDown d4^\markup "*" d8 cs4 \\
+\staff "2" R1 | %5
+
+\staff "1" \stemDown d'4 \stemUp d,4.^\markup "*" r \bar "|." \\
+\staff "2" R1 | %6
+
+\staff "1" \stemUp d4. a'8~ a4 fs \\
+\staff "2" R1 | %7
+
+\staff "1" b'4 a r r \\
+\staff "2" R1 | %8
+
+\staff "1" e4 b'8[ g fs e] cs4 \\
+\staff "2" R1 | %9
+
+\staff "1" e2.. fs16[ g] \\
+\staff "2" R1 | %10
+
+\staff "1" \stemUp fs4 \stemDown a8[ d~] d[ \stemNeutral d] cs4 \\
+\staff "2" R1 | %11
+
+\staff "1" d'4 d,4. r \bar "|." \\
+\staff "2" R1 | %12
+
+\staff "1" \key cs \minor \time 3/4 \stemDown e'4.^\markup "2" \stemUp gs, \\
+\staff "2" \stemUp cs,4 \stemDown <gs' e'> <gs e'> | %13
+
+\staff "1" \stemDown ds'4.^\markup "*" \stemUp gs, \\
+\staff "2" \stemUp gs,4 \stemDown <bs' ds> <bs ds> | %14
+
+\staff "1" \stemDown cs'8^\markup "*" b4 \stemUp a fs8 \\
+\staff "2" \stemUp cs,4 r2 | %15
+
+\staff "1" \stemUp a'8^\markup "*" gs4 fs e8^\markup "*" \\
+\staff "2" r4 r r | %16
+
+\staff "1" \stemUp gs'4~ gs8[ gs] \stemDown bs4 \\
+\staff "2" \stemUp gs,8^\markup "*" \stemDown gs'2 \stemUp gs,8 | %17
+
+\staff "1" \stemDown cs'4 r2 \bar "|." \\
+\staff "2" \stemUp cs,4 r2 | %18
+
+\staff "1" \stemDown e'4. \stemUp gs,8~ gs4 \\
+\staff "2" \stemUp cs,4 \stemDown <gs' e'> <gs e'> | %19
+
+\staff "1" ds'4. gs, \\
+\staff "2" gs,4 <bs' ds> <bs ds> | %20
+
+\staff "1" \stemDown cs'8[ b~] \stemUp b[ \stemNeutral a] r fs \\
+\staff "2" cs,4 r2 | %21
+
+\staff "1" a'8 gs4 fs e8 \\
+\staff "2" r4 r r | %22
+
+\staff "1" gs'4~ gs8[ gs] bs4 \\
+\staff "2" gs,8 gs'2 gs,8 | %23
+
+\staff "1" cs'4 r2 \bar "|." \\
+\staff "2" cs,4 r2 | %24
+
+\staff "1" \key ef \major \time 2/2 \stemDown ef'2^\markup "3" \stemUp g, \\
+\staff "2" R1 | %25
+
+\staff "1" \stemDown bf'4 \stemUp ef,2 \stemDown bf'4 \\
+\staff "2" R1 | %26
+
+\staff "1" \stemDown ef'4 d8^\markup "*" c4 bf d8 \\
+\staff "2" R1 | %27
+
+\staff "1" \stemDown f'4 ef8^\markup "*" d4 c8[ bf af] \\
+\staff "2" R1 | %28
+
+\staff "1" \stemUp g'8[ f] g2. \bar "|." \\
+\staff "2" R1 | %29
+
+\staff "1" \stemDown ef'2 \stemNeutral g, \\
+\staff "2" R1 | %30
+
+\staff "1" bf'4 ef,2 bf'4 \\
+\staff "2" R1 | %31
+
+\staff "1" \stemDown ef'4 d8[ c~] \stemNeutral c bf4 d8 \\
+\staff "2" R1 | %32
+
+\staff "1" f'4 ef8 d4 c8[ bf af] \\
+\staff "2" R1 | %33
+
+\staff "1" g'8[ f] g2. \bar "|." \\
+\staff "2" R1 | %34

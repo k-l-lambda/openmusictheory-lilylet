@@ -1,0 +1,163 @@
+[title "Jazz Voicings"]
+[composer "Megan Lavengood and Kyle Gullings"]
+[staves "s1,{s2-s3}"]
+
+\key c \major \numericTimeSignature \time 4/4 \clef "treble" r8 \chords "_____" \stemUp d e4 fs d \\\
+\staff "1" \clef "treble" <c e fs a>1 \\
+\staff "2" \clef "bass" d,1 | %1
+
+\staff "1" \stemUp a'4 fs \stemDown b \stemUp a \\\
+\staff "1" r8 \stemUp <c e fs a>4. r2 \\
+\staff "2" r8 \stemDown d,4. r2 | %2
+
+\staff "1" \stemDown d'2 \stemUp a8 fs4 d8~ \\\
+\staff "1" <c e fs a>1~ \\
+\staff "2" d,1~ | %3
+
+\staff "1" d1 \\\
+\staff "1" \stemUp <c e fs a>2. <c e fs a>4 \\
+\staff "2" \stemDown d,2. d4 | %4
+
+\staff "1" \stemUp d4 \chords "_____" e f d \\\
+\staff "1" <b e f a>1 \\
+\staff "2" g,1 | %5
+
+\staff "1" \stemUp a'8[ a] f4 \stemDown b8 \stemUp a4 \stemDown d8~ \\\
+\staff "1" \stemUp <b e f a>2. r8 <b e f a>~ \\
+\staff "2" \stemUp g,2. r8 g~ | %6
+
+\staff "1" \stemDown d'2 \stemUp \grace { as8( \stemDown } b4) \stemUp a8[ g~] \\\
+\staff "1" <b e f a>1~ \\
+\staff "2" g,1~ | %7
+
+\staff "1" \stemUp g'2. r4 \\\
+\staff "1" \stemUp <b e f a>2. <b e f a>4 \\
+\staff "2" \stemUp g,2. g4 | %8
+
+\staff "1" r8 \chords "_____" \stemUp c[ d c] \grace { ds( } e4) c8[ g'] \\\
+\staff "1" <bf d e a>1 \\
+\staff "2" c,,1 | %9
+
+\staff "1" r8 \stemUp e4 e8 a4 g \\\
+\staff "1" \stemUp <bf d e a>2 r \\
+\staff "2" \stemUp c,,2 r | %10
+
+\staff "1" \stemDown c'2 \stemUp g8 e4 c8~ \\\
+\staff "1" <bf d e a>1 \\
+\staff "2" c,,1 | %11
+
+\staff "1" \stemUp c4. c8 d[ c d c] \\\
+\staff "1" <bf d e a>1 \\
+\staff "2" c,,1 | %12
+
+\staff "1" \stemUp a'4 \chords "_____" a8[ a~] a2 \\\
+\staff "1" \stemUp <a c e g>2. <a c e g>4 \\
+\staff "2" \stemUp f,,2. f4 | %13
+
+\staff "1" r4 \chords "_____" r8 \stemUp c d[ c d c] \\\
+\staff "1" <a c d f>1 \\
+\staff "2" f,,1 | %14
+
+\staff "1" \stemUp a'2. \chords "_____" \tuplet 3/2 { f8[ e d] } \\\
+\staff "1" <bf d g a>1 \\
+\staff "2" e,,1 | %15
+
+\staff "1" \tuplet 3/2 { cs8[ e g] } \chords "_____" \stemDown bf4 \stemUp a2 \\\
+\staff "1" \stemUp <bf cs e g>2 <cs e g bf> \\
+\staff "2" \stemUp a,2 a | %16
+
+\staff "1" \stemUp d8[ \chords "_____" d] e4 fs d \\\
+\staff "1" <c e fs b>1 \\
+\staff "2" d,,1 | %17
+
+\staff "1" \stemUp a'8 fs4 \stemDown b \stemUp a \stemDown d8~ \\\
+\staff "1" \stemUp <c e fs b>8 r r4 r2 \\
+\staff "2" \stemUp d,,8 r r4 r2 | %18
+
+\staff "1" \stemDown d'2 \stemUp a4 fs8[ d~] \\\
+\staff "1" <c e fs b>1~ \\
+\staff "2" d,,1~ | %19
+
+\staff "1" d1 \\\
+\staff "1" \stemUp <c e fs b>2. <c e fs b>4 \\
+\staff "2" \stemUp d,,2. d4 | %20
+
+\staff "1" \stemUp d4 \chords "_____" e f8 d4 a'8~ \\\
+\staff "1" <b e f a>1 \\
+\staff "2" g,1 | %21
+
+\staff "1" \stemUp a'8 f4 \stemDown b8~ b \stemUp a4. \\\
+\staff "1" \stemUp <b e f a>2. r8 <b e f a>~ \\
+\staff "2" \stemUp g,2. r8 g~ | %22
+
+\staff "1" \stemDown d'2 b4 \stemUp a8[ g~] \\\
+\staff "1" <b e f a>1~ \\
+\staff "2" g,1~ | %23
+
+\staff "1" g'1 \\\
+\staff "1" \stemUp <b e f a>2. <b e f a>4 \\
+\staff "2" \stemUp g,2. g4 | %24
+
+\staff "1" \stemUp gs'8[ \chords "_____" a a f] a4. a8 \\\
+\staff "1" <c e f a>1 \\
+\staff "2" d,,1 | %25
+
+\staff "1" \tuplet 3/2 { a'8[ g e] } \chords "_____" \stemUp bf'8[ a~] a2 \chords "_____" \\\
+\staff "1" \stemUp <bf d e a>2 <b cs e g> \\
+\staff "2" \stemUp e,,2 a | %26
+
+\staff "1" r8 \chords "_____" \stemUp a'4. a4 a \\\
+\staff "1" \stemUp <c e f a>2 \stemDown <c' e f a> \\
+\staff "2" d,,1 | %27
+
+\staff "1" \stemUp g'8 \chords "_____" e4 a8~ a2 \chords "_____" \\\
+\staff "1" \stemDown <bf' d e a>2 <b cs e g> \\
+\staff "2" \stemUp e,,2 a | %28
+
+\staff "1" \stemUp c4 \chords "_____" d f \chords "_____" g8[ a] \\\
+\staff "1" \stemDown <a' d ef g>2 <gs cs d fs> \\
+\staff "2" \stemUp f,,2 e | %29
+
+\staff "1" \stemDown c'8[ \chords "_____" b c cs] d \chords "_____" \stemUp a4. \\\
+\staff "1" \stemDown <g' c df f>2 <fs b c e> \\
+\staff "2" \stemUp ef,,2 d | %30
+
+\staff "1" r4 \chords "_____" \stemUp g' \stemDown c8 \chords "_____" \stemUp a4 f8~ \\\
+\staff "1" \stemUp <f a b e>2 <e a bf d> \\
+\staff "2" \stemUp g,2 c | %31
+
+\staff "1" f1 \chords "_____" \bar "|." \\\
+\staff "1" \stemUp <e f a c>2 r \bar "|." \\
+\staff "2" \stemDown f,2 r | %32
+
+\staff "1" \key d \major <g' b d fs>1^\markup "Did you remember to do both parts of the analysis? (refer to the instructions!)"^\markup "unvoiced" \\\
+\staff "1" <fs b e>1_\markup "voiced" \chords "Gma7" \\
+\staff "2" g,1 | %33
+
+\staff "1" R1 \\\
+\staff "1" R1 \chords "C#ø7" \\
+\staff "2" R1 | %34
+
+\staff "1" R1 \\\
+\staff "1" R1 \chords "F#7" \\
+\staff "2" R1 | %35
+
+\staff "1" R1 \bar "||" \\\
+\staff "1" R1 \chords "Bmi(ma7)" \bar "||" \\
+\staff "2" R1 | %36
+
+\staff "1" \key f \major <g' bf d f>1^\markup "unvoiced" \\\
+\staff "1" <bf' f' a>1 \chords "Gmi7" \\
+\staff "2" g,1^\markup "voiced" | %37
+
+\staff "1" R1 \\\
+\staff "1" R1 \chords "Db7" \\
+\staff "2" R1 | %38
+
+\staff "1" R1 \\\
+\staff "1" R1 \chords "C7" \\
+\staff "2" R1 | %39
+
+\staff "1" R1 \bar "||" \\\
+\staff "1" R1 \chords "F6" \bar "||" \\
+\staff "2" R1 | %40

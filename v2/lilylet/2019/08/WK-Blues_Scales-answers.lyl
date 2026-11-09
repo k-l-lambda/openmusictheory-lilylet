@@ -1,0 +1,43 @@
+[title "WK Blues Scales answers"]
+
+\key c \major \time 7/4 \clef "treble" \stemUp f4 af \stemDown bf b_\markup "In each scale, this note may be spelled\neither as ♯4 or ♭5."\arpeggio c ef f | %1
+
+\stemUp bf4 df ef e f af \stemDown bf | %2
+
+\stemUp ef4 gf af a \stemDown bf df ef | %3
+
+\stemUp g'4 \stemDown bf c cs d f g | %4
+
+\stemUp d4 f g gs a \stemDown c d | %5
+
+\stemUp a'4 \stemDown c d ds e g a | %6
+
+\stemUp f4^\markup "For #7 and #8, write a major blues scale." g gs a \stemDown c d f | %7
+
+\stemUp bf4 c cs d f g \stemDown bf | %8
+
+\numericTimeSignature \time 4/4 \stemDown b'8^\markup "a"[ b~] b4 \stemUp b8[ g a g] \addlyrics { You ain't __ _ no -- thin but a } | %9
+
+\stemUp a'4 e8([ g)] r2 \addlyrics { hound dog, __ _ } | %10
+
+r4 \stemUp g' a8[ b g a] \addlyrics { been snoo -- pin 'round my } | %11
+
+\stemUp e4 r r2 \addlyrics { door. } | %12
+
+r8 \stemDown d' d4 d8[ b d b] \addlyrics { You ain't no -- thin but a } | %13
+
+\stemDown b'4^\markup "a'"( \stemUp a16[ g e8~] e)[ g] r4 \addlyrics { hound __ _ _ _ _ dog, } | %14
+
+r4 \stemUp d e8[ g e g] \addlyrics { been snoo -- pin 'round my } | %15
+
+\stemUp e4 r r2 \addlyrics { door. } | %16
+
+r4 \stemUp b'8[ a] b16([ a) g8~] g[ a~] \addlyrics { You can wag __ _ _ _ your __ } | %17
+
+\stemUp a'4^\markup "b" g16([ a b8)] r2 \addlyrics { _ tail __ _ _ } | %18
+
+r8 \stemDown b'[ b d~] d b4 \stemUp a16([ g] \addlyrics { but I ain't __ _ gon feed __ _ } | %19
+
+\stemUp e8) d4 gs8~ gs[ e~] e4 \addlyrics { _ you no __ _ more. __ _ } | %20
+
+R1 \bar "||" | %21

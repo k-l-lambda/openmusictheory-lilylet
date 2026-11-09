@@ -1,0 +1,13 @@
+[title "Bach, Well-Tempered Clavier II, Fugue 20 in A minor, BWV 889: subject"]
+[subtitle "Task: Use the empty stave to write suitable answers and counter-subjects"]
+[composer "J. S. Bach"]
+[staves "s1,s2"]
+
+\key c \major \numericTimeSignature \time 4/4 \clef "bass" r4 \stemDown e^\markup "BWV 889" c f \\\
+\clef "bass" R1 | %1
+
+\stemDown gs4 r r8 d'[ b e] \\\
+R1 | %2
+
+\stemDown c8[ a] \bar "|." \\\
+R4 \bar "|." | %3

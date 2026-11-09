@@ -1,0 +1,13 @@
+[title "Bach, Well-Tempered Clavier I, Fugue 22 in Bb minor, BWV 867: subject"]
+[subtitle "Task: Use the empty stave to write suitable answers and counter-subjects"]
+[composer "J. S. Bach"]
+[staves "s1,s2"]
+
+\key bf \minor \numericTimeSignature \time 2/2 \clef "treble" \stemDown bf'2^\markup "BWV 867" \stemUp f \\\
+\clef "treble" R1 | %1
+
+r4 \stemDown gf'' f ef \\\
+R1 | %2
+
+df'4 \bar "|." \\\
+R4 \bar "|." | %3

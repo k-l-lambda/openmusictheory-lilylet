@@ -1,0 +1,28 @@
+[title "Bach, Well-Tempered Clavier II, Fugue 15 in G major, BWV 884: subject"]
+[subtitle "Task: Use the empty stave to write suitable answers and counter-subjects"]
+[composer "J. S. Bach"]
+[staves "s1,s2"]
+
+\key g \major \time 3/8 \clef "treble" r16 \stemDown d'^\markup "BWV 884"[ b d g d] \\\
+\clef "treble" R2 | %1
+
+\stemDown b'16[ d g, d' b d] \\\
+R2 | %2
+
+\stemUp e'16[ c a c fs, a] \\\
+R2 | %3
+
+\stemUp d'16[ b g b e, g] \\\
+R2 | %4
+
+\stemUp c'16[ a fs a d, fs] \\\
+R2 | %5
+
+\stemUp b'16[ a g a b c] \\\
+R2 | %6
+
+\stemDown d'16[ a b cs d e] \\\
+R2 | %7
+
+fs'16 \bar "|." \\\
+R16 \bar "|." | %8

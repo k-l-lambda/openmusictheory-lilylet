@@ -1,0 +1,152 @@
+[title "Lead Sheet Symbols"]
+[staves "{s1-s2}"]
+
+\staff "1" \key c \major \clef "treble" <e g b>1^\markup "1"^\markup "________" \bar "||" \\
+\staff "2" \clef "treble" R1 | %1
+
+\staff "1" <gs' b d>1^\markup "2"^\markup "________" \bar "||" \\
+\staff "2" R1 | %2
+
+\staff "1" <c' e g>1^\markup "3"^\markup "________" \bar "||" \\
+\staff "2" R1 | %3
+
+\staff "1" <d fs as>1^\markup "4"^\markup "________" \bar "||" \\
+\staff "2" R1 | %4
+
+\staff "1" <g' bf d>1^\markup "5"^\markup "________" \bar "||" \\
+\staff "2" R1 | %5
+
+\staff "1" <af' c e>1^\markup "6"_\markup "PART 2\nSpell the triad indicated by each lead sheet symbol."^\markup "________" \bar "||" \\
+\staff "2" R1 | %6
+
+\staff "1" <fs as cs>1^\markup "7"^\markup "________" \bar "||" \\
+\staff "2" R1 | %7
+
+\staff "1" <e g bf>1^\markup "8"^\markup "________" \bar "||" \\
+\staff "2" R1 | %8
+
+\staff "1" <d f a>1^\markup "9"^\markup "________" \bar "||" \\
+\staff "2" R1 | %9
+
+\staff "1" <bf' d fs>1^\markup "10"^\markup "________" \bar "|." \\
+\staff "2" R1 | %10
+
+\staff "1" r1 \chords "Bbº" \bar "||" \\
+\staff "2" R1 | %11
+
+\staff "1" r1 \chords "F#m" \bar "||" \\
+\staff "2" R1 | %12
+
+\staff "1" R1 \chords "Db+" \bar "||" \\
+\staff "2" R1 | %13
+
+\staff "1" R1 \chords "A" \bar "||" \\
+\staff "2" R1 | %14
+
+\staff "1" R1 \chords "Cm" \bar "||" \\
+\staff "2" R1 | %15
+
+\staff "1" R1 \chords "F#°" \bar "||" \\
+\staff "2" R1 | %16
+
+\staff "1" R1 \chords "E+" \bar "||" \\
+\staff "2" R1 | %17
+
+\staff "1" R1 \chords "B" \bar "||" \\
+\staff "2" R1 | %18
+
+\staff "1" R1 \chords "F" \bar "||" \\
+\staff "2" R1 | %19
+
+\staff "1" R1 \chords "Eb°" \bar "|." \\
+\staff "2" R1 | %20
+
+\staff "1" <f a c e>1^\markup "21"^\markup "PART 3\nWrite the lead sheet symbol for each seventh chord."^\markup "________" \bar "||" \\
+\staff "2" R1 | %21
+
+\staff "1" <ds fs a c>1^\markup "22"^\markup "________" \bar "||" \\
+\staff "2" R1 | %22
+
+\staff "1" <b d fs a>1^\markup "23"^\markup "________" \bar "||" \\
+\staff "2" R1 | %23
+
+\staff "1" <ef g bf df>1^\markup "24"^\markup "________" \bar "||" \\
+\staff "2" R1 | %24
+
+\staff "1" <g' b d fs>1^\markup "25"^\markup "________" \bar "||" \\
+\staff "2" R1 | %25
+
+\staff "1" <c ef gf bf>1^\markup "26"^\markup "________" \bar "||" \\
+\staff "2" R1 | %26
+
+\staff "1" <a' cs e g>1^\markup "27"^\markup "________" \bar "||" \\
+\staff "2" R1 | %27
+
+\staff "1" <e g b d>1^\markup "28"^\markup "________" \bar "||" \\
+\staff "2" R1 | %28
+
+\staff "1" <b d f a>1^\markup "29"^\markup "________" \bar "||" \\
+\staff "2" R1 | %29
+
+\staff "1" <f af cf ef>1^\markup "30"^\markup "________" \bar "|." \\
+\staff "2" R1 | %30
+
+\staff "1" R1 \chords "Dø7" \bar "||" \\
+\staff "2" R1 | %31
+
+\staff "1" R1 \chords "B7" \bar "||" \\
+\staff "2" R1 | %32
+
+\staff "1" R1 \chords "Em7" \bar "||" \\
+\staff "2" R1 | %33
+
+\staff "1" R1 \chords "G°7" \bar "||" \\
+\staff "2" R1 | %34
+
+\staff "1" R1 \chords "Amaj7" \bar "||" \\
+\staff "2" R1 | %35
+
+\staff "1" R1 \chords "G#m7" \bar "||" \\
+\staff "2" R1 | %36
+
+\staff "1" R1 \chords "C#ø7" \bar "||" \\
+\staff "2" R1 | %37
+
+\staff "1" R1 \chords "B°7" \bar "||" \\
+\staff "2" R1 | %38
+
+\staff "1" R1 \chords "Fmaj7" \bar "||" \\
+\staff "2" R1 | %39
+
+\staff "1" R1 \chords "Eb7" \bar "|." \\
+\staff "2" R1 | %40
+
+\staff "1" <d gs>1^\markup "41"^\markup "________" \bar "||" \\
+\staff "2" \clef "bass" <e, b'>1 | %41
+
+\staff "1" <c e>1^\markup "42"^\markup "________" \bar "||" \\
+\staff "2" <a, g'>1 | %42
+
+\staff "1" <e g>1^\markup "43"^\markup "________" \bar "||" \\
+\staff "2" <c, b'>1 | %43
+
+\staff "1" <g' b>1^\markup "44"^\markup "________" \bar "||" \\
+\staff "2" <g d'>1 | %44
+
+\staff "1" <d f>1^\markup "45"^\markup "________" \bar "||" \\
+\staff "2" <d, af'>1 | %45
+
+\staff "1" <a' c>1^\markup "46"^\markup "________" \bar "||" \\
+\staff "2" <fs, ef'>1 | %46
+
+\staff "1" <b d>1^\markup "47"^\markup "________" \bar "||" \\
+\staff "2" <b, fs'>1 | %47
+
+\staff "1" <c f>1^\markup "48"^\markup "________" \bar "||" \\
+\staff "2" <d, a'>1 | %48
+
+\staff "1" <c ef>1^\markup "49"^\markup "________" \bar "||" \\
+\staff "2" <a, g'>1 | %49
+
+\staff "1" <c e>1^\markup "50"^\markup "________" \bar "|." \\
+\staff "2" <c, gs'>1 | %50

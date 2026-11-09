@@ -1,0 +1,10 @@
+[title "Bach, Well-Tempered Clavier II, Fugue 5 in D major, BWV 874: subject"]
+[subtitle "Task: Use the empty stave to write suitable answers and counter-subjects"]
+[composer "J. S. Bach"]
+[staves "s1,s2"]
+
+\key d \major \numericTimeSignature \time 2/2 \clef "bass" r8 \stemDown d^\markup "BWV 874"[ d d] g,4 b \\\
+\clef "bass" R1 | %1
+
+\stemDown b8[ e, a g] fs \bar "|." \\\
+R2 \bar "|." | %2

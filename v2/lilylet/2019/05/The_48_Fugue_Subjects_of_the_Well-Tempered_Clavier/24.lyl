@@ -1,0 +1,16 @@
+[title "Bach, Well-Tempered Clavier I, Fugue 24 in B minor, BWV 869: subject"]
+[subtitle "Task: Use the empty stave to write suitable answers and counter-subjects"]
+[composer "J. S. Bach"]
+[staves "s1,s2"]
+
+\key b \minor \numericTimeSignature \time 4/4 \clef "treble" r8 \stemUp fs^\markup "BWV 869"[ d b] g'([ fs) b( as)] \\\
+\clef "treble" R1 | %1
+
+\stemUp e8([ ds) c'( b)] fs([ es) d'( cs)] \\\
+R1 | %2
+
+\stemUp bs'8[ cs a fs] gs2 \\\
+R1 | %3
+
+fs8 \bar "|." \\\
+R8 \bar "|." | %4

@@ -1,0 +1,62 @@
+[title "Music Theory II – Dr. Gullings Practice Exercises #1a: Classical Cadence Types"]
+[composer "N"]
+[staves "<s1-s2>"]
+
+\key bf \major \numericTimeSignature \time 4/4 \clef "treble" \stemUp bf'2^\markup "1. Simple PAC" r \\
+\stemDown ef2 \\\
+\clef "bass" \stemUp g2_\markup "Bb:" \stemDown c, \addlyrics { IV _ } \\
+\stemDown ef,2 | %1
+
+R1 \bar "|." \\\
+r2 \stemDown d, \bar "|." | %2
+
+\key a \major \stemUp a'2^\markup "2. Simple IAC" r \\
+\stemDown fs2 \\\
+\stemUp b2_\markup "A:" \stemDown e,_\markup "6\n5" \addlyrics { ii _ } \\
+\stemDown d,2 | %3
+
+R1 \bar "|." \\\
+r2 \stemDown d, \bar "|." | %4
+
+\key b \minor \stemUp d'2^\markup "3. Simple HC" r \\
+\stemDown fs2 \\\
+\stemUp b2_\markup "Bm:" \stemDown d, \addlyrics { i _ } \\
+\stemDown b,2 | %5
+
+R1 \bar "|." \\\
+r2 \stemDown d, \bar "|." | %6
+
+\key c \minor \stemUp f2^\markup "4. Compound PAC w/ Dominant 4-3 Suspension" r \\
+\stemDown c2 \\\
+\stemUp f,2_\markup "Cm:"_\markup "6" \stemDown ef4 ef \addlyrics { iv _ _ } \\
+\stemDown af,2 | %7
+
+R1 \bar "|." \\\
+r2 \stemDown d, \bar "|." | %8
+
+\key f \major \stemUp d'2^\markup "5. Compound HC w/ Cadential 6-4 & V(5-3)" \\
+\stemDown g'2 \\\
+\stemUp bf2_\markup "F:" \addlyrics { ii } \\
+\stemDown g,2 | %9
+
+R1 \bar "|." \\\
+\stemDown d,2 d_\markup "Am:" \bar "|." | %10
+
+\key a \minor \stemUp a'2^\markup "6. Compound PAC w/ Cadential 6-4 & V7" r \\
+\stemDown d2 \\\
+\stemUp f,2_\markup "6"_\markup "ø" \stemDown d4 d \addlyrics { ii _ _ } \\
+\stemDown d,2 | %11
+
+R1 \bar "|." \\\
+r2 \stemDown d, \bar "|." | %12
+
+\key e \major \stemUp a'2^\markup "7. Double Cadence PAC" \\
+\stemDown e2 \\\
+\stemUp cs2_\markup "E:" \addlyrics { IV } \\
+\stemDown a,2 | %13
+
+\stemUp a4 a a a \\\
+\stemDown ds,4 ds ds ds | %14
+
+R2 \bar "|." \\\
+\stemDown e,2 \bar "|." | %15

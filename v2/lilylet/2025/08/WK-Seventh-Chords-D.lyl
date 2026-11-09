@@ -1,0 +1,215 @@
+[title "Seventh Chords D"]
+[composer "Kyle Gullings and Samuel Brady"]
+[staves "s1,{s2-s3}"]
+
+\key c \major \clef "treble" <d f a c>1 \chords "Dmi7" \bar "||" \\\
+\staff "1" \clef "treble" R1 \bar "||" \\
+\staff "2" \clef "bass" R1 | %1
+
+\staff "1" <e gs b d>1 \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %2
+
+\staff "1" <b' ds fs a>1 \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %3
+
+\staff "1" <g bf df f>1 \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %4
+
+\staff "1" <fs as cs es>1 \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %5
+
+\staff "1" \clef "bass" <ef, gf bff df>1 \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %6
+
+\staff "1" <fs, a c ef>1 \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %7
+
+\staff "1" <f,, a c e>1 \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %8
+
+\staff "1" <c, e g bf>1 \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %9
+
+\staff "1" <a, c ef gf>1 \\\
+\staff "1" R1 \\
+\staff "2" R1 | %10
+
+\staff "1" \clef "treble" <g' b d fs>1 \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %11
+
+\staff "1" <f, af c ef>1 \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %12
+
+\staff "1" <cs e g bf>1 \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %13
+
+\staff "1" <e gs b d>1 \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %14
+
+\staff "1" <b' d fs a>1 \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %15
+
+\staff "1" \clef "bass" <a, c ef g>1 \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %16
+
+\staff "1" <gs, b d f>1 \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %17
+
+\staff "1" <b, d f a>1 \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %18
+
+\staff "1" <g, b d fs>1 \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %19
+
+\staff "1" <fs,, a cs e>1 \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %20
+
+\staff "1" \clef "treble" <b ds fs a>1 \chords "B7" \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %21
+
+\staff "1" R1 \chords "F#°7" \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %22
+
+\staff "1" R1 \chords "D7" \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %23
+
+\staff "1" R1 \chords "Abma7" \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %24
+
+\staff "1" R1 \chords "Emi7" \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %25
+
+\staff "1" \clef "bass" R1 \chords "Gø7" \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %26
+
+\staff "1" R1 \chords "Cmi7" \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %27
+
+\staff "1" R1 \chords "Bbma7" \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %28
+
+\staff "1" R1 \chords "C#ø7" \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %29
+
+\staff "1" r1 \chords "Bb7" \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %30
+
+\staff "1" \clef "treble" R1 \chords "Dma7" \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %31
+
+\staff "1" R1 \chords "G#ø7" \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %32
+
+\staff "1" R1 \chords "Cmi7" \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %33
+
+\staff "1" R1 \chords "B°7" \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %34
+
+\staff "1" R1 \chords "Ebma7" \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %35
+
+\staff "1" \clef "bass" R1 \chords "D#°7" \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %36
+
+\staff "1" R1 \chords "Fmi7" \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %37
+
+\staff "1" R1 \chords "Ab7" \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %38
+
+\staff "1" R1 \chords "Dbø7" \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %39
+
+\staff "1" R1 \chords "F°7" \bar "||" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %40
+
+\staff "1" \key ef \major \numericTimeSignature \time 4/4 \clef "treble" \stemUp g'8^\markup "Louisa Gray, \"Unforgotten\" (ca. 1870)"[ af] \addlyrics { I am } \\\
+\staff "1" \stemUp <ef g>8[ bf] \\
+\staff "2" r4 | %41
+
+\staff "1" \stemDown bf'4 \stemUp f g4. af8 \addlyrics { list’ -- ning for a } \\\
+\staff "1" r8 \chords "Bb7/F" \stemUp bf[ <d af'> bf] r bf[ <d af'> bf] \\
+\staff "2" \stemUp <f,, f'>2 <bf, bf'> | %42
+
+\staff "1" \stemUp g'4 g r bf,8[ bf] \addlyrics { foot -- step I can } \\\
+\staff "1" r8 \stemUp bf[ <ef g> bf] r bf[ <ef g> bf] \\
+\staff "2" \stemUp <ef,, ef'>2 <bf bf'> | %43
+
+\staff "1" \stemUp bf4 af' g4. f8 \addlyrics { ne -- ver hear a -- } \\\
+\staff "1" r8 \stemUp bf[ <d af'> c] <bf g'>[ af <bf d> af] \\
+\staff "2" \stemUp <f,, f'>2 <bf, bf'> | %44
+
+\staff "1" \stemUp ef2 r4 g8[ af] \addlyrics { - gain, And the } \\\
+\staff "1" r8 \stemUp bf[ <ef g> bf] r bf[ <ef g> bf] \\
+\staff "2" \stemUp <ef,, ef'>2 <bf bf'> | %45
+
+\staff "1" \stemDown bf'4 \stemUp c, df4. c8 \addlyrics { year -- ning of my } \\\
+\staff "1" r8 \stemUp bf[ <c e> bf] r bf[ <c e> bf] \\
+\staff "2" \stemUp <c,, c'>2 <c c'> | %46
+
+\staff "1" \stemUp c4 af' af4. g8 \addlyrics { spi -- rit Turns the } \\\
+\staff "1" r8 \stemUp af[ <c f> af] r bf[ <c e> af] \\
+\staff "2" \stemDown f,2 g | %47
+
+\staff "1" \stemUp f4 f \stemDown c' c \addlyrics { si -- lence in -- to } \\\
+\staff "1" r8 \stemUp <c ef f>[ <c ef f> <c ef f>] r <c ef f>[ <c ef f> <c ef f>] \\
+\staff "2" \stemDown af2 a | %48
+
+\staff "1" \stemUp d2 r4 \stemDown bf'8[ bf] \addlyrics { pain, And the } \\\
+\staff "1" r8 \stemUp <d f af>\<[ <d f af> <d f af>] <d f af>[ <d f af> <d f af> <d f af>]\! \\
+\staff "2" \stemDown bf2~ bf | %49
+
+\staff "1" \stemDown bf'4\< ef ef d\! \addlyrics { year -- ning of my } \\\
+\staff "1" \stemUp <g' bf>8[ <g bf> <g bf> <g bf>] <f g b>[ <f g b> <f g b> <f g b>] \\
+\staff "2" \stemDown <g ef'>8[ <g ef'> <g ef'> <g ef'>] <g d'>[ <g d'> <g d'> <g d'>] | %50
+
+\staff "1" \stemDown d'4\> c bf \stemUp af\! \addlyrics { spi -- rit Turns the } \\\
+\staff "1" r8 \stemUp <ef g c>[ <ef g c> <ef g c>] r <c f af>[ <c f af> <c f af>] \\
+\staff "2" \stemDown <g c>2 <af, af'> | %51
+
+\staff "1" \stemUp g'4 g g4. f8 \addlyrics { si -- lence in -- to } \\\
+\staff "1" r8 \stemUp <bf ef g>\pp r <a ef' g> r <af bf d>[ <af bf d> <af bf d>] \\
+\staff "2" \stemUp bf,4 c <bf, bf'>2 | %52
+
+\staff "1" \stemUp ef2 r4 \bar "||" \addlyrics { pain. } \\\
+\staff "1" r8 \stemUp g[ bf ef] g4 \bar "||" \\
+\staff "2" \stemUp <ef,, ef'>2 r4 | %53

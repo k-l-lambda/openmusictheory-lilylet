@@ -1,0 +1,62 @@
+[title "Intervals B"]
+[composer "Kyle Gullings"]
+
+\key c \major \numericTimeSignature \time 4/4 \clef "treble" <c gs'>1_\markup "A5" \bar "||" | %1
+
+\clef "tenor" <as' e'>1 \bar "||" | %2
+
+<a cs>1 \bar "||" | %3
+
+<a' f'>1 \bar "||" | %4
+
+<af d>1 \bar "||" | %5
+
+<e e'>1 | %6
+
+<f af>1 \bar "||" | %7
+
+<c, g'>1 \bar "||" | %8
+
+<b, as'>1 \bar "||" | %9
+
+<cs fs>1 \bar "||" | %10
+
+\clef "alto" <g' bff>1_\markup "↑d3" \bar "||" | %11
+
+\clef "bass" a,1 \bar "||" \addlyrics { ↑ma6 } | %12
+
+d,1 \bar "||" \addlyrics { ↑P4 } | %13
+
+e1 \bar "||" \addlyrics { ↑ma3 } | %14
+
+e,1 \bar "||" \addlyrics { ↑A4 } | %15
+
+fs1 \bar "||" \addlyrics { ↑P5 } | %16
+
+gs'1 \bar "||" \addlyrics { ↑mi7 } | %17
+
+fs,1 \bar "||" \addlyrics { ↑d3 } | %18
+
+fs1 \bar "||" \addlyrics { ↑mi6 } | %19
+
+af'1 \bar "||" \addlyrics { ↑A8 } | %20
+
+<dff, c'>1_\markup "↓A7" \bar "||" | %21
+
+\clef "treble" bf1 \bar "||" \addlyrics { ↓mi2 } | %22
+
+d1 \bar "||" \addlyrics { ↓P5 } | %23
+
+af'1 \bar "||" \addlyrics { ↓P8 } | %24
+
+cs1 \bar "||" \addlyrics { ↓mi7 } | %25
+
+c'1 \bar "||" \addlyrics { ↓ma3 } | %26
+
+ef'1 \bar "||" \addlyrics { ↓ma7 } | %27
+
+b1 \bar "||" \addlyrics { ↓A4 } | %28
+
+f,1 \bar "||" \addlyrics { ↓ma6 } | %29
+
+a'1 \bar "||" \addlyrics { ↓ma2 } | %30

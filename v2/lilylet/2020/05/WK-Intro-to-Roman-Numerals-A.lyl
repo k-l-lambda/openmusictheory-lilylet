@@ -1,0 +1,38 @@
+[title "Intro to Roman Numerals"]
+[subtitle "Intro to Roman Numerals"]
+[staves "{s1-s2}"]
+
+\staff "1" \key bf \major \numericTimeSignature \time 4/4 \clef "treble" \stemUp bf'4^\markup "Hymn: Bartholomäus Ringwaldt, c. 1556\nMelody: Anonymous, 1535" \\
+\staff "1" \stemDown f4 \\
+\staff "2" \clef "bass" \stemUp d4 \\
+\staff "2" \stemDown bf,4 | %1
+
+\staff "1" \stemUp bf'4 d c bf \\
+\staff "1" \stemDown f4 bf a g \\
+\staff "2" \stemUp bf4 f' ef d \\
+\staff "2" \stemDown d,4 bf f' g | %2
+
+\staff "1" \stemUp c'4 c bf\fermata bf \\
+\staff "1" \stemDown g'4 f f f \\
+\staff "2" \stemUp c4 a bf d \\
+\staff "2" \stemDown ef,4 ef d bf | %3
+
+\staff "1" \stemUp d'4 ef ef d \\
+\staff "1" \stemDown bf'4 bf c bf \\
+\staff "2" \stemUp f4 g f f \\
+\staff "2" \stemDown bf4 g a bf | %4
+
+\staff "1" \stemUp c'2 bf4\fermata d \\
+\staff "1" \stemDown bf'4 a bf g \\
+\staff "2" \stemUp g'4 ef d bf \\
+\staff "2" \stemDown ef,4 f g g, | %5
+
+\staff "1" \stemUp d'4 ef f d \\
+\staff "1" \stemDown g'4 g f f \\
+\staff "2" \stemUp bf4 bf bf bf \\
+\staff "2" \stemDown g4 ef d bf | %6
+
+\staff "1" \time 3/4 \stemUp c'2 bf4 \bar "|." \\
+\staff "1" \stemDown g'4 ef d \\
+\staff "2" \stemUp bf4 a f \\
+\staff "2" \stemDown ef,4 f bf, | %7

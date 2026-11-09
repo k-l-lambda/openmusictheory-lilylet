@@ -1,0 +1,19 @@
+[title "Bach, Well-Tempered Clavier II, Fugue 18 in G# minor, BWV 887: subject"]
+[subtitle "Task: Use the empty stave to write suitable answers and counter-subjects"]
+[composer "J. S. Bach"]
+[staves "s1,s2"]
+
+\key b \major \time 6/8 \clef "treble" \stemUp gs'8^\markup "BWV 887"[ as b] as[ ds ds,] \\\
+\clef "treble" R1 | %1
+
+\stemUp gs'8[ b as] b[ as gs] \\\
+R1 | %2
+
+\stemUp as'8[ b cs] b[ e gs,] \\\
+R1 | %3
+
+\stemUp as'8[ cs b] cs[ b as] \\\
+R1 | %4
+
+b'4 r8 r4 r8 \bar "|." \\\
+R1 \bar "|." | %5

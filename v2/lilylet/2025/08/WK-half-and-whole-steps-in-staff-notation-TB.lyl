@@ -1,0 +1,217 @@
+[title "Half and Whole Steps in Staff Notation"]
+[subtitle "Treble and Bass Clef"]
+[composer "Chelsey Hamm, Megan Lavengood, and Jeremy Freer"]
+[staves "s1,s2"]
+
+\key c \major \time 4/2 \clef "treble" R1 \\\
+\clef "treble" gs'1 a | %1
+
+R1 \\\
+ef1 r | %2
+
+R1 \\\
+gf''1 r | %3
+
+R1 \\\
+bf'1 r | %4
+
+R1 \\\
+fs1 r | %5
+
+R1 \\\
+ef'1 r | %6
+
+R1 \\\
+cs'1 r | %7
+
+R1 \\\
+df'1 r | %8
+
+R1 \\\
+ds1 r | %9
+
+R1 \\\
+ds'1 r | %10
+
+R1 \\\
+\clef "bass" as,1 a | %11
+
+R1 \\\
+fs,1 r | %12
+
+R1 \\\
+ef,1 r | %13
+
+R1 \\\
+gf1 r | %14
+
+R1 \\\
+gs,1 r | %15
+
+R1 \\\
+cs,1 r | %16
+
+R1 \\\
+bf,1 r | %17
+
+R1 \\\
+af1 r | %18
+
+R1 \\\
+df,1 r | %19
+
+R1 \\\
+fs,,1 r | %20
+
+R1 \\\
+as1 bs | %21
+
+R1 \\\
+cs1 r | %22
+
+R1 \\\
+df1 r | %23
+
+R1 \\\
+gf1 r | %24
+
+R1 \\\
+ef1 r | %25
+
+R1 \\\
+bf1 r | %26
+
+R1 \\\
+af1 r | %27
+
+R1 \\\
+cs,1 r | %28
+
+R1 \\\
+fs1 r | %29
+
+R1 \\\
+e,1 r | %30
+
+R1 \\\
+\clef "treble" gs'1 fs | %31
+
+R1 \\\
+ef1 r | %32
+
+R1 \\\
+gf''1 r | %33
+
+R1 \\\
+bf'1 r | %34
+
+R1 \\\
+as'1 r | %35
+
+R1 \\\
+fs1 r | %36
+
+R1 \\\
+ef'1 r | %37
+
+R1 \\\
+cs'1 r | %38
+
+R1 \\\
+df'1 r | %39
+
+R1 \\\
+ds1 r | %40
+
+R1 \\\
+g'1 af \addlyrics { H _ } | %41
+
+R1 \\\
+ef1 d | %42
+
+R1 \\\
+d1 b | %43
+
+R1 \\\
+e'1 f | %44
+
+R1 \\\
+e'1 ef | %45
+
+R1 \\\
+\clef "bass" d,1 cs | %46
+
+R1 \\\
+a,1 b | %47
+
+R1 \\\
+b,1 c | %48
+
+R1 \\\
+d,1 cf | %49
+
+R1 \\\
+gs1 a | %50
+
+R1 \\\
+c1 b | %51
+
+R1 \\\
+f,1 gs | %52
+
+R1 \\\
+b1 as | %53
+
+R1 \\\
+g,1 f | %54
+
+R1 \\\
+e,1 g | %55
+
+\numericTimeSignature \time 4/4 \stemUp c'8^\markup "Swing"[ c] r b^\markup "H" c4^\markup "H" r \addlyrics { Give 'em the old } \\\
+\clef "treble" R1 | %56
+
+\stemDown c'4 \stemUp g a as^\markup "W" \addlyrics { ho -- cus po -- cus… } \\\
+R1 | %57
+
+r4 \stemUp b'8[ as] b[ a] g4 \\\
+R1 | %58
+
+R1 \\\
+R1 | %59
+
+\stemDown e'8[ ds] r e g4 c, \\\
+R1 | %60
+
+\stemDown a''4 g e c \\\
+R1 | %61
+
+a'1~ \\\
+R1 | %62
+
+a'1 \\\
+R1 | %63
+
+\stemDown f'8[ f~] f[ e] f4 e \\\
+R1 | %64
+
+\stemDown g''4 f e d \\\
+R1 | %65
+
+\stemDown e'8[ e~] e[ ds] e4 r8 \stemUp g, \\\
+R1 | %66
+
+\stemDown e'4 r8 c b4 \stemUp a \\\
+R1 | %67
+
+r4 \stemUp g'8[ gs] a[ af] g4 \\\
+R1 | %68
+
+r4 \stemDown d'8[ e] f[ d] b4 \\\
+R1 | %69
+
+c'1~ \\\
+R1 | %70
+
+\stemDown c'4 r r2 \bar "|." \\\
+R1 \bar "|." | %71

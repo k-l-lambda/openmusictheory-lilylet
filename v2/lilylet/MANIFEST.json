@@ -1,0 +1,3334 @@
+{
+ "generated_by": "scripts/v2/scores (see README.md)",
+ "files": [
+  {
+   "source": "v2/media/2022/08/I-Distinct.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2022/08/I-Distinct.mscz",
+   "chapters": [
+    "02-counterpoint/07-gradus-ad-parnassum-exercises.md"
+   ],
+   "unreferenced": false,
+   "category": "counterpoint-fux",
+   "bars": 142,
+   "staves": 2,
+   "notes_count": 142,
+   "chord_symbols": 0,
+   "kind": "model/solution",
+   "lyl": "v2/lilylet/2022/08/I-Distinct.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2022/08/I-Exercises.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2022/08/I-Exercises.mscz",
+   "chapters": [
+    "02-counterpoint/07-gradus-ad-parnassum-exercises.md"
+   ],
+   "unreferenced": false,
+   "category": "counterpoint-fux",
+   "bars": 527,
+   "staves": 2,
+   "notes_count": 552,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2022/08/I-Exercises.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2022/08/I-Solutions.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2022/08/I-Solutions.mscz",
+   "chapters": [
+    "02-counterpoint/07-gradus-ad-parnassum-exercises.md"
+   ],
+   "unreferenced": false,
+   "category": "counterpoint-fux",
+   "bars": 527,
+   "staves": 2,
+   "notes_count": 1638,
+   "chord_symbols": 0,
+   "kind": "model/solution",
+   "lyl": "v2/lilylet/2022/08/I-Solutions.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2022/08/II-Distinct.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2022/08/II-Distinct.mscz",
+   "chapters": [
+    "02-counterpoint/07-gradus-ad-parnassum-exercises.md"
+   ],
+   "unreferenced": false,
+   "category": "counterpoint-fux",
+   "bars": 213,
+   "staves": 3,
+   "notes_count": 213,
+   "chord_symbols": 0,
+   "kind": "model/solution",
+   "lyl": "v2/lilylet/2022/08/II-Distinct.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2022/08/II-Exercises.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2022/08/II-Exercises.mscz",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "counterpoint-fux",
+   "bars": 492,
+   "staves": 3,
+   "notes_count": 492,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2022/08/II-Exercises.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2022/08/II-Solutions.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2022/08/II-Solutions.mscz",
+   "chapters": [
+    "02-counterpoint/07-gradus-ad-parnassum-exercises.md"
+   ],
+   "unreferenced": false,
+   "category": "counterpoint-fux",
+   "bars": 492,
+   "staves": 3,
+   "notes_count": 1874,
+   "chord_symbols": 0,
+   "kind": "model/solution",
+   "lyl": "v2/lilylet/2022/08/II-Solutions.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2022/08/III-Distinct.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2022/08/III-Distinct.mscz",
+   "chapters": [
+    "02-counterpoint/07-gradus-ad-parnassum-exercises.md"
+   ],
+   "unreferenced": false,
+   "category": "counterpoint-fux",
+   "bars": 284,
+   "staves": 4,
+   "notes_count": 284,
+   "chord_symbols": 0,
+   "kind": "model/solution",
+   "lyl": "v2/lilylet/2022/08/III-Distinct.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2022/08/III-Exercises.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2022/08/III-Exercises.mscz",
+   "chapters": [
+    "02-counterpoint/07-gradus-ad-parnassum-exercises.md"
+   ],
+   "unreferenced": false,
+   "category": "counterpoint-fux",
+   "bars": 349,
+   "staves": 4,
+   "notes_count": 349,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2022/08/III-Exercises.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2022/08/III-Solutions.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2022/08/III-Solutions.mscz",
+   "chapters": [
+    "02-counterpoint/07-gradus-ad-parnassum-exercises.md"
+   ],
+   "unreferenced": false,
+   "category": "counterpoint-fux",
+   "bars": 349,
+   "staves": 4,
+   "notes_count": 1808,
+   "chord_symbols": 0,
+   "kind": "model/solution",
+   "lyl": "v2/lilylet/2022/08/III-Solutions.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2019/05/The_48_Fugue_Subjects_of_the_Well-Tempered_Clavier.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2019/05/The_48_Fugue_Subjects_of_the_Well-Tempered_Clavier.mscz",
+   "chapters": [
+    "02-counterpoint/09-high-baroque-fugal-exposition.md"
+   ],
+   "unreferenced": false,
+   "category": "fugue-subjects",
+   "bars": 179,
+   "staves": 2,
+   "notes_count": 889,
+   "chord_symbols": 0,
+   "kind": "model/example",
+   "lyl": "v2/lilylet/2019/05/The_48_Fugue_Subjects_of_the_Well-Tempered_Clavier.lyl",
+   "status": "ok",
+   "notes": [
+    "8 full-bar rests in bars longer than a whole note written as R1",
+    "24 common/cut time signatures restored (decoder drops <time symbol>)",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)",
+    "Verovio warnings: [Warning] Unsupported value '…' for data.ACCIDENTAL.GESTURAL (x1); [Warning] Expected @tie median or terminal in note '…', skipping it (x1)",
+    "split into 48 files, one per subject (subdirectory 01.lyl..48.lyl), each verified against the whole; the source labels bar 85 \"BWV 871\" but it is BWV 872 (C# major); the whole file is kept as well"
+   ]
+  },
+  {
+   "source": "v2/media/2019/05/Benedictus_Missa_Brevis_Exercise.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2019/05/Benedictus_Missa_Brevis_Exercise.mscz",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "counterpoint-16th-century",
+   "bars": 38,
+   "staves": 3,
+   "notes_count": 265,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2019/05/Benedictus_Missa_Brevis_Exercise.lyl",
+   "status": "ok",
+   "notes": [
+    "8 breve(s) written as tied whole notes / two whole rests (lilylet has no breve)",
+    "40 full-bar rests in bars longer than a whole note written as R1"
+   ]
+  },
+  {
+   "source": "v2/media/2019/05/Benedictus_Missa_Venatorum_Exercise.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2019/05/Benedictus_Missa_Venatorum_Exercise.mscz",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "counterpoint-16th-century",
+   "bars": 20,
+   "staves": 2,
+   "notes_count": 93,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2019/05/Benedictus_Missa_Venatorum_Exercise.lyl",
+   "status": "ok",
+   "notes": [
+    "1 breve(s) written as tied whole notes / two whole rests (lilylet has no breve)",
+    "17 full-bar rests in bars longer than a whole note written as R1"
+   ]
+  },
+  {
+   "source": "v2/media/2019/05/Bicinum_IV_Exercise.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2019/05/Bicinum_IV_Exercise.mscz",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "counterpoint-16th-century",
+   "bars": 27,
+   "staves": 2,
+   "notes_count": 84,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2019/05/Bicinum_IV_Exercise.lyl",
+   "status": "ok",
+   "notes": [
+    "25 breve(s) written as tied whole notes / two whole rests (lilylet has no breve)"
+   ]
+  },
+  {
+   "source": "v2/media/2019/05/Surge_Propera_Exercise-1.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2019/05/Surge_Propera_Exercise-1.mscz",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "counterpoint-16th-century",
+   "bars": 26,
+   "staves": 4,
+   "notes_count": 198,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2019/05/Surge_Propera_Exercise-1.lyl",
+   "status": "ok",
+   "notes": [
+    "23 breve(s) written as tied whole notes / two whole rests (lilylet has no breve)",
+    "22 full-bar rests in bars longer than a whole note written as R1"
+   ]
+  },
+  {
+   "source": "v2/media/2019/05/Surge_Propera_Exercise.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2019/05/Surge_Propera_Exercise.mscz",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "counterpoint-16th-century",
+   "bars": 26,
+   "staves": 4,
+   "notes_count": 255,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2019/05/Surge_Propera_Exercise.lyl",
+   "status": "ok",
+   "notes": [
+    "29 breve(s) written as tied whole notes / two whole rests (lilylet has no breve)"
+   ]
+  },
+  {
+   "source": "v2/media/2025/04/WK-16th-century-contraputal-style.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/04/WK-16th-century-contraputal-style.mscz",
+   "chapters": [
+    "02-counterpoint/08-16th-century-contrapuntal-style.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "counterpoint-16th-century",
+   "bars": 111,
+   "staves": 4,
+   "notes_count": 640,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/04/WK-16th-century-contraputal-style.lyl",
+   "status": "ok",
+   "notes": [
+    "57 breve(s) written as tied whole notes / two whole rests (lilylet has no breve)",
+    "211 full-bar rests in bars longer than a whole note written as R1"
+   ]
+  },
+  {
+   "source": "v2/media/2026/07/WK-Cantus-Firmus-A.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2026/07/WK-Cantus-Firmus-A.mscz",
+   "chapters": [
+    "02-counterpoint/01-species-counterpoint.md"
+   ],
+   "unreferenced": false,
+   "category": "counterpoint-species",
+   "bars": 24,
+   "staves": 2,
+   "notes_count": 34,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2026/07/WK-Cantus-Firmus-A.lyl",
+   "status": "ok",
+   "notes": [
+    "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60"
+   ]
+  },
+  {
+   "source": "v2/media/2026/07/WK-Cantus-Firmus-B.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2026/07/WK-Cantus-Firmus-B.mscz",
+   "chapters": [
+    "02-counterpoint/01-species-counterpoint.md"
+   ],
+   "unreferenced": false,
+   "category": "counterpoint-species",
+   "bars": 23,
+   "staves": 2,
+   "notes_count": 32,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2026/07/WK-Cantus-Firmus-B.lyl",
+   "status": "ok",
+   "notes": [
+    "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60"
+   ]
+  },
+  {
+   "source": "v2/media/2026/07/WK-Fifth-species-Counterpoint-A.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2026/07/WK-Fifth-species-Counterpoint-A.mscz",
+   "chapters": [
+    "02-counterpoint/06-fifth-species-counterpoint.md"
+   ],
+   "unreferenced": false,
+   "category": "counterpoint-species",
+   "bars": 20,
+   "staves": 2,
+   "notes_count": 49,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2026/07/WK-Fifth-species-Counterpoint-A.lyl",
+   "status": "ok",
+   "notes": [
+    "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60"
+   ]
+  },
+  {
+   "source": "v2/media/2026/07/WK-Fifth-species-Counterpoint-B.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2026/07/WK-Fifth-species-Counterpoint-B.mscz",
+   "chapters": [
+    "02-counterpoint/06-fifth-species-counterpoint.md"
+   ],
+   "unreferenced": false,
+   "category": "counterpoint-species",
+   "bars": 20,
+   "staves": 2,
+   "notes_count": 47,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2026/07/WK-Fifth-species-Counterpoint-B.lyl",
+   "status": "ok",
+   "notes": [
+    "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60"
+   ]
+  },
+  {
+   "source": "v2/media/2026/07/WK-First-species-Counterpoint-A.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2026/07/WK-First-species-Counterpoint-A.mscz",
+   "chapters": [
+    "02-counterpoint/02-first-species-counterpoint.md"
+   ],
+   "unreferenced": false,
+   "category": "counterpoint-species",
+   "bars": 22,
+   "staves": 2,
+   "notes_count": 34,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2026/07/WK-First-species-Counterpoint-A.lyl",
+   "status": "ok",
+   "notes": [
+    "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60"
+   ]
+  },
+  {
+   "source": "v2/media/2026/07/WK-First-species-Counterpoint-B.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2026/07/WK-First-species-Counterpoint-B.mscz",
+   "chapters": [
+    "02-counterpoint/02-first-species-counterpoint.md"
+   ],
+   "unreferenced": false,
+   "category": "counterpoint-species",
+   "bars": 22,
+   "staves": 2,
+   "notes_count": 34,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2026/07/WK-First-species-Counterpoint-B.lyl",
+   "status": "ok",
+   "notes": [
+    "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60"
+   ]
+  },
+  {
+   "source": "v2/media/2026/07/WK-Fourth-species-Counterpoint-A.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2026/07/WK-Fourth-species-Counterpoint-A.mscz",
+   "chapters": [
+    "02-counterpoint/05-fourth-species-counterpoint.md"
+   ],
+   "unreferenced": false,
+   "category": "counterpoint-species",
+   "bars": 19,
+   "staves": 2,
+   "notes_count": 37,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2026/07/WK-Fourth-species-Counterpoint-A.lyl",
+   "status": "ok",
+   "notes": [
+    "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60"
+   ]
+  },
+  {
+   "source": "v2/media/2026/07/WK-Fourth-species-Counterpoint-B.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2026/07/WK-Fourth-species-Counterpoint-B.mscz",
+   "chapters": [
+    "02-counterpoint/05-fourth-species-counterpoint.md"
+   ],
+   "unreferenced": false,
+   "category": "counterpoint-species",
+   "bars": 19,
+   "staves": 2,
+   "notes_count": 35,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2026/07/WK-Fourth-species-Counterpoint-B.lyl",
+   "status": "ok",
+   "notes": [
+    "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60"
+   ]
+  },
+  {
+   "source": "v2/media/2026/07/WK-Second-species-Counterpoint-A.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2026/07/WK-Second-species-Counterpoint-A.mscz",
+   "chapters": [
+    "02-counterpoint/03-second-species-counterpoint.md"
+   ],
+   "unreferenced": false,
+   "category": "counterpoint-species",
+   "bars": 23,
+   "staves": 2,
+   "notes_count": 46,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2026/07/WK-Second-species-Counterpoint-A.lyl",
+   "status": "ok",
+   "notes": [
+    "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60"
+   ]
+  },
+  {
+   "source": "v2/media/2026/07/WK-Second-species-Counterpoint-B.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2026/07/WK-Second-species-Counterpoint-B.mscz",
+   "chapters": [
+    "02-counterpoint/03-second-species-counterpoint.md"
+   ],
+   "unreferenced": false,
+   "category": "counterpoint-species",
+   "bars": 23,
+   "staves": 2,
+   "notes_count": 46,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2026/07/WK-Second-species-Counterpoint-B.lyl",
+   "status": "ok",
+   "notes": [
+    "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60"
+   ]
+  },
+  {
+   "source": "v2/media/2026/07/WK-Third-species-Counterpoint-A.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2026/07/WK-Third-species-Counterpoint-A.mscz",
+   "chapters": [
+    "02-counterpoint/04-third-species-counterpoint.md"
+   ],
+   "unreferenced": false,
+   "category": "counterpoint-species",
+   "bars": 18,
+   "staves": 2,
+   "notes_count": 55,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2026/07/WK-Third-species-Counterpoint-A.lyl",
+   "status": "ok",
+   "notes": [
+    "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60"
+   ]
+  },
+  {
+   "source": "v2/media/2026/07/WK-Third-species-Counterpoint-B.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2026/07/WK-Third-species-Counterpoint-B.mscz",
+   "chapters": [
+    "02-counterpoint/04-third-species-counterpoint.md"
+   ],
+   "unreferenced": false,
+   "category": "counterpoint-species",
+   "bars": 16,
+   "staves": 2,
+   "notes_count": 44,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2026/07/WK-Third-species-Counterpoint-B.lyl",
+   "status": "ok",
+   "notes": [
+    "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60"
+   ]
+  },
+  {
+   "source": "v2/media/2019/08/COMP-bebop-part-2.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2019/08/COMP-bebop-part-2.mscz",
+   "chapters": [
+    "06-jazz/05-jazz-embellishing-chords.md",
+    "06-jazz/06-substitutions.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "jazz",
+   "status": "failed",
+   "bars": null,
+   "lyl": null,
+   "notes": [
+    "not a MuseScore file (the upload is a PDF with an .mscz name)"
+   ],
+   "kind": "unknown"
+  },
+  {
+   "source": "v2/media/2019/08/COMP-bebop.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2019/08/COMP-bebop.mscz",
+   "chapters": [
+    "06-jazz/05-jazz-embellishing-chords.md",
+    "06-jazz/06-substitutions.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "jazz",
+   "bars": 16,
+   "staves": 1,
+   "notes_count": 0,
+   "chord_symbols": 0,
+   "kind": "empty",
+   "status": "skipped-empty",
+   "lyl": null,
+   "notes": [
+    "no notes and no chord symbols (blank template)"
+   ]
+  },
+  {
+   "source": "v2/media/2019/08/WK-12-bar-blues.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2019/08/WK-12-bar-blues.mscz",
+   "chapters": [
+    "06-jazz/08-blues-harmony.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "jazz",
+   "bars": 84,
+   "staves": 2,
+   "notes_count": 241,
+   "chord_symbols": 35,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2019/08/WK-12-bar-blues.lyl",
+   "status": "ok-with-notes",
+   "notes": [
+    "source has 1 invisible notes / 0 invisible chord symbols (hidden answers or playback notes); MuseScore's MusicXML export drops invisibility, so they are visible here",
+    "special noteheads (x/slash/diamond) not kept"
+   ]
+  },
+  {
+   "source": "v2/media/2019/08/WK-Blues_Scales-1.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2019/08/WK-Blues_Scales-1.mscz",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "jazz",
+   "bars": 21,
+   "staves": 1,
+   "notes_count": 15,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2019/08/WK-Blues_Scales-1.lyl",
+   "status": "ok",
+   "notes": [
+    "same music as 2019/08/WK-Blues_Scales.lyl"
+   ]
+  },
+  {
+   "source": "v2/media/2019/08/WK-Blues_Scales-answers.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2019/08/WK-Blues_Scales-answers.mscz",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "jazz",
+   "bars": 21,
+   "staves": 1,
+   "notes_count": 114,
+   "chord_symbols": 0,
+   "kind": "model/solution",
+   "lyl": "v2/lilylet/2019/08/WK-Blues_Scales-answers.lyl",
+   "status": "ok",
+   "notes": [
+    "Verovio warnings: [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x1)"
+   ]
+  },
+  {
+   "source": "v2/media/2019/08/WK-Blues_Scales.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2019/08/WK-Blues_Scales.mscz",
+   "chapters": [
+    "06-jazz/09-blues-melodies-and-the-blues-scale.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "jazz",
+   "bars": 21,
+   "staves": 1,
+   "notes_count": 15,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2019/08/WK-Blues_Scales.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2019/08/WK-Lead-Sheet-Symbols-with-Extensions.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2019/08/WK-Lead-Sheet-Symbols-with-Extensions.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "jazz",
+   "bars": 40,
+   "staves": 2,
+   "notes_count": 50,
+   "chord_symbols": 10,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2019/08/WK-Lead-Sheet-Symbols-with-Extensions.lyl",
+   "status": "ok",
+   "notes": [
+    "9 chord symbols moved to the start of the note/tuplet they fall inside",
+    "9 chord symbols sit inside a held note/rest in the source and are attached to that note's start"
+   ]
+  },
+  {
+   "source": "v2/media/2019/08/WK-Lead-Sheet-Symbols.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2019/08/WK-Lead-Sheet-Symbols.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "jazz",
+   "bars": 50,
+   "staves": 2,
+   "notes_count": 40,
+   "chord_symbols": 20,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2019/08/WK-Lead-Sheet-Symbols.lyl",
+   "status": "ok",
+   "notes": [
+    "20 chord symbols moved to the start of the note/tuplet they fall inside",
+    "20 chord symbols sit inside a held note/rest in the source and are attached to that note's start"
+   ]
+  },
+  {
+   "source": "v2/media/2019/08/WK-composing-with-ii-v-i.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2019/08/WK-composing-with-ii-v-i.mscz",
+   "chapters": [
+    "06-jazz/04-ii-v-i.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "jazz",
+   "bars": 8,
+   "staves": 2,
+   "notes_count": 0,
+   "chord_symbols": 0,
+   "kind": "empty",
+   "status": "skipped-empty",
+   "lyl": null,
+   "notes": [
+    "no notes and no chord symbols (blank template)"
+   ]
+  },
+  {
+   "source": "v2/media/2019/08/WK-improv.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2019/08/WK-improv.mscz",
+   "chapters": [
+    "06-jazz/09-blues-melodies-and-the-blues-scale.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "jazz",
+   "bars": 24,
+   "staves": 1,
+   "notes_count": 0,
+   "chord_symbols": 23,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2019/08/WK-improv.lyl",
+   "status": "ok",
+   "notes": [
+    "24 full-bar rests in bars longer than a whole note written as R1",
+    "5 chord symbols moved to the start of the note/tuplet they fall inside",
+    "5 chord symbols sit inside a held note/rest in the source and are attached to that note's start"
+   ]
+  },
+  {
+   "source": "v2/media/2019/08/WK-voicing.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2019/08/WK-voicing.mscz",
+   "chapters": [
+    "06-jazz/03-jazz-voicings.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "jazz",
+   "bars": 40,
+   "staves": 3,
+   "notes_count": 230,
+   "chord_symbols": 30,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2019/08/WK-voicing.lyl",
+   "status": "ok",
+   "notes": [
+    "18 duplicate chord ties merged",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)"
+   ]
+  },
+  {
+   "source": "v2/media/2021/07/WK-Chord-Symbols-with-Extensions.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/07/WK-Chord-Symbols-with-Extensions.mscz",
+   "chapters": [
+    "06-jazz/02-chord-symbols.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "jazz",
+   "bars": 40,
+   "staves": 2,
+   "notes_count": 51,
+   "chord_symbols": 13,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2021/07/WK-Chord-Symbols-with-Extensions.lyl",
+   "status": "ok",
+   "notes": [
+    "9 chord symbols moved to the start of the note/tuplet they fall inside",
+    "9 chord symbols sit inside a held note/rest in the source and are attached to that note's start"
+   ]
+  },
+  {
+   "source": "v2/media/2021/07/WK-Chord-Symbols.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/07/WK-Chord-Symbols.mscz",
+   "chapters": [
+    "06-jazz/02-chord-symbols.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "jazz",
+   "bars": 50,
+   "staves": 2,
+   "notes_count": 40,
+   "chord_symbols": 20,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2021/07/WK-Chord-Symbols.lyl",
+   "status": "ok",
+   "notes": [
+    "20 chord symbols moved to the start of the note/tuplet they fall inside",
+    "20 chord symbols sit inside a held note/rest in the source and are attached to that note's start"
+   ]
+  },
+  {
+   "source": "v2/media/2022/07/WK-swing-rhythms.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2022/07/WK-swing-rhythms.mscz",
+   "chapters": [
+    "06-jazz/01-swing-rhythms.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "jazz",
+   "bars": 48,
+   "staves": 5,
+   "notes_count": 865,
+   "chord_symbols": 255,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2022/07/WK-swing-rhythms.lyl",
+   "status": "ok",
+   "notes": [
+    "Verovio warnings: [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x5)"
+   ]
+  },
+  {
+   "source": "v2/media/2023/01/WK-12-bar-blues-no-jazz.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2023/01/WK-12-bar-blues-no-jazz.mscz",
+   "chapters": [
+    "06-jazz/08-blues-harmony.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "jazz",
+   "bars": 60,
+   "staves": 2,
+   "notes_count": 216,
+   "chord_symbols": 47,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2023/01/WK-12-bar-blues-no-jazz.lyl",
+   "status": "ok-with-notes",
+   "notes": [
+    "special noteheads (x/slash/diamond) not kept"
+   ]
+  },
+  {
+   "source": "v2/media/2024/01/embellishing-chords.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2024/01/embellishing-chords.mscz",
+   "chapters": [
+    "06-jazz/05-jazz-embellishing-chords.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "jazz",
+   "bars": 59,
+   "staves": 1,
+   "notes_count": 182,
+   "chord_symbols": 60,
+   "kind": "model/example",
+   "lyl": "v2/lilylet/2024/01/embellishing-chords.lyl",
+   "status": "ok-with-notes",
+   "notes": [
+    "special noteheads (x/slash/diamond) not kept"
+   ]
+  },
+  {
+   "source": "v2/media/2024/01/substitutions.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2024/01/substitutions.mscz",
+   "chapters": [
+    "06-jazz/06-substitutions.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "jazz",
+   "bars": 43,
+   "staves": 2,
+   "notes_count": 52,
+   "chord_symbols": 42,
+   "kind": "model/example",
+   "lyl": "v2/lilylet/2024/01/substitutions.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2025/02/COMP-bebop-part-2-audio-option.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/02/COMP-bebop-part-2-audio-option.mscz",
+   "chapters": [
+    "06-jazz/05-jazz-embellishing-chords.md",
+    "06-jazz/06-substitutions.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "jazz",
+   "bars": 16,
+   "staves": 1,
+   "notes_count": 0,
+   "chord_symbols": 0,
+   "kind": "empty",
+   "status": "skipped-empty",
+   "lyl": null,
+   "notes": [
+    "no notes and no chord symbols (blank template)"
+   ]
+  },
+  {
+   "source": "v2/media/2019/05/WK-Applied-Chords-A.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2019/05/WK-Applied-Chords-A.mscz",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "chromatic-harmony",
+   "bars": 35,
+   "staves": 1,
+   "notes_count": 10,
+   "chord_symbols": 35,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2019/05/WK-Applied-Chords-A.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2019/07/WK-neo-riemannian-composing.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2019/07/WK-neo-riemannian-composing.mscz",
+   "chapters": [
+    "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "chromatic-harmony",
+   "bars": 33,
+   "staves": 2,
+   "notes_count": 18,
+   "chord_symbols": 1,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2019/07/WK-neo-riemannian-composing.lyl",
+   "status": "ok",
+   "notes": [
+    "1 common/cut time signatures restored (decoder drops <time symbol>)"
+   ]
+  },
+  {
+   "source": "v2/media/2020/10/WK-Applied-Chords-B.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2020/10/WK-Applied-Chords-B.mscz",
+   "chapters": [
+    "03-diatonic-harmony/15-tonicization.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "chromatic-harmony",
+   "bars": 35,
+   "staves": 1,
+   "notes_count": 10,
+   "chord_symbols": 35,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2020/10/WK-Applied-Chords-B.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2021/02/WK-Applied-Chords-B.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/02/WK-Applied-Chords-B.mscz",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "chromatic-harmony",
+   "bars": 35,
+   "staves": 1,
+   "notes_count": 10,
+   "chord_symbols": 35,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2021/02/WK-Applied-Chords-B.lyl",
+   "status": "ok",
+   "notes": [
+    "same music as 2020/10/WK-Applied-Chords-B.lyl"
+   ]
+  },
+  {
+   "source": "v2/media/2021/09/WK-neo-riemannian.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/09/WK-neo-riemannian.mscz",
+   "chapters": [
+    "05-chromaticism/12-neo-riemannian-triadic-progressions.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "chromatic-harmony",
+   "bars": 49,
+   "staves": 1,
+   "notes_count": 22,
+   "chord_symbols": 12,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2021/09/WK-neo-riemannian.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2023/02/WK-Applied-Chords-C.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2023/02/WK-Applied-Chords-C.mscz",
+   "chapters": [
+    "03-diatonic-harmony/15-tonicization.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "chromatic-harmony",
+   "bars": 47,
+   "staves": 1,
+   "notes_count": 11,
+   "chord_symbols": 44,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2023/02/WK-Applied-Chords-C.lyl",
+   "status": "ok",
+   "notes": [
+    "2 chord symbols moved to the start of the note/tuplet they fall inside",
+    "2 chord symbols sit inside a held note/rest in the source and are attached to that note's start"
+   ]
+  },
+  {
+   "source": "v2/media/2024/10/1-assignment6-enharmonic-reinterpretation.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2024/10/1-assignment6-enharmonic-reinterpretation.mscz",
+   "chapters": [
+    "05-chromaticism/06-reinterpreting-augmented-sixth-chords.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "chromatic-harmony",
+   "bars": 21,
+   "staves": 3,
+   "notes_count": 108,
+   "chord_symbols": 36,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2024/10/1-assignment6-enharmonic-reinterpretation.lyl",
+   "status": "ok-with-notes",
+   "notes": [
+    "source has 112 invisible notes / 9 invisible chord symbols (hidden answers or playback notes); MuseScore's MusicXML export drops invisibility, so they are visible here",
+    "Verovio warnings: [Warning] Unsupported value '…' for data.ACCIDENTAL.GESTURAL (x1)"
+   ]
+  },
+  {
+   "source": "v2/media/2026/08/WK-Harmonic-Elision.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2026/08/WK-Harmonic-Elision.mscz",
+   "chapters": [
+    "05-chromaticism/05-harmonic-elision.md"
+   ],
+   "unreferenced": false,
+   "category": "chromatic-harmony",
+   "bars": 46,
+   "staves": 4,
+   "notes_count": 345,
+   "chord_symbols": 47,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2026/08/WK-Harmonic-Elision.lyl",
+   "status": "ok-with-notes",
+   "notes": [
+    "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60",
+    "source has 9 invisible notes / 0 invisible chord symbols (hidden answers or playback notes); MuseScore's MusicXML export drops invisibility, so they are visible here",
+    "49 tuplets containing chords regrouped after decoding (decoder splits chords inside tuplets)",
+    "2 zero-net <backup>/<forward> pairs around directions removed",
+    "2 common/cut time signatures restored (decoder drops <time symbol>)",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)",
+    "Verovio warnings: [Warning] Expected @tie median or terminal in note '…', skipping it (x3); [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x4)"
+   ]
+  },
+  {
+   "source": "v2/media/2019/05/bass-harmonizations.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2019/05/bass-harmonizations.mscz",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "diatonic-harmony",
+   "bars": 56,
+   "staves": 2,
+   "notes_count": 224,
+   "chord_symbols": 112,
+   "kind": "model/example",
+   "lyl": "v2/lilylet/2019/05/bass-harmonizations.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2019/09/WK-Classical-Cadence-Types-A.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2019/09/WK-Classical-Cadence-Types-A.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "diatonic-harmony",
+   "bars": 15,
+   "staves": 2,
+   "notes_count": 51,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2019/09/WK-Classical-Cadence-Types-A.lyl",
+   "status": "ok-with-notes",
+   "notes": [
+    "source has 4 invisible notes / 0 invisible chord symbols (hidden answers or playback notes); MuseScore's MusicXML export drops invisibility, so they are visible here"
+   ]
+  },
+  {
+   "source": "v2/media/2021/05/Emilie_Mayer__Abendglocken__No._1_from_2_Gesange_mm._13-21.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/05/Emilie_Mayer__Abendglocken__No._1_from_2_Gesange_mm._13-21.mscz",
+   "chapters": [
+    "03-diatonic-harmony/05-cadential-64.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "diatonic-harmony",
+   "bars": 9,
+   "staves": 3,
+   "notes_count": 224,
+   "chord_symbols": 0,
+   "kind": "model/example",
+   "lyl": "v2/lilylet/2021/05/Emilie_Mayer__Abendglocken__No._1_from_2_Gesange_mm._13-21.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2021/05/Six_Concertante_Quartets_No._4_II_mm._54-61.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/05/Six_Concertante_Quartets_No._4_II_mm._54-61.mscz",
+   "chapters": [
+    "03-diatonic-harmony/10-plagal-motion.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "diatonic-harmony",
+   "bars": 8,
+   "staves": 4,
+   "notes_count": 67,
+   "chord_symbols": 0,
+   "kind": "model/example",
+   "lyl": "v2/lilylet/2021/05/Six_Concertante_Quartets_No._4_II_mm._54-61.lyl",
+   "status": "ok",
+   "notes": [
+    "Verovio warnings: [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x4)"
+   ]
+  },
+  {
+   "source": "v2/media/2023/08/WK-Introduction-to-Harmon-Cadences-and-Phrase-Endings-2.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2023/08/WK-Introduction-to-Harmon-Cadences-and-Phrase-Endings-2.mscz",
+   "chapters": [
+    "03-diatonic-harmony/01-intro-to-harmony.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "diatonic-harmony",
+   "bars": 52,
+   "staves": 2,
+   "notes_count": 413,
+   "chord_symbols": 18,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2023/08/WK-Introduction-to-Harmon-Cadences-and-Phrase-Endings-2.lyl",
+   "status": "ok",
+   "notes": [
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)"
+   ]
+  },
+  {
+   "source": "v2/media/2025/01/WK-embellishing-tones.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/01/WK-embellishing-tones.mscz",
+   "chapters": [
+    "03-diatonic-harmony/04-embellishing-tones.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "diatonic-harmony",
+   "bars": 34,
+   "staves": 2,
+   "notes_count": 164,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/01/WK-embellishing-tones.lyl",
+   "status": "ok",
+   "notes": [
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)"
+   ]
+  },
+  {
+   "source": "v2/media/2020/01/WK-Rhythmic-Notation-Simple-A.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2020/01/WK-Rhythmic-Notation-Simple-A.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "rhythm-meter",
+   "bars": 34,
+   "staves": 2,
+   "notes_count": 136,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2020/01/WK-Rhythmic-Notation-Simple-A.lyl",
+   "status": "ok-with-notes",
+   "notes": [
+    "source has 72 invisible notes / 0 invisible chord symbols (hidden answers or playback notes); MuseScore's MusicXML export drops invisibility, so they are visible here",
+    "2 common/cut time signatures restored (decoder drops <time symbol>)",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)"
+   ]
+  },
+  {
+   "source": "v2/media/2020/05/WK-Rhythmic-Notation-Compound-A.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2020/05/WK-Rhythmic-Notation-Compound-A.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "rhythm-meter",
+   "bars": 26,
+   "staves": 2,
+   "notes_count": 176,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2020/05/WK-Rhythmic-Notation-Compound-A.lyl",
+   "status": "ok-with-notes",
+   "notes": [
+    "source has 88 invisible notes / 0 invisible chord symbols (hidden answers or playback notes); MuseScore's MusicXML export drops invisibility, so they are visible here",
+    "8 full-bar rests in bars longer than a whole note written as R1"
+   ]
+  },
+  {
+   "source": "v2/media/2020/08/Ch9Ex11.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2020/08/Ch9Ex11.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "rhythm-meter",
+   "bars": 3,
+   "staves": 1,
+   "notes_count": 7,
+   "chord_symbols": 0,
+   "kind": "model/example",
+   "status": "skipped-percussion",
+   "lyl": null,
+   "notes": [
+    "percussion score: skipped (lilylet has no percussion staff; drum notes would be written as pitches)"
+   ]
+  },
+  {
+   "source": "v2/media/2020/08/Ch9Ex12.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2020/08/Ch9Ex12.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "rhythm-meter",
+   "bars": 3,
+   "staves": 1,
+   "notes_count": 34,
+   "chord_symbols": 0,
+   "kind": "model/example",
+   "status": "skipped-percussion",
+   "lyl": null,
+   "notes": [
+    "percussion score: skipped (lilylet has no percussion staff; drum notes would be written as pitches)"
+   ]
+  },
+  {
+   "source": "v2/media/2020/08/Ch9Ex13.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2020/08/Ch9Ex13.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "rhythm-meter",
+   "bars": 4,
+   "staves": 1,
+   "notes_count": 15,
+   "chord_symbols": 0,
+   "kind": "model/example",
+   "status": "skipped-percussion",
+   "lyl": null,
+   "notes": [
+    "percussion score: skipped (lilylet has no percussion staff; drum notes would be written as pitches)"
+   ]
+  },
+  {
+   "source": "v2/media/2020/08/Ch9Ex14.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2020/08/Ch9Ex14.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "rhythm-meter",
+   "bars": 4,
+   "staves": 1,
+   "notes_count": 22,
+   "chord_symbols": 0,
+   "kind": "model/example",
+   "status": "skipped-percussion",
+   "lyl": null,
+   "notes": [
+    "percussion score: skipped (lilylet has no percussion staff; drum notes would be written as pitches)"
+   ]
+  },
+  {
+   "source": "v2/media/2020/08/Ch9Ex15.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2020/08/Ch9Ex15.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "rhythm-meter",
+   "bars": 4,
+   "staves": 1,
+   "notes_count": 8,
+   "chord_symbols": 0,
+   "kind": "model/example",
+   "status": "skipped-percussion",
+   "lyl": null,
+   "notes": [
+    "percussion score: skipped (lilylet has no percussion staff; drum notes would be written as pitches)"
+   ]
+  },
+  {
+   "source": "v2/media/2020/08/Ch9Ex16.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2020/08/Ch9Ex16.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "rhythm-meter",
+   "bars": 3,
+   "staves": 1,
+   "notes_count": 7,
+   "chord_symbols": 0,
+   "kind": "model/example",
+   "status": "skipped-percussion",
+   "lyl": null,
+   "notes": [
+    "percussion score: skipped (lilylet has no percussion staff; drum notes would be written as pitches)"
+   ]
+  },
+  {
+   "source": "v2/media/2020/08/Ch9Ex17.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2020/08/Ch9Ex17.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "rhythm-meter",
+   "bars": 3,
+   "staves": 1,
+   "notes_count": 9,
+   "chord_symbols": 0,
+   "kind": "model/example",
+   "status": "skipped-percussion",
+   "lyl": null,
+   "notes": [
+    "percussion score: skipped (lilylet has no percussion staff; drum notes would be written as pitches)"
+   ]
+  },
+  {
+   "source": "v2/media/2020/08/Ch9Ex18.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2020/08/Ch9Ex18.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "rhythm-meter",
+   "bars": 3,
+   "staves": 1,
+   "notes_count": 10,
+   "chord_symbols": 0,
+   "kind": "model/example",
+   "status": "skipped-percussion",
+   "lyl": null,
+   "notes": [
+    "percussion score: skipped (lilylet has no percussion staff; drum notes would be written as pitches)"
+   ]
+  },
+  {
+   "source": "v2/media/2020/08/Ch9Ex19.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2020/08/Ch9Ex19.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "rhythm-meter",
+   "bars": 3,
+   "staves": 1,
+   "notes_count": 9,
+   "chord_symbols": 0,
+   "kind": "model/example",
+   "status": "skipped-percussion",
+   "lyl": null,
+   "notes": [
+    "percussion score: skipped (lilylet has no percussion staff; drum notes would be written as pitches)"
+   ]
+  },
+  {
+   "source": "v2/media/2020/08/Ch9Ex20.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2020/08/Ch9Ex20.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "rhythm-meter",
+   "bars": 3,
+   "staves": 1,
+   "notes_count": 9,
+   "chord_symbols": 0,
+   "kind": "model/example",
+   "status": "skipped-percussion",
+   "lyl": null,
+   "notes": [
+    "percussion score: skipped (lilylet has no percussion staff; drum notes would be written as pitches)"
+   ]
+  },
+  {
+   "source": "v2/media/2020/08/Ch9Ex21.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2020/08/Ch9Ex21.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "rhythm-meter",
+   "bars": 2,
+   "staves": 1,
+   "notes_count": 20,
+   "chord_symbols": 0,
+   "kind": "model/example",
+   "status": "skipped-percussion",
+   "lyl": null,
+   "notes": [
+    "percussion score: skipped (lilylet has no percussion staff; drum notes would be written as pitches)"
+   ]
+  },
+  {
+   "source": "v2/media/2020/08/Ch9Ex23.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2020/08/Ch9Ex23.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "rhythm-meter",
+   "bars": 2,
+   "staves": 1,
+   "notes_count": 12,
+   "chord_symbols": 0,
+   "kind": "model/example",
+   "lyl": "v2/lilylet/2020/08/Ch9Ex23.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2021/05/WK-Rhythmic-Notation-Simple-A-.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/05/WK-Rhythmic-Notation-Simple-A-.mscz",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "rhythm-meter",
+   "bars": 34,
+   "staves": 2,
+   "notes_count": 141,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2021/05/WK-Rhythmic-Notation-Simple-A-.lyl",
+   "status": "ok-with-notes",
+   "notes": [
+    "source has 54 invisible notes / 0 invisible chord symbols (hidden answers or playback notes); MuseScore's MusicXML export drops invisibility, so they are visible here",
+    "2 common/cut time signatures restored (decoder drops <time symbol>)",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)"
+   ]
+  },
+  {
+   "source": "v2/media/2021/06/WK-Rhythmic-Notation-Compound-A.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/06/WK-Rhythmic-Notation-Compound-A.mscz",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "rhythm-meter",
+   "bars": 26,
+   "staves": 2,
+   "notes_count": 177,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2021/06/WK-Rhythmic-Notation-Compound-A.lyl",
+   "status": "ok-with-notes",
+   "notes": [
+    "source has 77 invisible notes / 0 invisible chord symbols (hidden answers or playback notes); MuseScore's MusicXML export drops invisibility, so they are visible here",
+    "8 full-bar rests in bars longer than a whole note written as R1"
+   ]
+  },
+  {
+   "source": "v2/media/2021/06/WK-Rhythmic-Notation-Simple-A-.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/06/WK-Rhythmic-Notation-Simple-A-.mscz",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "rhythm-meter",
+   "bars": 34,
+   "staves": 2,
+   "notes_count": 141,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2021/06/WK-Rhythmic-Notation-Simple-A-.lyl",
+   "status": "ok-with-notes",
+   "notes": [
+    "source has 54 invisible notes / 0 invisible chord symbols (hidden answers or playback notes); MuseScore's MusicXML export drops invisibility, so they are visible here",
+    "2 common/cut time signatures restored (decoder drops <time symbol>)",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)",
+    "same music as 2021/05/WK-Rhythmic-Notation-Simple-A-.lyl"
+   ]
+  },
+  {
+   "source": "v2/media/2021/06/WK-Rhythmic-Notation-Simple-A-1-1.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/06/WK-Rhythmic-Notation-Simple-A-1-1.mscz",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "rhythm-meter",
+   "bars": 34,
+   "staves": 2,
+   "notes_count": 141,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2021/06/WK-Rhythmic-Notation-Simple-A-1-1.lyl",
+   "status": "ok-with-notes",
+   "notes": [
+    "source has 54 invisible notes / 0 invisible chord symbols (hidden answers or playback notes); MuseScore's MusicXML export drops invisibility, so they are visible here",
+    "2 common/cut time signatures restored (decoder drops <time symbol>)",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)",
+    "same music as 2021/05/WK-Rhythmic-Notation-Simple-A-.lyl"
+   ]
+  },
+  {
+   "source": "v2/media/2024/06/WK-Grouping-Dissonance-Composition-Exercise.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2024/06/WK-Grouping-Dissonance-Composition-Exercise.mscz",
+   "chapters": [
+    "11-rhythm-and-meter/06-metrical-dissonance.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "rhythm-meter",
+   "bars": 23,
+   "staves": 2,
+   "notes_count": 2,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2024/06/WK-Grouping-Dissonance-Composition-Exercise.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2024/06/WK-notating-rhythm-in-compound-meter.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2024/06/WK-notating-rhythm-in-compound-meter.mscz",
+   "chapters": [
+    "01-fundamentals/11-compound-meters-and-time-signatures.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "rhythm-meter",
+   "bars": 13,
+   "staves": 4,
+   "notes_count": 100,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2024/06/WK-notating-rhythm-in-compound-meter.lyl",
+   "status": "ok",
+   "notes": [
+    "11 full-bar rests in bars longer than a whole note written as R1"
+   ]
+  },
+  {
+   "source": "v2/media/2024/06/WK-notating-rhythm-in-simple-meter.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2024/06/WK-notating-rhythm-in-simple-meter.mscz",
+   "chapters": [
+    "01-fundamentals/10-simple-meter-and-time-signatures.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "rhythm-meter",
+   "bars": 21,
+   "staves": 4,
+   "notes_count": 113,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2024/06/WK-notating-rhythm-in-simple-meter.lyl",
+   "status": "ok-with-notes",
+   "notes": [
+    "source has 3 invisible notes / 0 invisible chord symbols (hidden answers or playback notes); MuseScore's MusicXML export drops invisibility, so they are visible here",
+    "2 common/cut time signatures restored (decoder drops <time symbol>)",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)"
+   ]
+  },
+  {
+   "source": "v2/media/2019/05/Modal_Reharmonization.musicxml",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2019/05/Modal_Reharmonization.musicxml",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "popular-music",
+   "bars": 49,
+   "staves": 3,
+   "notes_count": 211,
+   "chord_symbols": 0,
+   "kind": "model/example",
+   "lyl": "v2/lilylet/2019/05/Modal_Reharmonization.lyl",
+   "status": "ok",
+   "notes": [
+    "Verovio warnings: [Warning] Expected @tie median or terminal in note '…', skipping it (x1); [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x5)"
+   ]
+  },
+  {
+   "source": "v2/media/2023/01/WK-fragile-absent-emergent.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2023/01/WK-fragile-absent-emergent.mscz",
+   "chapters": [
+    "07-popular-music/15-fragile-absent-and-emergent-tonics.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "popular-music",
+   "bars": 26,
+   "staves": 1,
+   "notes_count": 179,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2023/01/WK-fragile-absent-emergent.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2023/01/WK-rhythm-and-meter-in-pop-music-transcription.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2023/01/WK-rhythm-and-meter-in-pop-music-transcription.mscz",
+   "chapters": [
+    "07-popular-music/01-rhythm-and-meter-in-pop-music.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "popular-music",
+   "bars": 8,
+   "staves": 7,
+   "notes_count": 49,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "status": "skipped-percussion",
+   "lyl": null,
+   "notes": [
+    "percussion score: skipped (lilylet has no percussion staff; drum notes would be written as pitches)"
+   ]
+  },
+  {
+   "source": "v2/media/2023/06/WK-modal-schemas_Reharmonization.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2023/06/WK-modal-schemas_Reharmonization.mscz",
+   "chapters": [
+    "07-popular-music/13-modal-schemas.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "popular-music",
+   "bars": 49,
+   "staves": 1,
+   "notes_count": 162,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2023/06/WK-modal-schemas_Reharmonization.lyl",
+   "status": "ok",
+   "notes": [
+    "Verovio warnings: [Warning] Expected @tie median or terminal in note '…', skipping it (x1); [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x5)"
+   ]
+  },
+  {
+   "source": "v2/media/2023/07/WK-Drumbeats.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2023/07/WK-Drumbeats.mscz",
+   "chapters": [
+    "07-popular-music/02-drumbeats.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "popular-music",
+   "bars": 12,
+   "staves": 1,
+   "notes_count": 70,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "status": "skipped-percussion",
+   "lyl": null,
+   "notes": [
+    "percussion score: skipped (lilylet has no percussion staff; drum notes would be written as pitches)"
+   ]
+  },
+  {
+   "source": "v2/media/2021/07/WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Brief-Melody-only-Sentences.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/07/WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Brief-Melody-only-Sentences.mscx",
+   "chapters": [
+    "04-form/02-phrase-archetypes-unique-forms.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "form",
+   "bars": 12,
+   "staves": 1,
+   "notes_count": 14,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2021/07/WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Brief-Melody-only-Sentences.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2021/07/WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Fully-realized-Sentences.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/07/WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Fully-realized-Sentences.mscx",
+   "chapters": [
+    "04-form/02-phrase-archetypes-unique-forms.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "form",
+   "bars": 17,
+   "staves": 3,
+   "notes_count": 73,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2021/07/WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Fully-realized-Sentences.lyl",
+   "status": "ok",
+   "notes": [
+    "1 common/cut time signatures restored (decoder drops <time symbol>)",
+    "Verovio warnings: [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x1)"
+   ]
+  },
+  {
+   "source": "v2/media/2023/09/binary-form-assignment-1-model-composition.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2023/09/binary-form-assignment-1-model-composition.mscz",
+   "chapters": [
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "form",
+   "bars": 24,
+   "staves": 2,
+   "notes_count": 66,
+   "chord_symbols": 0,
+   "kind": "model/solution",
+   "lyl": "v2/lilylet/2023/09/binary-form-assignment-1-model-composition.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2026/08/WK-Binary-Form-Guided-Composition.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2026/08/WK-Binary-Form-Guided-Composition.mscz",
+   "chapters": [
+    "04-form/06-binary-form.md"
+   ],
+   "unreferenced": false,
+   "category": "form",
+   "bars": 24,
+   "staves": 2,
+   "notes_count": 66,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2026/08/WK-Binary-Form-Guided-Composition.lyl",
+   "status": "ok",
+   "notes": [
+    "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60"
+   ]
+  },
+  {
+   "source": "v2/media/2020/01/WK-Collections.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2020/01/WK-Collections.mscz",
+   "chapters": [
+    "08-20th-and-21st-century-techniques/09-collections.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "post-tonal",
+   "bars": 8,
+   "staves": 1,
+   "notes_count": 8,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2020/01/WK-Collections.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2020/02/WK-Diatonic-Modes-Identification.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2020/02/WK-Diatonic-Modes-Identification.mscz",
+   "chapters": [
+    "08-20th-and-21st-century-techniques/08-diatonic-modes.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "post-tonal",
+   "bars": 42,
+   "staves": 7,
+   "notes_count": 773,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2020/02/WK-Diatonic-Modes-Identification.lyl",
+   "status": "ok",
+   "notes": [
+    "15 tuplet group(s) without a <tuplet> bracket in the source wrapped in \\tuplet",
+    "5 duplicate chord ties merged",
+    "Verovio warnings: [Warning] Hairpin '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x1); [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x2)"
+   ]
+  },
+  {
+   "source": "v2/media/2021/08/WK-Pitch-and-Pitch-Class.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/08/WK-Pitch-and-Pitch-Class.mscz",
+   "chapters": [
+    "08-20th-and-21st-century-techniques/02-pitch-and-pitch-class.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "post-tonal",
+   "bars": 27,
+   "staves": 2,
+   "notes_count": 26,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2021/08/WK-Pitch-and-Pitch-Class.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2023/07/WK-atonal-analysis-using-pc-sets.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2023/07/WK-atonal-analysis-using-pc-sets.mscz",
+   "chapters": [
+    "08-20th-and-21st-century-techniques/07-analyzing-with-set-theory.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "post-tonal",
+   "bars": 6,
+   "staves": 2,
+   "notes_count": 53,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2023/07/WK-atonal-analysis-using-pc-sets.lyl",
+   "status": "ok",
+   "notes": [
+    "1 duplicate chord ties merged",
+    "Verovio warnings: [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x4)"
+   ]
+  },
+  {
+   "source": "v2/media/2019/05/WK-Key-Signatures-Major.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2019/05/WK-Key-Signatures-Major.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "fundamentals",
+   "bars": 34,
+   "staves": 1,
+   "notes_count": 0,
+   "chord_symbols": 0,
+   "kind": "empty",
+   "status": "skipped-empty",
+   "lyl": null,
+   "notes": [
+    "no notes and no chord symbols (blank template)"
+   ]
+  },
+  {
+   "source": "v2/media/2019/05/WK-Note-ID-and-Writing-A.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2019/05/WK-Note-ID-and-Writing-A.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "fundamentals",
+   "bars": 120,
+   "staves": 1,
+   "notes_count": 80,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2019/05/WK-Note-ID-and-Writing-A.lyl",
+   "status": "ok",
+   "notes": [
+    "same music as 2021/10/WK-Reading-Clefs-1.lyl"
+   ]
+  },
+  {
+   "source": "v2/media/2019/05/WK-Note-ID-and-Writing-B.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2019/05/WK-Note-ID-and-Writing-B.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "fundamentals",
+   "bars": 120,
+   "staves": 1,
+   "notes_count": 80,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2019/05/WK-Note-ID-and-Writing-B.lyl",
+   "status": "ok",
+   "notes": [
+    "same music as 2021/10/WK-Reading-Clefs-2.lyl"
+   ]
+  },
+  {
+   "source": "v2/media/2019/05/WK-Scales-Minor.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2019/05/WK-Scales-Minor.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "fundamentals",
+   "bars": 6,
+   "staves": 1,
+   "notes_count": 0,
+   "chord_symbols": 0,
+   "kind": "empty",
+   "status": "skipped-empty",
+   "lyl": null,
+   "notes": [
+    "no notes and no chord symbols (blank template)"
+   ]
+  },
+  {
+   "source": "v2/media/2020/05/WK-Intro-to-Roman-Numerals-A.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2020/05/WK-Intro-to-Roman-Numerals-A.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "fundamentals",
+   "bars": 7,
+   "staves": 2,
+   "notes_count": 94,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2020/05/WK-Intro-to-Roman-Numerals-A.lyl",
+   "status": "ok",
+   "notes": [
+    "same music as 2021/10/WK-Roman-Numerals-1.lyl"
+   ]
+  },
+  {
+   "source": "v2/media/2020/05/WK-Intro-to-Roman-Numerals-B.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2020/05/WK-Intro-to-Roman-Numerals-B.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "fundamentals",
+   "bars": 13,
+   "staves": 2,
+   "notes_count": 163,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2020/05/WK-Intro-to-Roman-Numerals-B.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2020/05/WK-Intro-to-Roman-Numerals-C.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2020/05/WK-Intro-to-Roman-Numerals-C.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "fundamentals",
+   "bars": 10,
+   "staves": 2,
+   "notes_count": 121,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2020/05/WK-Intro-to-Roman-Numerals-C.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2020/05/WK-Key-Signatures-Minor.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2020/05/WK-Key-Signatures-Minor.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "fundamentals",
+   "bars": 34,
+   "staves": 1,
+   "notes_count": 0,
+   "chord_symbols": 0,
+   "kind": "empty",
+   "status": "skipped-empty",
+   "lyl": null,
+   "notes": [
+    "no notes and no chord symbols (blank template)"
+   ]
+  },
+  {
+   "source": "v2/media/2020/05/WK-Scales-Minor.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2020/05/WK-Scales-Minor.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "fundamentals",
+   "bars": 6,
+   "staves": 1,
+   "notes_count": 0,
+   "chord_symbols": 0,
+   "kind": "empty",
+   "status": "skipped-empty",
+   "lyl": null,
+   "notes": [
+    "no notes and no chord symbols (blank template)"
+   ]
+  },
+  {
+   "source": "v2/media/2021/05/WK-Note-ID-and-Writing-A-.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/05/WK-Note-ID-and-Writing-A-.mscz",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "fundamentals",
+   "bars": 120,
+   "staves": 1,
+   "notes_count": 80,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2021/05/WK-Note-ID-and-Writing-A-.lyl",
+   "status": "ok",
+   "notes": [
+    "same music as 2021/10/WK-Reading-Clefs-1.lyl"
+   ]
+  },
+  {
+   "source": "v2/media/2021/05/WK-Note-ID-and-Writing-B.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/05/WK-Note-ID-and-Writing-B.mscz",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "fundamentals",
+   "bars": 120,
+   "staves": 1,
+   "notes_count": 80,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2021/05/WK-Note-ID-and-Writing-B.lyl",
+   "status": "ok",
+   "notes": [
+    "same music as 2021/10/WK-Reading-Clefs-2.lyl"
+   ]
+  },
+  {
+   "source": "v2/media/2021/06/WK-Chromatic-Scales-A.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/06/WK-Chromatic-Scales-A.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "fundamentals",
+   "bars": 8,
+   "staves": 1,
+   "notes_count": 0,
+   "chord_symbols": 0,
+   "kind": "empty",
+   "status": "skipped-empty",
+   "lyl": null,
+   "notes": [
+    "no notes and no chord symbols (blank template)"
+   ]
+  },
+  {
+   "source": "v2/media/2021/06/WK-Chromatic-Scales-B.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/06/WK-Chromatic-Scales-B.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "fundamentals",
+   "bars": 8,
+   "staves": 1,
+   "notes_count": 0,
+   "chord_symbols": 0,
+   "kind": "empty",
+   "status": "skipped-empty",
+   "lyl": null,
+   "notes": [
+    "no notes and no chord symbols (blank template)"
+   ]
+  },
+  {
+   "source": "v2/media/2021/06/WK-Diatonic-Modes-A.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/06/WK-Diatonic-Modes-A.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "fundamentals",
+   "bars": 8,
+   "staves": 1,
+   "notes_count": 0,
+   "chord_symbols": 0,
+   "kind": "empty",
+   "status": "skipped-empty",
+   "lyl": null,
+   "notes": [
+    "no notes and no chord symbols (blank template)"
+   ]
+  },
+  {
+   "source": "v2/media/2021/06/WK-Diatonic-Modes-B.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/06/WK-Diatonic-Modes-B.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "fundamentals",
+   "bars": 8,
+   "staves": 1,
+   "notes_count": 0,
+   "chord_symbols": 0,
+   "kind": "empty",
+   "status": "skipped-empty",
+   "lyl": null,
+   "notes": [
+    "no notes and no chord symbols (blank template)"
+   ]
+  },
+  {
+   "source": "v2/media/2021/07/Seventh-Chord-Inversions.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/07/Seventh-Chord-Inversions.mscz",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "fundamentals",
+   "bars": 20,
+   "staves": 1,
+   "notes_count": 10,
+   "chord_symbols": 10,
+   "kind": "model/example",
+   "lyl": "v2/lilylet/2021/07/Seventh-Chord-Inversions.lyl",
+   "status": "ok",
+   "notes": [
+    "same music as 2021/10/WK-Inversion-and-Figured-Bass-2.lyl"
+   ]
+  },
+  {
+   "source": "v2/media/2021/07/WK-Intro-to-Roman-Numerals-A.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/07/WK-Intro-to-Roman-Numerals-A.mscz",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "fundamentals",
+   "bars": 7,
+   "staves": 2,
+   "notes_count": 94,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2021/07/WK-Intro-to-Roman-Numerals-A.lyl",
+   "status": "ok",
+   "notes": [
+    "same music as 2021/10/WK-Roman-Numerals-1.lyl"
+   ]
+  },
+  {
+   "source": "v2/media/2021/07/WK-Intro-to-Roman-Numerals-B.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/07/WK-Intro-to-Roman-Numerals-B.mscz",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "fundamentals",
+   "bars": 10,
+   "staves": 2,
+   "notes_count": 120,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2021/07/WK-Intro-to-Roman-Numerals-B.lyl",
+   "status": "ok",
+   "notes": [
+    "same music as 2021/10/WK-Roman-Numerals-2.lyl"
+   ]
+  },
+  {
+   "source": "v2/media/2021/07/WK-Intro-to-Roman-Numerals-C.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/07/WK-Intro-to-Roman-Numerals-C.mscz",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "fundamentals",
+   "bars": 10,
+   "staves": 2,
+   "notes_count": 132,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2021/07/WK-Intro-to-Roman-Numerals-C.lyl",
+   "status": "ok",
+   "notes": [
+    "same music as 2021/10/WK-Roman-Numerals-3.lyl"
+   ]
+  },
+  {
+   "source": "v2/media/2021/07/WK-Triad-Inversions.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/07/WK-Triad-Inversions.mscz",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "fundamentals",
+   "bars": 20,
+   "staves": 1,
+   "notes_count": 10,
+   "chord_symbols": 5,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2021/07/WK-Triad-Inversions.lyl",
+   "status": "ok",
+   "notes": [
+    "same music as 2021/10/WK-Inversion-and-Figured-Bass-1.lyl"
+   ]
+  },
+  {
+   "source": "v2/media/2021/10/WK-Diatonic-Modes-and-the-Chromatic-Scale-1.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/10/WK-Diatonic-Modes-and-the-Chromatic-Scale-1.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "fundamentals",
+   "bars": 8,
+   "staves": 1,
+   "notes_count": 0,
+   "chord_symbols": 0,
+   "kind": "empty",
+   "status": "skipped-empty",
+   "lyl": null,
+   "notes": [
+    "no notes and no chord symbols (blank template)"
+   ]
+  },
+  {
+   "source": "v2/media/2021/10/WK-Diatonic-Modes-and-the-Chromatic-Scale-2.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/10/WK-Diatonic-Modes-and-the-Chromatic-Scale-2.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "fundamentals",
+   "bars": 8,
+   "staves": 1,
+   "notes_count": 0,
+   "chord_symbols": 0,
+   "kind": "empty",
+   "status": "skipped-empty",
+   "lyl": null,
+   "notes": [
+    "no notes and no chord symbols (blank template)"
+   ]
+  },
+  {
+   "source": "v2/media/2021/10/WK-Diatonic-Modes-and-the-Chromatic-Scale-3.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/10/WK-Diatonic-Modes-and-the-Chromatic-Scale-3.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "fundamentals",
+   "bars": 8,
+   "staves": 1,
+   "notes_count": 0,
+   "chord_symbols": 0,
+   "kind": "empty",
+   "status": "skipped-empty",
+   "lyl": null,
+   "notes": [
+    "no notes and no chord symbols (blank template)"
+   ]
+  },
+  {
+   "source": "v2/media/2021/10/WK-Diatonic-Modes-and-the-Chromatic-Scale-4.mscx",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/10/WK-Diatonic-Modes-and-the-Chromatic-Scale-4.mscx",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "fundamentals",
+   "bars": 8,
+   "staves": 1,
+   "notes_count": 0,
+   "chord_symbols": 0,
+   "kind": "empty",
+   "status": "skipped-empty",
+   "lyl": null,
+   "notes": [
+    "no notes and no chord symbols (blank template)"
+   ]
+  },
+  {
+   "source": "v2/media/2021/10/WK-Intervals-1.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/10/WK-Intervals-1.mscz",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "fundamentals",
+   "bars": 30,
+   "staves": 1,
+   "notes_count": 30,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2021/10/WK-Intervals-1.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2021/10/WK-Intervals-2.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/10/WK-Intervals-2.mscz",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "fundamentals",
+   "bars": 30,
+   "staves": 1,
+   "notes_count": 30,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2021/10/WK-Intervals-2.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2021/10/WK-Intervals-3.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/10/WK-Intervals-3.mscz",
+   "chapters": [],
+   "unreferenced": true,
+   "category": "fundamentals",
+   "bars": 30,
+   "staves": 1,
+   "notes_count": 30,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2021/10/WK-Intervals-3.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2021/10/WK-Inversion-and-Figured-Bass-1.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/10/WK-Inversion-and-Figured-Bass-1.mscz",
+   "chapters": [
+    "01-fundamentals/22-figured-bass.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 20,
+   "staves": 1,
+   "notes_count": 10,
+   "chord_symbols": 5,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2021/10/WK-Inversion-and-Figured-Bass-1.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2021/10/WK-Inversion-and-Figured-Bass-2.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/10/WK-Inversion-and-Figured-Bass-2.mscz",
+   "chapters": [
+    "01-fundamentals/22-figured-bass.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 20,
+   "staves": 1,
+   "notes_count": 10,
+   "chord_symbols": 10,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2021/10/WK-Inversion-and-Figured-Bass-2.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2021/10/WK-Reading-Clefs-1.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/10/WK-Reading-Clefs-1.mscz",
+   "chapters": [
+    "01-fundamentals/03-clefs.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 120,
+   "staves": 1,
+   "notes_count": 80,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2021/10/WK-Reading-Clefs-1.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2021/10/WK-Reading-Clefs-2.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/10/WK-Reading-Clefs-2.mscz",
+   "chapters": [
+    "01-fundamentals/03-clefs.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 120,
+   "staves": 1,
+   "notes_count": 80,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2021/10/WK-Reading-Clefs-2.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2021/10/WK-Roman-Numerals-1.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/10/WK-Roman-Numerals-1.mscz",
+   "chapters": [
+    "01-fundamentals/21-roman-numerals.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 7,
+   "staves": 2,
+   "notes_count": 94,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2021/10/WK-Roman-Numerals-1.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2021/10/WK-Roman-Numerals-2.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/10/WK-Roman-Numerals-2.mscz",
+   "chapters": [
+    "01-fundamentals/21-roman-numerals.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 10,
+   "staves": 2,
+   "notes_count": 120,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2021/10/WK-Roman-Numerals-2.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2021/10/WK-Roman-Numerals-3.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2021/10/WK-Roman-Numerals-3.mscz",
+   "chapters": [
+    "01-fundamentals/21-roman-numerals.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 10,
+   "staves": 2,
+   "notes_count": 132,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2021/10/WK-Roman-Numerals-3.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2023/08/WK-Reading-Clefs-treble-bass.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2023/08/WK-Reading-Clefs-treble-bass.mscz",
+   "chapters": [
+    "01-fundamentals/03-clefs.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 60,
+   "staves": 1,
+   "notes_count": 40,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2023/08/WK-Reading-Clefs-treble-bass.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2023/08/WK-Roman-numerals.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2023/08/WK-Roman-numerals.mscz",
+   "chapters": [
+    "01-fundamentals/21-roman-numerals.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 42,
+   "staves": 4,
+   "notes_count": 131,
+   "chord_symbols": 82,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2023/08/WK-Roman-numerals.lyl",
+   "status": "ok-with-notes",
+   "notes": [
+    "special noteheads (x/slash/diamond) not kept"
+   ]
+  },
+  {
+   "source": "v2/media/2024/08/WK-American-Standard-Pitch-Notation-ASPN-treble-bass.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2024/08/WK-American-Standard-Pitch-Notation-ASPN-treble-bass.mscz",
+   "chapters": [
+    "01-fundamentals/06-aspn.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 60,
+   "staves": 1,
+   "notes_count": 40,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2024/08/WK-American-Standard-Pitch-Notation-ASPN-treble-bass.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2024/08/WK-American-Standard-Pitch-Notation-ASPN.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2024/08/WK-American-Standard-Pitch-Notation-ASPN.mscz",
+   "chapters": [
+    "01-fundamentals/06-aspn.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 120,
+   "staves": 1,
+   "notes_count": 80,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2024/08/WK-American-Standard-Pitch-Notation-ASPN.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2025/07/WK-Dim-and-Aug-Intervals-A.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Dim-and-Aug-Intervals-A.mscz",
+   "chapters": [
+    "01-fundamentals/17-intervals.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 30,
+   "staves": 1,
+   "notes_count": 30,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/07/WK-Dim-and-Aug-Intervals-A.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2025/07/WK-Dim-and-Aug-Intervals-B.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Dim-and-Aug-Intervals-B.mscz",
+   "chapters": [
+    "01-fundamentals/17-intervals.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 30,
+   "staves": 1,
+   "notes_count": 30,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/07/WK-Dim-and-Aug-Intervals-B.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2025/07/WK-Intervals-A.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Intervals-A.mscz",
+   "chapters": [
+    "01-fundamentals/17-intervals.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 30,
+   "staves": 1,
+   "notes_count": 30,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/07/WK-Intervals-A.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2025/07/WK-Intervals-B.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Intervals-B.mscz",
+   "chapters": [
+    "01-fundamentals/17-intervals.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 30,
+   "staves": 1,
+   "notes_count": 30,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/07/WK-Intervals-B.lyl",
+   "status": "ok",
+   "notes": [
+    "1 zero-net <backup>/<forward> pairs around directions removed"
+   ]
+  },
+  {
+   "source": "v2/media/2025/07/WK-Intervals-C.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Intervals-C.mscz",
+   "chapters": [
+    "01-fundamentals/17-intervals.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 30,
+   "staves": 1,
+   "notes_count": 30,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/07/WK-Intervals-C.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2025/07/WK-Intervals-D.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Intervals-D.mscz",
+   "chapters": [
+    "01-fundamentals/17-intervals.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 51,
+   "staves": 2,
+   "notes_count": 109,
+   "chord_symbols": 10,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/07/WK-Intervals-D.lyl",
+   "status": "ok-with-notes",
+   "notes": [
+    "special noteheads (x/slash/diamond) not kept",
+    "19 zero-net <backup>/<forward> pairs around directions removed"
+   ]
+  },
+  {
+   "source": "v2/media/2025/07/WK-Intervals-E.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Intervals-E.mscz",
+   "chapters": [
+    "01-fundamentals/17-intervals.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 48,
+   "staves": 2,
+   "notes_count": 101,
+   "chord_symbols": 9,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/07/WK-Intervals-E.lyl",
+   "status": "ok-with-notes",
+   "notes": [
+    "special noteheads (x/slash/diamond) not kept",
+    "25 zero-net <backup>/<forward> pairs around directions removed",
+    "Verovio warnings: [Warning] Expected @tie median or terminal in note '…', skipping it (x1); [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x1)"
+   ]
+  },
+  {
+   "source": "v2/media/2025/07/WK-Ma-Mi-P-Intervals-A.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Ma-Mi-P-Intervals-A.mscz",
+   "chapters": [
+    "01-fundamentals/17-intervals.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 30,
+   "staves": 1,
+   "notes_count": 30,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/07/WK-Ma-Mi-P-Intervals-A.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2025/07/WK-Ma-Mi-P-Intervals-B.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Ma-Mi-P-Intervals-B.mscz",
+   "chapters": [
+    "01-fundamentals/17-intervals.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 30,
+   "staves": 1,
+   "notes_count": 30,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/07/WK-Ma-Mi-P-Intervals-B.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2025/07/WK-Major-Key-Signatures-A-TB.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Major-Key-Signatures-A-TB.mscz",
+   "chapters": [
+    "01-fundamentals/13-major-scales.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 31,
+   "staves": 1,
+   "notes_count": 16,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/07/WK-Major-Key-Signatures-A-TB.lyl",
+   "status": "ok",
+   "notes": [
+    "5 full-bar rests in bars longer than a whole note written as R1"
+   ]
+  },
+  {
+   "source": "v2/media/2025/07/WK-Major-Key-Signatures-A.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Major-Key-Signatures-A.mscz",
+   "chapters": [
+    "01-fundamentals/13-major-scales.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 31,
+   "staves": 1,
+   "notes_count": 16,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/07/WK-Major-Key-Signatures-A.lyl",
+   "status": "ok",
+   "notes": [
+    "5 full-bar rests in bars longer than a whole note written as R1"
+   ]
+  },
+  {
+   "source": "v2/media/2025/07/WK-Major-Key-Signatures-B-TB.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Major-Key-Signatures-B-TB.mscz",
+   "chapters": [
+    "01-fundamentals/13-major-scales.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 31,
+   "staves": 1,
+   "notes_count": 16,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/07/WK-Major-Key-Signatures-B-TB.lyl",
+   "status": "ok",
+   "notes": [
+    "5 full-bar rests in bars longer than a whole note written as R1"
+   ]
+  },
+  {
+   "source": "v2/media/2025/07/WK-Major-Key-Signatures-B.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Major-Key-Signatures-B.mscz",
+   "chapters": [
+    "01-fundamentals/13-major-scales.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 31,
+   "staves": 1,
+   "notes_count": 16,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/07/WK-Major-Key-Signatures-B.lyl",
+   "status": "ok",
+   "notes": [
+    "5 full-bar rests in bars longer than a whole note written as R1"
+   ]
+  },
+  {
+   "source": "v2/media/2025/07/WK-Major-Scales-A-TB.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Major-Scales-A-TB.mscz",
+   "chapters": [
+    "01-fundamentals/13-major-scales.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 25,
+   "staves": 1,
+   "notes_count": 10,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/07/WK-Major-Scales-A-TB.lyl",
+   "status": "ok",
+   "notes": [
+    "6 full-bar rests in bars longer than a whole note written as R1"
+   ]
+  },
+  {
+   "source": "v2/media/2025/07/WK-Major-Scales-A.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Major-Scales-A.mscz",
+   "chapters": [
+    "01-fundamentals/13-major-scales.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 25,
+   "staves": 1,
+   "notes_count": 10,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/07/WK-Major-Scales-A.lyl",
+   "status": "ok",
+   "notes": [
+    "6 full-bar rests in bars longer than a whole note written as R1"
+   ]
+  },
+  {
+   "source": "v2/media/2025/07/WK-Major-Scales-B-TB.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Major-Scales-B-TB.mscz",
+   "chapters": [
+    "01-fundamentals/13-major-scales.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 25,
+   "staves": 1,
+   "notes_count": 10,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/07/WK-Major-Scales-B-TB.lyl",
+   "status": "ok",
+   "notes": [
+    "6 full-bar rests in bars longer than a whole note written as R1"
+   ]
+  },
+  {
+   "source": "v2/media/2025/07/WK-Minor-Scales-A-TB.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Minor-Scales-A-TB.mscz",
+   "chapters": [
+    "01-fundamentals/14-minor-scales.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 25,
+   "staves": 1,
+   "notes_count": 10,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/07/WK-Minor-Scales-A-TB.lyl",
+   "status": "ok",
+   "notes": [
+    "6 full-bar rests in bars longer than a whole note written as R1"
+   ]
+  },
+  {
+   "source": "v2/media/2025/07/WK-Minor-Scales-A.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Minor-Scales-A.mscz",
+   "chapters": [
+    "01-fundamentals/14-minor-scales.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 25,
+   "staves": 1,
+   "notes_count": 10,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/07/WK-Minor-Scales-A.lyl",
+   "status": "ok",
+   "notes": [
+    "6 full-bar rests in bars longer than a whole note written as R1"
+   ]
+  },
+  {
+   "source": "v2/media/2025/07/WK-Minor-Scales-B-TB.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Minor-Scales-B-TB.mscz",
+   "chapters": [
+    "01-fundamentals/14-minor-scales.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 25,
+   "staves": 1,
+   "notes_count": 10,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/07/WK-Minor-Scales-B-TB.lyl",
+   "status": "ok",
+   "notes": [
+    "6 full-bar rests in bars longer than a whole note written as R1"
+   ]
+  },
+  {
+   "source": "v2/media/2025/07/WK-Minor-Scales-B.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Minor-Scales-B.mscz",
+   "chapters": [
+    "01-fundamentals/14-minor-scales.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 25,
+   "staves": 1,
+   "notes_count": 10,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/07/WK-Minor-Scales-B.lyl",
+   "status": "ok",
+   "notes": [
+    "6 full-bar rests in bars longer than a whole note written as R1"
+   ]
+  },
+  {
+   "source": "v2/media/2025/07/WK-Seventh-Chord-Inversion.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Seventh-Chord-Inversion.mscz",
+   "chapters": [
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 20,
+   "staves": 1,
+   "notes_count": 10,
+   "chord_symbols": 2,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/07/WK-Seventh-Chord-Inversion.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2025/07/WK-Triad-Inversion.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Triad-Inversion.mscz",
+   "chapters": [
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 20,
+   "staves": 1,
+   "notes_count": 10,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/07/WK-Triad-Inversion.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2025/07/WK-chromatic-scales-A-TB.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-chromatic-scales-A-TB.mscz",
+   "chapters": [
+    "01-fundamentals/15-intro-to-diatonic-modes-and-the-chromatic-scale.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 12,
+   "staves": 1,
+   "notes_count": 30,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/07/WK-chromatic-scales-A-TB.lyl",
+   "status": "ok",
+   "notes": [
+    "4 breve(s) written as tied whole notes / two whole rests (lilylet has no breve)",
+    "6 full-bar rests in bars longer than a whole note written as R1",
+    "Verovio warnings: [Warning] Unsupported value '…' for data.ACCIDENTAL.GESTURAL (x1)"
+   ]
+  },
+  {
+   "source": "v2/media/2025/07/WK-chromatic-scales-A.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-chromatic-scales-A.mscz",
+   "chapters": [
+    "01-fundamentals/15-intro-to-diatonic-modes-and-the-chromatic-scale.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 12,
+   "staves": 1,
+   "notes_count": 30,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/07/WK-chromatic-scales-A.lyl",
+   "status": "ok",
+   "notes": [
+    "4 breve(s) written as tied whole notes / two whole rests (lilylet has no breve)",
+    "6 full-bar rests in bars longer than a whole note written as R1",
+    "Verovio warnings: [Warning] Unsupported value '…' for data.ACCIDENTAL.GESTURAL (x1)"
+   ]
+  },
+  {
+   "source": "v2/media/2025/07/WK-chromatic-scales-B-TB.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-chromatic-scales-B-TB.mscz",
+   "chapters": [
+    "01-fundamentals/15-intro-to-diatonic-modes-and-the-chromatic-scale.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 12,
+   "staves": 1,
+   "notes_count": 30,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/07/WK-chromatic-scales-B-TB.lyl",
+   "status": "ok",
+   "notes": [
+    "4 breve(s) written as tied whole notes / two whole rests (lilylet has no breve)",
+    "6 full-bar rests in bars longer than a whole note written as R1",
+    "Verovio warnings: [Warning] Unsupported value '…' for data.ACCIDENTAL.GESTURAL (x1)"
+   ]
+  },
+  {
+   "source": "v2/media/2025/07/WK-chromatic-scales-B.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-chromatic-scales-B.mscz",
+   "chapters": [
+    "01-fundamentals/15-intro-to-diatonic-modes-and-the-chromatic-scale.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 12,
+   "staves": 1,
+   "notes_count": 30,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/07/WK-chromatic-scales-B.lyl",
+   "status": "ok",
+   "notes": [
+    "4 breve(s) written as tied whole notes / two whole rests (lilylet has no breve)",
+    "6 full-bar rests in bars longer than a whole note written as R1",
+    "Verovio warnings: [Warning] Unsupported value '…' for data.ACCIDENTAL.GESTURAL (x1)"
+   ]
+  },
+  {
+   "source": "v2/media/2025/08/WK-Minor-Key-Signatures-A-TB.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-Minor-Key-Signatures-A-TB.mscz",
+   "chapters": [
+    "01-fundamentals/14-minor-scales.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 30,
+   "staves": 1,
+   "notes_count": 8,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/08/WK-Minor-Key-Signatures-A-TB.lyl",
+   "status": "ok",
+   "notes": [
+    "5 full-bar rests in bars longer than a whole note written as R1"
+   ]
+  },
+  {
+   "source": "v2/media/2025/08/WK-Minor-Key-Signatures-A.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-Minor-Key-Signatures-A.mscz",
+   "chapters": [
+    "01-fundamentals/14-minor-scales.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 30,
+   "staves": 1,
+   "notes_count": 8,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/08/WK-Minor-Key-Signatures-A.lyl",
+   "status": "ok",
+   "notes": [
+    "5 full-bar rests in bars longer than a whole note written as R1"
+   ]
+  },
+  {
+   "source": "v2/media/2025/08/WK-Minor-Key-Signatures-B-TB.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-Minor-Key-Signatures-B-TB.mscz",
+   "chapters": [
+    "01-fundamentals/14-minor-scales.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 30,
+   "staves": 1,
+   "notes_count": 8,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/08/WK-Minor-Key-Signatures-B-TB.lyl",
+   "status": "ok",
+   "notes": [
+    "5 full-bar rests in bars longer than a whole note written as R1"
+   ]
+  },
+  {
+   "source": "v2/media/2025/08/WK-Minor-Key-Signatures-B.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-Minor-Key-Signatures-B.mscz",
+   "chapters": [
+    "01-fundamentals/14-minor-scales.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 30,
+   "staves": 1,
+   "notes_count": 8,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/08/WK-Minor-Key-Signatures-B.lyl",
+   "status": "ok",
+   "notes": [
+    "5 full-bar rests in bars longer than a whole note written as R1"
+   ]
+  },
+  {
+   "source": "v2/media/2025/08/WK-Seventh-Chords-A.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-Seventh-Chords-A.mscz",
+   "chapters": [
+    "01-fundamentals/19-seventh-chords.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 20,
+   "staves": 1,
+   "notes_count": 11,
+   "chord_symbols": 11,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/08/WK-Seventh-Chords-A.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2025/08/WK-Seventh-Chords-B.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-Seventh-Chords-B.mscz",
+   "chapters": [
+    "01-fundamentals/19-seventh-chords.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 20,
+   "staves": 1,
+   "notes_count": 11,
+   "chord_symbols": 11,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/08/WK-Seventh-Chords-B.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2025/08/WK-Seventh-Chords-C.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-Seventh-Chords-C.mscz",
+   "chapters": [
+    "01-fundamentals/19-seventh-chords.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 20,
+   "staves": 1,
+   "notes_count": 11,
+   "chord_symbols": 11,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/08/WK-Seventh-Chords-C.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2025/08/WK-Seventh-Chords-D.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-Seventh-Chords-D.mscz",
+   "chapters": [
+    "01-fundamentals/19-seventh-chords.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 53,
+   "staves": 3,
+   "notes_count": 171,
+   "chord_symbols": 22,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/08/WK-Seventh-Chords-D.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2025/08/WK-Triads-A.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-Triads-A.mscz",
+   "chapters": [
+    "01-fundamentals/18-triads.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 20,
+   "staves": 1,
+   "notes_count": 11,
+   "chord_symbols": 11,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/08/WK-Triads-A.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2025/08/WK-Triads-B.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-Triads-B.mscz",
+   "chapters": [
+    "01-fundamentals/18-triads.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 20,
+   "staves": 1,
+   "notes_count": 11,
+   "chord_symbols": 11,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/08/WK-Triads-B.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2025/08/WK-Triads-C.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-Triads-C.mscz",
+   "chapters": [
+    "01-fundamentals/18-triads.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 20,
+   "staves": 1,
+   "notes_count": 11,
+   "chord_symbols": 11,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/08/WK-Triads-C.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2025/08/WK-Triads-D.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-Triads-D.mscz",
+   "chapters": [
+    "01-fundamentals/18-triads.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 47,
+   "staves": 3,
+   "notes_count": 122,
+   "chord_symbols": 22,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/08/WK-Triads-D.lyl",
+   "status": "ok",
+   "notes": [
+    "5 zero-net <backup>/<forward> pairs around directions removed",
+    "Verovio warnings: [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x1); [Warning] Hairpin '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x1)"
+   ]
+  },
+  {
+   "source": "v2/media/2025/08/WK-diatonic-modes-A.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-diatonic-modes-A.mscz",
+   "chapters": [
+    "01-fundamentals/15-intro-to-diatonic-modes-and-the-chromatic-scale.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 16,
+   "staves": 1,
+   "notes_count": 23,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/08/WK-diatonic-modes-A.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2025/08/WK-diatonic-modes-B-TB.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-diatonic-modes-B-TB.mscz",
+   "chapters": [
+    "01-fundamentals/15-intro-to-diatonic-modes-and-the-chromatic-scale.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 16,
+   "staves": 1,
+   "notes_count": 23,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/08/WK-diatonic-modes-B-TB.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2025/08/WK-diatonic-modes-B.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-diatonic-modes-B.mscz",
+   "chapters": [
+    "01-fundamentals/15-intro-to-diatonic-modes-and-the-chromatic-scale.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 16,
+   "staves": 1,
+   "notes_count": 23,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/08/WK-diatonic-modes-B.lyl",
+   "status": "ok",
+   "notes": []
+  },
+  {
+   "source": "v2/media/2025/08/WK-enharmonic-equivalence-TB.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-enharmonic-equivalence-TB.mscz",
+   "chapters": [
+    "01-fundamentals/05-half-and-whole-steps.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 45,
+   "staves": 2,
+   "notes_count": 60,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/08/WK-enharmonic-equivalence-TB.lyl",
+   "status": "ok",
+   "notes": [
+    "Verovio warnings: [Warning] Unsupported value '…' for data.ACCIDENTAL.GESTURAL (x1)"
+   ]
+  },
+  {
+   "source": "v2/media/2025/08/WK-enharmonic-equivalence.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-enharmonic-equivalence.mscz",
+   "chapters": [
+    "01-fundamentals/05-half-and-whole-steps.md",
+    "13-workbook/01-digital-workbook.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 45,
+   "staves": 2,
+   "notes_count": 60,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/08/WK-enharmonic-equivalence.lyl",
+   "status": "ok",
+   "notes": [
+    "Verovio warnings: [Warning] Unsupported value '…' for data.ACCIDENTAL.GESTURAL (x1)"
+   ]
+  },
+  {
+   "source": "v2/media/2025/08/WK-half-and-whole-steps-in-staff-notation-TB.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2025/08/WK-half-and-whole-steps-in-staff-notation-TB.mscz",
+   "chapters": [
+    "01-fundamentals/05-half-and-whole-steps.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 71,
+   "staves": 2,
+   "notes_count": 130,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2025/08/WK-half-and-whole-steps-in-staff-notation-TB.lyl",
+   "status": "ok",
+   "notes": [
+    "55 full-bar rests in bars longer than a whole note written as R1"
+   ]
+  },
+  {
+   "source": "v2/media/2026/06/WK-Seventh-Chord-Inversion-A.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2026/06/WK-Seventh-Chord-Inversion-A.mscz",
+   "chapters": [
+    "01-fundamentals/20-inversion.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 20,
+   "staves": 1,
+   "notes_count": 10,
+   "chord_symbols": 2,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2026/06/WK-Seventh-Chord-Inversion-A.lyl",
+   "status": "ok",
+   "notes": [
+    "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60"
+   ]
+  },
+  {
+   "source": "v2/media/2026/06/WK-Seventh-Chord-Inversion-B.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2026/06/WK-Seventh-Chord-Inversion-B.mscz",
+   "chapters": [
+    "01-fundamentals/20-inversion.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 20,
+   "staves": 1,
+   "notes_count": 10,
+   "chord_symbols": 2,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2026/06/WK-Seventh-Chord-Inversion-B.lyl",
+   "status": "ok",
+   "notes": [
+    "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60",
+    "same music as 2026/06/WK-Seventh-Chord-Inversion-A.lyl"
+   ]
+  },
+  {
+   "source": "v2/media/2026/06/WK-Triad-Inversion-A.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2026/06/WK-Triad-Inversion-A.mscz",
+   "chapters": [
+    "01-fundamentals/20-inversion.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 20,
+   "staves": 1,
+   "notes_count": 10,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2026/06/WK-Triad-Inversion-A.lyl",
+   "status": "ok",
+   "notes": [
+    "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60"
+   ]
+  },
+  {
+   "source": "v2/media/2026/06/WK-Triad-Inversion-B.mscz",
+   "url": "https://viva.pressbooks.pub/app/uploads/sites/12/2026/06/WK-Triad-Inversion-B.mscz",
+   "chapters": [
+    "01-fundamentals/20-inversion.md"
+   ],
+   "unreferenced": false,
+   "category": "fundamentals",
+   "bars": 20,
+   "staves": 1,
+   "notes_count": 10,
+   "chord_symbols": 0,
+   "kind": "workbook-prompt",
+   "lyl": "v2/lilylet/2026/06/WK-Triad-Inversion-B.lyl",
+   "status": "ok",
+   "notes": [
+    "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60",
+    "same music as 2026/06/WK-Triad-Inversion-A.lyl"
+   ]
+  }
+ ]
+}

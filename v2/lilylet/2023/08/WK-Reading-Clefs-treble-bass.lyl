@@ -1,0 +1,121 @@
+[title "Note Identification and Writing"]
+
+\key c \major \clef "treble" d'1^\markup "1"_\markup "____" \bar "||" \addlyrics { D } | %1
+
+g'1^\markup "2"_\markup "____" \bar "||" \addlyrics { G } | %2
+
+b'1^\markup "3"_\markup "____" \bar "||" | %3
+
+e'1^\markup "4"_\markup "____" \bar "||" | %4
+
+d1^\markup "5"_\markup "____" \bar "||" | %5
+
+b'1^\markup "6"_\markup "____" \bar "||" | %6
+
+g''1^\markup "7"_\markup "____" \bar "||" | %7
+
+c'1^\markup "8"_\markup "____" \bar "||" | %8
+
+f1^\markup "9"_\markup "____" \bar "||" | %9
+
+a'1^\markup "10"_\markup "____" \bar "||" | %10
+
+\clef "bass" g,1^\markup "11"_\markup "____" \bar "||" | %11
+
+f,1^\markup "12"_\markup "____" \bar "||" | %12
+
+c,1^\markup "13"_\markup "____" \bar "||" | %13
+
+e,1^\markup "14"_\markup "____" \bar "||" | %14
+
+b,1^\markup "15"_\markup "____" \bar "||" | %15
+
+d,1^\markup "16"_\markup "____" \bar "||" | %16
+
+a1^\markup "17"_\markup "____" \bar "||" | %17
+
+a,1^\markup "18"_\markup "____" \bar "||" | %18
+
+f,,1^\markup "19"_\markup "____" \bar "||" | %19
+
+g1^\markup "20"_\markup "____" \bar "||" | %20
+
+\clef "treble" b''1^\markup "41"_\markup "____" \bar "||" \addlyrics { B } | %21
+
+c1^\markup "42"_\markup "____" \bar "||" \addlyrics { C } | %22
+
+g1^\markup "43"_\markup "____" \bar "||" | %23
+
+d''1^\markup "44"_\markup "____" \bar "||" | %24
+
+b1^\markup "45"_\markup "____" \bar "||" | %25
+
+c''1^\markup "46"_\markup "____" \bar "||" | %26
+
+a''1^\markup "47"_\markup "____" \bar "||" | %27
+
+f,1^\markup "48"_\markup "____" \bar "||" | %28
+
+e''1^\markup "49"_\markup "____" \bar "||" | %29
+
+a1^\markup "50"_\markup "____" \bar "||" | %30
+
+c,,1^\markup "51"_\markup "____" \bar "||" | %31
+
+e1^\markup "52"_\markup "____" \bar "||" | %32
+
+e,,1^\markup "53"_\markup "____" \bar "||" | %33
+
+g'1^\markup "54"_\markup "____" \bar "||" | %34
+
+c1^\markup "55"_\markup "____" \bar "||" | %35
+
+a,,1^\markup "56"_\markup "____" \bar "||" | %36
+
+f1^\markup "57"_\markup "____" \bar "||" | %37
+
+d,,1^\markup "58"_\markup "____" \bar "||" | %38
+
+d1^\markup "59"_\markup "____" \bar "||" | %39
+
+b,,1^\markup "60"_\markup "____" \bar "||" | %40
+
+R1 \bar "||" | %41
+
+R1 \bar "||" | %42
+
+R1 \bar "||" | %43
+
+R1 \bar "||" | %44
+
+R1 \bar "||" | %45
+
+R1 \bar "||" | %46
+
+R1 \bar "||" | %47
+
+R1 \bar "||" | %48
+
+R1 \bar "||" | %49
+
+R1 \bar "||" | %50
+
+R1 \bar "||" | %51
+
+R1 \bar "||" | %52
+
+R1 \bar "||" | %53
+
+R1 \bar "||" | %54
+
+R1 \bar "||" | %55
+
+R1 \bar "||" | %56
+
+R1 \bar "||" | %57
+
+R1 \bar "||" | %58
+
+R1 \bar "||" | %59
+
+R1 \bar "||" | %60

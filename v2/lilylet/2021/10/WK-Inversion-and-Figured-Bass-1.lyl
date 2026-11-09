@@ -1,0 +1,42 @@
+[title "Triads and Seventh Chords"]
+[subtitle "Triadic Inversion"]
+
+\key c \major \clef "bass" <g, b e>1^\markup "1" \bar "||" | %1
+
+<e a cs>1^\markup "2" \bar "||" | %2
+
+<as' ds fs>1^\markup "3" \bar "||" | %3
+
+<bf, df g>1^\markup "4" \bar "||" | %4
+
+<as cs es>1^\markup "5" \bar "||" | %5
+
+\clef "treble" <g' b ef>1^\markup "6" \bar "||" | %6
+
+<ef a c>1^\markup "7" \bar "||" | %7
+
+<e, a c>1^\markup "8" \bar "||" | %8
+
+<g bf e>1^\markup "9" \bar "||" | %9
+
+<e,, a cs>1^\markup "10" \bar "|." | %10
+
+R1 \bar "||" | %11
+
+R1 \chords "64" \bar "||" | %12
+
+R1 \chords "64" \bar "||" | %13
+
+R1 \bar "||" | %14
+
+R1 \chords "64" \bar "||" | %15
+
+R1 \bar "||" | %16
+
+R1 \bar "||" | %17
+
+R1 \chords "64" \bar "||" | %18
+
+R1 \bar "||" | %19
+
+R1 \chords "64" \bar "|." | %20

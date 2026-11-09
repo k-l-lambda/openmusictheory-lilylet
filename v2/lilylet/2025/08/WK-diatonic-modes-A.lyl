@@ -1,0 +1,34 @@
+[title "Diatonic Modes A"]
+[composer "Kyle Gullings and Megan Lavengood"]
+
+\key c \major \time 8/4 \clef "treble" f4 r r2 r r \bar "||" | %1
+
+d4 r r2 r r \bar "||" | %2
+
+c4 r r2 r r \bar "||" | %3
+
+\clef "bass" af,4 r r2 r r \bar "||" | %4
+
+f,,4 r r2 r r \bar "||" | %5
+
+a,4 r r2 r r \bar "||" | %6
+
+\clef "alto" d,4 r r2 r r \bar "||" | %7
+
+\clef "tenor" cs,4 r r2 r r \bar "||" | %8
+
+\key af \major \clef "treble" f4 g af bf c d ef f \bar "||" | %9
+
+\key a \major a'4 r r2 r r \bar "||" | %10
+
+\key d \major b'4 r r2 r r \bar "||" | %11
+
+\key df \major \clef "bass" df,4 r r2 r r \bar "||" | %12
+
+bf,4 r r2 r r \bar "||" | %13
+
+\key e \major e,4 r r2 r r \bar "||" | %14
+
+\key gf \major \clef "alto" ef,4 r r2 r r \bar "||" | %15
+
+\key b \major \clef "tenor" b,4 r r2 r r \bar "||" | %16

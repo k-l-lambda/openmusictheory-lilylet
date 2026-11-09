@@ -1,0 +1,120 @@
+[title "Embellishing Chords"]
+[composer "Megan Lavengood"]
+
+\key c \major \time 2/1 \clef "treble" <c e g bf>1 \chords "_____" \chords "C7" <f a c ef> \chords "F7" \bar "||" | %1
+
+r1 \chords "_____" r \chords "Bø7" \bar "||" | %2
+
+r1 \chords "_____" r \chords "Ebmi7" \bar "||" | %3
+
+r1 \chords "_____" r \chords "C#mi7" \bar "||" | %4
+
+r1 \chords "_____" r \chords "A7" \bar "||" | %5
+
+<f af c ef>1 \chords "_____" \chords "Fmi7" <bf, d f af> \chords "Bb7" \bar "||" | %6
+
+r1 \chords "_____" r \chords "A7" \bar "||" | %7
+
+r1 \chords "_____" r \chords "E7" \bar "||" | %8
+
+r1 \chords "_____" r \chords "C7" \bar "||" | %9
+
+r1 \chords "_____" r \chords "Db7" \bar "||" | %10
+
+<g' as cs e>1 \chords "_____" \chords "G°7" <g b d fs> \chords "Gma7" \bar "||" | %11
+
+r1 \chords "_____" r \chords "B7" \bar "||" | %12
+
+r1 \chords "_____" r \chords "Abma7" \bar "||" | %13
+
+r1 \chords "_____" r \chords "Fma7" \bar "||" | %14
+
+r1 \chords "_____" r \chords "Eb7" \bar "||" | %15
+
+\numericTimeSignature \time 4/4 b'4 \chords "Fma7" b b b | %16
+
+b'4 \chords "Fma7" b b b | %17
+
+b'4 \chords "Bmi7" b b \chords "E7" b | %18
+
+b'4 \chords "A6" b b b \bar "||" | %19
+
+b'4^\markup "Add an applied V7." b b b | %20
+
+b'4 b b b | %21
+
+b'4 b b b | %22
+
+b'4 b b b \bar "||" | %23
+
+b'4 \chords "Ebma7" b b b | %24
+
+b'4 \chords "Cmi7" b b b | %25
+
+b'4 \chords "Fmi7" b b \chords "Bb7" b | %26
+
+b'4 \chords "Ebma7" b b b \bar "||" | %27
+
+b'4^\markup "Add a common-tone diminished seventh." b b b | %28
+
+b'4 b b b | %29
+
+b'4 b b b | %30
+
+b'4 b b b \bar "||" | %31
+
+b'4 \chords "G7" b b b | %32
+
+b'4 \chords "Cmi7" b b b | %33
+
+b'4 \chords "F7" b b b | %34
+
+b'4 \chords "Bbma7" b b b \bar "||" | %35
+
+b'4^\markup "Add an applied ii7." b b b | %36
+
+b'4 b b b | %37
+
+b'4 b b b | %38
+
+b'4 b b b \bar "||" | %39
+
+b'4 \chords "Gma7" b b b | %40
+
+b'4 \chords "Bb7" b b b | %41
+
+b'4 \chords "Ebma7" b b b | %42
+
+b'4 \chords "D7" b b b \bar "||" | %43
+
+b'4^\markup "Add an applied ii7." b b b | %44
+
+b'4 b b b | %45
+
+b'4 b b b | %46
+
+b'4 b b b \bar "||" | %47
+
+b'4 \chords "Gma7" b b b | %48
+
+b'4 \chords "Gma7" b b b | %49
+
+b'4 \chords "Gmi7" b b b | %50
+
+b'4 \chords "C7" b b b \bar "||" | %51
+
+b'4^\markup "Add a common-tone diminished seventh." b b b | %52
+
+b'4 b b b | %53
+
+b'4 b b b | %54
+
+b'4 b b b \bar "||" | %55
+
+\stemUp a2 \chords "Dmi7" b4 \chords "G7" f' | %56
+
+\stemUp e8[ \chords "Cma7" f g] r r \stemDown b r \stemUp a | %57
+
+\stemUp gs'8[ \chords "E7" a b c] \stemDown d r e[ c~] | %58
+
+\stemDown c'2 \chords "Ami7" r \bar "||" | %59

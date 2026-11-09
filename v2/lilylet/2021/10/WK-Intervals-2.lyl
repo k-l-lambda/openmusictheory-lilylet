@@ -1,0 +1,62 @@
+[title "Music Theory I Graded Homework #1: Scales Dr. Gullings"]
+[composer "N"]
+
+\key c \major \clef "tenor" <b c>1^\markup "PART 1: Identification\nIdentify the following intervals by both quality (d, mi, ma, P, or A) and size (U, 2, 3, 4, 5, 6, 7, or 8)."^\markup "1" \bar "||" | %1
+
+<as' e'>1^\markup "2" \bar "||" | %2
+
+<a cs>1^\markup "3" \bar "||" | %3
+
+<a' f'>1^\markup "4" \bar "||" | %4
+
+<af d>1^\markup "5" \bar "||" | %5
+
+\clef "alto" <e e'>1^\markup "6" \bar "||" | %6
+
+<f af>1^\markup "7" \bar "||" | %7
+
+<c, g'>1^\markup "8" \bar "||" | %8
+
+<b, as'>1^\markup "9" \bar "||" | %9
+
+<cs fs>1^\markup "10" \bar "||" | %10
+
+a1^\markup "PART 2: Intervals above a note\nAdd the correct note above the given note, to form the interval specified."^\markup "1" \bar "||" \addlyrics { ↑mi2 } | %11
+
+a,1^\markup "2" \bar "||" \addlyrics { ↑ma6 } | %12
+
+d,1^\markup "3" \bar "||" \addlyrics { ↑P4 } | %13
+
+e1^\markup "4" \bar "||" \addlyrics { ↑ma3 } | %14
+
+e,1^\markup "5" \bar "||" \addlyrics { ↑A4 } | %15
+
+fs1^\markup "6" \bar "||" \addlyrics { ↑P5 } | %16
+
+gs'1^\markup "7" \bar "||" \addlyrics { ↑mi7 } | %17
+
+fs,1^\markup "8" \bar "||" \addlyrics { ↑d3 } | %18
+
+fs1^\markup "9" \bar "||" \addlyrics { ↑mi6 } | %19
+
+af'1^\markup "10" \bar "||" \addlyrics { ↑A8 } | %20
+
+\clef "bass" f,1^\markup "PART 3: Intervals below a note\nAdd the correct note below the given note, to form the interval specified."^\markup "1" \bar "||" \addlyrics { ↓mi6 } | %21
+
+bf1^\markup "2" \bar "||" \addlyrics { ↓mi2 } | %22
+
+d1^\markup "3" \bar "||" \addlyrics { ↓P5 } | %23
+
+af'1^\markup "4" \bar "||" \addlyrics { ↓P8 } | %24
+
+cs1^\markup "5" \bar "||" \addlyrics { ↓mi7 } | %25
+
+\clef "treble" c'1^\markup "6" \bar "||" \addlyrics { ↓ma3 } | %26
+
+ef'1^\markup "7" \bar "||" \addlyrics { ↓ma7 } | %27
+
+b1^\markup "8" \bar "||" \addlyrics { ↓A4 } | %28
+
+f,1^\markup "9" \bar "||" \addlyrics { ↓ma6 } | %29
+
+a'1^\markup "10" \bar "||" \addlyrics { ↓ma2 } | %30

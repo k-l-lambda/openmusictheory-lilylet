@@ -1,0 +1,25 @@
+[title "Bach, Well-Tempered Clavier II, Fugue 10 in E minor, BWV 879: subject"]
+[subtitle "Task: Use the empty stave to write suitable answers and counter-subjects"]
+[composer "J. S. Bach"]
+[staves "s1,s2"]
+
+\key g \major \numericTimeSignature \time 2/2 \clef "treble" \tuplet 3/2 { r8 e^\markup "BWV 879"[ fs] } \\\
+\clef "treble" R4 | %1
+
+\stemUp g'4 a16[ g fs g] a4 b16[ a g a] \\\
+R1 | %2
+
+\stemDown b'4 \stemUp g e \stemDown c'~ \\\
+R1 | %3
+
+\stemDown c'4 b8.[ ds16] e4 \stemUp a,~ \\\
+R1 | %4
+
+\stemUp a'4 g8.[ ds'16] \stemDown e4 \stemUp fs,~ \\\
+R1 | %5
+
+\tuplet 3/2 { fs8[ g a] } \tuplet 3/2 { g8[ fs e] } \tuplet 3/2 { ds8[ c' b] } \tuplet 3/2 { a8[ g fs] } \\\
+R1 | %6
+
+\tuplet 3/2 { g'8[ a b] } \tuplet 3/2 { a8[ g fs] } \tuplet 3/2 { e8[ e' d] } cs4 \bar "|." \\\
+R1 \bar "|." | %7

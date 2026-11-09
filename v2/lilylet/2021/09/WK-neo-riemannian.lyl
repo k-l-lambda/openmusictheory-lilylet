@@ -1,0 +1,99 @@
+[title "WK neo riemannian"]
+
+\key c \major \numericTimeSignature \time 4/4 \clef "treble" <bf df f>1^\markup "Neo-Riemannian transformations relate one major and one minor triad. \n• Every transformation toggles back and forth between the same two triads. \n• Example 3 in the Neo-Riemannian chapter concisely summarizes Parallel (P), Relative (R), and \n    Leading-tone exchange (L).\n• Example 13 in the chapter summarizes Slide, Nebenverwandt (N), and Hexatonic pole (H)."^\markup "You are given a starting chord, and below the staff, a transformation.\n• Apply the requested Neo-Riemannian transformation, and notate the chord in the empty measure.\n• Write the appropriate chord symbol above each chord.\nThe first exercise has been completed as an example."^\markup "1" \chords "Bbmi" \addlyrics { P } | %1
+
+<bf d f>1 \chords "Bb" | %2
+
+<df f af>1^\markup "2" \addlyrics { R } | %3
+
+R1 | %4
+
+<d f a>1^\markup "3" \addlyrics { L } | %5
+
+R1 | %6
+
+<e gs b>1^\markup "4" \addlyrics { R } | %7
+
+R1 | %8
+
+<c ef g>1^\markup "5" \addlyrics { R } | %9
+
+R1 | %10
+
+<g' b d>1^\markup "6" \addlyrics { L } | %11
+
+R1 | %12
+
+<ef g bf>1^\markup "7" \addlyrics { P } | %13
+
+R1 | %14
+
+<f af c>1^\markup "8" \addlyrics { L } | %15
+
+R1 | %16
+
+<b' ds fs>1^\markup "9" \addlyrics { SLIDE } | %17
+
+R1 | %18
+
+<fs a cs>1^\markup "10" \addlyrics { SLIDE } | %19
+
+R1 | %20
+
+<af' c ef>1^\markup "11" \addlyrics { N } | %21
+
+R1 | %22
+
+<a' cs e>1^\markup "12" \addlyrics { H } | %23
+
+R1 | %24
+
+<c e g>1^\markup "PART 2"^\markup "• Start on the given C major chord, and then perform the chain of transformations (indicated by letters\n   beneath the staff, between each measure). \n• Connect all common tones.\n• Write the appropriate chord symbol above each chord.\n\nThe first has been completed for you as an example."_\markup "L"^\markup "1" \chords "C" | %25
+
+<b e g>1_\markup "R" \chords "Emi" | %26
+
+<b d g>1_\markup "L" \chords "G" | %27
+
+<b d fs>1_\markup "R" \chords "Bmi" | %28
+
+<a d fs>1_\markup "L" \chords "D" | %29
+
+<a cs fs>1 \chords "F#mi" \bar "||" | %30
+
+<c e g>1_\markup "R"^\markup "2" \chords "C" | %31
+
+r1 | %32
+
+r1 | %33
+
+r1 | %34
+
+r1 | %35
+
+r1 \bar "||" | %36
+
+<c e g>1_\markup "• Begin on the first chord given, and find a series of Neo-Riemannian transformations that will \n  lead to the chord given in the final measure. \n• You can use as many transformations as you need to. \n• Label each transformation with an abbreviation below the staff (as in Part 2, or the examples in the text). \n• Write the appropriate chord symbol above each chord."_\markup "PART 3"_\markup "P"^\markup "3" \chords "C" | %37
+
+r1 | %38
+
+r1 | %39
+
+r1 | %40
+
+r1 | %41
+
+r1 | %42
+
+R1 | %43
+
+<ef g bf>1 \chords "Eb" | %44
+
+R1 | %45
+
+R1 | %46
+
+R1 | %47
+
+R1 | %48
+
+R1 \chords "A" \bar "||" | %49

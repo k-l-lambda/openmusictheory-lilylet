@@ -1,0 +1,156 @@
+[title "Intervals D"]
+[composer "Kyle Gullings and Megan Lavengood"]
+[staves "s1,s2"]
+
+\key c \major \clef "treble" <a c>1_\markup "mi3" \bar "||" \\\
+\clef "treble" R1 \bar "||" | %1
+
+<fs e'>1 \bar "||" \\\
+R1 \bar "||" | %2
+
+<cs cs'>1 \bar "||" \\\
+R1 \bar "||" | %3
+
+<e' f>1 \bar "||" \\\
+R1 \bar "||" | %4
+
+<ef' c'>1 \bar "||" \\\
+R1 \bar "||" | %5
+
+\clef "bass" <a e'>1 \bar "||" \\\
+R1 \bar "||" | %6
+
+<a, ds>1 \bar "||" \\\
+R1 \bar "||" | %7
+
+<c, c>1 \bar "||" \\\
+R1 \bar "||" | %8
+
+<c,, e>1 \bar "||" \\\
+R1 \bar "||" | %9
+
+<d, bf'>1 \\\
+R1 | %10
+
+\clef "treble" <d' d>1 \\\
+R1 | %11
+
+<fs cs'>1 \\\
+R1 | %12
+
+\clef "bass" <b, bf'>1 \\\
+R1 | %13
+
+<g, e'>1 \\\
+R1 | %14
+
+<cs, ef>1 \\\
+R1 | %15
+
+\clef "treble" <e b'>1 \bar "||" \addlyrics { ↑P5 } \\\
+R1 \bar "||" | %16
+
+d1 \bar "||" \addlyrics { ↑ma7 } \\\
+R1 \bar "||" | %17
+
+f1 \bar "||" \addlyrics { ↑mi3 } \\\
+R1 \bar "||" | %18
+
+af1 \bar "||" \addlyrics { ↑P8 } \\\
+R1 \bar "||" | %19
+
+fs1 \bar "||" \addlyrics { ↑mi6 } \\\
+R1 \bar "||" | %20
+
+\clef "bass" a1 \bar "||" \addlyrics { ↑ma2 } \\\
+R1 \bar "||" | %21
+
+gf,1 \bar "||" \addlyrics { ↑A5 } \\\
+R1 \bar "||" | %22
+
+fs,,1 \bar "||" \addlyrics { ↑dim7 } \\\
+R1 \bar "||" | %23
+
+df,1 \bar "||" \addlyrics { ↑ma3 } \\\
+R1 \bar "||" | %24
+
+gs1 \bar "||" \addlyrics { ↑P4 } \\\
+R1 \bar "||" | %25
+
+\clef "treble" <ef g>1 \bar "||" \addlyrics { ↓ma3 } \\\
+R1 \bar "||" | %26
+
+bf''1 \bar "||" \addlyrics { ↓d8 } \\\
+R1 \bar "||" | %27
+
+f1 \bar "||" \addlyrics { ↓ma2 } \\\
+R1 \bar "||" | %28
+
+cs'1 \bar "||" \addlyrics { ↓ma7 } \\\
+R1 \bar "||" | %29
+
+af'1 \bar "||" \addlyrics { ↓mi6 } \\\
+R1 \bar "||" | %30
+
+\clef "bass" f1 \bar "||" \addlyrics { ↓mi7 } \\\
+R1 \bar "||" | %31
+
+e,1 \bar "||" \addlyrics { ↓A4 } \\\
+R1 \bar "||" | %32
+
+b1 \bar "||" \addlyrics { ↓ma6 } \\\
+R1 \bar "||" | %33
+
+bf1 \bar "||" \addlyrics { ↓P5 } \\\
+R1 \bar "||" | %34
+
+a,1 \bar "||" \addlyrics { ↓mi2 } \\\
+R1 \bar "||" | %35
+
+\clef "treble" <f df'>2_\markup "mi6" <df' f>_\markup "ma3" \\\
+R1 | %36
+
+<g' a>2 r \\\
+R1 | %37
+
+<ds a'>2 r \\\
+R1 | %38
+
+\clef "bass" <bf, gs'>2 r \\\
+R1 | %39
+
+<e,, ds'>2 r \\\
+R1 | %40
+
+<f, af>2 r \bar "||" \\\
+R1 \bar "||" | %41
+
+\key d \major \numericTimeSignature \time 4/4 \clef "treble" \stemUp fs4^\markup "mi3" \stemDown a cs \addlyrics { And there was } \\\
+b'4 \chords "D6" b b | %42
+
+\stemDown e'4 d2 \stemUp d,4 \addlyrics { mu -- sic, and } \\\
+b'4 \chords "Gma7" b b b | %43
+
+\stemUp cs4 d \tuplet 3/2 { e'4 e d } \addlyrics { there were won -- der -- ful } \\\
+b'4 \chords "G#°7" b b b | %44
+
+\stemDown b'4 \stemUp a2 fs4 \addlyrics { ro -- ses, they } \\\
+b'4 \chords "D/A" b b b | %45
+
+\stemDown bs'4 cs2 c4 \addlyrics { tell me, in } \\\
+b'4 \chords "B7" b b b | %46
+
+\stemDown b'2 \stemUp a4 g \addlyrics { sweet fra -- grant } \\\
+b'4 \chords "Emi7" b b b | %47
+
+\stemUp fs4 d2 fs4 \addlyrics { mea -- dows of } \\\
+b'4 \chords "E7" b b b | %48
+
+\stemUp e2. \stemDown b'4 \addlyrics { dawn and } \\\
+b'4 \chords "A7" b b b | %49
+
+\stemUp es2. fs8[ g] \addlyrics { dew, there was } \\\
+b'4 \chords "A+7" b b b | %50
+
+\stemUp a'2. \bar "||" \addlyrics { love… } \\\
+b'4 \chords "D" b b \bar "||" | %51

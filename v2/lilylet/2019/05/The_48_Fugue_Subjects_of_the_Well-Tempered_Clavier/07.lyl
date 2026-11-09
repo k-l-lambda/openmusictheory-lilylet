@@ -1,0 +1,13 @@
+[title "Bach, Well-Tempered Clavier I, Fugue 7 in Eb major, BWV 852: subject"]
+[subtitle "Task: Use the empty stave to write suitable answers and counter-subjects"]
+[composer "J. S. Bach"]
+[staves "s1,s2"]
+
+\key ef \major \time 4/4 \clef "treble" \stemUp bf'16^\markup "BWV 852"[ g f g] ef[ af g af] \stemDown c8[ bf] r \stemUp a16[ f] \\\
+\clef "treble" R1 | %1
+
+\stemDown ef'8[ d] c4 bf16[ f' d bf] af[ f' d af] \\\
+R1 | %2
+
+g'4 \bar "|." \\\
+R4 \bar "|." | %3

@@ -1,0 +1,43 @@
+[title "Seventh Chords B"]
+[subtitle "Seventh Chords B"]
+[composer "Kyle Gullings and Samuel Brady"]
+
+\key c \major \clef "bass" <d, f a c>1 \chords "Dmi7" \bar "||" | %1
+
+<e gs b d>1 \bar "||" | %2
+
+<b' ds fs a>1 \bar "||" | %3
+
+<g, bf df f>1 \bar "||" | %4
+
+<fs, as cs es>1 \bar "||" | %5
+
+\clef "treble" <ef gf bff df>1 \bar "||" | %6
+
+<fs a c ef>1 \bar "||" | %7
+
+<f, a c e>1 \bar "||" | %8
+
+<c, e g bf>1 \bar "||" | %9
+
+<a, c ef gf>1 \bar "||" | %10
+
+<b ds fs a>1 \chords "B7" \bar "||" | %11
+
+R1 \chords "A°7" \bar "||" | %12
+
+R1 \chords "D7" \bar "||" | %13
+
+R1 \chords "Abma7" \bar "||" | %14
+
+R1 \chords "Emi7" \bar "||" | %15
+
+R1 \chords "Gø7" \bar "||" | %16
+
+R1 \chords "Cmi7" \bar "||" | %17
+
+R1 \chords "Bbma7" \bar "||" | %18
+
+R1 \chords "C#ø7" \bar "||" | %19
+
+R1 \chords "F°7" \bar "||" | %20

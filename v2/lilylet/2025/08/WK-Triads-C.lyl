@@ -1,0 +1,43 @@
+[title "Triads C"]
+[subtitle "Triads C"]
+[composer "Kyle Gullings and Samuel Brady"]
+
+\key c \major \clef "bass" <a, cs e>1 \chords "A" \bar "||" | %1
+
+<bf' df f>1 \bar "||" | %2
+
+<fs a c>1 \bar "||" | %3
+
+<d, f af>1 \bar "||" | %4
+
+<ds fs as>1 \bar "||" | %5
+
+\clef "tenor" <g b d>1 \bar "||" | %6
+
+<cs, e g>1 \bar "||" | %7
+
+<d f a>1 \bar "||" | %8
+
+<g, b ds>1 \bar "||" | %9
+
+<g' bf d>1 \bar "||" | %10
+
+\clef "bass" <b, ds fs>1 \chords "B" \bar "||" | %11
+
+\clef "treble" R1 \chords "C+" \bar "||" | %12
+
+R1 \chords "G#" \bar "||" | %13
+
+\clef "tenor" R1 \chords "Ebmi" \bar "||" | %14
+
+\clef "bass" R1 \chords "B°" \bar "||" | %15
+
+\clef "treble" R1 \chords "B+" \bar "||" | %16
+
+\clef "alto" R1 \chords "Fmi" \bar "||" | %17
+
+\clef "treble" R1 \chords "F#mi" \bar "||" | %18
+
+\clef "bass" R1 \chords "Ab°" \bar "||" | %19
+
+\clef "treble" R1 \chords "D" \bar "||" | %20

@@ -1,0 +1,5 @@
+[title "Ch9Ex23"]
+
+\key c \major \time 3/4 \clef "treble" \stemUp f4 f8[ f] f[ f] | %1
+
+\stemUp f8[ f16 f] f[ f f8] f4 \bar "|." | %2

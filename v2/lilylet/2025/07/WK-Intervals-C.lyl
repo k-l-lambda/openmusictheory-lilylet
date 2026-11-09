@@ -1,0 +1,62 @@
+[title "Intervals C"]
+[composer "Kyle Gullings"]
+
+\key c \major \numericTimeSignature \time 4/4 \clef "treble" <c gs'>1_\markup "A5" \bar "||" | %1
+
+<fs e'>1 \bar "||" | %2
+
+<cs, cs'>1 \bar "||" | %3
+
+<e' f>1 \bar "||" | %4
+
+<ef, c'>1 \bar "||" | %5
+
+<a' e'>1 | %6
+
+<a ds>1 \bar "||" | %7
+
+<c, c>1 \bar "||" | %8
+
+<b' ds>1 \bar "||" | %9
+
+<d, bf'>1 \bar "||" | %10
+
+<g' bff>1_\markup "↑d3" \bar "||" | %11
+
+\clef "alto" d,1 \bar "||" \addlyrics { ↑ma7 } | %12
+
+f,,1 \bar "||" \addlyrics { ↑mi3 } | %13
+
+af1 \bar "||" \addlyrics { ↑P8 } | %14
+
+fs,1 \bar "||" \addlyrics { ↑mi6 } | %15
+
+a1 \bar "||" \addlyrics { ↑ma2 } | %16
+
+gf'1 \bar "||" \addlyrics { ↑A5 } | %17
+
+fs1 \bar "||" \addlyrics { ↑dim7 } | %18
+
+df,1 \bar "||" \addlyrics { ↑ma3 } | %19
+
+gs1 \bar "||" \addlyrics { ↑P4 } | %20
+
+<dff, c'>1_\markup "↓A7" \bar "||" | %21
+
+\clef "treble" bf1 \bar "||" \addlyrics { ↓d8 } | %22
+
+f,1 \bar "||" \addlyrics { ↓ma2 } | %23
+
+cs1 \bar "||" \addlyrics { ↓ma7 } | %24
+
+af'1 \bar "||" \addlyrics { ↓mi6 } | %25
+
+f1 \bar "||" \addlyrics { ↓mi7 } | %26
+
+e,1 \bar "||" \addlyrics { ↓A4 } | %27
+
+b'1 \bar "||" \addlyrics { ↓ma6 } | %28
+
+bf'1 \bar "||" \addlyrics { ↓P5 } | %29
+
+a,1 \bar "||" \addlyrics { ↓mi2 } | %30

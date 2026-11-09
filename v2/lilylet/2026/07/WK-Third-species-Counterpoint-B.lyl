@@ -1,0 +1,53 @@
+[title "Third-species Counterpoint"]
+[composer "Kyle Gullings"]
+[staves "<s1,s2>"]
+[instrument-s1 "Ctpt." "Ctpt."]
+[instrument-s2 "C.F." "C.F."]
+
+\key bf \major \numericTimeSignature \time 2/2 \clef "treble" r4 \stemUp f_\markup "__  __  __" g a \\\
+\clef "bass" bf1_\markup "List at least 10 errors in the excerpt above:"^\markup "Intervals:"_\markup "1. ____________________________________      6. ____________________________________ 2. ____________________________________      7. ____________________________________ 3. ____________________________________      8. ____________________________________ 4. ____________________________________      9. ____________________________________ 5. ____________________________________      10. ___________________________________" | %1
+
+\stemDown bf'4_\markup "__  __  __  __" \stemUp a f g \\\
+a1 | %2
+
+\stemUp g'4_\markup "__  __  __  __" a \stemDown bf c \\\
+g1 | %3
+
+\stemDown d'4_\markup "__  __  __  __" bf \stemUp f g \\\
+d1 | %4
+
+\stemUp f4_\markup "__  __  __  __" g a \stemDown bf \\\
+c1 | %5
+
+\stemDown c'4_\markup "__  __  __  __" d c bf \\\
+bf1 | %6
+
+\stemDown c'4_\markup "__  __  __  __" d c c \\\
+a1 | %7
+
+bf'1_\markup "__" \bar "|." \\\
+bf1 \bar "|." | %8
+
+\key c \major r1 \\\
+\clef "treble" c1^\markup "Intervals:" | %9
+
+R1 \\\
+d1 | %10
+
+R1 \\\
+e1 | %11
+
+R1 \\\
+d1 | %12
+
+R1 \\\
+g'1 | %13
+
+R1 \\\
+f1 | %14
+
+R1 \\\
+d1 | %15
+
+R1 \bar "|." \\\
+c1 \bar "|." | %16

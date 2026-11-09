@@ -1,0 +1,198 @@
+[title "Desperado Reharmonization"]
+[staves "s1,{s2-s3}"]
+
+\key af \major \time 3/4 \clef "treble_8" \tempo 4=180 r4 \stemDown c8[ bf] \stemUp c[ f,] \addlyrics { Des -- pe -- ra -- do, } \\\
+\staff "1" \clef "treble" r1 \\
+\staff "2" \clef "bass" \stemUp f,,2. | %1
+
+\staff "1" r1 \\\
+\staff "1" r1 \\
+\staff "2" \stemUp f,,2. | %2
+
+\staff "1" r1 \\\
+\staff "1" r1 \\
+\staff "2" \stemUp af,2. | %3
+
+\staff "1" \stemDown c8[ bf] \stemUp c[ f,~] f4 \addlyrics { sit -- tin in a __ _ } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp bf,2. | %4
+
+\staff "1" \stemDown c4. c8 bf[ c] \addlyrics { old Mon -- te Car -- } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp f,,2. | %5
+
+\staff "1" \stemUp f,8 r r4 r8 f \addlyrics { lo, a } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp f,,2. | %6
+
+\staff "1" \stemDown c8[ bf] c[ bf] \stemUp c[ f,] \addlyrics { man whose heart is hol -- low, } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp af,2. | %7
+
+\staff "1" r4 \stemUp f,( af) \addlyrics { mm __ _ } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp bf,2. | %8
+
+\staff "1" \stemDown c8[ bf] c4( \stemUp bf8\glissando[ f~] \addlyrics { take it easy. __ _ _ } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp f,,2. | %9
+
+\staff "1" \stemUp f,4) r2 \\\
+\staff "1" r1 \\
+\staff "2" \stemUp f,,2. | %10
+
+\staff "1" r4 \stemDown c8[ bf] c[ bf] \addlyrics { I'm not try -- na } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp af,2. | %11
+
+\staff "1" \stemDown c8[ bf] \stemUp af[ f] r4 \addlyrics { go a -- gainst yuh, } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp bf,2. | %12
+
+\staff "1" r4 \stemDown c8[ bf] c[ bf] \addlyrics { act -- ual -- ly I'm } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp ef,,2. | %13
+
+\staff "1" \stemDown c8[ bf] \stemUp af[ f] r4 \addlyrics { go -- in wit -- cha, } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp ef,,2. | %14
+
+\staff "1" r4 \stemDown bf8[ bf] c[ bf] \addlyrics { got -- ta get up } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp g,2. | %15
+
+\staff "1" \stemDown c8[ bf] c([ bf)] c[ bf] \addlyrics { out -- ta here, __ _ you ain't } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp af,2. | %16
+
+\staff "1" \stemDown c4( \stemUp bf8\glissando[ f~] f4~ \addlyrics { lea -- _ _ _ } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp f,,2. | %17
+
+\staff "1" \stemUp f,4) f8[ f~] f[ af] \addlyrics { _ vin me __ _ be -- } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp f,,2. | %18
+
+\staff "1" \stemDown bf8 r r4 c \addlyrics { hind. I } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp af,2. | %19
+
+\staff "1" \stemDown c4 c bf \addlyrics { know you won't } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp bf,2. | %20
+
+\staff "1" \stemUp af4 \stemDown c c \addlyrics { cause we share } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp f,,2. | %21
+
+\staff "1" \stemDown c8[ c] bf4 \stemUp af \addlyrics { com -- mon in -- terests, } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp f,,2. | %22
+
+\staff "1" \stemUp f,4 \stemDown c' c \addlyrics { you need me, } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp af,2. | %23
+
+\staff "1" \stemDown c4 c c \addlyrics { there ain't no } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp bf,2. | %24
+
+\staff "1" \stemDown c4( \stemUp bf8[ af~] af4~ \addlyrics { lea -- _ _ _ } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp f,,2. | %25
+
+\staff "1" \stemUp af4) af8[ af~] af[ af] \addlyrics { _ vin me __ _ be -- } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp f,,2. | %26
+
+\staff "1" \stemDown bf8 r r2 \addlyrics { hind. } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp af,2. | %27
+
+\staff "1" \stemDown c8[ c] bf4 \stemUp af \addlyrics { Ne -- ver, no, no. } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp bf,2. | %28
+
+\staff "1" r4 \stemDown c c \addlyrics { Just want } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp ef,,2. | %29
+
+\staff "1" \stemDown c8[ c] bf4 \stemUp af \addlyrics { out -- ta here, yeah, } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp ef,,2. | %30
+
+\staff "1" \stemUp f,4 \stemDown c' c \addlyrics { once I'm gone, } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp g,2. | %31
+
+\staff "1" \stemDown c4 bf \stemUp af \addlyrics { ain't no goin } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp af,2. | %32
+
+\staff "1" \stemUp f,4 \stemDown ef'8[ f] f4 \addlyrics { back. If you want, } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp f,,2. | %33
+
+\staff "1" r1 \\\
+\staff "1" r1 \\
+\staff "2" \stemUp f,,2. | %34
+
+\staff "1" \stemDown ef8[ f] f4 r8 c( \addlyrics { we can be run -- } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp af,2. | %35
+
+\staff "1" \stemDown ef8)[ f] f4 r8 c( \addlyrics { _ a -- ways run -- } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp bf,2. | %36
+
+\staff "1" \stemDown ef8)[ f] f4 r8 r \addlyrics { _ in from } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp f,,2. | %37
+
+\staff "1" r2 \stemDown c8[ c] \addlyrics { a -- ny } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp f,,2. | %38
+
+\staff "1" \stemDown ef8[ f] f4 r \addlyrics { sight of love. } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp af,2. | %39
+
+\staff "1" r4 \stemDown c c \addlyrics { Yeah yeah, } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp bf,2. | %40
+
+\staff "1" \stemDown ef8[ f] f4 ef \addlyrics { there ain't no -- thin, } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp f,,2. | %41
+
+\staff "1" r1 \\\
+\staff "1" r1 \\
+\staff "2" \stemUp f,,2. | %42
+
+\staff "1" \stemDown ef8[ f] f4 ef \addlyrics { there ain't no -- thin } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp af,2. | %43
+
+\staff "1" \stemDown c4 bf \stemUp af \addlyrics { here for me, } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp bf,2. | %44
+
+\staff "1" \stemDown ef8[ f] f4 ef \addlyrics { there ain't no -- thin } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp ef,,2. | %45
+
+\staff "1" \stemDown c4 bf \stemUp af \addlyrics { here for me } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp ef,,2. | %46
+
+\staff "1" \stemDown bf8[ c] bf4 r8 \stemUp af \addlyrics { a -- ny -- more, but } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp g,2. | %47
+
+\staff "1" \stemDown bf8[ c] bf[ bf] \stemUp bf[ af] \addlyrics { I don't wan -- na be a -- } \\\
+\staff "1" r1 \\
+\staff "2" \stemUp af,2. | %48
+
+\staff "1" \tuplet 3/2 { bf8([ af f~] } \stemUp f2)\fermata \bar "|." \addlyrics { lone. _ _ _ } \\\
+\staff "1" r1 \bar "|." \\
+\staff "2" \stemUp f,,2.\fermata | %49

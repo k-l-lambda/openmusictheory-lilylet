@@ -1,0 +1,121 @@
+[title "WK American Standard Pitch Notation ASPN treble bass"]
+
+\key c \major \numericTimeSignature \time 4/4 \clef "treble" d'1 \bar "||" | %1
+
+g'1 \bar "||" | %2
+
+b'1 \bar "||" | %3
+
+e'1 \bar "||" | %4
+
+d1 \bar "||" | %5
+
+b'1 \bar "||" | %6
+
+g''1 \bar "||" | %7
+
+c'1 \bar "||" | %8
+
+f1 \bar "||" | %9
+
+a'1 \bar "||" | %10
+
+\clef "bass" g,1 \bar "||" | %11
+
+f,1 \bar "||" | %12
+
+c,1 \bar "||" | %13
+
+e,1 \bar "||" | %14
+
+b,1 \bar "||" | %15
+
+d,1 \bar "||" | %16
+
+a1 \bar "||" | %17
+
+a,1 \bar "||" | %18
+
+f,,1 \bar "||" | %19
+
+g1 \bar "||" | %20
+
+\clef "treble" b''1 \bar "||" | %21
+
+c1 \bar "||" | %22
+
+g1 \bar "||" | %23
+
+d''1 \bar "||" | %24
+
+b1 \bar "||" | %25
+
+c''1 \bar "||" | %26
+
+a''1 \bar "||" | %27
+
+f,1 \bar "||" | %28
+
+e''1 \bar "||" | %29
+
+a1 \bar "||" | %30
+
+\clef "bass" c,,1 \bar "||" | %31
+
+e1 \bar "||" | %32
+
+e,,1 \bar "||" | %33
+
+g'1 \bar "||" | %34
+
+c1 \bar "||" | %35
+
+a,,1 \bar "||" | %36
+
+f1 \bar "||" | %37
+
+d,,1 \bar "||" | %38
+
+d1 \bar "||" | %39
+
+b,,1 \bar "||" | %40
+
+\clef "treble" R1 \bar "||" | %41
+
+R1 \bar "||" | %42
+
+R1 \bar "||" | %43
+
+R1 \bar "||" | %44
+
+R1 \bar "||" | %45
+
+R1 \bar "||" | %46
+
+R1 \bar "||" | %47
+
+R1 \bar "||" | %48
+
+R1 \bar "||" | %49
+
+R1 \bar "||" | %50
+
+\clef "bass" R1 \bar "||" | %51
+
+R1 \bar "||" | %52
+
+R1 \bar "||" | %53
+
+R1 \bar "||" | %54
+
+R1 \bar "||" | %55
+
+R1 \bar "||" | %56
+
+R1 \bar "||" | %57
+
+R1 \bar "||" | %58
+
+R1 \bar "||" | %59
+
+R1 \bar "||" | %60

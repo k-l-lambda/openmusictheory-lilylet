@@ -1,0 +1,19 @@
+[title "Bach, Well-Tempered Clavier I, Fugue 21 in Bb major, BWV 866: subject"]
+[subtitle "Task: Use the empty stave to write suitable answers and counter-subjects"]
+[composer "J. S. Bach"]
+[staves "s1,s2"]
+
+\key bf \major \time 3/4 \clef "treble" r8 \stemUp f^\markup "BWV 866" g[ f] bf[ d,] \\\
+\clef "treble" R1 | %1
+
+\stemUp c8[ a'16 g] bf[ a g f] c'8[ ef,] \\\
+R1 | %2
+
+\stemUp d8[ bf'16 c] \stemDown a[ bf c d] ef[ d c ef] \\\
+R1 | %3
+
+\stemDown d'16[ c bf c] a[ bf c d] ef[ d c ef] \\\
+R1 | %4
+
+d'8 \bar "|." \\\
+R8 \bar "|." | %5

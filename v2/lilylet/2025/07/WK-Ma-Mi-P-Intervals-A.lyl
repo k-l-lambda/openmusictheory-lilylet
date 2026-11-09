@@ -1,0 +1,62 @@
+[title "Major, Minor, and Perfect Intervals A"]
+[composer "Kyle Gullings"]
+
+\key c \major \numericTimeSignature \time 4/4 \clef "treble" <b c>1_\markup "mi2" \bar "||" | %1
+
+\clef "alto" <es f>1 \bar "||" | %2
+
+<a fs'>1 \bar "||" | %3
+
+\clef "bass" <e f>1 \bar "||" | %4
+
+\clef "tenor" <b f'>1 \bar "||" | %5
+
+\clef "treble" <f e'>1 | %6
+
+\clef "bass" <d d>1 \bar "||" | %7
+
+\clef "alto" <e, g>1 \bar "||" | %8
+
+\clef "tenor" <fs, d'>1 \bar "||" | %9
+
+\clef "treble" <bf' e>1 \bar "||" | %10
+
+<a bf>1_\markup "↑mi2" \bar "||" | %11
+
+\clef "bass" af1_\markup "↑P5" \bar "||" | %12
+
+\clef "tenor" e,1_\markup "↑mi6" \bar "||" | %13
+
+\clef "bass" b,1_\markup "↑P4" \bar "||" | %14
+
+df,1_\markup "↑ma6" \bar "||" | %15
+
+\clef "treble" f1_\markup "↑mi2" \bar "||" | %16
+
+\clef "alto" ef1_\markup "↑P5" \bar "||" | %17
+
+\clef "tenor" b1_\markup "↑ma7" \bar "||" | %18
+
+\clef "treble" ds1_\markup "↑mi7" \bar "||" | %19
+
+\clef "bass" af,1_\markup "↑ma3" \bar "||" | %20
+
+<a, f'>1_\markup "↓mi6" \bar "||" | %21
+
+\clef "treble" bf''1_\markup "↓P8" \bar "||" | %22
+
+\clef "tenor" f1_\markup "↓mi3" \bar "||" | %23
+
+\clef "bass" fs,1_\markup "↓P4" \bar "||" | %24
+
+ef'1_\markup "↓ma6" \bar "||" | %25
+
+e,1_\markup "↓P5" \bar "||" | %26
+
+\clef "alto" ef1_\markup "↓mi7" \bar "||" | %27
+
+\clef "tenor" c1_\markup "↓ma3" \bar "||" | %28
+
+\clef "bass" bf1_\markup "↓ma2" \bar "||" | %29
+
+\clef "alto" c1_\markup "↓mi2" \bar "||" | %30

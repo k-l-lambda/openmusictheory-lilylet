@@ -1,0 +1,13 @@
+[title "Bach, Well-Tempered Clavier I, Fugue 3 in C# major, BWV 848: subject"]
+[subtitle "Task: Use the empty stave to write suitable answers and counter-subjects"]
+[composer "J. S. Bach"]
+[staves "s1,s2"]
+
+\key cs \major \time 4/4 \clef "treble" r4 r8 \stemUp gs'^\markup "BWV 848" as16[ gs fs gs] \stemDown es'8[ cs] \\\
+\clef "treble" R1 | %1
+
+\stemUp gs'8[ fs16 es] fs8[ ds'] es,[ cs' ds, bs'] \\\
+R1 | %2
+
+\stemUp cs8[ cs'16 bs] \stemNeutral cs8 \bar "|." \\\
+R2 \bar "|." | %3

@@ -1,0 +1,19 @@
+[title "Bach, Well-Tempered Clavier II, Fugue 1 in C major, BWV 870: subject"]
+[subtitle "Task: Use the empty stave to write suitable answers and counter-subjects"]
+[composer "J. S. Bach"]
+[staves "s1,s2"]
+
+\key c \major \time 2/4 \clef "treble" r8 \stemUp g'16^\markup "BWV 870"^\markup "(Book 2)"[ f] g8[ c,] \\\
+\clef "treble" R2 | %1
+
+\stemUp a'4 g \\\
+R2 | %2
+
+r8 \stemUp f16[ e] f[ g e f] \\\
+R2 | %3
+
+\stemUp d16[ f e f] g[ a f g] \\\
+R2 | %4
+
+e8 \bar "|." \\\
+R8 \bar "|." | %5

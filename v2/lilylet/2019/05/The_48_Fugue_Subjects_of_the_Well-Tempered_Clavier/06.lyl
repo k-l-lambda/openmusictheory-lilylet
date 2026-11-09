@@ -1,0 +1,13 @@
+[title "Bach, Well-Tempered Clavier I, Fugue 6 in D minor, BWV 851: subject"]
+[subtitle "Task: Use the empty stave to write suitable answers and counter-subjects"]
+[composer "J. S. Bach"]
+[staves "s1,s2"]
+
+\key f \major \time 3/4 \clef "treble" r8 \stemUp d^\markup "BWV 851" e[ f] g[ e] \\\
+\clef "treble" R1 | %1
+
+\stemUp f16[ d( cs d)] \stemDown bf'4 \stemUp g \\\
+R1 | %2
+
+a'8 \bar "|." \\\
+R8 \bar "|." | %3

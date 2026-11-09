@@ -1,0 +1,19 @@
+[title "Bach, Well-Tempered Clavier II, Fugue 13 in F# major, BWV 882: subject"]
+[subtitle "Task: Use the empty stave to write suitable answers and counter-subjects"]
+[composer "J. S. Bach"]
+[staves "s1,s2"]
+
+\key fs \major \numericTimeSignature \time 2/2 \clef "treble" \stemUp es4.^\markup "BWV 882" ds16[ es] fs4 r \\\
+\clef "treble" R1 | %1
+
+\stemUp cs4 ds e4. ds16[ cs] \\\
+R1 | %2
+
+\stemUp b8[ as b cs] ds[ es fs ds] \\\
+R1 | %3
+
+\stemUp gs'4 b, b as8[ gs] \\\
+R1 | %4
+
+fs,4 \bar "|." \\\
+r4 \bar "|." | %5

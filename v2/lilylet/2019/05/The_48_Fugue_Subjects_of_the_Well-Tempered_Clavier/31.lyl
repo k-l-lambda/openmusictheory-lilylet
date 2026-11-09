@@ -1,0 +1,25 @@
+[title "Bach, Well-Tempered Clavier II, Fugue 7 in Eb major, BWV 876: subject"]
+[subtitle "Task: Use the empty stave to write suitable answers and counter-subjects"]
+[composer "J. S. Bach"]
+[staves "s1,s2"]
+
+\key ef \major \numericTimeSignature \time 2/2 \clef "bass" ef,1^\markup "BWV 876" \\\
+\clef "bass" R1 | %1
+
+\stemDown bf2 r4 af \\\
+R1 | %2
+
+\stemDown g4 c2 bf4 \\\
+R1 | %3
+
+\stemDown af4 af8[ g] af4 c \\\
+R1 | %4
+
+\stemDown f,4 bf2 af4 \\\
+R1 | %5
+
+\stemDown g4 g8[ f] g4 bf \\\
+R1 | %6
+
+ef,4 \bar "|." \\\
+R4 \bar "|." | %7

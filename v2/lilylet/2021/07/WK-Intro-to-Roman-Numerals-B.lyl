@@ -1,0 +1,53 @@
+[title "Intro to Roman Numerals"]
+[subtitle "Intro to Roman Numerals"]
+[staves "{s1-s2}"]
+
+\staff "1" \key g \major \numericTimeSignature \time 4/4 \clef "treble" \stemUp b'4^\markup "Hymn: Johann Franck, 1650\nMelody: Johann Crüger, 1653" b a g \\
+\staff "1" \stemDown g'4 fs fs e \\
+\staff "2" \clef "bass" \stemUp e4 b ds e \\
+\staff "2" \stemDown e,4 d c b | %1
+
+\staff "1" \stemUp fs2 e\breathe \\
+\staff "1" \stemDown e4 ds b2 \\
+\staff "2" \stemUp c4 a g2 \\
+\staff "2" \stemDown a,4 b e2 | %2
+
+\staff "1" \stemUp b'4 c d b \\
+\staff "1" \stemDown g'4 e d d \\
+\staff "2" \stemUp e4 c a g \\
+\staff "2" \stemDown e,4 a fs g | %3
+
+\staff "1" \stemUp e'2 ds\breathe \\
+\staff "1" \stemDown g'4 b b2 \\
+\staff "2" \stemUp b4 g' fs2 \\
+\staff "2" \stemDown e,4 g b2 | %4
+
+\staff "1" \stemUp e'4 g fs fs \\
+\staff "1" \stemDown g'4 c b a \\
+\staff "2" \stemUp e4 e ds ds \\
+\staff "2" \stemDown c4 a b b, | %5
+
+\staff "1" e'1\breathe \\
+\staff "1" g'1 \\
+\staff "2" b1 \\
+\staff "2" e,1 | %6
+
+\staff "1" \stemUp e'4 d c2 \\
+\staff "1" \stemDown b'4 b b fs \\
+\staff "2" \stemUp g'4 fs g e \\
+\staff "2" \stemDown e,4 b e a, | %7
+
+\staff "1" \stemUp b'2\breathe b4 b \\
+\staff "1" \stemDown fs2 g4 fs \\
+\staff "2" \stemUp ds2 e4 fs \\
+\staff "2" \stemDown b,2 e4 d | %8
+
+\staff "1" \stemUp a'4 g fs2 \\
+\staff "1" \stemDown e4 e e ds \\
+\staff "2" \stemUp a4 b c a \\
+\staff "2" \stemDown c,4 b a b | %9
+
+\staff "1" e1 \bar "|." \\
+\staff "1" b1 \\
+\staff "2" g1 \\
+\staff "2" e,1 | %10

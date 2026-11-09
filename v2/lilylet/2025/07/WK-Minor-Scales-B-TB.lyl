@@ -1,0 +1,53 @@
+[title "Minor Scales B"]
+[subtitle "Treble/Bass only"]
+[composer "Kyle Gullings and Megan Lavengood"]
+
+\key c \major \time 8/4 \clef "treble" R1 \bar "||" | %1
+
+R1 \bar "||" | %2
+
+R1 \bar "||" | %3
+
+\clef "bass" R1 \bar "||" | %4
+
+R1 \bar "||" | %5
+
+R1 \bar "||" | %6
+
+\numericTimeSignature \time 4/4 \clef "treble" g'1_\markup "Fmi: supertonic"^\markup "7" | %7
+
+R1 | %8
+
+R1 | %9
+
+R1 | %10
+
+R1 | %11
+
+\clef "bass" R1 | %12
+
+R1 | %13
+
+R1 | %14
+
+R1 | %15
+
+R1 | %16
+
+\clef "treble" g'1^\markup "17"_\markup "Emi: ________"_\markup "" | %17
+
+fs'1^\markup "18"_\markup "G♯mi: ______" | %18
+
+\clef "bass" f,1^\markup "19"_\markup "B♭mi: ________" | %19
+
+g1^\markup "20"_\markup "Dmi: _____" | %20
+
+df1^\markup "21"_\markup "Fmi: ______" | %21
+
+\clef "treble" c'1^\markup "22"_\markup "Emi: ____________"_\markup "submediant" | %22
+
+g''1^\markup "23"_\markup "Bmi: ____________" | %23
+
+a'1^\markup "25"_\markup "B♭mi: ____________" | %24
+
+\clef "bass" d,1^\markup "26"_\markup "Gmi: __________" | %25

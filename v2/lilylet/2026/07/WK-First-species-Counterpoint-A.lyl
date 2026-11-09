@@ -1,0 +1,71 @@
+[title "First-species Counterpoint"]
+[composer "Kyle Gullings"]
+[staves "s1,s2"]
+[instrument-s1 "Ctpt." "Ctpt."]
+[instrument-s2 "C.F." "C.F."]
+
+\key f \major \numericTimeSignature \time 2/2 \clef "treble" f'1_\markup "____" \\\
+\clef "treble" f1_\markup "List at least 10 errors in the excerpt above:"^\markup "Intervals:"_\markup "1. ____________________________________      6. ____________________________________ 2. ____________________________________      7. ____________________________________ 3. ____________________________________      8. ____________________________________ 4. ____________________________________      9. ____________________________________ 5. ____________________________________      10. ___________________________________" | %1
+
+e'1_\markup "____" \\\
+g'1 | %2
+
+d'1_\markup "____" \\\
+a'1 | %3
+
+c'1_\markup "____" \\\
+a'1 | %4
+
+bf'1_\markup "____" \\\
+bf'1 | %5
+
+a'1_\markup "____" \\\
+f1 | %6
+
+bf'1_\markup "____" \\\
+g'1 | %7
+
+c'1_\markup "____" \\\
+a'1 | %8
+
+d'1_\markup "____" \\\
+bf'1 | %9
+
+e'1_\markup "____" \\\
+g'1 | %10
+
+c'1_\markup "____" \\\
+c'1 | %11
+
+f'1_\markup "____" \bar "|." \\\
+f1 \bar "|." | %12
+
+\key d \major r1 \\\
+b1^\markup "Intervals:"_\markup "(Key: B Minor)" | %13
+
+R1 \\\
+as1 | %14
+
+R1 \\\
+b1 | %15
+
+R1 \\\
+d1 | %16
+
+R1 \\\
+cs1 | %17
+
+R1 \\\
+fs1 | %18
+
+R1 \\\
+e1 | %19
+
+R1 \\\
+b1 | %20
+
+R1 \\\
+cs1 | %21
+
+R1 \bar "|." \\\
+b1 \bar "|." | %22

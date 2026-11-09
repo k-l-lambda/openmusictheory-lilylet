@@ -1,0 +1,295 @@
+[title "WK swing rhythms"]
+[staves "s1,s2,s3,<s4-s5>"]
+[instrument-s1 "C instruments" "C"]
+[instrument-s2 "Bb instruments" "Bb"]
+[instrument-s3 "Eb Instruments" "Eb"]
+[instrument-s4 "F instruments" "F"]
+[instrument-s5 "Bass clef instruments" "Bass"]
+
+\key bf \major \numericTimeSignature \time 4/4 \clef "treble" \stemDown bf'4 \chords "Bb7" r8 bf~-> bf2 \\\
+\clef "treble_2" \stemDown c'4-> \chords "C7" r8 c~-> c2 \\\
+\clef "treble_6" \stemDown g''4-> \chords "G7" r8 g~-> g2 \\\
+\clef "treble_5" \stemUp f4-> \chords "F7" r8 f~-> f2 \\\
+\clef "bass" \stemDown bf4-> \chords "Bb7" r8 bf~-> bf2 | %1
+
+\stemDown df'8-- \chords "Eb7" c4-^ bf8-> r2 \\\
+\stemDown ef'8-- \chords "F7" d4-^ c8-> r2 \\\
+\stemDown bf''8-- \chords "C7" a4-^ g8-> r2 \\\
+\stemUp af'8-- \chords "Bb7" g4-^ f8-> r2 \\\
+\stemDown df8-- \chords "Eb7" c4-^ bf8-> r2 | %2
+
+\stemDown bf'4-^ \chords "Bb7" bf-^ \stemUp gs8-- a4-^ \stemDown bf8-> \\\
+\stemDown c'4-^ \chords "C7" c-^ \stemUp as8-- \stemDown b4-^ c8-> \\\
+\stemDown g''4-^ \chords "G7" g-^ es8-- fs4-^ g8-> \\\
+\stemUp f4-^ \chords "F7" f-^ ds8-- e4-^ f8-> \\\
+\stemDown bf4-^ \chords "Bb7" bf-^ gs8-- a4-^ bf8-> | %3
+
+r2 \chords "Bb7" r8 \stemDown df'4.---> \\\
+r2 \chords "C7" r8 \stemDown ef'4.---> \\\
+r2 \chords "G7" r8 \stemDown bf''4.---> \\\
+r2 \chords "F7" r8 \stemUp af'4.---> \\\
+r2 \chords "Bb7" r8 \stemDown df4.---> | %4
+
+\stemDown df'4-> \chords "Eb7" r8 bf-> r2 \\\
+\stemDown ef'4-> \chords "F7" r8 c-> r2 \\\
+\stemDown bf''4-> \chords "C7" r8 g-> r2 \\\
+\stemUp af'4-> \chords "Bb7" r8 f-> r2 \\\
+\stemDown df4-> \chords "Eb7" r8 bf-> r2 | %5
+
+r8 \chords "Eb7" \stemUp g'4-^ r8 \stemDown bf4-> r \\\
+r8 \chords "F7" \stemUp a'4-^ r8 \stemDown c4-> r \\\
+r8 \chords "C7" \stemDown e'4-^ r8 g4-> r \\\
+r8 \chords "Bb7" \stemUp d4-^ r8 f4-> r \\\
+r8 \chords "Eb7" \stemDown g4-^ r8 bf4-> r | %6
+
+r8 \chords "Bb7" \stemDown bf'4-^ r8 \stemUp af4-- a8--[ bf->] \\\
+r8 \chords "C7" \stemDown c'4-^ r8 bf4-- b8--[ c->] \\\
+r8 \chords "G7" \stemDown g''4-^ r8 f4-- fs8--[ g->] \\\
+r8 \chords "F7" \stemUp f4-^ r8 ef4-- e8--[ f->] \\\
+r8 \chords "Bb7" \stemDown bf4-^ r8 af4-- a8--[ bf->] | %7
+
+r2 \chords "G7(b5)" r8 \stemDown df'-> r4 \\\
+r2 \chords "A7(b5)" r8 \stemDown ef'-> r4 \\\
+r2 \chords "E7(b5)" r8 \stemDown bf''-> r4 \\\
+r2 \chords "D7(b5)" r8 \stemUp af'-> r4 \\\
+r2 \chords "G7(b5)" r8 \stemDown df-> r4 | %8
+
+r8 \chords "Cmi7" \stemDown c'4.---> c4-^ c-^ \\\
+r8 \chords "Dmi7" \stemDown d'4.---> d4-^ d-^ \\\
+r8 \chords "Ami7" \stemDown a''4.---> a4-^ a-^ \\\
+r8 \chords "Gmi7" \stemUp g'4.---> g4-^ g-^ \\\
+r8 \chords "Cmi7" \stemDown c4.---> c4-^ c-^ | %9
+
+\stemDown df'8([ \chords "F9" ef df c)->] r c4.---> \\\
+\stemDown ef'8([ \chords "G9" f ef d)->] r d4.---> \\\
+\stemDown bf''8([ \chords "D9" c bf a)->] r a4.---> \\\
+\stemUp af'8([ \chords "C9" bf af g)->] r g4.---> \\\
+\stemDown df8([ \chords "F9" ef df c)->] r c4.---> | %10
+
+r4 \chords "Bb7" r8 \stemDown bf'-> r2 \\\
+r4 \chords "C7" r8 \stemDown c'-> r2 \\\
+r4 \chords "G7" r8 \stemDown g''-> r2 \\\
+r4 \chords "F7" r8 \stemUp f-> r2 \\\
+r4 \chords "Bb7" r8 \stemDown bf-> r2 | %11
+
+\stemDown df'8-- \chords "F7" c4-^ bf8-> r \stemUp f-- af4-^ \\\
+\stemDown ef'8-- \chords "G7" d4-^ c8-> r \stemUp g-- \stemDown bf4-^ \\\
+\stemDown bf''8-- \chords "D7" a4-^ g8-> r d-- f4-^ \\\
+\stemUp af'8-- \chords "C7" g4-^ f8-> r c-- ef4-^ \\\
+\stemDown df8-- \chords "F7" c4-^ bf8-> r f-- af4-^ | %12
+
+\stemDown bf'4-^ \chords "Bb7" bf-^ \stemUp af4.-> g8-> \\\
+\stemDown c'4-^ \chords "C7" c-^ bf4.-> \stemUp a8-> \\\
+\stemDown g''4-^ \chords "G7" g-^ f4.-> e8-> \\\
+\stemUp f4-^ \chords "F7" f-^ ef4.-> d8-> \\\
+\stemDown bf4-^ \chords "Bb7" bf-^ af4.-> g8-> | %13
+
+r2 \chords "Eb7" r8 \stemUp f( af[ bf)->] \\\
+r2 \chords "F7" r8 \stemUp g'( \stemDown bf[ c)->] \\\
+r2 \chords "C7" r8 \stemDown d'( f[ g)->] \\\
+r2 \chords "Bb7" r8 \stemUp c( ef[ f)->] \\\
+r2 \chords "Eb7" r8 \stemDown f,( af[ bf)->] | %14
+
+r8 \chords "Bb7" \stemDown bf'4.---> bf8-- bf4.---> \\\
+r8 \chords "C7" \stemDown c'4.---> c8-- c4.---> \\\
+r8 \chords "G7" \stemDown g''4.---> g8-- g4.---> \\\
+r8 \chords "F7" \stemUp f4.---> f8-- f4.---> \\\
+r8 \chords "Bb7" \stemDown bf4.---> bf8-- bf4.---> | %15
+
+\stemUp f8-- \chords "Bb7" g4-^ af8~-^ af a4.---> \\\
+\stemUp g'8-- \chords "C7" a4-^ \stemDown bf8~-^ bf b4.---> \\\
+\stemDown d'8-- \chords "G7" e4-^ f8~-^ f fs4.---> \\\
+\stemUp c8-- \chords "F7" d4-^ ef8~-^ ef e4.---> \\\
+\stemDown f,8-- \chords "Bb7" g4-^ af8~-^ af a4.---> | %16
+
+r8 \chords "Eb7" \stemDown bf'-> r4 r2 \\\
+r8 \chords "F7" \stemDown c'-> r4 r2 \\\
+r8 \chords "C7" \stemDown g''-> r4 r2 \\\
+r8 \chords "Bb7" \stemUp f-> r4 r2 \\\
+r8 \chords "Eb7" \stemDown bf-> r4 r2 | %17
+
+\stemDown bf'4-^ \chords "Eb7" df8([ bf] c \stemUp g4.)---> \\\
+\stemDown c'4-^ \chords "F7" ef8([ c] d \stemUp a4.)---> \\\
+\stemDown g''4-^ \chords "C7" bf8([ g] a e4.)---> \\\
+\stemUp f4-^ \chords "Bb7" af8([ f] g d4.)---> \\\
+\stemDown bf4-^ \chords "Eb7" df8([ bf] c g4.)---> | %18
+
+r8 \chords "Bb7" \stemDown bf'4-^ r8 r4 \stemUp af-^ \\\
+r8 \chords "C7" \stemDown c'4-^ r8 r4 bf-^ \\\
+r8 \chords "G7" \stemDown g''4-^ r8 r4 f-^ \\\
+r8 \chords "F7" \stemUp f4-^ r8 r4 ef-^ \\\
+r8 \chords "Bb7" \stemDown bf4-^ r8 r4 af-^ | %19
+
+r4 \chords "G7(b9)" \stemUp af'-^ r8 \chords "G9" g-> r4 \\\
+r4 \chords "A7(b9)" \stemDown bf'-^ r8 \chords "A9" \stemUp a-> r4 \\\
+r4 \chords "E7(b9)" \stemDown f'-^ r8 \chords "E9" e-> r4 \\\
+r4 \chords "D7(b9)" \stemUp ef-^ r8 \chords "D9" d-> r4 \\\
+r4 \chords "G7(b9)" \stemDown af-^ r8 \chords "G9" g-> r4 | %20
+
+\stemUp g'16--[ \chords "Cmi7" g-.] r8 g4-- \stemDown bf16--[ bf-.] r8 bf4-- \\\
+\stemUp a'16--[ \chords "Dmi7" a-.] r8 a4-- \stemDown c16--[ c-.] r8 c4-- \\\
+\stemDown e'16--[ \chords "Ami7" e-.] r8 e4-- g16--[ g-.] r8 g4-- \\\
+\stemUp d16--[ \chords "Gmi7" d-.] r8 d4-- f16--[ f-.] r8 f4-- \\\
+\stemDown g16--[ \chords "Cmi7" g-.] r8 g4-- bf16--[ bf-.] r8 bf4-- | %21
+
+\stemDown c'8-- \chords "F7" c4.~-> c8[ ef->] r4 \\\
+\stemDown d'8-- \chords "G7" d4.~-> d8[ f->] r4 \\\
+\stemDown a''8-- \chords "D7" a4.~-> a8[ c->] r4 \\\
+\stemUp g'8-- \chords "C7" g4.~-> g8[ bf->] r4 \\\
+\stemDown c8-- \chords "F7" c4.~-> c8[ ef->] r4 | %22
+
+r8 \chords "Bb7" \stemDown df'4.---> bf4-- \stemUp g8--[ bf->] \\\
+r8 \chords "C7" \stemDown ef'4.---> c4-- a8--[ c->] \\\
+r8 \chords "G7" \stemDown bf''4.---> g4-- e8--[ g->] \\\
+r8 \chords "F7" \stemUp af'4.---> f4-- d8--[ f->] \\\
+r8 \chords "Bb7" \stemDown df4.---> bf4-- g8--[ bf->] | %23
+
+r8 \chords "F7" \stemUp f4-^ f8~(---> f[ f af bf)->] \\\
+r8 \chords "G7" \stemUp g'4-^ g8~(---> g[ g bf c)->] \\\
+r8 \chords "D7" \stemDown d'4-^ d8~(---> d[ d f g)->] \\\
+r8 \chords "C7" \stemUp c4-^ c8~(---> c[ c ef f)->] \\\
+r8 \chords "F7" \stemDown f,4-^ f8~(---> f[ f af bf)->] | %24
+
+\stemUp af'8([ \chords "Bb9" f g) f->] r af( g)[ f->] \\\
+\stemUp bf'8([ \chords "C9" g a) g->] r \stemDown bf( \stemUp a)[ g->] \\\
+\stemDown f'8([ \chords "G9" d e) d->] r f( e)[ d->] \\\
+\stemUp ef8([ \chords "F9" c d) c->] r ef( d)[ c->] \\\
+\stemDown af8([ \chords "Bb9" f g) f->] r af( g)[ f->] | %25
+
+r8 \chords "Eb9" \stemUp f-- f4-^ f8--[ f--] f4-^ \\\
+r8 \chords "F9" \stemUp g'-- g4-^ g8--[ g--] g4-^ \\\
+r8 \chords "C9" \stemDown d'-- d4-^ d8--[ d--] d4-^ \\\
+r8 \chords "Bb9" \stemUp c-- c4-^ c8--[ c--] c4-^ \\\
+r8 \chords "Eb9" \stemDown f,-- f4-^ f8--[ f--] f4-^ | %26
+
+r8 \chords "Bb9" \stemUp f \tuplet 3/2 { af8[ bf c] } \stemDown df4-- c8--[ bf->] \\\
+r8 \chords "C9" \stemUp g' \tuplet 3/2 { bf8[ c d] } \stemDown ef4-- d8--[ c->] \\\
+r8 \chords "G9" \stemDown d' \tuplet 3/2 { f8[ g a] } bf4-- a8--[ g->] \\\
+r8 \chords "F9" \stemUp c \tuplet 3/2 { ef8[ f g] } af4-- g8--[ f->] \\\
+r8 \chords "Bb9" \stemDown f, \tuplet 3/2 { af8[ bf c] } df4-- c8--[ bf->] | %27
+
+r4 \chords "Bb9" \stemUp f8--[ af~->] af4 a8--[ bf->] \\\
+r4 \chords "C9" \stemUp g'8--[ bf~->] \stemDown bf4 b8--[ c->] \\\
+r4 \chords "G9" \stemDown d'8--[ f~->] f4 fs8--[ g->] \\\
+r4 \chords "F9" \stemUp c8--[ ef~->] ef4 e8--[ f->] \\\
+r4 \chords "Bb9" \stemDown f,8--[ af~->] af4 a8--[ bf->] | %28
+
+r4 \chords "Eb9" \stemDown bf'-^ df8-- c4-^ bf8~-> \\\
+r4 \chords "F9" \stemDown c'-^ ef8-- d4-^ c8~-> \\\
+r4 \chords "C9" \stemDown g''-^ bf8-- a4-^ g8~-> \\\
+r4 \chords "Bb9" \stemUp f-^ af8-- g4-^ f8~-> \\\
+r4 \chords "Eb9" \stemDown bf-^ df8-- c4-^ bf8~-> | %29
+
+\stemDown bf'4 df8([ c] bf \stemUp g4.)---> \\\
+\stemDown c'4 ef8([ d] c \stemUp a4.)---> \\\
+\stemDown g''4 bf8([ a] g e4.)---> \\\
+\stemUp f4 af8([ g] f d4.)---> \\\
+\stemDown bf4 df8([ c] bf g4.)---> | %30
+
+r4 \chords "Bb9" \stemDown bf'8--[ bf--] bf--[ bf->] r df-> \\\
+r4 \chords "C9" \stemDown c'8--[ c--] c--[ c->] r ef-> \\\
+r4 \chords "G9" \stemDown g''8--[ g--] g--[ g->] r bf-> \\\
+r4 \chords "F9" \stemUp f8--[ f--] f--[ f->] r af-> \\\
+r4 \chords "Bb9" \stemDown bf8--[ bf--] bf--[ bf->] r df-> | %31
+
+r8 \chords "G+7" \stemDown ef'4.~-> ef2 \\\
+r8 \chords "A+7" \stemDown f'4.~-> f2 \\\
+r8 \chords "E+7" \stemDown c''4.~-> c2 \\\
+r8 \chords "D+7" \stemDown bf'4.~-> bf2 \\\
+r8 \chords "G+7" \stemDown ef4.~-> ef2 | %32
+
+\stemDown d'4-^ \chords "Cmi9" d-^ d8-- c4-^ c8~-^ \\\
+\stemDown e'4-^ \chords "Dmi9" e-^ e8-- d4-^ d8~-^ \\\
+\stemDown b''4-^ \chords "Ami9" b-^ b8-- a4-^ a8~-^ \\\
+\stemUp a'4-^ \chords "Gmi9" a-^ a8-- g4-^ g8~-^ \\\
+\stemDown d4-^ \chords "Cmi9" d-^ d8-- c4-^ c8~-^ | %33
+
+\stemDown c'8 \chords "F9" bf4-^ \stemUp a8~-^ a f4.-> \\\
+\stemDown d'8 \chords "G9" c4-^ b8~-^ b \stemUp g4.-> \\\
+\stemDown a''8 \chords "D9" g4-^ fs8~-^ fs d4.-> \\\
+\stemUp g'8 \chords "C9" f4-^ e8~-^ e c4.-> \\\
+\stemDown c8 \chords "F9" bf4-^ a8~-^ a f4.-> | %34
+
+r4 \chords "Bb9" \stemUp f-> r8 \chords "G+7" g-> r4 \\\
+r4 \chords "C9" \stemUp g'-> r8 \chords "A+7" a-> r4 \\\
+r4 \chords "G9" \stemDown d'-> r8 \chords "E+7" e-> r4 \\\
+r4 \chords "F9" \stemUp c-> r8 \chords "D+7" d-> r4 \\\
+r4 \chords "Bb9" \stemDown f,-> r8 \chords "G+7" g-> r4 | %35
+
+\stemDown bf'4.-> \chords "Cmi7" c8-> \chords "F7" r2 \\\
+\stemDown c'4.-> \chords "Dmi7" d8-> \chords "G7" r2 \\\
+\stemDown g''4.-> \chords "Ami7" a8-> \chords "D7" r2 \\\
+\stemUp f4.-> \chords "Gmi7" g8-> \chords "C7" r2 \\\
+\stemDown bf4.-> \chords "Cmi7" c8-> \chords "F7" r2 | %36
+
+\stemDown bf'4-> \chords "Bb7" r8 \stemUp af-> r4 \stemDown bf-^ \\\
+\stemDown c'4-> \chords "C7" r8 bf-> r4 c-^ \\\
+\stemDown g''4-> \chords "G7" r8 f-> r4 g-^ \\\
+\stemUp f4-> \chords "F7" r8 ef-> r4 f-^ \\\
+\stemDown bf4-> \chords "Bb7" r8 af-> r4 bf-^ | %37
+
+r8 \chords "Eb7" \stemUp g'4-^ r8 \stemDown bf([ df c bf)->] \\\
+r8 \chords "F7" \stemUp a'4-^ r8 \stemDown c([ ef d c)->] \\\
+r8 \chords "C7" \stemDown e'4-^ r8 g([ bf a g)->] \\\
+r8 \chords "Bb7" \stemUp d4-^ r8 f([ af g f)->] \\\
+r8 \chords "Eb7" \stemDown g4-^ r8 bf([ df c bf)->] | %38
+
+r8 \chords "Bb7" \stemDown bf'4-^ bf8( \stemUp af[ f)->] r4 \\\
+r8 \chords "C7" \stemDown c'4-^ c8( \stemUp bf[ g)->] r4 \\\
+r8 \chords "G7" \stemDown g''4-^ g8( f[ d)->] r4 \\\
+r8 \chords "F7" \stemUp f4-^ f8( ef[ c)->] r4 \\\
+r8 \chords "Bb7" \stemDown bf4-^ bf8( af[ f)->] r4 | %39
+
+\stemUp af'4-> \chords "Bb7" r8 f~-> f4 a8--[ bf->] \\\
+\stemDown bf'4-> \chords "C7" r8 \stemUp g~-> g4 \stemDown b8--[ c->] \\\
+\stemDown f'4-> \chords "G7" r8 d~-> d4 fs8--[ g->] \\\
+\stemUp ef4-> \chords "F7" r8 c~-> c4 e8--[ f->] \\\
+\stemDown af4-> \chords "Bb7" r8 f~-> f4 a8--[ bf->] | %40
+
+r4 \chords "Eb7" \stemDown df'-> r8 bf4-^ df8~(-> \\\
+r4 \chords "F7" \stemDown ef'-> r8 c4-^ ef8~(-> \\\
+r4 \chords "C7" \stemDown bf''-> r8 g4-^ bf8~(-> \\\
+r4 \chords "Bb7" \stemUp af'-> r8 f4-^ af8~(-> \\\
+r4 \chords "Eb7" \stemDown df-> r8 bf4-^ df8~(-> | %41
+
+\stemDown df'8[ \chords "Bb7" df c bf] df[ c] bf4)-^ \\\
+\stemDown ef'8[ \chords "C7" ef d c] ef[ d] c4)-^ \\\
+\stemDown bf''8[ \chords "G7" bf a g] bf[ a] g4)-^ \\\
+\stemUp af'8[ \chords "F7" af g f] af[ g] f4)-^ \\\
+\stemDown df8[ \chords "Bb7" df c bf] df[ c] bf4)-^ | %42
+
+r8 \chords "Bb7" \stemDown bf'4-^ bf8-- df4.-> bf8-> \\\
+r8 \chords "C7" \stemDown c'4-^ c8-- ef4.-> c8-> \\\
+r8 \chords "G7" \stemDown g''4-^ g8-- bf4.-> g8-> \\\
+r8 \chords "F7" \stemUp f4-^ f8-- af4.-> f8-> \\\
+r8 \chords "Bb7" \stemDown bf4-^ bf8-- df4.-> bf8-> | %43
+
+r8 \chords "G7(b9)" \stemDown bf'-- f'2.-> \\\
+r8 \chords "A7(b9)" \stemDown c'-- g'2.-> \\\
+r8 \chords "E7(b9)" \stemDown g''-- d'2.-> \\\
+r8 \chords "D7(b9)" \stemUp f-- \stemDown c'2.-> \\\
+r8 \chords "G7(b9)" \stemDown bf-- f'2.-> | %44
+
+r4 \chords "Cmi7" \stemDown ef'-^ r8 c4.---> \\\
+r4 \chords "Dmi7" \stemDown f'-^ r8 d4.---> \\\
+r4 \chords "Ami7" \stemDown c''-^ r8 a4.---> \\\
+r4 \chords "Gmi7" \stemDown bf'-^ r8 \stemUp g4.---> \\\
+r4 \chords "Cmi7" \stemDown ef-^ r8 c4.---> | %45
+
+\stemDown ef'4-> \chords "F9" r r2 \\\
+\stemDown f'4-> \chords "G9" r r2 \\\
+\stemDown c''4-> \chords "D9" r r2 \\\
+\stemDown bf'4-> \chords "C9" r r2 \\\
+\stemDown ef4-> \chords "F9" r r2 | %46
+
+r2 \chords "Bb7" \stemUp af'4-^ r \\\
+r2 \chords "C7" \stemDown bf'4-^ r \\\
+r2 \chords "G7" \stemDown f'4-^ r \\\
+r2 \chords "F7" \stemUp ef4-^ r \\\
+r2 \chords "Bb7" \stemDown af4-^ r | %47
+
+\stemUp a'4-^ \chords "F9" r8 \stemDown bf-> \chords "Bb" r2 \bar "|." \\\
+\stemDown b'4-^ \chords "G9" r8 c-> \chords "C" r2 \bar "|." \\\
+\stemDown fs'4-^ \chords "D9" r8 g-> \chords "G" r2 \bar "|." \\\
+\stemUp e4-^ \chords "C9" r8 f-> \chords "F" r2 \bar "|." \\\
+\stemDown a4-^ \chords "F9" r8 bf-> \chords "Bb" r2 \bar "|." | %48

@@ -1,0 +1,25 @@
+[title "Bach, Well-Tempered Clavier II, Fugue 24 in B minor, BWV 893: subject"]
+[subtitle "Task: Use the empty stave to write suitable answers and counter-subjects"]
+[composer "J. S. Bach"]
+[staves "s1,s2"]
+
+\key d \major \time 3/8 \clef "treble" r4 \stemUp fs8^\markup "BWV 893" \\\
+\clef "treble" R2 | %1
+
+\stemUp d8[ b as] \\\
+R2 | %2
+
+\stemUp b8[ cs16 d e fs] \\\
+R2 | %3
+
+\stemUp g'8[ g, g'] \\\
+R2 | %4
+
+\stemUp fs8[ fs, fs'] \\\
+R2 | %5
+
+\stemUp e8[ fs16 e d cs] \\\
+R2 | %6
+
+\stemUp d16[ fs e d cs b] \bar "|." \\\
+R2 \bar "|." | %7

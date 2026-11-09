@@ -1,0 +1,222 @@
+[title "WK Roman numerals"]
+[subtitle "Roman Numerals"]
+[staves "{s1-s2},{s3-s4}"]
+
+\staff "1" \key f \major \numericTimeSignature \time 4/4 \clef "treble" <f c' f>1^\markup "1" \chords "_____" \chords "F/A" \bar "||" \\
+\staff "2" \clef "bass" a,1_\markup "Key: ____"_\markup "F" \chords "_____" \chords "I6" \\\
+\staff "1" \clef "treble" R1 \bar "||" \\
+\staff "2" \clef "bass" R1 | %1
+
+\staff "1" \key ef \major <g' c ef g>1^\markup "2" \chords "_____" \bar "||" \\
+\staff "2" <c, g'>1_\markup "Key: ____" \chords "_____" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %2
+
+\staff "1" \key c \major <g' b>1^\markup "3" \chords "_____" \bar "||" \\
+\staff "2" <b, g'>1_\markup "Key: ____" \chords "_____" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %3
+
+\staff "1" \key d \major <e g a>1^\markup "4" \chords "_____" \bar "||" \\
+\staff "2" cs,1_\markup "Key: ____" \chords "_____" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %4
+
+\staff "1" \key af \major <c f af>1^\markup "5" \chords "_____" \bar "||" \\
+\staff "2" df,1_\markup "Key: ____" \chords "_____" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %5
+
+\staff "1" \key b \major <ds fs as>1^\markup "6" \chords "_____" \bar "||" \\
+\staff "2" ds,1_\markup "Key: ____" \chords "_____" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %6
+
+\staff "1" \key e \major <a' ds>1^\markup "7" \chords "_____" \bar "||" \\
+\staff "2" fs,1_\markup "Key: ____" \chords "_____" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %7
+
+\staff "1" \key df \major <ef gf bf>1^\markup "8" \chords "_____" \bar "||" \\
+\staff "2" df,1_\markup "Key: ____" \chords "_____" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %8
+
+\staff "1" \key g \major <e c'>1^\markup "9" \chords "_____" \bar "||" \\
+\staff "2" <a, a'>1_\markup "Key: ____" \chords "_____" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %9
+
+\staff "1" \key a \major <b d gs b>1^\markup "10" \chords "_____" \bar "||" \\
+\staff "2" <gs, fs'>1_\markup "Key: ____" \chords "_____" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %10
+
+\staff "1" \key ef \major <d g>1^\markup "11" \chords "_____" \bar "||" \\
+\staff "2" <g, b'>1_\markup "Key: ____" \chords "_____" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %11
+
+\staff "1" \key bf \major <g' bf ef g>1^\markup "12" \chords "_____" \bar "||" \\
+\staff "2" ef,1_\markup "Key: ____" \chords "_____" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %12
+
+\staff "1" \key d \major <e fs as cs>1^\markup "13" \chords "_____" \bar "||" \\
+\staff "2" <fs,, fs'>1_\markup "Key: ____" \chords "_____" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %13
+
+\staff "1" \key f \major <d d'>1^\markup "14" \chords "_____" \bar "||" \\
+\staff "2" <f,, a'>1_\markup "Key: ____" \chords "_____" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %14
+
+\staff "1" \key df \major <gf' c ef>1^\markup "15" \chords "_____" \bar "||" \\
+\staff "2" ef,1_\markup "Key: ____" \chords "_____" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %15
+
+\staff "1" \key g \major <ds fs a>1^\markup "16" \chords "_____" \bar "||" \\
+\staff "2" fs,1_\markup "Key: ____" \chords "_____" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %16
+
+\staff "1" \key c \major <d f a>1^\markup "17" \chords "_____" \bar "||" \\
+\staff "2" a1_\markup "Key: ____" \chords "_____" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %17
+
+\staff "1" \key a \major <e a cs>1^\markup "18" \chords "_____" \bar "||" \\
+\staff "2" <a, a'>1_\markup "Key: ____" \chords "_____" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %18
+
+\staff "1" \key af \major <g' ef'>1^\markup "19" \chords "_____" \bar "||" \\
+\staff "2" <ef, bf'>1_\markup "Key: ____" \chords "_____" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %19
+
+\staff "1" \key b \major <e as cs>1^\markup "20" \chords "_____" \bar "||" \\
+\staff "2" fs,1_\markup "Key: ____" \chords "_____" \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %20
+
+\staff "1" \key af \major <ef g bf df>1_\markup "A♭:"^\markup "21" \chords "V7" \bar "||" \\
+\staff "2" R1 \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %21
+
+\staff "1" \key d \major R1 \chords "vi" \bar "||" \\
+\staff "2" R1 \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %22
+
+\staff "1" \key df \major R1 \chords "ii7" \bar "||" \\
+\staff "2" R1 \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %23
+
+\staff "1" \key b \major \clef "bass" R1 \chords "IV" \bar "||" \\
+\staff "2" R1 \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %24
+
+\staff "1" \key a \major R1 \chords "vii°" \bar "||" \\
+\staff "2" R1 \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %25
+
+\staff "1" \key bf \major \clef "treble" R1 \chords "vii°7" \bar "||" \\
+\staff "2" R1 \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %26
+
+\staff "1" \key d \major R1 \chords "VI" \bar "||" \\
+\staff "2" R1 \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %27
+
+\staff "1" \key af \major R1 \chords "iv7" \bar "||" \\
+\staff "2" R1 \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %28
+
+\staff "1" \key df \major \clef "bass" R1 \chords "V7" \bar "||" \\
+\staff "2" R1 \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %29
+
+\staff "1" \key a \major R1 \chords "v" \bar "||" \\
+\staff "2" R1 \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %30
+
+\staff "1" \key ef \major \clef "treble" bf'4_\markup "E♭:" \chords "Eb" \chords "_____" bf bf \chords "Eb/D" \chords "_____" bf \\
+\staff "2" R1 \\\
+\staff "1" R1 \\
+\staff "2" R1 | %31
+
+\staff "1" bf'4 \chords "Cmi" \chords "_____" bf bf \chords "Eb/G" \chords "_____" bf \\
+\staff "2" R1 \\\
+\staff "1" R1 \\
+\staff "2" R1 | %32
+
+\staff "1" bf'4 \chords "Ab" \chords "_____" bf bf \chords "Ab/G" \chords "_____" bf \\
+\staff "2" R1 \\\
+\staff "1" R1 \\
+\staff "2" R1 | %33
+
+\staff "1" bf'4 \chords "Fmi7" \chords "_____" bf bf \chords "Bb" \chords "_____" bf \bar "||" \\
+\staff "2" R1 \\\
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 | %34
+
+\staff "1" \key d \major R1 \\
+\staff "2" R1 \\\
+\staff "1" \stemUp d8[ e fs a] e2 \\
+\staff "2" \stemDown <fs, a>2 \chords "_____" <a cs> \chords "_____" \\
+\staff "2" \stemDown d,,2_\markup "D:" a' | %35
+
+\staff "1" R1 \\
+\staff "2" R1 \\\
+\staff "1" \stemUp d'8[ cs b fs] a2 \\
+\staff "1" \stemDown <d fs>2 <cs fs> \\
+\staff "2" \stemUp b,2 \chords "_____" fs \chords "_____" | %36
+
+\staff "1" R1 \\
+\staff "2" R1 \\\
+\staff "1" \stemUp b'8[ cs d b] a[ fs] d4 \\
+\staff "1" \stemDown <d g>2 d \\
+\staff "2" s2 \chords "_____" \stemUp fs, \chords "_____" \\
+\staff "2" \stemUp g,2 \stemDown d' | %37
+
+\staff "1" R1 \\
+\staff "2" R1 \\\
+\staff "1" \stemUp g'8[ fs d b] a2 \\
+\staff "1" \stemDown <b d>2 \staff "2" <cs, e> \chords "_____" \\
+\staff "2" \stemUp g,2 \chords "_____" \stemDown a | %38
+
+\staff "1" R1 \\
+\staff "2" R1 \\\
+\staff "1" \stemUp b4 cs d g \\
+\staff "2" <d, g>1 \chords "_____" \\
+\staff "2" g,1 | %39
+
+\staff "1" R1 \\
+\staff "2" R1 \\\
+\staff "1" \stemUp fs8[ g a fs] e[ fs g e] \\
+\staff "1" \stemDown d2 cs \\
+\staff "2" a,1 \chords "_____" \chords "_____" | %40
+
+\staff "1" R1 \\
+\staff "2" R1 \\\
+\staff "1" \stemUp g'4 fs e d8[ cs] \\
+\staff "1" \stemDown <b d>2 \staff "2" <g cs> \chords "_____" \\
+\staff "2" \stemUp g,2 \chords "_____" \stemDown a | %41
+
+\staff "1" R1 \bar "||" \\
+\staff "2" R1 \\\
+\staff "1" \stemUp d4 a8[ e'] d2 \bar "||" \\
+\staff "2" \stemDown fs,2 \chords "_____" <fs a> \\
+\staff "2" \stemDown d,4 a d,2 | %42

@@ -1,0 +1,35 @@
+[title "Diatonic Modes B"]
+[subtitle "Treble and Bass Clef"]
+[composer "Kyle Gullings and Megan Lavengood"]
+
+\key c \major \time 8/4 \clef "treble" a'4 r r2 r r \bar "||" | %1
+
+af'4 r r2 r r \bar "||" | %2
+
+c4 r r2 r r \bar "||" | %3
+
+\clef "bass" g,4 r r2 r r \bar "||" | %4
+
+e,,4 r r2 r r \bar "||" | %5
+
+d,4 r r2 r r \bar "||" | %6
+
+\clef "treble" ef4 r r2 r r \bar "||" | %7
+
+\clef "bass" b,4 r r2 r r \bar "||" | %8
+
+\key af \major \clef "treble" f4 g af bf c d ef f \bar "||" | %9
+
+\key g \major g'4 r r2 r r \bar "||" | %10
+
+\key af \major f4 r r2 r r \bar "||" | %11
+
+\key a \major \clef "bass" a,4 r r2 r r \bar "||" | %12
+
+\key e \major cs,4 r r2 r r \bar "||" | %13
+
+\key b \major b,4 r r2 r r \bar "||" | %14
+
+\key df \major \clef "treble" bf'4 r r2 r r \bar "||" | %15
+
+\key d \major \clef "bass" d,4 r r2 r r \bar "||" | %16

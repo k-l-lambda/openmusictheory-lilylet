@@ -1,0 +1,49 @@
+[title "WK improv"]
+
+\key c \major \time 7/4 \clef "treble" R1 \chords "F7" | %1
+
+R1 \chords "Bb7" | %2
+
+R1 \chords "F7" | %3
+
+R1 | %4
+
+R1 \chords "Bb7" | %5
+
+R1 | %6
+
+R1 \chords "F7" | %7
+
+R1 | %8
+
+R1 \chords "C7" | %9
+
+R1 \chords "Bb7" | %10
+
+R1 \chords "F7" | %11
+
+R1 \chords "C7" \bar "||" | %12
+
+R1 \chords "F7" | %13
+
+R1 \chords "Bb7" | %14
+
+R1 \chords "F7" | %15
+
+R1 | %16
+
+R1 \chords "Bb7" | %17
+
+R1 | %18
+
+R1 \chords "F7" | %19
+
+R1 | %20
+
+R1 \chords "C7" | %21
+
+R1 \chords "Bb7" | %22
+
+R1 \chords "F7" \chords "F7/A" \chords "Bb7" \chords "Db/B" | %23
+
+R1 \chords "F/C" \chords "Gb7" \chords "F7" \bar "|." | %24
