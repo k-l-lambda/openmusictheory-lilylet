@@ -1,7 +1,7 @@
 [title "WK Grouping Dissonance Composition Exercise"]
 [staves "{s1-s2}"]
 
-\staff "1" \key d \major \numericTimeSignature \time 4/4 \clef "treble" \stemUp d4_\markup "1. Write a D pentatonic scale."^\markup "_____________________________________________________________________________" s s2 \clef "bass" s \\
+\staff "1" \key d \major \numericTimeSignature \time 4/4 \clef "treble" \omit Score.TimeSignature \stemUp d4_\markup "1. Write a D pentatonic scale."^\markup "_____________________________________________________________________________" s s2 \clef "bass" s \\
 \staff "2" \clef "bass" r1 r2 | %1
 
 \staff "1" s1 \\

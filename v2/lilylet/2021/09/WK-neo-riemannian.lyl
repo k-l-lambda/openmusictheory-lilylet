@@ -1,6 +1,6 @@
 [title "WK neo riemannian"]
 
-\key c \major \numericTimeSignature \time 4/4 \clef "treble" <bf df f>1^\markup "Neo-Riemannian transformations relate one major and one minor triad. \n• Every transformation toggles back and forth between the same two triads. \n• Example 3 in the Neo-Riemannian chapter concisely summarizes Parallel (P), Relative (R), and \n    Leading-tone exchange (L).\n• Example 13 in the chapter summarizes Slide, Nebenverwandt (N), and Hexatonic pole (H)."^\markup "You are given a starting chord, and below the staff, a transformation.\n• Apply the requested Neo-Riemannian transformation, and notate the chord in the empty measure.\n• Write the appropriate chord symbol above each chord.\nThe first exercise has been completed as an example."^\markup "1" \chords "Bbmi" \addlyrics { P } | %1
+\key c \major \numericTimeSignature \time 4/4 \clef "treble" \omit Score.TimeSignature <bf df f>1^\markup "Neo-Riemannian transformations relate one major and one minor triad. \n• Every transformation toggles back and forth between the same two triads. \n• Example 3 in the Neo-Riemannian chapter concisely summarizes Parallel (P), Relative (R), and \n    Leading-tone exchange (L).\n• Example 13 in the chapter summarizes Slide, Nebenverwandt (N), and Hexatonic pole (H)."^\markup "You are given a starting chord, and below the staff, a transformation.\n• Apply the requested Neo-Riemannian transformation, and notate the chord in the empty measure.\n• Write the appropriate chord symbol above each chord.\nThe first exercise has been completed as an example."^\markup "1" \chords "Bbmi" \addlyrics { P } | %1
 
 <bf d f>1 \chords "Bb" | %2
 
@@ -62,27 +62,27 @@ s1 | %24
 
 <c e g>1_\markup "R"^\markup "2" \chords "C" | %31
 
-s1 | %32
+s1_\markup "L" | %32
 
-s1 | %33
+s1_\markup "R" | %33
 
-s1 | %34
+s1_\markup "L" | %34
 
-s1 | %35
+s1_\markup "R" | %35
 
 s1 \bar "||" | %36
 
 <c e g>1_\markup "• Begin on the first chord given, and find a series of Neo-Riemannian transformations that will \n  lead to the chord given in the final measure. \n• You can use as many transformations as you need to. \n• Label each transformation with an abbreviation below the staff (as in Part 2, or the examples in the text). \n• Write the appropriate chord symbol above each chord."_\markup "PART 3"_\markup "P"^\markup "3" \chords "C" | %37
 
-s1 | %38
+s1_\markup "L" | %38
 
-s1 | %39
+s1_\markup "R" | %39
 
-s1 | %40
+s1_\markup "P" | %40
 
-s1 | %41
+s1_\markup "L" | %41
 
-s1 | %42
+s1_\markup "R" | %42
 
 s1 | %43
 

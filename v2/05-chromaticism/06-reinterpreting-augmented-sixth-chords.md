@@ -266,7 +266,7 @@ In summary, the examples above have shown that both diminished-seventh chords, a
    \staff "1" \clef "treble" R1 \\
    \staff "2" \clef "bass" R1 | %1
 
-   \staff "1" s1 \chords "vii°43" \bar "||" \\\
+   \staff "1" s1_\markup "___:" \chords "vii°43" \bar "||" \\\
    \staff "1" R1 \bar "||" \\
    \staff "2" R1 | %2
 
@@ -274,7 +274,7 @@ In summary, the examples above have shown that both diminished-seventh chords, a
    \staff "1" R1 \\
    \staff "2" R1 | %3
 
-   \staff "1" s1 \chords "vii°65" \bar "||" \\\
+   \staff "1" s1_\markup "___:" \chords "vii°65" \bar "||" \\\
    \staff "1" R1 \bar "||" \\
    \staff "2" R1 | %4
 
@@ -282,7 +282,7 @@ In summary, the examples above have shown that both diminished-seventh chords, a
    \staff "1" R1 \\
    \staff "2" R1 | %5
 
-   \staff "1" s1 \chords "vii°7" \bar "||" \\\
+   \staff "1" s1_\markup "___:" \chords "vii°7" \bar "||" \\\
    \staff "1" R1 \bar "||" \\
    \staff "2" R1 | %6
 
@@ -290,7 +290,7 @@ In summary, the examples above have shown that both diminished-seventh chords, a
    \staff "1" R1 \\
    \staff "2" R1 | %7
 
-   \staff "1" s1 \chords "Gr.653" \bar "||" \\\
+   \staff "1" s1_\markup "___:" \chords "Gr.653" \bar "||" \\\
    \staff "1" R1 \bar "||" \\
    \staff "2" R1 | %8
 
@@ -298,11 +298,11 @@ In summary, the examples above have shown that both diminished-seventh chords, a
    \staff "1" R1 \\
    \staff "2" R1 | %9
 
-   \staff "1" s1 \chords "Gr.653" \bar "||" \\\
+   \staff "1" s1_\markup "___:" \chords "Gr.653" \bar "||" \\\
    \staff "1" R1 \bar "||" \\
    \staff "2" R1 | %10
 
-   \staff "1" s1 \chords "V7" \\\
+   \staff "1" s1_\markup "___:" \chords "V7" \\\
    \staff "1" R1 \\
    \staff "2" R1 | %11
 
@@ -310,7 +310,7 @@ In summary, the examples above have shown that both diminished-seventh chords, a
    \staff "1" R1 \bar "||" \\
    \staff "2" R1 | %12
 
-   \staff "1" \key ef \major R1 \\\
+   \staff "1" \key ef \major R1^\markup "3. Harmonize the unfigured bass line (you can use any chord that will fit with the given bass note). This bass line \nwill modulate to a new key via enharmonic respelling. Analyze your work with Roman numerals and figures." \\\
    \staff "1" s4 s s s \\
    \staff "1" s4 s s s \\
    \staff "2" \stemDown d,4 e f d \\
@@ -334,22 +334,22 @@ In summary, the examples above have shown that both diminished-seventh chords, a
    \staff "2" cs,1 \\
    \staff "2" s1 | %16
 
-   \staff "1" R1 \\\
+   \staff "1" R1^\markup "4. Realize the progression below in four voices. Use SATB chorale style (2 voices on each staff). Identify the key\nchanges where they're indicated below." \\\
    \staff "1" s4 s s s \\
    \staff "1" s4 s s s \\
-   \staff "2" s4 \chords "I" s \chords "vii°7/ii" s \chords "ii" s \chords "vii°7" \\
+   \staff "2" s4_\markup "___:" \chords "I" s \chords "vii°7/ii" s \chords "ii" s \chords "vii°7" \\
    \staff "2" s4 s s s | %17
 
    \staff "1" R1 \\\
    \staff "1" s4 s s s \\
    \staff "1" s4 s s s \\
-   \staff "2" s4 \chords "I" s \chords "vii°7" \chords "vii°42" s \chords "V64---------53" s \\
+   \staff "2" s4 \chords "I" s_\markup "___:" \chords "vii°7" \chords "vii°42" s \chords "V64---------53" s \\
    \staff "2" s4 s s s | %18
 
    \staff "1" R1 \\\
    \staff "1" s4 s s s \\
    \staff "1" s4 s s s \\
-   \staff "2" s4 \chords "i" s \chords "Gr.653" \chords "V7" s \chords "I" s \chords "IV" \\
+   \staff "2" s4 \chords "i" s_\markup "___:" \chords "Gr.653" \chords "V7" s \chords "I" s \chords "IV" \\
    \staff "2" s4 s s s | %19
 
    \staff "1" R1 \\\

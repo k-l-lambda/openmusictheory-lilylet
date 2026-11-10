@@ -73,7 +73,7 @@ Compared to the minor blues scale, the major blues scale is less dissonant with 
    ```lyl.play
    [title "WK Blues Scales"]
 
-   \key c \major \time 7/4 \clef "treble" \stemUp f4 s2 s1 | %1
+   \key c \major \time 7/4 \clef "treble" \omit Score.TimeSignature \stemUp f4 s2 s1 | %1
 
    \stemUp bf4 s2 s1 | %2
 
@@ -123,51 +123,51 @@ Compared to the minor blues scale, the major blues scale is less dissonant with 
    ```lyl.play
    [title "WK improv"]
 
-   \key c \major \time 7/4 \clef "treble" s1.. \chords "F7" | %1
+   \key c \major \time 7/4 \clef "treble" \omit Score.TimeSignature s1..^\markup "A – call" \chords "F7" | %1
 
    s1.. \chords "Bb7" | %2
 
-   s1.. \chords "F7" | %3
+   s1..^\markup "B – response" \chords "F7" | %3
 
    s1.. | %4
 
-   s1.. \chords "Bb7" | %5
+   s1..^\markup "A" \chords "Bb7" | %5
 
    s1.. | %6
 
-   s1.. \chords "F7" | %7
+   s1..^\markup "B" \chords "F7" | %7
 
    s1.. | %8
 
-   s1.. \chords "C7" | %9
+   s1..^\markup "A" \chords "C7" | %9
 
    s1.. \chords "Bb7" | %10
 
-   s1.. \chords "F7" | %11
+   s1..^\markup "B" \chords "F7" | %11
 
    s1.. \chords "C7" \bar "||" | %12
 
-   s1.. \chords "F7" | %13
+   s1..^\markup "B – call" \chords "F7" | %13
 
    s1.. \chords "Bb7" | %14
 
-   s1.. \chords "F7" | %15
+   s1..^\markup "A – response" \chords "F7" | %15
 
    s1.. | %16
 
-   s1.. \chords "Bb7" | %17
+   s1..^\markup "B" \chords "Bb7" | %17
 
    s1.. | %18
 
-   s1.. \chords "F7" | %19
+   s1..^\markup "A" \chords "F7" | %19
 
    s1.. | %20
 
-   s1.. \chords "C7" | %21
+   s1..^\markup "B" \chords "C7" | %21
 
    s1.. \chords "Bb7" | %22
 
-   s1.. \chords "F7" \chords "F7/A" \chords "Bb7" \chords "Db/B" | %23
+   s1..^\markup "A" \chords "F7" \chords "F7/A" \chords "Bb7" \chords "Db/B" | %23
 
    s1.. \chords "F/C" \chords "Gb7" \chords "F7" \bar "|." | %24
    ```

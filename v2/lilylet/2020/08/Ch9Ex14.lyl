@@ -1,0 +1,9 @@
+[title "Ch9Ex14"]
+
+\key c \major \time 3/4 \clef "percussion" \stemDown f'4 f f \addlyrics { 1 2 3 } | %1
+
+\stemUp f'8[ f] f[ f] f[ f] \addlyrics { 1 + 2 + 3 + } | %2
+
+\stemUp f'16[ f f f] f[ f f f] f[ f f f] \addlyrics { 1 e + a 2 e + a 3 e + a } | %3
+
+\stemDown f'2._\markup "(2     3)" \bar "|." \addlyrics { 1 } | %4

@@ -163,6 +163,22 @@ The soprano clef, mezzo-soprano clef, and baritone clef are also C clefs. These 
 
 ![Example 12. The letter names for the lines with a soprano, mezzo-soprano, and baritone clef.](../media/2025/06/Soprano-Mezzo-Soprano-Baritone-Clef-Line-Letters-scaled-e1749827413950.png)*Example 12. The letter names for the lines with a soprano, mezzo-soprano, and baritone clef.*
 
+<!-- lilylet-begin: media/2025/06/Soprano-Mezzo-Soprano-Baritone-Clef-Line-Letters-scaled-e1749827413950.png -->
+Lilylet transcription of the example above ([Soprano-Mezzo-Soprano-Baritone-Clef-Line-Letters.lyl](../lilylet/images/2025/06/Soprano-Mezzo-Soprano-Baritone-Clef-Line-Letters.lyl)):
+
+```lyl.play
+[title "Soprano, mezzo-soprano and baritone clefs: the letters on their lines"]
+
+% Each staff shows one note on every line and the space above, with the letter names
+% printed above them (markup). The source image hides its time signatures.
+
+\clef "soprano" \omit Score.TimeSignature \time 5/4 \stemUp c4^\markup "C" e^\markup "E" g^\markup "G" b^\markup "B" d^\markup "D" | %1
+
+\clef "mezzosoprano" \omit Score.TimeSignature \time 5/4 \stemUp a,4^\markup "A" c^\markup "C" e^\markup "E" g^\markup "G" b^\markup "B" | %2
+
+\clef "baritone" \omit Score.TimeSignature \time 5/4 \stemUp b,4^\markup "B" d^\markup "D" f^\markup "F" a^\markup "A" c^\markup "C" | %3
+```
+<!-- lilylet-end -->
 ## Ledger Lines
 
 When notes are too high or low to be written on a staff, small lines are drawn to extend the staff. You may recall from the previous chapter that these extra lines are called ledger lines. Ledger lines can be used to extend a staff with any clef. Example 13 shows ledger lines above a staff with a treble clef:

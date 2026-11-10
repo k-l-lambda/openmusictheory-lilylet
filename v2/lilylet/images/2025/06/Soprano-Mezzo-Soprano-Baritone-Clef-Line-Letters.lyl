@@ -1,0 +1,10 @@
+[title "Soprano, mezzo-soprano and baritone clefs: the letters on their lines"]
+
+% Each staff shows one note on every line and the space above, with the letter names
+% printed above them (markup). The source image hides its time signatures.
+
+\clef "soprano" \omit Score.TimeSignature \time 5/4 \stemUp c4^\markup "C" e^\markup "E" g^\markup "G" b^\markup "B" d^\markup "D" | %1
+
+\clef "mezzosoprano" \omit Score.TimeSignature \time 5/4 \stemUp a,4^\markup "A" c^\markup "C" e^\markup "E" g^\markup "G" b^\markup "B" | %2
+
+\clef "baritone" \omit Score.TimeSignature \time 5/4 \stemUp b,4^\markup "B" d^\markup "D" f^\markup "F" a^\markup "A" c^\markup "C" | %3

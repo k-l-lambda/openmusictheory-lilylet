@@ -137,34 +137,34 @@ Because similar and parallel motion diminish variety and melodic independence, t
    f'1_\markup "____" \bar "|." \\\
    f1 \bar "|." | %12
 
-   \key d \major s1 \\\
+   \key d \major s1_\markup "____" \\\
    b1^\markup "Intervals:"_\markup "(Key: B Minor)" | %13
 
-   s1 \\\
+   s1_\markup "____" \\\
    as1 | %14
 
-   s1 \\\
+   s1_\markup "____" \\\
    b1 | %15
 
-   s1 \\\
+   s1_\markup "____" \\\
    d1 | %16
 
-   s1 \\\
+   s1_\markup "____" \\\
    cs1 | %17
 
-   s1 \\\
+   s1_\markup "____" \\\
    fs1 | %18
 
-   s1 \\\
+   s1_\markup "____" \\\
    e1 | %19
 
-   s1 \\\
+   s1_\markup "____" \\\
    b1 | %20
 
-   s1 \\\
+   s1_\markup "____" \\\
    cs1 | %21
 
-   s1 \bar "|." \\\
+   s1_\markup "____" \bar "|." \\\
    b1 \bar "|." | %22
    ```
    <!-- lilylet-end -->
@@ -215,34 +215,34 @@ Because similar and parallel motion diminish variety and melodic independence, t
    g'1_\markup "____" \bar "|." \\\
    ef1 \bar "|." | %12
 
-   \key bf \major s1 \\\
+   \key bf \major s1_\markup "____" \\\
    \clef "bass" bf,1^\markup "Intervals:" | %13
 
-   s1 \\\
+   s1_\markup "____" \\\
    c,1 | %14
 
-   s1 \\\
+   s1_\markup "____" \\\
    d,1 | %15
 
-   s1 \\\
+   s1_\markup "____" \\\
    ef,1 | %16
 
-   s1 \\\
+   s1_\markup "____" \\\
    d,1 | %17
 
-   s1 \\\
+   s1_\markup "____" \\\
    g1 | %18
 
-   s1 \\\
+   s1_\markup "____" \\\
    f,1 | %19
 
-   s1 \\\
+   s1_\markup "____" \\\
    d,1 | %20
 
-   s1 \\\
+   s1_\markup "____" \\\
    c,1 | %21
 
-   s1 \bar "|." \\\
+   s1_\markup "____" \bar "|." \\\
    bf,1 \bar "|." | %22
    ```
    <!-- lilylet-end -->

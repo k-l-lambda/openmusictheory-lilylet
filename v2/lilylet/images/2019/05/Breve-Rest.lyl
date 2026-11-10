@@ -1,0 +1,4 @@
+[title "A breve rest (double whole rest)"]
+
+% The glyph fills a whole bar of 4/2: one breve rest, then a barline.
+\omit Score.TimeSignature \time 4/2 r\breve \bar "||" | %1

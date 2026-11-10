@@ -1,0 +1,5 @@
+[title "Ch9Ex21"]
+
+\key c \major \numericTimeSignature \time 4/4 \clef "percussion" \stemUp f'8[ f] f[ f] f16[ f f f] f[ f f f] \bar "||" \addlyrics { 1 + 2 + 3 e + a 4 e + a } | %1
+
+\time 4/8 \stemUp f'16[ f] f[ f] f[ f] f[ f] \bar "|." \addlyrics { 1 + 2 + 3 + 4 + } | %2

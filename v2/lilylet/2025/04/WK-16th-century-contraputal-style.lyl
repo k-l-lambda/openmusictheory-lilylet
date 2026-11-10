@@ -6,50 +6,50 @@
 [instrument-s3 "Tenor" "T"]
 [instrument-s4 "Bass" "B"]
 
-\key c \major \time 4/2 \clef "treble" a'1~ a \addlyrics { Sur -- _ } \\\
-\clef "treble" r1 r \\\
-\clef "treble_8" r1 r \\\
-\clef "bass" r1 r | %1
+\key c \major \time 4/2 \clef "treble" a'\breve \addlyrics { Sur -- } \\\
+\clef "treble" r\breve \\\
+\clef "treble_8" r\breve \\\
+\clef "bass" r\breve | %1
 
 a'1 \stemDown d2. d4 \addlyrics { ge, pro -- pe -- } \\\
-r1 r \\\
-r1 r \\\
-r1 r | %2
+r\breve \\\
+r\breve \\\
+r\breve | %2
 
 \stemDown d'2 f f d \addlyrics { ra, a -- mi -- ca } \\\
-d1~ d \addlyrics { Sur -- _ } \\\
-r1 r \\\
-r1 r | %3
+d\breve \addlyrics { Sur -- } \\\
+r\breve \\\
+r\breve | %3
 
 s1.. s4 \\\
 d1 \stemUp a'2. a4 \addlyrics { ge, pro -- pe -- } \\\
-r1 r \\\
-r1 r | %4
+r\breve \\\
+r\breve | %4
 
-s1.. s4 \\\
+s1..^\markup "Complete this staff" s4 \\\
 \stemUp a'2 \stemDown c c \stemUp a \addlyrics { ra, a -- mi -- ca } \\\
-a'1~ a \addlyrics { Sur -- _ } \\\
-r1 r | %5
+a'\breve \addlyrics { Sur -- } \\\
+r\breve | %5
 
 s1.. s4 \\\
 \stemDown c'2. b4 \stemUp a g a2 \addlyrics { me -- _ _ _ _ } \\\
 a'1 \stemDown d2. d4 \addlyrics { ge, pro -- pe -- } \\\
-r1 r | %6
+r\breve | %6
 
 s1.. s4 \\\
 \stemUp f2 d a' \stemDown b~ \addlyrics { a, a -- mi -- ca } \\\
 \stemDown d'2 f f d \addlyrics { ra, a -- mi -- ca } \\\
-r1 r | %7
+r\breve | %7
 
 s1.. s4 \\\
 \stemDown b'4 \stemUp a \stemNeutral a1 \stemUp gs2 \addlyrics { _ _ _ me -- } \\\
 f'1 e \addlyrics { me -- a, } \\\
-r1 r | %8
+r\breve | %8
 
-s1.. s4 \\\
+s1..^\markup "Complete this staff" s4 \\\
 a'1 d,~ \addlyrics { a. Sur -- } \\\
 r2 \stemDown f' f d \addlyrics { a -- mi -- ca } \\\
-d,1~ d \addlyrics { Sur -- _ } | %9
+d,\breve \addlyrics { Sur -- } | %9
 
 s1.. s4 \\\
 \stemUp d2 d c f \addlyrics { _ ge, pro -- pe -- } \\\
@@ -66,7 +66,7 @@ s1.. s4 \\\
 \stemDown f'4 e e2~ e4 d d2~ \\\
 c1 bf \addlyrics { me -- _ } | %12
 
-s1.. s4 \\\
+s1..^\markup "Complete this staff" s4 \\\
 \stemUp f2 e d2. e4 \addlyrics { me -- _ _ _ } \\\
 \stemDown d'2 c f2. e4 \addlyrics { _ ca me -- _ } \\\
 a1 r \addlyrics { a. } | %13
@@ -74,19 +74,19 @@ a1 r \addlyrics { a. } | %13
 s1.. s4 \\\
 \stemUp f4 g \stemNeutral a1 \stemUp g2 \\\
 \stemDown d'2 c \stemNeutral b1 \\\
-r1 r | %14
+r\breve | %14
 
 s1.. s4 \\\
 \stemUp f2 d \stemNeutral a'1~ \addlyrics { _ _ a, __ } \\\
 a'1 r2 \stemDown d~ \addlyrics { a. Sur -- } \\\
-d,1~ d \addlyrics { Sur -- _ } | %15
+d,\breve \addlyrics { Sur -- } | %15
 
 s1.. s4 \\\
 a'1 r2 \stemUp c, \addlyrics { _ a -- } \\\
 \stemDown d'2 d c \stemUp a \addlyrics { _ ge, pro -- pe -- } \\\
 d,1 \stemDown a'2. a4 \addlyrics { ge, pro -- pe -- } | %16
 
-s1.. s4 \\\
+s1..^\markup "Complete this staff" s4 \\\
 \stemUp c2 a c2. d4 \addlyrics { mi -- ca me -- _ } \\\
 e'1 r2 \stemDown e \addlyrics { ra, a -- } \\\
 \stemDown a2 c c a \addlyrics { ra a -- mi -- ca } | %17
@@ -106,10 +106,10 @@ s1.. s4 \\\
 r1 r2 \stemDown e' \addlyrics { et } \\\
 d,1 r | %20
 
-s1.. s4 \\\
+s1..^\markup "Complete this staff" s4 \\\
 \stemDown c'4 b \stemNeutral a1 \stemUp gs2 \\\
 f'1 \stemDown e2. d4 \addlyrics { ve -- _ _ } \\\
-r1 r | %21
+r\breve | %21
 
 s1.. s4 \\\
 \stemUp a'2 e \stemNeutral f1 \addlyrics { ni, et ve -- } \\\
@@ -121,7 +121,7 @@ e1 r2 \stemUp a \addlyrics { ni, et } \\\
 \stemDown c'2 e \stemNeutral f1 \addlyrics { ni, et ve -- } \\\
 \stemDown a4 b c2 \stemNeutral f,1 \addlyrics { _ _ _ ni, } | %23
 
-s1.. s4 \\\
+s1..^\markup "Complete this staff" s4 \\\
 \stemDown c'2 b~ b4 \stemUp a a2~ \addlyrics { ve -- _ _ _ _ } \\\
 e'1 r \addlyrics { ni, } \\\
 r1 a \addlyrics { et } | %24
@@ -131,432 +131,432 @@ s1.. s4 \\\
 d'1 e \addlyrics { et ve -- } \\\
 bf1 a \addlyrics { ve -- ni. __ } | %25
 
-d'1~ d \bar ";" \addlyrics { ni _ } \\\
+d'\breve \bar ";" \addlyrics { ni } \\\
 r2 \stemUp a' a d, \bar ";" \addlyrics { jam e -- nim } \\\
 d'1 r2 \stemDown a' \bar ";" \addlyrics { ni jam } \\\
-d,1~ d \bar ";" | %26
+d,\breve \bar ";" | %26
 
-\key ef \major bf'1~ bf \bar ";" \addlyrics { Be -- _ } \\\
-R1 \bar ";" \\\
-R1 \bar ";" \\\
-R1 \bar ";" | %27
+\key ef \major bf'\breve \bar ";" \addlyrics { Be -- } \\\
+R\breve \bar ";" \\\
+R\breve \bar ";" \\\
+R\breve \bar ";" | %27
 
 c'1 bf \bar ";" \addlyrics { ne -- di -- } \\\
-R1 \bar ";" \\\
-R1 \bar ";" \\\
-R1 \bar ";" | %28
+R\breve \bar ";" \\\
+R\breve \bar ";" \\\
+R\breve \bar ";" | %28
 
 \stemUp g'2 \stemDown bf c4 d ef c \bar ";" \addlyrics { ctus qui ve -- _ _ _ } \\\
-ef1~ ef \bar ";" \addlyrics { Be -- _ } \\\
-R1 \bar ";" \\\
-R1 \bar ";" | %29
+ef\breve \bar ";" \addlyrics { Be -- } \\\
+R\breve \bar ";" \\\
+R\breve \bar ";" | %29
 
 \stemDown d'2 \stemNeutral c1 \stemDown bf2 \bar ";" \\\
 f1 ef \bar ";" \addlyrics { ne -- di -- } \\\
-R1 \bar ";" \\\
-R1 \bar ";" | %30
+R\breve \bar ";" \\\
+R\breve \bar ";" | %30
 
 \stemUp af'2 g \stemNeutral f1 \bar ";" \\\
 \stemUp c2 ef f4 g af f \bar ";" \addlyrics { ctus qui ve -- _ _ _ } \\\
-R1 \bar ";" \\\
-R1 \bar ";" | %31
+R\breve \bar ";" \\\
+R\breve \bar ";" | %31
 
 \stemUp ef2 d \stemNeutral g1 \bar ";" \\\
 \stemUp g'2 f2. ef4 ef2~ \bar ";" \\\
-R1 \bar ";" \\\
-R1 \bar ";" | %32
+R\breve \bar ";" \\\
+R\breve \bar ";" | %32
 
 f1 \stemDown bf2. \stemUp af4 \bar ";" \addlyrics { nit, qui _ } \\\
 \stemUp ef2 d4 c d ef f2~ \bar ";" \\\
-bf'1~ bf \bar ";" \addlyrics { Be _ } \\\
-R1 \bar ";" | %33
+bf'\breve \bar ";" \addlyrics { Be } \\\
+R\breve \bar ";" | %33
 
 \stemUp g'2 f4 ef f2 \stemDown bf~ \addlyrics { ve -- _ _ _ _ } \\\
 \stemUp f4 ef \stemNeutral ef1 \stemUp d4 c \\\
-s1.. s4 \\\
-R1 | %34
+s1..^\markup "Complete this staff"^\markup "Complete this staff" s4 \\\
+R\breve | %34
 
 \stemDown bf'4 \stemUp af g f \stemNeutral ef1 \bar ";" \\\
 \stemUp d2 g, af c \bar ";" \\\
-s1.. s4 \bar ";" \\\
-R1 \bar ";" | %35
+s1..^\markup "Complete this staff" s4 \bar ";" \\\
+R\breve \bar ";" | %35
 
 \stemUp f2 g \stemNeutral f1 \bar ";" \\\
-bf1~ bf \bar ";" \addlyrics { nit, _ } \\\
+bf\breve \bar ";" \addlyrics { nit, } \\\
 s1.. s4 \bar ";" \\\
-R1 \bar ";" | %36
+R\breve \bar ";" | %36
 
 ef1 r \bar ";" \addlyrics { nit, } \\\
 r2 \stemUp ef f4 g af f \bar ";" \addlyrics { qui ve -- _ _ _ } \\\
 s1.. s4 \bar ";" \\\
-R1 \bar ";" | %37
+R\breve \bar ";" | %37
 
-bf'1~ bf \bar ";" \addlyrics { be -- _ } \\\
+bf'\breve \bar ";" \addlyrics { be -- } \\\
 g'1. \stemUp f2 \bar ";" \\\
 s1.. s4 \bar ";" \\\
-R1 \bar ";" | %38
+R\breve \bar ";" | %38
 
-c'1~ c \bar ";" \addlyrics { ne -- _ } \\\
+c'\breve \bar ";" \addlyrics { ne -- } \\\
 \stemUp ef2 \stemNeutral g1 \stemUp f2 \bar ";" \\\
 s1.. s4 \bar ";" \\\
-R1 \bar ";" | %39
+R\breve \bar ";" | %39
 
 bf'1 g \bar ";" \addlyrics { di -- ctus } \\\
 g'1 r \bar ";" \addlyrics { nit, } \\\
-s1.. s4 \bar ";" \\\
-R1 \bar ";" | %40
+s1..^\markup "Complete this staff" s4 \bar ";" \\\
+R\breve \bar ";" | %40
 
 bf'1 \stemDown c4 d ef c \bar ";" \addlyrics { qui ve -- _ _ _ } \\\
 r1 r2 \stemUp ef \bar ";" \addlyrics { qui } \\\
 s1.. s4 \bar ";" \\\
-R1 \bar ";" | %41
+R\breve \bar ";" | %41
 
 \stemDown d'2 \stemNeutral c1 \stemDown bf2 \bar ";" \\\
 \stemUp f4 g af f g af g2 \bar ";" \addlyrics { ve -- _ _ _ _ _ _ } \\\
 s1.. s4 \bar ";" \\\
-R1 \bar ";" | %42
+R\breve \bar ";" | %42
 
 \stemUp af'2 g \stemNeutral f1~ \bar ";" \addlyrics { _ _ nit } \\\
 \stemUp f2 \stemNeutral ef1 \stemUp d4 c \bar ";" \\\
 s1.. s4 \bar ";" \\\
-R1 \bar ";" | %43
+R\breve \bar ";" | %43
 
 f1 r2 \stemDown bf \bar ";" \addlyrics { _ in } \\\
 d1 ef \bar ";" \addlyrics { _ nit } \\\
-s1.. s4 \bar ";" \\\
-R1 \bar ";" | %44
+s1..^\markup "Complete this staff" s4 \bar ";" \\\
+R\breve \bar ";" | %44
 
 \stemDown bf'2 bf \stemUp ef,4 f g af \bar ";" \addlyrics { no -- mi -- ne __ _ _ _ } \\\
-R1 \bar ";" \\\
+R\breve \bar ";" \\\
 s1.. s4 \bar ";" \\\
-R1 \bar ";" | %45
+R\breve \bar ";" | %45
 
 \stemDown bf'4 c d bf c d ef2~ \bar ";" \\\
 r1 r2 \stemUp g' \bar ";" \addlyrics { in } \\\
 s1.. s4 \bar ";" \\\
-R1 \bar ";" | %46
+R\breve \bar ";" | %46
 
 \stemDown ef'2 d c c \bar ";" \addlyrics { _ _ Do -- mi -- } \\\
 \stemUp g'2 g c,4 d ef f \bar ";" \addlyrics { no -- mi -- ne, __ _ _ _ } \\\
 s1.. s4 \bar ";" \\\
-R1 \bar ";" | %47
+R\breve \bar ";" | %47
 
 \stemDown bf'2 \stemUp g \stemDown c2. bf4 \bar ";" \addlyrics { ni, Do -- _ _ } \\\
 \stemUp g'4 af \stemDown bf \stemUp g af2. g4 \bar ";" \\\
-s1.. s4 \bar ";" \\\
-R1 \bar ";" | %48
+s1..^\markup "Complete this staff" s4 \bar ";" \\\
+R\breve \bar ";" | %48
 
 \stemUp af'2 g \stemNeutral f1~ \bar ";" \addlyrics { _ mi -- ni, } \\\
 \stemUp f2 \stemNeutral ef1 \stemUp d4 c \bar ";" \\\
 s1.. s4 \bar ";" \\\
-R1 \bar ";" | %49
+R\breve \bar ";" | %49
 
 f1 r2 \stemDown bf \bar ";" \addlyrics { _ in } \\\
 \stemUp d2 bf bf bf \bar ";" \addlyrics { _ in no -- mi -- } \\\
 s1.. s4 \bar ";" \\\
-R1 \bar ";" | %50
+R\breve \bar ";" | %50
 
 \stemDown bf'2 bf \stemNeutral ef,1 \bar ";" \addlyrics { no -- mi -- ne, } \\\
 g1 \stemUp af2 c \bar ";" \addlyrics { ne Do -- mi -- } \\\
 s1.. s4 \bar ";" \\\
-R1 \bar ";" | %51
+R\breve \bar ";" | %51
 
 r2 \stemDown bf' bf bf \bar ";" \addlyrics { in no -- mi -- } \\\
 bf1 r \bar ";" \addlyrics { ni, } \\\
-s1.. s4 \bar ";" \\\
-R1 \bar ";" | %52
+s1..^\markup "Complete this staff" s4 \bar ";" \\\
+R\breve \bar ";" | %52
 
 \stemUp ef4 f g af \stemDown bf c d bf \bar ";" \addlyrics { ne __ _ _ _ _ _ _ _ } \\\
 g'1 \stemUp g2 g \bar ";" \addlyrics { in no -- mi -- } \\\
 s1.. s4 \bar ";" \\\
-R1 \bar ";" | %53
+R\breve \bar ";" | %53
 
 \stemDown c'4 d ef2. d4 c2~ \bar ";" \\\
 c1 r2 \stemUp ef \bar ";" \addlyrics { ne, in } \\\
 s1.. s4 \bar ";" \\\
-R1 \bar ";" | %54
+R\breve \bar ";" | %54
 
 \stemDown c'2 bf \stemUp af af \bar ";" \addlyrics { _ _ Do -- mi -- } \\\
 \stemUp ef2 ef af,4 bf c d \bar ";" \addlyrics { no -- mi -- ne, __ _ _ _ } \\\
 s1.. s4 \bar ";" \\\
-R1 \bar ";" | %55
+R\breve \bar ";" | %55
 
 g'1 \stemDown c2. c4 \bar ";" \addlyrics { ni, Do -- mi -- } \\\
 \stemUp ef4 f g ef f g af2~ \bar ";" \\\
-s1.. s4 \bar ";" \\\
-R1 \bar ";" | %56
+s1..^\markup "Complete this staff" s4 \bar ";" \\\
+R\breve \bar ";" | %56
 
 bf'1 r2 \stemDown bf \bar ";" \addlyrics { ni, in } \\\
 \stemUp af'2 g4 f \stemNeutral g1~ \bar ";" \\\
 s1.. s4 \bar ";" \\\
-R1 \bar ";" | %57
+R\breve \bar ";" | %57
 
 \stemDown bf'2 bf \stemUp ef,4 f g af \bar ";" \addlyrics { no -- mi -- ne __ _ _ _ } \\\
 g'1 r2 \stemUp g \bar ";" \addlyrics { _ in } \\\
 s1.. s4 \bar ";" \\\
-R1 \bar ";" | %58
+R\breve \bar ";" | %58
 
 \stemDown bf'4 c d bf c2. d4 \bar ";" \\\
 \stemUp g'2 g c,4 d ef f \bar ";" \addlyrics { no -- mi -- ne __ _ _ _ } \\\
 s1.. s4 \bar ";" \\\
-R1 \bar ";" | %59
+R\breve \bar ";" | %59
 
 \stemDown ef'2 d c ef~ \bar ";" \addlyrics { _ _ _ Do -- } \\\
 \stemUp g'4 af \stemDown bf \stemUp g af2. g8[ f] \bar ";" \\\
-s1.. s4 \bar ";" \\\
-R1 \bar ";" | %60
+s1..^\markup "Complete this staff" s4 \bar ";" \\\
+R\breve \bar ";" | %60
 
 \stemDown ef'4 d c bf \stemUp af \stemDown bf c2~ \bar ";" \\\
 \stemUp g'2 af2. g4 f2 \bar ";" \addlyrics { _ Do -- _ _ } \\\
 s1.. s4 \bar ";" \\\
-R1 \bar ";" | %61
+R\breve \bar ";" | %61
 
 \stemDown c'2 \stemNeutral bf1 \stemUp af2 \bar ";" \\\
 \stemUp ef2 d c c \bar ";" \addlyrics { _ _ _ mi -- } \\\
 s1.. s4 \bar ";" \\\
-R1 \bar ";" | %62
+R\breve \bar ";" | %62
 
 g'1 g \bar ";" \addlyrics { _ mi -- } \\\
 \stemUp bf2 \stemNeutral ef1 \stemUp d4 c \bar ";" \addlyrics { ni. __ _ _ _ } \\\
 s1.. s4 \bar ";" \\\
-R1 \bar ";" | %63
+R\breve \bar ";" | %63
 
-f1~ f \bar "|." \addlyrics { ni. _ } \\\
-d1~ d \bar "|." \\\
+f\breve \bar "|." \addlyrics { ni. } \\\
+d\breve \bar "|." \\\
 s1.. s4 \bar "|." \\\
-R1 \bar "|." | %64
+R\breve \bar "|." | %64
 
-\key f \major r1 r \\\
+\key f \major r\breve^\markup "PART 3: Orlando di Lassus, \"Bicinum,\" mm. 1–27"^\markup "Complete the missing soprano part using imitation." \\\
 g'1. \stemUp d2 \addlyrics { In -- tel -- } \\\
-R1 \\\
-R1 | %65
+R\breve \\\
+R\breve | %65
 
 r1 d'~ \addlyrics { In -- } \\\
 f1 \stemUp bf,2. c4 \addlyrics { lec -- tum __ _ } \\\
-R1 \\\
-R1 | %66
+R\breve \\\
+R\breve | %66
 
 \stemDown d'2 \stemUp a \stemNeutral c1 \addlyrics { _ tel -- lec -- } \\\
 \stemUp d4 e f2. e4 f g \\\
-R1 \\\
-R1 | %67
+R\breve \\\
+R\breve | %67
 
-\stemUp f2 s s1 \addlyrics { tum } \\\
+\stemUp f2 s^\markup "Complete this staff"^\markup "Complete this staff" s1 \addlyrics { tum } \\\
 \stemUp a'2 \stemNeutral d,1 \stemUp e2 \addlyrics { _ ti -- bi -- } \\\
-R1 \\\
-R1 | %68
+R\breve \\\
+R\breve | %68
 
-s1 s \\\
+s\breve^\markup "Complete this staff" \\\
 \stemUp f2. e4 d2. c4 \addlyrics { da -- _ _ _ } \\\
-R1 \\\
-R1 | %69
+R\breve \\\
+R\breve | %69
 
-s1 s \\\
+s\breve \\\
 bf1 \stemUp a2 d \addlyrics { _ bo et } \\\
-R1 \\\
-R1 | %70
+R\breve \\\
+R\breve | %70
 
-s1 s \\\
+s\breve \\\
 \stemUp d2 d \stemNeutral f1 \addlyrics { in -- stru -- am } \\\
-R1 \\\
-R1 | %71
+R\breve \\\
+R\breve | %71
 
-s1 s \\\
+s\breve \\\
 c1 r2 \stemUp c \addlyrics { te, et } \\\
-R1 \\\
-R1 | %72
+R\breve \\\
+R\breve | %72
 
-s1 s \\\
+s\breve^\markup "Complete this staff" \\\
 \stemUp c2 c \stemNeutral ef1 \addlyrics { in -- stru -- am } \\\
-R1 \\\
-R1 | %73
+R\breve \\\
+R\breve | %73
 
-s1 s \\\
+s\breve \\\
 \stemUp d2 bf \stemNeutral d1 \addlyrics { te in vi -- } \\\
-R1 \\\
-R1 | %74
+R\breve \\\
+R\breve | %74
 
-s1 s \\\
+s\breve \\\
 \stemUp a2 \stemNeutral a'1 \stemUp g2 \addlyrics { a hac qua } \\\
-R1 \\\
-R1 | %75
+R\breve \\\
+R\breve | %75
 
-s1 s \\\
+s\breve \\\
 \stemUp f2 e \stemNeutral d1 \addlyrics { gra -- du -- e -- } \\\
-R1 \\\
-R1 | %76
+R\breve \\\
+R\breve | %76
 
-s1 s \\\
+s\breve^\markup "Complete this staff" \\\
 \stemUp g2 \stemNeutral g'1 \stemUp f2 \addlyrics { ris, hac qua } \\\
-R1 \\\
-R1 | %77
+R\breve \\\
+R\breve | %77
 
-s1 s \\\
+s\breve \\\
 \stemUp e2 d c2. bf4 \addlyrics { gra -- du -- e -- _ } \\\
-R1 \\\
-R1 | %78
+R\breve \\\
+R\breve | %78
 
-s1 s \\\
+s\breve \\\
 \stemUp c4 a \stemNeutral d1 \stemUp cs2 \addlyrics { _ _ _ ris, __ } \\\
-R1 \\\
-R1 | %79
+R\breve \\\
+R\breve | %79
 
-s1 s \\\
+s\breve \\\
 d1 r2 \stemDown bf' \addlyrics { _ fir -- } \\\
-R1 \\\
-R1 | %80
+R\breve \\\
+R\breve | %80
 
-s1 s \\\
+s\breve^\markup "Complete this staff" \\\
 bf'1 bf \addlyrics { ma -- bo, } \\\
-R1 \\\
-R1 | %81
+R\breve \\\
+R\breve | %81
 
-s1 s \\\
+s\breve \\\
 r2 \stemUp ef \stemNeutral ef1 \addlyrics { fir -- ma -- } \\\
-R1 \\\
-R1 | %82
+R\breve \\\
+R\breve | %82
 
-s1 s \\\
+s\breve \\\
 \stemUp bf2 bf f'4 g a f \addlyrics { bo su -- per __ _ _ _ } \\\
-R1 \\\
-R1 | %83
+R\breve \\\
+R\breve | %83
 
-s1 s \\\
+s\breve \\\
 bf'1 a \addlyrics { _ te } \\\
-R1 \\\
-R1 | %84
+R\breve \\\
+R\breve | %84
 
-s1 s \\\
+s\breve^\markup "Complete this staff" \\\
 r2 \stemUp g'2. g4 f2 \addlyrics { o -- cu -- los } \\\
-R1 \\\
-R1 | %85
+R\breve \\\
+R\breve | %85
 
-s1 s \\\
+s\breve \\\
 ef1 d \addlyrics { me -- os, } \\\
-R1 \\\
-R1 | %86
+R\breve \\\
+R\breve | %86
 
-s1 s \\\
+s\breve \\\
 r2 \stemDown bf'2. bf4 \stemUp a2 \addlyrics { o -- cu -- los } \\\
-R1 \\\
-R1 | %87
+R\breve \\\
+R\breve | %87
 
-s1 s \\\
+s\breve \\\
 g'1 f \addlyrics { me -- os, } \\\
-R1 \\\
-R1 | %88
+R\breve \\\
+R\breve | %88
 
-s1 s \\\
+s\breve^\markup "Complete this staff" \\\
 r2 \stemUp d2. d4 c2 \addlyrics { o -- cu -- los } \\\
-R1 \\\
-R1 | %89
+R\breve \\\
+R\breve | %89
 
-s1 s \\\
+s\breve \\\
 bf1 a \addlyrics { me -- _ } \\\
-R1 \\\
-R1 | %90
+R\breve \\\
+R\breve | %90
 
-s1 s \bar "|." \\\
-g1~ g\fermata \bar "|." \addlyrics { os. _ } \\\
-R1 \bar "|." \\\
-R1 \bar "|." | %91
+s\breve \bar "|." \\\
+g\breve\fermata \bar "|." \addlyrics { os. } \\\
+R\breve \bar "|." \\\
+R\breve \bar "|." | %91
 
-\key c \major R1 \bar ";" \\\
-R1 \bar ";" \\\
+\key c \major R\breve^\markup "PART 4: Orlando di Lassus, \"Benedictus from Missa Venatorum,\" \nmm. 1–20"^\markup "Complete the missing tenor part using imitation." \bar ";" \\\
+R\breve \bar ";" \\\
 \stemUp g'2. a4 b \stemDown c d2~ \bar ";" \addlyrics { Be -- _ _ _ _ } \\\
-R1 \bar ";" | %92
+R\breve \bar ";" | %92
 
-R1 \bar ";" \\\
-R1 \bar ";" \\\
+R\breve \bar ";" \\\
+R\breve \bar ";" \\\
 \stemDown d'2 \stemUp b \stemNeutral c1 \bar ";" \addlyrics { _ ne -- di -- } \\\
 r1 \stemUp c,2. d4 \bar ";" \addlyrics { Be -- _ } | %93
 
-R1 \bar ";" \\\
-R1 \bar ";" \\\
+R\breve \bar ";" \\\
+R\breve \bar ";" \\\
 \stemUp b'2. \stemDown c4 d \stemUp b \stemDown e2~ \bar ";" \addlyrics { ctus __ _ _ _ _ } \\\
 \stemDown e,4 f \stemNeutral g1 \stemDown e2 \bar ";" \addlyrics { _ _ _ ne -- } | %94
 
-R1 \bar ";" \\\
-R1 \bar ";" \\\
-\stemDown e'2 d s1 \bar ";" \addlyrics { _ qui } \\\
+R\breve \bar ";" \\\
+R\breve \bar ";" \\\
+\stemDown e'2 d s1^\markup "Complete this staff" \bar ";" \addlyrics { _ qui } \\\
 f,1 \stemDown e2. f4 \bar ";" \addlyrics { di -- ctus __ _ } | %95
 
-R1 \bar ";" \\\
-R1 \bar ";" \\\
+R\breve \bar ";" \\\
+R\breve \bar ";" \\\
 s1.. s4 \bar ";" \\\
 \stemDown g4 e \stemNeutral a1 \stemDown g2 \bar ";" \addlyrics { _ _ _ qui } | %96
 
-R1 \bar ";" \\\
-R1 \bar ";" \\\
-s1.. s4 \bar ";" \\\
+R\breve \bar ";" \\\
+R\breve \bar ";" \\\
+s1..^\markup "Complete this staff" s4 \bar ";" \\\
 \stemDown f,2 e4 \stemUp d \stemNeutral e1 \bar ";" \addlyrics { ve -- _ _ _ } | %97
 
-R1 \bar ";" \\\
-R1 \bar ";" \\\
+R\breve \bar ";" \\\
+R\breve \bar ";" \\\
 s1.. s4 \bar ";" \\\
 d,1 r2 \stemDown g \bar ";" \addlyrics { nit in } | %98
 
-R1 \bar ";" \\\
-R1 \bar ";" \\\
+R\breve \bar ";" \\\
+R\breve \bar ";" \\\
 s1.. s4 \bar ";" \\\
 \stemDown e,2 \stemUp d \stemDown g f4 e \bar ";" \addlyrics { no -- mi -- ne __ _ _ } | %99
 
-R1 \bar ";" \\\
-R1 \bar ";" \\\
+R\breve \bar ";" \\\
+R\breve \bar ";" \\\
 s1.. s4 \bar ";" \\\
 \stemUp d,4 \stemDown e f2. e4 \stemUp c d \bar ";" | %100
 
-R1 \bar ";" \\\
-R1 \bar ";" \\\
-s1.. s4 \bar ";" \\\
+R\breve \bar ";" \\\
+R\breve \bar ";" \\\
+s1..^\markup "Complete this staff" s4 \bar ";" \\\
 \stemDown e,4 f g2 \stemUp d4 \stemDown e f g \bar ";" \addlyrics { _ _ _ Do -- _ _ _ } | %101
 
-R1 \bar ";" \\\
-R1 \bar ";" \\\
+R\breve \bar ";" \\\
+R\breve \bar ";" \\\
 s1.. s4 \bar ";" \\\
 \stemDown a4 g \stemNeutral g1 \stemDown fs2 \bar ";" \addlyrics { _ _ _ mi -- } | %102
 
-R1 \bar ";" \\\
-R1 \bar ";" \\\
+R\breve \bar ";" \\\
+R\breve \bar ";" \\\
 s1.. s4 \bar ";" \\\
 g1 r2 \stemUp d \bar ";" \addlyrics { ni, in } | %103
 
-R1 \bar ";" \\\
-R1 \bar ";" \\\
+R\breve \bar ";" \\\
+R\breve \bar ";" \\\
 s1.. s4 \bar ";" \\\
 \stemUp b,2 a d c4 b \bar ";" \addlyrics { no -- mi -- ne, __ _ _ } | %104
 
-R1 \bar ";" \\\
-R1 \bar ";" \\\
-s1.. s4 \bar ";" \\\
+R\breve \bar ";" \\\
+R\breve \bar ";" \\\
+s1..^\markup "Complete this staff" s4 \bar ";" \\\
 a,1 r2 \stemUp c \bar ";" \addlyrics { _ in } | %105
 
-R1 \bar ";" \\\
-R1 \bar ";" \\\
+R\breve \bar ";" \\\
+R\breve \bar ";" \\\
 s1.. s4 \bar ";" \\\
 \stemUp a,2 g c b4 a \bar ";" \addlyrics { no -- mi -- ne, __ _ _ } | %106
 
-R1 \bar ";" \\\
-R1 \bar ";" \\\
+R\breve \bar ";" \\\
+R\breve \bar ";" \\\
 s1.. s4 \bar ";" \\\
 \stemUp g,2 \stemDown g' e \stemUp d \bar ";" \addlyrics { _ in no -- mi -- } | %107
 
-R1 \bar ";" \\\
-R1 \bar ";" \\\
+R\breve \bar ";" \\\
+R\breve \bar ";" \\\
 s1.. s4 \bar ";" \\\
 \stemDown g2 f4 e \stemUp d2 \stemDown f~ \bar ";" \addlyrics { ne, __ _ _ _ Do -- } | %108
 
-R1 \bar ";" \\\
-R1 \bar ";" \\\
-s1.. s4 \bar ";" \\\
+R\breve \bar ";" \\\
+R\breve \bar ";" \\\
+s1..^\markup "Complete this staff" s4 \bar ";" \\\
 \stemDown f,4 e \stemUp c d \stemDown e2. \stemUp d4 \bar ";" | %109
 
-R1 \bar ";" \\\
-R1 \bar ";" \\\
+R\breve \bar ";" \\\
+R\breve \bar ";" \\\
 s1.. s4 \bar ";" \\\
 \stemUp c,4 b b a8[ g] a2 a \bar ";" \addlyrics { _ _ _ _ _ _ mi -- } | %110
 
-R1 \bar "|." \\\
-R1 \bar "|." \\\
+R\breve \bar "|." \\\
+R\breve \bar "|." \\\
 s1.. s4 \bar "|." \\\
-g,1~ g\fermata \bar "|." \addlyrics { ni. _ } | %111
+g,\breve\fermata \bar "|." \addlyrics { ni. } | %111

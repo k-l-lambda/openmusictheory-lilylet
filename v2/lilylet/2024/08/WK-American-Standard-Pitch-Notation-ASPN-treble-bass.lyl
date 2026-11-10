@@ -1,6 +1,6 @@
 [title "WK American Standard Pitch Notation ASPN treble bass"]
 
-\key c \major \numericTimeSignature \time 4/4 \clef "treble" d'1 \bar "||" | %1
+\key c \major \numericTimeSignature \time 4/4 \clef "treble" \omit Score.TimeSignature d'1 \bar "||" | %1
 
 g'1 \bar "||" | %2
 
@@ -80,42 +80,42 @@ d1 \bar "||" | %39
 
 b,,1 \bar "||" | %40
 
-\clef "treble" s1 \bar "||" | %41
+\clef "treble" s1_\markup "C5" \bar "||" | %41
 
-s1 \bar "||" | %42
+s1_\markup "E4" \bar "||" | %42
 
-s1 \bar "||" | %43
+s1_\markup "F5" \bar "||" | %43
 
-s1 \bar "||" | %44
+s1_\markup "A4" \bar "||" | %44
 
-s1 \bar "||" | %45
+s1_\markup "D5" \bar "||" | %45
 
-s1 \bar "||" | %46
+s1_\markup "B3" \bar "||" | %46
 
-s1 \bar "||" | %47
+s1_\markup "G4" \bar "||" | %47
 
-s1 \bar "||" | %48
+s1_\markup "C4" \bar "||" | %48
 
-s1 \bar "||" | %49
+s1_\markup "F4" \bar "||" | %49
 
-s1 \bar "||" | %50
+s1_\markup "A5" \bar "||" | %50
 
-\clef "bass" s1 \bar "||" | %51
+\clef "bass" s1_\markup "F3" \bar "||" | %51
 
-s1 \bar "||" | %52
+s1_\markup "E2" \bar "||" | %52
 
-s1 \bar "||" | %53
+s1_\markup "D3" \bar "||" | %53
 
-s1 \bar "||" | %54
+s1_\markup "B2" \bar "||" | %54
 
-s1 \bar "||" | %55
+s1_\markup "C4" \bar "||" | %55
 
-s1 \bar "||" | %56
+s1_\markup "A3" \bar "||" | %56
 
-s1 \bar "||" | %57
+s1_\markup "F2" \bar "||" | %57
 
-s1 \bar "||" | %58
+s1_\markup "G3" \bar "||" | %58
 
-s1 \bar "||" | %59
+s1_\markup "E3" \bar "||" | %59
 
-s1 \bar "||" | %60
+s1_\markup "D2" \bar "||" | %60

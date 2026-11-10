@@ -7,7 +7,7 @@
 [instrument-s4-s5 "Pno." "Pno."]
 [instrument-s6-s7 "St." "St."]
 
-\key c \major \numericTimeSignature \time 4/4 \clef "treble" R1 \\\
+\key c \major \numericTimeSignature \time 4/4 \clef "treble" R1^\markup "1. Final Destination"^\markup "Write your analysis below." \\\
 \clef "treble" \stemDown g'16\mf\sustainOn[ bf d8~] d2. \\\
 \clef "bass" R1 \\\
 \staff "1" \clef "treble" r2 \stemDown g'16\mp\sustainOn[ bf d8~] d4~ \\
@@ -56,9 +56,9 @@ R1 \\\
 \staff "2" g,1~ | %6
 
 \staff "1" R1 \\\
-<d g bf>1~ \\\
+<d g bf>1~~~ \\\
 R1 \\\
-\staff "1" <d g bf>1~ \\
+\staff "1" <d g bf>1~~~ \\
 \staff "2" R1 \\\
 \staff "1" R1 \\
 \staff "2" g,1~ | %7
@@ -71,12 +71,12 @@ R1 \bar "|." \bar ".|:" \\\
 \staff "1" R1 \bar "|." \bar ".|:" \\
 \staff "2" g,1 | %8
 
-\staff "1" R1 \\\
+\staff "1" R1^\markup "2. Happy Pizza"^\markup "Write your analysis below. (See first page for instructions!)" \\\
 R1 \\\
 R1 \\\
 \staff "1" R1 \\
 \staff "2" R1 \\\
-\staff "1" r8 \stemDown cs'16^\markup "pizz."[ a] cs8[ a] \stemUp fs[ d'] r4 \\
+\staff "1" r8 \stemDown cs'16\mf^\markup "pizz."[ a] cs8[ a] \stemUp fs[ d'] r4 \\
 \staff "2" \stemDown a4_\markup "Note: recording modulates. This transcription is only in one key for clarity.\n\nWrite your analysis below. (See first page for instructions!)"_\markup "3. Sparkle" r8 e d'4 d, | %9
 
 \staff "1" R1 \\\
@@ -106,7 +106,7 @@ R1 \bar ":|." \bar ".|:" \\\
 \staff "1" R1 \\\
 \clef "treble^15" \stemDown c'4.\p^\markup "2x only" \stemUp a8 \stemDown b4. \stemUp g8 \\\
 R1 \\\
-\staff "1" \ottava #1 r8 \stemDown c''16[ d] e8[ g] fs4 d \\
+\staff "1" \ottava #1 r8 \stemDown c''16\mf[ d] e8[ g] fs4 d \\
 \staff "2" \clef "treble" \stemUp c4\sustainOn g' c,8[ g'~] g4 \\\
 \staff "1" R1 \\
 \staff "2" R1 | %13
@@ -171,7 +171,7 @@ R1 \bar "||" \bar ".|:" \\\
 \staff "1" R1 \bar "||" \bar ".|:" \\
 \staff "2" R1 | %20
 
-\staff "1" R1 \\\
+\staff "1" R1^\markup "4. Ultimate Baking"^\markup "Write your analysis below. (See first page for instructions!)" \\\
 \clef "bass" \stemDown d4\sustainOn d8[ g,] d'4 d8[ g,] \\\
 R1 \\\
 \staff "1" R1 \\
@@ -245,9 +245,9 @@ s8 \stemDown a-.[ d-. e-.] f-. r r4 \\\
 R1 \\\
 \staff "1" R1 \\
 \staff "2" R1 \\\
-\staff "1" r4 r8 \stemUp d'-. g-.[ g-. e-.] r \\
+\staff "1" r4 r8 \stemUp d'\f-. g-.[ g-. e-.] r \\
 \staff "1" \stemDown a'8-.[ a-. f-. f-.] bf-.[ bf-. g-. g-.] \\
-\staff "2" r8 r \stemUp a-.[ a-.] bf-.[ bf-. a-. a-.] \\
+\staff "2" r8 r \stemUp a_\markup "+ Bsn."-.[ a-.] bf-.[ bf-. a-. a-.] \\
 \staff "2" \stemDown <d,, d'>8 r d' r d r d r | %29
 
 \staff "1" \stemUp a'2 d) \\
@@ -283,7 +283,7 @@ R1 \bar ":|." \bar ".|:" \\\
 \staff "2" \stemUp g8-.[ g-. e-. e-.] cs r r4 \\
 \staff "2" \stemDown cs,8 r <d, e'> r <bf' cs> r a r | %32
 
-\staff "1" R1 \\\
+\staff "1" R1^\markup "6. Tea Party"^\markup "Write your analysis below. (See first page for instructions!)" \\\
 \clef "treble" \stemUp bf8\mp r r4 r r8 df \\\
 R1 \\\
 \staff "1" R1 \\
@@ -320,7 +320,7 @@ R1 \bar ":|." \bar ".|:" \\\
 \staff "2" R1 | %36
 
 \staff "1" \clef "treble^15" \stemUp g'4^\markup "7. Signature Cakes"^\markup "Write your analysis below. (See first page for instructions!)"\mp d f d \\\
-r8. \stemUp d'16 bf'[ g bf8~] bf8.[ d,16] bf'[ g bf8~] \\
+r8.\mp \stemUp d'16 bf'[ g bf8~] bf8.[ d,16] bf'[ g bf8~] \\
 \stemDown bf'16[ g d g] bf[ g d g] bf[ g d g] bf[ g d g] \\\
 R1 \\\
 \staff "1" <bf' g'>1\f \\
@@ -345,7 +345,7 @@ r8. \stemUp g'16 \stemDown ef'[ c ef8] r8. \stemUp g,16 \stemDown ef'[ c ef8] \\
 \staff "1" R1 \\
 \staff "2" R1 \\\
 \staff "1" R1 \\
-\staff "2" \stemUp c16[ ef c ef] \tuplet 2/1 { c4 ef } \tuplet 2/1 { c4 ef } \tuplet 2/1 { c4 ef } \\
+\staff "2" \stemUp c16[ ef c ef] \times 1/2 { c4 ef c ef c ef } \\
 \staff "2" \stemDown c,8-.[ c-. c-. c-.] c-.[ c-. c-. c-.] | %39
 
 \staff "1" \stemUp bf'16[ g bf8] bf[ bf16 g] bf8[ bf16 g] bf[ g bf8] \\\
@@ -354,16 +354,16 @@ r8. \stemUp g'16 \stemDown d'[ bf d8] r8. \stemUp g,16 \stemDown d'[ bf d8] \\\
 \staff "1" R1 \\
 \staff "2" R1 \\\
 \staff "1" R1 \\
-\staff "2" \tuplet 2/1 { bf4 d } \tuplet 2/1 { bf4 d } \tuplet 2/1 { bf4 d } \tuplet 2/1 { bf4 d } \\
+\staff "2" \times 1/2 { \stemUp bf4 d bf d bf d bf d } \\
 \staff "2" \stemDown bf,8-.[ bf-. bf-. bf-.] bf-.[ bf-. bf-. bf-.] | %40
 
 \staff "1" \stemUp a'16[ g a8] a[ a16 g] a8[ a16 g] a[ g a8] \\\
 r8. \stemUp a'16 \stemDown c[ a c8] r8. \stemUp a16 \stemDown c[ a c8] \\\
-<c, a'>1~ \\\
+<c, a'>1~~ \\\
 \staff "1" R1 \\
 \staff "2" R1 \\\
 \staff "1" R1 \\
-\staff "2" \tuplet 2/1 { g4 c } \tuplet 2/1 { g4 c } \tuplet 2/1 { g4 c } \tuplet 2/1 { g4 c } \\
+\staff "2" \times 1/2 { \stemUp g4 c g c g c g c } \\
 \staff "2" \stemDown a,8-.[ a-. a-. a-.] a-.[ a-. a-. a-.] | %41
 
 \staff "1" \stemUp a'16[ g a8] a[ a16 g] a8[ a16 g] a[ g a8] \bar ":|." \\\
@@ -372,5 +372,5 @@ r8. \stemUp a'16 \stemDown c[ a c8] r8. \stemUp a16 \stemDown c[ a c8] \bar ":|.
 \staff "1" R1 \bar ":|." \\
 \staff "2" R1 \\\
 \staff "1" R1 \bar ":|." \\
-\staff "2" \tuplet 2/1 { g4 c } \tuplet 2/1 { g4 c } \tuplet 2/1 { c4 g' } \tuplet 2/1 { c,4 g' } \\
+\staff "2" \times 1/2 { \stemUp g4 c g c c g' c, g' } \\
 \staff "2" \stemDown a,8-.[ a-. a-. a-.] a-.[ a-. a-. a-.] | %42

@@ -158,25 +158,25 @@ Example 11. Realization of Roman numerals with figures.
 
    <e,, a cs>1^\markup "10" \bar "|." | %10
 
-   \clef "treble" s1 \bar "||" | %11
+   \clef "treble" s1^\markup "11" \bar "||" | %11
 
-   \clef "alto" s1 \chords "64" \bar "||" | %12
+   \clef "alto" s1^\markup "12" \chords "64" \bar "||" | %12
 
-   \clef "treble" s1 \chords "64" \bar "||" | %13
+   \clef "treble" s1^\markup "13" \chords "64" \bar "||" | %13
 
-   \clef "bass" s1 \bar "||" | %14
+   \clef "bass" s1^\markup "14" \bar "||" | %14
 
-   s1 \chords "64" \bar "||" | %15
+   s1^\markup "15" \chords "64" \bar "||" | %15
 
-   \clef "treble" s1 \bar "||" | %16
+   \clef "treble" s1^\markup "16" \bar "||" | %16
 
-   \clef "tenor" s1 \bar "||" | %17
+   \clef "tenor" s1^\markup "17" \bar "||" | %17
 
-   \clef "treble" s1 \chords "64" \bar "||" | %18
+   \clef "treble" s1^\markup "18" \chords "64" \bar "||" | %18
 
-   \clef "bass" s1 \bar "||" | %19
+   \clef "bass" s1^\markup "19" \bar "||" | %19
 
-   \clef "treble" s1 \chords "64" \bar "|." | %20
+   \clef "treble" s1^\markup "20" \chords "64" \bar "|." | %20
    ```
    <!-- lilylet-end -->
 2. Seventh Chord Figures ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2021/10/WK-Inversion-and-Figured-Bass-2.pdf), [.mscz](../media/2021/10/WK-Inversion-and-Figured-Bass-2.mscz)) Asks students to write chord symbols and identify the inversion of closed-position chords, and to realize chords from chord-symbol-and-figured-bass notation.
@@ -207,25 +207,25 @@ Example 11. Realization of Roman numerals with figures.
 
    <g, bf df e>1^\markup "10" \bar "|." | %10
 
-   \clef "treble" s1 \chords "Ab43" \bar "||" | %11
+   \clef "treble" s1^\markup "11" \chords "Ab43" \bar "||" | %11
 
-   \clef "alto" s1 \chords "Fm65" \bar "||" | %12
+   \clef "alto" s1^\markup "12" \chords "Fm65" \bar "||" | %12
 
-   \clef "treble" s1 \chords "43" \bar "||" | %13
+   \clef "treble" s1^\markup "13" \chords "43" \bar "||" | %13
 
-   \clef "bass" s1 \chords "42" \bar "||" | %14
+   \clef "bass" s1^\markup "14" \chords "42" \bar "||" | %14
 
-   s1 \chords "65" \bar "||" | %15
+   s1^\markup "15" \chords "65" \bar "||" | %15
 
-   \clef "treble" s1 \chords "43" \bar "||" | %16
+   \clef "treble" s1^\markup "16" \chords "43" \bar "||" | %16
 
-   \clef "tenor" s1 \chords "42" \bar "||" | %17
+   \clef "tenor" s1^\markup "17" \chords "42" \bar "||" | %17
 
-   \clef "treble" s1 \chords "43" \bar "||" | %18
+   \clef "treble" s1^\markup "18" \chords "43" \bar "||" | %18
 
-   \clef "bass" s1 \chords "42" \bar "||" | %19
+   \clef "bass" s1^\markup "19" \chords "42" \bar "||" | %19
 
-   \clef "treble" s1 \chords "65" \bar "|." | %20
+   \clef "treble" s1^\markup "20" \chords "65" \bar "|." | %20
    ```
    <!-- lilylet-end -->
 

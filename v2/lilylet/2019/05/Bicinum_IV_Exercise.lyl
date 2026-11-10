@@ -3,7 +3,7 @@
 [composer "O. Lassus"]
 [staves "<s1,s2>"]
 
-\key f \major \time 4/2 \clef "treble" r1 r \bar ";" \\\
+\key f \major \time 4/2 \clef "treble" r\breve \bar ";" \\\
 \clef "treble" g'1. \stemUp d2 \bar ";" \addlyrics { In -- tel -- } | %1
 
 r1 d'~ \bar ";" \addlyrics { In -- } \\\
@@ -15,71 +15,71 @@ f1 \stemUp bf,2. c4 \bar ";" \addlyrics { lec -- tum __ _ } | %2
 \stemUp f2 s s1 \bar ";" \addlyrics { tum } \\\
 \stemUp a'2 \stemNeutral d,1 \stemUp e2 \bar ";" \addlyrics { _ ti -- bi -- } | %4
 
-s1 s \bar ";" \\\
+s\breve \bar ";" \\\
 \stemUp f2. e4 d2. c4 \bar ";" \addlyrics { da -- _ _ _ } | %5
 
-s1 s \bar ";" \\\
+s\breve \bar ";" \\\
 bf1 \stemUp a2 d \bar ";" \addlyrics { _ bo et } | %6
 
-s1 s \bar ";" \\\
+s\breve \bar ";" \\\
 \stemUp d2 d \stemNeutral f1 \bar ";" \addlyrics { in -- stru -- am } | %7
 
-s1 s \bar ";" \\\
+s\breve \bar ";" \\\
 c1 r2 \stemUp c \bar ";" \addlyrics { te, et } | %8
 
-s1 s \bar ";" \\\
+s\breve \bar ";" \\\
 \stemUp c2 c \stemNeutral ef1 \bar ";" \addlyrics { in -- stru -- am } | %9
 
-s1 s \bar ";" \\\
+s\breve \bar ";" \\\
 \stemUp d2 bf \stemNeutral d1 \bar ";" \addlyrics { te in vi -- } | %10
 
-s1 s \bar ";" \\\
+s\breve \bar ";" \\\
 \stemUp a2 \stemNeutral a'1 \stemUp g2 \bar ";" \addlyrics { a hac qua } | %11
 
-s1 s \bar ";" \\\
+s\breve \bar ";" \\\
 \stemUp f2 e \stemNeutral d1 \bar ";" \addlyrics { gra -- du -- e -- } | %12
 
-s1 s \bar ";" \\\
+s\breve \bar ";" \\\
 \stemUp g2 \stemNeutral g'1 \stemUp f2 \bar ";" \addlyrics { ris, hac qua } | %13
 
-s1 s \bar ";" \\\
+s\breve \bar ";" \\\
 \stemUp e2 d c2. bf4 \bar ";" \addlyrics { gra -- du -- e -- _ } | %14
 
-s1 s \bar ";" \\\
+s\breve \bar ";" \\\
 \stemUp c4 a \stemNeutral d1 \stemUp cs2 \bar ";" \addlyrics { _ _ _ ris, __ } | %15
 
-s1 s \bar ";" \\\
+s\breve \bar ";" \\\
 d1 r2 \stemDown bf' \bar ";" \addlyrics { _ fir -- } | %16
 
-s1 s \bar ";" \\\
+s\breve \bar ";" \\\
 bf'1 bf \bar ";" \addlyrics { ma -- bo, } | %17
 
-s1 s \bar ";" \\\
+s\breve \bar ";" \\\
 r2 \stemUp ef \stemNeutral ef1 \bar ";" \addlyrics { fir -- ma -- } | %18
 
-s1 s \bar ";" \\\
+s\breve \bar ";" \\\
 \stemUp bf2 bf f'4 g a f \bar ";" \addlyrics { bo su -- per __ _ _ _ } | %19
 
-s1 s \bar ";" \\\
+s\breve \bar ";" \\\
 bf'1 a \bar ";" \addlyrics { _ te } | %20
 
-s1 s \bar ";" \\\
+s\breve \bar ";" \\\
 r2 \stemUp g'2. g4 f2 \bar ";" \addlyrics { o -- cu -- los } | %21
 
-s1 s \bar ";" \\\
+s\breve \bar ";" \\\
 ef1 d \bar ";" \addlyrics { me -- os, } | %22
 
-s1 s \bar ";" \\\
+s\breve \bar ";" \\\
 r2 \stemDown bf'2. bf4 \stemUp a2 \bar ";" \addlyrics { o -- cu -- los } | %23
 
-s1 s \bar ";" \\\
+s\breve \bar ";" \\\
 g'1 f \bar ";" \addlyrics { me -- os, } | %24
 
-s1 s \bar ";" \\\
+s\breve \bar ";" \\\
 r2 \stemUp d2. d4 c2 \bar ";" \addlyrics { o -- cu -- los } | %25
 
-s1 s \bar ";" \\\
+s\breve \bar ";" \\\
 bf1 a \bar ";" \addlyrics { me -- _ } | %26
 
-s1 s \bar "|." \\\
-g1~ g\fermata \bar "|." \addlyrics { os. _ } | %27
+s\breve \bar "|." \\\
+g\breve\fermata \bar "|." \addlyrics { os. } | %27

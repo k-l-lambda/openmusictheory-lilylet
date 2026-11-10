@@ -193,7 +193,7 @@ Aspects of music outside of pitch—rhythm, timbre, articulation, dynamic, and s
    \staff "2" \stemUp bf4 bf bf bf \\
    \staff "2" \stemDown g4 ef d bf | %6
 
-   \staff "1" \time 3/4 \stemUp c'2 bf4 \bar "|." \\
+   \staff "1" \time 3/4 \omit Score.TimeSignature \stemUp c'2 bf4 \bar "|." \\
    \staff "1" \stemDown g'4 ef d \\
    \staff "2" \stemUp bf4 a f \\
    \staff "2" \stemDown ef,4 f bf, | %7
@@ -313,7 +313,7 @@ Aspects of music outside of pitch—rhythm, timbre, articulation, dynamic, and s
    \staff "2" \stemUp e4 fs g e \\
    \staff "2" \stemDown cs4 b e, g | %9
 
-   \staff "1" \time 3/4 \stemUp cs'4 cs b\fermata \bar "|." \\
+   \staff "1" \time 3/4 \omit Score.TimeSignature \stemUp cs'4 cs b\fermata \bar "|." \\
    \staff "1" \stemDown as'4 as fs \\
    \staff "2" \stemUp fs4 e d \\
    \staff "2" \stemDown fs,4 fs b,\fermata | %10

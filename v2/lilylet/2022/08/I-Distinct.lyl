@@ -2,7 +2,7 @@
 [composer "Johann Joseph Fux"]
 [staves "s1,s2"]
 
-\key c \major \numericTimeSignature \time 4/4 \clef "treble" s1 \\\
+\key c \major \numericTimeSignature \time 4/4 \clef "treble" s1^\markup "Modal final: d; Cantus firmus: Lower" \\\
 \clef "bass" d,1 | %1
 
 s1 \\\
@@ -68,7 +68,7 @@ s1 | %21
 d1 \bar "|." \\\
 s1 \bar "|." | %22
 
-s1 \\\
+s1^\markup "Modal final: e; Cantus firmus: Lower" \\\
 e,1 | %23
 
 s1 \\\
@@ -128,7 +128,7 @@ s1 | %41
 e1 \bar "|." \\\
 s1 \bar "|." | %42
 
-s1 \\\
+s1^\markup "Modal final: f; Cantus firmus: Lower" \\\
 f,1 | %43
 
 s1 \\\
@@ -200,7 +200,7 @@ s1 | %65
 f1 \bar "|." \\\
 s1 \bar "|." | %66
 
-s1 \\\
+s1^\markup "Modal final: g; Cantus firmus: Lower" \\\
 g,1 | %67
 
 s1 \\\
@@ -284,7 +284,7 @@ s1 | %93
 g1 \bar "|." \\\
 s1 \bar "|." | %94
 
-s1 \\\
+s1^\markup "Modal final: a; Cantus firmus: Lower" \\\
 a,1 | %95
 
 s1 \\\
@@ -356,7 +356,7 @@ s1 | %117
 a1 \bar "|." \\\
 s1 \bar "|." | %118
 
-s1 \\\
+s1^\markup "Modal final: c; Cantus firmus: Lower" \\\
 c,1 | %119
 
 s1 \\\

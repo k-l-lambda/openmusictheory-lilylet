@@ -40,32 +40,32 @@ c'1 | %11
 f'1_\markup "____" \bar "|." \\\
 f1 \bar "|." | %12
 
-\key d \major s1 \\\
+\key d \major s1_\markup "____" \\\
 b1^\markup "Intervals:"_\markup "(Key: B Minor)" | %13
 
-s1 \\\
+s1_\markup "____" \\\
 as1 | %14
 
-s1 \\\
+s1_\markup "____" \\\
 b1 | %15
 
-s1 \\\
+s1_\markup "____" \\\
 d1 | %16
 
-s1 \\\
+s1_\markup "____" \\\
 cs1 | %17
 
-s1 \\\
+s1_\markup "____" \\\
 fs1 | %18
 
-s1 \\\
+s1_\markup "____" \\\
 e1 | %19
 
-s1 \\\
+s1_\markup "____" \\\
 b1 | %20
 
-s1 \\\
+s1_\markup "____" \\\
 cs1 | %21
 
-s1 \bar "|." \\\
+s1_\markup "____" \bar "|." \\\
 b1 \bar "|." | %22

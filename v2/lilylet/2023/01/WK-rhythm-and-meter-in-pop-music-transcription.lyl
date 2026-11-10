@@ -1,0 +1,75 @@
+[title "WK rhythm and meter in pop music transcription"]
+[subtitle "Transcribing Rhythms"]
+[staves "s1,s2,s3,s4,s5,s6,s7"]
+[measures "2*[1, 2], 2*[3, 4], 2*[5, 6], 2*[7, 8]"]
+[instrument-s1 "voice"]
+[instrument-s2 "synth"]
+[instrument-s3 "hi-hat 1"]
+[instrument-s4 "hi-hat 2"]
+[instrument-s5 "hand clap"]
+[instrument-s6 "snare"]
+[instrument-s7 "bass drum"]
+
+\key c \major \numericTimeSignature \time 4/4 \clef "percussion" \stemDown f'4^\markup "Intro" r f r \\\
+\clef "percussion" R1 \\\
+\clef "percussion" \stemUp e8[ e e e] e[ e e e] \\\
+\clef "percussion" e4_\markup "fade in" s s2 \\\
+\clef "percussion" e4 s s2 \\\
+\clef "percussion" e4_\markup "fade in" s s2 \\\
+\clef "percussion" e4 s s2 | %1
+
+\stemDown f'4 f r f \bar ":|." \bar ".|:" \\\
+R1 \bar ":|." \bar ".|:" \\\
+\stemUp e8[ e e e] e[ e e e] \bar ":|." \bar ".|:" \\\
+s1 \bar ":|." \bar ".|:" \\\
+s1 \bar ":|." \bar ".|:" \\\
+s1 \bar ":|." \bar ".|:" \\\
+s1 \bar ":|." \bar ".|:" | %2
+
+s4^\markup "prechorus (\"Middle fingers up…\")" s s2 \\\
+\stemDown f'4 r r r8 f \\\
+R1 \\\
+e4 s s2 \\\
+s1 \\\
+e4 s s2 \\\
+e4 s s2 | %3
+
+s1 \bar ":|." \bar ".|:" \\\
+\stemDown f'4 r r r8 f \bar ":|." \bar ".|:" \\\
+R1 \bar ":|." \bar ".|:" \\\
+s1 \bar ":|." \bar ".|:" \\\
+s1 \bar ":|." \bar ".|:" \\\
+s1 \bar ":|." \bar ".|:" \\\
+s1 \bar ":|." \bar ".|:" | %4
+
+R1^\markup "chorus (\"I ain't thinkin' 'bout you\")" \\\
+s4 s s2 \\\
+s1 \\\
+e4 s s2 \\\
+e4 s s2 \\\
+e4 s s2 \\\
+e4 s s2 | %5
+
+R1 \bar ":|." \bar ".|:" \\\
+s1 \bar ":|." \bar ".|:" \\\
+s1 \bar ":|." \bar ".|:" \\\
+s1 \bar ":|." \bar ".|:" \\\
+s1 \bar ":|." \bar ".|:" \\\
+s1 \bar ":|." \bar ".|:" \\\
+s1 \bar ":|." \bar ".|:" | %6
+
+s4^\markup "coda (\"Left a note in the hallway…\")" s s2 \\\
+s4 s s2 \\\
+R1 \\\
+R1 \\\
+R1 \\\
+\stemDown e4\>-> e e e\! \\\
+e4 s s2 | %7
+
+s1 \bar ":|." \\\
+s1 \bar ":|." \\\
+R1 \bar ":|." \\\
+R1 \bar ":|." \\\
+R1 \bar ":|." \\\
+\stemDown e4\>-> e e e\! \bar ":|." \\\
+s1 \bar ":|." | %8

@@ -1,6 +1,6 @@
 [title "WK Applied Chords A"]
 
-\key bf \major \numericTimeSignature \time 4/4 \clef "treble" <g' a c ef>1_\markup "Gm:" \chords "___________" \bar "||" | %1
+\key bf \major \numericTimeSignature \time 4/4 \clef "treble" \omit Score.TimeSignature <g' a c ef>1_\markup "Gm:" \chords "___________" \bar "||" | %1
 
 \key af \major <f af bf d>1_\markup "A♭:" \chords "___________" \bar "||" | %2
 
@@ -20,27 +20,27 @@
 
 \key df \major <aff, bf d f>1_\markup "D♭:" \chords "___________" \bar "||" | %10
 
-\key e \major \clef "treble" s1 \chords "V65/vi" \bar "||" | %11
+\key e \major \clef "treble" s1_\markup "E:" \chords "V65/vi" \bar "||" | %11
 
-\key f \major s1 \chords "vii°6/iv" \bar "||" | %12
+\key f \major s1_\markup "Dm:" \chords "vii°6/iv" \bar "||" | %12
 
-\key b \major s1 \chords "V/iii" \bar "||" | %13
+\key b \major s1_\markup "B:" \chords "V/iii" \bar "||" | %13
 
-\key e \major s1 \chords "V42/V" \bar "||" | %14
+\key e \major s1_\markup "C♯m:" \chords "V42/V" \bar "||" | %14
 
-\key bf \major s1 \chords "viiø7/VII" \bar "||" | %15
+\key bf \major s1_\markup "Gm:" \chords "viiø7/VII" \bar "||" | %15
 
-\key ef \major \clef "bass" s1 \chords "vii°6/ii" \bar "||" | %16
+\key ef \major \clef "bass" s1_\markup "E♭:" \chords "vii°6/ii" \bar "||" | %16
 
-\key g \major s1 \chords "V43/vi" \bar "||" | %17
+\key g \major s1_\markup "G:" \chords "V43/vi" \bar "||" | %17
 
-\key af \major s1 \chords "viiø65/VI" \bar "||" | %18
+\key af \major s1_\markup "Fm:" \chords "viiø65/VI" \bar "||" | %18
 
-\key d \major s1 \chords "V7/III" \bar "||" | %19
+\key d \major s1_\markup "Bm:" \chords "V7/III" \bar "||" | %19
 
-\key a \major s1 \chords "V6/IV" \bar "||" | %20
+\key a \major s1_\markup "A:" \chords "V6/IV" \bar "||" | %20
 
-\key f \major \clef "treble" s1 \chords "Dm" | %21
+\key f \major \clef "treble" s1_\markup "Dm:" \chords "Dm" | %21
 
 s1 \chords "A7/E" | %22
 

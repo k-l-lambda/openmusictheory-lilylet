@@ -2,7 +2,7 @@
 
 Score files of the 2nd edition converted to lilylet: one `.lyl` per source file, under the same `YYYY/MM/` path as in `v2/media/`. [MANIFEST.md](MANIFEST.md) gives the status and notes of every file. Files linked from a chapter are embedded in it by `scripts/v2/embed.py` (inline when short, as a link otherwise).
 
-The 37 files below are on Pressbooks but not linked from any chapter.
+The 48 files below are on Pressbooks but not linked from any chapter.
 
 ## Fux counterpoint
 
@@ -49,6 +49,17 @@ The 37 files below are on Pressbooks but not linked from any chapter.
 |---|---|---|
 | [WK-Rhythmic-Notation-Simple-A.lyl](2020/01/WK-Rhythmic-Notation-Simple-A.lyl) | workbook-prompt | 34 |
 | [WK-Rhythmic-Notation-Compound-A.lyl](2020/05/WK-Rhythmic-Notation-Compound-A.lyl) | workbook-prompt | 26 |
+| [Ch9Ex11.lyl](2020/08/Ch9Ex11.lyl) | model/example | 3 |
+| [Ch9Ex12.lyl](2020/08/Ch9Ex12.lyl) | model/example | 3 |
+| [Ch9Ex13.lyl](2020/08/Ch9Ex13.lyl) | model/example | 4 |
+| [Ch9Ex14.lyl](2020/08/Ch9Ex14.lyl) | model/example | 4 |
+| [Ch9Ex15.lyl](2020/08/Ch9Ex15.lyl) | model/example | 4 |
+| [Ch9Ex16.lyl](2020/08/Ch9Ex16.lyl) | model/example | 3 |
+| [Ch9Ex17.lyl](2020/08/Ch9Ex17.lyl) | model/example | 3 |
+| [Ch9Ex18.lyl](2020/08/Ch9Ex18.lyl) | model/example | 3 |
+| [Ch9Ex19.lyl](2020/08/Ch9Ex19.lyl) | model/example | 3 |
+| [Ch9Ex20.lyl](2020/08/Ch9Ex20.lyl) | model/example | 3 |
+| [Ch9Ex21.lyl](2020/08/Ch9Ex21.lyl) | model/example | 2 |
 | [Ch9Ex23.lyl](2020/08/Ch9Ex23.lyl) | model/example | 2 |
 | [WK-Rhythmic-Notation-Simple-A-.lyl](2021/05/WK-Rhythmic-Notation-Simple-A-.lyl) | workbook-prompt | 34 |
 | [WK-Rhythmic-Notation-Compound-A.lyl](2021/06/WK-Rhythmic-Notation-Compound-A.lyl) | workbook-prompt | 26 |
@@ -83,4 +94,4 @@ The 37 files below are on Pressbooks but not linked from any chapter.
 
 ## Not converted
 
-23 more unreferenced uploads have no `.lyl`: WK-Key-Signatures-Major.mscx (skipped-empty), WK-Scales-Minor.mscx (skipped-empty), WK-Key-Signatures-Minor.mscx (skipped-empty), WK-Scales-Minor.mscx (skipped-empty), Ch9Ex11.mscx (skipped-percussion), Ch9Ex12.mscx (skipped-percussion), Ch9Ex13.mscx (skipped-percussion), Ch9Ex14.mscx (skipped-percussion), Ch9Ex15.mscx (skipped-percussion), Ch9Ex16.mscx (skipped-percussion), Ch9Ex17.mscx (skipped-percussion), Ch9Ex18.mscx (skipped-percussion), Ch9Ex19.mscx (skipped-percussion), Ch9Ex20.mscx (skipped-percussion), Ch9Ex21.mscx (skipped-percussion), WK-Chromatic-Scales-A.mscx (skipped-empty), WK-Chromatic-Scales-B.mscx (skipped-empty), WK-Diatonic-Modes-A.mscx (skipped-empty), WK-Diatonic-Modes-B.mscx (skipped-empty), WK-Diatonic-Modes-and-the-Chromatic-Scale-1.mscx (skipped-empty), WK-Diatonic-Modes-and-the-Chromatic-Scale-2.mscx (skipped-empty), WK-Diatonic-Modes-and-the-Chromatic-Scale-3.mscx (skipped-empty), WK-Diatonic-Modes-and-the-Chromatic-Scale-4.mscx (skipped-empty).
+12 more unreferenced uploads have no `.lyl`: WK-Key-Signatures-Major.mscx (skipped-empty), WK-Scales-Minor.mscx (skipped-empty), WK-Key-Signatures-Minor.mscx (skipped-empty), WK-Scales-Minor.mscx (skipped-empty), WK-Chromatic-Scales-A.mscx (skipped-empty), WK-Chromatic-Scales-B.mscx (skipped-empty), WK-Diatonic-Modes-A.mscx (skipped-empty), WK-Diatonic-Modes-B.mscx (skipped-empty), WK-Diatonic-Modes-and-the-Chromatic-Scale-1.mscx (skipped-empty), WK-Diatonic-Modes-and-the-Chromatic-Scale-2.mscx (skipped-empty), WK-Diatonic-Modes-and-the-Chromatic-Scale-3.mscx (skipped-empty), WK-Diatonic-Modes-and-the-Chromatic-Scale-4.mscx (skipped-empty).

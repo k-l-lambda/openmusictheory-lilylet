@@ -207,7 +207,7 @@
 \staff "2" \stemDown <g c>2 <af, af'> | %51
 
 \staff "1" \stemUp g'4 g g4. f8 \addlyrics { si -- lence in -- to } \\\
-\staff "1" r8 \stemUp <bf ef g> r <a ef' g> r <af bf d>[ <af bf d> <af bf d>] \\
+\staff "1" r8 \stemUp <bf ef g>\pp r <a ef' g> r <af bf d>[ <af bf d> <af bf d>] \\
 \staff "2" \stemUp bf,4 c <bf, bf'>2 | %52
 
 \staff "1" \stemUp ef2 r4 \bar "||" \addlyrics { pain. } \\\

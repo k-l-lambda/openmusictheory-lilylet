@@ -2,9 +2,9 @@
 [subtitle "Roman Numerals"]
 [staves "{s1-s2},{s3-s4}"]
 
-\staff "1" \key f \major \numericTimeSignature \time 4/4 \clef "treble" <f c' f>1^\markup "1" \chords "_____" \chords "F/A" \bar "||" \\
+\staff "1" \key f \major \numericTimeSignature \time 4/4 \clef "treble" \omit Score.TimeSignature <f c' f>1^\markup "1" \chords "_____" \chords "F/A" \bar "||" \\
 \staff "2" \clef "bass" a,1_\markup "Key: ____"_\markup "F" \chords "_____" \chords "I6" \\\
-\staff "1" \clef "treble" R1 \bar "||" \\
+\staff "1" \clef "treble" \omit Score.TimeSignature R1 \bar "||" \\
 \staff "2" \clef "bass" R1 | %1
 
 \staff "1" \key ef \major <g' c ef g>1^\markup "2" \chords "_____" \bar "||" \\

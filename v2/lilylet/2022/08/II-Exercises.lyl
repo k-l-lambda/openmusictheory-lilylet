@@ -46,7 +46,7 @@ d1 \bar "|." \\\
 s1 \bar "|." \\\
 s1 \bar "|." | %11
 
-s1 \\\
+s1^\markup "Fig. 104; Species: 1; Modal final: d; Cantus firmus: 2" \\\
 d1 \\\
 \clef "treble_8" s1 | %12
 
@@ -90,7 +90,7 @@ s1 \bar "|." \\\
 d1 \bar "|." \\\
 s1 \bar "|." | %22
 
-s1 \\\
+s1^\markup "Fig. 105; Species: 1; Modal final: d; Cantus firmus: 3" \\\
 \clef "treble_8" s1 \\\
 \clef "bass" d,1 | %23
 
@@ -174,7 +174,7 @@ e1 \bar "|." \\\
 s1 \bar "|." \\\
 s1 \bar "|." | %43
 
-s1 \\\
+s1^\markup "Fig. 108; Species: 1; Modal final: e; Cantus firmus: 2" \\\
 \clef "treble" e1 \\\
 \clef "treble_8" s1 | %44
 
@@ -214,7 +214,7 @@ s1 \bar "|." \\\
 e1 \bar "|." \\\
 s1 \bar "|." | %53
 
-s1 \\\
+s1^\markup "Fig. 109; Species: 1; Modal final: e; Cantus firmus: 3" \\\
 \clef "treble_8" s1 \\\
 \clef "bass" e,1 | %54
 
@@ -302,7 +302,7 @@ f1 \bar "|." \\\
 s1 \bar "|." \\\
 s1 \bar "|." | %75
 
-s1 \\\
+s1^\markup "Fig. 111; Species: 1; Modal final: f; Cantus firmus: 2" \\\
 f1 \\\
 \clef "treble_8" s1 | %76
 
@@ -350,7 +350,7 @@ s1 \bar "|." \\\
 f1 \bar "|." \\\
 s1 \bar "|." | %87
 
-s1 \\\
+s1^\markup "Fig. 112; Species: 1; Modal final: f; Cantus firmus: 3" \\\
 s1 \\\
 f1 | %88
 
@@ -454,7 +454,7 @@ g1 \bar "|." \\\
 s1 \bar "|." \\\
 s1 \bar "|." | %113
 
-s1 \\\
+s1^\markup "Fig. 114; Species: 1; Modal final: g; Cantus firmus: 2" \\\
 \clef "treble" g1 \\\
 s1 | %114
 
@@ -558,7 +558,7 @@ a'1 \bar "|." \\\
 s1 \bar "|." \\\
 s1 \bar "|." | %139
 
-s1 \\\
+s1^\markup "Fig. 116; Species: 1; Modal final: a; Cantus firmus: 2" \\\
 a1 \\\
 \clef "bass" s1 | %140
 
@@ -606,7 +606,7 @@ s1 \bar "|." \\\
 a1 \bar "|." \\\
 s1 \bar "|." | %151
 
-s1 \\\
+s1^\markup "Fig. 117; Species: 1; Modal final: a; Cantus firmus: 3" \\\
 \clef "treble_8" s1 \\\
 a,1 | %152
 
@@ -702,7 +702,7 @@ c1 \bar "|." \\\
 s1 \bar "|." \\\
 s1 \bar "|." | %175
 
-s1 \\\
+s1^\markup "Fig. 119; Species: 1; Modal final: c; Cantus firmus: 2" \\\
 \clef "treble" c1 \\\
 \clef "treble_8" s1 | %176
 
@@ -794,7 +794,7 @@ d1 \bar "|." \\\
 s1 \bar "|." \\\
 s1 \bar "|." | %198
 
-r2 s \\\
+r2^\markup "Fig. 122; Species: 2; Modal final: d; Cantus firmus: 2" s \\\
 d1 \\\
 \clef "treble_8" s1 | %199
 
@@ -838,7 +838,7 @@ s1 \bar "|." \\\
 d1 \bar "|." \\\
 s1 \bar "|." | %209
 
-s1 \\\
+s1^\markup "Fig. 123; Species: 2; Modal final: d; Cantus firmus: 2" \\\
 d1 \\\
 r2 s | %210
 
@@ -882,7 +882,7 @@ s1 \bar "|." \\\
 d1 \bar "|." \\\
 s1 \bar "|." | %220
 
-r2 s \\\
+r2^\markup "Fig. 124; Species: 2; Modal final: e; Cantus firmus: 2" s \\\
 e1 \\\
 s1 | %221
 
@@ -922,7 +922,7 @@ s1 \bar "|." \\\
 e1 \bar "|." \\\
 s1 \bar "|." | %230
 
-s1 \\\
+s1^\markup "Fig. 125; Species: 2; Modal final: e; Cantus firmus: 3" \\\
 \clef "treble_8" r2 s \\\
 \clef "bass" e,1 | %231
 
@@ -1050,7 +1050,7 @@ f1 \bar "|." \\\
 s1 \bar "|." \\\
 s1 \bar "|." | %262
 
-r2 s \\\
+r2^\markup "Fig. 128; Species: 2; Modal final: f; Cantus firmus: 2" s \\\
 f1 \\\
 \clef "treble_8" s1 | %263
 
@@ -1098,7 +1098,7 @@ s1 \bar "|." \\\
 f1 \bar "|." \\\
 s1 \bar "|." | %274
 
-s1 \\\
+s1^\markup "Fig. 129; Species: 2; Modal final: f; Cantus firmus: 2" \\\
 \clef "treble_8" f1 \\\
 \clef "bass" r2 s | %275
 
@@ -1146,7 +1146,7 @@ s1 \bar "|." \\\
 f1 \bar "|." \\\
 s1 \bar "|." | %286
 
-s1 \\\
+s1^\markup "Fig. 130; Species: 3; Modal final: d; Cantus firmus: 2" \\\
 \clef "treble" d1 \\\
 s1 | %287
 
@@ -1190,7 +1190,7 @@ s1 \bar "|." \\\
 d1 \bar "|." \\\
 s1 \bar "|." | %297
 
-s1 \\\
+s1^\markup "Fig. 131; Species: 3; Modal final: d; Cantus firmus: 3" \\\
 \clef "treble_8" s1 \\\
 d,1 | %298
 
@@ -1234,7 +1234,7 @@ s1 \bar "|." \\\
 s1 \bar "|." \\\
 d,1 \bar "|." | %308
 
-s1 \\\
+s1^\markup "Fig. 132; Species: 3; Modal final: d; Cantus firmus: 2" \\\
 \clef "treble" d1 \\\
 \clef "treble_8" r4 s2. | %309
 
@@ -1278,7 +1278,7 @@ s1 \bar "|." \\\
 d1 \bar "|." \\\
 s1 \bar "|." | %319
 
-s1 \\\
+s1^\markup "Fig. 134; Species: 2,3; Modal final: d; Cantus firmus: 3" \\\
 \clef "treble_8" s1 \\\
 \clef "bass" d,1 | %320
 
@@ -1322,7 +1322,7 @@ s1 \bar "|." \\\
 s1 \bar "|." \\\
 d,1 \bar "|." | %330
 
-r2 s \\\
+r2^\markup "Fig. 141; Species: 4; Modal final: d; Cantus firmus: 2" s \\\
 \clef "treble" d1 \\\
 s1 | %331
 
@@ -1366,7 +1366,7 @@ s1 \bar "|." \\\
 d1 \bar "|." \\\
 s1 \bar "|." | %341
 
-s1 \\\
+s1^\markup "Fig. 143; Species: 4; Modal final: d; Cantus firmus: 3" \\\
 r2 s \\\
 d,1 | %342
 
@@ -1454,7 +1454,7 @@ d1 \bar "|." \\\
 s1 \bar "|." \\\
 s1 \bar "|." | %363
 
-r2 s \\\
+r2^\markup "Fig. 146; Species: 4; Modal final: e; Cantus firmus: 2" s \\\
 \clef "treble" e1 \\\
 \clef "treble_8" s1 | %364
 
@@ -1534,7 +1534,7 @@ e1 \bar "|." \\\
 s1 \bar "|." \\\
 s1 \bar "|." | %383
 
-s1 \\\
+s1^\markup "Fig. 148; Species: 4; Modal final: e; Cantus firmus: 2" \\\
 \clef "treble" e1 \\\
 r2 s | %384
 
@@ -1574,7 +1574,7 @@ s1 \bar "|." \\\
 e1 \bar "|." \\\
 s1 \bar "|." | %393
 
-r2 s \\\
+r2^\markup "Fig. 149; Species: 4; Modal final: f; Cantus firmus: 2" s \\\
 \clef "treble_8" f1 \\\
 s1 | %394
 
@@ -1622,7 +1622,7 @@ s1 \bar "|." \\\
 f1 \bar "|." \\\
 s1 \bar "|." | %405
 
-s1 \\\
+s1^\markup "Fig. 150; Species: 4; Modal final: f; Cantus firmus: 3" \\\
 \clef "treble" r2 s \\\
 \clef "treble_8" f1 | %406
 
@@ -1718,7 +1718,7 @@ f1 \bar "|." \\\
 s1 \bar "|." \\\
 s1 \bar "|." | %429
 
-r2 s \\\
+r2^\markup "Fig. 154; Species: 5; Modal final: d; Cantus firmus: 2" s \\\
 d1 \\\
 \clef "treble_8" s1 | %430
 
@@ -1806,7 +1806,7 @@ d1 \bar "|." \\\
 s1 \bar "|." \\\
 s1 \bar "|." | %451
 
-s1 \\\
+s1^\markup "Fig. 156; Species: 5; Modal final: d; Cantus firmus: 2" \\\
 \clef "treble" d1 \\\
 r2 s | %452
 
@@ -1850,7 +1850,7 @@ s1 \bar "|." \\\
 d1 \bar "|." \\\
 s1 \bar "|." | %462
 
-r2 s \\\
+r2^\markup "Fig. 157; Species: 5; Modal final: e; Cantus firmus: 2" s \\\
 e1 \\\
 \clef "treble_8" s1 | %463
 
@@ -1930,7 +1930,7 @@ e1 \bar "|." \\\
 s1 \bar "|." \\\
 s1 \bar "|." | %482
 
-s1 \\\
+s1^\markup "Fig. 159; Species: 5; Modal final: e; Cantus firmus: 2" \\\
 \clef "treble" e1 \\\
 r2 s | %483
 

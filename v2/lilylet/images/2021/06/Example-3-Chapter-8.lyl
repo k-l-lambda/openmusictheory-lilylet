@@ -1,0 +1,4 @@
+[title "A breve (double whole note) on the third line"]
+
+% One breve on B4 in a 4/2 bar, then the final barline.
+\omit Score.TimeSignature \time 4/2 \clef "treble" b\breve \bar "|." | %1

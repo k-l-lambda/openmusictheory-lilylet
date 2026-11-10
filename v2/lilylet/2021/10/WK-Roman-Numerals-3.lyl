@@ -47,7 +47,7 @@
 \staff "2" \stemUp e4 fs g e \\
 \staff "2" \stemDown cs4 b e, g | %9
 
-\staff "1" \time 3/4 \stemUp cs'4 cs b\fermata \bar "|." \\
+\staff "1" \time 3/4 \omit Score.TimeSignature \stemUp cs'4 cs b\fermata \bar "|." \\
 \staff "1" \stemDown as'4 as fs \\
 \staff "2" \stemUp fs4 e d \\
 \staff "2" \stemDown fs,4 fs b,\fermata | %10

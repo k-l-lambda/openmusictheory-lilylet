@@ -1,6 +1,6 @@
 [title "WK Blues Scales"]
 
-\key c \major \time 7/4 \clef "treble" \stemUp f4 s2 s1 | %1
+\key c \major \time 7/4 \clef "treble" \omit Score.TimeSignature \stemUp f4 s2 s1 | %1
 
 \stemUp bf4 s2 s1 | %2
 

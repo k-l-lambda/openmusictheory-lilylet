@@ -481,37 +481,37 @@ You can practice matching major key signature names with the circle of fifths in
       [title "Major Scales A"]
       [composer "Kyle Gullings and Megan Lavengood"]
 
-      \key c \major \time 8/4 \clef "treble" s1.. s4 \bar "||" | %1
+      \key c \major \time 8/4 \clef "treble" \omit Score.TimeSignature s1..^\markup "1" s4 \bar "||" | %1
 
-      \clef "alto" s1.. s4 \bar "||" | %2
+      \clef "alto" s1..^\markup "2" s4 \bar "||" | %2
 
-      \clef "treble" s1.. s4 \bar "||" | %3
+      \clef "treble" s1..^\markup "3" s4 \bar "||" | %3
 
-      \clef "tenor" s1.. s4 \bar "||" | %4
+      \clef "tenor" s1..^\markup "4" s4 \bar "||" | %4
 
-      \clef "bass" s1.. s4 \bar "||" | %5
+      \clef "bass" s1..^\markup "5" s4 \bar "||" | %5
 
-      s1.. s4 \bar "||" | %6
+      s1..^\markup "6" s4 \bar "||" | %6
 
-      \numericTimeSignature \time 4/4 \clef "treble" g'1_\markup "F: supertonic"^\markup "7" | %7
+      \numericTimeSignature \time 4/4 \clef "treble" \omit Score.TimeSignature g'1_\markup "F: supertonic"^\markup "7" | %7
 
-      s1 | %8
+      s1^\markup "8"_\markup "B: " | %8
 
-      s1 | %9
+      s1^\markup "9"_\markup "D: " | %9
 
-      \clef "alto" s1 | %10
+      \clef "alto" s1^\markup "10"_\markup "E♭: " | %10
 
-      s1 | %11
+      s1^\markup "11"_\markup "A: dominant" | %11
 
-      \clef "bass" s1 | %12
+      \clef "bass" s1^\markup "12"_\markup "F♯: " | %12
 
-      s1 | %13
+      s1^\markup "13"_\markup "B♭: " | %13
 
-      s1 | %14
+      s1^\markup "14"_\markup "G: submediant" | %14
 
-      \clef "tenor" s1 | %15
+      \clef "tenor" s1^\markup "15"_\markup "D♭: " | %15
 
-      s1 | %16
+      s1^\markup "16"_\markup "E: " | %16
 
       \clef "treble" g'1^\markup "17"_\markup "E♭: ________"_\markup "" | %17
 
@@ -541,37 +541,37 @@ You can practice matching major key signature names with the circle of fifths in
       [subtitle "Treble/Bass only"]
       [composer "Kyle Gullings and Megan Lavengood"]
 
-      \key c \major \time 8/4 \clef "treble" s1.. s4 \bar "||" | %1
+      \key c \major \time 8/4 \clef "treble" \omit Score.TimeSignature s1..^\markup "1" s4 \bar "||" | %1
 
-      s1.. s4 \bar "||" | %2
+      s1..^\markup "2" s4 \bar "||" | %2
 
-      s1.. s4 \bar "||" | %3
+      s1..^\markup "3" s4 \bar "||" | %3
 
-      \clef "bass" s1.. s4 \bar "||" | %4
+      \clef "bass" s1..^\markup "4" s4 \bar "||" | %4
 
-      s1.. s4 \bar "||" | %5
+      s1..^\markup "5" s4 \bar "||" | %5
 
-      s1.. s4 \bar "||" | %6
+      s1..^\markup "6" s4 \bar "||" | %6
 
-      \numericTimeSignature \time 4/4 \clef "treble" g'1_\markup "F: supertonic"^\markup "7" | %7
+      \numericTimeSignature \time 4/4 \clef "treble" \omit Score.TimeSignature g'1_\markup "F: supertonic"^\markup "7" | %7
 
-      s1 | %8
+      s1^\markup "8"_\markup "B: " | %8
 
-      s1 | %9
+      s1^\markup "9"_\markup "D: " | %9
 
-      s1 | %10
+      s1^\markup "10"_\markup "E♭: " | %10
 
-      s1 | %11
+      s1^\markup "11"_\markup "A: dominant" | %11
 
-      \clef "bass" s1 | %12
+      \clef "bass" s1^\markup "12"_\markup "F♯: " | %12
 
-      s1 | %13
+      s1^\markup "13"_\markup "B♭: " | %13
 
-      s1 | %14
+      s1^\markup "14"_\markup "G: submediant" | %14
 
-      s1 | %15
+      s1^\markup "15"_\markup "D♭: " | %15
 
-      s1 | %16
+      s1^\markup "16"_\markup "E: " | %16
 
       \clef "treble" g'1^\markup "17"_\markup "E♭: ________"_\markup "" | %17
 
@@ -601,67 +601,67 @@ You can practice matching major key signature names with the circle of fifths in
       [title "Major Key Signatures B"]
       [composer "Kyle Gullings and Megan Lavengood"]
 
-      \key bf \major \clef "treble" s1 \bar "||" | %1
+      \key bf \major \clef "treble" s1_\markup "______________"_\markup "B♭ major" \bar "||" | %1
 
-      \key gf \major s1 \bar "||" | %2
+      \key gf \major s1_\markup "______________" \bar "||" | %2
 
-      \key g \major s1 \bar "||" | %3
+      \key g \major s1_\markup "______________" \bar "||" | %3
 
-      \key b \major s1 \bar "||" | %4
+      \key b \major s1_\markup "______________" \bar "||" | %4
 
-      \key af \major \clef "bass" s1 \bar "||" | %5
+      \key af \major \clef "bass" s1_\markup "______________" \bar "||" | %5
 
-      \key d \major s1 \bar "||" | %6
+      \key d \major s1_\markup "______________" \bar "||" | %6
 
-      \key a \major s1 \bar "||" | %7
+      \key a \major s1_\markup "______________" \bar "||" | %7
 
-      \key cf \major s1 \bar "||" | %8
+      \key cf \major s1_\markup "______________" \bar "||" | %8
 
-      \key df \major \clef "alto" s1 \bar "||" | %9
+      \key df \major \clef "alto" s1_\markup "______________" \bar "||" | %9
 
-      \key f \major s1 \bar "||" | %10
+      \key f \major s1_\markup "______________" \bar "||" | %10
 
-      \key ef \major \clef "tenor" s1 \bar "||" | %11
+      \key ef \major \clef "tenor" s1_\markup "______________" \bar "||" | %11
 
-      \key cs \major s1 \bar "||" | %12
+      \key cs \major s1_\markup "______________" \bar "||" | %12
 
       \key d \major \clef "treble" s1 \bar "||" | %13
 
-      \key c \major s1 \bar "||" | %14
+      \key c \major s1^\markup "B♭ major" \bar "||" | %14
 
-      s1 \bar "||" | %15
+      s1^\markup "D♭ major" \bar "||" | %15
 
-      s1 \bar "||" | %16
+      s1^\markup "F major" \bar "||" | %16
 
-      \clef "bass" s1 \bar "||" | %17
+      \clef "bass" s1^\markup "G major" \bar "||" | %17
 
-      s1 \bar "||" | %18
+      s1^\markup "A major" \bar "||" | %18
 
-      s1 \bar "||" | %19
+      s1^\markup "B major" \bar "||" | %19
 
-      s1 \bar "||" | %20
+      s1^\markup "E♭ major" \bar "||" | %20
 
-      \clef "alto" s1 \bar "||" | %21
+      \clef "alto" s1^\markup "E major" \bar "||" | %21
 
-      s1 \bar "||" | %22
+      s1^\markup "C♭ major" \bar "||" | %22
 
-      \clef "tenor" s1 \bar "||" | %23
+      \clef "tenor" s1^\markup "A♭ major" \bar "||" | %23
 
-      s1 \bar "||" | %24
+      s1^\markup "F♯ major" \bar "||" | %24
 
-      \key df \major \time 8/4 \clef "treble" \stemUp df4^\markup "______________"^\markup "D♭ major" ef f gf af \stemDown bf c df \bar "||" | %25
+      \key df \major \time 8/4 \clef "treble" \omit Score.TimeSignature \stemUp df4^\markup "______________"^\markup "D♭ major" ef f gf af \stemDown bf c df \bar "||" | %25
 
-      \key e \major s1.. s4 \bar "||" | %26
+      \key e \major s1..^\markup "______________" s4 \bar "||" | %26
 
-      \key f \major \clef "bass" s1.. s4 \bar "||" | %27
+      \key f \major \clef "bass" s1..^\markup "______________" s4 \bar "||" | %27
 
       \key g \major \clef "treble" \stemUp d4^\markup "D major" e fs g a \stemDown b cs d \bar "||" | %28
 
-      \key af \major s1.. s4 \bar "||" | %29
+      \key af \major s1..^\markup "B♭ major" s4 \bar "||" | %29
 
-      \key d \major \clef "bass" s1.. s4 \bar "||" | %30
+      \key d \major \clef "bass" s1..^\markup "G major" s4 \bar "||" | %30
 
-      \key bf \major \clef "alto" s1.. s4 \bar "||" | %31
+      \key bf \major \clef "alto" s1..^\markup "E♭ major" s4 \bar "||" | %31
       ```
       <!-- lilylet-end -->
 	- Treble and bass only ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Major-Scales-B-TB.pdf), [.mscz](../media/2025/07/WK-Major-Scales-B-TB.mscz))
@@ -673,37 +673,37 @@ You can practice matching major key signature names with the circle of fifths in
       [subtitle "Treble/Bass only"]
       [composer "Kyle Gullings and Megan Lavengood"]
 
-      \key c \major \time 8/4 \clef "treble" s1.. s4 \bar "||" | %1
+      \key c \major \time 8/4 \clef "treble" \omit Score.TimeSignature s1..^\markup "1" s4 \bar "||" | %1
 
-      s1.. s4 \bar "||" | %2
+      s1..^\markup "2" s4 \bar "||" | %2
 
-      s1.. s4 \bar "||" | %3
+      s1..^\markup "3" s4 \bar "||" | %3
 
-      \clef "bass" s1.. s4 \bar "||" | %4
+      \clef "bass" s1..^\markup "4" s4 \bar "||" | %4
 
-      s1.. s4 \bar "||" | %5
+      s1..^\markup "5" s4 \bar "||" | %5
 
-      s1.. s4 \bar "||" | %6
+      s1..^\markup "6" s4 \bar "||" | %6
 
-      \numericTimeSignature \time 4/4 \clef "treble" g'1_\markup "F: supertonic"^\markup "7" | %7
+      \numericTimeSignature \time 4/4 \clef "treble" \omit Score.TimeSignature g'1_\markup "F: supertonic"^\markup "7" | %7
 
-      s1 | %8
+      s1^\markup "8"_\markup "E: " | %8
 
-      s1 | %9
+      s1^\markup "9"_\markup "D♭: " | %9
 
-      s1 | %10
+      s1^\markup "10"_\markup "A: " | %10
 
-      s1 | %11
+      s1^\markup "11"_\markup "E♭: leading tone" | %11
 
-      \clef "bass" s1 | %12
+      \clef "bass" s1^\markup "12"_\markup "A♭: " | %12
 
-      s1 | %13
+      s1^\markup "13"_\markup "F♯: " | %13
 
-      s1 | %14
+      s1^\markup "14"_\markup "G: subdominant" | %14
 
-      s1 | %15
+      s1^\markup "15"_\markup "B: " | %15
 
-      s1 | %16
+      s1^\markup "16"_\markup "B♭: " | %16
 
       \clef "treble" g'1^\markup "17"_\markup "E♭: ________"_\markup "" | %17
 
@@ -733,67 +733,67 @@ You can practice matching major key signature names with the circle of fifths in
       [title "Major Key Signatures A"]
       [composer "Kyle Gullings and Megan Lavengood"]
 
-      \key af \major \clef "treble" s1 \bar "||" | %1
+      \key af \major \clef "treble" s1_\markup "______________"_\markup "A♭ major" \bar "||" | %1
 
-      \key a \major s1 \bar "||" | %2
+      \key a \major s1_\markup "______________" \bar "||" | %2
 
-      \key d \major s1 \bar "||" | %3
+      \key d \major s1_\markup "______________" \bar "||" | %3
 
-      \key cf \major s1 \bar "||" | %4
+      \key cf \major s1_\markup "______________" \bar "||" | %4
 
-      \key bf \major \clef "bass" s1 \bar "||" | %5
+      \key bf \major \clef "bass" s1_\markup "______________" \bar "||" | %5
 
-      \key g \major s1 \bar "||" | %6
+      \key g \major s1_\markup "______________" \bar "||" | %6
 
-      \key gf \major s1 \bar "||" | %7
+      \key gf \major s1_\markup "______________" \bar "||" | %7
 
-      \key b \major s1 \bar "||" | %8
+      \key b \major s1_\markup "______________" \bar "||" | %8
 
-      \key cs \major \clef "alto" s1 \bar "||" | %9
+      \key cs \major \clef "alto" s1_\markup "______________" \bar "||" | %9
 
-      \key ef \major s1 \bar "||" | %10
+      \key ef \major s1_\markup "______________" \bar "||" | %10
 
-      \key f \major \clef "tenor" s1 \bar "||" | %11
+      \key f \major \clef "tenor" s1_\markup "______________" \bar "||" | %11
 
-      \key df \major s1 \bar "||" | %12
+      \key df \major s1_\markup "______________" \bar "||" | %12
 
-      \key b \major \clef "treble" s1 \bar "||" | %13
+      \key b \major \clef "treble" s1^\markup "B major" \bar "||" | %13
 
-      \key c \major s1 \bar "||" | %14
+      \key c \major s1^\markup "E♭ major" \bar "||" | %14
 
-      s1 \bar "||" | %15
+      s1^\markup "G major" \bar "||" | %15
 
-      s1 \bar "||" | %16
+      s1^\markup "A major" \bar "||" | %16
 
-      \clef "bass" s1 \bar "||" | %17
+      \clef "bass" s1^\markup "D major" \bar "||" | %17
 
-      s1 \bar "||" | %18
+      s1^\markup "F major" \bar "||" | %18
 
-      s1 \bar "||" | %19
+      s1^\markup "C♯ major" \bar "||" | %19
 
-      s1 \bar "||" | %20
+      s1^\markup "B♭ major" \bar "||" | %20
 
-      \clef "alto" s1 \bar "||" | %21
+      \clef "alto" s1^\markup "F♯ major" \bar "||" | %21
 
-      s1 \bar "||" | %22
+      s1^\markup "A♭ major" \bar "||" | %22
 
-      \clef "tenor" s1 \bar "||" | %23
+      \clef "tenor" s1^\markup "E major" \bar "||" | %23
 
-      s1 \bar "||" | %24
+      s1^\markup "G♭ major" \bar "||" | %24
 
-      \key df \major \time 8/4 \clef "treble" \stemUp df4^\markup "______________"^\markup "D♭ major" ef f gf af \stemDown bf c df \bar "||" | %25
+      \key df \major \time 8/4 \clef "treble" \omit Score.TimeSignature \stemUp df4^\markup "______________"^\markup "D♭ major" ef f gf af \stemDown bf c df \bar "||" | %25
 
-      \key g \major \clef "bass" s1.. s4 \bar "||" | %26
+      \key g \major \clef "bass" s1..^\markup "______________" s4 \bar "||" | %26
 
-      \key af \major \clef "alto" s1.. s4 \bar "||" | %27
+      \key af \major \clef "alto" s1..^\markup "______________" s4 \bar "||" | %27
 
       \key g \major \clef "treble" \stemUp d4^\markup "D major" e fs g a \stemDown b cs d \bar "||" | %28
 
-      \key e \major s1.. s4 \bar "||" | %29
+      \key e \major s1..^\markup "B major" s4 \bar "||" | %29
 
-      \key ef \major \clef "bass" s1.. s4 \bar "||" | %30
+      \key ef \major \clef "bass" s1..^\markup "F major" s4 \bar "||" | %30
 
-      \key g \major \clef "tenor" s1.. s4 \bar "||" | %31
+      \key g \major \clef "tenor" s1..^\markup "A major" s4 \bar "||" | %31
       ```
       <!-- lilylet-end -->
 	- Treble and bass only ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2025/07/WK-Major-Key-Signatures-A-TB.pdf), [.mscz](../media/2025/07/WK-Major-Key-Signatures-A-TB.mscz))
@@ -805,67 +805,67 @@ You can practice matching major key signature names with the circle of fifths in
       [subtitle "Treble/Bass only"]
       [composer "Kyle Gullings and Megan Lavengood"]
 
-      \key af \major \clef "treble" s1 \bar "||" | %1
+      \key af \major \clef "treble" s1_\markup "______________"_\markup "A♭ major" \bar "||" | %1
 
-      \key a \major s1 \bar "||" | %2
+      \key a \major s1_\markup "______________" \bar "||" | %2
 
-      \key d \major s1 \bar "||" | %3
+      \key d \major s1_\markup "______________" \bar "||" | %3
 
-      \key cf \major s1 \bar "||" | %4
+      \key cf \major s1_\markup "______________" \bar "||" | %4
 
-      \key bf \major \clef "bass" s1 \bar "||" | %5
+      \key bf \major \clef "bass" s1_\markup "______________" \bar "||" | %5
 
-      \key g \major s1 \bar "||" | %6
+      \key g \major s1_\markup "______________" \bar "||" | %6
 
-      \key gf \major s1 \bar "||" | %7
+      \key gf \major s1_\markup "______________" \bar "||" | %7
 
-      \key b \major s1 \bar "||" | %8
+      \key b \major s1_\markup "______________" \bar "||" | %8
 
-      \key cs \major \clef "treble" s1 \bar "||" | %9
+      \key cs \major \clef "treble" s1_\markup "______________" \bar "||" | %9
 
-      \key ef \major s1 \bar "||" | %10
+      \key ef \major s1_\markup "______________" \bar "||" | %10
 
-      \key f \major \clef "bass" s1 \bar "||" | %11
+      \key f \major \clef "bass" s1_\markup "______________" \bar "||" | %11
 
-      \key df \major s1 \bar "||" | %12
+      \key df \major s1_\markup "______________" \bar "||" | %12
 
-      \key b \major \clef "treble" s1 \bar "||" | %13
+      \key b \major \clef "treble" s1^\markup "B major" \bar "||" | %13
 
-      \key c \major s1 \bar "||" | %14
+      \key c \major s1^\markup "E♭ major" \bar "||" | %14
 
-      s1 \bar "||" | %15
+      s1^\markup "G major" \bar "||" | %15
 
-      s1 \bar "||" | %16
+      s1^\markup "A major" \bar "||" | %16
 
-      \clef "bass" s1 \bar "||" | %17
+      \clef "bass" s1^\markup "D major" \bar "||" | %17
 
-      s1 \bar "||" | %18
+      s1^\markup "F major" \bar "||" | %18
 
-      s1 \bar "||" | %19
+      s1^\markup "C♯ major" \bar "||" | %19
 
-      s1 \bar "||" | %20
+      s1^\markup "B♭ major" \bar "||" | %20
 
-      s1 \bar "||" | %21
+      s1^\markup "F♯ major" \bar "||" | %21
 
-      s1 \bar "||" | %22
+      s1^\markup "A♭ major" \bar "||" | %22
 
-      \clef "treble" s1 \bar "||" | %23
+      \clef "treble" s1^\markup "E major" \bar "||" | %23
 
-      s1 \bar "||" | %24
+      s1^\markup "G♭ major" \bar "||" | %24
 
-      \key df \major \time 8/4 \stemUp df4^\markup "______________"^\markup "D♭ major" ef f gf af \stemDown bf c df \bar "||" | %25
+      \key df \major \time 8/4 \omit Score.TimeSignature \stemUp df4^\markup "______________"^\markup "D♭ major" ef f gf af \stemDown bf c df \bar "||" | %25
 
-      \key g \major s1.. s4 \bar "||" | %26
+      \key g \major s1..^\markup "______________" s4 \bar "||" | %26
 
-      \key af \major \clef "bass" s1.. s4 \bar "||" | %27
+      \key af \major \clef "bass" s1..^\markup "______________" s4 \bar "||" | %27
 
       \key g \major \clef "treble" \stemUp d4^\markup "D major" e fs g a \stemDown b cs d \bar "||" | %28
 
-      \key e \major s1.. s4 \bar "||" | %29
+      \key e \major s1..^\markup "B major" s4 \bar "||" | %29
 
-      \key ef \major \clef "bass" s1.. s4 \bar "||" | %30
+      \key ef \major \clef "bass" s1..^\markup "F major" s4 \bar "||" | %30
 
-      \key g \major s1.. s4 \bar "||" | %31
+      \key g \major s1..^\markup "A major" s4 \bar "||" | %31
       ```
       <!-- lilylet-end -->
 4. Major Key Signatures B. Asks students to write and identify major key signatures, and to write scales within a key signature context.
@@ -879,67 +879,67 @@ You can practice matching major key signature names with the circle of fifths in
       [subtitle "Treble/Bass only"]
       [composer "Kyle Gullings and Megan Lavengood"]
 
-      \key bf \major \clef "treble" s1 \bar "||" | %1
+      \key bf \major \clef "treble" s1_\markup "______________"_\markup "B♭ major" \bar "||" | %1
 
-      \key gf \major s1 \bar "||" | %2
+      \key gf \major s1_\markup "______________" \bar "||" | %2
 
-      \key g \major s1 \bar "||" | %3
+      \key g \major s1_\markup "______________" \bar "||" | %3
 
-      \key b \major s1 \bar "||" | %4
+      \key b \major s1_\markup "______________" \bar "||" | %4
 
-      \key af \major \clef "bass" s1 \bar "||" | %5
+      \key af \major \clef "bass" s1_\markup "______________" \bar "||" | %5
 
-      \key d \major s1 \bar "||" | %6
+      \key d \major s1_\markup "______________" \bar "||" | %6
 
-      \key a \major s1 \bar "||" | %7
+      \key a \major s1_\markup "______________" \bar "||" | %7
 
-      \key cf \major s1 \bar "||" | %8
+      \key cf \major s1_\markup "______________" \bar "||" | %8
 
-      \key df \major \clef "treble" s1 \bar "||" | %9
+      \key df \major \clef "treble" s1_\markup "______________" \bar "||" | %9
 
-      \key f \major s1 \bar "||" | %10
+      \key f \major s1_\markup "______________" \bar "||" | %10
 
-      \key ef \major \clef "bass" s1 \bar "||" | %11
+      \key ef \major \clef "bass" s1_\markup "______________" \bar "||" | %11
 
-      \key cs \major s1 \bar "||" | %12
+      \key cs \major s1_\markup "______________" \bar "||" | %12
 
       \key d \major \clef "treble" s1 \bar "||" | %13
 
-      \key c \major s1 \bar "||" | %14
+      \key c \major s1^\markup "B♭ major" \bar "||" | %14
 
-      s1 \bar "||" | %15
+      s1^\markup "D♭ major" \bar "||" | %15
 
-      s1 \bar "||" | %16
+      s1^\markup "F major" \bar "||" | %16
 
-      \clef "bass" s1 \bar "||" | %17
+      \clef "bass" s1^\markup "G major" \bar "||" | %17
 
-      s1 \bar "||" | %18
+      s1^\markup "A major" \bar "||" | %18
 
-      s1 \bar "||" | %19
+      s1^\markup "B major" \bar "||" | %19
 
-      s1 \bar "||" | %20
+      s1^\markup "E♭ major" \bar "||" | %20
 
-      s1 \bar "||" | %21
+      s1^\markup "E major" \bar "||" | %21
 
-      s1 \bar "||" | %22
+      s1^\markup "C♭ major" \bar "||" | %22
 
-      \clef "treble" s1 \bar "||" | %23
+      \clef "treble" s1^\markup "A♭ major" \bar "||" | %23
 
-      s1 \bar "||" | %24
+      s1^\markup "F♯ major" \bar "||" | %24
 
-      \key df \major \time 8/4 \stemUp df4^\markup "______________"^\markup "D♭ major" ef f gf af \stemDown bf c df \bar "||" | %25
+      \key df \major \time 8/4 \omit Score.TimeSignature \stemUp df4^\markup "______________"^\markup "D♭ major" ef f gf af \stemDown bf c df \bar "||" | %25
 
-      \key e \major s1.. s4 \bar "||" | %26
+      \key e \major s1..^\markup "______________" s4 \bar "||" | %26
 
-      \key f \major \clef "bass" s1.. s4 \bar "||" | %27
+      \key f \major \clef "bass" s1..^\markup "______________" s4 \bar "||" | %27
 
       \key g \major \clef "treble" \stemUp d4^\markup "D major" e fs g a \stemDown b cs d \bar "||" | %28
 
-      \key af \major s1.. s4 \bar "||" | %29
+      \key af \major s1..^\markup "B♭ major" s4 \bar "||" | %29
 
-      \key d \major \clef "bass" s1.. s4 \bar "||" | %30
+      \key d \major \clef "bass" s1..^\markup "G major" s4 \bar "||" | %30
 
-      \key bf \major s1.. s4 \bar "||" | %31
+      \key bf \major s1..^\markup "E♭ major" s4 \bar "||" | %31
       ```
       <!-- lilylet-end -->
 

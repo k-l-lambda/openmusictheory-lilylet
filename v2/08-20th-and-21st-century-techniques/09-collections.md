@@ -174,7 +174,7 @@ Why do some of these modes keep cropping up in different contexts? Again, that�
    [title "WK Collections"]
    [subtitle "Collections"]
 
-   \key c \major \time 10/4 \clef "bass" fs,,4^\markup "1"^\markup "F♯ pentatonic (major)" s s2 s \bar "||" | %1
+   \key c \major \time 10/4 \clef "bass" \omit Score.TimeSignature fs,,4^\markup "1"^\markup "F♯ pentatonic (major)" s s2 s \bar "||" | %1
 
    a,4^\markup "2"^\markup "A minor pentatonic" s s2 s \bar "||" | %2
 

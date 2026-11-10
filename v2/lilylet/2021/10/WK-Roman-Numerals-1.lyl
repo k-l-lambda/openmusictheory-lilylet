@@ -32,7 +32,7 @@
 \staff "2" \stemUp bf4 bf bf bf \\
 \staff "2" \stemDown g4 ef d bf | %6
 
-\staff "1" \time 3/4 \stemUp c'2 bf4 \bar "|." \\
+\staff "1" \time 3/4 \omit Score.TimeSignature \stemUp c'2 bf4 \bar "|." \\
 \staff "1" \stemDown g'4 ef d \\
 \staff "2" \stemUp bf4 a f \\
 \staff "2" \stemDown ef,4 f bf, | %7

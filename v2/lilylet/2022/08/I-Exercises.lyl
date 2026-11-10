@@ -2,7 +2,7 @@
 [composer "Johann Joseph Fux"]
 [staves "{s1-s2}"]
 
-\key c \major \numericTimeSignature \time 2/2 \clef "treble" s1 \\\
+\key c \major \numericTimeSignature \time 2/2 \clef "treble" s1^\markup "Fig. 5; Species: 1; Modal final: d; Cantus firmus: Lower" \\\
 \clef "treble" d1 | %1
 
 s1 \\\
@@ -68,7 +68,7 @@ s1 | %21
 d1 \bar "|." \\\
 s1 \bar "|." | %22
 
-s1 \\\
+s1^\markup "Fig. 11; Species: 1; Modal final: e; Cantus firmus: Lower" \\\
 \clef "treble" e1 | %23
 
 s1 \\\
@@ -128,7 +128,7 @@ s1 | %41
 e1 \bar "|." \\\
 s1 \bar "|." | %42
 
-s1 \\\
+s1^\markup "Fig. 13; Species: 1; Modal final: f; Cantus firmus: Lower" \\\
 f1 | %43
 
 s1 \\\
@@ -200,7 +200,7 @@ s1 | %65
 f1 \bar "|." \\\
 s1 \bar "|." | %66
 
-\clef "treble" s1 \\\
+\clef "treble" s1^\markup "Fig. 15 (corrected version); Species: 1; Modal final: g; Cantus firmus: Lower" \\\
 \clef "treble_8" g'1 | %67
 
 s1 \\\
@@ -284,7 +284,7 @@ s1 | %93
 g1 \bar "|." \\\
 s1 \bar "|." | %94
 
-s1 \\\
+s1^\markup "Fig. 22; Species: 1; Modal final: a; Cantus firmus: Lower" \\\
 \clef "treble" a1 | %95
 
 s1 \\\
@@ -356,7 +356,7 @@ s1 | %117
 a'1 \bar "|." \\\
 s1 \bar "|." | %118
 
-\clef "treble" s1 \\\
+\clef "treble" s1^\markup "Fig. 33 (corrected version of 26); Species: 2; Modal final: d; Cantus firmus: Lower" \\\
 \clef "treble" d1 | %119
 
 s1 \\\
@@ -422,7 +422,7 @@ s1 | %139
 d1 \bar "|." \\\
 s1 \bar "|." | %140
 
-s1 \\\
+s1^\markup "Fig. 36; Species: 2; Modal final: e; Cantus firmus: Lower" \\\
 \clef "treble" e1 | %141
 
 s1 \\\
@@ -482,7 +482,7 @@ s1 | %159
 e1 \bar "|." \\\
 s1 \bar "|." | %160
 
-\clef "treble_8" s1 \\\
+\clef "treble_8" s1^\markup "Fig. 38; Species: 2; Modal final: f; Cantus firmus: Lower" \\\
 f1 | %161
 
 s1 \\\
@@ -554,7 +554,7 @@ s1 | %183
 f1 \bar "|." \\\
 s1 \bar "|." | %184
 
-\clef "treble" s1 \\\
+\clef "treble" s1^\markup "Fig. 40; Species: 2; Modal final: g; Cantus firmus: Lower" \\\
 g'1 | %185
 
 s1 \\\
@@ -638,7 +638,7 @@ a'1 \\\
 g'1 \bar "|." \\\
 s1 \bar "|." | %212
 
-\clef "treble" s1 \\\
+\clef "treble" s1^\markup "Fig. 42; Species: 2; Modal final: a; Cantus firmus: Lower" \\\
 a'1 | %213
 
 s1 \\\
@@ -707,7 +707,7 @@ s1 | %234
 a1 \bar "|." \\\
 s1 \bar "|." | %235
 
-s1 \\\
+s1^\markup "Fig. 44; Species: 2; Modal final: c; Cantus firmus: Lower" \\\
 \clef "treble" c1 | %236
 
 s1 \\\
@@ -779,7 +779,7 @@ s1 | %258
 c1 \bar "|." \\\
 s1 \bar "|." | %259
 
-s1 \\\
+s1^\markup "Fig. 55; Species: 3; Modal final: d; Cantus firmus: Lower" \\\
 \clef "treble" d1 | %260
 
 s1 \\\
@@ -845,7 +845,7 @@ s1 | %280
 d1 \bar "|." \\\
 s1 \bar "|." | %281
 
-s1 \\\
+s1^\markup "Fig. 57; Species: 3; Modal final: e; Cantus firmus: Lower" \\\
 e'1 | %282
 
 s1 \\\
@@ -905,7 +905,7 @@ s1 | %300
 e1 \bar "|." \\\
 s1 \bar "|." | %301
 
-s1 \\\
+s1^\markup "Fig. 59; Species: 3; Modal final: f; Cantus firmus: Lower" \\\
 f1 | %302
 
 s1 \\\
@@ -977,7 +977,7 @@ s1 | %324
 f1 \bar "|." \\\
 s1 \bar "|." | %325
 
-\clef "treble" s1 \\\
+\clef "treble" s1^\markup "Fig. 73; Species: 4; Modal final: d; Cantus firmus: Lower" \\\
 \clef "treble" d1 | %326
 
 s1 \\\
@@ -1043,7 +1043,7 @@ s1 | %346
 d1 \bar "|." \\\
 s1 \bar "|." | %347
 
-s1 \\\
+s1^\markup "Fig. 75; Species: 4; Modal final: e; Cantus firmus: Lower" \\\
 \clef "treble" e1 | %348
 
 s1 \\\
@@ -1103,7 +1103,7 @@ s1 | %366
 e1 \bar "|." \\\
 s1 \bar "|." | %367
 
-s1 \\\
+s1^\markup "Fig. 77; Species: 4; Modal final: f; Cantus firmus: Lower" \\\
 f1 | %368
 
 s1 \\\
@@ -1175,7 +1175,7 @@ s1 | %390
 f1 \bar "|." \\\
 s1 \bar "|." | %391
 
-\clef "treble" s1 \\\
+\clef "treble" s1^\markup "Fig. 82; Species: 5; Modal final: d; Cantus firmus: Lower" \\\
 \clef "treble" d1 | %392
 
 s1 \\\
@@ -1241,7 +1241,7 @@ s1 | %412
 d'1 \bar "|." \\\
 s1 \bar "|." | %413
 
-\clef "treble" s1 \\\
+\clef "treble" s1^\markup "Fig. 84a; Species: 5; Modal final: e; Cantus firmus: Lower" \\\
 \clef "treble" e1 | %414
 
 s1 \\\
@@ -1301,7 +1301,7 @@ s1 | %432
 e1 \bar "|." \\\
 s1 \bar "|." | %433
 
-\clef "treble_8" s1 \\\
+\clef "treble_8" s1^\markup "Fig. 85a; Species: 5; Modal final: f; Cantus firmus: Lower" \\\
 f1 | %434
 
 s1 \\\
@@ -1373,7 +1373,7 @@ s1 | %456
 f1 \bar "|." \\\
 s1 \bar "|." | %457
 
-\clef "treble" s1 \\\
+\clef "treble" s1^\markup "Fig. 86a; Species: 5; Modal final: g; Cantus firmus: Lower" \\\
 \clef "treble_8" g'1 | %458
 
 s1 \\\
@@ -1457,7 +1457,7 @@ s1 | %484
 g1 \bar "|." \\\
 s1 \bar "|." | %485
 
-s1 \\\
+s1^\markup "Fig. 87a; Species: 5; Modal final: a; Cantus firmus: Lower" \\\
 \clef "treble_8" a'1 | %486
 
 s1 \\\
@@ -1529,7 +1529,7 @@ s1 | %508
 a1 \bar "|." \\\
 s1 \bar "|." | %509
 
-s1 \\\
+s1^\markup "Fig. 88a; Species: 5; Modal final: c; Cantus firmus: Lower" \\\
 c'1 | %510
 
 s1 \\\

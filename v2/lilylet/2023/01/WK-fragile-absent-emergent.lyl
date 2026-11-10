@@ -1,6 +1,6 @@
 [title "WK fragile absent emergent"]
 
-\key e \major \numericTimeSignature \time 4/4 \clef "treble" r8 \stemUp gs' gs[ b16 b~] b8[ fs] fs[ fs16 fs~] | %1
+\key e \major \numericTimeSignature \time 4/4 \clef "treble" r8^\markup "Verse" \stemUp gs' gs[ b16 b~] b8[ fs] fs[ fs16 fs~] | %1
 
 \stemUp fs8[ ds] ds[ ds16 ds~] ds8[ cs16 ds~] ds8[ e] | %2
 

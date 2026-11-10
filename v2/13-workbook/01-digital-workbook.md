@@ -377,6 +377,12 @@ Lilylet transcription of WK-Blues_Scales.mscz: [WK-Blues_Scales.lyl](../lilylet/
 <!-- lilylet-begin: media/2019/08/WK-improv.mscz -->
 Lilylet transcription of WK-improv.mscz: [WK-improv.lyl](../lilylet/2019/08/WK-improv.lyl) (24 bars).
 <!-- lilylet-end -->
+<!-- lilylet-begin: media/2023/01/WK-rhythm-and-meter-in-pop-music-transcription.mscz -->
+Lilylet transcription of WK-rhythm-and-meter-in-pop-music-transcription.mscz: [WK-rhythm-and-meter-in-pop-music-transcription.lyl](../lilylet/2023/01/WK-rhythm-and-meter-in-pop-music-transcription.lyl) (8 bars).
+<!-- lilylet-end -->
+<!-- lilylet-begin: media/2023/07/WK-Drumbeats.mscz -->
+Lilylet transcription of WK-Drumbeats.mscz: [WK-Drumbeats.lyl](../lilylet/2023/07/WK-Drumbeats.lyl) (12 bars).
+<!-- lilylet-end -->
 <!-- lilylet-begin: media/2023/06/WK-modal-schemas_Reharmonization.mscz -->
 Lilylet transcription of WK-modal-schemas_Reharmonization.mscz: [WK-modal-schemas_Reharmonization.lyl](../lilylet/2023/06/WK-modal-schemas_Reharmonization.lyl) (49 bars).
 <!-- lilylet-end -->

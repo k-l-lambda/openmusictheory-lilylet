@@ -3,7 +3,7 @@
 [composer "Chelsey Hamm and Jeremy Freer"]
 [staves "{s1-s2}"]
 
-\staff "1" \key c \major \numericTimeSignature \time 4/4 \clef "treble" gs'2 s \\
+\staff "1" \key c \major \numericTimeSignature \time 4/4 \clef "treble" \omit Score.TimeSignature gs'2 s \\
 \staff "2" \clef "bass" s2 s | %1
 
 \staff "1" ef2 s \\

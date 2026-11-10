@@ -124,11 +124,11 @@
   },
   {
    "image": "v2/media/2025/06/Soprano-Mezzo-Soprano-Baritone-Clef-Line-Letters-scaled-e1749827413950.png",
-   "lyl": null,
+   "lyl": "v2/lilylet/images/2025/06/Soprano-Mezzo-Soprano-Baritone-Clef-Line-Letters.lyl",
    "chapter": "01-fundamentals/03-clefs.md",
    "method": "hand",
-   "status": "failed",
-   "notes": "Soprano (C1), mezzo-soprano (C2) and baritone (C5) clefs are not supported: lilylet CLEF_SHAPES has only treble/bass/alto/tenor (and G/F/C), and an unknown name is encoded as treble with a warning. The image exists to show which letters sit on the lines of these clefs (soprano C4 E4 G4 B4 D5, mezzo A3 C4 E4 G4 B4, baritone B2 D3 F3 A3 C4). Writing them in alto clef would keep the pitches but put them on the wrong lines, which would mislead, so no file was written."
+   "status": "ok",
+   "notes": "Three staves, one in each clef (C1, C2, C5), five whole notes up the lines; the letter above each note is markup. Time signatures hidden in the source. Pitches verified: C4 E4 G4 B4 D5 / A3 C4 E4 G4 B4 / B2 D3 F3 A3 C4."
   },
   {
    "image": "v2/media/2019/05/Screen-Shot-2019-05-30-at-2.03.57-PM.png",
@@ -284,19 +284,19 @@
   },
   {
    "image": "v2/media/2019/05/Breve-Rest.png",
-   "lyl": null,
+   "lyl": "v2/lilylet/images/2019/05/Breve-Rest.lyl",
    "chapter": "01-fundamentals/09-notating-rhythm.md",
    "method": "hand",
-   "status": "failed",
-   "notes": "Image shows only a breve rest glyph: not expressible in lilylet (no breve duration). Two whole rests would misrepresent the glyph being taught, so no file written."
+   "status": "ok",
+   "notes": "A single breve rest filling a 4/2 bar. Written `r\\breve` (lilylet 0.1.96)."
   },
   {
    "image": "v2/media/2021/06/Example-3-Chapter-8.png",
-   "lyl": null,
+   "lyl": "v2/lilylet/images/2021/06/Example-3-Chapter-8.lyl",
    "chapter": "01-fundamentals/09-notating-rhythm.md",
    "method": "hand",
-   "status": "failed",
-   "notes": "Image shows only a double whole note (breve) on a line: breve not expressible in lilylet (c'0 becomes a quarter; \\breve lexes as notes). Two tied whole notes would misrepresent the very glyph being taught, so no file written."
+   "status": "ok",
+   "notes": "One breve (double whole note) on the middle line (B4) in a 4/2 bar. Written `b\\breve`."
   },
   {
    "image": "v2/media/2020/01/Flag-Direction.png",

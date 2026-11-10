@@ -21,22 +21,22 @@
 
 <g, bf df e>1^\markup "10" \bar "|." | %10
 
-\clef "treble" s1 \chords "Ab43" \bar "||" | %11
+\clef "treble" s1^\markup "11" \chords "Ab43" \bar "||" | %11
 
-\clef "alto" s1 \chords "Fm65" \bar "||" | %12
+\clef "alto" s1^\markup "12" \chords "Fm65" \bar "||" | %12
 
-\clef "treble" s1 \chords "43" \bar "||" | %13
+\clef "treble" s1^\markup "13" \chords "43" \bar "||" | %13
 
-\clef "bass" s1 \chords "42" \bar "||" | %14
+\clef "bass" s1^\markup "14" \chords "42" \bar "||" | %14
 
-s1 \chords "65" \bar "||" | %15
+s1^\markup "15" \chords "65" \bar "||" | %15
 
-\clef "treble" s1 \chords "43" \bar "||" | %16
+\clef "treble" s1^\markup "16" \chords "43" \bar "||" | %16
 
-\clef "tenor" s1 \chords "42" \bar "||" | %17
+\clef "tenor" s1^\markup "17" \chords "42" \bar "||" | %17
 
-\clef "treble" s1 \chords "43" \bar "||" | %18
+\clef "treble" s1^\markup "18" \chords "43" \bar "||" | %18
 
-\clef "bass" s1 \chords "42" \bar "||" | %19
+\clef "bass" s1^\markup "19" \chords "42" \bar "||" | %19
 
-\clef "treble" s1 \chords "65" \bar "|." | %20
+\clef "treble" s1^\markup "20" \chords "65" \bar "|." | %20

@@ -1,62 +1,62 @@
 [title "Minor Key Signatures B"]
 [composer "Kyle Gullings and Megan Lavengood"]
 
-\key b \major \clef "treble" s1 \bar "||" | %1
+\key b \major \clef "treble" s1_\markup "______________"_\markup "G♯ minor" \bar "||" | %1
 
-\key df \major s1 \bar "||" | %2
+\key df \major s1_\markup "______________" \bar "||" | %2
 
-\key bf \major s1 \bar "||" | %3
+\key bf \major s1_\markup "______________" \bar "||" | %3
 
-\key fs \major s1 \bar "||" | %4
+\key fs \major s1_\markup "______________" \bar "||" | %4
 
-\key a \major \clef "bass" s1 \bar "||" | %5
+\key a \major \clef "bass" s1_\markup "______________" \bar "||" | %5
 
-\key f \major s1 \bar "||" | %6
+\key f \major s1_\markup "______________" \bar "||" | %6
 
-\key af \major s1 \bar "||" | %7
+\key af \major s1_\markup "______________" \bar "||" | %7
 
-\key g \major s1 \bar "||" | %8
+\key g \major s1_\markup "______________" \bar "||" | %8
 
-\key ef \major \clef "alto" s1 \bar "||" | %9
+\key ef \major \clef "alto" s1_\markup "______________" \bar "||" | %9
 
-\key e \major s1 \bar "||" | %10
+\key e \major s1_\markup "______________" \bar "||" | %10
 
-\key gf \major \clef "tenor" s1 \bar "||" | %11
+\key gf \major \clef "tenor" s1_\markup "______________" \bar "||" | %11
 
-\key d \major s1 \bar "||" | %12
+\key d \major s1_\markup "______________" \bar "||" | %12
 
-\key b \major \clef "treble" s1 \bar "||" | %13
+\key b \major \clef "treble" s1^\markup "G♯ minor" \bar "||" | %13
 
-\key c \major s1 \bar "||" | %14
+\key c \major s1^\markup "A♭ minor" \bar "||" | %14
 
-s1 \bar "||" | %15
+s1^\markup "F minor" \bar "||" | %15
 
-s1 \bar "||" | %16
+s1^\markup "A minor" \bar "||" | %16
 
-\clef "bass" s1 \bar "||" | %17
+\clef "bass" s1^\markup "F♯ minor" \bar "||" | %17
 
-s1 \bar "||" | %18
+s1^\markup "G minor" \bar "||" | %18
 
-s1 \bar "||" | %19
+s1^\markup "C♯ minor" \bar "||" | %19
 
-s1 \bar "||" | %20
+s1^\markup "E minor" \bar "||" | %20
 
-\clef "alto" s1 \bar "||" | %21
+\clef "alto" s1^\markup "D minor" \bar "||" | %21
 
-s1 \bar "||" | %22
+s1^\markup "B minor" \bar "||" | %22
 
-\clef "tenor" s1 \bar "||" | %23
+\clef "tenor" s1^\markup "C minor" \bar "||" | %23
 
-s1 \bar "||" | %24
+s1^\markup "B♭ minor" \bar "||" | %24
 
-\key df \major \time 8/4 \clef "treble" \stemUp bf4^\markup "___ minor; harmonic minor scale"^\markup "B♭" c df ef f gf a \stemDown bf \bar "||" | %25
+\key df \major \time 8/4 \clef "treble" \omit Score.TimeSignature \stemUp bf4^\markup "___ minor; harmonic minor scale"^\markup "B♭" c df ef f gf a \stemDown bf \bar "||" | %25
 
-\key e \major \clef "bass" s1.. s4 \bar "||" | %26
+\key e \major \clef "bass" s1..^\markup "___ minor; harmonic minor scale" s4 \bar "||" | %26
 
-\key f \major s1.. s4 | %27
+\key f \major s1..^\markup "___ minor; harmonic minor scale" s4 | %27
 
-\key a \major \clef "treble" s1.. s4 \bar "||" | %28
+\key a \major \clef "treble" s1..^\markup "___ minor; melodic minor scale" s4 \bar "||" | %28
 
-\key bf \major s1.. s4 \bar "||" | %29
+\key bf \major s1..^\markup "___ minor; melodic minor scale" s4 \bar "||" | %29
 
-\key af \major \clef "bass" s1.. s4 \bar "||" | %30
+\key af \major \clef "bass" s1..^\markup "___ minor; melodic minor scale" s4 \bar "||" | %30

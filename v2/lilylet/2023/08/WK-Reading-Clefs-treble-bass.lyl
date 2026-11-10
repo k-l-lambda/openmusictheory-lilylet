@@ -80,42 +80,42 @@ d1^\markup "59"_\markup "____" \bar "||" | %39
 
 b,,1^\markup "60"_\markup "____" \bar "||" | %40
 
-\clef "treble" s1 \bar "||" | %41
+\clef "treble" s1^\markup "81" \bar "||" | %41
 
-s1 \bar "||" | %42
+s1^\markup "82" \bar "||" | %42
 
-s1 \bar "||" | %43
+s1^\markup "83" \bar "||" | %43
 
-s1 \bar "||" | %44
+s1^\markup "84" \bar "||" | %44
 
-s1 \bar "||" | %45
+s1^\markup "85" \bar "||" | %45
 
-s1 \bar "||" | %46
+s1^\markup "86" \bar "||" | %46
 
-s1 \bar "||" | %47
+s1^\markup "87" \bar "||" | %47
 
-s1 \bar "||" | %48
+s1^\markup "88" \bar "||" | %48
 
-s1 \bar "||" | %49
+s1^\markup "89" \bar "||" | %49
 
-s1 \bar "||" | %50
+s1^\markup "90" \bar "||" | %50
 
-\clef "bass" s1 \bar "||" | %51
+\clef "bass" s1^\markup "91" \bar "||" | %51
 
-s1 \bar "||" | %52
+s1^\markup "92" \bar "||" | %52
 
-s1 \bar "||" | %53
+s1^\markup "93" \bar "||" | %53
 
-s1 \bar "||" | %54
+s1^\markup "94" \bar "||" | %54
 
-s1 \bar "||" | %55
+s1^\markup "95" \bar "||" | %55
 
-s1 \bar "||" | %56
+s1^\markup "96" \bar "||" | %56
 
-s1 \bar "||" | %57
+s1^\markup "97" \bar "||" | %57
 
-s1 \bar "||" | %58
+s1^\markup "98" \bar "||" | %58
 
-s1 \bar "||" | %59
+s1^\markup "99" \bar "||" | %59
 
-s1 \bar "||" | %60
+s1^\markup "100" \bar "||" | %60

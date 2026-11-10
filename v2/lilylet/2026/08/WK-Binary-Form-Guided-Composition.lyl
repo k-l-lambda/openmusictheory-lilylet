@@ -10,7 +10,7 @@
 \staff "2" \stemDown e,4 <g c> <g c> | %2
 
 \staff "1" s2. \\
-\staff "2" \stemDown d,4 <g b f'> <g b f'> | %3
+\staff "2" \stemDown d,4 <g b f'> <g b f'>^\markup "Compose a sentence for mm.1-8" | %3
 
 \staff "1" s2. \\
 \staff "2" \stemUp b,4 \stemDown <g' d' f> <g d' f> | %4
@@ -28,13 +28,13 @@
 \staff "2" \stemDown <c, e g c>2. | %8
 
 \staff "1" s2. \\
-\staff "2" \stemUp gs,4 \stemDown <b' d e> <b d e> | %9
+\staff "2" \stemUp gs,4 \stemDown <b' d e> <b d e>^\markup "Write a sequence model" | %9
 
 \staff "1" s2. \\
 \staff "2" \stemUp a,4 \stemDown <a' c e> <a c e> | %10
 
 \staff "1" s2. \\
-\staff "2" \stemUp fs,,4 \stemDown <a' c d> <a c d> | %11
+\staff "2" \stemUp fs,,4 \stemDown <a' c d> <a c d>^\markup "Write a sequence copy" | %11
 
 \staff "1" s2. \\
 \staff "2" \stemUp g,4 \stemDown <g' b d> <g b d> | %12
@@ -58,7 +58,7 @@
 \staff "2" \stemDown e,4 <g c> <g c> | %18
 
 \staff "1" s2. \\
-\staff "2" \stemDown d,4 <g b f'> <g b f'> | %19
+\staff "2" \stemDown d,4 <g b f'> <g b f'>^\markup "Repeat the melody from mm.1-8" | %19
 
 \staff "1" s2. \\
 \staff "2" \stemUp b,4 \stemDown <g' d' f> <g d' f> | %20

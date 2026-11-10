@@ -153,28 +153,28 @@ Example 3. Two forms of nota cambiata. From downbeat to downbeat, the nota cambi
    d1_\markup "__" \bar "|." \\\
    d,1 \bar "|." | %10
 
-   \key f \major s1 \\\
+   \key f \major s1_\markup "__ __ __ __" \\\
    f,1^\markup "Intervals:" | %11
 
-   s1 \\\
+   s1_\markup "__ __ __ __" \\\
    a1 | %12
 
-   s1 \\\
+   s1_\markup "__ __ __ __" \\\
    c1 | %13
 
-   s1 \\\
+   s1_\markup "__ __ __ __" \\\
    bf1 | %14
 
-   s1 \\\
+   s1_\markup "__ __ __ __" \\\
    g1 | %15
 
-   s1 \\\
+   s1_\markup "__ __ __ __" \\\
    f,1 | %16
 
-   s1 \\\
+   s1_\markup "__ __ __ __" \\\
    e,1 | %17
 
-   s1 \bar "|." \\\
+   s1_\markup "__" \bar "|." \\\
    f,1 \bar "|." | %18
    ```
    <!-- lilylet-end -->
@@ -213,28 +213,28 @@ Example 3. Two forms of nota cambiata. From downbeat to downbeat, the nota cambi
    bf'1_\markup "__" \bar "|." \\\
    bf1 \bar "|." | %8
 
-   \key c \major s1 \\\
+   \key c \major s1_\markup "__  __  __  __" \\\
    \clef "treble" c1^\markup "Intervals:" | %9
 
-   s1 \\\
+   s1_\markup "__  __  __  __" \\\
    d1 | %10
 
-   s1 \\\
+   s1_\markup "__  __  __  __" \\\
    e1 | %11
 
-   s1 \\\
+   s1_\markup "__  __  __  __" \\\
    d1 | %12
 
-   s1 \\\
+   s1_\markup "__  __  __  __" \\\
    g'1 | %13
 
-   s1 \\\
+   s1_\markup "__  __  __  __" \\\
    f1 | %14
 
-   s1 \\\
+   s1_\markup "__  __  __  __" \\\
    d1 | %15
 
-   s1 \bar "|." \\\
+   s1_\markup "__" \bar "|." \\\
    c1 \bar "|." | %16
    ```
    <!-- lilylet-end -->

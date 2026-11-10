@@ -140,7 +140,7 @@ As you can see in Example 11, chromatic scales are often (but not always) writte
       [title "Diatonic Modes A"]
       [composer "Kyle Gullings and Megan Lavengood"]
 
-      \key c \major \time 8/4 \clef "treble" f4 s s2 s s \bar "||" | %1
+      \key c \major \time 8/4 \clef "treble" \omit Score.TimeSignature f4 s s2 s s \bar "||" | %1
 
       d4 s s2 s s \bar "||" | %2
 
@@ -183,7 +183,7 @@ As you can see in Example 11, chromatic scales are often (but not always) writte
       [title "Diatonic Modes B"]
       [composer "Kyle Gullings and Megan Lavengood"]
 
-      \key c \major \time 8/4 \clef "treble" a'4 s s2 s s \bar "||" | %1
+      \key c \major \time 8/4 \clef "treble" \omit Score.TimeSignature a'4 s s2 s s \bar "||" | %1
 
       af'4 s s2 s s \bar "||" | %2
 
@@ -225,7 +225,7 @@ As you can see in Example 11, chromatic scales are often (but not always) writte
       [subtitle "Treble and Bass Clef"]
       [composer "Kyle Gullings and Megan Lavengood"]
 
-      \key c \major \time 8/4 \clef "treble" a'4 s s2 s s \bar "||" | %1
+      \key c \major \time 8/4 \clef "treble" \omit Score.TimeSignature a'4 s s2 s s \bar "||" | %1
 
       af'4 s s2 s s \bar "||" | %2
 
@@ -267,27 +267,27 @@ As you can see in Example 11, chromatic scales are often (but not always) writte
       [title "Chromatic Scales A"]
       [composer "Kyle Gullings and Megan Lavengood"]
 
-      \key c \major \time 13/4 \clef "bass" b,4^\markup "1" s1 s s | %1
+      \key c \major \time 13/4 \clef "bass" \omit Score.TimeSignature b,4^\markup "1" s\breve s1 | %1
 
-      b4 s1 s s \bar "||" | %2
+      b4 s\breve s1 \bar "||" | %2
 
-      \clef "treble" df4^\markup "2" s1 s s | %3
+      \clef "treble" df4^\markup "2" s\breve s1 | %3
 
-      df'4 s1 s s \bar "||" | %4
+      df'4 s\breve s1 \bar "||" | %4
 
       \key a \major \clef "bass" a,4^\markup "A major"^\markup "3" as b bs cs d ds e es fs fss gs a | %5
 
       a4 gs g fs f e ef d cs c b bf a \bar "||" | %6
 
-      \key c \major \clef "treble" s1.. s1. | %7
+      \key c \major \clef "treble" s1..^\markup "E major"^\markup "4" s1. | %7
 
       s1.. s1. \bar "||" | %8
 
-      \clef "bass" s1.. s1. | %9
+      \clef "bass" s1..^\markup "F major"^\markup "5" s1. | %9
 
       s1.. s1. \bar "||" | %10
 
-      \clef "alto" s1.. s1. | %11
+      \clef "alto" s1..^\markup "C minor"^\markup "6" s1. | %11
 
       s1.. s1. \bar "||" | %12
       ```
@@ -301,27 +301,27 @@ As you can see in Example 11, chromatic scales are often (but not always) writte
       [subtitle "Treble and Bass Clef"]
       [composer "Kyle Gullings and Megan Lavengood"]
 
-      \key c \major \time 13/4 \clef "bass" b,4^\markup "1" s1 s s | %1
+      \key c \major \time 13/4 \clef "bass" \omit Score.TimeSignature b,4^\markup "1" s\breve s1 | %1
 
-      b4 s1 s s \bar "||" | %2
+      b4 s\breve s1 \bar "||" | %2
 
-      \clef "treble" df4^\markup "2" s1 s s | %3
+      \clef "treble" df4^\markup "2" s\breve s1 | %3
 
-      df'4 s1 s s \bar "||" | %4
+      df'4 s\breve s1 \bar "||" | %4
 
       \key a \major \clef "bass" a,4^\markup "A major"^\markup "3" as b bs cs d ds e es fs fss gs a | %5
 
       a4 gs g fs f e ef d cs c b bf a \bar "||" | %6
 
-      \key c \major \clef "treble" s1.. s1. | %7
+      \key c \major \clef "treble" s1..^\markup "E major"^\markup "4" s1. | %7
 
       s1.. s1. \bar "||" | %8
 
-      \clef "bass" s1.. s1. | %9
+      \clef "bass" s1..^\markup "F major"^\markup "5" s1. | %9
 
       s1.. s1. \bar "||" | %10
 
-      s1.. s1. | %11
+      s1..^\markup "C minor"^\markup "6" s1. | %11
 
       s1.. s1. \bar "||" | %12
       ```
@@ -335,27 +335,27 @@ As you can see in Example 11, chromatic scales are often (but not always) writte
       [title "Chromatic Scales B"]
       [composer "Kyle Gullings and Megan Lavengood"]
 
-      \key c \major \time 13/4 \clef "tenor" ef,4^\markup "1" s1 s s | %1
+      \key c \major \time 13/4 \clef "tenor" \omit Score.TimeSignature ef,4^\markup "1" s\breve s1 | %1
 
-      ef4 s1 s s \bar "||" | %2
+      ef4 s\breve s1 \bar "||" | %2
 
-      \clef "treble" g'4^\markup "2" s1 s s | %3
+      \clef "treble" g'4^\markup "2" s\breve s1 | %3
 
-      g''4 s1 s s \bar "||" | %4
+      g''4 s\breve s1 \bar "||" | %4
 
       \key a \major \clef "bass" a,4^\markup "A major"^\markup "3" as b bs cs d ds e es fs fss gs a | %5
 
       a4 gs g fs f e ef d cs c b bf a \bar "||" | %6
 
-      \key c \major \clef "treble" s1.. s1. | %7
+      \key c \major \clef "treble" s1..^\markup "B♭ major"^\markup "4" s1. | %7
 
       s1.. s1. \bar "||" | %8
 
-      \clef "bass" s1.. s1. | %9
+      \clef "bass" s1..^\markup "E minor"^\markup "5" s1. | %9
 
       s1.. s1. \bar "||" | %10
 
-      \clef "alto" s1.. s1. | %11
+      \clef "alto" s1..^\markup "C major"^\markup "6" s1. | %11
 
       s1.. s1. \bar "||" | %12
       ```
@@ -369,27 +369,27 @@ As you can see in Example 11, chromatic scales are often (but not always) writte
       [subtitle "Treble/Bass only"]
       [composer "Kyle Gullings and Megan Lavengood"]
 
-      \key c \major \time 13/4 \clef "bass" ef,,4^\markup "1" s1 s s | %1
+      \key c \major \time 13/4 \clef "bass" \omit Score.TimeSignature ef,,4^\markup "1" s\breve s1 | %1
 
-      ef,4 s1 s s \bar "||" | %2
+      ef,4 s\breve s1 \bar "||" | %2
 
-      \clef "treble" g'4^\markup "2" s1 s s | %3
+      \clef "treble" g'4^\markup "2" s\breve s1 | %3
 
-      g''4 s1 s s \bar "||" | %4
+      g''4 s\breve s1 \bar "||" | %4
 
       \key a \major \clef "bass" a,4^\markup "A major"^\markup "3" as b bs cs d ds e es fs fss gs a | %5
 
       a4 gs g fs f e ef d cs c b bf a \bar "||" | %6
 
-      \key c \major \clef "treble" s1.. s1. | %7
+      \key c \major \clef "treble" s1..^\markup "B♭ major"^\markup "4" s1. | %7
 
       s1.. s1. \bar "||" | %8
 
-      \clef "bass" s1.. s1. | %9
+      \clef "bass" s1..^\markup "E minor"^\markup "5" s1. | %9
 
       s1.. s1. \bar "||" | %10
 
-      s1.. s1. | %11
+      s1..^\markup "C major"^\markup "6" s1. | %11
 
       s1.. s1. \bar "||" | %12
       ```

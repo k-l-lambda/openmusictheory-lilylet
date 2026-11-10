@@ -24,6 +24,8 @@ const KNOWN = new Set([
 	"sustainOn", "sustainOff", "bar", "coda", "segno", "chords", "markup", "addlyrics", "figures",
 	"staccato", "staccatissimo", "tenuto", "marcato", "accent", "portato", "trill", "turn", "mordent",
 	"prall", "fermata", "shortfermata", "arpeggio", "breathe", "glissando", "rest", "omit", "undo",
+	// 0.1.96: breves, multi-bar rests, caesura, noteheads, extended dynamics, clefs
+	"breve", "caesura", "xNote", "improvisationOn", "improvisationOff",
 	// dynamics
 	"ppp", "pp", "p", "mp", "mf", "f", "ff", "fff", "sfz", "rfz", "sf", "fp", "fffff", "ppppp", "ffff",
 	"pppp", "sffz", "sfpp", "sfzp", "mfp", "sff", "sfp", "spp", "fz", "pf", "rf", "sp", "n",

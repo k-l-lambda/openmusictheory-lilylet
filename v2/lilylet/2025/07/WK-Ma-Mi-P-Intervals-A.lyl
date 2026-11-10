@@ -1,7 +1,7 @@
 [title "Major, Minor, and Perfect Intervals A"]
 [composer "Kyle Gullings"]
 
-\key c \major \numericTimeSignature \time 4/4 \clef "treble" <b c>1_\markup "mi2" \bar "||" | %1
+\key c \major \numericTimeSignature \time 4/4 \clef "treble" \omit Score.TimeSignature <b c>1_\markup "mi2" \bar "||" | %1
 
 \clef "alto" <es f>1 \bar "||" | %2
 

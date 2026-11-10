@@ -28,18 +28,29 @@ const cases: [string, () => string, (out: string) => boolean][] = [
 			+ n("G", 4, 2, "eighth", tm) + n("B", 4, 2, "eighth", tm, "<chord/>") + n("A", 4, 2, "eighth", tm + `<notations><tuplet type="stop"/></notations>`)
 			+ n("C", 5, 2, "eighth", tm, "<chord/>") + n("C", 5, 6, "quarter"))),
 		o => !/<f a>/.test(o)],
-	["serializer: <time-modification> without a <tuplet> bracket loses its ratio",
+	["serializer: <time-modification> without a <tuplet> bracket loses its ratio (now written \\times)",
 		() => ser(xml(time(2, 4), n("C", 4, 3, "quarter", `<time-modification><actual-notes>2</actual-notes><normal-notes>1</normal-notes></time-modification>`).repeat(4))),
-		o => !/\\tuplet/.test(o)],
+		// \\times 1/2 is the correct rendering; read the bar back and check it is 2 quarters.
+		o => {
+			const ev: any[] = l.parseCode(o).measures[0].parts[0].voices[0].events as any[];
+			const q = (d: any) => { let v = 4 / d.division, add = v; for (let i = 0; i < (d.dots || 0); i++) { add /= 2; v += add; } return v; };
+			let total = 0;
+			for (const e of ev) {
+				if (e.type === "note" || e.type === "rest") total += q(e.duration);
+				else if (e.type === "tuplet" || e.type === "times") total += e.events.reduce((a: number, x: any) => a + q(x.duration), 0) * e.ratio.numerator / e.ratio.denominator;
+			}
+			return Math.abs(total - 2) > 1e-9;
+		}],
 	["decoder: zero-net <backup>/<forward> around a direction adds spacer rests",
 		() => ser(xml(time(2, 4), n("C", 4, 6, "quarter") + `<backup><duration>3</duration></backup><direction><direction-type><words>x</words></direction-type></direction><forward><duration>3</duration></forward>` + n("D", 4, 6, "quarter"))),
 		o => /\bs\d/.test(o)],
 	["decoder/parser: breve serializes as `0.5`, read back as a dotted quarter + fingering 5",
 		() => JSON.stringify(marks(ser(xml(time(4, 2), n("C", 5, 48, "breve"))))),
 		o => /fingering:5/.test(o)],
-	["parser: full-bar rest `R0.5` (bars longer than a whole note) reads as division 0",
-		() => JSON.stringify((l.parseCode(String.raw`\time 4/2 R0.5 | %1`).measures[0].parts[0].voices[0].events as any[]).find(e => e.type === "rest").duration),
-		o => /"division":0/.test(o)],
+	["parser: full-bar rest in a bar longer than a whole note (now written `R\\breve`)",
+		() => JSON.stringify((l.parseCode(String.raw`\time 4/2 R\breve | %1`).measures[0].parts[0].voices[0].events as any[]).find(e => e.type === "rest").duration),
+		// A breve is division 0.5; anything lower is a duration no meter can hold.
+		o => { const d = JSON.parse(o); return !(d.division === 0.5 && !d.dots); }],
 	["decoder: <time symbol=common|cut> ignored (numeric 4/4, 2/2 drawn)",
 		() => ser(xml(time(2, 2, ` symbol="cut"`), n("C", 5, 24, "whole"))),
 		o => /numericTimeSignature/.test(o)],
@@ -83,7 +94,9 @@ e2) f | %2`)).split(/<measure\b/).findIndex(m => /<slur /.test(m))).toString(),
 	["decoder: a <direction> before a <rest> goes to the next NOTE (other staff / later bar)",
 		() => ser(xml(time(2, 4), `<direction><direction-type><words>X</words></direction-type></direction>` +
 			`<note><rest/><duration>6</duration><voice>1</voice><type>quarter</type></note>` + n("C", 5, 6, "quarter"))),
-		o => /c''4?[^|]*\\markup "X"|c''[^ ]*\^\\markup "X"/.test(o) || /markup "X"/.test(o.split("r4")[1] || "")],
+		// The text must stay on the rest: `r4` (with or without ^/_) carrying the markup,
+		// not a markup after the following note.
+		o => !/r4[^\\\n]*\\markup "X"/.test(o) || /c''4[^|]*\\markup "X"/.test(o)],
 	["decoder vs meiEncoder: octave clef (treble_8). Decoder keeps MusicXML's sounding pitch, encoder reads the lyl pitch as written: drawn an octave low",
 		() => {
 			const x = xml(`<time><beats>1</beats><beat-type>4</beat-type></time><clef><sign>G</sign><line>2</line><clef-octave-change>-1</clef-octave-change></clef>`, n("C", 4, 6, "quarter"));

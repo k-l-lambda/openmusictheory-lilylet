@@ -1,6 +1,6 @@
 [title "WK Applied Chords C"]
 
-\key bf \major \numericTimeSignature \time 4/4 \clef "treble" <a' c ef gf>1_\markup "Gmi:"^\markup "________" \chords "A°7" \chords "vii°7/III" \bar "||" | %1
+\key bf \major \numericTimeSignature \time 4/4 \clef "treble" \omit Score.TimeSignature <a' c ef gf>1_\markup "Gmi:"^\markup "________" \chords "A°7" \chords "vii°7/III" \bar "||" | %1
 
 \key af \major <bf d f af>1_\markup "A♭:"_\markup "________"^\markup "________" \bar "||" | %2
 
@@ -22,25 +22,25 @@
 
 \key e \major \clef "treble" <gs' bs ds fs>1_\markup "E:"^\markup "________" \chords "V7/vi" \chords "G#7" \bar "||" | %11
 
-\key f \major s1 \chords "vii°7/iv" \bar "||" | %12
+\key f \major s1_\markup "Dmi:"^\markup "________" \chords "vii°7/iv" \bar "||" | %12
 
-\key b \major s1 \chords "V7/iii" \bar "||" | %13
+\key b \major s1_\markup "B:"^\markup "________" \chords "V7/iii" \bar "||" | %13
 
-\key e \major s1 \chords "V7/V" \bar "||" | %14
+\key e \major s1_\markup "C♯mi:"^\markup "________" \chords "V7/V" \bar "||" | %14
 
-\key bf \major s1 \chords "vii°7/VII" \bar "||" | %15
+\key bf \major s1_\markup "Gmi:"^\markup "________" \chords "vii°7/VII" \bar "||" | %15
 
-\key ef \major \clef "bass" s1 \chords "vii°7/ii" \bar "||" | %16
+\key ef \major \clef "bass" s1_\markup "E♭:"^\markup "________" \chords "vii°7/ii" \bar "||" | %16
 
-\key g \major s1 \chords "V7/vi" \bar "||" | %17
+\key g \major s1_\markup "G:"^\markup "________" \chords "V7/vi" \bar "||" | %17
 
-\key af \major s1 \chords "vii°7/VI" \bar "||" | %18
+\key af \major s1_\markup "Fmi:"^\markup "________" \chords "vii°7/VI" \bar "||" | %18
 
-\key d \major s1 \chords "V7/III" \bar "||" | %19
+\key d \major s1_\markup "Bmi:"^\markup "________" \chords "V7/III" \bar "||" | %19
 
-\key a \major s1 \chords "V7/IV" \bar "||" | %20
+\key a \major s1_\markup "A:"^\markup "________" \chords "V7/IV" \bar "||" | %20
 
-\key f \major \clef "treble" s1 \chords "F6" | %21
+\key f \major \clef "treble" s1^\markup "21"_\markup "F:" \chords "F6" | %21
 
 s1 \chords "Dmi7" | %22
 
@@ -58,7 +58,7 @@ s1 \chords "C7" | %28
 
 s1 \chords "F6" \bar "||" | %29
 
-\key bf \major s1 \chords "Bbma7" \chords "G7" | %30
+\key bf \major s1^\markup "22"_\markup "B♭:" \chords "Bbma7" \chords "G7" | %30
 
 s2 \chords "Cmi7" s \chords "F7" | %31
 
@@ -70,7 +70,7 @@ s1 \chords "Cmi7" \chords "F7" | %34
 
 s1 \chords "Bbma7" \bar "||" | %35
 
-\key a \major s1 \chords "A:" \chords "Ama7" | %36
+\key a \major s1^\markup "23" \chords "A:" \chords "Ama7" | %36
 
 s1 \chords "Bm7" | %37
 

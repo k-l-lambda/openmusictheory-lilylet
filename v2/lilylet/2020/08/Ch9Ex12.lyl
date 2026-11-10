@@ -1,0 +1,7 @@
+[title "Ch9Ex12"]
+
+\key c \major \numericTimeSignature \time 4/4 \clef "percussion" \stemUp f'8[ f] f[ f] f[ f] f[ f] \addlyrics { 1 + 2 + 3 + 4 + } | %1
+
+\stemUp f'16[ f f f] f[ f f f] f[ f f f] f[ f f f] \addlyrics { 1 e + a 2 e + a 3 e + a 4 e + a } | %2
+
+\stemUp f'32[ f f f f f f f] \stemDown f4 f2_\markup "(4)" \bar "|." \addlyrics { 1 ta e ta + ta a ta 2 3 } | %3

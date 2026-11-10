@@ -3,50 +3,50 @@
 [composer "Palestrina"]
 [staves "<s1,s2,s3,s4>"]
 
-\key c \major \time 4/2 \clef "treble" a'1~ a \bar ";" \addlyrics { Sur -- _ } \\\
-\clef "treble" r1 r \bar ";" \\\
-\clef "treble_8" r1 r \bar ";" \\\
-\clef "bass" r1 r \bar ";" | %1
+\key c \major \time 4/2 \clef "treble" a'\breve \bar ";" \addlyrics { Sur -- } \\\
+\clef "treble" r\breve \bar ";" \\\
+\clef "treble_8" r\breve \bar ";" \\\
+\clef "bass" r\breve \bar ";" | %1
 
 a'1 \stemDown d2. d4 \bar ";" \addlyrics { ge, pro -- pe -- } \\\
-r1 r \bar ";" \\\
-r1 r \bar ";" \\\
-r1 r \bar ";" | %2
+r\breve \bar ";" \\\
+r\breve \bar ";" \\\
+r\breve \bar ";" | %2
 
 \stemDown d'2 f f d \bar ";" \addlyrics { ra a -- mi -- ca } \\\
-d1~ d \bar ";" \addlyrics { Sur -- _ } \\\
-r1 r \bar ";" \\\
-r1 r \bar ";" | %3
+d\breve \bar ";" \addlyrics { Sur -- } \\\
+r\breve \bar ";" \\\
+r\breve \bar ";" | %3
 
 s1.. s4 \bar ";" \\\
 d1 \stemUp a'2. a4 \bar ";" \addlyrics { ge, pro -- pe -- } \\\
-r1 r \bar ";" \\\
-r1 r \bar ";" | %4
+r\breve \bar ";" \\\
+r\breve \bar ";" | %4
 
 s1.. s4 \bar ";" \\\
 \stemUp a'2 \stemDown c c \stemUp a \bar ";" \addlyrics { ra a -- mi -- ca } \\\
-a'1~ a \bar ";" \addlyrics { Sur -- _ } \\\
-r1 r \bar ";" | %5
+a'\breve \bar ";" \addlyrics { Sur -- } \\\
+r\breve \bar ";" | %5
 
 s1.. s4 \bar ";" \\\
 \stemDown c'2. b4 \stemUp a g a2 \bar ";" \addlyrics { me -- _ _ _ _ } \\\
 a'1 \stemDown d2. d4 \bar ";" \addlyrics { ge, pro -- pe -- } \\\
-r1 r \bar ";" | %6
+r\breve \bar ";" | %6
 
 s1.. s4 \bar ";" \\\
 \stemUp f2 d a' \stemDown b~ \bar ";" \addlyrics { a a -- mi -- ca } \\\
 \stemDown d'2 f f d \bar ";" \addlyrics { ra a -- mi -- ca } \\\
-r1 r \bar ";" | %7
+r\breve \bar ";" | %7
 
 s1.. s4 \bar ";" \\\
 \stemDown b'4 \stemUp a \stemNeutral a1 \stemUp gs2 \bar ";" \addlyrics { _ _ _ me -- } \\\
 f'1 e \bar ";" \addlyrics { me -- a } \\\
-r1 r \bar ";" | %8
+r\breve \bar ";" | %8
 
 s1.. s4 \bar ";" \\\
 a'1 d,~ \bar ";" \addlyrics { a Sur -- } \\\
 r2 \stemDown f' f d \bar ";" \addlyrics { a -- mi -- ca } \\\
-d,1~ d \bar ";" \addlyrics { Sur -- _ } | %9
+d,\breve \bar ";" \addlyrics { Sur -- } | %9
 
 s1.. s4 \bar ";" \\\
 \stemUp d2 d c f \bar ";" \addlyrics { _ ge, pro -- pe -- } \\\
@@ -71,12 +71,12 @@ a1 r \bar ";" \addlyrics { a } | %13
 s1.. s4 \bar ";" \\\
 \stemUp f4 g \stemNeutral a1 \stemUp g2 \bar ";" \\\
 \stemDown d'2 c \stemNeutral b1 \bar ";" \\\
-r1 r \bar ";" | %14
+r\breve \bar ";" | %14
 
 s1.. s4 \bar ";" \\\
 \stemUp f2 d \stemNeutral a'1~ \bar ";" \addlyrics { _ _ a } \\\
 a'1 r2 \stemDown d~ \bar ";" \addlyrics { a Sur -- } \\\
-d,1~ d \bar ";" \addlyrics { Sur -- _ } | %15
+d,\breve \bar ";" \addlyrics { Sur -- } | %15
 
 s1.. s4 \bar ";" \\\
 a'1 r2 \stemUp c, \bar ";" \addlyrics { _ a -- } \\\
@@ -106,7 +106,7 @@ d,1 r \bar ";" | %20
 s1.. s4 \bar ";" \\\
 \stemDown c'4 b \stemNeutral a1 \stemUp gs2 \bar ";" \\\
 f'1 \stemDown e2. d4 \bar ";" \addlyrics { ve -- _ _ } \\\
-r1 r \bar ";" | %21
+r\breve \bar ";" | %21
 
 s1.. s4 \bar ";" \\\
 \stemUp a'2 e \stemNeutral f1 \bar ";" \addlyrics { ni et ve -- } \\\
@@ -128,7 +128,7 @@ s1.. s4 \bar ";" \\\
 d'1 e \bar ";" \addlyrics { et ve -- } \\\
 bf1 a \bar ";" \addlyrics { ve -- ni } | %25
 
-d'1^\markup "(continues)"~ d \bar ";" \addlyrics { ni _ } \\\
+d'\breve^\markup "(continues)" \bar ";" \addlyrics { ni } \\\
 r2 \stemUp a' a d, \bar ";" \addlyrics { jam e -- nim } \\\
 d'1 r2 \stemDown a' \bar ";" \addlyrics { ni jam } \\\
-d,1~ d \bar ";" | %26
+d,\breve \bar ";" | %26

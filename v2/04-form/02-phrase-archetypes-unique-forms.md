@@ -737,7 +737,7 @@ When we analyze such passages, we can still perform a segmentation analysis. We 
 
    s1 | %3
 
-   s1 \bar "||" | %4
+   s1^\markup "Cadence:" \bar "||" | %4
 
    \key f \major \time 3/4 \stemUp a'8^\markup "2"[ a16 a] \stemDown c8[ a] \stemUp f4 | %5
 
@@ -745,7 +745,7 @@ When we analyze such passages, we can still perform a segmentation analysis. We 
 
    s2. | %7
 
-   s2. \bar "||" | %8
+   s2.^\markup "Cadence:" \bar "||" | %8
 
    \key af \major \time 6/8 \stemDown c'8^\markup "3"[ bf af] df4. | %9
 
@@ -753,7 +753,7 @@ When we analyze such passages, we can still perform a segmentation analysis. We 
 
    s2. | %11
 
-   s2. \bar "|." | %12
+   s2.^\markup "Cadence:" \bar "|." | %12
    ```
    <!-- lilylet-end -->
 4. Composing fully realized sentences ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2021/07/WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Fully-realized-Sentences.pdf), [.mscx](../media/2021/07/WK-The-Phrase-Archetypes-and-Unique-Forms-–-Composing-Fully-realized-Sentences.mscx)). Students select from a bank of basic ideas to compose an 8-measure sentence with full texture (accompaniment and melody).

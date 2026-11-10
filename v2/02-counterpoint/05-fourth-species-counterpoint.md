@@ -128,31 +128,31 @@ Example 4. Composing fourth-species below a cantus firmus.
    a'1_\markup "___" \bar "|." \\\
    a1 \bar "|." | %10
 
-   \key g \major s1 \\\
+   \key g \major s1_\markup "___   ___" \\\
    \clef "bass" g1^\markup "Intervals:" | %11
 
-   s1 \\\
+   s1_\markup "___   ___" \\\
    a1 | %12
 
-   s1 \\\
+   s1_\markup "___   ___" \\\
    c1 | %13
 
-   s1 \\\
+   s1_\markup "___   ___" \\\
    d1 | %14
 
-   s1 \\\
+   s1_\markup "___   ___" \\\
    c1 | %15
 
-   s1 \\\
+   s1_\markup "___   ___" \\\
    a1 | %16
 
-   s1 \\\
+   s1_\markup "___   ___" \\\
    b1 | %17
 
-   s1 \\\
+   s1_\markup "___   ___" \\\
    a1 | %18
 
-   s1 \bar "|." \\\
+   s1_\markup "___" \bar "|." \\\
    g1 \bar "|." | %19
    ```
    <!-- lilylet-end -->
@@ -194,34 +194,34 @@ Example 4. Composing fourth-species below a cantus firmus.
    f1_\markup "___" \bar "|." \\\
    f,1 \bar "|." | %9
 
-   \key a \major s1 \\\
+   \key a \major s1_\markup "___   ___" \\\
    \clef "treble" a1^\markup "Intervals:" | %10
 
-   s1 \\\
+   s1_\markup "___   ___" \\\
    cs1 | %11
 
-   s1 \\\
+   s1_\markup "___   ___" \\\
    d1 | %12
 
-   s1 \\\
+   s1_\markup "___   ___" \\\
    e1 | %13
 
-   s1 \\\
+   s1_\markup "___   ___" \\\
    fs1 | %14
 
-   s1 \\\
+   s1_\markup "___   ___" \\\
    cs1 | %15
 
-   s1 \\\
+   s1_\markup "___   ___" \\\
    d1 | %16
 
-   s1 \\\
+   s1_\markup "___   ___" \\\
    cs1 | %17
 
-   s1 \\\
+   s1_\markup "___   ___" \\\
    b1 | %18
 
-   s1 \bar "|." \\\
+   s1_\markup "___" \bar "|." \\\
    a1 \bar "|." | %19
    ```
    <!-- lilylet-end -->

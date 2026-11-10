@@ -1,7 +1,7 @@
 [title "Diatonic Modes A"]
 [composer "Kyle Gullings and Megan Lavengood"]
 
-\key c \major \time 8/4 \clef "treble" f4 s s2 s s \bar "||" | %1
+\key c \major \time 8/4 \clef "treble" \omit Score.TimeSignature f4 s s2 s s \bar "||" | %1
 
 d4 s s2 s s \bar "||" | %2
 

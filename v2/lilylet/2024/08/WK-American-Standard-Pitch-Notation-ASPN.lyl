@@ -1,6 +1,6 @@
 [title "WK American Standard Pitch Notation ASPN"]
 
-\key c \major \numericTimeSignature \time 4/4 \clef "treble" d'1 \bar "||" | %1
+\key c \major \numericTimeSignature \time 4/4 \clef "treble" \omit Score.TimeSignature d'1 \bar "||" | %1
 
 g'1 \bar "||" | %2
 
@@ -160,82 +160,82 @@ g,1 \bar "||" | %79
 
 g'1 \bar "|." | %80
 
-\clef "treble" s1 | %81
+\clef "treble" s1_\markup "C5" | %81
 
-s1 | %82
+s1_\markup "E4" | %82
 
-s1 | %83
+s1_\markup "F5" | %83
 
-s1 | %84
+s1_\markup "A4" | %84
 
-s1 | %85
+s1_\markup "D5" | %85
 
-s1 | %86
+s1_\markup "B3" | %86
 
-s1 | %87
+s1_\markup "G4" | %87
 
-s1 | %88
+s1_\markup "C4" | %88
 
-s1 | %89
+s1_\markup "F4" | %89
 
-s1 | %90
+s1_\markup "A5" | %90
 
-\clef "bass" s1 | %91
+\clef "bass" s1_\markup "F3" | %91
 
-s1 | %92
+s1_\markup "E2" | %92
 
-s1 | %93
+s1_\markup "D3" | %93
 
-s1 | %94
+s1_\markup "B2" | %94
 
-s1 | %95
+s1_\markup "C4" | %95
 
-s1 | %96
+s1_\markup "A3" | %96
 
-s1 | %97
+s1_\markup "F2" | %97
 
-s1 | %98
+s1_\markup "G3" | %98
 
-s1 | %99
+s1_\markup "E3" | %99
 
-s1 | %100
+s1_\markup "D2" | %100
 
-\clef "alto" s1 | %101
+\clef "alto" s1_\markup "B3" | %101
 
-s1 | %102
+s1_\markup "D4" | %102
 
-s1 | %103
+s1_\markup "E3" | %103
 
-s1 | %104
+s1_\markup "G4" | %104
 
-s1 | %105
+s1_\markup "D3" | %105
 
-s1 | %106
+s1_\markup "A4" | %106
 
-s1 | %107
+s1_\markup "G3" | %107
 
-s1 | %108
+s1_\markup "F4" | %108
 
-s1 | %109
+s1_\markup "C4" | %109
 
-s1 | %110
+s1_\markup "A3" | %110
 
-s1 | %111
+s1_\markup "D4" | %111
 
-s1 | %112
+s1_\markup "C3" | %112
 
-s1 | %113
+s1_\markup "A3" | %113
 
-s1 | %114
+s1_\markup "B3" | %114
 
-s1 | %115
+s1_\markup "D3" | %115
 
-s1 | %116
+s1_\markup "F4" | %116
 
-s1 | %117
+s1_\markup "B4" | %117
 
-s1 | %118
+s1_\markup "C4" | %118
 
-s1 | %119
+s1_\markup "G3" | %119
 
-s1 \bar "|." | %120
+s1_\markup "E3" \bar "|." | %120

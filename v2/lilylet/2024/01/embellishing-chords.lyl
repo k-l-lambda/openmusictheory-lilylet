@@ -1,7 +1,7 @@
 [title "Embellishing Chords"]
 [composer "Megan Lavengood"]
 
-\key c \major \time 2/1 \clef "treble" <c e g bf>1 \chords "_____" \chords "C7" <f a c ef> \chords "F7" \bar "||" | %1
+\key c \major \time 2/1 \clef "treble" \omit Score.TimeSignature <c e g bf>1 \chords "_____" \chords "C7" <f a c ef> \chords "F7" \bar "||" | %1
 
 s1 \chords "_____" s \chords "Bø7" \bar "||" | %2
 

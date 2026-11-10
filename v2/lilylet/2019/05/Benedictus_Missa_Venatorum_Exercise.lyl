@@ -4,7 +4,7 @@
 [staves "<s1,s2>"]
 
 \key c \major \time 4/2 \clef "treble_8" \stemUp g'2. a4 b \stemDown c d2~ \bar ";" \addlyrics { Be -- _ _ _ _ } \\\
-\clef "bass" R1 \bar ";" | %1
+\clef "bass" R\breve \bar ";" | %1
 
 \stemDown d'2 \stemUp b \stemNeutral c1 \bar ";" \addlyrics { _ ne -- di -- } \\\
 r1 \stemUp c,2. d4 \bar ";" \addlyrics { Be -- _ } | %2
@@ -61,4 +61,4 @@ s1.. s4 \bar ";" \\\
 \stemUp c,4 b b a8[ g] a2 a \bar ";" \addlyrics { _ _ _ _ _ _ mi -- } | %19
 
 s1.. s4 \bar "|." \\\
-g,1~ g\fermata \bar "|." \addlyrics { ni. _ } | %20
+g,\breve\fermata \bar "|." \addlyrics { ni. } | %20

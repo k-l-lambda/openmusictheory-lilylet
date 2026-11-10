@@ -9,7 +9,7 @@
 \staff "1" \clef "treble" \stemUp d4.^\markup "corrected" a'8~ a4 fs \\
 \staff "2" \clef "bass" R1 | %1
 
-\staff "1" \stemDown b'4 \stemUp a r r \\
+\staff "1" \stemDown b'4 \stemUp a^\markup "★" r r \\
 \staff "2" R1 \\\
 \staff "1" s1 \\
 \staff "2" R1 | %2
@@ -49,7 +49,7 @@
 \staff "1" \stemDown cs'8[ b~] \stemUp b s s4 \\
 \staff "2" s2. | %9
 
-\staff "1" \stemUp a'8 gs4 fs e8^\markup "★" \\
+\staff "1" \stemUp a'8 gs4 fs e8_\markup "★"^\markup "★" \\
 \staff "2" r4 r r \\\
 \staff "1" s2. \\
 \staff "2" s2. | %10
@@ -89,7 +89,7 @@
 \staff "1" s1 \bar "|." \\
 \staff "2" R1 | %17
 
-\staff "1" \key g \major \time 4/4 r4. \stemUp d8 \stemDown b'8. c16 b4^\markup "★" \\
+\staff "1" \key g \major \time 4/4 r4. \stemUp d8^\markup "★"_\markup "4"^\markup "incorrect" \stemDown b'8. c16 b4^\markup "★" \\
 \staff "2" R1 \\\
 \staff "1" s1 \\
 \staff "2" R1 | %18

@@ -160,82 +160,82 @@ a'1^\markup "79"_\markup "____" \bar "||" | %79
 
 e,,1^\markup "80"_\markup "____" \bar "|." | %80
 
-\clef "treble" s1 \bar "||" | %81
+\clef "treble" s1^\markup "81" \bar "||" | %81
 
-s1 \bar "||" | %82
+s1^\markup "82" \bar "||" | %82
 
-s1 \bar "||" | %83
+s1^\markup "83" \bar "||" | %83
 
-s1 \bar "||" | %84
+s1^\markup "84" \bar "||" | %84
 
-s1 \bar "||" | %85
+s1^\markup "85" \bar "||" | %85
 
-s1 \bar "||" | %86
+s1^\markup "86" \bar "||" | %86
 
-s1 \bar "||" | %87
+s1^\markup "87" \bar "||" | %87
 
-s1 \bar "||" | %88
+s1^\markup "88" \bar "||" | %88
 
-s1 \bar "||" | %89
+s1^\markup "89" \bar "||" | %89
 
-s1 \bar "|." | %90
+s1^\markup "90" \bar "|." | %90
 
-\clef "bass" s1 \bar "||" | %91
+\clef "bass" s1^\markup "91" \bar "||" | %91
 
-s1 \bar "||" | %92
+s1^\markup "92" \bar "||" | %92
 
-s1 \bar "||" | %93
+s1^\markup "93" \bar "||" | %93
 
-s1 \bar "||" | %94
+s1^\markup "94" \bar "||" | %94
 
-s1 \bar "||" | %95
+s1^\markup "95" \bar "||" | %95
 
-s1 \bar "||" | %96
+s1^\markup "96" \bar "||" | %96
 
-s1 \bar "||" | %97
+s1^\markup "97" \bar "||" | %97
 
-s1 \bar "||" | %98
+s1^\markup "98" \bar "||" | %98
 
-s1 \bar "||" | %99
+s1^\markup "99" \bar "||" | %99
 
-s1 \bar "|." | %100
+s1^\markup "100" \bar "|." | %100
 
-\clef "alto" s1 \bar "||" | %101
+\clef "alto" s1^\markup "101" \bar "||" | %101
 
-s1 \bar "||" | %102
+s1^\markup "102" \bar "||" | %102
 
-s1 \bar "||" | %103
+s1^\markup "103" \bar "||" | %103
 
-s1 \bar "||" | %104
+s1^\markup "104" \bar "||" | %104
 
-s1 \bar "||" | %105
+s1^\markup "105" \bar "||" | %105
 
-s1 \bar "||" | %106
+s1^\markup "106" \bar "||" | %106
 
-s1 \bar "||" | %107
+s1^\markup "107" \bar "||" | %107
 
-s1 \bar "||" | %108
+s1^\markup "108" \bar "||" | %108
 
-s1 \bar "||" | %109
+s1^\markup "109" \bar "||" | %109
 
-s1 \bar "|." | %110
+s1^\markup "110" \bar "|." | %110
 
-\clef "tenor" s1 \bar "||" | %111
+\clef "tenor" s1^\markup "111" \bar "||" | %111
 
-s1 \bar "||" | %112
+s1^\markup "112" \bar "||" | %112
 
-s1 \bar "||" | %113
+s1^\markup "113" \bar "||" | %113
 
-s1 \bar "||" | %114
+s1^\markup "114" \bar "||" | %114
 
-s1 \bar "||" | %115
+s1^\markup "115" \bar "||" | %115
 
-s1 \bar "||" | %116
+s1^\markup "116" \bar "||" | %116
 
-s1 \bar "||" | %117
+s1^\markup "117" \bar "||" | %117
 
-s1 \bar "||" | %118
+s1^\markup "118" \bar "||" | %118
 
-s1 \bar "||" | %119
+s1^\markup "119" \bar "||" | %119
 
-s1 \bar "|." | %120
+s1^\markup "120" \bar "|." | %120

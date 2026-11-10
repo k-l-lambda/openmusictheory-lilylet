@@ -7,7 +7,7 @@ s1 | %2
 
 s1 | %3
 
-s1 \bar "||" | %4
+s1^\markup "Cadence:" \bar "||" | %4
 
 \key f \major \time 3/4 \stemUp a'8^\markup "2"[ a16 a] \stemDown c8[ a] \stemUp f4 | %5
 
@@ -15,7 +15,7 @@ s2. | %6
 
 s2. | %7
 
-s2. \bar "||" | %8
+s2.^\markup "Cadence:" \bar "||" | %8
 
 \key af \major \time 6/8 \stemDown c'8^\markup "3"[ bf af] df4. | %9
 
@@ -23,4 +23,4 @@ s2. | %10
 
 s2. | %11
 
-s2. \bar "|." | %12
+s2.^\markup "Cadence:" \bar "|." | %12

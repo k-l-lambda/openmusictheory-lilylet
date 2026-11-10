@@ -296,37 +296,37 @@ Example 3. Video lesson on composing a second-species counterpoint.
    e1_\markup "___" \bar "|." \\\
    e1 \bar "|." | %12
 
-   \key d \major s1 \\\
+   \key d \major s1_\markup "___  ___" \\\
    \clef "bass" d,1^\markup "Intervals:" | %13
 
-   s1 \\\
+   s1_\markup "___  ___" \\\
    e,1 | %14
 
-   s1 \\\
+   s1_\markup "___  ___" \\\
    fs,1 | %15
 
-   s1 \\\
+   s1_\markup "___  ___" \\\
    a1 | %16
 
-   s1 \\\
+   s1_\markup "___  ___" \\\
    g1 | %17
 
-   s1 \\\
+   s1_\markup "___  ___" \\\
    fs,1 | %18
 
-   s1 \\\
+   s1_\markup "___  ___" \\\
    b1 | %19
 
-   s1 \\\
+   s1_\markup "___  ___" \\\
    a1 | %20
 
-   s1 \\\
+   s1_\markup "___  ___" \\\
    g1 | %21
 
-   s1 \\\
+   s1_\markup "___  ___" \\\
    e,1 | %22
 
-   s1 \bar "|." \\\
+   s1_\markup "___" \bar "|." \\\
    d,1 \bar "|." | %23
    ```
    <!-- lilylet-end -->
@@ -377,37 +377,37 @@ Example 3. Video lesson on composing a second-species counterpoint.
    cs'1_\markup "___" \bar "|." \\\
    a'1 \bar "|." | %12
 
-   \key g \major s1 \\\
+   \key g \major s1_\markup "___  ___" \\\
    \clef "bass" g1^\markup "Intervals:" | %13
 
-   s1 \\\
+   s1_\markup "___  ___" \\\
    b1 | %14
 
-   s1 \\\
+   s1_\markup "___  ___" \\\
    d1 | %15
 
-   s1 \\\
+   s1_\markup "___  ___" \\\
    c1 | %16
 
-   s1 \\\
+   s1_\markup "___  ___" \\\
    b1 | %17
 
-   s1 \\\
+   s1_\markup "___  ___" \\\
    c1 | %18
 
-   s1 \\\
+   s1_\markup "___  ___" \\\
    e1 | %19
 
-   s1 \\\
+   s1_\markup "___  ___" \\\
    a1 | %20
 
-   s1 \\\
+   s1_\markup "___  ___" \\\
    b1 | %21
 
-   s1 \\\
+   s1_\markup "___  ___" \\\
    a1 | %22
 
-   s1 \bar "|." \\\
+   s1_\markup "___" \bar "|." \\\
    g1 \bar "|." | %23
    ```
    <!-- lilylet-end -->

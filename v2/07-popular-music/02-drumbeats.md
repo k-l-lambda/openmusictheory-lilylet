@@ -184,6 +184,45 @@ Example 15. A 3/4 drumbeat in [Paramore’s “That’s What You Get” (2007)]
 > Assignments
 
 1. Drumbeats (.[pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2023/07/WK-Drumbeats.pdf), .[mscz](../media/2023/07/WK-Drumbeats.mscz)). Asks students to identify features of drumbeats and transcribe them. [Worksheet playlist](https://open.spotify.com/playlist/16op4Jb7vPnRXZ5Qw4crrE?si=13d79c3318284ed7)
+   <!-- lilylet-begin: media/2023/07/WK-Drumbeats.mscz -->
+   Lilylet transcription of WK-Drumbeats.mscz ([WK-Drumbeats.lyl](../lilylet/2023/07/WK-Drumbeats.lyl)):
+
+   ```lyl.play
+   [title "WK Drumbeats"]
+   [subtitle "Drumbeats"]
+   [measures "2*[1], 2..5, 6, 7, 8, 9, 10, 11, 12"]
+
+   \key c \major \numericTimeSignature \time 4/4 \clef "percussion" \tempo 4=100 \stemUp g''16^\markup "Shuffle 16ths"[ g g g] g[ g g g] g[ g g g] g[ g g g] \bar ":|." \\
+   \stemDown f4 c' r16 f,[ f8] c' r16 f, | %1
+
+   \tempo 4=132 \stemUp g''8[ g] r g g4_\markup "snaps" g \\
+   \stemDown f4 r c' r | %2
+
+   \stemUp g''8[ g] r g g4 r \\
+   \stemDown f4 r c' | %3
+
+   \stemUp g''8[ g g g] g4 g \\
+   \stemDown f4 r c' r8 c | %4
+
+   \stemUp g''8[ g] r4 e8[ e e e] \bar ":|." \\
+   \stemDown f8[ c'] r4 <f, c'> f | %5
+
+   \tempo 4=90 \stemUp g''8.[ d16^\markup "tamb."] g8[ d] g8.[ d16] g8[ d] \bar ":|." \\
+   \stemDown f8.[ c'16] f,8[ c'] f,8.[ c'16] f,8[ c'] | %6
+
+   s1^\markup " = ___" | %7
+
+   s1 \bar ":|." | %8
+
+   \time 12/8 s1.^\markup ". = ___"^\markup "Shuffle 16ths" | %9
+
+   s1. \bar ":|." | %10
+
+   \time 3/4 s2.^\markup " = ___" | %11
+
+   s2. \bar ":|." | %12
+   ```
+   <!-- lilylet-end -->
 
 ### Media Attributions
 

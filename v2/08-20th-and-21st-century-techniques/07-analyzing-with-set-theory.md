@@ -89,7 +89,7 @@ This list includes many aspects of music that are important to listeners and per
    \staff "2" \stemDown <d, gf df'>4 c'8([ gf] <d f>4)-. r | %2
 
    \staff "1" \stemDown f'8\mp( ef4 f8 \stemUp af,2) \\
-   \staff "2" r4 \stemUp <af, ef'>~ <af ef'>8[ e-. <a, e'>-. e''\pp _\markup "sub."-.] | %3
+   \staff "2" r4 \stemUp <af, ef'>~~ <af ef'>8[ e-. <a, e'>-. e''\pp_\markup "sub."-.] | %3
 
    \staff "1" r8. \stemUp gf''16( f8.)-.[ gf16(] df8--[ c\mf-.] d4~ \\
    \staff "1" r2 r4 \stemDown a'8-.[ a-.] \\

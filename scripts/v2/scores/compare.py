@@ -25,17 +25,9 @@ def key(n):
 
 
 def split_breves(notes):
-    """postprocess.ts writes notes longer than a whole note as tied whole notes."""
-    out = []
-    for m, off, ps, ql, grace in notes:
-        q = Fraction(ql)
-        if q > 4 and q % 4 == 0:
-            for i in range(int(q // 4)):
-                o = Fraction(off) + 4 * i
-                out.append([m, str(o.numerator) if o.denominator == 1 else f'{o.numerator}/{o.denominator}', ps, '4', grace])
-        else:
-            out.append([m, off, ps, ql, grace])
-    return out
+    """lilylet writes a breve as \\breve (one event of 8 quarters), so no splitting is
+    needed; kept as a pass-through for the old tied-whole-note output."""
+    return notes
 
 
 def classify(missing, extra):

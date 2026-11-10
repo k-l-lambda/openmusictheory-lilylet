@@ -2,7 +2,7 @@
 [composer "Johann Joseph Fux"]
 [staves "s1,s2,s3,s4"]
 
-\key c \major \numericTimeSignature \time 4/4 \clef "treble" s1 \\\
+\key c \major \numericTimeSignature \time 4/4 \clef "treble" s1^\markup "Modal final: d; Cantus firmus: 4" \\\
 \clef "treble" s1 \\\
 \clef "treble_8" s1 \\\
 \clef "bass" d,1 | %1
@@ -57,7 +57,7 @@ s1 \bar "|." \\\
 s1 \bar "|." \\\
 d,1 \bar "|." | %11
 
-s1 \\\
+s1^\markup "Modal final: d; Cantus firmus: 3" \\\
 s1 \\\
 d'1 \\\
 s1 | %12
@@ -112,7 +112,7 @@ s1 \bar "|." \\\
 d'1 \bar "|." \\\
 s1 \bar "|." | %22
 
-s1 \\\
+s1^\markup "Modal final: d; Cantus firmus: 2" \\\
 d1 \\\
 s1 \\\
 s1 | %23
@@ -222,7 +222,7 @@ s1 \bar "|." \\\
 s1 \bar "|." \\\
 s1 \bar "|." | %44
 
-s1 \\\
+s1^\markup "Modal final: e; Cantus firmus: 4" \\\
 s1 \\\
 s1 \\\
 e,1 | %45
@@ -272,7 +272,7 @@ s1 \bar "|." \\\
 s1 \bar "|." \\\
 e,1 \bar "|." | %54
 
-s1 \\\
+s1^\markup "Modal final: e; Cantus firmus: 3" \\\
 s1 \\\
 e1 \\\
 s1 | %55
@@ -322,7 +322,7 @@ s1 \bar "|." \\\
 e1 \bar "|." \\\
 s1 \bar "|." | %64
 
-s1 \\\
+s1^\markup "Modal final: e; Cantus firmus: 2" \\\
 e1 \\\
 s1 \\\
 s1 | %65
@@ -422,7 +422,7 @@ s1 \bar "|." \\\
 s1 \bar "|." \\\
 s1 \bar "|." | %84
 
-s1 \\\
+s1^\markup "Modal final: f; Cantus firmus: 4" \\\
 s1 \\\
 s1 \\\
 f,1 | %85
@@ -482,7 +482,7 @@ s1 \bar "|." \\\
 s1 \bar "|." \\\
 f,1 \bar "|." | %96
 
-s1 \\\
+s1^\markup "Modal final: f; Cantus firmus: 3" \\\
 s1 \\\
 f1 \\\
 s1 | %97
@@ -542,7 +542,7 @@ s1 \bar "|." \\\
 f1 \bar "|." \\\
 s1 \bar "|." | %108
 
-s1 \\\
+s1^\markup "Modal final: f; Cantus firmus: 2" \\\
 f1 \\\
 s1 \\\
 s1 | %109
@@ -662,7 +662,7 @@ s1 \bar "|." \\\
 s1 \bar "|." \\\
 s1 \bar "|." | %132
 
-s1 \\\
+s1^\markup "Modal final: g; Cantus firmus: 4" \\\
 s1 \\\
 s1 \\\
 g,1 | %133
@@ -732,7 +732,7 @@ s1 \bar "|." \\\
 s1 \bar "|." \\\
 g,1 \bar "|." | %146
 
-s1 \\\
+s1^\markup "Modal final: g; Cantus firmus: 3" \\\
 s1 \\\
 g'1 \\\
 s1 | %147
@@ -802,7 +802,7 @@ s1 \bar "|." \\\
 g'1 \bar "|." \\\
 s1 \bar "|." | %160
 
-s1 \\\
+s1^\markup "Modal final: g; Cantus firmus: 2" \\\
 g1 \\\
 s1 \\\
 s1 | %161
@@ -942,7 +942,7 @@ s1 \bar "|." \\\
 s1 \bar "|." \\\
 s1 \bar "|." | %188
 
-s1 \\\
+s1^\markup "Modal final: a; Cantus firmus: 4" \\\
 s1 \\\
 s1 \\\
 a,1 | %189
@@ -1002,7 +1002,7 @@ s1 \bar "|." \\\
 s1 \bar "|." \\\
 a,1 \bar "|." | %200
 
-s1 \\\
+s1^\markup "Modal final: a; Cantus firmus: 3" \\\
 s1 \\\
 a'1 \\\
 s1 | %201
@@ -1062,7 +1062,7 @@ s1 \bar "|." \\\
 a'1 \bar "|." \\\
 s1 \bar "|." | %212
 
-s1 \\\
+s1^\markup "Modal final: a; Cantus firmus: 2" \\\
 a1 \\\
 s1 \\\
 s1 | %213
@@ -1182,7 +1182,7 @@ s1 \bar "|." \\\
 s1 \bar "|." \\\
 s1 \bar "|." | %236
 
-s1 \\\
+s1^\markup "Modal final: c; Cantus firmus: 4" \\\
 s1 \\\
 s1 \\\
 c,1 | %237
@@ -1242,7 +1242,7 @@ s1 \bar "|." \\\
 s1 \bar "|." \\\
 c,1 \bar "|." | %248
 
-s1 \\\
+s1^\markup "Modal final: c; Cantus firmus: 3" \\\
 s1 \\\
 c1 \\\
 s1 | %249
@@ -1302,7 +1302,7 @@ s1 \bar "|." \\\
 c1 \bar "|." \\\
 s1 \bar "|." | %260
 
-s1 \\\
+s1^\markup "Modal final: c; Cantus firmus: 2" \\\
 c1 \\\
 s1 \\\
 s1 | %261

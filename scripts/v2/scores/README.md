@@ -63,18 +63,27 @@ requires the two counts to agree.
 
 ## Work-arounds (`postprocess.ts`)
 
-Each is a lilylet or MuseScore issue; `repro.ts` has a minimal case for every lilylet one.
+Each is a lilylet or MuseScore issue. lilylet 0.1.96 closed most of them; the list was
+re-checked against `repro.ts` and every remaining entry is still needed.
 
-- unpitched (percussion) notes → pitches at their staff position (decoder drops them)
-- chords inside tuplets: tuplet markers removed before decoding, groups rebuilt after
-- `<time-modification>` without `<tuplet>`: wrapped in `\tuplet`
-- zero-net `<backup>/<forward>` around directions removed (decoder adds spacer rests)
-- breves → tied whole notes; full-bar rests in long bars → `R1`
-- `<time symbol>` restored; fingerings outside 1–5 and duplicate chord ties dropped
-- chord symbols re-placed and re-texted (decoder piles them at the end of voice 1, drops
-  Roman numerals, serializer writes none; MuseScore's export flattens their text)
-- tenuto passed through the serializer as a sentinel (it writes `-_` = portato)
-- space between a dynamic and `_` (`\pp _\markup`), which the lexer otherwise drops
+Closed by lilylet (work-around deleted):
+- unpitched (percussion) notes: the decoder reads <display-step>/<display-octave>
+- chords inside tuplets, and `<time-modification>` without `<tuplet>` (`\times`)
+- breves: `\breve`; full-bar rests in long bars: `R\breve`
+- `<time symbol="common|cut">`, and `<time print-object="no">` → `\omit Score.TimeSignature`
+- chord symbols and Roman numerals are written by the serializer
+- tenuto is `--` / portato `-_`; a dynamic glued to `_` (`\pp_\markup`) is kept
+- fingerings outside 1–5 and duplicate chord ties
+- text and dynamics on a rest or spacer
+
+Still needed (MuseScore export or data the decoder does not read):
+- zero-net `<backup>/<forward>` around directions: the decoder cancels a pair only when
+  the forwards return the cursor to where the backup started; MuseScore sometimes splits
+  one repositioning into several, so `preprocessXml` drops the whole net-zero body
+- chord-symbol text: MuseScore's export flattens it (diminished and half-diminished
+  sevenths both become "7"; Roman numerals lose their figures), so `harmonies.py` reads
+  each `<Harmony>` from the mscx and `placeHarmonies` re-places it on its own note
+- figured bass: `<figured-bass>` is not decoded; `harmonies.py` reads it (`figs/`)
 - `\key`/`\time` written only where they change; `[title]`/`[composer]`/`[staves]`/
   `[instrument-…]` from the MusicXML, template titles dropped
 - files saved by MuseScore 4.7 are re-stamped as 4.60 so 4.6.5 opens them
@@ -84,11 +93,4 @@ Each is a lilylet or MuseScore issue; `repro.ts` has a minimal case for every li
   clefs into ordinary ones before the export; harmonies.py reads the clef at every bar start
   from the mscx (`clefs/`), and `applyBarClefs` inserts the missing ones. `check_clefs.ts`
   compares the clef in force at every bar, per staff, with the source.
-- texts / exercise numbers / dynamics whose next note is a rest: lilylet drops every mark on a
-  rest or spacer, and the decoder moved such a direction onto the next note (often another
-  staff or bar). They are dropped before decoding and listed in the notes; real words make
-  the file ok-with-notes ("TEXT ON RESTS LOST"), blank answer lines and numbers do not.
-- figured bass from `<figured-bass>` and free-text `<FiguredBass>` in the mscx (`figs/`),
-  which the decoder (and MuseScore's export) drop
-- invisible notes / rests → spacers (see above); lilylet drops marks on a spacer, so a
-  text or dynamic on a hidden note is dropped (counted in the notes)
+

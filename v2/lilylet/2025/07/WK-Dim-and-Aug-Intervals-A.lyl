@@ -1,7 +1,7 @@
 [title "Diminished and Augmented Intervals A"]
 [composer "Kyle Gullings"]
 
-\key c \major \numericTimeSignature \time 4/4 \clef "treble" <c gs'>1_\markup "A5" \bar "||" | %1
+\key c \major \numericTimeSignature \time 4/4 \clef "treble" \omit Score.TimeSignature <c gs'>1_\markup "A5" \bar "||" | %1
 
 \clef "tenor" <c ff>1 \bar "||" | %2
 

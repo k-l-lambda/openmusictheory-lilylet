@@ -21,22 +21,22 @@
 
 \key g \major <fs,, b d>1^\markup "10" \bar "|." | %10
 
-\key c \major \clef "treble" s1 \bar "||" | %11
+\key c \major \clef "treble" s1^\markup "11" \bar "||" | %11
 
-\clef "alto" s1 \bar "||" | %12
+\clef "alto" s1^\markup "12" \bar "||" | %12
 
-\clef "treble" s1 \bar "||" | %13
+\clef "treble" s1^\markup "13" \bar "||" | %13
 
-\clef "bass" s1 \bar "||" | %14
+\clef "bass" s1^\markup "14" \bar "||" | %14
 
-s1 \bar "||" | %15
+s1^\markup "15" \bar "||" | %15
 
-\clef "treble" s1 \bar "||" | %16
+\clef "treble" s1^\markup "16" \bar "||" | %16
 
-\clef "tenor" s1 \bar "||" | %17
+\clef "tenor" s1^\markup "17" \bar "||" | %17
 
-\clef "treble" s1 \bar "||" | %18
+\clef "treble" s1^\markup "18" \bar "||" | %18
 
-\clef "bass" s1 \bar "||" | %19
+\clef "bass" s1^\markup "19" \bar "||" | %19
 
-\clef "treble" s1 \bar "|." | %20
+\clef "treble" s1^\markup "20" \bar "|." | %20

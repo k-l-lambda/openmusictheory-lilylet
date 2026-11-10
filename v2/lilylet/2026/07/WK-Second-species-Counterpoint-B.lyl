@@ -40,35 +40,35 @@ d'1_\markup "___  ___" \\\
 cs'1_\markup "___" \bar "|." \\\
 a'1 \bar "|." | %12
 
-\key g \major s1 \\\
+\key g \major s1_\markup "___  ___" \\\
 \clef "bass" g1^\markup "Intervals:" | %13
 
-s1 \\\
+s1_\markup "___  ___" \\\
 b1 | %14
 
-s1 \\\
+s1_\markup "___  ___" \\\
 d1 | %15
 
-s1 \\\
+s1_\markup "___  ___" \\\
 c1 | %16
 
-s1 \\\
+s1_\markup "___  ___" \\\
 b1 | %17
 
-s1 \\\
+s1_\markup "___  ___" \\\
 c1 | %18
 
-s1 \\\
+s1_\markup "___  ___" \\\
 e1 | %19
 
-s1 \\\
+s1_\markup "___  ___" \\\
 a1 | %20
 
-s1 \\\
+s1_\markup "___  ___" \\\
 b1 | %21
 
-s1 \\\
+s1_\markup "___  ___" \\\
 a1 | %22
 
-s1 \bar "|." \\\
+s1_\markup "___" \bar "|." \\\
 g1 \bar "|." | %23

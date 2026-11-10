@@ -379,7 +379,7 @@ Intervallic enharmonic equivalence is useful when you come across an interval th
    [title "Intervals A"]
    [composer "Kyle Gullings"]
 
-   \key c \major \numericTimeSignature \time 4/4 \clef "treble" <c gs'>1_\markup "A5" \bar "||" | %1
+   \key c \major \numericTimeSignature \time 4/4 \clef "treble" \omit Score.TimeSignature <c gs'>1_\markup "A5" \bar "||" | %1
 
    \clef "tenor" <e fs>1 \bar "||" | %2
 
@@ -448,7 +448,7 @@ Intervallic enharmonic equivalence is useful when you come across an interval th
    [title "Intervals B"]
    [composer "Kyle Gullings"]
 
-   \key c \major \numericTimeSignature \time 4/4 \clef "treble" <c gs'>1_\markup "A5" \bar "||" | %1
+   \key c \major \numericTimeSignature \time 4/4 \clef "treble" \omit Score.TimeSignature <c gs'>1_\markup "A5" \bar "||" | %1
 
    \clef "tenor" <as' e'>1 \bar "||" | %2
 
@@ -517,7 +517,7 @@ Intervallic enharmonic equivalence is useful when you come across an interval th
    [title "Intervals C"]
    [composer "Kyle Gullings"]
 
-   \key c \major \numericTimeSignature \time 4/4 \clef "treble" <c gs'>1_\markup "A5" \bar "||" | %1
+   \key c \major \numericTimeSignature \time 4/4 \clef "treble" \omit Score.TimeSignature <c gs'>1_\markup "A5" \bar "||" | %1
 
    <fs e'>1 \bar "||" | %2
 
@@ -594,7 +594,7 @@ Intervallic enharmonic equivalence is useful when you come across an interval th
    [title "Major, Minor, and Perfect Intervals A"]
    [composer "Kyle Gullings"]
 
-   \key c \major \numericTimeSignature \time 4/4 \clef "treble" <b c>1_\markup "mi2" \bar "||" | %1
+   \key c \major \numericTimeSignature \time 4/4 \clef "treble" \omit Score.TimeSignature <b c>1_\markup "mi2" \bar "||" | %1
 
    \clef "alto" <es f>1 \bar "||" | %2
 
@@ -663,7 +663,7 @@ Intervallic enharmonic equivalence is useful when you come across an interval th
    [title "Major, Minor, and Perfect Intervals B"]
    [composer "Kyle Gullings"]
 
-   \key c \major \numericTimeSignature \time 4/4 \clef "treble" <b c>1_\markup "mi2" \bar "||" | %1
+   \key c \major \numericTimeSignature \time 4/4 \clef "treble" \omit Score.TimeSignature <b c>1_\markup "mi2" \bar "||" | %1
 
    \clef "alto" <a' e'>1 \bar "||" | %2
 
@@ -732,7 +732,7 @@ Intervallic enharmonic equivalence is useful when you come across an interval th
    [title "Diminished and Augmented Intervals A"]
    [composer "Kyle Gullings"]
 
-   \key c \major \numericTimeSignature \time 4/4 \clef "treble" <c gs'>1_\markup "A5" \bar "||" | %1
+   \key c \major \numericTimeSignature \time 4/4 \clef "treble" \omit Score.TimeSignature <c gs'>1_\markup "A5" \bar "||" | %1
 
    \clef "tenor" <c ff>1 \bar "||" | %2
 
@@ -801,7 +801,7 @@ Intervallic enharmonic equivalence is useful when you come across an interval th
    [title "Diminished and Augmented Intervals B"]
    [composer "Kyle Gullings"]
 
-   \key c \major \numericTimeSignature \time 4/4 \clef "treble" <c gs'>1_\markup "A5" \bar "||" | %1
+   \key c \major \numericTimeSignature \time 4/4 \clef "treble" \omit Score.TimeSignature <c gs'>1_\markup "A5" \bar "||" | %1
 
    \clef "tenor" <af' e'>1 \bar "||" | %2
 

@@ -139,7 +139,7 @@ Guidelines are not always followed, but knowing them empowers you to *choose*no
    \staff "2" r8 \stemDown d,4. r2 | %2
 
    \staff "1" \stemDown d'2 \stemUp a8 fs4 d8~ \\\
-   \staff "1" <c e fs a>1~ \\
+   \staff "1" <c e fs a>1~~~~ \\
    \staff "2" d,1~ | %3
 
    \staff "1" d1 \\\
@@ -151,11 +151,11 @@ Guidelines are not always followed, but knowing them empowers you to *choose*no
    \staff "2" g,1 | %5
 
    \staff "1" \stemUp a'8[ a] f4 \stemDown b8 \stemUp a4 \stemDown d8~ \\\
-   \staff "1" \stemUp <b e f a>2. r8 <b e f a>~ \\
+   \staff "1" \stemUp <b e f a>2. r8 <b e f a>~~~~ \\
    \staff "2" \stemUp g,2. r8 g~ | %6
 
    \staff "1" \stemDown d'2 \stemUp \grace { as8( \stemDown } b4) \stemUp a8[ g~] \\\
-   \staff "1" <b e f a>1~ \\
+   \staff "1" <b e f a>1~~~~ \\
    \staff "2" g,1~ | %7
 
    \staff "1" \stemUp g'2. r4 \\\
@@ -203,7 +203,7 @@ Guidelines are not always followed, but knowing them empowers you to *choose*no
    \staff "2" \stemUp d,,8 r r4 r2 | %18
 
    \staff "1" \stemDown d'2 \stemUp a4 fs8[ d~] \\\
-   \staff "1" <c e fs b>1~ \\
+   \staff "1" <c e fs b>1~~~~ \\
    \staff "2" d,,1~ | %19
 
    \staff "1" d1 \\\
@@ -215,11 +215,11 @@ Guidelines are not always followed, but knowing them empowers you to *choose*no
    \staff "2" g,1 | %21
 
    \staff "1" \stemUp a'8 f4 \stemDown b8~ b \stemUp a4. \\\
-   \staff "1" \stemUp <b e f a>2. r8 <b e f a>~ \\
+   \staff "1" \stemUp <b e f a>2. r8 <b e f a>~~~~ \\
    \staff "2" \stemUp g,2. r8 g~ | %22
 
    \staff "1" \stemDown d'2 b4 \stemUp a8[ g~] \\\
-   \staff "1" <b e f a>1~ \\
+   \staff "1" <b e f a>1~~~~ \\
    \staff "2" g,1~ | %23
 
    \staff "1" g'1 \\\

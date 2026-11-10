@@ -269,7 +269,7 @@ Finally, despite abstractions, it’s still best to treat counterpoint exercises
    \staff "2" f,1 | %12
 
    \staff "1" \key a \major \clef "treble" s1 \\
-   \staff "2" \clef "treble" b,1^\markup "Cantus firmus:"^\markup "Intervals:"_\markup "(Key: B Minor)" | %13
+   \staff "2" \clef "treble" b,1^\markup "Cantus firmus:"^\markup "Intervals:"_\markup "(Key: B Minor)"_\markup "(Key: A Major)" | %13
 
    \staff "1" s1 \\
    \staff "2" as,1 | %14
@@ -348,7 +348,7 @@ Finally, despite abstractions, it’s still best to treat counterpoint exercises
    \staff "2" f,1 | %11
 
    \staff "1" \key d \major \clef "bass" s1 \\
-   \staff "2" \clef "treble" b,1^\markup "Cantus firmus:"^\markup "Intervals:"_\markup "(Key: B Minor)" | %12
+   \staff "2" \clef "treble" b,1^\markup "Cantus firmus:"^\markup "Intervals:"_\markup "(Key: B Minor)"_\markup "(Key: D Major)" | %12
 
    \staff "1" s1 \\
    \staff "2" as,1 | %13

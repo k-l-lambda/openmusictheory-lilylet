@@ -46,7 +46,7 @@
 \staff "1" \stemDown cs'8^\markup "*" b4 \stemUp a fs8 \\
 \staff "2" \stemUp cs,4 r2 | %15
 
-\staff "1" \stemUp a'8^\markup "*" gs4 fs e8 \\
+\staff "1" \stemUp a'8^\markup "*" gs4 fs e8^\markup "*" \\
 \staff "2" r4 r r | %16
 
 \staff "1" \stemUp gs'4~ gs8[ gs] \stemDown bs4 \\

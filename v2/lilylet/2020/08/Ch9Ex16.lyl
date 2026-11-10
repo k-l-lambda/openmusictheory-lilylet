@@ -1,0 +1,7 @@
+[title "Ch9Ex16"]
+
+\key c \major \numericTimeSignature \time 4/4 \clef "percussion" \stemDown f'4 \addlyrics { 4 } | %1
+
+\stemDown f'4 f f f \addlyrics { 1 2 3 4 } | %2
+
+\stemDown f'2_\markup "(2)" f4 s \bar "|." \addlyrics { 1 3 } | %3

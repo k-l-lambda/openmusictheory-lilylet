@@ -28,26 +28,26 @@ a1 | %7
 bf'1_\markup "__" \bar "|." \\\
 bf1 \bar "|." | %8
 
-\key c \major s1 \\\
+\key c \major s1_\markup "__  __  __  __" \\\
 \clef "treble" c1^\markup "Intervals:" | %9
 
-s1 \\\
+s1_\markup "__  __  __  __" \\\
 d1 | %10
 
-s1 \\\
+s1_\markup "__  __  __  __" \\\
 e1 | %11
 
-s1 \\\
+s1_\markup "__  __  __  __" \\\
 d1 | %12
 
-s1 \\\
+s1_\markup "__  __  __  __" \\\
 g'1 | %13
 
-s1 \\\
+s1_\markup "__  __  __  __" \\\
 f1 | %14
 
-s1 \\\
+s1_\markup "__  __  __  __" \\\
 d1 | %15
 
-s1 \bar "|." \\\
+s1_\markup "__" \bar "|." \\\
 c1 \bar "|." | %16

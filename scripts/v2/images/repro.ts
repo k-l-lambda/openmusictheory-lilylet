@@ -13,12 +13,14 @@ const notes = (doc: any) => doc.measures[0].parts[0].voices[0].events.filter((e:
 const count = (mei: string, re: RegExp) => (mei.match(re) || []).length;
 
 const cases: Case[] = [
-	{ id: "breve", what: "c'0 (breve) silently becomes a quarter note; \\breve lexes as notes",
-		code: `\\time 4/2 c'0 | %1`, bug: mei => /dur="4"/.test(mei) },
+	{ id: "breve", what: "c'0 (breve) silently becomes a quarter note; \\breve is the written form",
+		// \\breve parses and encodes as dur="breve"; a numeric c'0 still reads division 0.
+		code: `\\time 4/2 c'\\breve | %1`, bug: mei => !/dur="breve"/.test(mei) },
 	{ id: "caesura", what: "\\caesura is not a command: lexes as the notes c a e ...",
 		code: `\\time 4/4 c'4 \\caesura c c c | %1`, bug: (_, d) => notes(d) > 4 },
-	{ id: "mmrest", what: "R1*4: the *4 multiplier is ignored (one bar, no warning)",
-		code: `\\time 4/4 R1*4 | %1`, bug: (_, d) => d.measures.length === 1 },
+	{ id: "mmrest", what: "R1*4: the *4 multiplier is ignored (drawn as one bar of rest)",
+		// Correct today: one measure carrying <multiRest num="4">, not four measures.
+		code: `\\time 4/4 R1*4 | %1`, bug: (mei, d) => d.measures.length === 1 && !/<multiRest\b[^>]*\bnum="4"/.test(mei) },
 	{ id: "slashhead", what: "\\improvisationOn / \\xNote lex as notes (no slash or x noteheads)",
 		code: `\\time 4/4 \\xNote c'4 c c c | %1`, bug: (_, d) => notes(d) > 4 },
 	{ id: "cmd-underscore", what: "\\cmd_ without a space lexes as notes for most commands (\\coda_ \\fermata_ \\mf_ \\staccato_ \\ff_ ...)",

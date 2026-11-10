@@ -1,6 +1,6 @@
 [title "WK Blues Scales answers"]
 
-\key c \major \time 7/4 \clef "treble" \stemUp f4 af \stemDown bf b_\markup "In each scale, this note may be spelled\neither as ♯4 or ♭5."\arpeggio c ef f | %1
+\key c \major \time 7/4 \clef "treble" \omit Score.TimeSignature \stemUp f4 af \stemDown bf b_\markup "In each scale, this note may be spelled\neither as ♯4 or ♭5."\arpeggio c ef f | %1
 
 \stemUp bf4 df ef e f af \stemDown bf | %2
 

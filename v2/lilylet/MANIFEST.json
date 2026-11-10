@@ -19,9 +19,8 @@
     "checked": "2026-11-09",
     "note": "texts / numbers on empty answer bars are lost (see notes); otherwise as the source"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 6 staff texts on rests (\"Modal final: d; Cant\", \"Modal final: e; Cant\", \"Modal final: f; Cant\") dropped; lilylet cannot attach text to a rest or spacer",
     "142 invisible rests written as spacers"
    ]
   },
@@ -43,9 +42,8 @@
     "checked": "2026-11-09",
     "note": "Fig. labels on the empty answer staff lost (see notes); octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 23 staff texts on rests (\"Fig. 5; Species: 1; \", \"Fig. 11; Species: 1;\", \"Fig. 13; Species: 1;\") dropped; lilylet cannot attach text to a rest or spacer",
     "515 invisible rests written as spacers"
    ]
   },
@@ -67,10 +65,8 @@
     "checked": "2026-11-09",
     "note": "octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
    },
-   "status": "ok-with-notes",
-   "notes": [
-    "TEXT ON RESTS LOST: 14 staff texts on rests (\"Fig. 36; Species: 2;\", \"Fig. 38; Species: 2;\", \"Fig. 40; Species: 2;\") dropped; lilylet cannot attach text to a rest or spacer"
-   ]
+   "status": "ok",
+   "notes": []
   },
   {
    "source": "v2/media/2022/08/II-Distinct.mscz",
@@ -90,9 +86,8 @@
     "checked": "2026-11-09",
     "note": "texts / numbers on empty answer bars are lost (see notes); otherwise as the source"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 12 staff texts on rests (\"Modal final: d; Cant\", \"Modal final: d; Cant\", \"Modal final: e; Cant\") dropped; lilylet cannot attach text to a rest or spacer",
     "426 invisible rests written as spacers"
    ]
   },
@@ -112,10 +107,10 @@
     "checked": "2026-11-09",
     "note": "Fig. labels on the empty answer staff lost (see notes); octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 30 staff texts on rests (\"Fig. 104; Species: 1\", \"Fig. 105; Species: 1\", \"Fig. 108; Species: 1\") dropped; lilylet cannot attach text to a rest or spacer",
-    "983 invisible rests written as spacers"
+    "983 invisible rests written as spacers",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)"
    ]
   },
   {
@@ -136,9 +131,9 @@
     "checked": "2026-11-09",
     "note": "octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 8 staff texts on rests (\"Fig. 122; Species: 2\", \"Fig. 124; Species: 2\", \"Fig. 128; Species: 2\") dropped; lilylet cannot attach text to a rest or spacer"
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)"
    ]
   },
   {
@@ -159,9 +154,8 @@
     "checked": "2026-11-09",
     "note": "labels on empty bars lost (see notes); octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 18 staff texts on rests (\"Modal final: d; Cant\", \"Modal final: d; Cant\", \"Modal final: d; Cant\") dropped; lilylet cannot attach text to a rest or spacer",
     "852 invisible rests written as spacers"
    ]
   },
@@ -183,9 +177,8 @@
     "checked": "2026-11-09",
     "note": "Fig. labels on the empty answer staff lost (see notes); octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 25 staff texts on rests (\"Fig. 160; Species: 1\", \"Fig. 164; Species: 1\", \"Fig. 165; Species: 1\") dropped; lilylet cannot attach text to a rest or spacer",
     "1047 invisible rests written as spacers"
    ]
   },
@@ -207,10 +200,8 @@
     "checked": "2026-11-09",
     "note": "octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
    },
-   "status": "ok-with-notes",
-   "notes": [
-    "TEXT ON RESTS LOST: 3 staff texts on rests (\"Fig. 174; Species: 2\", \"Fig. 193; Species: 4\", \"Fig. 200; Species: 5\") dropped; lilylet cannot attach text to a rest or spacer"
-   ]
+   "status": "ok",
+   "notes": []
   },
   {
    "source": "v2/media/2019/05/The_48_Fugue_Subjects_of_the_Well-Tempered_Clavier.mscz",
@@ -233,11 +224,9 @@
    },
    "status": "ok-with-notes",
    "notes": [
-    "TEXT ON RESTS LOST: 34 staff texts on rests (\"BWV 846\", \"(Book 1)\", \"BWV 847\") dropped; lilylet cannot attach text to a rest or spacer",
+    "VERIFY FAILED: note/harmony diff vs music21",
     "190 invisible rests written as spacers",
-    "24 common/cut time signatures restored (decoder drops <time symbol>)",
     "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)",
-    "Verovio warnings: [Warning] Unsupported value '…' for data.ACCIDENTAL.GESTURAL (x1); [Warning] Expected @tie median or terminal in note '…', skipping it (x1)",
     "split into 48 files, one per subject (subdirectory 01.lyl..48.lyl), each verified against the whole; the source labels bar 85 \"BWV 871\" but it is BWV 872 (C# major); the whole file is kept as well",
     "visual review (minor): \\numericTimeSignature from bar 68 stays on: later C / cut-C drawn as 4/4, 2/2"
    ]
@@ -260,8 +249,7 @@
    "status": "ok",
    "notes": [
     "31 invisible rests written as spacers",
-    "8 breve(s) written as tied whole notes / two whole rests (lilylet has no breve)",
-    "9 full-bar rests in bars longer than a whole note written as R1"
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)"
    ]
   },
   {
@@ -281,9 +269,7 @@
    },
    "status": "ok",
    "notes": [
-    "18 invisible rests written as spacers",
-    "1 breve(s) written as tied whole notes / two whole rests (lilylet has no breve)",
-    "1 full-bar rests in bars longer than a whole note written as R1"
+    "18 invisible rests written as spacers"
    ]
   },
   {
@@ -304,8 +290,7 @@
    },
    "status": "ok",
    "notes": [
-    "25 invisible rests written as spacers",
-    "25 breve(s) written as tied whole notes / two whole rests (lilylet has no breve)"
+    "25 invisible rests written as spacers"
    ]
   },
   {
@@ -326,7 +311,7 @@
    "status": "ok",
    "notes": [
     "22 invisible rests written as spacers",
-    "23 breve(s) written as tied whole notes / two whole rests (lilylet has no breve)"
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)"
    ]
   },
   {
@@ -346,7 +331,7 @@
    },
    "status": "ok",
    "notes": [
-    "29 breve(s) written as tied whole notes / two whole rests (lilylet has no breve)"
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)"
    ]
   },
   {
@@ -372,10 +357,8 @@
    },
    "status": "ok-with-notes",
    "notes": [
-    "TEXT ON RESTS LOST: 33 staff texts on rests (\"Complete this staff\", \"Complete this staff\", \"Complete this staff\") dropped; lilylet cannot attach text to a rest or spacer",
     "95 invisible rests written as spacers",
-    "57 breve(s) written as tied whole notes / two whole rests (lilylet has no breve)",
-    "142 full-bar rests in bars longer than a whole note written as R1",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)",
     "visual review: dotted barlines drawn solid"
    ]
   },
@@ -399,10 +382,9 @@
     "minor": true,
     "note": "fixed: texts on rests are no longer moved onto a wrong note (now dropped and listed in the notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
     "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60",
-    "TEXT ON RESTS LOST: 1 staff texts on rests (\"(Key: A Major)\") dropped; lilylet cannot attach text to a rest or spacer",
     "12 invisible rests written as spacers",
     "visual review (minor): a staff hidden in MuseScore is drawn (lilylet has no invisible staff)"
    ]
@@ -427,10 +409,9 @@
     "minor": true,
     "note": "fixed: texts on rests are no longer moved onto a wrong note (now dropped and listed in the notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
     "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60",
-    "TEXT ON RESTS LOST: 1 staff texts on rests (\"(Key: D Major)\") dropped; lilylet cannot attach text to a rest or spacer",
     "12 invisible rests written as spacers",
     "visual review (minor): a staff hidden in MuseScore is drawn (lilylet has no invisible staff)"
    ]
@@ -456,7 +437,6 @@
    "status": "ok",
    "notes": [
     "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60",
-    "10 blank answer lines (___) on rests dropped (lilylet cannot attach them to a rest)",
     "10 invisible rests written as spacers"
    ]
   },
@@ -481,7 +461,6 @@
    "status": "ok",
    "notes": [
     "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60",
-    "10 blank answer lines (___) on rests dropped (lilylet cannot attach them to a rest)",
     "10 invisible rests written as spacers"
    ]
   },
@@ -506,7 +485,6 @@
    "status": "ok",
    "notes": [
     "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60",
-    "10 blank answer lines (___) on rests dropped (lilylet cannot attach them to a rest)",
     "10 invisible rests written as spacers"
    ]
   },
@@ -531,7 +509,6 @@
    "status": "ok",
    "notes": [
     "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60",
-    "10 blank answer lines (___) on rests dropped (lilylet cannot attach them to a rest)",
     "10 invisible rests written as spacers"
    ]
   },
@@ -556,7 +533,6 @@
    "status": "ok",
    "notes": [
     "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60",
-    "9 blank answer lines (___) on rests dropped (lilylet cannot attach them to a rest)",
     "9 invisible rests written as spacers"
    ]
   },
@@ -581,7 +557,6 @@
    "status": "ok",
    "notes": [
     "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60",
-    "10 blank answer lines (___) on rests dropped (lilylet cannot attach them to a rest)",
     "10 invisible rests written as spacers"
    ]
   },
@@ -606,7 +581,6 @@
    "status": "ok",
    "notes": [
     "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60",
-    "11 blank answer lines (___) on rests dropped (lilylet cannot attach them to a rest)",
     "11 invisible rests written as spacers"
    ]
   },
@@ -631,7 +605,6 @@
    "status": "ok",
    "notes": [
     "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60",
-    "11 blank answer lines (___) on rests dropped (lilylet cannot attach them to a rest)",
     "11 invisible rests written as spacers"
    ]
   },
@@ -656,7 +629,6 @@
    "status": "ok",
    "notes": [
     "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60",
-    "8 blank answer lines (___) on rests dropped (lilylet cannot attach them to a rest)",
     "8 invisible rests written as spacers"
    ]
   },
@@ -681,7 +653,6 @@
    "status": "ok",
    "notes": [
     "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60",
-    "8 blank answer lines (___) on rests dropped (lilylet cannot attach them to a rest)",
     "8 invisible rests written as spacers"
    ]
   },
@@ -793,7 +764,7 @@
    },
    "status": "ok",
    "notes": [
-    "Verovio warnings: [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x1)",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)",
     "visual review (minor): invisible time signature of the source is drawn"
    ]
   },
@@ -841,10 +812,8 @@
     "minor": true,
     "note": "exercise numbers / PART headings on empty bars lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 2 staff texts on rests (\"PART 3\", \"Notate the chords in\") dropped; lilylet cannot attach text to a rest or spacer",
-    "10 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "10 invisible rests written as spacers",
     "9 chord symbols moved to the start of the note/tuplet they fall inside",
     "1 clef changes at bar starts restored from the MuseScore source (its MusicXML export drops them)",
@@ -870,10 +839,8 @@
     "minor": true,
     "note": "exercise numbers / PART headings on empty bars lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 2 staff texts on rests (\"PART 4\", \"Spell the seventh ch\") dropped; lilylet cannot attach text to a rest or spacer",
-    "20 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "20 invisible rests written as spacers",
     "20 chord symbols moved to the start of the note/tuplet they fall inside",
     "20 chord symbols sit inside a held note/rest in the source and are attached to that note's start",
@@ -923,7 +890,6 @@
    },
    "status": "ok-with-notes",
    "notes": [
-    "TEXT ON RESTS LOST: 12 staff texts on rests (\"A – call\", \"B – response\", \"A\") dropped; lilylet cannot attach text to a rest or spacer",
     "24 invisible rests written as spacers",
     "5 chord symbols moved to the start of the note/tuplet they fall inside",
     "5 chord symbols sit inside a held note/rest in the source and are attached to that note's start",
@@ -953,7 +919,6 @@
    "status": "ok",
    "notes": [
     "18 invisible rests written as spacers",
-    "18 duplicate chord ties merged",
     "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)",
     "visual review (minor): notehead parentheses (and bracketed cautionary accidentals) not kept; a frame text becomes staff text over bar 33"
    ]
@@ -980,7 +945,6 @@
    },
    "status": "ok",
    "notes": [
-    "9 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "9 invisible rests written as spacers",
     "9 chord symbols moved to the start of the note/tuplet they fall inside",
     "1 clef changes at bar starts restored from the MuseScore source (its MusicXML export drops them)",
@@ -1009,10 +973,8 @@
     "minor": true,
     "note": "exercise numbers / PART headings on empty bars lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 2 staff texts on rests (\"PART 4\", \"Spell the seventh ch\") dropped; lilylet cannot attach text to a rest or spacer",
-    "20 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "20 invisible rests written as spacers",
     "20 chord symbols moved to the start of the note/tuplet they fall inside",
     "20 chord symbols sit inside a held note/rest in the source and are attached to that note's start",
@@ -1041,8 +1003,9 @@
    },
    "status": "ok-with-notes",
    "notes": [
+    "VERIFY FAILED: note/harmony diff vs music21",
     "3 clef changes at bar starts restored from the MuseScore source (its MusicXML export drops them)",
-    "Verovio warnings: [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x5)",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)",
     "visual review: transposing staves (Bb/Eb/F instruments) all get the concert key: wrong key signature and accidentals; instrument names not drawn"
    ]
   },
@@ -1093,8 +1056,10 @@
    },
    "status": "ok-with-notes",
    "notes": [
+    "VERIFY FAILED: note/harmony diff vs music21",
     "special noteheads (x/slash/diamond) not kept",
     "24 invisible rests written as spacers",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)",
     "visual review (minor): invisible time signature of the source is drawn"
    ]
   },
@@ -1121,9 +1086,11 @@
    },
    "status": "ok-with-notes",
    "notes": [
-    "TEXT ON RESTS LOST: 11 staff texts on rests (\"Applied chord substi\", \"7\", \"Applied chord substi\") dropped; lilylet cannot attach text to a rest or spacer",
+    "VERIFY FAILED: note/harmony diff vs music21",
     "7 invisible rests written as spacers",
     "1 clef changes at bar starts restored from the MuseScore source (its MusicXML export drops them)",
+    "1 chord symbols sit inside a held note/rest in the source and are attached to that note's start",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)",
     "visual review: bars 37-43: clarinet drawn in concert key (source shows the transposed key)"
    ]
   },
@@ -1166,9 +1133,8 @@
     "minor": true,
     "note": "key labels on empty bars lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 11 staff texts on rests (\"E:\", \"Dm:\", \"B:\") dropped; lilylet cannot attach text to a rest or spacer",
     "25 invisible rests written as spacers",
     "visual review (minor): invisible time signature of the source is drawn"
    ]
@@ -1193,8 +1159,7 @@
    },
    "status": "ok",
    "notes": [
-    "62 invisible rests written as spacers",
-    "1 common/cut time signatures restored (decoder drops <time symbol>)"
+    "62 invisible rests written as spacers"
    ]
   },
   {
@@ -1218,9 +1183,8 @@
     "minor": true,
     "note": "key labels on empty bars lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 11 staff texts on rests (\"E:\", \"Dm:\", \"B:\") dropped; lilylet cannot attach text to a rest or spacer",
     "25 invisible rests written as spacers",
     "visual review (minor): invisible time signature of the source is drawn"
    ]
@@ -1243,9 +1207,8 @@
     "minor": true,
     "note": "key labels on empty bars lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 11 staff texts on rests (\"E:\", \"Dm:\", \"B:\") dropped; lilylet cannot attach text to a rest or spacer",
     "25 invisible rests written as spacers",
     "same music as 2020/10/WK-Applied-Chords-B.lyl",
     "visual review (minor): invisible time signature of the source is drawn"
@@ -1272,9 +1235,8 @@
     "minor": true,
     "note": "transformation labels on empty bars lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 9 staff texts on rests (\"L\", \"R\", \"L\") dropped; lilylet cannot attach text to a rest or spacer",
     "27 invisible rests written as spacers",
     "visual review (minor): title-frame instructions become staff texts (bars 1, 25, 37); invisible barlines (bars 44-48) drawn"
    ]
@@ -1302,8 +1264,6 @@
    },
    "status": "ok-with-notes",
    "notes": [
-    "TEXT ON RESTS LOST: 11 staff texts on rests (\"Dmi:\", \"B:\", \"C♯mi:\") dropped; lilylet cannot attach text to a rest or spacer",
-    "9 blank answer lines (___), 3 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "37 invisible rests written as spacers",
     "2 chord symbols moved to the start of the note/tuplet they fall inside",
     "2 chord symbols sit inside a held note/rest in the source and are attached to that note's start",
@@ -1331,12 +1291,11 @@
     "issue": "stacked pivot-chord Roman numerals (bars 17-19) overlap as plain text; exercise 1 staff text sits one bar late",
     "minor": true
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
     "9 invisible chord symbols / Roman numerals of the source (answers) left out",
-    "TEXT ON RESTS LOST: 4 staff texts on rests (\"3. Harmonize the unf\", \"will modulate to a n\", \"4. Realize the progr\") dropped; lilylet cannot attach text to a rest or spacer",
     "112 invisible notes of the source (hidden answers / playback) written as spacers",
-    "9 texts/dynamics attached to invisible notes dropped (lilylet cannot attach them to a spacer; moving them would misplace them)",
+    "9 texts/dynamics kept on the spacer of an invisible note",
     "visual review (minor): stacked pivot-chord Roman numerals (bars 17-19) overlap as plain text; exercise 1 staff text sits one bar late"
    ]
   },
@@ -1360,21 +1319,17 @@
     "issue": "restated common/cut-time symbols (bars 17, 29) drawn plain; invisible 2/4 at bar 10 drawn; \"1̂ pedal\" text line (bar 27) lost",
     "minor": true
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
     "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60",
-    "TEXT ON RESTS LOST: 5 staff texts on rests (\"i\", \"F:\", \"V\") dropped; lilylet cannot attach text to a rest or spacer",
-    "7 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
-    "49 tuplets containing chords regrouped after decoding (decoder splits chords inside tuplets)",
     "2 zero-net <backup>/<forward> pairs around directions removed",
     "9 invisible notes of the source (hidden answers / playback) written as spacers",
     "59 invisible rests written as spacers",
-    "3 texts/dynamics attached to invisible notes dropped (lilylet cannot attach them to a spacer; moving them would misplace them)",
+    "3 texts/dynamics kept on the spacer of an invisible note",
     "11 figured-bass groups added as \\figures (the decoder drops <figured-bass>)",
     "3 clef changes at bar starts restored from the MuseScore source (its MusicXML export drops them)",
-    "2 common/cut time signatures restored (decoder drops <time symbol>)",
     "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)",
-    "Verovio warnings: [Warning] Expected @tie median or terminal in note '…', skipping it (x3); [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x4)",
+    "Verovio warnings: [Warning] Hairpin '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x1); [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x1); [Warning] 3 time spanning element(s) with startid and endid could not be matched. (x1)",
     "visual review (minor): restated common/cut-time symbols (bars 17, 29) drawn plain; invisible 2/4 at bar 10 drawn; \"1̂ pedal\" text line (bar 27) lost"
    ]
   },
@@ -1436,8 +1391,11 @@
    "review": {
     "checked": "2026-11-09"
    },
-   "status": "ok",
-   "notes": []
+   "status": "ok-with-notes",
+   "notes": [
+    "VERIFY FAILED: note/harmony diff vs music21",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)"
+   ]
   },
   {
    "source": "v2/media/2021/05/Six_Concertante_Quartets_No._4_II_mm._54-61.mscz",
@@ -1459,7 +1417,7 @@
    },
    "status": "ok",
    "notes": [
-    "Verovio warnings: [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x4)"
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)"
    ]
   },
   {
@@ -1481,9 +1439,8 @@
     "checked": "2026-11-09",
     "note": "cadence labels on hidden-answer rests lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 14 staff texts on rests (\"Key: ____\", \"HC\", \"Key: ____\") dropped; lilylet cannot attach text to a rest or spacer",
     "28 invisible rests written as spacers",
     "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)"
    ]
@@ -1510,7 +1467,6 @@
    },
    "status": "ok",
    "notes": [
-    "8 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "16 invisible rests written as spacers",
     "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)",
     "visual review (minor): bracketed cautionary naturals (bars 30, 33) not drawn"
@@ -1536,7 +1492,6 @@
    "notes": [
     "72 invisible notes of the source (hidden answers / playback) written as spacers",
     "9 invisible rests written as spacers",
-    "2 common/cut time signatures restored (decoder drops <time symbol>)",
     "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)"
    ]
   },
@@ -1559,7 +1514,7 @@
    "notes": [
     "88 invisible notes of the source (hidden answers / playback) written as spacers",
     "8 invisible rests written as spacers",
-    "8 full-bar rests in bars longer than a whole note written as R1"
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)"
    ]
   },
   {
@@ -1573,10 +1528,10 @@
    "notes_count": 7,
    "chord_symbols": 0,
    "kind": "model/example",
-   "status": "skipped-percussion",
-   "lyl": null,
+   "lyl": "v2/lilylet/2020/08/Ch9Ex11.lyl",
+   "status": "ok-with-notes",
    "notes": [
-    "percussion score: skipped (lilylet has no percussion staff; drum notes would be written as pitches)"
+    "percussion notes are drawn at their staff position (lilylet has no unpitched notes)"
    ]
   },
   {
@@ -1590,10 +1545,10 @@
    "notes_count": 34,
    "chord_symbols": 0,
    "kind": "model/example",
-   "status": "skipped-percussion",
-   "lyl": null,
+   "lyl": "v2/lilylet/2020/08/Ch9Ex12.lyl",
+   "status": "ok-with-notes",
    "notes": [
-    "percussion score: skipped (lilylet has no percussion staff; drum notes would be written as pitches)"
+    "percussion notes are drawn at their staff position (lilylet has no unpitched notes)"
    ]
   },
   {
@@ -1607,10 +1562,10 @@
    "notes_count": 15,
    "chord_symbols": 0,
    "kind": "model/example",
-   "status": "skipped-percussion",
-   "lyl": null,
+   "lyl": "v2/lilylet/2020/08/Ch9Ex13.lyl",
+   "status": "ok-with-notes",
    "notes": [
-    "percussion score: skipped (lilylet has no percussion staff; drum notes would be written as pitches)"
+    "percussion notes are drawn at their staff position (lilylet has no unpitched notes)"
    ]
   },
   {
@@ -1624,10 +1579,10 @@
    "notes_count": 22,
    "chord_symbols": 0,
    "kind": "model/example",
-   "status": "skipped-percussion",
-   "lyl": null,
+   "lyl": "v2/lilylet/2020/08/Ch9Ex14.lyl",
+   "status": "ok-with-notes",
    "notes": [
-    "percussion score: skipped (lilylet has no percussion staff; drum notes would be written as pitches)"
+    "percussion notes are drawn at their staff position (lilylet has no unpitched notes)"
    ]
   },
   {
@@ -1641,10 +1596,11 @@
    "notes_count": 8,
    "chord_symbols": 0,
    "kind": "model/example",
-   "status": "skipped-percussion",
-   "lyl": null,
+   "lyl": "v2/lilylet/2020/08/Ch9Ex15.lyl",
+   "status": "ok-with-notes",
    "notes": [
-    "percussion score: skipped (lilylet has no percussion staff; drum notes would be written as pitches)"
+    "percussion notes are drawn at their staff position (lilylet has no unpitched notes)",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)"
    ]
   },
   {
@@ -1658,10 +1614,11 @@
    "notes_count": 7,
    "chord_symbols": 0,
    "kind": "model/example",
-   "status": "skipped-percussion",
-   "lyl": null,
+   "lyl": "v2/lilylet/2020/08/Ch9Ex16.lyl",
+   "status": "ok-with-notes",
    "notes": [
-    "percussion score: skipped (lilylet has no percussion staff; drum notes would be written as pitches)"
+    "percussion notes are drawn at their staff position (lilylet has no unpitched notes)",
+    "1 invisible rests written as spacers"
    ]
   },
   {
@@ -1675,10 +1632,10 @@
    "notes_count": 9,
    "chord_symbols": 0,
    "kind": "model/example",
-   "status": "skipped-percussion",
-   "lyl": null,
+   "lyl": "v2/lilylet/2020/08/Ch9Ex17.lyl",
+   "status": "ok-with-notes",
    "notes": [
-    "percussion score: skipped (lilylet has no percussion staff; drum notes would be written as pitches)"
+    "percussion notes are drawn at their staff position (lilylet has no unpitched notes)"
    ]
   },
   {
@@ -1692,10 +1649,10 @@
    "notes_count": 10,
    "chord_symbols": 0,
    "kind": "model/example",
-   "status": "skipped-percussion",
-   "lyl": null,
+   "lyl": "v2/lilylet/2020/08/Ch9Ex18.lyl",
+   "status": "ok-with-notes",
    "notes": [
-    "percussion score: skipped (lilylet has no percussion staff; drum notes would be written as pitches)"
+    "percussion notes are drawn at their staff position (lilylet has no unpitched notes)"
    ]
   },
   {
@@ -1709,10 +1666,10 @@
    "notes_count": 9,
    "chord_symbols": 0,
    "kind": "model/example",
-   "status": "skipped-percussion",
-   "lyl": null,
+   "lyl": "v2/lilylet/2020/08/Ch9Ex19.lyl",
+   "status": "ok-with-notes",
    "notes": [
-    "percussion score: skipped (lilylet has no percussion staff; drum notes would be written as pitches)"
+    "percussion notes are drawn at their staff position (lilylet has no unpitched notes)"
    ]
   },
   {
@@ -1726,10 +1683,10 @@
    "notes_count": 9,
    "chord_symbols": 0,
    "kind": "model/example",
-   "status": "skipped-percussion",
-   "lyl": null,
+   "lyl": "v2/lilylet/2020/08/Ch9Ex20.lyl",
+   "status": "ok-with-notes",
    "notes": [
-    "percussion score: skipped (lilylet has no percussion staff; drum notes would be written as pitches)"
+    "percussion notes are drawn at their staff position (lilylet has no unpitched notes)"
    ]
   },
   {
@@ -1743,10 +1700,10 @@
    "notes_count": 20,
    "chord_symbols": 0,
    "kind": "model/example",
-   "status": "skipped-percussion",
-   "lyl": null,
+   "lyl": "v2/lilylet/2020/08/Ch9Ex21.lyl",
+   "status": "ok-with-notes",
    "notes": [
-    "percussion score: skipped (lilylet has no percussion staff; drum notes would be written as pitches)"
+    "percussion notes are drawn at their staff position (lilylet has no unpitched notes)"
    ]
   },
   {
@@ -1787,10 +1744,8 @@
    },
    "status": "ok",
    "notes": [
-    "1 blank answer lines (___) on rests dropped (lilylet cannot attach them to a rest)",
     "54 invisible notes of the source (hidden answers / playback) written as spacers",
     "10 invisible rests written as spacers",
-    "2 common/cut time signatures restored (decoder drops <time symbol>)",
     "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)",
     "visual review (minor): bar 32: tie into a hidden note lost; cut/common-time symbol drawn as 2/2 or 4/4 (bar 25)"
    ]
@@ -1813,10 +1768,9 @@
    },
    "status": "ok",
    "notes": [
-    "3 blank answer lines (___) on rests dropped (lilylet cannot attach them to a rest)",
     "77 invisible notes of the source (hidden answers / playback) written as spacers",
     "8 invisible rests written as spacers",
-    "8 full-bar rests in bars longer than a whole note written as R1"
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)"
    ]
   },
   {
@@ -1839,10 +1793,8 @@
    },
    "status": "ok",
    "notes": [
-    "1 blank answer lines (___) on rests dropped (lilylet cannot attach them to a rest)",
     "54 invisible notes of the source (hidden answers / playback) written as spacers",
     "10 invisible rests written as spacers",
-    "2 common/cut time signatures restored (decoder drops <time symbol>)",
     "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)",
     "same music as 2021/05/WK-Rhythmic-Notation-Simple-A-.lyl",
     "visual review (minor): bar 32: tie into a hidden note lost; cut/common-time symbol drawn as 2/2 or 4/4 (bar 25)"
@@ -1868,10 +1820,8 @@
    },
    "status": "ok",
    "notes": [
-    "1 blank answer lines (___) on rests dropped (lilylet cannot attach them to a rest)",
     "54 invisible notes of the source (hidden answers / playback) written as spacers",
     "10 invisible rests written as spacers",
-    "2 common/cut time signatures restored (decoder drops <time symbol>)",
     "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)",
     "same music as 2021/05/WK-Rhythmic-Notation-Simple-A-.lyl",
     "visual review (minor): bar 32: tie into a hidden note lost; cut/common-time symbol drawn as 2/2 or 4/4 (bar 25)"
@@ -1898,11 +1848,10 @@
     "minor": true,
     "note": "instruction texts on empty bars lost (see notes); PDF-name title dropped"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 45 staff texts on rests (\"2. Write a\", \"Motive A\", \"that uses\") dropped; lilylet cannot attach text to a rest or spacer",
-    "1 blank answer lines (___) on rests dropped (lilylet cannot attach them to a rest)",
     "45 invisible rests written as spacers",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)",
     "visual review (minor): irregular 6/4 first bar with an invisible time signature drawn as 4/4"
    ]
   },
@@ -1926,9 +1875,8 @@
    },
    "status": "ok",
    "notes": [
-    "3 blank answer lines (___) on rests dropped (lilylet cannot attach them to a rest)",
     "28 invisible rests written as spacers",
-    "8 full-bar rests in bars longer than a whole note written as R1"
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)"
    ]
   },
   {
@@ -1952,13 +1900,10 @@
     "minor": true,
     "note": "fixed: texts on rests are no longer moved onto a wrong note (now dropped and listed in the notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 3 staff texts on rests (\"incorrect\", \"corrected\", \"corrected\") dropped; lilylet cannot attach text to a rest or spacer",
-    "3 blank answer lines (___), 1 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "3 invisible notes of the source (hidden answers / playback) written as spacers",
     "25 invisible rests written as spacers",
-    "2 common/cut time signatures restored (decoder drops <time symbol>)",
     "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)",
     "visual review (minor): ★ staff texts one note late in bars 4, 5, 15; cut/common-time symbol drawn as 2/2 or 4/4"
    ]
@@ -1979,9 +1924,10 @@
     "checked": "2026-11-09",
     "note": "octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
    },
-   "status": "ok",
+   "status": "ok-with-notes",
    "notes": [
-    "Verovio warnings: [Warning] Expected @tie median or terminal in note '…', skipping it (x1); [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x5)"
+    "VERIFY FAILED: note/harmony diff vs music21",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)"
    ]
   },
   {
@@ -2003,9 +1949,10 @@
     "checked": "2026-11-09",
     "note": "octave clef drawn an octave low: fixed by lilylet 38805c8 (2026-11-09), re-converted and re-compared"
    },
-   "status": "ok",
+   "status": "ok-with-notes",
    "notes": [
-    "1 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)"
+    "VERIFY FAILED: note/harmony diff vs music21",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)"
    ]
   },
   {
@@ -2022,10 +1969,18 @@
    "notes_count": 45,
    "chord_symbols": 0,
    "kind": "workbook-prompt",
-   "status": "skipped-percussion",
-   "lyl": null,
+   "lyl": "v2/lilylet/2023/01/WK-rhythm-and-meter-in-pop-music-transcription.lyl",
+   "status": "ok-with-notes",
    "notes": [
-    "percussion score: skipped (lilylet has no percussion staff; drum notes would be written as pitches)"
+    "VERIFY FAILED: note/harmony diff vs music21",
+    "VERIFY: source has 16 invisible notes, 4 written as spacers",
+    "source uses a 1-line staff; lilylet draws 5 lines",
+    "special noteheads (x/slash/diamond) not kept",
+    "percussion notes are drawn at their staff position (lilylet has no unpitched notes)",
+    "4 invisible notes of the source (hidden answers / playback) written as spacers",
+    "52 invisible rests written as spacers",
+    "2 texts/dynamics kept on the spacer of an invisible note",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)"
    ]
   },
   {
@@ -2051,8 +2006,8 @@
    },
    "status": "ok-with-notes",
    "notes": [
-    "1 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
-    "Verovio warnings: [Warning] Expected @tie median or terminal in note '…', skipping it (x1); [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x5)",
+    "VERIFY FAILED: note/harmony diff vs music21",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)",
     "visual review: glissandi not drawn"
    ]
   },
@@ -2070,10 +2025,14 @@
    "notes_count": 70,
    "chord_symbols": 0,
    "kind": "workbook-prompt",
-   "status": "skipped-percussion",
-   "lyl": null,
+   "lyl": "v2/lilylet/2023/07/WK-Drumbeats.lyl",
+   "status": "ok-with-notes",
    "notes": [
-    "percussion score: skipped (lilylet has no percussion staff; drum notes would be written as pitches)"
+    "VERIFY FAILED: note/harmony diff vs music21",
+    "special noteheads (x/slash/diamond) not kept",
+    "percussion notes are drawn at their staff position (lilylet has no unpitched notes)",
+    "6 invisible rests written as spacers",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)"
    ]
   },
   {
@@ -2094,10 +2053,10 @@
    "review": {
     "checked": "2026-11-09"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 3 staff texts on rests (\"Cadence:\", \"Cadence:\", \"Cadence:\") dropped; lilylet cannot attach text to a rest or spacer",
-    "9 invisible rests written as spacers"
+    "9 invisible rests written as spacers",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)"
    ]
   },
   {
@@ -2122,10 +2081,7 @@
    },
    "status": "ok-with-notes",
    "notes": [
-    "TEXT ON RESTS LOST: 2 staff texts on rests (\"Completed 8-measure \", \"(with simplified acc\") dropped; lilylet cannot attach text to a rest or spacer",
     "24 invisible rests written as spacers",
-    "1 common/cut time signatures restored (decoder drops <time symbol>)",
-    "Verovio warnings: [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x1)",
     "visual review: metronome marks of the tempo texts lost; system text at bar 10 lost"
    ]
   },
@@ -2148,10 +2104,10 @@
     "issue": "bar 8: start repeat after the end repeat not drawn; instruction texts one or two bars late",
     "minor": true
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 4 staff texts on rests (\"Compose a sentence f\", \"Write a sequence mod\", \"Write a sequence cop\") dropped; lilylet cannot attach text to a rest or spacer",
     "24 invisible rests written as spacers",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)",
     "visual review (minor): bar 8: start repeat after the end repeat not drawn; instruction texts one or two bars late"
    ]
   },
@@ -2172,12 +2128,12 @@
    "review": {
     "checked": "2026-11-09"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
     "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60",
-    "TEXT ON RESTS LOST: 4 staff texts on rests (\"Compose a sentence f\", \"Write a sequence mod\", \"Write a sequence cop\") dropped; lilylet cannot attach text to a rest or spacer",
     "24 invisible rests written as spacers",
-    "1 clef changes at bar starts restored from the MuseScore source (its MusicXML export drops them)"
+    "1 clef changes at bar starts restored from the MuseScore source (its MusicXML export drops them)",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)"
    ]
   },
   {
@@ -2228,11 +2184,9 @@
    },
    "status": "ok-with-notes",
    "notes": [
-    "TEXT ON RESTS LOST: 9 staff texts on rests (\"1. Final Destination\", \"Write your analysis \", \"2. Happy Pizza\") dropped; lilylet cannot attach text to a rest or spacer",
-    "4 dynamics on rests dropped (lilylet cannot attach them to a rest)",
-    "15 tuplet group(s) without a <tuplet> bracket in the source wrapped in \\tuplet",
-    "5 duplicate chord ties merged",
-    "Verovio warnings: [Warning] Hairpin '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x1); [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x2)",
+    "VERIFY FAILED: note/harmony diff vs music21",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)",
+    "Verovio warnings: [Warning] Hairpin '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x1)",
     "visual review: two-note tremolos come out as tuplets without tremolo beams; Cl.->Glock. change (G15ma clef) not shown"
    ]
   },
@@ -2257,10 +2211,8 @@
     "minor": true,
     "note": "pc labels on empty bars lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 14 staff texts on rests (\"PART 1: Converting N\", \"For each note name g\", \"1. D =    ____      \") dropped; lilylet cannot attach text to a rest or spacer",
-    "11 blank answer lines (___), 10 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "35 invisible rests written as spacers",
     "visual review (minor): a title-frame instruction becomes staff text at bar 1; invisible time signature of the source is drawn"
    ]
@@ -2283,11 +2235,11 @@
    "review": {
     "checked": "2026-11-09"
    },
-   "status": "ok",
+   "status": "ok-with-notes",
    "notes": [
+    "VERIFY FAILED: note/harmony diff vs music21",
     "3 invisible rests written as spacers",
-    "1 duplicate chord ties merged",
-    "Verovio warnings: [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x4)"
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)"
    ]
   },
   {
@@ -2325,7 +2277,6 @@
    },
    "status": "ok",
    "notes": [
-    "40 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "40 invisible rests written as spacers",
     "7 clef changes at bar starts restored from the MuseScore source (its MusicXML export drops them)",
     "same music as 2021/10/WK-Reading-Clefs-1.lyl"
@@ -2349,7 +2300,6 @@
    },
    "status": "ok",
    "notes": [
-    "40 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "40 invisible rests written as spacers",
     "same music as 2021/10/WK-Reading-Clefs-2.lyl"
    ]
@@ -2487,7 +2437,6 @@
    },
    "status": "ok",
    "notes": [
-    "40 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "40 invisible rests written as spacers",
     "7 clef changes at bar starts restored from the MuseScore source (its MusicXML export drops them)",
     "same music as 2021/10/WK-Reading-Clefs-1.lyl"
@@ -2511,7 +2460,6 @@
    },
    "status": "ok",
    "notes": [
-    "40 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "40 invisible rests written as spacers",
     "same music as 2021/10/WK-Reading-Clefs-2.lyl"
    ]
@@ -2600,10 +2548,8 @@
     "checked": "2026-11-09",
     "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "10 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
-    "TEXT ON RESTS LOST: 8 lyric syllables on rests dropped",
     "10 invisible rests written as spacers",
     "14 clef changes at bar starts restored from the MuseScore source (its MusicXML export drops them)",
     "same music as 2021/10/WK-Inversion-and-Figured-Bass-2.lyl"
@@ -2692,10 +2638,8 @@
     "checked": "2026-11-09",
     "note": "fixed after review: clef changes at bar starts restored; chord-name lyrics on empty answer bars lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "10 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
-    "TEXT ON RESTS LOST: 10 lyric syllables on rests dropped",
     "10 invisible rests written as spacers",
     "14 clef changes at bar starts restored from the MuseScore source (its MusicXML export drops them)",
     "same music as 2021/10/WK-Inversion-and-Figured-Bass-1.lyl"
@@ -2860,10 +2804,8 @@
     "checked": "2026-11-09",
     "note": "fixed after review: clef changes at bar starts restored; chord-name lyrics on empty answer bars lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "10 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
-    "TEXT ON RESTS LOST: 10 lyric syllables on rests dropped",
     "10 invisible rests written as spacers",
     "14 clef changes at bar starts restored from the MuseScore source (its MusicXML export drops them)"
    ]
@@ -2887,10 +2829,8 @@
     "checked": "2026-11-09",
     "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "10 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
-    "TEXT ON RESTS LOST: 8 lyric syllables on rests dropped",
     "10 invisible rests written as spacers",
     "14 clef changes at bar starts restored from the MuseScore source (its MusicXML export drops them)"
    ]
@@ -2916,7 +2856,6 @@
    },
    "status": "ok",
    "notes": [
-    "40 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "40 invisible rests written as spacers",
     "7 clef changes at bar starts restored from the MuseScore source (its MusicXML export drops them)"
    ]
@@ -2942,7 +2881,6 @@
    },
    "status": "ok",
    "notes": [
-    "40 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "40 invisible rests written as spacers"
    ]
   },
@@ -3039,7 +2977,6 @@
    },
    "status": "ok",
    "notes": [
-    "20 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "20 invisible rests written as spacers",
     "3 clef changes at bar starts restored from the MuseScore source (its MusicXML export drops them)"
    ]
@@ -3067,8 +3004,6 @@
    "status": "ok-with-notes",
    "notes": [
     "special noteheads (x/slash/diamond) not kept",
-    "TEXT ON RESTS LOST: 9 staff texts on rests (\"D:\", \"D♭:\", \"B:\") dropped; lilylet cannot attach text to a rest or spacer",
-    "9 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "9 invisible rests written as spacers",
     "visual review: bars 38, 41: second-half chords drawn on another staff than in the source; notehead parentheses (and bracketed cautionary accidentals) not kept; key labels on empty bars lost"
    ]
@@ -3092,9 +3027,8 @@
     "checked": "2026-11-09",
     "note": "texts / numbers on empty answer bars are lost (see notes); otherwise as the source"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 40 staff texts on rests (\"C\", \"5\", \"E\") dropped; lilylet cannot attach text to a rest or spacer",
     "20 invisible rests written as spacers"
    ]
   },
@@ -3117,9 +3051,8 @@
     "checked": "2026-11-09",
     "note": "texts / numbers on empty answer bars are lost (see notes); otherwise as the source"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 80 staff texts on rests (\"C\", \"5\", \"E\") dropped; lilylet cannot attach text to a rest or spacer",
     "40 invisible rests written as spacers"
    ]
   },
@@ -3293,11 +3226,12 @@
    },
    "status": "ok-with-notes",
    "notes": [
+    "VERIFY FAILED: note/harmony diff vs music21",
     "2 clef changes at system starts restored (MuseScore's export drops header clefs; source patched before export)",
     "special noteheads (x/slash/diamond) not kept",
     "25 zero-net <backup>/<forward> pairs around directions removed",
     "5 invisible rests written as spacers",
-    "Verovio warnings: [Warning] Expected @tie median or terminal in note '…', skipping it (x1); [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x1)"
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)"
    ]
   },
   {
@@ -3371,8 +3305,6 @@
    },
    "status": "ok-with-notes",
    "notes": [
-    "TEXT ON RESTS LOST: 16 staff texts on rests (\"A♭ major\", \"B major\", \"E♭ major\") dropped; lilylet cannot attach text to a rest or spacer",
-    "14 blank answer lines (___) on rests dropped (lilylet cannot attach them to a rest)",
     "29 invisible rests written as spacers",
     "visual review: where key and clef change in the same bar the key signature is written before the clef (drawn under the old clef); invisible time signature of the source is drawn"
    ]
@@ -3400,8 +3332,6 @@
    },
    "status": "ok-with-notes",
    "notes": [
-    "TEXT ON RESTS LOST: 16 staff texts on rests (\"A♭ major\", \"B major\", \"E♭ major\") dropped; lilylet cannot attach text to a rest or spacer",
-    "14 blank answer lines (___) on rests dropped (lilylet cannot attach them to a rest)",
     "29 invisible rests written as spacers",
     "visual review: where key and clef change in the same bar the key signature is written before the clef (drawn under the old clef); invisible time signature of the source is drawn"
    ]
@@ -3429,8 +3359,6 @@
    },
    "status": "ok-with-notes",
    "notes": [
-    "TEXT ON RESTS LOST: 15 staff texts on rests (\"B♭ major\", \"B♭ major\", \"D♭ major\") dropped; lilylet cannot attach text to a rest or spacer",
-    "14 blank answer lines (___) on rests dropped (lilylet cannot attach them to a rest)",
     "29 invisible rests written as spacers",
     "visual review: where key and clef change in the same bar the key signature is written before the clef (drawn under the old clef); invisible time signature of the source is drawn"
    ]
@@ -3458,8 +3386,6 @@
    },
    "status": "ok-with-notes",
    "notes": [
-    "TEXT ON RESTS LOST: 15 staff texts on rests (\"B♭ major\", \"B♭ major\", \"D♭ major\") dropped; lilylet cannot attach text to a rest or spacer",
-    "14 blank answer lines (___) on rests dropped (lilylet cannot attach them to a rest)",
     "29 invisible rests written as spacers",
     "visual review: where key and clef change in the same bar the key signature is written before the clef (drawn under the old clef); invisible time signature of the source is drawn"
    ]
@@ -3485,10 +3411,8 @@
     "minor": true,
     "note": "prompts on empty bars lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 9 staff texts on rests (\"B:\", \"D:\", \"E♭:\") dropped; lilylet cannot attach text to a rest or spacer",
-    "7 blank answer lines (___), 15 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "15 invisible rests written as spacers",
     "visual review (minor): invisible time signature of the source is drawn; scale-degree glyph (U+EF02) markup draws empty"
    ]
@@ -3514,10 +3438,8 @@
     "minor": true,
     "note": "prompts on empty bars lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 9 staff texts on rests (\"B:\", \"D:\", \"E♭:\") dropped; lilylet cannot attach text to a rest or spacer",
-    "7 blank answer lines (___), 15 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "15 invisible rests written as spacers",
     "visual review (minor): invisible time signature of the source is drawn; scale-degree glyph (U+EF02) markup draws empty"
    ]
@@ -3543,10 +3465,8 @@
     "minor": true,
     "note": "prompts on empty bars lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 9 staff texts on rests (\"E:\", \"D♭:\", \"A:\") dropped; lilylet cannot attach text to a rest or spacer",
-    "7 blank answer lines (___), 15 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "15 invisible rests written as spacers",
     "visual review (minor): invisible time signature of the source is drawn; scale-degree glyph (U+EF02) markup draws empty"
    ]
@@ -3571,10 +3491,8 @@
     "minor": true,
     "note": "prompts on empty bars lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 11 staff texts on rests (\"E melodic minor (asc\", \"and descending)\", \"C♯mi:\") dropped; lilylet cannot attach text to a rest or spacer",
-    "5 blank answer lines (___), 15 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "15 invisible rests written as spacers",
     "visual review (minor): invisible time signature of the source is drawn; scale-degree glyph (U+EF02) markup draws empty"
    ]
@@ -3599,10 +3517,8 @@
     "minor": true,
     "note": "prompts on empty bars lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 9 staff texts on rests (\"C♯mi:\", \"Emi: leading tone\", \"Cmi:\") dropped; lilylet cannot attach text to a rest or spacer",
-    "5 blank answer lines (___), 15 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "15 invisible rests written as spacers",
     "visual review (minor): invisible time signature of the source is drawn; scale-degree glyph (U+EF02) markup draws empty"
    ]
@@ -3627,10 +3543,8 @@
     "minor": true,
     "note": "prompts on empty bars lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 9 staff texts on rests (\"D♯mi:\", \"Bmi: leading tone\", \"F♯mi:\") dropped; lilylet cannot attach text to a rest or spacer",
-    "5 blank answer lines (___), 15 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "15 invisible rests written as spacers",
     "visual review (minor): invisible time signature of the source is drawn; scale-degree glyph (U+EF02) markup draws empty"
    ]
@@ -3655,10 +3569,8 @@
     "minor": true,
     "note": "prompts on empty bars lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 9 staff texts on rests (\"D♯mi:\", \"Bmi: leading tone\", \"F♯mi:\") dropped; lilylet cannot attach text to a rest or spacer",
-    "5 blank answer lines (___), 15 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "15 invisible rests written as spacers",
     "visual review (minor): invisible time signature of the source is drawn; scale-degree glyph (U+EF02) markup draws empty"
    ]
@@ -3681,11 +3593,9 @@
     "checked": "2026-11-09",
     "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
     "12 clef changes at system starts restored (MuseScore's export drops header clefs; source patched before export)",
-    "10 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
-    "TEXT ON RESTS LOST: 8 lyric syllables on rests dropped",
     "10 invisible rests written as spacers"
    ]
   },
@@ -3707,11 +3617,9 @@
     "checked": "2026-11-09",
     "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
     "12 clef changes at system starts restored (MuseScore's export drops header clefs; source patched before export)",
-    "10 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
-    "TEXT ON RESTS LOST: 10 lyric syllables on rests dropped",
     "10 invisible rests written as spacers"
    ]
   },
@@ -3736,13 +3644,9 @@
     "minor": true,
     "note": "fixed: invisible breve rests now spacers; scale names on empty bars lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 3 staff texts on rests (\"E major\", \"F major\", \"C minor\") dropped; lilylet cannot attach text to a rest or spacer",
-    "3 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "14 invisible rests written as spacers",
-    "4 breve(s) written as tied whole notes / two whole rests (lilylet has no breve)",
-    "Verovio warnings: [Warning] Unsupported value '…' for data.ACCIDENTAL.GESTURAL (x1)",
     "visual review (minor): invisible time signature of the source is drawn (13/4)"
    ]
   },
@@ -3767,13 +3671,9 @@
     "minor": true,
     "note": "fixed: invisible breve rests now spacers; scale names on empty bars lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 3 staff texts on rests (\"E major\", \"F major\", \"C minor\") dropped; lilylet cannot attach text to a rest or spacer",
-    "3 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "14 invisible rests written as spacers",
-    "4 breve(s) written as tied whole notes / two whole rests (lilylet has no breve)",
-    "Verovio warnings: [Warning] Unsupported value '…' for data.ACCIDENTAL.GESTURAL (x1)",
     "visual review (minor): invisible time signature of the source is drawn (13/4)"
    ]
   },
@@ -3798,13 +3698,9 @@
     "minor": true,
     "note": "fixed: invisible breve rests now spacers; scale names on empty bars lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 3 staff texts on rests (\"B♭ major\", \"E minor\", \"C major\") dropped; lilylet cannot attach text to a rest or spacer",
-    "3 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "14 invisible rests written as spacers",
-    "4 breve(s) written as tied whole notes / two whole rests (lilylet has no breve)",
-    "Verovio warnings: [Warning] Unsupported value '…' for data.ACCIDENTAL.GESTURAL (x1)",
     "visual review (minor): invisible time signature of the source is drawn (13/4)"
    ]
   },
@@ -3829,13 +3725,9 @@
     "minor": true,
     "note": "fixed: invisible breve rests now spacers; scale names on empty bars lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 3 staff texts on rests (\"B♭ major\", \"E minor\", \"C major\") dropped; lilylet cannot attach text to a rest or spacer",
-    "3 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
     "14 invisible rests written as spacers",
-    "4 breve(s) written as tied whole notes / two whole rests (lilylet has no breve)",
-    "Verovio warnings: [Warning] Unsupported value '…' for data.ACCIDENTAL.GESTURAL (x1)",
     "visual review (minor): invisible time signature of the source is drawn (13/4)"
    ]
   },
@@ -3858,12 +3750,9 @@
     "checked": "2026-11-09",
     "note": "texts / numbers on empty answer bars are lost (see notes); otherwise as the source"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 18 staff texts on rests (\"E minor\", \"G♯ minor\", \"C♯ minor\") dropped; lilylet cannot attach text to a rest or spacer",
-    "12 blank answer lines (___) on rests dropped (lilylet cannot attach them to a rest)",
-    "27 invisible rests written as spacers",
-    "2 full-bar rests in bars longer than a whole note written as R1"
+    "27 invisible rests written as spacers"
    ]
   },
   {
@@ -3885,12 +3774,9 @@
     "checked": "2026-11-09",
     "note": "texts / numbers on empty answer bars are lost (see notes); otherwise as the source"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 18 staff texts on rests (\"E minor\", \"G♯ minor\", \"C♯ minor\") dropped; lilylet cannot attach text to a rest or spacer",
-    "12 blank answer lines (___) on rests dropped (lilylet cannot attach them to a rest)",
-    "27 invisible rests written as spacers",
-    "2 full-bar rests in bars longer than a whole note written as R1"
+    "27 invisible rests written as spacers"
    ]
   },
   {
@@ -3912,10 +3798,8 @@
     "checked": "2026-11-09",
     "note": "texts / numbers on empty answer bars are lost (see notes); otherwise as the source"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 18 staff texts on rests (\"G♯ minor\", \"G♯ minor\", \"A♭ minor\") dropped; lilylet cannot attach text to a rest or spacer",
-    "12 blank answer lines (___) on rests dropped (lilylet cannot attach them to a rest)",
     "29 invisible rests written as spacers"
    ]
   },
@@ -3938,10 +3822,8 @@
     "checked": "2026-11-09",
     "note": "texts / numbers on empty answer bars are lost (see notes); otherwise as the source"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
-    "TEXT ON RESTS LOST: 18 staff texts on rests (\"G♯ minor\", \"G♯ minor\", \"A♭ minor\") dropped; lilylet cannot attach text to a rest or spacer",
-    "12 blank answer lines (___) on rests dropped (lilylet cannot attach them to a rest)",
     "29 invisible rests written as spacers"
    ]
   },
@@ -4043,8 +3925,9 @@
    },
    "status": "ok-with-notes",
    "notes": [
-    "1 dynamics on rests dropped (lilylet cannot attach them to a rest)",
+    "VERIFY FAILED: note/harmony diff vs music21",
     "19 invisible rests written as spacers",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)",
     "visual review: notehead parentheses (and bracketed cautionary accidentals) not kept (the worksheet says \"ignore notes in parentheses\")"
    ]
   },
@@ -4144,9 +4027,11 @@
    },
    "status": "ok-with-notes",
    "notes": [
+    "VERIFY FAILED: note/harmony diff vs music21",
     "5 zero-net <backup>/<forward> pairs around directions removed",
     "19 invisible rests written as spacers",
-    "Verovio warnings: [Warning] Slur '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x1); [Warning] Hairpin '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x1)",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)",
+    "Verovio warnings: [Warning] Hairpin '…' is not encoded in the measure of its start '…'. This may cause improper rendering. (x1)",
     "visual review: notehead parentheses (and bracketed cautionary accidentals) not kept (the worksheet says \"ignore notes in parentheses\")"
    ]
   },
@@ -4239,8 +4124,7 @@
    },
    "status": "ok",
    "notes": [
-    "93 invisible rests written as spacers",
-    "Verovio warnings: [Warning] Unsupported value '…' for data.ACCIDENTAL.GESTURAL (x1)"
+    "93 invisible rests written as spacers"
    ]
   },
   {
@@ -4263,8 +4147,7 @@
    },
    "status": "ok",
    "notes": [
-    "93 invisible rests written as spacers",
-    "Verovio warnings: [Warning] Unsupported value '…' for data.ACCIDENTAL.GESTURAL (x1)"
+    "93 invisible rests written as spacers"
    ]
   },
   {
@@ -4288,9 +4171,9 @@
    },
    "status": "ok-with-notes",
    "notes": [
-    "TEXT ON RESTS LOST: 1 staff texts on rests (\"H\") dropped; lilylet cannot attach text to a rest or spacer",
+    "VERIFY FAILED: note/harmony diff vs music21",
     "36 invisible rests written as spacers",
-    "55 full-bar rests in bars longer than a whole note written as R1",
+    "re-serializing the parsed file changes only the position of a \\stem command inside \\grace {} (same meaning)",
     "visual review (minor): bars 56-57: coloured lyric glyphs (U+FE3F/FE47) not drawn"
    ]
   },
@@ -4312,12 +4195,10 @@
     "checked": "2026-11-09",
     "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
     "12 clef changes at system starts restored (MuseScore's export drops header clefs; source patched before export)",
     "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60",
-    "10 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
-    "TEXT ON RESTS LOST: 8 lyric syllables on rests dropped",
     "10 invisible rests written as spacers"
    ]
   },
@@ -4339,12 +4220,10 @@
     "checked": "2026-11-09",
     "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
     "8 clef changes at system starts restored (MuseScore's export drops header clefs; source patched before export)",
     "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60",
-    "10 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
-    "TEXT ON RESTS LOST: 8 lyric syllables on rests dropped",
     "10 invisible rests written as spacers"
    ]
   },
@@ -4366,12 +4245,10 @@
     "checked": "2026-11-09",
     "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
     "12 clef changes at system starts restored (MuseScore's export drops header clefs; source patched before export)",
     "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60",
-    "10 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
-    "TEXT ON RESTS LOST: 10 lyric syllables on rests dropped",
     "10 invisible rests written as spacers"
    ]
   },
@@ -4393,12 +4270,10 @@
     "checked": "2026-11-09",
     "note": "fixed in the pipeline after review: clef changes at bar starts (dropped by MuseScore's export) restored; prompts/exercise numbers on empty answer bars are lost (see notes)"
    },
-   "status": "ok-with-notes",
+   "status": "ok",
    "notes": [
     "11 clef changes at system starts restored (MuseScore's export drops header clefs; source patched before export)",
     "saved by MuseScore 4.7; converted with 4.6.5 after re-stamping the file as 4.60",
-    "10 exercise numbers (rehearsal marks) on rests dropped (lilylet cannot attach them to a rest)",
-    "TEXT ON RESTS LOST: 10 lyric syllables on rests dropped",
     "10 invisible rests written as spacers"
    ]
   }

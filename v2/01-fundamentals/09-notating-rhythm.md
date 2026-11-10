@@ -62,6 +62,16 @@ Note values shorter than the sixteenth note (thirty-second note, sixty-fourth no
 
 ![Example 3. A double whole note on a line.](../media/2021/06/Example-3-Chapter-8.png)*Example 3. A double whole note on a line.*
 
+<!-- lilylet-begin: media/2021/06/Example-3-Chapter-8.png -->
+Lilylet transcription of the example above ([Example-3-Chapter-8.lyl](../lilylet/images/2021/06/Example-3-Chapter-8.lyl)):
+
+```lyl.play
+[title "A breve (double whole note) on the third line"]
+
+% One breve on B4 in a 4/2 bar, then the final barline.
+\omit Score.TimeSignature \time 4/2 \clef "treble" b\breve \bar "|." | %1
+```
+<!-- lilylet-end -->
 ## Rest Values
 
 Broadly speaking, rests refer to the duration of silences in music. Each hierarchical note value has a corresponding rest value, as seen in Example 4. Like note values, each rest value can be divided into two smaller values. Several additional aspects of Example 4 should be noted:
@@ -76,6 +86,16 @@ Although rare, you may run across a breve rest (Example 5). A breve rest is equ
 
 ![Example 5. A breve rest.](../media/2019/05/Breve-Rest.png)*Example 5. A breve rest.*
 
+<!-- lilylet-begin: media/2019/05/Breve-Rest.png -->
+Lilylet transcription of the example above ([Breve-Rest.lyl](../lilylet/images/2019/05/Breve-Rest.lyl)):
+
+```lyl.play
+[title "A breve rest (double whole rest)"]
+
+% The glyph fills a whole bar of 4/2: one breve rest, then a barline.
+\omit Score.TimeSignature \time 4/2 r\breve \bar "||" | %1
+```
+<!-- lilylet-end -->
 You can practice note and rest values in the following exercise:
 
 > **Practice**

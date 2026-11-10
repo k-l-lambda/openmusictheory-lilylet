@@ -274,25 +274,25 @@ It is important to note that triad and seventh chord identification is not affec
 
    \key g \major <fs,, b d>1^\markup "10" \bar "|." | %10
 
-   \key c \major \clef "treble" s1 \bar "||" | %11
+   \key c \major \clef "treble" s1^\markup "11" \bar "||" | %11
 
-   \clef "alto" s1 \bar "||" | %12
+   \clef "alto" s1^\markup "12" \bar "||" | %12
 
-   \clef "treble" s1 \bar "||" | %13
+   \clef "treble" s1^\markup "13" \bar "||" | %13
 
-   \clef "bass" s1 \bar "||" | %14
+   \clef "bass" s1^\markup "14" \bar "||" | %14
 
-   s1 \bar "||" | %15
+   s1^\markup "15" \bar "||" | %15
 
-   \clef "treble" s1 \bar "||" | %16
+   \clef "treble" s1^\markup "16" \bar "||" | %16
 
-   \clef "tenor" s1 \bar "||" | %17
+   \clef "tenor" s1^\markup "17" \bar "||" | %17
 
-   \clef "treble" s1 \bar "||" | %18
+   \clef "treble" s1^\markup "18" \bar "||" | %18
 
-   \clef "bass" s1 \bar "||" | %19
+   \clef "bass" s1^\markup "19" \bar "||" | %19
 
-   \clef "treble" s1 \bar "|." | %20
+   \clef "treble" s1^\markup "20" \bar "|." | %20
    ```
    <!-- lilylet-end -->
 2. Triad Inversion B ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2026/06/WK-Triad-Inversion-B.pdf), [.mscz](../media/2026/06/WK-Triad-Inversion-B.mscz)). Asks students to identify root, quality, and inversion of 10 closed-position triads, and to write 10 inverted triads from chord symbols. Treble and bass clefs only.
@@ -323,25 +323,25 @@ It is important to note that triad and seventh chord identification is not affec
 
    \key g \major <fs,, b d>1^\markup "10" \bar "|." | %10
 
-   \key c \major \clef "treble" s1 \bar "||" | %11
+   \key c \major \clef "treble" s1^\markup "11" \bar "||" | %11
 
-   \clef "bass" s1 \bar "||" | %12
+   \clef "bass" s1^\markup "12" \bar "||" | %12
 
-   \clef "treble" s1 \bar "||" | %13
+   \clef "treble" s1^\markup "13" \bar "||" | %13
 
-   \clef "bass" s1 \bar "||" | %14
+   \clef "bass" s1^\markup "14" \bar "||" | %14
 
-   s1 \bar "||" | %15
+   s1^\markup "15" \bar "||" | %15
 
-   \clef "treble" s1 \bar "||" | %16
+   \clef "treble" s1^\markup "16" \bar "||" | %16
 
-   \clef "bass" s1 \bar "||" | %17
+   \clef "bass" s1^\markup "17" \bar "||" | %17
 
-   \clef "treble" s1 \bar "||" | %18
+   \clef "treble" s1^\markup "18" \bar "||" | %18
 
-   \clef "bass" s1 \bar "||" | %19
+   \clef "bass" s1^\markup "19" \bar "||" | %19
 
-   \clef "treble" s1 \bar "|." | %20
+   \clef "treble" s1^\markup "20" \bar "|." | %20
    ```
    <!-- lilylet-end -->
 3. Seventh Chord Inversion A ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2026/06/WK-Seventh-Chord-Inversion-A.pdf), [.mscz](../media/2026/06/WK-Seventh-Chord-Inversion-A.mscz)). Asks students to identify root, quality, and inversion of 10 closed-position seventh chords, and to write 10 inverted seventh chords from chord symbols. Includes C clefs.
@@ -373,25 +373,25 @@ It is important to note that triad and seventh chord identification is not affec
 
    \key af \major <g, bf df e>1^\markup "10" \bar "|." | %10
 
-   \clef "treble" s1 \chords "D7/F♯" \bar "||" | %11
+   \clef "treble" s1^\markup "11" \chords "D7/F♯" \bar "||" | %11
 
-   \clef "alto" s1 \chords "Fmi7/A♭" \bar "||" | %12
+   \clef "alto" s1^\markup "12" \chords "Fmi7/A♭" \bar "||" | %12
 
-   \clef "treble" s1 \bar "||" | %13
+   \clef "treble" s1^\markup "13" \bar "||" | %13
 
-   \clef "bass" s1 \bar "||" | %14
+   \clef "bass" s1^\markup "14" \bar "||" | %14
 
-   s1 \bar "||" | %15
+   s1^\markup "15" \bar "||" | %15
 
-   \clef "treble" s1 \bar "||" | %16
+   \clef "treble" s1^\markup "16" \bar "||" | %16
 
-   \clef "tenor" s1 \bar "||" | %17
+   \clef "tenor" s1^\markup "17" \bar "||" | %17
 
-   \clef "treble" s1 \bar "||" | %18
+   \clef "treble" s1^\markup "18" \bar "||" | %18
 
-   \clef "bass" s1 \bar "||" | %19
+   \clef "bass" s1^\markup "19" \bar "||" | %19
 
-   \clef "treble" s1 \bar "|." | %20
+   \clef "treble" s1^\markup "20" \bar "|." | %20
    ```
    <!-- lilylet-end -->
 4. Seventh Chord Inversion B ([.pdf](https://viva.pressbooks.pub/app/uploads/sites/12/2026/06/WK-Seventh-Chord-Inversion-B.pdf), [.mscz](../media/2026/06/WK-Seventh-Chord-Inversion-B.mscz)). Asks students to identify root, quality, and inversion of 10 closed-position seventh chords, and to write 10 inverted seventh chords from chord symbols. Treble and bass clefs only.
@@ -423,25 +423,25 @@ It is important to note that triad and seventh chord identification is not affec
 
    \key af \major <g, bf df e>1^\markup "10" \bar "|." | %10
 
-   \clef "treble" s1 \chords "D7/F♯" \bar "||" | %11
+   \clef "treble" s1^\markup "11" \chords "D7/F♯" \bar "||" | %11
 
-   \clef "bass" s1 \chords "Fmi7/A♭" \bar "||" | %12
+   \clef "bass" s1^\markup "12" \chords "Fmi7/A♭" \bar "||" | %12
 
-   \clef "treble" s1 \bar "||" | %13
+   \clef "treble" s1^\markup "13" \bar "||" | %13
 
-   \clef "bass" s1 \bar "||" | %14
+   \clef "bass" s1^\markup "14" \bar "||" | %14
 
-   s1 \bar "||" | %15
+   s1^\markup "15" \bar "||" | %15
 
-   \clef "treble" s1 \bar "||" | %16
+   \clef "treble" s1^\markup "16" \bar "||" | %16
 
-   s1 \bar "||" | %17
+   s1^\markup "17" \bar "||" | %17
 
-   s1 \bar "||" | %18
+   s1^\markup "18" \bar "||" | %18
 
-   \clef "bass" s1 \bar "||" | %19
+   \clef "bass" s1^\markup "19" \bar "||" | %19
 
-   \clef "treble" s1 \bar "|." | %20
+   \clef "treble" s1^\markup "20" \bar "|." | %20
    ```
    <!-- lilylet-end -->
 

@@ -217,7 +217,7 @@ Like in simple meters, partial beams can be used for mixed rhythmic groupings. I
    \staff "1" \stemUp g'8^\markup "corrected"[ e g] s4 s8 s4 s8 \\
    \staff "2" R1 | %5
 
-   \staff "1" \stemUp e2^\markup "★" r8 r4 e8[ f] \\
+   \staff "1" \stemUp e2^\markup "★" r8 r4 e8^\markup "★"[ f] \\
    \staff "2" R1 \\\
    \staff "1" \stemUp e4.~ e8 s s s4 s8 \\
    \staff "2" R1 | %6
@@ -238,24 +238,24 @@ Like in simple meters, partial beams can be used for mixed rhythmic groupings. I
    \staff "2" R1 | %9
 
    \staff "1" \key g \major \time 12/8 \stemUp e8^\markup "incorrect"_\markup "3"[ ds] e fs^\markup "★" e[ fs] g2^\markup "★" fs8^\markup "*"[ e]^\markup "★" \\
-   \staff "2" R1 \\\
+   \staff "2" R\breve \\\
    \staff "1" \stemUp e8^\markup "corrected"[ ds e] s4 s8 s4 s8 s4 s8 \\
-   \staff "2" R1 | %10
+   \staff "2" R\breve | %10
 
    \staff "1" \stemDown b'2^\markup "★"~ b4 r2. \\
-   \staff "2" R1 \\\
+   \staff "2" R\breve \\\
    \staff "1" s1. \\
-   \staff "2" R1 | %11
+   \staff "2" R\breve | %11
 
    \staff "1" \stemDown c'4 \stemUp a8 \stemDown b4 \stemUp g8 a \stemDown b4 cs8^\markup "★" ds e \\
-   \staff "2" R1 \\\
+   \staff "2" R\breve \\\
    \staff "1" s1. \\
-   \staff "2" R1 | %12
+   \staff "2" R\breve | %12
 
-   \staff "1" \stemDown b'4^\markup "★"~ b8 \stemUp g4 fs8 e r r2 \bar "||" \\
-   \staff "2" R1 \\\
+   \staff "1" \stemDown b'4^\markup "★"~ b8 \stemUp g4 fs8 e^\markup "*"^\markup "★" r r2 \bar "||" \\
+   \staff "2" R\breve \\\
    \staff "1" s1. \bar "||" \\
-   \staff "2" R1 | %13
+   \staff "2" R\breve | %13
    ```
    <!-- lilylet-end -->
 

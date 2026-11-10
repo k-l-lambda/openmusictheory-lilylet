@@ -2,8 +2,8 @@
 [composer "Megan Lavengood"]
 [staves "s1,s2"]
 
-\key g \major \numericTimeSignature \time 4/4 \clef "treble" <a' c e g>1 \chords "Ami7" \\\
-\clef "treble_2" \clef "treble" R1 | %1
+\key g \major \numericTimeSignature \time 4/4 \clef "treble" \omit Score.TimeSignature <a' c e g>1 \chords "Ami7" \\\
+\clef "treble_2" \omit Score.TimeSignature \clef "treble" R1 | %1
 
 <d fs a c>1 \chords "D7" \\\
 R1 | %2
@@ -11,7 +11,7 @@ R1 | %2
 <g' b d fs>1 \chords "Gma7" \bar "||" \\\
 R1 \bar "||" | %3
 
-s1 \\\
+s1^\markup "Applied chord substitution for ii7" \\\
 R1 | %4
 
 <d fs a c>1 \chords "D7" \\\
@@ -29,7 +29,7 @@ R1 | %8
 <e g b d>1 \chords "Emi7" \bar "||" \\\
 R1 \bar "||" | %9
 
-s1 \\\
+s1^\markup "Applied chord substitution for iiø7" \\\
 R1 | %10
 
 <b ds fs a>1 \chords "B7" \\\
@@ -47,7 +47,7 @@ R1 | %14
 <af' c ef g>1 \chords "Abma7" \bar "||" \\\
 R1 \bar "||" | %15
 
-s1 \\\
+s1^\markup "Applied chord substitution for ii7; add ♭9 to V7" \\\
 R1 | %16
 
 s1 \\\
@@ -101,7 +101,7 @@ R1 | %32
 <c ef g bf>1 \chords "Cmi7" \bar "||" \\\
 R1 \bar "||" | %33
 
-s1 \\\
+s1^\markup "Tritone substitution for V7/V" \\\
 R1 | %34
 
 <g' b d f>1 \chords "G7" \\\

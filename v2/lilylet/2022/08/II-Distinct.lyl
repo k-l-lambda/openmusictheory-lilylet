@@ -2,7 +2,7 @@
 [composer "Johann Joseph Fux"]
 [staves "s1,s2,s3"]
 
-\key c \major \numericTimeSignature \time 4/4 \clef "treble" s1 \\\
+\key c \major \numericTimeSignature \time 4/4 \clef "treble" s1^\markup "Modal final: d; Cantus firmus: Lower" \\\
 \clef "treble" s1 \\\
 \clef "bass" d,1 | %1
 
@@ -46,7 +46,7 @@ s1 \bar "|." \\\
 s1 \bar "|." \\\
 d,1 \bar "|." | %11
 
-s1 \\\
+s1^\markup "Modal final: d; Cantus firmus: Middle" \\\
 d1 \\\
 s1 | %12
 
@@ -134,7 +134,7 @@ d1 \bar "|." \\\
 s1 \bar "|." \\\
 s1 \bar "|." | %33
 
-s1 \\\
+s1^\markup "Modal final: e; Cantus firmus: Lower" \\\
 s1 \\\
 e,1 | %34
 
@@ -174,7 +174,7 @@ s1 \bar "|." \\\
 s1 \bar "|." \\\
 e,1 \bar "|." | %43
 
-s1 \\\
+s1^\markup "Modal final: e; Cantus firmus: Middle" \\\
 e1 \\\
 s1 | %44
 
@@ -254,7 +254,7 @@ e1 \bar "|." \\\
 s1 \bar "|." \\\
 s1 \bar "|." | %63
 
-s1 \\\
+s1^\markup "Modal final: f; Cantus firmus: Lower" \\\
 s1 \\\
 f,1 | %64
 
@@ -302,7 +302,7 @@ s1 \bar "|." \\\
 s1 \bar "|." \\\
 f,1 \bar "|." | %75
 
-s1 \\\
+s1^\markup "Modal final: f; Cantus firmus: Middle" \\\
 f1 \\\
 s1 | %76
 
@@ -398,7 +398,7 @@ f1 \bar "|." \\\
 s1 \bar "|." \\\
 s1 \bar "|." | %99
 
-s1 \\\
+s1^\markup "Modal final: g; Cantus firmus: Lower" \\\
 s1 \\\
 g,1 | %100
 
@@ -454,7 +454,7 @@ s1 \bar "|." \\\
 s1 \bar "|." \\\
 g,1 \bar "|." | %113
 
-s1 \\\
+s1^\markup "Modal final: g; Cantus firmus: Middle" \\\
 g1 \\\
 s1 | %114
 
@@ -566,7 +566,7 @@ g1 \bar "|." \\\
 s1 \bar "|." \\\
 s1 \bar "|." | %141
 
-s1 \\\
+s1^\markup "Modal final: a; Cantus firmus: Lower" \\\
 s1 \\\
 a,1 | %142
 
@@ -614,7 +614,7 @@ s1 \bar "|." \\\
 s1 \bar "|." \\\
 a,1 \bar "|." | %153
 
-s1 \\\
+s1^\markup "Modal final: a; Cantus firmus: Middle" \\\
 a1 \\\
 s1 | %154
 
@@ -710,7 +710,7 @@ a1 \bar "|." \\\
 s1 \bar "|." \\\
 s1 \bar "|." | %177
 
-s1 \\\
+s1^\markup "Modal final: c; Cantus firmus: Lower" \\\
 s1 \\\
 c,1 | %178
 
@@ -758,7 +758,7 @@ s1 \bar "|." \\\
 s1 \bar "|." \\\
 c,1 \bar "|." | %189
 
-s1 \\\
+s1^\markup "Modal final: c; Cantus firmus: Middle" \\\
 c1 \\\
 s1 | %190
 
