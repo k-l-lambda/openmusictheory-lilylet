@@ -26,8 +26,8 @@
 	}
 
 	const toUrl = (p) => "../" + p.split("/").map(encodeURIComponent).join("/");
-	// mnumInterval 1: a bar number on every bar, to line up with MuseScore's pages.
-	const VEROVIO_OPTIONS = { scale: 40, adjustPageHeight: true, adjustPageWidth: true, breaks: "auto", pageWidth: 2100, pageHeight: 2970, header: "none", mnumInterval: 1 };
+	// Bar numbers: Verovio's default (at the start of each system).
+	const VEROVIO_OPTIONS = { scale: 40, adjustPageHeight: true, adjustPageWidth: true, breaks: "auto", pageWidth: 2100, pageHeight: 2970, header: "none" };
 
 	let toolkit = null;
 	new Promise((resolve, reject) => {
