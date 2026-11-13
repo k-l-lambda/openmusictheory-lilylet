@@ -49,6 +49,21 @@ test('multi-system fixture recognizes 3/4, rests, dots, stems, and marks', () =>
   }
 });
 
+test('beam levels attach to stems, with one group and separate duration flags', () => {
+  const xml = `<svg width="220" height="100" xmlns="http://www.w3.org/2000/svg">
+    <path class="StaffLines" d="M0 20H220 M0 30H220 M0 40H220 M0 50H220 M0 60H220"/>
+    <path class="BarLine" d="M200 20V60"/>
+    <path class="Stem" d="M55 8V40 M95 8V40 M135 8V40"/>
+    <path class="Beam" d="M55 5H135V9H55Z M125 13H135V17H125Z"/>
+  </svg>`;
+  const { systems } = systemsOf(xml);
+  const points = systems[0].staves[0].semantics;
+  const beams = points.filter(p => p.semantic.startsWith('Beam'));
+  assert.deepEqual(beams.map(p => p.semantic), ['BeamLeft', 'BeamContinue', 'BeamRight']);
+  assert.deepEqual(beams.map(p => p.x), [5.5, 9.5, 13.5]);
+  assert.equal(points.filter(p => p.semantic === 'Flag3').length, 4);
+});
+
 test('unrecognized time glyph remains diagnostic rather than a fabricated 4', () => {
   const xml = `<svg width="220" height="100" xmlns="http://www.w3.org/2000/svg">
     <path class="StaffLines" d="M0 20H220 M0 30H220 M0 40H220 M0 50H220 M0 60H220"/>

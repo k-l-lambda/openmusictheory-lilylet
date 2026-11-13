@@ -64,6 +64,7 @@ const SEM = {
   sharp: 'AccSharp',
   flat: 'AccFlat',
   natural: 'AccNatural',
+  keyAcc: 'KeyAcc',
 } as const;
 
 const finite = (n: number): boolean => Number.isFinite(n);
@@ -336,7 +337,11 @@ export function musescoreSvgToStarry(xml: string): SvgStarryResult {
           diagnostics.push({ severity: 'warning', code: 'unknown-accidental', message: 'Accidental contour fingerprint is not in the supported MuseScore table', sourceIndex: element.sourceIndex });
           continue;
         }
-        addStaffPoint(info.index, pointForStaff(semantic, item.bounds, layout, info.staff, spacing), element.cls === 'KeySig' ? 'key-signature' : 'accidental');
+        const point = pointForStaff(semantic, item.bounds, layout, info.staff, spacing);
+        addStaffPoint(info.index, point, element.cls === 'KeySig' ? 'key-signature' : 'accidental');
+        if (element.cls === 'KeySig') {
+          addStaffPoint(info.index, { ...point, semantic: SEM.keyAcc }, 'key-signature-marker');
+        }
       }
     }
     const stemBoundsByStaff = layout.staves.map(() => [] as Bounds[]);
@@ -360,14 +365,67 @@ export function musescoreSvgToStarry(xml: string): SvgStarryResult {
       }
     }
 
+    // Beam paths are usually flattened into one rectangle per beam level. The
+    // rectangle endpoints are not semantic-event coordinates: a long beam can
+    // span several stems, while a secondary level may only touch one endpoint.
+    // Reattach each level to the stems whose x coordinate it covers and emit
+    // Starry's Open/Continue/Close points at those stem positions, as the
+    // native semantic graph does. This also avoids creating phantom beam events
+    // at the raw path endpoints.
     for (const element of page.elements.filter((e) => e.cls === 'Beam')) {
       for (const subpath of element.subpaths) {
-        const info = staffForY(layout, center(subpath.bounds).y, spacing);
+        const beam = subpath.bounds;
+        // Only the principal (stem-adjacent) level opens/closes a beam
+        // group. Other levels contribute duration flags, not additional
+        // groups. Short beams touching one stem are beamlets, not groups.
+        const sameSpan = element.subpaths.filter((other) =>
+          Math.abs(other.bounds.left - beam.left) < spacing * 0.25 &&
+          Math.abs(other.bounds.right - beam.right) < spacing * 0.25 &&
+          Math.abs(center(other.bounds).y - center(beam).y) < spacing * 2.5
+        );
+        const beamCenter = center(beam);
+        const info = staffForY(layout, beamCenter.y, spacing);
         if (!info) continue;
-        const left = { ...subpath.bounds, right: subpath.bounds.left };
-        const right = { ...subpath.bounds, left: subpath.bounds.right };
-        addStaffPoint(info.index, pointForStaff(SEM.beamLeft, left, layout, info.staff, spacing), 'beam');
-        addStaffPoint(info.index, pointForStaff(SEM.beamRight, right, layout, info.staff, spacing), 'beam');
+        const candidates = stemBoundsByStaff[info.index]
+          .map((stem) => ({ stem, x: center(stem).x }))
+          .filter(({ stem, x }) => {
+            if (x < beam.left - spacing * 0.12 || x > beam.right + spacing * 0.12) return false;
+            // A stem meets the beam at its upper or lower endpoint. Testing
+            // overlap rather than the stem centre handles sloped beams.
+            return beam.bottom >= stem.top - spacing * 0.25 && beam.top <= stem.bottom + spacing * 0.25;
+          })
+          .sort((a, b) => a.x - b.x);
+        if (!candidates.length) continue;
+
+        const points = candidates.map(({ stem, x }) => {
+          const t = bWidth(beam) > 1e-6 ? (x - beam.left) / bWidth(beam) : 0.5;
+          const y = beam.top + t * bHeight(beam);
+          return { stem, x, y };
+        });
+        const endpointDistance = (candidate: Bounds) => Math.min(
+          ...candidates.map(({ stem }) => Math.min(
+            Math.abs(center(candidate).y - stem.top),
+            Math.abs(center(candidate).y - stem.bottom)
+          ))
+        );
+        const principal = sameSpan.every((other) =>
+          endpointDistance(beam) <= endpointDistance(other.bounds) + 1e-6
+        );
+        const semanticFor = (index: number): string =>
+          index === 0 ? SEM.beamLeft : index === points.length - 1 ? SEM.beamRight : SEM.beamContinue;
+        points.forEach((point, index) => {
+          const bounds = {
+            left: point.x,
+            right: point.x,
+            top: point.y,
+            bottom: point.y,
+          };
+          if (principal && points.length > 1)
+            addStaffPoint(info.index, pointForStaff(semanticFor(index), bounds, layout, info.staff, spacing), 'beam');
+          // Starry counts beam levels through Flag3 divisions. A beam level
+          // attached to a stem is therefore also a flag candidate at that stem.
+          addStaffPoint(info.index, pointForStaff(SEM.flag3, bounds, layout, info.staff, spacing), 'beam-flag');
+        });
       }
     }
 
