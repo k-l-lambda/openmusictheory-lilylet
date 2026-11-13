@@ -23,6 +23,9 @@ if (process.argv.includes('--json')) {
 
 const score = starry.recoverJSON(JSON.stringify(scoreData), starry);
 score.assemble(score.settings?.semanticConfidenceThreshold ?? 1);
+const spartito = score.makeSpartito();
+spartito.regulate();
+if (!spartito.regulated) throw new Error('Starry Spartito regulation failed');
 const sheet = score.makeMusicSheet();
 const code = serializeLilyletDoc(encode(sheet));
 process.stdout.write(code);

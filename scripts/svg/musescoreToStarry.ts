@@ -28,13 +28,39 @@ const SEM = {
   clefG: 'ClefG',
   clefF: 'ClefF',
   clefC: 'ClefC',
+  timeZero: 'TimesigZero',
+  timeOne: 'TimesigOne',
+  timeTwo: 'TimesigTwo',
+  timeThree: 'TimesigThree',
   timeFour: 'TimesigFour',
+  timeFive: 'TimesigFive',
+  timeSix: 'TimesigSix',
+  timeSeven: 'TimesigSeven',
+  timeEight: 'TimesigEight',
+  timeNine: 'TimesigNine',
   note0: 'NoteheadS0',
   note1: 'NoteheadS1',
   note2: 'NoteheadS2',
+  note1Up: 'NoteheadS1stemU',
+  note1Down: 'NoteheadS1stemD',
+  note2Up: 'NoteheadS2stemU',
+  note2Down: 'NoteheadS2stemD',
   stem: 'vline_Stem',
+  rest0: 'Rest0',
   rest1: 'Rest1',
+  rest2: 'Rest2',
+  rest3: 'Rest3',
+  rest4: 'Rest4',
+  rest5: 'Rest5',
+  rest6: 'Rest6',
   dot: 'Dot',
+  beamLeft: 'BeamLeft',
+  beamContinue: 'BeamContinue',
+  beamRight: 'BeamRight',
+  flag3: 'Flag3',
+  tremoloLeft: 'TremoloLeft',
+  tremoloMiddle: 'TremoloMiddle',
+  tremoloRight: 'TremoloRight',
   sharp: 'AccSharp',
   flat: 'AccFlat',
   natural: 'AccNatural',
@@ -127,6 +153,92 @@ function clefSemantic(bounds: Bounds, spacing: number): string {
   return SEM.clefC;
 }
 
+function timeDigit(bounds: Bounds, spacing: number): string | undefined {
+  // These are the two MuseScore digit families observed in the corpus: the
+  // narrow glyph is 3 and the wider glyph is 4. Refuse other widths rather
+  // than silently turning an unknown time signature into 4/4.
+  const width = bWidth(bounds) / spacing;
+  const height = bHeight(bounds) / spacing;
+  if (height < 1.5 || height > 2.5) return undefined;
+  if (near(width, 1.40, 0.16)) return SEM.timeThree;
+  if (near(width, 1.71, 0.16)) return SEM.timeFour;
+  return undefined;
+}
+
+function restSemantic(bounds: Bounds, spacing: number, relativeY: number): string | undefined {
+  const width = bWidth(bounds) / spacing;
+  const height = bHeight(bounds) / spacing;
+  // Whole/half rests are horizontal glyphs. Their vertical position is the
+  // only reliable distinction available from a flattened SVG.
+  if (height < 0.9 && width > 0.7) return relativeY < -0.45 ? SEM.rest0 : SEM.rest1;
+  // Vertical rests are matched conservatively by normalized glyph height.
+  if (height < 2.4 && width < 1.5) return SEM.rest2;
+  if (height < 3.45 && width < 1.25) return SEM.rest3;
+  if (height < 4.0 && width < 1.8) return SEM.rest4;
+  if (height < 4.9 && width < 2.2) return SEM.rest5;
+  if (height < 6.0 && width < 2.2) return SEM.rest6;
+  return undefined;
+}
+
+function accidentalSemantic(commands: string, bounds: Bounds, spacing: number): string | undefined {
+  const width = bWidth(bounds) / spacing;
+  const height = bHeight(bounds) / spacing;
+  if ((commands === 'MCVCHLVHVLVHVLCVVCHLVLCVCHLVHVLVHVLCVCHLVL' || commands === 'MCVAHLVHVLVHVLCVVCHLVLCVCHLVHVLVHVLCVCHLVL') && width > 0.8 && height > 2) return SEM.sharp;
+  if ((commands === 'MCCLVHVCHLVHVC' || commands === 'MCCLCHCLCCCCC') && width < 0.95 && height > 2) return SEM.flat;
+  return undefined;
+}
+
+function largestUniqueContours(element: SvgElement, spacing: number): { bounds: Bounds; commands: string }[] {
+  const selected: { bounds: Bounds; commands: string }[] = [];
+  for (const subpath of [...element.subpaths].sort((a, b) => bArea(b.bounds) - bArea(a.bounds))) {
+    const c = center(subpath.bounds);
+    if (selected.some((other) => {
+      const oc = center(other.bounds);
+      return Math.abs(c.x - oc.x) < spacing * 0.25 && Math.abs(c.y - oc.y) < spacing * 0.25;
+    })) continue;
+    selected.push({ bounds: subpath.bounds, commands: subpath.commands.join('') });
+  }
+  return selected;
+}
+
+function uniqueBounds(bounds: Bounds[], spacing: number): Bounds[] {
+  const selected: Bounds[] = [];
+  for (const bound of [...bounds].sort((a, b) => bArea(b) - bArea(a))) {
+    const c = center(bound);
+    if (selected.some((other) => {
+      const oc = center(other);
+      return Math.abs(c.x - oc.x) < spacing * 0.25 && Math.abs(c.y - oc.y) < spacing * 0.25;
+    })) continue;
+    selected.push(bound);
+  }
+  return selected;
+}
+function noteheadIsHollow(element: SvgElement, bounds: Bounds, spacing: number): boolean {
+  const c = center(bounds);
+  return element.subpaths.some((subpath) => {
+    const other = subpath.bounds;
+    const oc = center(other);
+    const area = bArea(other);
+    return area < bArea(bounds) * 0.9 && area > bArea(bounds) * 0.2 &&
+      Math.abs(oc.x - c.x) < spacing * 0.18 && Math.abs(oc.y - c.y) < spacing * 0.18;
+  });
+}
+
+
+function stemDirection(note: Bounds, stems: Bounds[], spacing: number): 'U' | 'D' | undefined {
+  const n = center(note);
+  let best: { direction: 'U' | 'D'; distance: number } | undefined;
+  for (const stem of stems) {
+    const x = center(stem).x;
+    const dx = x - n.x;
+    if (Math.abs(dx) > spacing * 1.2 || Math.abs(dx) < spacing * 0.08) continue;
+    const direction = dx > 0 ? 'U' : 'D';
+    const distance = Math.abs(dx);
+    if (!best || distance < best.distance) best = { direction, distance };
+  }
+  return best?.direction;
+}
+
 function addId(point: Point, source: string, n: number): Point {
   return { ...point, id: `svg-${source}-${n}` };
 }
@@ -189,8 +301,8 @@ export function musescoreSvgToStarry(xml: string): SvgStarryResult {
       }
     }
 
-    // TimeSig paths may have inner contours. Group contours by staff and emit
-    // one numeric `4` point per staff; do not treat every contour as a digit.
+    // Emit each time-signature digit separately. Starry recognizes numeric
+    // signatures by staff-relative y: numerator at -1, denominator at +1.
     for (const element of page.elements.filter((e) => e.cls === 'TimeSig')) {
       const byStaff = new Map<number, Bounds[]>();
       for (const subpath of element.subpaths) {
@@ -200,28 +312,106 @@ export function musescoreSvgToStarry(xml: string): SvgStarryResult {
         list.push(subpath.bounds);
         byStaff.set(info.index, list);
       }
-      for (const [staffIndex, bounds] of byStaff) {
-        const info = { staff: layout.staves[staffIndex], index: staffIndex };
-        const box = bounds.reduce((acc, b) => ({
-          left: Math.min(acc.left, b.left), top: Math.min(acc.top, b.top),
-          right: Math.max(acc.right, b.right), bottom: Math.max(acc.bottom, b.bottom),
-        }));
-        addStaffPoint(staffIndex, pointForStaff(SEM.timeFour, box, layout, info.staff, spacing), 'timesig');
+      for (const [staffIndex, rawBounds] of byStaff) {
+        const staff = layout.staves[staffIndex];
+        const bounds = uniqueBounds(rawBounds, spacing).sort((a, b) => center(a).y - center(b).y);
+        for (const bound of bounds) {
+          const digit = timeDigit(bound, spacing);
+          const relativeY = (center(bound).y - staff.middle) / spacing;
+          if (!digit || Math.abs(Math.abs(relativeY) - 1) > 0.35) {
+            diagnostics.push({ severity: 'warning', code: 'unknown-time-digit', message: 'TimeSig contour could not be classified as a supported numeric digit', sourceIndex: element.sourceIndex });
+            continue;
+          }
+          addStaffPoint(staffIndex, pointForStaff(digit, bound, layout, staff, spacing), 'timesig');
+        }
       }
     }
 
-    const hasExplicitStem = page.elements.some((e) => e.cls === 'Stem');
+    for (const element of page.elements.filter((e) => e.cls === 'Accidental' || e.cls === 'KeySig')) {
+      for (const item of largestUniqueContours(element, spacing)) {
+        const info = staffForY(layout, center(item.bounds).y, spacing);
+        if (!info) continue;
+        const semantic = accidentalSemantic(item.commands, item.bounds, spacing);
+        if (!semantic) {
+          diagnostics.push({ severity: 'warning', code: 'unknown-accidental', message: 'Accidental contour fingerprint is not in the supported MuseScore table', sourceIndex: element.sourceIndex });
+          continue;
+        }
+        addStaffPoint(info.index, pointForStaff(semantic, item.bounds, layout, info.staff, spacing), element.cls === 'KeySig' ? 'key-signature' : 'accidental');
+      }
+    }
+    const stemBoundsByStaff = layout.staves.map(() => [] as Bounds[]);
+    for (const element of page.elements.filter((e) => e.cls === 'Stem')) {
+      for (const bounds of verticalComponents(element, spacing)) {
+        const info = staffForY(layout, center(bounds).y, spacing);
+        if (info) stemBoundsByStaff[info.index].push(bounds);
+      }
+    }
+
     for (const element of page.elements.filter((e) => e.cls === 'Note')) {
       for (const bounds of noteheadBounds(element, spacing)) {
         const staffInfo = staffForY(layout, center(bounds).y, spacing);
         if (!staffInfo) continue;
-        // An SVG note with explicit stems is normally a filled short notehead;
-        // stemless hollow contours in the pilot are whole notes.
-        const semantic = hasExplicitStem ? SEM.note1 : SEM.note0;
+        const filled = !noteheadIsHollow(element, bounds, spacing);
+        const direction = stemDirection(bounds, stemBoundsByStaff[staffInfo.index], spacing);
+        let semantic: string = filled ? SEM.note1 : SEM.note0;
+        if (filled && direction === 'U') semantic = SEM.note1Up;
+        if (filled && direction === 'D') semantic = SEM.note1Down;
         addStaffPoint(staffInfo.index, pointForStaff(semantic, bounds, layout, staffInfo.staff, spacing), 'note');
       }
     }
 
+    for (const element of page.elements.filter((e) => e.cls === 'Beam')) {
+      for (const subpath of element.subpaths) {
+        const info = staffForY(layout, center(subpath.bounds).y, spacing);
+        if (!info) continue;
+        const left = { ...subpath.bounds, right: subpath.bounds.left };
+        const right = { ...subpath.bounds, left: subpath.bounds.right };
+        addStaffPoint(info.index, pointForStaff(SEM.beamLeft, left, layout, info.staff, spacing), 'beam');
+        addStaffPoint(info.index, pointForStaff(SEM.beamRight, right, layout, info.staff, spacing), 'beam');
+      }
+    }
+
+    for (const element of page.elements.filter((e) => e.cls === 'Tremolo')) {
+      const items = element.subpaths.map((subpath) => subpath.bounds).sort((a, b) => center(a).y - center(b).y);
+      for (let i = 0; i < items.length; i++) {
+        const info = staffForY(layout, center(items[i]).y, spacing);
+        if (!info) continue;
+        const semantic = items.length === 1 ? SEM.tremoloMiddle : i === 0 ? SEM.tremoloLeft : i === items.length - 1 ? SEM.tremoloRight : SEM.tremoloMiddle;
+        addStaffPoint(info.index, pointForStaff(semantic, items[i], layout, info.staff, spacing), 'tremolo');
+      }
+    }
+    for (const element of page.elements.filter((e) => e.cls === 'Hook')) {
+      for (const item of largestUniqueContours(element, spacing)) {
+        if (bHeight(item.bounds) / spacing < 2.5) continue;
+        const info = staffForY(layout, center(item.bounds).y, spacing);
+        if (info) addStaffPoint(info.index, pointForStaff(SEM.flag3, item.bounds, layout, info.staff, spacing), 'flag');
+      }
+    }
+
+    for (const element of page.elements.filter((e) => e.cls === 'NoteDot')) {
+      for (const bounds of element.subpaths.map((subpath) => subpath.bounds)) {
+        const info = staffForY(layout, center(bounds).y, spacing);
+        if (info) addStaffPoint(info.index, pointForStaff(SEM.dot, bounds, layout, info.staff, spacing), 'dot');
+      }
+    }
+
+
+    for (const element of page.elements.filter((e) => e.cls === 'Rest')) {
+      for (const bounds of uniqueBounds(element.subpaths.map((subpath) => subpath.bounds), spacing)) {
+        const info = staffForY(layout, center(bounds).y, spacing);
+        if (!info) continue;
+        const relativeY = (center(bounds).y - info.staff.middle) / spacing;
+        const semantic = restSemantic(bounds, spacing, relativeY);
+        if (!semantic) {
+          diagnostics.push({ severity: 'warning', code: 'unknown-rest', message: 'Rest contour could not be classified by normalized geometry', sourceIndex: element.sourceIndex });
+          continue;
+        }
+        addStaffPoint(info.index, pointForStaff(semantic, bounds, layout, info.staff, spacing), 'rest');
+      }
+    }
+
+    // Stems are emitted after notes but their association is resolved by
+    // Starry's Staff.assemble() using the explicit extensions.
     for (const element of page.elements.filter((e) => e.cls === 'Stem')) {
       for (const bounds of verticalComponents(element, spacing)) {
         const info = staffForY(layout, center(bounds).y, spacing);
