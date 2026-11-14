@@ -26,6 +26,11 @@ score.assemble(score.settings?.semanticConfidenceThreshold ?? 1);
 const spartito = score.makeSpartito();
 spartito.regulate();
 if (!spartito.regulated) throw new Error('Starry Spartito regulation failed');
+for (const measure of spartito.measures) {
+  const voiced = new Set(measure.voices.flat());
+  const omitted = measure.events.filter((event: { id: number }) => !voiced.has(event.id));
+  if (omitted.length) console.error(`[warning] omitted-events: measure ${measure.measureIndex + 1}: Starry regulation excluded ${omitted.length}/${measure.events.length} assembled events from all voices`);
+}
 const sheet = score.makeMusicSheet();
 const code = serializeLilyletDoc(encode(sheet));
 process.stdout.write(code);

@@ -154,10 +154,14 @@ function clefSemantic(bounds: Bounds, spacing: number): string {
   return SEM.clefC;
 }
 
-function timeDigit(bounds: Bounds, spacing: number): string | undefined {
-  // These are the two MuseScore digit families observed in the corpus: the
-  // narrow glyph is 3 and the wider glyph is 4. Refuse other widths rather
-  // than silently turning an unknown time signature into 4/4.
+function timeDigit(bounds: Bounds, spacing: number, commands: string, counter?: Bounds): string | undefined {
+  // A 9 and a 6 have the same outer contour family; their enclosed counter
+  // lies in opposite halves. A counter is part of that digit, not another 3.
+  if (commands === 'MHVCHCLLCCLCCLVHCVCHCVC') return SEM.timeOne;
+  if (commands === 'MCCCCCCCCVCCCCCCCC') {
+    if (!counter) return undefined;
+    return center(counter).y < center(bounds).y ? SEM.timeNine : SEM.timeSix;
+  }
   const width = bWidth(bounds) / spacing;
   const height = bHeight(bounds) / spacing;
   if (height < 1.5 || height > 2.5) return undefined;
@@ -305,25 +309,39 @@ export function musescoreSvgToStarry(xml: string): SvgStarryResult {
     // Emit each time-signature digit separately. Starry recognizes numeric
     // signatures by staff-relative y: numerator at -1, denominator at +1.
     for (const element of page.elements.filter((e) => e.cls === 'TimeSig')) {
-      const byStaff = new Map<number, Bounds[]>();
+      const byStaff = new Map<number, typeof element.subpaths>();
       for (const subpath of element.subpaths) {
         const info = staffForY(layout, center(subpath.bounds).y, spacing);
         if (!info) continue;
         const list = byStaff.get(info.index) || [];
-        list.push(subpath.bounds);
+        list.push(subpath);
         byStaff.set(info.index, list);
       }
-      for (const [staffIndex, rawBounds] of byStaff) {
+      for (const [staffIndex, subpaths] of byStaff) {
         const staff = layout.staves[staffIndex];
-        const bounds = uniqueBounds(rawBounds, spacing).sort((a, b) => center(a).y - center(b).y);
-        for (const bound of bounds) {
-          const digit = timeDigit(bound, spacing);
-          const relativeY = (center(bound).y - staff.middle) / spacing;
+        const contours = [...subpaths].sort((a, b) => bArea(b.bounds) - bArea(a.bounds));
+        const glyphs: { bounds: Bounds; commands: string; counter?: Bounds }[] = [];
+        for (const contour of contours) {
+          const bound = contour.bounds;
+          const outer = glyphs.find(g =>
+            bound.left > g.bounds.left && bound.right < g.bounds.right &&
+            bound.top > g.bounds.top && bound.bottom < g.bounds.bottom
+          );
+          if (outer) {
+            if (!outer.counter) outer.counter = bound;
+          } else if (!glyphs.some(g => near(center(bound).x, center(g.bounds).x, spacing * 0.25) && near(center(bound).y, center(g.bounds).y, spacing * 0.25))) {
+            glyphs.push({ bounds: bound, commands: contour.commands.join('') });
+          }
+        }
+        glyphs.sort((a, b) => center(a.bounds).y - center(b.bounds).y || center(a.bounds).x - center(b.bounds).x);
+        for (const glyph of glyphs) {
+          const digit = timeDigit(glyph.bounds, spacing, glyph.commands, glyph.counter);
+          const relativeY = (center(glyph.bounds).y - staff.middle) / spacing;
           if (!digit || Math.abs(Math.abs(relativeY) - 1) > 0.35) {
             diagnostics.push({ severity: 'warning', code: 'unknown-time-digit', message: 'TimeSig contour could not be classified as a supported numeric digit', sourceIndex: element.sourceIndex });
             continue;
           }
-          addStaffPoint(staffIndex, pointForStaff(digit, bound, layout, staff, spacing), 'timesig');
+          addStaffPoint(staffIndex, pointForStaff(digit, glyph.bounds, layout, staff, spacing), 'timesig');
         }
       }
     }
@@ -358,7 +376,10 @@ export function musescoreSvgToStarry(xml: string): SvgStarryResult {
         if (!staffInfo) continue;
         const filled = !noteheadIsHollow(element, bounds, spacing);
         const direction = stemDirection(bounds, stemBoundsByStaff[staffInfo.index], spacing);
-        let semantic: string = filled ? SEM.note1 : SEM.note0;
+        // Starry cannot assemble an isolated filled head without a Stem point.
+        // Keep such notes as explicitly provisional whole-note candidates;
+        // SVG geometry alone cannot establish their actual duration.
+        let semantic: string = filled && stemBoundsByStaff[staffInfo.index].length ? SEM.note1 : SEM.note0;
         if (filled && direction === 'U') semantic = SEM.note1Up;
         if (filled && direction === 'D') semantic = SEM.note1Down;
         addStaffPoint(staffInfo.index, pointForStaff(semantic, bounds, layout, staffInfo.staff, spacing), 'note');
@@ -494,8 +515,8 @@ export function musescoreSvgToStarry(xml: string): SvgStarryResult {
         diagnostics.push({ severity: 'warning', code: 'outlined-text', message: `${element.cls} text is outlined; content was not guessed`, sourceIndex: element.sourceIndex });
       }
     }
-    if (page.elements.some((e) => e.cls === 'Note') && !page.elements.some((e) => e.cls === 'Stem')) {
-      diagnostics.push({ severity: 'info', code: 'stemless-notes', message: 'No Stem class was exported; Note contours were emitted as whole-note candidates' });
+    if (staffSemantics.some((points, index) => !stemBoundsByStaff[index].length && points.some(p => p.semantic === SEM.note0))) {
+      diagnostics.push({ severity: 'warning', code: 'stemless-notes', message: 'Staff without recovered stems: isolated filled heads were emitted as provisional whole-note candidates; duration is unknown' });
     }
     diagnostics.push({ severity: 'warning', code: 'svg-timing', message: 'SVG geometry does not provide authoritative duration, onset, or voice information' });
 
@@ -528,7 +549,7 @@ export function musescoreSvgToStarry(xml: string): SvgStarryResult {
     title: 'MuseScore SVG import',
     pageSize: { width: page.width, height: page.height },
     unitSize: systems[0].spacing,
-    staffLayoutCode: systems[0].staves.length === 2 ? '{-}' : Array(systems[0].staves.length).fill('').join(','),
+    staffLayoutCode: systems[0].staves.length === 2 ? '{-}' : systems[0].staves.length === 3 ? ',{-}' : Array(systems[0].staves.length).fill('').join(','),
     pages: [
       {
         __prototype: 'Page',

@@ -38,17 +38,25 @@ export function recoverLayout(page: SvgPage): SystemGeometry[] {
       left: Math.min(...group.flatMap(r => r.map(l => l.left))), right: Math.max(...group.flatMap(r => r.map(l => l.right))) });
     i += 5;
   }
+  const barSegments = page.elements.filter(e => e.cls === 'BarLine').flatMap(e => e.subpaths).filter(vertical);
   const systems: SystemGeometry[] = [];
   for (const staff of staves) {
     const previous = systems[systems.length - 1];
-    // Large inter-system gaps and nonoverlapping horizontal ranges break the group.
-    // Bracket class paths can aggregate brackets spanning a whole page, so their overall bounds are not grouping evidence.
-    const distance = previous ? staff.lines[0] - previous.staves[previous.staves.length - 1].lines[4] : Infinity;
-    if (previous && distance < 12 * spacing && Math.min(previous.right, staff.right) - Math.max(previous.left, staff.left) > 10 * spacing) {
+    const upper = previous?.staves[previous.staves.length - 1];
+    // Nearby staves can belong to distinct, tightly packed systems. Require
+    // an actual barline segment across their gap before merging them.
+    const connected = upper && barSegments.some(bar =>
+      bar.bounds.top <= upper.lines[4] + spacing &&
+      bar.bounds.bottom >= staff.lines[0] - spacing &&
+      bar.bounds.left >= Math.max(upper.left, staff.left) - spacing &&
+      bar.bounds.left <= Math.min(upper.right, staff.right) + spacing
+    );
+    const distance = upper ? staff.lines[0] - upper.lines[4] : Infinity;
+    if (previous && connected && distance < 12 * spacing && Math.min(previous.right, staff.right) - Math.max(previous.left, staff.left) > 10 * spacing) {
       previous.staves.push(staff); previous.bottom = staff.lines[4]; previous.left = Math.min(previous.left, staff.left); previous.right = Math.max(previous.right, staff.right);
     } else systems.push({ staves: [staff], left: staff.left, right: staff.right, top: staff.lines[0], bottom: staff.lines[4], spacing, barXs: [] });
   }
-  const bars = page.elements.filter(e => e.cls === 'BarLine').flatMap(e => e.subpaths).filter(vertical);
+  const bars = barSegments;
   for (const system of systems) {
     const usable = bars.filter(b => b.bounds.bottom >= system.top - spacing && b.bounds.top <= system.bottom + spacing)
       .filter(b => b.bounds.bottom - b.bounds.top >= 3 * spacing)
