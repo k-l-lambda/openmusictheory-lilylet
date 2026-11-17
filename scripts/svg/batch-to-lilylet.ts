@@ -28,7 +28,7 @@ if (!Number.isSafeInteger(limit) || limit < 1) throw new Error('--limit requires
 const manifest = path.join(repo, 'musescore-svg/manifest.csv');
 const sha = (bytes: Buffer | string) => createHash('sha256').update(bytes).digest('hex');
 const LEGACY_FILES = ['geometry.ts', 'parser.ts', 'layout.ts', 'musescoreToStarry.ts', 'svg-to-lilylet.ts'];
-const files = engine === 'graph' ? [...ENGINE_FILES, 'time-digits.json'] : LEGACY_FILES;
+const files = engine === 'graph' ? [...ENGINE_FILES, 'time-digits.json', 'tempo-glyphs.json'] : LEGACY_FILES;
 const converterHash = sha(files.map(name => fs.readFileSync(path.join(repo, 'scripts/svg', name))).map(sha).join(':'));
 const lines = fs.readFileSync(manifest, 'utf8').trim().split(/\r?\n/);
 if (lines.shift() !== 'user_id,score_id,page,filename,bytes') throw new Error('Unexpected MuseScore manifest header');

@@ -3,7 +3,7 @@
 // their engraved columns (MuseScore places one onset at one x per system), and
 // report what does not add up instead of forcing a fit.
 import { add, cmp, div, eq, frac, isPow2, mul, noteValue, str, sub, ZERO, type Frac } from './frac.js';
-import type { Diagnostic, EventNode, ScoreGraph, SystemNode, TupletNode } from './notation.js';
+import type { Diagnostic, EventNode, ScoreGraph, SystemNode, TempoNode, TupletNode } from './notation.js';
 import type { ClefKind } from './glyphs.js';
 
 export type Placed = { event?: EventNode; onset: Frac; duration: Frac; graces: EventNode[] };
@@ -18,6 +18,7 @@ export type MeasureSolution = {
   key: number;
   clefs: (ClefKind | undefined)[]; // in force at measure start, per staff
   midClefs: { staff: number; x: number; clef: ClefKind }[];
+  tempos: TempoNode[];
   voices: VoiceLine[];
   flags: MeasureFlag[];
   notes: string[];
@@ -250,7 +251,8 @@ export function solveTiming(graph: ScoreGraph): Solution {
       if (graph.staffCount && voices.length === 0) notes.push('empty measure');
 
       const fine = ![...flags].some(f => f !== 'columnTwist');
-      measures.push({ index, system: system.index, systemMeasure: mi, duration, time: { ...time }, partial, key, clefs: startClefs, midClefs,
+      const tempos = graph.tempos.filter(t => t.system === system.index && t.x < bounds.right && (mi === 0 || t.x >= bounds.left)).sort((a, b) => a.x - b.x);
+      measures.push({ index, system: system.index, systemMeasure: mi, duration, time: { ...time }, partial, key, clefs: startClefs, midClefs, tempos,
         voices, flags: [...flags], notes, fine });
       for (const f of flags) diagnostics.push({ severity: 'warning', code: `measure-${f}`, message: `measure ${index + 1}: ${f}`, system: system.index, measure: index });
       void str;

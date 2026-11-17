@@ -4,7 +4,7 @@
 // A pass proves faithful serialization of the model, NOT fidelity to the source image.
 import * as lilylet from '../../../lilylet/source/lilylet/index.ts';
 import { dumpNotes } from '../v2/scores/dump-notes.ts';
-import type { ModelNote } from './lilyletWriter.js';
+import type { ModelNote, TempoModel } from './lilyletWriter.js';
 
 export type CheckResult = {
   ok: boolean;
@@ -18,7 +18,26 @@ export type CheckResult = {
 
 const key = (n: ModelNote | any[]) => JSON.stringify([n[0], n[1], [...n[2]].sort(), n[3], !!n[4]]);
 
-export function checkLilylet(code: string, model: { notes: ModelNote[] }[]): CheckResult {
+const DIV: Record<string, number> = { '1': 1, '2': 2, '4': 4, '8': 8, '16': 16 };
+
+/** Tempo contexts and articulation/ornament marks of a parsed doc, in document order / as counts. */
+function marksOf(doc: any): { tempos: string[]; marks: Record<string, number> } {
+  const tempos: string[] = [];
+  const marks: Record<string, number> = {};
+  const walk = (events: any[]) => events.forEach(e => {
+    if (e.events) walk(e.events);
+    if (e.type === 'context' && e.tempo) {
+      const t = e.tempo;
+      tempos.push(JSON.stringify([t.text ?? null, t.bpm ? `${t.beat.division}${'.'.repeat(t.beat.dots || 0)}` : null, t.bpm ?? null]));
+    }
+    for (const m of [...(e.marks || []), ...(e.marksA || []), ...(e.marksB || [])]) if (m.markType === 'articulation' || m.markType === 'ornament') marks[m.type] = (marks[m.type] || 0) + 1;
+    if (e.type === 'note' && e.tremolo) marks['tremolo-single'] = (marks['tremolo-single'] || 0) + 1;
+  });
+  doc.measures.forEach((m: any) => m.parts.forEach((p: any) => p.voices.forEach((v: any) => walk(v.events))));
+  return { tempos, marks };
+}
+
+export function checkLilylet(code: string, model: { notes: ModelNote[] }[], expected: { tempos?: TempoModel[]; marks?: Record<string, number> } = {}): CheckResult {
   const result: CheckResult = { ok: false, warnings: [], mismatches: [], measures: 0 };
   let doc: any;
   try {
@@ -42,6 +61,11 @@ export function checkLilylet(code: string, model: { notes: ModelNote[] }[]): Che
     }
     for (const [k, c] of want) if (c > 0) result.mismatches.push(`staff ${s + 1}: missing ${k}${c > 1 ? ` x${c}` : ''}`);
   }
+  const got = marksOf(doc);
+  const wantTempos = (expected.tempos || []).map(t => JSON.stringify([t.text ?? null, t.bpm ? String(DIV[t.beat!.replace('.', '')]) + (t.beat!.endsWith('.') ? '.' : '') : null, t.bpm ?? null]));
+  if (JSON.stringify(got.tempos) !== JSON.stringify(wantTempos)) result.mismatches.push(`tempos: wrote ${wantTempos.join(' ')} parsed ${got.tempos.join(' ')}`);
+  for (const k of new Set([...Object.keys(got.marks), ...Object.keys(expected.marks || {})]))
+    if ((got.marks[k] || 0) !== ((expected.marks || {})[k] || 0)) result.mismatches.push(`marks: ${k} wrote ${(expected.marks || {})[k] || 0} parsed ${got.marks[k] || 0}`);
   result.ok = !result.parseError && !result.meiError && !result.warnings.length && !result.mismatches.length;
   return result;
 }

@@ -26,10 +26,11 @@ and check itself, following the discipline of Starry's
 | SVG IR | `parser.ts`, `geometry.ts` | Paths with transforms, all attributes, ids, group ancestry, inherited style, vertex lists. Images and text are kept as non-path nodes. |
 | Layout | `layout.ts` | Staves, systems and measure barlines (geometry only). |
 | Glyphs | `glyphs.ts` | Rebuilds symbol instances from contours (outline plus counters) and classifies them by topology and size: noteheads (black, half, whole, breve, circled, cue), rests, accidentals, clefs, hook flags. |
-| Event graph | `notation.ts` | Heads ↔ stems, beams (one level per polygon crossing a stem; polygons join groups), hooks, dots, accidentals (with measure memory and key), tuplet numbers and brackets, two-note tremolos, ties, clef/key/time contexts. Each event keeps its SVG source indices. |
+| Event graph | `notation.ts` | Heads ↔ stems, beams (one level per polygon crossing a stem; polygons join groups), hooks, dots, accidentals (with measure memory and key), tuplet numbers and brackets, two-note tremolos, ties, clef/key/time contexts. Articulations are attached to the nearest event: staccato, accent, tenuto, marcato, staccatissimo, plus fermatas and trills. Tempo marks are recognized too. Each event keeps its SVG source indices. |
+| Outlined text | `text.ts` | Segments text outlines into marks and characters. Characters are recognized by nearest neighbour against `tempo-glyphs.json`, which is built by `learn-tempo-glyphs.ts` from hand transcriptions of all 47 corpus tempo elements (`tempo-transcriptions.json`). Metronome note symbols are parsed into `\tempo "text" 4. = 66`. |
 | Timing | `timing.ts` | Voices per staff (stem direction, column collisions, rest height), onsets aligned to engraved columns across staves, measure flags. |
 | Writer | `lilyletWriter.ts` | Lilylet text, plus the note list it must encode. |
-| Check | `checkLilylet.ts` | Parse without warnings, MEI encode, and reparse into notes (`scripts/v2/scores/dump-notes.ts`) that must equal the model. |
+| Check | `checkLilylet.ts` | Parse without warnings and encode MEI. Reparse into notes (`scripts/v2/scores/dump-notes.ts`) that must equal the model, and compare tempo contexts and articulation/ornament counts with what was written. |
 | Report | `convert.ts` | Quality report: grade, consistent measures, flags, diagnostics, unrepresented classes. |
 
 Time-signature digits are recognized by an 8×10 raster fingerprint learned
@@ -59,8 +60,11 @@ checked by eye. Unknown digits are completed from the content and reported.
 ### Known limits (reported, not guessed)
 
 These are not transcribed. They are counted in `unrepresented`:
-- Outlined text: lyrics, chord symbols, Roman numerals, staff text, tempo.
-- Dynamics, hairpins, slurs, articulations, ottava lines, colours and analysis boxes.
+- Outlined text other than tempo: lyrics, chord symbols, Roman numerals, staff text.
+- Dynamics, hairpins, slurs, ottava lines, colours and analysis boxes.
+- Ornaments other than trills.
+
+Tempo-text recognition reads all 47 corpus marks. Leave-one-file-out accuracy is 94% of characters, so on unseen files any tempo text with an unread character is dropped (`tempo-unread`); a readable metronome is kept. Metric equations (♪ = ♪) are reported, not written. Two-note tremolos (`\repeat tremolo`) and single-note tremolos (`c2:32`) need lilylet 0.1.97 or later for correct MEI and kept marks.
 
 Filled heads without stems are written as quarter notes (`stemless-filled`), because Lilylet has no stemless notes.
 Single-note tremolo strokes are ignored. Triplets printed without a number cannot be distinguished from overfull measures; they are flagged.

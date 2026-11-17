@@ -9,6 +9,8 @@ import { center, type Bounds, type Subpath } from './geometry.js';
 import { parseMuseScoreSvg, type SvgElement, type SvgPage } from './parser.js';
 import { recoverLayout, type StaffGeometry, type SystemGeometry } from './layout.js';
 import TIME_DIGITS from './time-digits.json' with { type: 'json' };
+import TEMPO_GLYPHS from './tempo-glyphs.json' with { type: 'json' };
+import { parseTempo, readMark, textMarks, type GlyphExample } from './text.js';
 import {
   ALTER, CLEF_MIDDLE, bh, bw, classifyAccidental, classifyClef, classifyHead, classifyRest, glyphsOf, hookFlags,
   type AccidentalKind, type ClefKind, type Glyph,
@@ -59,10 +61,17 @@ export type EventNode = {
   tuplet?: number;
   /** Two-note tremolo: this event alternates with `partner` (drawn with `bars` strokes between stems). */
   tremolo?: { partner: EventNode; bars: number };
+  /** Single-note tremolo: number of strokes on the stem (1 = eighths, 2 = sixteenths, 3 = 32nds). */
+  strokes?: number;
   /** Second event of a two-note tremolo; timed through its partner. */
   absorbed?: boolean;
+  /** Articulations and ornaments drawn on the event (staccato, accent, tenuto, marcato, staccatissimo, fermata, trill). */
+  marks?: Mark[];
   sourceIndices: number[];
 };
+export type Mark = 'staccato' | 'accent' | 'tenuto' | 'marcato' | 'staccatissimo' | 'fermata' | 'trill';
+/** A tempo mark: recognized words and/or metronome (beat "4", "2." …, bpm). */
+export type TempoNode = { system: number; x: number; text?: string; beat?: string; bpm?: number; raw: string; sourceIndex: number };
 export type TupletNode = { id: number; system: number; staff: number; x: number; y: number; left: number; right: number; events: number[]; number?: number; sourceIndex: number };
 export type ContextChange<T> = { x: number; value: T };
 export type TimeGlyphs = { num?: number; den?: number; symbol?: 'common' | 'cut'; numFp?: string[]; denFp?: string[] };
@@ -81,6 +90,7 @@ export type ScoreGraph = {
   systems: SystemNode[];
   staffCount: number;
   staffLayoutCode: string;
+  tempos: TempoNode[];
   diagnostics: Diagnostic[];
   /** Counts of drawn classes not represented in the graph (dynamics, text…). */
   unrepresented: Record<string, number>;
@@ -94,7 +104,7 @@ export const keyAlteration = (fifths: number, step: number): number => {
   return 0;
 };
 
-const REPRESENTED = new Set(['Tremolo', 'StaffLines', 'BarLine', 'Clef', 'KeySig', 'TimeSig', 'Note', 'Stem', 'Beam', 'Hook', 'NoteDot',
+const REPRESENTED = new Set(['Articulation', 'Fermata', 'Tempo', 'TrillSegment', 'Tremolo', 'StaffLines', 'BarLine', 'Clef', 'KeySig', 'TimeSig', 'Note', 'Stem', 'Beam', 'Hook', 'NoteDot',
   'Rest', 'Accidental', 'Tuplet', 'TieSegment', 'LedgerLine', 'Bracket', '']);
 
 type Located = { system: SystemGeometry; systemIndex: number; staff: StaffGeometry; staffIndex: number };
@@ -482,11 +492,10 @@ export function buildScoreGraph(xml: string): ScoreGraph {
           if (votes.length) staff = votes[0].i;
         }
       }
-      if (staff !== ev.staff) {
-        ev.staff = staff;
-        if (ev.stem) ev.stem.staff = staff;
-        for (const h of ev.heads) h.pos = Math.round(-(h.y - staves[staff].middle) / (staves[staff].spacing / 2));
-      }
+      // heads of one chord may have been located on different staves: measure all against the chord's staff
+      ev.staff = staff;
+      if (ev.stem) ev.stem.staff = staff;
+      for (const h of ev.heads) h.pos = Math.round(-(h.y - staves[staff].middle) / (staves[staff].spacing / 2));
     }
   }
 
@@ -621,7 +630,14 @@ export function buildScoreGraph(xml: string): ScoreGraph {
         leftEv.tremolo = { partner: rightEv, bars };
         rightEv.absorbed = true;
       } else {
-        diagnostics.push({ severity: 'info', code: 'single-tremolo', message: 'Single-note tremolo strokes ignored (duration unaffected)', system: at.systemIndex, staff: at.staffIndex, sourceIndex: e.sourceIndex });
+        // single-note tremolo: strokes across one stem, or above/below a stemless head
+        const all = systems[at.systemIndex].events.filter(ev => !ev.grace && !ev.absorbed && ev.kind === 'chord');
+        const onStem = all.find(ev => ev.stem && ev.stem.x > g.bounds.left - 0.2 * sp && ev.stem.x < g.bounds.right + 0.2 * sp &&
+          g.bounds.bottom > ev.stem.top - sp && g.bounds.top < ev.stem.bottom + sp);
+        const target = onStem || all.filter(ev => !ev.stem && Math.abs(ev.x - c.x) < 0.8 * sp)
+          .sort((a, b) => Math.min(...a.heads.map(h => Math.abs(h.y - c.y))) - Math.min(...b.heads.map(h => Math.abs(h.y - c.y))))[0];
+        if (target && Math.min(...target.heads.map(h => Math.abs(h.y - c.y))) < 6 * sp) target.strokes = Math.min(bars, 4);
+        else diagnostics.push({ severity: 'warning', code: 'orphan-tremolo', message: 'Tremolo strokes attached to no note', system: at.systemIndex, staff: at.staffIndex, sourceIndex: e.sourceIndex });
       }
     }
   }
@@ -641,6 +657,86 @@ export function buildScoreGraph(xml: string): ScoreGraph {
       }
       if (best) best.h.tieStart = true; // a segment that only ends at a system start continues an earlier tie
     }
+  }
+
+  // ---- articulations, fermatas, trills: nearest event horizontally, close to its heads or stem tip
+  const ARTICULATION = (g: Glyph): Mark | undefined => {
+    const w = bw(g.bounds) / sp, h = bh(g.bounds) / sp;
+    if (w <= 0.5 && h <= 0.5) return 'staccato';
+    if (h <= 0.3 && w >= 0.8) return 'tenuto';
+    if (w >= 1.2 && h <= 1.15 && w / h >= 1.3) return 'accent';
+    if (w <= 0.65 && h >= 0.7 && h <= 1.4) return 'staccatissimo';
+    if (w >= 0.85 && w <= 1.35 && h >= 0.85 && h <= 1.3 && g.contours.length === 1) return 'marcato';
+    return undefined;
+  };
+  const attachMark = (mark: Mark, b: Bounds, reach: number, sourceIndex: number, anchorLeft = false) => {
+    const c = center(b);
+    const ax = anchorLeft ? b.left : c.x;
+    let best: { ev: EventNode; d: number } | undefined;
+    for (const system of systems) {
+      if (ax < system.layout.left - sp || ax > system.layout.right + sp) continue;
+      for (const ev of system.events) {
+        if (ev.grace || ev.absorbed) continue;
+        const ex = ev.kind === 'rest' ? (ev.left + ev.right) / 2 : ev.heads.reduce((s, h) => s + h.x, 0) / ev.heads.length;
+        const dx = Math.abs(ex - ax);
+        if (dx > (anchorLeft ? 2 : 1.3) * sp) continue;
+        const ys = ev.kind === 'rest' ? [system.layout.staves[ev.staff].middle + (ev.restY || 0) * sp] : [...ev.heads.map(h => h.y), ...(ev.stem ? [ev.stem.top, ev.stem.bottom] : [])];
+        const dy = Math.min(...ys.map(y => Math.abs(y - c.y)));
+        if (dy > reach * sp) continue;
+        const d = dx + dy;
+        if (!best || d < best.d) best = { ev, d };
+      }
+    }
+    if (!best) { diagnostics.push({ severity: 'warning', code: 'orphan-mark', message: `${mark} attached to no event`, sourceIndex }); return; }
+    best.ev.marks = [...new Set([...(best.ev.marks || []), mark])];
+  };
+  for (const e of byClass('Articulation')) {
+    for (const g of glyphsOf(e, allSubpaths(e), sp)) {
+      const mark = ARTICULATION(g);
+      if (mark) attachMark(mark, g.bounds, 3.5, e.sourceIndex);
+      else diagnostics.push({ severity: 'info', code: 'unknown-articulation', message: `Articulation glyph ${(bw(g.bounds) / sp).toFixed(1)}x${(bh(g.bounds) / sp).toFixed(1)} not transcribed`, sourceIndex: e.sourceIndex });
+    }
+  }
+  for (const e of byClass('Fermata')) for (const g of glyphsOf(e, allSubpaths(e), sp, 'overlap')) attachMark('fermata', g.bounds, 7, e.sourceIndex);
+  // a trill line starts with its "tr" sign over the trilled note
+  // A trill line is drawn in pieces; only the first carries the taller "tr" sign.
+  for (const e of byClass('TrillSegment')) if (bh(e.bounds) >= 1.0 * sp) attachMark('trill', e.bounds, 7, e.sourceIndex, true);
+
+  // ---- tempo marks: outlined text read with the labelled glyph table
+  const tempos: TempoNode[] = [];
+  for (const e of byClass('Tempo')) {
+    const read = textMarks(e, sp).map(m => ({ m, ...readMark(m, TEMPO_GLYPHS as GlyphExample[]) }));
+    // a word mark and a metronome mark stacked at the same place are one tempo
+    const used = new Set<number>();
+    read.forEach((r, i) => {
+      if (used.has(i)) return;
+      used.add(i);
+      let raw = r.text, unknown = r.unknown;
+      // only words + a metronome mark stacked at one place are joined (never metric equations)
+      const kind = (x: string) => { const t = parseTempo(x); return t.equation ? 'eq' : t.bpm && !t.text ? 'metro' : !t.bpm && t.text ? 'words' : 'both'; };
+      const partner = read.findIndex((o, j) => !used.has(j) && Math.abs(o.m.bounds.left - r.m.bounds.left) < 3 * sp &&
+        o.m.bounds.top - r.m.bounds.bottom < 1.5 * r.m.height && o.m.bounds.top > r.m.bounds.top &&
+        ((kind(r.text) === 'words' && kind(o.text) === 'metro') || (kind(r.text) === 'metro' && kind(o.text) === 'words')));
+      if (partner >= 0) { used.add(partner); raw += ' ' + read[partner].text; unknown += read[partner].unknown; }
+      // the system below the mark whose top staff is nearest
+      let sys: { index: number; d: number } | undefined;
+      for (const system of systems) {
+        if (r.m.bounds.left < system.layout.left - 4 * sp || r.m.bounds.left > system.layout.right) continue;
+        const d = system.layout.staves[0].lines[0] - r.m.bounds.bottom;
+        if (d > -2 * sp && (!sys || d < sys.d)) sys = { index: system.index, d };
+      }
+      if (!sys) return;
+      const t = parseTempo(raw);
+      if (t.equation) {
+        diagnostics.push({ severity: 'info', code: 'tempo-equation', message: `Metric equation "${raw}" not transcribed`, system: sys.index, sourceIndex: e.sourceIndex });
+        return;
+      }
+      // words with unread characters are dropped rather than guessed; a readable metronome is kept
+      const textOk = t.text && !t.text.includes('?');
+      if (unknown) diagnostics.push({ severity: 'warning', code: 'tempo-unread', message: `Tempo text partly unread: "${raw}"`, system: sys.index, sourceIndex: e.sourceIndex });
+      if (!textOk && !t.bpm) return;
+      tempos.push({ system: sys.index, x: r.m.bounds.left, text: textOk ? t.text : undefined, beat: t.bpm ? t.beat : undefined, bpm: t.bpm, raw, sourceIndex: e.sourceIndex });
+    });
   }
 
   // ---- pitch: clef + key + accidentals with measure-scoped memory, per staff in x order
@@ -702,7 +798,7 @@ export function buildScoreGraph(xml: string): ScoreGraph {
   }
   const staffLayoutCode = tokens.join(',');
   if (layouts.some(l => l.staves.length !== staffCount)) diagnostics.push({ severity: 'warning', code: 'staff-count-varies', message: 'Systems have different staff counts; staves are matched top-down' });
-  return { page, systems, staffCount, staffLayoutCode, diagnostics, unrepresented };
+  return { page, systems, staffCount, staffLayoutCode, tempos, diagnostics, unrepresented };
 }
 
 export const STEP_NAMES = ['c', 'd', 'e', 'f', 'g', 'a', 'b'];

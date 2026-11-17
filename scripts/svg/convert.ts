@@ -5,8 +5,8 @@ import { solveTiming, type MeasureFlag } from './timing.js';
 import { writeLilylet } from './lilyletWriter.js';
 import { checkLilylet, type CheckResult } from './checkLilylet.js';
 
-export const ENGINE_VERSION = 'event-graph/1';
-export const ENGINE_FILES = ['geometry.ts', 'parser.ts', 'layout.ts', 'glyphs.ts', 'frac.ts', 'notation.ts', 'timing.ts', 'lilyletWriter.ts', 'checkLilylet.ts', 'convert.ts', 'svg-to-lilylet.ts'];
+export const ENGINE_VERSION = 'event-graph/2';
+export const ENGINE_FILES = ['geometry.ts', 'parser.ts', 'layout.ts', 'glyphs.ts', 'frac.ts', 'notation.ts', 'timing.ts', 'lilyletWriter.ts', 'checkLilylet.ts', 'convert.ts', 'svg-to-lilylet.ts', 'text.ts'];
 
 export type QualityReport = {
   engine: string;
@@ -15,6 +15,8 @@ export type QualityReport = {
   measures: number;
   fineMeasures: number;
   events: number;
+  marks: Record<string, number>;
+  tempos: string[];
   graceEvents: number;
   flags: Partial<Record<MeasureFlag, number>>;
   diagnostics: Record<string, number>;
@@ -30,7 +32,7 @@ export function convertSvg(xml: string): Conversion {
   const graph = buildScoreGraph(xml);
   const solution = solveTiming(graph);
   const written = writeLilylet(graph, solution);
-  const check = checkLilylet(written.code, written.notes);
+  const check = checkLilylet(written.code, written.notes, { tempos: written.tempos, marks: written.marks });
   const diagnostics = [...graph.diagnostics, ...solution.diagnostics,
     ...written.problems.map(message => ({ severity: 'warning' as const, code: 'writer', message }))];
   const flags: QualityReport['flags'] = {};
@@ -46,6 +48,8 @@ export function convertSvg(xml: string): Conversion {
     measures: solution.measures.length,
     fineMeasures,
     events: events.filter(e => !e.grace).length,
+    marks: written.marks,
+    tempos: written.tempos.map(t => [t.text, t.bpm ? `${t.beat}=${t.bpm}` : ''].filter(Boolean).join(' ')),
     graceEvents: events.filter(e => e.grace).length,
     flags,
     diagnostics: codes,

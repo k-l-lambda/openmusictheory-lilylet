@@ -69,5 +69,5 @@ for (let s = 0; s < Math.max(parsed.length, model.length); s++) {
   const ok = lt.length === mt.length && lt.every((t: number, i: number) => t === mt[i]);
   console.log(`staff ${s + 1}: lyl [${lt.join(', ')}] model [${mt.join(', ')}] ${ok ? '✓' : '✗'}`);
 }
-const check = checkLilylet(written.code, written.notes);
+const check = checkLilylet(written.code, written.notes, { tempos: written.tempos, marks: written.marks });
 console.log(`whole-score round trip: ${check.ok ? '✓ PASS' : '✗ FAIL'}${check.mismatches.length ? ' — ' + check.mismatches.slice(0, 5).join('; ') : ''}`);

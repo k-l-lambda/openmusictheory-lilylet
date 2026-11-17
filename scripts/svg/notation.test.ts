@@ -94,3 +94,25 @@ test('staves joined by a system barline form one system even across a wide gap (
   assert.match(measureLine(code, 3), /\\tuplet 3\/2 \{ <d d'>8\[ <fs fs'>8 <a a'>8\] \}/);
   assert.equal(report.fineMeasures, 3);
 });
+
+test('articulations on notes: accent on the dotted chord, round-trip counts them', () => {
+  const { code, report } = convertSvg(fixture('32728834_12523291_p0.svg'));
+  assert.match(measureLine(code, 1), /<e' e'>4\.->/);
+  assert.match(measureLine(code, 3), /<e' e'>4\.->/);
+  assert.equal(report.marks.accent, 2);
+  assert.ok(report.check.ok);
+});
+
+test('chord heads are measured against the chord staff (no stray low A)', () => {
+  const { code } = convertSvg(fixture('32728834_12523291_p0.svg'));
+  assert.match(measureLine(code, 1), /\\staff "2" \\clef "bass" fs,4 <c' d a'>4 <c d a'>4/);
+});
+
+test('tempo marks: words, metronome with half-note beat, stacked words + dotted metronome', () => {
+  assert.match(convertSvg(fixture('27638568_5879039_p0.svg')).code, /\\tempo "Allegro maestoso" 2 = 54/);
+  assert.match(convertSvg(fixture('32728834_11374390_p0.svg')).code, /\\tempo "Swing 16ths" 4\. = 31/);
+  assert.match(convertSvg(fixture('8641586_8920656_p0.svg')).code, /\\tempo "Prestissimo" 4\. = 66/);
+  const { report } = convertSvg(fixture('32728834_7370744_p0.svg'));
+  assert.deepEqual(report.tempos, ['4.=90', '4=180', '4.=180', '4=270'], 'metric equations are not turned into tempos');
+  assert.ok(report.check.ok);
+});
