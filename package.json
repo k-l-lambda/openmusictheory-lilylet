@@ -5,7 +5,8 @@
     "score-to-lilylet": "tsx scripts/score-to-lilylet.ts",
     "comparison": "vite --config comparison/vite.config.ts",
     "build:comparison": "vite build --config comparison/vite.config.ts",
-    "omr-review": "node omr-review/build.mjs"
+    "omr-review": "node omr-review/build.mjs",
+    "omr-review-musescore": "node omr-review/build.mjs && node omr-review/build-musescore.mjs"
   },
   "devDependencies": {
     "katex": "0.16.22",

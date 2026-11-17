@@ -59,7 +59,9 @@ for (const line of selected) {
     continue;
   }
   const log = path.join(output, 'logs', filename.replace(/\.svg$/, '.conversion.log'));
-  const child = spawnSync('npx', ['tsx', 'scripts/svg/svg-to-lilylet.ts', source], {
+  // Launch the converter as one Node process. Timing out an npx/tsx wrapper
+  // only kills the wrapper and can leave the CPU-bound converter orphaned.
+  const child = spawnSync(process.execPath, ['--import', 'tsx', 'scripts/svg/svg-to-lilylet.ts', source], {
     cwd: repo, encoding: 'utf8', timeout: 120_000, maxBuffer: 8 * 1024 * 1024,
   });
   fs.writeFileSync(log, (child.stderr || '') + (child.error ? `\n${child.error}\n` : ''));

@@ -40,6 +40,9 @@ export function parseMuseScoreSvg(xml: string): SvgPage {
     } else if (node.localName === 'image') {
       // Embedded images cannot supply notation semantics; keep their presence visible to diagnostics.
       sourceIndex++;
+    } else if (['title', 'desc'].includes(node.localName || '')) {
+      // Accessible SVG metadata has no drawing geometry or notation semantics.
+      return;
     } else if (!['svg', 'g', 'a'].includes(node.localName || '')) {
       throw new Error(`Unsupported SVG element: ${node.nodeName}`);
     }

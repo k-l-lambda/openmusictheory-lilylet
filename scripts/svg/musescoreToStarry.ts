@@ -1,6 +1,6 @@
 import { parseMuseScoreSvg, type SvgElement, type SvgPage } from './parser.js';
 import { recoverLayout, type StaffGeometry, type SystemGeometry } from './layout.js';
-import { center, type Bounds } from './geometry.js';
+import { boundsOf, center, type Bounds } from './geometry.js';
 
 export type SvgDiagnostic = {
   severity: 'info' | 'warning' | 'error';
@@ -73,8 +73,8 @@ const bHeight = (b: Bounds) => b.bottom - b.top;
 const bArea = (b: Bounds) => bWidth(b) * bHeight(b);
 const near = (a: number, b: number, tolerance: number) => Math.abs(a - b) <= tolerance;
 
-function systemForY(systems: SystemGeometry[], y: number, spacing: number): SystemGeometry | undefined {
-  return systems.find((s) => y >= s.top - 2 * spacing && y <= s.bottom + 2 * spacing);
+function withinSystemX(system: SystemGeometry, x: number, spacing: number): boolean {
+  return x >= system.left - spacing && x <= system.right + spacing;
 }
 
 function staffForY(system: SystemGeometry, y: number, spacing: number): { staff: StaffGeometry; index: number } | undefined {
@@ -230,18 +230,26 @@ function noteheadIsHollow(element: SvgElement, bounds: Bounds, spacing: number):
 }
 
 
-function stemDirection(note: Bounds, stems: Bounds[], spacing: number): 'U' | 'D' | undefined {
+function stemForNote(note: Bounds, stems: Bounds[], spacing: number): Bounds | undefined {
   const n = center(note);
-  let best: { direction: 'U' | 'D'; distance: number } | undefined;
+  let best: { stem: Bounds; distance: number } | undefined;
   for (const stem of stems) {
     const x = center(stem).x;
     const dx = x - n.x;
     if (Math.abs(dx) > spacing * 1.2 || Math.abs(dx) < spacing * 0.08) continue;
-    const direction = dx > 0 ? 'U' : 'D';
+    // A nearby vertical stroke from another event is not this note's stem.
+    // Require the stem's span to reach the notehead's vertical band as well.
+    if (stem.bottom < note.top - spacing * 0.3 || stem.top > note.bottom + spacing * 0.3) continue;
     const distance = Math.abs(dx);
-    if (!best || distance < best.distance) best = { direction, distance };
+    if (!best || distance < best.distance) best = { stem, distance };
   }
-  return best?.direction;
+  return best?.stem;
+}
+
+function stemDirection(note: Bounds, stems: Bounds[], spacing: number): 'U' | 'D' | undefined {
+  const stem = stemForNote(note, stems, spacing);
+  if (!stem) return undefined;
+  return center(stem).x > center(note).x ? 'U' : 'D';
 }
 
 function addId(point: Point, source: string, n: number): Point {
@@ -265,6 +273,14 @@ export function musescoreSvgToStarry(xml: string): SvgStarryResult {
 
   systems.forEach((layout, systemIndex) => {
     const spacing = layout.spacing;
+    // MuseScore often groups all symbols of a class into one path covering
+    // multiple systems. Restrict each contour to this system's x interval
+    // before using staff-relative y, including horizontally parallel systems.
+    const localElements = page.elements.map(element => {
+      const subpaths = element.subpaths.filter(subpath =>
+        withinSystemX(layout, center(subpath.bounds).x, spacing));
+      return subpaths.length ? { ...element, subpaths, bounds: boundsOf(subpaths) } : undefined;
+    }).filter((element): element is SvgElement => element !== undefined);
     const width = (layout.right - layout.left) / spacing;
     const systemSemantics: Point[] = [];
     const staffSemantics: Point[][] = layout.staves.map(() => []);
@@ -296,19 +312,27 @@ export function musescoreSvgToStarry(xml: string): SvgStarryResult {
 
     // Clefs: choose the largest contour near each staff. One MuseScore path
     // often contains all clefs on the page and several counter contours.
-    const clefElements = page.elements.filter((e) => e.cls === 'Clef');
+    const clefElements = localElements.filter((e) => e.cls === 'Clef');
     for (const element of clefElements) {
       for (let staffIndex = 0; staffIndex < layout.staves.length; staffIndex++) {
         const staff = layout.staves[staffIndex];
         const contour = largestContourInStaff(element, staff, spacing);
         if (!contour) continue;
-        addStaffPoint(staffIndex, pointForStaff(clefSemantic(contour, spacing), contour, layout, staff, spacing), 'clef');
+        const semantic = clefSemantic(contour, spacing);
+        // The contour center is not the clef's reference line. Starry derives
+        // sounding pitch from the clef point's y coordinate: G sits on staff
+        // line 4 (relative +1), F on line 2 (relative -1). An unlocated C clef
+        // cannot safely provide a pitch reference, so leave it provisional.
+        const point = pointForStaff(semantic, contour, layout, staff, spacing);
+        if (semantic === SEM.clefG) point.y = 1;
+        else if (semantic === SEM.clefF) point.y = -1;
+        addStaffPoint(staffIndex, point, 'clef');
       }
     }
 
     // Emit each time-signature digit separately. Starry recognizes numeric
     // signatures by staff-relative y: numerator at -1, denominator at +1.
-    for (const element of page.elements.filter((e) => e.cls === 'TimeSig')) {
+    for (const element of localElements.filter((e) => e.cls === 'TimeSig')) {
       const byStaff = new Map<number, typeof element.subpaths>();
       for (const subpath of element.subpaths) {
         const info = staffForY(layout, center(subpath.bounds).y, spacing);
@@ -346,7 +370,7 @@ export function musescoreSvgToStarry(xml: string): SvgStarryResult {
       }
     }
 
-    for (const element of page.elements.filter((e) => e.cls === 'Accidental' || e.cls === 'KeySig')) {
+    for (const element of localElements.filter((e) => e.cls === 'Accidental' || e.cls === 'KeySig')) {
       for (const item of largestUniqueContours(element, spacing)) {
         const info = staffForY(layout, center(item.bounds).y, spacing);
         if (!info) continue;
@@ -363,25 +387,25 @@ export function musescoreSvgToStarry(xml: string): SvgStarryResult {
       }
     }
     const stemBoundsByStaff = layout.staves.map(() => [] as Bounds[]);
-    for (const element of page.elements.filter((e) => e.cls === 'Stem')) {
+    for (const element of localElements.filter((e) => e.cls === 'Stem')) {
       for (const bounds of verticalComponents(element, spacing)) {
         const info = staffForY(layout, center(bounds).y, spacing);
         if (info) stemBoundsByStaff[info.index].push(bounds);
       }
     }
 
-    for (const element of page.elements.filter((e) => e.cls === 'Note')) {
+    for (const element of localElements.filter((e) => e.cls === 'Note')) {
       for (const bounds of noteheadBounds(element, spacing)) {
         const staffInfo = staffForY(layout, center(bounds).y, spacing);
         if (!staffInfo) continue;
         const filled = !noteheadIsHollow(element, bounds, spacing);
         const direction = stemDirection(bounds, stemBoundsByStaff[staffInfo.index], spacing);
-        // Starry cannot assemble an isolated filled head without a Stem point.
-        // Keep such notes as explicitly provisional whole-note candidates;
-        // SVG geometry alone cannot establish their actual duration.
-        let semantic: string = filled && stemBoundsByStaff[staffInfo.index].length ? SEM.note1 : SEM.note0;
-        if (filled && direction === 'U') semantic = SEM.note1Up;
-        if (filled && direction === 'D') semantic = SEM.note1Down;
+        // Starry's S1 is a hollow half-note head; a filled head starts at S2
+        // (quarter note), then attached beam/flag levels subdivide it further.
+        // Without a local stem, leave a filled head provisional rather than
+        // borrowing an unrelated stem elsewhere on the staff.
+        let semantic: string = SEM.note0;
+        if (direction) semantic = filled ? SEM.note2 : SEM.note1;
         addStaffPoint(staffInfo.index, pointForStaff(semantic, bounds, layout, staffInfo.staff, spacing), 'note');
       }
     }
@@ -393,7 +417,7 @@ export function musescoreSvgToStarry(xml: string): SvgStarryResult {
     // Starry's Open/Continue/Close points at those stem positions, as the
     // native semantic graph does. This also avoids creating phantom beam events
     // at the raw path endpoints.
-    for (const element of page.elements.filter((e) => e.cls === 'Beam')) {
+    for (const element of localElements.filter((e) => e.cls === 'Beam')) {
       for (const subpath of element.subpaths) {
         const beam = subpath.bounds;
         // Only the principal (stem-adjacent) level opens/closes a beam
@@ -450,7 +474,7 @@ export function musescoreSvgToStarry(xml: string): SvgStarryResult {
       }
     }
 
-    for (const element of page.elements.filter((e) => e.cls === 'Tremolo')) {
+    for (const element of localElements.filter((e) => e.cls === 'Tremolo')) {
       const items = element.subpaths.map((subpath) => subpath.bounds).sort((a, b) => center(a).y - center(b).y);
       for (let i = 0; i < items.length; i++) {
         const info = staffForY(layout, center(items[i]).y, spacing);
@@ -459,7 +483,7 @@ export function musescoreSvgToStarry(xml: string): SvgStarryResult {
         addStaffPoint(info.index, pointForStaff(semantic, items[i], layout, info.staff, spacing), 'tremolo');
       }
     }
-    for (const element of page.elements.filter((e) => e.cls === 'Hook')) {
+    for (const element of localElements.filter((e) => e.cls === 'Hook')) {
       for (const item of largestUniqueContours(element, spacing)) {
         if (bHeight(item.bounds) / spacing < 2.5) continue;
         const info = staffForY(layout, center(item.bounds).y, spacing);
@@ -467,7 +491,7 @@ export function musescoreSvgToStarry(xml: string): SvgStarryResult {
       }
     }
 
-    for (const element of page.elements.filter((e) => e.cls === 'NoteDot')) {
+    for (const element of localElements.filter((e) => e.cls === 'NoteDot')) {
       for (const bounds of element.subpaths.map((subpath) => subpath.bounds)) {
         const info = staffForY(layout, center(bounds).y, spacing);
         if (info) addStaffPoint(info.index, pointForStaff(SEM.dot, bounds, layout, info.staff, spacing), 'dot');
@@ -475,7 +499,7 @@ export function musescoreSvgToStarry(xml: string): SvgStarryResult {
     }
 
 
-    for (const element of page.elements.filter((e) => e.cls === 'Rest')) {
+    for (const element of localElements.filter((e) => e.cls === 'Rest')) {
       for (const bounds of uniqueBounds(element.subpaths.map((subpath) => subpath.bounds), spacing)) {
         const info = staffForY(layout, center(bounds).y, spacing);
         if (!info) continue;
@@ -491,7 +515,7 @@ export function musescoreSvgToStarry(xml: string): SvgStarryResult {
 
     // Stems are emitted after notes but their association is resolved by
     // Starry's Staff.assemble() using the explicit extensions.
-    for (const element of page.elements.filter((e) => e.cls === 'Stem')) {
+    for (const element of localElements.filter((e) => e.cls === 'Stem')) {
       for (const bounds of verticalComponents(element, spacing)) {
         const info = staffForY(layout, center(bounds).y, spacing);
         if (!info) continue;
@@ -510,7 +534,7 @@ export function musescoreSvgToStarry(xml: string): SvgStarryResult {
 
     // These classes are deterministic but subtype/event identity is not yet
     // robust enough in SVG-only mode. Keep a visible audit trail.
-    for (const element of page.elements) {
+    for (const element of localElements) {
       if (['Harmony', 'Lyrics', 'StaffText', 'Text', 'InstrumentName'].includes(element.cls)) {
         diagnostics.push({ severity: 'warning', code: 'outlined-text', message: `${element.cls} text is outlined; content was not guessed`, sourceIndex: element.sourceIndex });
       }

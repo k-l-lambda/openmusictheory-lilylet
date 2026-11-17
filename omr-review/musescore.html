@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MuseScore SVG 核验</title>
+  <link rel="stylesheet" href="review.css">
+  <style>
+    .tag-st-draft { background: var(--tag-omr-bg); color: var(--tag-omr-fg); }
+    .tag-st-failed, .tag-st-fail { background: transparent; color: var(--err-fg); border: 1px solid currentColor; }
+    .tag-st-manual { background: var(--tag-hand-bg); color: var(--tag-hand-fg); }
+    .tag-st-pass { background: var(--tag-none-bg); color: var(--tag-none-fg); }
+    .tag-st-pending { background: var(--tag-none-bg); color: var(--tag-none-fg); }
+    .tag-stale { background: transparent; color: var(--warn-fg); border: 1px solid currentColor; }
+    .source-paper { flex-direction: column; align-items: stretch; }
+    .source-paper img { width: 100%; max-height: 75vh; object-fit: contain; object-position: top center; }
+    .render img { max-width: 100%; height: auto; display: block; }
+    .render .placeholder { white-space: pre-wrap; }
+    .notes { margin: 0; color: var(--err-fg); white-space: pre-wrap; overflow-wrap: anywhere; }
+    .local-path { color: var(--muted); font: 11px/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; overflow-wrap: anywhere; }
+    .pagination { display: flex; gap: 8px; align-items: center; justify-content: center; padding: 0 16px 32px; color: var(--muted); }
+    .pagination button { font: inherit; padding: 5px 10px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); color: var(--text); cursor: pointer; }
+    .pagination button:disabled { opacity: .45; cursor: default; }
+    @media (max-width: 900px) { .source-paper img { max-height: none; } }
+  </style>
+  <script src="musescore-data.js"></script>
+  <script src="vendor/lilylet.bundle.js"></script>
+  <script src="vendor/verovio-toolkit-wasm.js" defer></script>
+  <script src="musescore.js" defer></script>
+</head>
+<body>
+  <header class="bar">
+    <div class="bar-title">
+      <h1>MuseScore SVG → Lilylet · 自动草稿核验</h1>
+      <p class="meta" id="meta">加载中…</p>
+    </div>
+    <form class="filters" id="filters" onsubmit="return false">
+      <label class="field"><span>搜索</span><input type="search" id="q" placeholder="文件名 / 备注 / 错误" autocomplete="off"></label>
+      <label class="field"><span>转换</span><select id="conversion"><option value="">全部</option><option value="draft">有自动草稿</option><option value="failed">转换失败</option><option value="manual">手工版本</option></select></label>
+      <label class="field"><span>审核</span><select id="review"><option value="">全部</option><option value="failed">失败</option><option value="pending">待审核</option><option value="manual">手工独立版</option></select></label>
+      <label class="field"><span>检查</span><select id="checker"><option value="">全部</option><option value="pass">结构检查通过</option><option value="fail">结构检查失败</option><option value="not-run">未运行</option></select></label>
+      <label class="field"><span>来源</span><select id="provenance"><option value="">全部</option><option value="automatic">自动草稿</option><option value="manual">手工转写</option></select></label>
+      <label class="field"><span>每页</span><select id="pageSize"><option>12</option><option selected>24</option><option>48</option></select></label>
+    </form>
+  </header>
+  <p class="status-line" id="renderer" role="status" aria-live="polite">正在加载 Verovio…</p>
+  <main id="list" class="list" aria-label="MuseScore 与 Lilylet 对照列表"></main>
+  <p class="empty" id="empty" hidden>没有匹配的条目。</p>
+  <nav class="pagination" id="pagination" aria-label="分页"></nav>
+  <template id="card-tpl">
+    <article class="card">
+      <header class="card-head"><h2 class="card-name"></h2><span class="tags"></span><span class="path"></span></header>
+      <div class="panes">
+        <figure class="pane pane-orig"><figcaption>源 MuseScore SVG（第 0 页）</figcaption><div class="paper source-paper"><img loading="lazy" decoding="async"></div></figure>
+        <figure class="pane pane-render"><figcaption><span class="cap-text">Lilylet 渲染</span><span class="copy-status" role="status" aria-live="polite"></span></figcaption><div class="paper render" aria-live="polite"></div></figure>
+      </div>
+      <details class="more"><summary>详情</summary><div class="more-body"><p class="pages"></p><p class="notes"></p><p class="local-path"></p><pre class="code"></pre></div></details>
+    </article>
+  </template>
+</body>
+</html>
