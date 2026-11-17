@@ -1,0 +1,38 @@
+[staves ""]
+[title "MuseScore SVG import"]
+
+\key g \major \omit Score.TimeSignature \numericTimeSignature \time 4/4 \clef "bass" <g, b d fs>1 | %1
+
+<a, c e g>1 | %2
+
+<b, d fs a>1 | %3
+
+<c, e g b>1 | %4
+
+<d, fs a c>1 | %5
+
+<e, g b d>1 | %6
+
+<fs, a c e>1 | %7
+
+<g b d fs>1 | %8
+
+\key bf \major <g, bf d f>1 | %9
+
+<a, c ef g>1 | %10
+
+<bf, d f a>1 | %11
+
+<c, ef g bf>1 | %12
+
+<d, f a c>1 | %13
+
+<d, fs a c>1 | %14
+
+<ef, g bf d>1 | %15
+
+<f, a c ef>1 | %16
+
+<fs, a c ef>1 | %17
+
+<g bf d f>1 | %18

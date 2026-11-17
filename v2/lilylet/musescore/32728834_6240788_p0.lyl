@@ -1,0 +1,8 @@
+[staves "{-}"]
+[title "MuseScore SVG import"]
+
+\staff "1" \key g \major \numericTimeSignature \time 6/8 \clef "treble" d'4.~ d8[ c8. a16] \\
+\staff "2" \clef "bass" g,,8[ <d'' g b>8 <g b d>8] c,,8[ <d' fs a>8 <fs a d>8] | %1
+
+\staff "1" a'4 g8~ g8[ <c, fs a>8 <b g' b>8] \\
+\staff "2" b,,8[ <d g b>8 <g b d>8] <b d>8[ <a d>8 <g d'>8] | %2

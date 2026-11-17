@@ -1,0 +1,25 @@
+[staves ""]
+[title "MuseScore SVG import"]
+
+\key c \major \defaultTimeSignature \time 4/4 \clef "treble" \stemUp r2 d'2~ \\
+\stemDown f1 | %1
+
+\stemUp d'2 cs2 \\
+\stemDown e1 | %2
+
+<d d'>1 | %3
+
+\stemUp f'1 \\
+\stemDown r2 d'2~ | %4
+
+e'1 d2 cs2 | %5
+
+<d' d>1 | %6
+
+\stemUp d'2 d2~ \\
+\stemDown d4 e4 f4 g4 | %7
+
+\stemUp d'2 cs2 \\
+\stemDown a'1 | %8
+
+<d d'>1 | %9

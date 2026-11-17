@@ -1,0 +1,19 @@
+[staves ""]
+[title "MuseScore SVG import"]
+
+\key fs \major \numericTimeSignature \time 4/4 \clef "treble" fs8 r8 as8[ as8] as8[ gs8 gs8 fs8] | %1
+
+fs8 r8 as8[ as8] as8[ gs8 gs8 fs8] | %2
+
+\stemUp fs4 fs8 as8[ as8] \grace { fs8 } as8[ gs8 \grace { cs,8 as'8 } gs8 \grace { gs8 } fs8] \\
+\stemDown r8 s2 s4 s8 | %3
+
+gs'8 r8 as4 gs8 fs4 fs8~ | %4
+
+fs8 r8 r4 r8 fs8[ fs8 cs'8~] | %5
+
+cs'2. ds8[ as8~] | %6
+
+as'4 r4 r2 | %7
+
+r4 as'4 gs8 fs4 fs8 | %8

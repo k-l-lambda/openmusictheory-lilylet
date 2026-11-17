@@ -1,0 +1,26 @@
+[staves "{-}"]
+[title "MuseScore SVG import"]
+
+\staff "1" \key c \major \defaultTimeSignature \time 4/4 \clef "treble" c2-^~ c8[ c16-. c16-.] c8-.[ c8-.] \\
+\staff "2" \clef "bass" R1 | %1
+
+\staff "1" e2->~ e8[ c16-. c16-.] c8-.[ g8-.] \\
+\staff "2" R1 | %2
+
+\staff "1" c2->~ c8[ c16-. c16-.] c8-.[ c8-.] \\
+\staff "2" R1 | %3
+
+\staff "1" e8[ c16 c16] c8[ g8] c8[ g8 c8 e8] \\
+\staff "2" R1 | %4
+
+\staff "1" <d g>4. <e g>16[ <e g>16] <d g>4. <g c>16[ <g c>16] \\
+\staff "2" <g b>4. <g c>16[ <g c>16] <g b>4. <g e'>16[ <g e'>16] | %5
+
+\staff "1" <g' b>4. <g c g'>16[ <g c g'>16] <g b g'>4 <c e g c>4 \\
+\staff "2" <g d'>4. <g e'>16[ <g e'>16] <g d'>4 <g, c e g>4 | %6
+
+\staff "1" <b' d g b>4. <b d g b>8 <b d g b>8.[ <d g b d>16] <d g b d>8.[ <g b d g>16] \\
+\staff "2" <g, b d g>4. <d d'>8 <d d'>8.[ <b b'>16] <b b'>8.[ <g g'>16] | %7
+
+\staff "1" <g'' b d g>4-^ r4 r2 \\
+\staff "2" <g,, g'>4 <g' g'>4 r2 | %8

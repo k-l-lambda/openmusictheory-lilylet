@@ -1,0 +1,42 @@
+[staves ",,,"]
+[title "MuseScore SVG import"]
+
+\key bf \major \numericTimeSignature \time 3/4 \clef "treble" bf'4-. bf4-. bf4-. \\\
+\clef "treble" d4-. d4-. d4-. \\\
+\clef "alto" d2. \\\
+\clef "bass" bf4 a4 g4 | %1
+
+bf'4. c8 d4 \\\
+d4. ef8 f4 \\\
+d4 c4 bf4 \\\
+f,4 ef4 d4 | %2
+
+c'4 ef8[ d8 c8 bf8] \\\
+g'4-. g4-. g4-. \\\
+c2.~ \\\
+ef,2 e4 | %3
+
+bf'4 a8[ f8 g8 a8] \\\
+f4. f8 ef8[ c8] \\\
+c2. \\\
+f,2. | %4
+
+bf'4-. bf4-. bf4-. \\\
+d4-. d4-. d4-. \\\
+d2. \\\
+bf4 a4 g4 | %5
+
+bf'4. c8 d4 \\\
+d4. ef8 f4 \\\
+d4 c4 bf4 \\\
+f,4 ef4 d4 | %6
+
+g'8[ ef'16 c16] bf4 a4 \\\
+ef4 d4 c4 \\\
+ef4 f4 ef4 \\\
+ef,4 f4 f,4 | %7
+
+c'2 bf4 \\\
+bf2 r4 \\\
+d2 r4 \\\
+bf,2 r4 | %8

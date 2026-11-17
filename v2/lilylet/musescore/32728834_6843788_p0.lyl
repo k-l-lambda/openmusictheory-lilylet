@@ -1,0 +1,8 @@
+[staves "{-}"]
+[title "MuseScore SVG import"]
+
+\staff "1" \key ef \major \defaultTimeSignature \time 4/4 \clef "treble" <d bf' f'>1 \\
+\staff "2" \clef "bass" <bf, f' af>1 | %1
+
+\staff "1" <d bf' g'>1 \\
+\staff "2" <ef,, ef' g>1 | %2

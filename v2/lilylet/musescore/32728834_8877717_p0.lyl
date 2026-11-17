@@ -1,0 +1,38 @@
+[staves ""]
+[title "MuseScore SVG import"]
+
+\key f \major \numericTimeSignature \time 4/2 \clef "treble" r1 c'1~ c1 bf1 a1. g4 f4 g1 f1 \\\
+s\breve \\\
+s\breve \\\
+s\breve \\\
+s\breve | %1
+
+\clef "treble_8" r1 f'1~ f1 e1 d1. c4 bf4 \\\
+s\breve \\\
+s\breve \\\
+s\breve \\\
+s\breve | %2
+
+\clef "bass" f,\breve e1 d1~ d2 c4 bf4 c1 \\\
+s\breve \\\
+s\breve \\\
+s\breve \\\
+s\breve | %3
+
+r1 c1 bf1 a1~ \\\
+s\breve \\\
+s\breve \\\
+s\breve \\\
+s\breve | %4
+
+r1 f,1~ \\\
+s\breve \\\
+s\breve \\\
+s\breve \\\
+s\breve | %5
+
+\clef "treble" f'\breve e1 d1~ d2 c4 bf4 c1 \\\
+\clef "treble_8" c'1 r1 c1 bf1 a1. g4 f4 g\breve \\\
+\clef "bass" c\breve bf1 a1~ a2 g4 f4 g1 r1 r2 c2~ c2 c2 d2 bf2 \\\
+\clef "bass" a2 g4 f4 g1 f\breve f\breve e1 d1 \\\
+\clef "bass" f,1 e1 d1. c4 bf4 c1 r1 c1 bf1 | %6

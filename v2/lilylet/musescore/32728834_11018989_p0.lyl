@@ -1,0 +1,49 @@
+[staves "{-}"]
+[title "MuseScore SVG import"]
+
+\staff "1" \key g \major \numericTimeSignature \time 9/4 \clef "treble" s\breve s8 \\
+\staff "2" \clef "bass" \stemUp b,8 s2 s4 fs'4 g4 fs4 g4 a4 \\
+\staff "2" \stemDown b4. <b, b>4 <e e>4 ds4 e4 ds4 e4 fs4 \\\
+s\breve s8 | %1
+
+\staff "1" \stemUp b''4. b,8 s2 fs'4 g4 fs4 g4 a4 \\
+\staff "1" \stemDown r2 <b' b>4 <e e>4 ds4 e4 ds4 e4 fs4 \\
+\staff "2" \stemUp g4 b4 b4 b4 a4 g4 a4 g4 fs4 \\
+\staff "2" \stemDown e,4 g4 g4 g4 fs4 e4 fs4 e4 ds4 \\\
+s\breve s4 | %2
+
+\staff "1" \stemUp g''4 b4 b4 b4 a4 g4 a4 g4 fs4 \\
+\staff "1" \stemDown e'4 g4 g4 g4 fs4 e4 fs4 e4 ds4 \\
+\staff "2" \stemUp b,8 s2 s8 e4 fs4 g4 fs4 g4 a4 \\
+\staff "2" \stemDown b4. s8 <b, b>4 b4 b4 b4 b4 b4 b4 \\\
+s\breve s4 | %3
+
+\staff "1" \stemUp e''4. e,8 e4 a4 b4 c4 b4 c4 d4 \\
+\staff "1" \stemDown e'4. e,8 e4 e'4 gs4 a4 gs4 a4 b4 \\
+\staff "2" \stemUp gs4 e'4 e4 e4 d4 c4 d4 c4 b4 \\
+\staff "2" \stemDown e,4 e4 e4 c'4 b4 a4 b4 a4 gs4 \\\
+s\breve s4 | %4
+
+\staff "1" \stemUp c''4 e4 e4 e4 d4 c4 d4 c4 b4 \\
+\staff "1" \stemDown a''4 c4 c4 c4 b4 a4 b4 a4 gs4 \\
+\staff "2" \stemUp s2 s4 a4 b4 c4 b4 c4 d4 \\
+\staff "2" \stemDown e4. e,8 <e e>4 e4 gs4 a4 gs4 a4 b4 \\\
+s\breve s4 | %5
+
+\staff "1" \key f \major \stemUp s2 s4 a''4 b4 c4 b4 c4 d4 \\
+\staff "1" \stemDown e''4. e,8 <e e>4 e4 gs4 a4 gs4 a4 b4 \\
+\staff "2" \stemUp c4 e4 e4 e4 d4 c4 d4 c4 b4 \\
+\staff "2" \stemDown a4 c4 c4 c4 b4 a4 b4 a4 gs4 \\\
+s\breve s4 | %6
+
+\staff "1" \stemUp r2 r4 a''4 bf4 c4 bf4 c4 d4 \\
+\staff "1" \stemDown r2 r4 f'4 g4 a4 g4 a4 bf4 \\
+\staff "2" \stemUp r2 r4 c4 bf4 a4 d4 c4 bf4 \\
+\staff "2" \stemDown r2 r4 a4 g4 f4 bf4 a4 g4 \\\
+\clef "bass" f,4. f,8 f4 r1 r2 | %7
+
+\staff "1" \stemUp r2 r4 c''4 e4 f4 e4 f4 g4 \\
+\staff "1" \stemDown r2 r4 a''4 g4 a4 g4 a4 bf4 \\
+\staff "2" \stemUp r2 r4 c4 bf4 a4 bf4 a4 g4 \\
+\staff "2" \stemDown r2 r4 a4 g4 f4 g4 f4 e4 \\\
+f,4. f,8 f4 r1 r2 | %8

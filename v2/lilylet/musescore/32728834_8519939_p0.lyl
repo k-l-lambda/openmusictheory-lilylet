@@ -1,0 +1,20 @@
+[staves ""]
+[title "MuseScore SVG import"]
+
+\key c \major \numericTimeSignature \time 4/4 \clef "treble" g'2~ g8[ bf8 af8 g8~] | %1
+
+g'1 | %2
+
+\key af \major df4 f4 af4 df4 | %3
+
+f'2 g2 | %4
+
+af''1 | %5
+
+\key ef \major f4. g8 f2 | %6
+
+ef1 | %7
+
+\key f \major f8[ d8 f8 bf8] \tuplet 5/4 { a16[ bf16 a16 f8] } d8[ c8] | %8
+
+f8[ c8 g'8 f8] r2 | %9

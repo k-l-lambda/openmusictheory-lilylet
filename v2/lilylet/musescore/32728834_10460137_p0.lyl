@@ -1,0 +1,5 @@
+[staves ""]
+[title "MuseScore SVG import"]
+
+\key c \major \numericTimeSignature \time 4/4 \clef "percussion" \stemUp g''8[ g8 g8 g8] g8[ g8 g8 g8] \\
+\stemDown f4 c'4 f,4 c'4 | %1

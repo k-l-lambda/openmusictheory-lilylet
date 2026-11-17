@@ -1,0 +1,6 @@
+[staves ""]
+[title "MuseScore SVG import"]
+
+\key c \major \omit Score.TimeSignature \numericTimeSignature \time 21/32 \clef "percussion" b'16[ b16 b16 b32 b32 b32 b32 b32 b32 b64 b64 b64 b64 b64 b64 b64 b64 b64 b64 b64 b64 b128 b128 b128 b128 b128 b128 b128 b128 b128 b128 b128 b128] | %1
+
+\time 4/4 b'128[ b128 b128 b128 b128 b128 b128 b128 b128 b128 b128 b64 b64 b64 b64 b64 b64 b64 b64 b64 b32 b32 b32 b32 b32 b32 b16 b16 b16 b16 b16 b16 b16 b8] | %2

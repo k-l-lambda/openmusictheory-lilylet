@@ -1,0 +1,70 @@
+[staves ",{-}"]
+[title "MuseScore SVG import"]
+
+\key bf \major \numericTimeSignature \time 3/4 \clef "treble" \tempo "Etwas geschwind" R2. \\\
+\staff "1" \clef "bass" <g bf>32[ d'32 <g, bf>32 d'32 <g, bf>32 d'32 <g, bf>32 d'32] <g, bf>32[ d'32 <g, bf>32 d'32 <g, bf>32 d'32 <g, bf>32 d'32] <g, bf>32[ d'32 <g, bf>32 d'32 <g, bf>32 d'32 <g, bf>32 d'32] \\
+\staff "2" \clef "bass" <g,, g'>4 <g g'>4 r8. <bf bf'>16 | %1
+
+R2. \\\
+\staff "1" <fs, bf>32[ d'32 <fs, bf>32 d'32 <fs, bf>32 d'32 <fs, bf>32 d'32] \repeat tremolo 8 { <g, bf>32 d'32 } \\
+\staff "2" <fs,,, fs'>4 <g g'>4 r8. <bf bf'>16 | %2
+
+R2. \\\
+\staff "1" <fs, bf>32[ d'32 <fs, bf>32 d'32 <fs, bf>32 d'32 <fs, bf>32 d'32] \repeat tremolo 8 { <g, bf>32 d'32 } \\
+\staff "2" <fs,,, fs'>4 <g g'>4 r8. d'16 | %3
+
+r4 r4 r8. d16 \\\
+\staff "1" \repeat tremolo 12 { <g bf>32 d'32 } \\
+\staff "2" <g,, g'>4 <g g'>4 r8. d'16 | %4
+
+g'4.. g16 g8. bf16 \\\
+\staff "1" \repeat tremolo 12 { <g bf>32 d'32 } \\
+\staff "2" <g,, g'>2 <g g'>8.[ <bf bf'>16] | %5
+
+fs4 fs4 r8. d16 \\\
+\staff "1" \repeat tremolo 12 { <a c>32 d32 } \\
+\staff "2" <fs,,, fs'>4 <fs fs'>4 r8. d'16 | %6
+
+g'4.. d'16 bf8. g16 \\\
+\staff "1" \repeat tremolo 12 { <g bf>32 d'32 } \\
+\staff "2" <g,, g'>4.. <g g'>16 <g g'>8.[ <bf bf'>16] | %7
+
+fs4 fs4 d8. d16 \\\
+\staff "1" \repeat tremolo 12 { <a c>32 d32 } \\
+\staff "2" <fs,,, fs'>4 <fs fs'>4 r8. d'16 | %8
+
+bf'2 g4 \\\
+\staff "1" \repeat tremolo 12 { <g bf>32 d'32 } \\
+\staff "2" <bf,, bf'>2 <g g'>4 | %9
+
+ef'4.. d16 c8. bf16 \\\
+\staff "1" \repeat tremolo 8 { <g a>32 c32 } <g bf>32[ d'32 <g, bf>32 d'32 <g, bf>32 d'32 <g, bf>32 d'32] \\
+\staff "2" <ef,, ef'>4.. <d d'>16 <c c'>8.[ <bf bf'>16] | %10
+
+a'4 a4 d8. d16 \\\
+\staff "1" \repeat tremolo 8 { <g c>32 ef'32 } <fs, c'>32[ d'32 <fs, c'>32 d'32 <fs, c'>32 d'32 <fs, c'>32 d'32] \\
+\staff "2" <a,, a'>2 <d d'>8.[ <d d'>16] | %11
+
+bf'4 g8. g16 ef'8. ef16 \\\
+\staff "1" \repeat tremolo 8 { <g bf>32 d'32 } <g, a>32[ c32 <g a>32 c32 <g a>32 c32 <g a>32 c32] \\
+\staff "2" <g,, g'>4.. <g g'>16 <ef' ef'>8.[ <ef ef'>16] | %12
+
+a'2 d8. d16 \\\
+\staff "1" \repeat tremolo 8 { <g c>32 ef'32 } <fs, c'>32[ d'32 <fs, c'>32 d'32 <fs, c'>32 d'32 <fs, c'>32 d'32] \\
+\staff "2" <a,, a'>2 <d d'>8.[ <d d'>16] | %13
+
+bf'4 g4 r4 \\\
+\staff "1" \repeat tremolo 12 { <g bf>32 d'32 } \\
+\staff "2" <g,, g'>4 <g g'>4 r8. <bf bf'>16 | %14
+
+r4 r4 r8 g'8 \\\
+\staff "1" <fs, bf>32[ d'32 <fs, bf>32 d'32 <fs, bf>32 d'32 <fs, bf>32 d'32] \repeat tremolo 2 { <g, bf>8 d'8 } \\
+\staff "2" <fs,,, fs'>4 <g g'>4 r8 <g g'>8 | %15
+
+g'4. g8 g8 g8 \\\
+\staff "1" \repeat tremolo 12 { <g bf>32 d'32 } \\
+\staff "2" <g,, g'>4. <g g'>8[ <g g'>8 <g g'>8] | %16
+
+gs'8. gs16 gs4 r8 gs8 \\\
+\staff "1" \repeat tremolo 12 { <f, b>32 d'32 } \\
+\staff "2" <gs,, gs'>8.[ <gs gs'>16] <gs gs'>4 r8 <gs gs'>8 | %17

@@ -1,0 +1,44 @@
+[staves ",{-}"]
+[title "MuseScore SVG import"]
+
+\key c \major \defaultTimeSignature \time 4/4 \clef "treble" \tempo "Moderato" R1 \\\
+\staff "1" \clef "treble" r8 \tuplet 3/2 { g8[ b8] } \tuplet 3/2 { <e g>8[ g,8 b8] } r8 \tuplet 3/2 { e,8[ g8] } \tuplet 3/2 { <c e>8[ e,8 g8] } \\
+\staff "2" \clef "bass" <b,, b'>2 <c c'>2 | %1
+
+R1 \\\
+\staff "1" r8 \tuplet 3/2 { g8[ b8] } \tuplet 3/2 { <e g>8[ g,8 b8] } r8 e,8[ g8] <c e>8[ e,8 g8] \\
+\staff "2" <b,, b'>2 <c c'>2 | %2
+
+g'4. g8 c4 c4 \\\
+\staff "1" r8 g8[ b8] <e g>8[ g,8 b8] r8 c8[ e8] <a c>8[ c,8 e8] \\
+\staff "2" <b,, b'>2 <a a'>2 | %3
+
+e'4. d8 b4 c4 \\\
+\staff "1" \stemUp e'4~ e8[ d8] b4 c4 \\
+\staff "1" \stemDown g'8[ b8 e,8~] <e f>8[ a8 d,8] g8[ d8 f8] e8[ g8 c,8] \\
+\staff "2" e,,4 f4 g4 c,4 | %4
+
+r8 a'4 a8 c4 g4 \\\
+\staff "1" r8 a8[ c8] <f a>8[ a,8 c8] <a' a>8[ g8 c,8] <g' g>8[ c,8 g8] \\
+\staff "2" <f,, c'>2 <e e'>2 | %5
+
+a'8 b4 c8 d4 e4 \\\
+\staff "1" <f a>8[ c8 a8] g'8[ c,8 g8] <g' b>8[ d8 b8] <g' cs>8[ a8 e8] \\
+\staff "2" <f,, f'>4 <e e'>4 <g d'>4 <e a>4 | %6
+
+r8 f'4 f8 f4. c8 \\\
+\staff "1" r8 f8[ a8] <d f>8[ f,8 a8] r8 f8[ af8] <c f>8[ f,8 af8] \\
+\staff "2" <d,, d'>2 <f c'>2 | %7
+
+e'4 d4 c2 \\\
+\staff "1" <b' e>8[ g8 e8] <b' d>8[ f8 d8] r8 c8[ e8] <a c>8[ c,8 e8] \\
+\staff "2" <g, g'>4 <gs f'>4 <a e'>2 | %8
+
+r2 r4 g'8. g16 \\\
+\staff "1" \stemUp <e e>4 s2 <d d>4 \\
+\staff "1" \stemDown <c' c>8[ g8 c,8] c8 <e e>8[ b8] b8 s8 \\
+\staff "2" <e,, c' g'>2 b'''8 g,,2 b''8 b8[ a8] | %9
+
+bf'1 \\\
+\staff "1" <e, bf' c>8[ g8 bf8] c8[ e8 g8] s4 \\
+\staff "2" <c,, c'>1 | %10

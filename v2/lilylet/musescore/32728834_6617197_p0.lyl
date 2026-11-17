@@ -1,0 +1,32 @@
+[staves ",{-}"]
+[title "MuseScore SVG import"]
+
+\key bf \major \numericTimeSignature \time 3/4 \clef "treble" \tempo "Andante" R1 \\\
+\staff "1" \clef "treble" d8[ g8] bf,4 d8 \\
+\staff "2" \clef "bass" <g, g'>4.~ bf'4 | %1
+
+d'4 d4 d4 \\\
+\staff "1" d8 s8 g8[ bf8] d,4 g8 \\
+\staff "2" \stemUp g,2. bf'4 \\
+\staff "2" \stemDown s2 s4 | %2
+
+ef'2 d4 \\\
+\staff "1" ef8[ g8 bf8] s8 ef,8[ g8] \\
+\staff "2" \stemUp g,2. bf'4 \\
+\staff "2" \stemDown s2 s4 | %3
+
+cs'2 r4 \\\
+\staff "1" bf8[ e8 g8 bf8 e,8 g8] \\
+\staff "2" g2. | %4
+
+d'4 a4 bf4 \\\
+\staff "1" a8[ d8 fs8 a8 d,8 fs8] \\
+\staff "2" fs,2. | %5
+
+d'2 c4 \\\
+\staff "1" a8[ d8 fs8 a8 d,8 fs8] \\
+\staff "2" d,2. | %6
+
+bf'2 r4 \\\
+\staff "1" bf8[ d8 g8 bf8 d,8 g8] \\
+\staff "2" g2. | %7

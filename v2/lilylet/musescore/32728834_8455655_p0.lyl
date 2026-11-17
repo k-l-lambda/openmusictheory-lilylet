@@ -1,0 +1,26 @@
+[staves ""]
+[title "MuseScore SVG import"]
+
+\key ef \major \defaultTimeSignature \time 4/4 \clef "treble" ef4 r4 f4 g4 | %1
+
+bf'2 af8[ g8 f8 ef8] | %2
+
+bf2 ef4 g4 | %3
+
+bf'8 r8 g8 r8 ef2 | %4
+
+\numericTimeSignature \time 4/8 \clef "tenor" cs8 r8 ds8[ es8] | %5
+
+gs'4 fs16[ es16 ds16 cs16] | %6
+
+gs4 cs8[ es8] | %7
+
+gs'16 r16 es16 r16 cs4 | %8
+
+\key f \major \time 4/1 \clef "bass" f,1 r1 g1 a1 | %9
+
+c\breve bf2 a2 g2 f2 | %10
+
+c,\breve f1 a1 | %11
+
+c2 r2 a2 r2 f\breve | %12

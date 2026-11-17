@@ -1,0 +1,70 @@
+[staves ",{-}"]
+[title "MuseScore SVG import"]
+
+\key af \major \defaultTimeSignature \time 4/4 \clef "treble_8" r2 r4 c4 \\\
+\staff "1" \clef "treble" <f, f'>4.:8 <f f'>4.:8 <f f'>4.:8 <f f'>4.:8 \\
+\staff "2" \clef "bass" f,,8[ g8 af8] bf8[ c8 df8] c4-. af4-. | %1
+
+c2. c4 \\\
+\staff "1" <f, f'>4.:8 <f f'>4.:8 <f f'>4.:8 <f f'>4.:8 \\
+\staff "2" <f,,, f'>4.:8 <f f'>4.:8 <f f'>4.:8 <f f'>4.:8 | %2
+
+\grace { g'8 } f4 f4 r4 f4 \\\
+\staff "1" <f, f'>4.:8 <f f'>4.:8 <f f'>4.:8 <f f'>4.:8 \\
+\staff "2" f,,8[ g8 af8] bf8[ c8 df8] c4-. af4-. | %3
+
+f2 g4. g8 \\\
+\staff "1" <f, f'>4.:8 <f f'>4.:8 <g f' g>4.:8 <g f' g>4.:8 \\
+\staff "2" <f,,, f'>4.:8 <f f'>4.:8 <f f'>4.:8 <f f'>4.:8 | %4
+
+af'2 r4 af4 \\\
+\staff "1" <af f' af>4.:8 <af f' af>4.:8 <af f' af>4.:8 <af f' af>4.:8 \\
+\staff "2" f,,8[ g8 af8] bf8[ c8 df8] c4-. af4-. | %5
+
+af'2 bf2 \\\
+\staff "1" <af f' af>4.:8 <af f' af>4.:8 <bf g' bf>4.:8 <bf g' bf>4.:8 \\
+\staff "2" <f,,, f'>4.:8 <f f'>4.:8 <f f'>4.:8 <f f'>4.:8 | %6
+
+\grace { df'8 } c4 c4 r4 c4 \\\
+\staff "1" <c af' c>4.:8 <c af' c>4.:8 <c af' c>4.:8 <c af' c>4.:8 \\
+\staff "2" f,,8[ g8 af8] bf8[ c8 df8] c4-. af4-. | %7
+
+c'2 f4. c8 \\\
+\staff "1" <ef f a c>4.:8 <ef f a c>4.:8 <ef f a c>4.:8 <ef f a c>4.:8 \\
+\staff "2" <f,,, f'>4.:8 <f f'>4.:8 <f f'>4.:8 <f f'>4.:8 | %8
+
+df'2 r2 \\\
+\staff "1" <df f bf>4.:8 <df f bf>4.:8 <df f bf>4.:8 <df f bf>4.:8 \\
+\staff "2" bf,,8[ c8 df8] ef8[ f8 gf8] f4-. df4-. | %9
+
+R1 \\\
+\staff "1" <bf bf'>4.:8 <bf bf'>4.:8 <bf bf'>4.:8 <bf bf'>4.:8 \\
+\staff "2" <bf,, bf'>2 <cf cf'>4-. <c c'>4-. | %10
+
+r2 r4 bf'4 \\\
+\staff "1" <bf bf'>4.:8 <bf bf'>4.:8 <bf bf'>4.:8 <bf bf'>4.:8 \\
+\staff "2" <df,, df'>4-. <d d'>4-. <ef ef'>4-. <f f'>4-. | %11
+
+bf'2. gf4 \\\
+\staff "1" <bf df gf bf>4.:8 <bf df gf bf>4.:8 <bf df gf bf>4.:8 <bf ef gf bf>4.:8 \\
+\staff "2" <gf, gf'>4.:8 <gf gf'>4.:8 <gf gf'>4.:8 <gf gf'>4.:8 | %12
+
+cf'4. af8 f4 af4 \\\
+\staff "1" <cf eff f af>4.:8 <cf eff f af>4.:8 <cf eff f af>4.:8 <cf eff f af>4.:8 \\
+\staff "2" <gf, gf'>4.:8 <gf gf'>4.:8 <gf gf'>4.:8 <gf gf'>4.:8 | %13
+
+gf'4 r4 r2 \\\
+\staff "1" <bf df gf>4.:8 <bf df gf>4.:8 <bf df gf>4.:8 <bf df gf>4.:8 \\
+\staff "2" <gf, gf'>4.:8 <gf gf'>4.:8 <gf gf'>4.:8 <gf gf'>4.:8 | %14
+
+\tempo "Recit." r4 r16 gf'16 gf16 af16 bf4 af8 gf8 \\\
+\staff "1" <bf df gf>2 r2 \\
+\staff "2" <bf, df gf>2 r2 | %15
+
+\tempo "Andante" f4 r8\fermata b,8 c4 r4 \\\
+\staff "1" r8 <af d f>4\fermata r8 r4 <g bf c e>8 r8 \\
+\staff "2" r8 <b,, b'>4\fermata r8 r4 <c c'>8 r8 | %16
+
+R1 \\\
+\staff "1" <f, af c f>4 r4 r2 \\
+\staff "2" <f,,, f'>4 r4 r2 | %17

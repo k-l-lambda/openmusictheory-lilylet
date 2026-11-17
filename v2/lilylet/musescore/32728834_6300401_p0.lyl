@@ -1,0 +1,36 @@
+[staves ""]
+[title "MuseScore SVG import"]
+
+\key c \major \numericTimeSignature \time 4/4 \clef "treble" ef'8[ gf8 bf8 df8] c4. bf8 | %1
+
+af''8[ f8] df4 e8[ gf8 af8 b8] | %2
+
+a''8[ e8] cs4 d8[ bf8 a8 g8] | %3
+
+f8[ g8 a8 bf8] c8[ d8 e8 f8] | %4
+
+fs'8[ d8 b8 a8] gs8[ f'8 e8 d8] | %5
+
+cs'8[ e8 a8 cs8] e,8[ g8 bf8 d8] | %6
+
+f'8[ g8 a8 c8] gf8[ bf8 c8 ef8] | %7
+
+c''4 bf8[ af8] r2 | %8
+
+c''8[ b8 bf8 a8] g8[ f8 e8 d8] | %9
+
+c'8[ bf'8 a8 e8] g8[ f8 e8 g8] | %10
+
+fs'8[ d8 b8 fs8] a8[ fs8 gs8 f'8] | %11
+
+e'8[ d8 cs8 b8] a8[ b8 cs8 e8] | %12
+
+f'8[ ef8 df8 c8~] c8[ af8 bf8 c8] | %13
+
+df'8[ ef8 f8 af8] c8[ b8 bf8 af8] | %14
+
+g''4 r4 a8[ af8 g8 e8] | %15
+
+f'8[ g8 a8 c8] f8[ c8] r4 | %16
+
+r4 r8 c''16[ df16] c4. af8 | %17

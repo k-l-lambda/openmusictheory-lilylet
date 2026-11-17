@@ -1,0 +1,83 @@
+[staves ",{-}"]
+[title "MuseScore SVG import"]
+
+\key f \major \defaultTimeSignature \time 2/2 \clef "treble" \tempo 2 = 120 gs2. a4~ \\\
+\staff "1" \clef "treble" \stemUp <gs gs'>2. <a a'>4~ \\
+\staff "1" \stemDown <d f>4 s2 <d f>4 \\
+\staff "2" \clef "bass" \stemUp r4 d,,4 r4 a4 \\
+\staff "2" \stemDown r4 s2 r4 | %1
+
+a4 d2 f4 \\\
+\staff "1" <a a'>1 <d f>4 r4 <d f>4 \\
+\staff "2" \stemUp r4 d,,4 a4 s4 \\
+\staff "2" \stemDown s4 r4 s4 r4 | %2
+
+gs'2 gs4 a4~ \\\
+\staff "1" \stemUp gs'2. a4~ \\
+\staff "1" \stemDown r4 <gs d' e>4 r4 <g cs f>4~ \\
+\staff "2" e,,4 r4 e4 r4 | %3
+
+a'1 \\\
+\staff "1" \stemUp a'1 \\
+\staff "1" \stemDown <g c f>4 <g cs f>2 <g cs e>4 \\
+\staff "2" a,4 r4 a,4 r4 | %4
+
+fs2 fs4 g4~ \\\
+\staff "1" \stemUp fs2. g4~ \\
+\staff "1" \stemDown r4 <fs, c' d>4 r4 <f b ds>4~ \\
+\staff "2" d,,4 r4 d4 r4 | %5
+
+g'4 g2 g4 \\\
+\staff "1" \stemUp g'1 \\
+\staff "1" \stemDown <f, bf d>4 <f b ds>2 <f b d>4 \\
+\staff "2" g,4 r4 d4 r4 | %6
+
+e2 e4 f4~ \\\
+\staff "1" \stemUp e2. f4~ \\
+\staff "1" \stemDown r4 <bf c>4 r4 <a d>4~ \\
+\staff "2" c,,4 r4 c'4 r4 | %7
+
+f1 \\\
+\staff "1" \stemUp f1 \\
+\staff "1" \stemDown <a d>4 <a d>4 r4 <g df'>4 \\
+\staff "2" b,4 r4 bf4 r4 | %8
+
+gs2. a4~ \\\
+\staff "1" \stemUp gs'2. a4~ \\
+\staff "1" \stemDown r4 <gs b e>4 r4 <a c f>4~ \\
+\staff "2" f,,4 r4 c4 r4 | %9
+
+a4 d2 a4 \\\
+\staff "1" \stemUp a'1 \\
+\staff "1" \stemDown <a c f>4 <a c f>4 r4 <a c f>4 \\
+\staff "2" f,,4 r4 c4 r4 | %10
+
+bf2. b4~ \\\
+\staff "1" \stemUp bf'2. b4~ \\
+\staff "1" \stemDown r4 <bf d f>4 r4 <b d f>4~ \\
+\staff "2" g,4 r4 g4 r4 | %11
+
+bf4 e2 b4 \\\
+\staff "1" \stemUp bf'1 \\
+\staff "1" \stemDown <bf d f>4 <b e f>4 r4 <b d f>4 \\
+\staff "2" gs,4 r4 gs4 r4 | %12
+
+c2. cs4~ \\\
+\staff "1" \stemUp c'2. cs4~ \\
+\staff "1" \stemDown r4 <c f>4 r4 <cs f a>4~ \\
+\staff "2" a,4 r4 a,4 r4 | %13
+
+c4 f2 e4 \\\
+\staff "1" \stemUp c'1 \\
+\staff "1" \stemDown <c f a>4 <cs f a>4 r4 <cs e a>4 \\
+\staff "2" a,4 r4 a,4 r4 | %14
+
+g'1 \\\
+\staff "1" \stemUp r2 d'4. d8~ \\
+\staff "1" \stemDown r4 <bf d g>4 r4 <d g bf>4 \\
+\staff "2" e,,4 r4 e'4 r4 | %15
+
+g'1 \\\
+\staff "1" \stemUp d'4. d8 r8 d8 cs4 \\
+\staff "1" \stemDown r4 <d g bf>4 r4 <cs g' a>4 \\
+\staff "2" a,4 r4 a,4 r4 | %16

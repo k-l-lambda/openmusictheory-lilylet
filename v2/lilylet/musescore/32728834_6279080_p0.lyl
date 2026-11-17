@@ -1,0 +1,42 @@
+[staves ",,,"]
+[title "MuseScore SVG import"]
+
+\key ef \major \numericTimeSignature \time 4/4 \clef "treble" R1 \\\
+\clef "treble" g'4. af16[ g16] d4 f4 \\\
+\clef "alto" ef4 r4 b4 r4 \\\
+\clef "bass" c4 r4 r4 g,4 | %1
+
+g'4. af16[ g16] d4 f4 \\\
+ef4. f16[ ef16] b4 d4 \\\
+c4 r4 r2 \\\
+c,8[ ef8 g8 g8] g8-.[ g8-. g8-. g8-.] | %2
+
+ef4. f16[ ef16] b4 d4 \\\
+c4 r4 d2 \\\
+g'4. af16[ g16] d4 f4 \\\
+g8-.[ g8-. g8-. g8-.] g8-.[ g8-. g8-. g8-.] | %3
+
+c4 r4 f2 \\\
+ef8[ g8 g8-. g8-.] g8-.[ g8-. g8-. g8-.] \\\
+ef4. f16[ ef16] b4 d4 \\\
+g4. af16[ g16] d4 f4 | %4
+
+ef8[ g8 g8-. g8-.] g8-.[ g8-. g8-. g8-.] \\\
+g'4. af16[ g16] d4 f4 \\\
+c4 r4 f2 \\\
+ef,4. f16[ ef16] b4 d4 | %5
+
+r8 c16[ b16] c16[ b16 c16 b16] c8[ d8 ef8 fs8] \\\
+ef8[ c16 b16] c16[ b16 c16 b16] c8[ d8 ef8 fs8] \\\
+ef8[ c16 b16] c16[ b16 c16 b16] c8[ d8 ef8 fs8] \\\
+c,8[ c16 b16] c16[ b16 c16 b16] c8[ d8 ef8 fs8] | %6
+
+g'4 g,8.[ g16] g4 r4 \\\
+g'4 g,8.[ g16] g4 r4 \\\
+g'4 g,8.[ g16] g4 r4 \\\
+g4 g,8.[ g16] g4 r4 | %7
+
+ef'2 bf4. c8 \\\
+g8[ bf8 ef8 bf8] g8[ bf8 ef8 bf8] \\\
+g'2. g,4 \\\
+ef,4 ef4 ef4 ef4 | %8

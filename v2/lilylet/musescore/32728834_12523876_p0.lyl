@@ -1,0 +1,70 @@
+[staves ",{-}"]
+[title "MuseScore SVG import"]
+
+\key d \major \numericTimeSignature \time 2/4 \clef "treble" \tempo "Andantino" R2 \\\
+\staff "1" \clef "treble" \stemUp fs2 \\
+\staff "1" \stemDown d4-> e8[ d8] \\
+\staff "2" \clef "bass" \stemUp fs,2 \\
+\staff "2" \stemDown d,,8 a'4 a'8 | %1
+
+R2 \\\
+\staff "1" \stemUp fs2 \\
+\staff "1" \stemDown cs4-> d8[ cs8] \\
+\staff "2" \stemUp fs,2 \\
+\staff "2" \stemDown d,,8 a'4 a'8 | %2
+
+R2 \\\
+\staff "1" \stemUp <d e g>2 \\
+\staff "1" \stemDown b4-> cs8[ b8] \\
+\staff "2" d,,8 a'4 a'8 | %3
+
+R2 \\\
+\staff "1" \stemUp <d fs a>4 <d e g>4 \\
+\staff "1" \stemDown a8.->[ b16] a8.->[ b16] \\
+\staff "2" d,,8 a'4 a'8 | %4
+
+R2 \\\
+\staff "1" \stemUp <d fs a>4 <d e g>4 \\
+\staff "1" \stemDown a8.->[ b16] a8.->[ b16] \\
+\staff "2" d,,8 a'4 a'8 | %5
+
+R2 \\\
+\staff "1" <a d fs a>2->~ \\
+\staff "2" d,,8 a'4 a'8 | %6
+
+r4 r8 fs8 \\\
+\staff "1" <a d fs a>2~ \\
+\staff "2" d,,8 a'4 a'8 | %7
+
+a'4 d,8 e16 g16 \\\
+\staff "1" <a d fs a>4 <b d e g>4 \\
+\staff "2" d,,8 a'4 a'8 | %8
+
+a'8 a16 d,16 d8 e16 g16 \\\
+\staff "1" <a d fs a>4 <b d fs g>4 \\
+\staff "2" d,,8 a'4 a'8 | %9
+
+a'4 a8 a16 b16 \\\
+\staff "1" \stemUp <fs a>2 \\
+\staff "1" \stemDown d4-> e8[ d8] \\
+\staff "2" d,,8 a'4 a'8 | %10
+
+cs'8 b16 a16 fs8. fs16 \\\
+\staff "1" \stemUp <fs a>2 \\
+\staff "1" \stemDown cs4-> d8[ cs8] \\
+\staff "2" d,,8 a'4 a'8 | %11
+
+a'4~ a16 e16 fs16 g16 \\\
+\staff "1" \stemUp <d fs>4 <e g>4 \\
+\staff "1" \stemDown b4-> cs8[ b8] \\
+\staff "2" d,,8 a'4 a'8 | %12
+
+fs2 \\\
+\staff "1" \stemUp <d fs a>4 <a fs' a>4 \\
+\staff "1" \stemDown a8.->[ b16] a8.->[ b16] \\
+\staff "2" d,,8 a'4 a'8 | %13
+
+R2 \\\
+\staff "1" \stemUp <d fs a>4 s4 \\
+\staff "1" \stemDown a8.->[ b16] s4 \\
+\staff "2" d,,8 a'4 a'8 | %14

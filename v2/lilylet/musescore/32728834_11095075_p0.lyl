@@ -1,0 +1,38 @@
+[staves ",,,,,,"]
+[title "MuseScore SVG import"]
+
+\key c \major \numericTimeSignature \time 3/4 \clef "treble" ef'4 r4 r4 \\\
+\clef "treble" r16 <g' bf>16-.[ <g bf>16-.] r16 r16 <g bf>16-.[ <g bf>16-.] r16 r16 <af cf>16-.[ <af cf>16-.] r16 \\\
+\clef "treble" <g' bf>4 r4 f'4 \\\
+\clef "bass" r8 r16 \clef "tenor" <bf df>16-.[ <cf ef>16-.] r16 r16 <cf ef>16-.[ <df f>16-.] r16 r16 <df f>16-. \\\
+\clef "treble" \stemUp r16 ef16[ g16 bf16] r8 g16[ bf16] r8 af16[ cf16] \\
+\stemDown r8. bf16 cf16[ ef16] r8 df16[ f16] r8 \\\
+\clef "bass" R2. \\\
+\clef "bass" R2. | %1
+
+R2. \\\
+r16 <bf' df>16-.[ <bf df>16-.] r16 r16 <cf ef>16-.[ <cf ef>16-.] r16 r16 <df ff>16-.[ <df ff>16-.] r16 \\\
+ef'4. r8 df4 \\\
+\clef "tenor" <ef g>16-. r16 r16 <ef g>16-.[ <f af>16-.] r16 r16 <f af>16-.[ <g bf>16-.] r16 r16 <g bf>16-. \\\
+\stemUp r8 bf'16[ df16] r8 cf16[ ef16] r8 df16[ ff16] \\
+\stemDown ef16[ g16] r8 f16[ af16] r8 g16[ bf16] r8 \\\
+r8 \clef "tenor" bf8[ df8 ef8] ff8[ ef8] \\\
+R2. | %2
+
+R2. \\\
+r16 <cf' ef>16-.[ <cf ef>16-.] r16 r16 <bf df>16-.[ <bf df>16-.] r16 r16 <af cf>16-.[ <af cf>16-.] r16 \\\
+ef'4. r8 f16[ g16 f8] \\\
+<f af>16-. r16 r16 <f af>16-.[ <ef g>16-.] r16 r16 <ef g>16-.[ <df f>16-.] r16 r16 <d f>16-. \\\
+\stemUp r8 c'16[ ef16] r8 bf16[ df16] r8 af16[ c16] \\
+\stemDown f16[ af16] r8 ef16[ g16] r8 d16[ f16] r8 \\\
+\clef "tenor" df8[ cf8] bf8[ df16-- cf16--] bf8--[ af8] \\\
+ef,4 r4 r4 | %3
+
+R2. \\\
+r16 <g' bf>16-.[ <g bf>16-.] r16 r16 <af cf>16-.[ <af cf>16-.] r16 r16 <af cf>16-.[ <af cf>16-.] r16 \\\
+g''8-- ef4. d8[ d8] \\\
+<cf ef>16-. r16 r16 <cf ef>16-.[ <d f>16-.] r16 r16 <d f>16-.[ <d f>16-.] r16 r16 <d f>16-. \\\
+\stemUp r8 f16[ bf16] r8 af16[ cf16] r8 af16[ cf16] \\
+\stemDown cf16[ ef16] r8 df16\trill[ ff16] r8 d16[ f16] r8 \\\
+g4 af4~ af8[ g16-- af16--] \\\
+r4 ef,4 r4 | %4

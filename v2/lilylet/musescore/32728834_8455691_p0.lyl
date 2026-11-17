@@ -1,0 +1,18 @@
+[staves ""]
+[title "MuseScore SVG import"]
+
+\key g \major \numericTimeSignature \time 6/8 \clef "bass" g,4. fs4. | %1
+
+g,8 r8 a8 b8 r8 c8 | %2
+
+d,4. r4. | %3
+
+g,2. | %4
+
+\key bf \major \time 6/4 \clef "alto" bf2. a2. | %5
+
+bf4 r4 c4 d4 r4 ef4 | %6
+
+f2. r2. | %7
+
+bf1. | %8

@@ -1,0 +1,96 @@
+[staves "{-}"]
+[title "MuseScore SVG import"]
+
+\staff "1" \key g \major \defaultTimeSignature \time 2/2 \partial 4 \clef "treble" e8[ fs8] \\
+\staff "2" \clef "bass" g,8[ fs8] | %1
+
+\staff "1" g'4 fs8[ e8] ds4 e8[ fs8] \\
+\staff "2" e,,4 a4 b4 a4 | %2
+
+\staff "1" b4 cs8[ ds8] e4 s4 \\
+\staff "2" \stemUp g,4 fs4 e4 d''8[ c8] \\
+\staff "2" \stemDown s2 s4 fs,,4 | %3
+
+\staff "1" s1 \\
+\staff "2" \stemUp b4 a8[ g8] fs4 g8[ a8] \\
+\staff "2" \stemDown g,4 a4 b4 a4 | %4
+
+\staff "1" s2 s4 e8[ fs8] \\
+\staff "2" \stemUp b8[ a8 g8 fs8] e4 s4 \\
+\staff "2" \stemDown g,4 b4 e,8[ fs8 g8 fs8] | %5
+
+\staff "1" g'4 fs8[ e8] ds4 e8[ fs8] \\
+\staff "2" e,,4 a4 b4 a4 | %6
+
+\staff "1" b4 cs8[ ds8] e4 s4 \\
+\staff "2" \stemUp g,4 fs4 e4 d''8[ c8] \\
+\staff "2" \stemDown s2 s4 fs,,4 | %7
+
+\staff "1" s1 \\
+\staff "2" \stemUp b4 a8[ g8] fs4. g8 \\
+\staff "2" \stemDown g,4 c4 d4 d,4 | %8
+
+\staff "1" s1 \\
+\staff "2" \stemUp <b, d g>2. s4 \\
+\staff "2" \stemDown g,2 s2 | %9
+
+\staff "1" s1 \\
+\staff "2" \stemUp b8[ g8] s2 s4 \\
+\staff "2" \stemDown g,4 s2 s4 | %10
+
+\staff "1" s2 s4 g'8[ d8] \\
+\staff "2" \stemUp d4 a8[ c8] b4 s4 \\
+\staff "2" \stemDown fs,,4 d4 g4 b4 | %11
+
+\staff "1" e4 b8[ d8] c4 s4 \\
+\staff "2" \stemUp s2 s4 b8[ a8] \\
+\staff "2" \stemDown c,4 gs4 a4 d4 | %12
+
+\staff "1" s1 \\
+\staff "2" \stemUp gs4 a8[ b8] c4 b8[ a8] \\
+\staff "2" \stemDown e,4 a,4 e'4 e,4 | %13
+
+\staff "1" s1 \\
+\staff "2" \stemUp a2. d8[ a8] \\
+\staff "2" \stemDown a,8[ b8 a8 g8] fs4 d4 | %14
+
+\staff "1" g'8[ d8] e4 b8[ d8] s4 \\
+\staff "2" \stemUp b4 gs,4 s2 \\
+\staff "2" \stemDown g,4 b4 c4 s4 | %15
+
+\staff "1" c4 a'8[ e8] fs4 cs8[ e8] \\
+\staff "2" a,4 cs4 d4 as4 | %16
+
+\staff "1" d4 cs8[ b8] as4. b8 \\
+\staff "2" b,4 e4 fs4 fs,4 | %17
+
+\staff "1" b2. b'8[ fs8] \\
+\staff "2" b,8[ as8 b8 cs8] ds4 b4 | %18
+
+\staff "1" gs'4 fs8[ e8] a4 e8[ g8] \\
+\staff "2" e,4 d4 cs4 a4 | %19
+
+\staff "1" fs4 e8[ d8] g4 d8[ f8] \\
+\staff "2" d,4 c4 b4 g4 | %20
+
+\staff "1" e4 a8[ e8] fs4 cs8[ e8] \\
+\staff "2" c,4 b4 a4 fs4 | %21
+
+\staff "1" ds4 b2 e8[ b8] \\
+\staff "2" b,4. c8 b8[ a8] gs4 | %22
+
+\staff "1" c4 d8[ fs,,8] s2 \\
+\staff "2" \stemUp s2 b4 c8[ g8] \\
+\staff "2" \stemDown a,8[ e'8] fs4 g,8[ ds'8] e4 | %23
+
+\staff "1" s1 \\
+\staff "2" \stemUp a4 b8[ fs8] g4 fs8[ e8] \\
+\staff "2" \stemDown fs,,8[ cs'8] ds4 e,4 a4 | %24
+
+\staff "1" s1 \\
+\staff "2" \stemUp ds,4 e8[ fs8] g4 fs8[ e8] \\
+\staff "2" \stemDown b,4 a4 b2 | %25
+
+\staff "1" s1 \\
+\staff "2" \stemUp e,2. s4 \\
+\staff "2" \stemDown e,,2. s4 | %26

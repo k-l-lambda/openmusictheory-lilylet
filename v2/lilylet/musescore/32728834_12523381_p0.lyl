@@ -1,0 +1,31 @@
+[staves "{-}"]
+[title "MuseScore SVG import"]
+
+\staff "1" \key c \major \numericTimeSignature \time 3/4 \partial 4 \clef "treble" e'4 \\
+\staff "2" \clef "bass" r4 | %1
+
+\staff "1" cs'4 d8 r8 <b d a'>4 \\
+\staff "2" g,4 <g' b f'>4 <g d' f>4 | %2
+
+\staff "1" \stemUp a''2 g4 \\
+\staff "1" \stemDown <c' e>2. \\
+\staff "2" c,4 <g' c e>4 <g c e>4 | %3
+
+\staff "1" f'8[ e8 f8 g,8 b8 f'8] \\
+\staff "2" g,4 <g' d' f>4 <g d' f>4 | %4
+
+\staff "1" g'8[ e'8 c8 g8 c8 e8] \\
+\staff "2" c,4 <g' c e>4 <g c e>4 | %5
+
+\staff "1" cs'4 d8 r8 <b d a'>4 \\
+\staff "2" g,4 <g' b f'>4 <g d' f>4 | %6
+
+\staff "1" \stemUp a''2 g4 \\
+\staff "1" \stemDown <c' e>2. \\
+\staff "2" c,4 <g' c e>4 <g c e>4 | %7
+
+\staff "1" f'8[ e8 f8 g,8 b8 e8] \\
+\staff "2" g,4 <g' b f'>4 <g d' f>4 | %8
+
+\staff "1" c'2 s4 \\
+\staff "2" c,4 <g' c e>4 s4 | %9

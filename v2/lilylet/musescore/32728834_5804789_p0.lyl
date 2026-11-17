@@ -1,0 +1,22 @@
+[staves ",{-}"]
+[title "MuseScore SVG import"]
+
+\key d \major \numericTimeSignature \time 4/4 \partial 4 \clef "treble" d8[ e8] \\\
+\staff "1" \clef "treble" r4 \\
+\staff "2" \clef "bass" r4 | %1
+
+fs8[ fs8 fs8 fs8] fs4 e8[ e8~] \\\
+\staff "1" <a d e>8 <a d fs>4 <a d fs>8~ <a d fs>8[ d8 a8 g8~] \\
+\staff "2" d,4 d4 d2 | %2
+
+e8 d4 d4 d8[ d8 e8] \\\
+\staff "1" <g b d>8 <g b d>4 g8~ g8 g4 d'8 \\
+\staff "2" g,4 d'4 g,4 d'4 | %3
+
+fs8 fs4 fs8~ fs8[ e8 d8 d8~] \\\
+\staff "1" <a d e>8[ <a d fs>8 <a d fs>8 <d fs a>8] <a d fs>8 <a d e>4 <b d>8~ \\
+\staff "2" d,4 d4 d4 d4 | %4
+
+d8 r8 r4 r2 \\\
+\staff "1" <b d>4. g8~ g8 g4 d'8 \\
+\staff "2" g,4 g4 g4 g4 | %5

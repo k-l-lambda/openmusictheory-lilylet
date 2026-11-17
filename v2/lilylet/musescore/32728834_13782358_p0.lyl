@@ -1,0 +1,50 @@
+[staves ",{-}"]
+[title "MuseScore SVG import"]
+
+\key bf \major \numericTimeSignature \time 4/4 \clef "treble" d'2 cs4 d4 \\\
+\staff "1" \clef "treble" <f g bf>1 \\
+\staff "2" \clef "alto" a1 | %1
+
+d'1 \\\
+\staff "1" <e g bf>1 \\
+\staff "2" bf1 | %2
+
+d'2 cs4 d4 \\\
+\staff "1" <f g bf>2 <f g b>2 \\
+\staff "2" a2 f2 | %3
+
+d'1 \\\
+\staff "1" <e g bf>1 \\
+\staff "2" bf1 | %4
+
+d'2 cs4 d4 \\\
+\staff "1" <f g bf>2 <f g bf>2 \\
+\staff "2" a2 f2 | %5
+
+d'1 \\\
+\staff "1" <e g bf>1 \\
+\staff "2" bf1 | %6
+
+s1 \\\
+\staff "1" s1 \\
+\staff "2" s1 | %7
+
+d'2 cs4 d4 \\\
+\staff "1" <f g bf>1 \\
+\staff "2" a1 | %8
+
+d'1 \\\
+\staff "1" <f g bf>2 <e g bf>2 \\
+\staff "2" f,2 bf2 | %9
+
+s1 \\\
+\staff "1" s1 \\
+\staff "2" s1 | %10
+
+d'2 cs4 d4 \\\
+\staff "1" <f g bf>1 \\
+\staff "2" a1 | %11
+
+d'1 \\\
+\staff "1" <ds fs a>2 <e g bf>2 \\
+\staff "2" bf1 | %12

@@ -1,0 +1,22 @@
+[staves ",{-}"]
+[title "MuseScore SVG import"]
+
+\key df \major \defaultTimeSignature \time 4/4 \clef "treble" df'2~ df8[ c8] bf8[ bff8] \\\
+\staff "1" \clef "treble" r8 <f, af>8[ <af df>8 <df f>8] <f af>4 r4 \\
+\staff "2" \clef "bass" <df,, df'>4 s4 r2 | %1
+
+af'2~ af8[ g8] gf8[ f8] \\\
+\staff "1" r8 <af df>8[ <df f>8 <f af>8] <af df>4 r4 \\
+\staff "2" <f,, f'>4 r4 r2 | %2
+
+f2~ f8[ ef8] d8[ ef8] \\\
+\staff "1" r8 <gf df'>8[ <df' ef>8 <ef gf>8] <gf df'>4 r4 \\
+\staff "2" <bff, bff'>4 r4 r2 | %3
+
+gf'2 c,4 r4 \\\
+\staff "1" r8 <gf c>8[ <c ef>8 <ef gf>8] <gf c>4 <c ef gf af>4 \\
+\staff "2" <af, af'>4 r4 r2 | %4
+
+df'2~ df8[ c8] bf8[ bff8] \\\
+\staff "1" r8 <f, af>8[ <af df>8 <df f>8] <f af>4 r4 \\
+\staff "2" <df,, df'>4 r4 r2 | %5

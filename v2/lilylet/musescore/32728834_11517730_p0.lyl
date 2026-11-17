@@ -1,0 +1,12 @@
+[staves ","]
+[title "MuseScore SVG import"]
+
+\key gf \major \numericTimeSignature \time 4/4 \clef "bass" \stemUp bf8.[ bf8. <bf df>8. <bf df>8.] <bf ef>8 r8 \\
+\stemDown af,8.[ af8. bf8. bf8.] cf8.[ cf16~] \\\
+\clef "percussion" \stemUp r8 g''8 r8 g8 r8 g8 r8 g8 \\
+\stemDown f4 <f c'>4 f4 <f c'>4 | %1
+
+\stemUp r2 <bf ef>8.[ <af df>8. <af cf>8] \\
+\stemDown cf,8[ cf8. cf8.] cf8.[ cf8. df8] \\\
+\stemUp r8 g''8 r8 g8 r8 g8 r8 g8 \\
+\stemDown f4 <f c'>4 f4 <f c'>4 | %2

@@ -1,0 +1,78 @@
+[staves ",{-}"]
+[title "MuseScore SVG import"]
+
+\key e \major \numericTimeSignature \time 3/4 \clef "treble" b'4. b8-- b8--[ b8--] \\\
+\staff "1" \clef "treble" \stemUp b'2 b4 \\
+\staff "1" \stemDown a'4~ a8[ gs16 fs16] gs8[ fs8] \\
+\staff "2" \clef "bass" \stemUp r8 b8-. b4-. a4~ \\
+\staff "2" \stemDown b,2 b4 | %1
+
+b'4-- b8[ b8] b8[ b8] \\\
+\staff "1" \stemUp \grace { fs16 gs16 } b2. \\
+\staff "1" \stemDown gs'8[ e8] <gs, e'>8[ <b gs'>8 <e b'>8 <gs e'>8] \\
+\staff "2" \stemUp a8[ gs8] s2 \\
+\staff "2" \stemDown e,,2. | %2
+
+a'4-- a8[ gs16 fs16] gs8[ gs8] \\\
+\staff "1" \stemUp b'2 b4 \\
+\staff "1" \stemDown a'4~ a8[ gs16 fs16] gs8[ fs8] \\
+\staff "2" \stemUp r8 b8-. b4-. a4 \\
+\staff "2" \stemDown b,2 b4 | %3
+
+\grace { fs16 gs16 } fs8[ e8] e4~ e8 r8 \\\
+\staff "1" \stemUp \grace { fs16 gs16 } b2. \\
+\staff "1" \stemDown gs'8[ e8] <gs, e'>8[ <b gs'>8 <e b'>8 <gs e'>8] \\
+\staff "2" \stemUp a8[ gs8] s2 \\
+\staff "2" \stemDown e,,2. | %4
+
+e'4. e16[ e16] ds16-.[ cs16-. b16-. ds16-.] \\\
+\staff "1" \stemUp e'4. e8 ds16-.[ cs16-. b16 ds16-.] \\
+\staff "1" \stemDown r8 <e gs>8 <e gs>4 <e gs>4 \\
+\staff "2" \stemUp r8 gs8 gs2 \\
+\staff "2" \stemDown cs,2 b4 | %5
+
+e'4 e4 cs4-- \\\
+\staff "1" \stemUp e'4. e8 b16-.[ a16-. gs16 <b b>16-.~] \\
+\staff "1" \stemDown r8 <e a>8 <e a>4 gs16[ fs16 e16] s16 \\
+\staff "2" \stemUp r8 cs8 cs4 b4 \\
+\staff "2" \stemDown a,2 e'4 | %6
+
+b'4 r8 b16[ b16] b8[ b8] \\\
+\staff "1" \stemUp b'2 b4 \\
+\staff "1" \stemDown a'4~ a8[ gs16 fs16] gs8[ fs8] \\
+\staff "2" \stemUp r8 b8-. b4-. a4 \\
+\staff "2" \stemDown b,2 b4 | %7
+
+b'4 b8 r8 r8 e8 \\\
+\staff "1" \stemUp \grace { fs16 gs16 } b2. \\
+\staff "1" \stemDown gs'8[ e8] <gs, e'>8[ <b gs'>8 <e b'>8 <gs e'>8] \\
+\staff "2" \stemUp a8[ gs8] s2 \\
+\staff "2" \stemDown e,,2. | %8
+
+fs'4. fs8 fs8.[ fs16] \\\
+\staff "1" fs'4--~ fs16[ e16-. c16-. a16-.] fs16-. r16 fs'8 \\
+\staff "2" \stemUp r8 <c e>8 <c e>4~ <c e>16 r16 r8 \\
+\staff "2" \stemDown a,2. | %9
+
+g''4.-> g8 g8.[ e16] \\\
+\staff "1" g''4-- g16[ e16-. cs16-. as16-.] g16-. r16 g8 \\
+\staff "2" \stemUp r8 <cs e>8 <cs e>4~ <cs e>16 r16 r8 \\
+\staff "2" \stemDown as,2. | %10
+
+b'4 b8 r8 a8[ c8] \\\
+\staff "1" <g' b>4--~ <g b>8[ <fs a>16 <e g>16] <fs a>8[ <a c>8] \\
+\staff "2" \stemUp r8 b8-. b2-.~ \\
+\staff "2" \stemDown b,2.~ | %11
+
+b'8[ d8] d8\fermata r8 g,8[ e8] \\\
+\staff "1" <g' b>8-.[ <b d>8-.] \tuplet 5/4 { <b d>8--\fermata } \tuplet 5/4 { s32 } \tuplet 5/4 { <a c>16[ <g b>16 <fs a>16] } <e g>8[ <b e>8] \\
+\staff "2" <b, b'>8[ <b b'>8-.] <b b'>4--\fermata r8 g8 | %12
+
+e8[ fs16 g16] fs4.. e16 \\\
+\staff "1" \stemUp e16-.[ e16 fs16 g16] <a, ds fs>4..-- <gs e'>16 \\
+\staff "1" \stemDown c4 s2 \\
+\staff "2" a,4 \grace { b,8 } b'2 | %13
+
+e4~ e8 s4 s8 \\\
+\staff "1" <g e'>4~ <g e'>16 r16 s4 s8 \\
+\staff "2" e,,4~ e16 r16 s4 s8 | %14

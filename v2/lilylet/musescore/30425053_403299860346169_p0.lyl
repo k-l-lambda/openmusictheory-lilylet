@@ -1,0 +1,14 @@
+[staves "{-}"]
+[title "MuseScore SVG import"]
+
+\staff "1" \key c \major \omit Score.TimeSignature \numericTimeSignature \time 12/4 \clef "treble" c4 d4 fs4 bf4 f4 ef4 gs4 a4 b4 g4 e4 cs4 \\
+\staff "2" \clef "bass" <c, d fs>4 <d fs bf>4 <f gf bf>4 <ef f bf>4 <ef f af>4 <ef gs a>4 <gs a b>4 <g a b>4 <e g b>4 <cs e g>4 <bs cs e>4 <bs cs d>4 | %1
+
+\staff "1" c4 d4 fs4 bf4 b4 a4 af4 ef4 f4 cs4 e4 g4 \\
+\staff "2" <c, d fs>4 <d fs bf>4 <fs as b>4 <a bf cf>4 <gs a b>4 <ds gs a>4 <ef f af>4 <df ef f>4 <cs e f>4 <cs e g>4 <c e g>4 <c d g>4 | %2
+
+\staff "1" c4 d4 fs4 bf4 g4 e4 b'4 a4 gs4 ef4 f4 cs4 \\
+\staff "2" <c, d fs>4 <d fs bf>4 <fs g bf>4 <e g bf>4 <e g b>4 <e a b>4 <gs a b>4 <ds gs a>4 <ef f af>4 <df ef f>4 <c df f>4 <bs cs d>4 | %3
+
+\staff "1" c4 d4 fs4 bf4 cs,4 e4 f4 ef4 gs4 a4 b4 g4 \\
+\staff "2" <c, d fs>4 <d fs bf>4 <df gf bf>4 <cs e bf'>4 <cs e f>4 <ds e f>4 <ef f af>4 <ds gs a>4 <gs a b>4 <g a b>4 <g b c>4 <g c d>4 | %4

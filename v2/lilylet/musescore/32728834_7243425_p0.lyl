@@ -1,0 +1,74 @@
+[staves ",{-}"]
+[title "MuseScore SVG import"]
+
+\key a \major \numericTimeSignature \time 5/8 \clef "treble_8" r4. r4 \\\
+\staff "1" \clef "treble" r4. e8[ a8] \\
+\staff "2" \clef "bass" a,8[ e'8 b'8] r4 | %1
+
+r4. r8 e'8 \\\
+\staff "1" d'8[ cs8 e,8] r4 \\
+\staff "2" r4. b8[ e,8] | %2
+
+cs'8[ a8 a8] gs8[ a8] \\\
+\staff "1" r4. e8[ a8] \\
+\staff "2" a,8[ e'8 b'8] r4 | %3
+
+b'16[ cs16 b8 gs8] e8[ e'8] \\\
+\staff "1" d'8[ cs8 e,8] r4 \\
+\staff "2" r4. b8[ e,8] | %4
+
+cs'8[ a8 a8] gs8[ a8] \\\
+\staff "1" r4. e8[ a8] \\
+\staff "2" a,8[ e'8 b'8] r4 | %5
+
+b'4.~ b8[ e8] \\\
+\staff "1" d'8[ cs8 e,8] r4 \\
+\staff "2" r4. b8[ e,8] | %6
+
+cs'8[ a8 a8] gs8[ a8] \\\
+\staff "1" r4. e8[ a8] \\
+\staff "2" a,8[ e'8 b'8] r4 | %7
+
+\time 4/8 b'8[ cs8 b8 e8] \\\
+\staff "1" d'8[ cs8 a8] r8 \\
+\staff "2" r4 r8 b8 | %8
+
+\time 5/8 cs'8[ a8 a8] gs8[ a8] \\\
+\staff "1" r4. r8 e8 \\
+\staff "2" e,8[ a,8 e'8] b'8 r8 | %9
+
+\time 4/8 b'8[ cs8 b8 e8] \\\
+\staff "1" a'8[ d8 cs8 e,8] \\
+\staff "2" R2 | %10
+
+\time 5/8 cs'8[ a8 a8] gs8[ a8] \\\
+\staff "1" R1 \\
+\staff "2" b8[ e,8 a,8] e'8[ b'8] | %11
+
+\time 4/8 b'8[ cs8 b8 e8] \\\
+\staff "1" e8[ a8 d8 cs8] \\
+\staff "2" R2 | %12
+
+\time 5/8 cs'8[ a8 a8] gs8[ a8] \\\
+\staff "1" a'8 r4 cs,8[ cs8] \\
+\staff "2" r8 b8[ e,8] a,8[ e'8] | %13
+
+b'4.~ b4 \\\
+\staff "1" d8[ e8 a8] d8[ cs8~] \\
+\staff "2" b8 r4 r4 | %14
+
+R1 \\\
+\staff "1" cs'8 r4 cs,8[ cs8] \\
+\staff "2" r8 b8[ e,8] a,8[ e'8] | %15
+
+\time 6/8 r4. r4 a'8 \\\
+\staff "1" d8[ e8 a8] d8[ cs8 a8] \\
+\staff "2" b8 r8 r8 r4 r8 | %16
+
+\time 5/8 gs'8[ e8 e8] d8[ gs8] \\\
+\staff "1" a'8 r4 r4 \\
+\staff "2" b8[ e,8 a,8] e'8[ b'8] | %17
+
+a'4. a4 \\\
+\staff "1" e8[ a8] cs4. \\
+\staff "2" R1 | %18

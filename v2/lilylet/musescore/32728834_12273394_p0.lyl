@@ -1,0 +1,28 @@
+[staves "{-}"]
+[title "MuseScore SVG import"]
+
+\staff "1" \key d \major \numericTimeSignature \time 21/8 \clef "treble" \tempo "Poco più animato." gs'4. <gs, b fs'>4. gs'4 <gs, cs fs>4. gs'8 gs4. <gs, d' fs>4. d'8--[ e8-- fs8--] \\
+\staff "2" \clef "bass" <d,, d'>4. s4 s8 <cs cs'>4. s4 s8 <b b'>4. s4 s8 r4. | %1
+
+\staff "1" gs'4. <gs, b fs'>4. gs'4 <gs, cs fs>4. gs'8 gs4. <gs, d' fs>4. gs'8--[ a8-- b8--] \\
+\staff "2" <d,, d'>4. s4 s8 <cs cs'>4. s4 s8 <b b'>4. s4 s8 r4. | %2
+
+\staff "1" \stemUp b'4. b4 b8 b4. gs8--[ a8-- b8--] s1 s8 \\
+\staff "1" \stemDown <b d es>4. <b d fs>4. <b d gs>4. s1 s2 \\
+\staff "2" <gs, gs'>4. <fs fs'>4. <es es'>4. r4. s1 s8 | %3
+
+\staff "1" \stemUp b'4. b4 b8 b4. b4 b8 s1 s8 \\
+\staff "1" \stemDown <b d es>4. <b d fs>4. <b d gs>4. r4. s1 s8 \\
+\staff "2" <gs, gs'>4. <fs fs'>4. <es es'>4. r4. s1 s8 | %4
+
+\staff "1" \stemUp b'4 b8 b8 b4 b4 b8 b4 a8 s1 s8 \\
+\staff "1" \stemDown <b d g>2. <cs g'>2. s1 s8 \\
+\staff "2" <e,, e'>2. <e e'>4. <ef ef'>4. s1 s8 | %5
+
+\staff "1" \tempo "Tempo primo" r4. <g a cs g' a>2. <g a cs g' a>4. s1 s8 \\
+\staff "2" r4. <ef,, a ef'>2. <ef a ef'>4. s1 s8 | %6
+
+\staff "1" \stemUp <d d'>4. fs4 <b, b'>8 <a a'>4. <a a'>4 <a a'>8 s1 s8 \\
+\staff "1" \stemDown fs8[ fs8 fs8] fs4. g4. fs4 e8 s1 s8 \\
+\staff "2" \stemUp <d,, a' d>8 a''8[ a8 a8] e8[ e8 e8] fs8[ fs8 g8] s1 s4 s8 \\
+\staff "2" \stemDown <fs, a>8[ <fs a>8] d4. cs2. s1 s4 | %7

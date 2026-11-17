@@ -1,0 +1,5 @@
+[staves ""]
+[title "MuseScore SVG import"]
+
+\key c \major \numericTimeSignature \time 6/4 \clef "percussion" \stemUp \tempo "Swing 16ths" 4. = 31 f'8[ f8 f8] f8[ f8 f8] f8[ f8 f8] f8[ f8 f8] \\
+\stemDown f4. c'8 r8 r16 f,16 f4. c'8 r8 r16 f,16 | %1

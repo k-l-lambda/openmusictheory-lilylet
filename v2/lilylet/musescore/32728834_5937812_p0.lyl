@@ -1,0 +1,17 @@
+[staves "{-}"]
+[title "MuseScore SVG import"]
+
+\staff "1" \key d \major \numericTimeSignature \time 4/4 \clef "treble" \stemUp fs'4 e4 e4 d4 \\
+\staff "1" \stemDown <a' d>4 a4 <g c>4 g4 \\
+\staff "2" \clef "bass" d4 cs4 c4 b4 | %1
+
+\staff "1" \stemUp d'4 c4 c4 bf4 \\
+\staff "1" \stemDown <f bf>4 f4 <ef af>4 ef4 \\
+\staff "2" bf4 a4 af4 g4 | %2
+
+\staff "1" \stemUp bf'4 af4 gs4 fs4 \\
+\staff "1" \stemDown <df gf>4 df4 <b e>4 b4 \\
+\staff "2" gf4 f4 e4 ds4 | %3
+
+\staff "1" <a d fs>1 \\
+\staff "2" d,1 | %4

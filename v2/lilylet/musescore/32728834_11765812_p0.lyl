@@ -1,0 +1,42 @@
+[staves ",{-}"]
+[title "MuseScore SVG import"]
+
+\key c \major \numericTimeSignature \time 6/8 \partial 8 \clef "treble" e8 \\\
+\staff "1" \clef "treble" r8 \\
+\staff "2" \clef "bass" r8 | %1
+
+c'4 a8 e4 a8 \\\
+\staff "1" <c e a c>4 <c e a>8 <c e a>4 <c e a>8 \\
+\staff "2" <a, a'>4 a'8 a4 a8 | %2
+
+gs'4 a8 b4 b8 \\\
+\staff "1" <d e gs>4 <c e a>8 <b e gs>4 <d g b>8 \\
+\staff "2" b4 a8 e4 f8 | %3
+
+c'4 c8 d8[ f8 a8] \\\
+\staff "1" <c g' c>4 <c g' c>8 <f a d>4 <f a d>8 \\
+\staff "2" e,4 e8 f4 f8 | %4
+
+g''8[ a8 f8] e4 r8 \\\
+\staff "1" <f g d'>4 <f g d'>8 <e g c>4 r8 \\
+\staff "2" g4 g8 c4 r8 | %5
+
+e'8[ e8 e8] e4 gs,8 \\\
+\staff "1" r4 r8 <e gs>4 <e gs>8 \\
+\staff "2" r4 r8 d4 d8 | %6
+
+a'4 c8 b4 r8 \\\
+\staff "1" <e a>4 <a c>8 <gs b>4 r8 \\
+\staff "2" c4 a8 e4 r8 | %7
+
+e'8[ f8 e8] e4 gs,8 \\\
+\staff "1" r4 r8 <e gs>4 <e gs>8 \\
+\staff "2" r4 r8 d4 d8 | %8
+
+a'4 c8 b4 b8 \\\
+\staff "1" <e a>4 <a c>8 <gs b>4 <e gs b>8 \\
+\staff "2" c4 a8 e4 e8 | %9
+
+c'4 s2 \\\
+\staff "1" <e a c>4 s2 \\
+\staff "2" a4 s2 | %10

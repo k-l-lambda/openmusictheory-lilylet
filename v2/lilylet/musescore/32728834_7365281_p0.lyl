@@ -1,0 +1,20 @@
+[staves "{-},,,"]
+[title "MuseScore SVG import"]
+
+\staff "1" \key c \major \numericTimeSignature \time 5/4 \clef "treble" R1 \\
+\staff "2" \clef "bass" R1 \\\
+\clef "bass" \tuplet 3/2 { <g,, g' g'>8[ <g g' g'>8 <g g' g'>8] } <g g' g'>4 <g g' g'>4 <g g' g'>8[ <g g' g'>8] <g g' g'>4 \\\
+\clef "bass" \tuplet 3/2 { g,8[ g8 g8] } g4 g4 g8[ g8] g4 \\\
+\clef "percussion" b'2.:32 b2:32 | %1
+
+\staff "1" R1 \\
+\staff "2" R1 \\\
+\tuplet 3/2 { <g,, g' g'>8[ <g g' g'>8 <g g' g'>8] } <g g' g'>4 <g g' g'>4 <g g' g'>8[ <g g' g'>8] <g g' g'>4 \\\
+\tuplet 3/2 { g,8[ g8 g8] } g4 g4 g8[ g8] g4 \\\
+b'2.:32 b2:32 | %2
+
+\staff "1" R1 \\
+\staff "2" <g,, g'>2.~ <g g'>2~ \\\
+\tuplet 3/2 { <g,, g' g'>8[ <g g' g'>8 <g g' g'>8] } <g g' g'>4 <g g' g'>4 <g g' g'>8[ <g g' g'>8] <g g' g'>4 \\\
+\tuplet 3/2 { g,8[ g8 g8] } g4 g4 g8[ g8] g4 \\\
+b'2.:32 b2:32 | %3

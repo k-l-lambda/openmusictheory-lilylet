@@ -1,0 +1,17 @@
+[staves "{-}"]
+[title "MuseScore SVG import"]
+
+\staff "1" \key df \major \numericTimeSignature \time 3/4 \clef "treble" r16 f,16[ af16 df16] f16[ df16 af16 f16] gf'16[ df16 bf16 gf16] \\
+\staff "2" \clef "bass" <df,, df'>2 <bf bf'>4 | %1
+
+\staff "1" r16 af16[ df16 f16] af16[ f16 df16 af16] bf'16[ ef,16 df16 bf16] \\
+\staff "2" <f,,, f'>2 <gf gf'>4 | %2
+
+\staff "1" r16 c16[ ef16 gf16] c16[ gf16 ef16 c16] c'16[ f,16 ef16 c16] \\
+\staff "2" <af,, af'>4 <a a'>2 | %3
+
+\staff "1" df'16[ bf16 f16 df16] df'16[ bf16 ef,16 df16] c'16[ af16 ef16 c16] \\
+\staff "2" <bf,, bf'>4 <gf gf'>4 <af af'>4 | %4
+
+\staff "1" df'16[ f,,16 af16 df16] f16[ df16 af16 f16] s4 \\
+\staff "2" df,,2 s4 | %5

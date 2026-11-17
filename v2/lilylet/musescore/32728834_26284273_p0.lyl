@@ -1,0 +1,50 @@
+[staves "{-}"]
+[title "MuseScore SVG import"]
+
+\staff "1" \key d \major \numericTimeSignature \time 2/4 \clef "treble" r16 <g' a>16[ <g a>16 <g a>16] r16 <g cs>16[ fs'16-> <g, cs>16] \\
+\staff "2" \clef "bass" <a, a'>8.[ <g' a cs>16] cs,8[ <g' a cs>8] | %1
+
+\staff "1" e'16->[ fs,16 a16 <fs a d>16-.] r16 <d gs>16[ cs'16-> <d, gs>16] \\
+\staff "2" d,8.[ <fs a d>16] <f, f'>8[ <f f'>8] | %2
+
+\staff "1" b'16->[ cs,16 g'16 <cs, g' a>16-.] r16 <cs g'>16[ cs'16-> <cs, g'>16] \\
+\staff "2" <e,, e'>8.[ <e e'>16] <a, a'>8[ <a a'>8] | %3
+
+\staff "1" b'16->[ d,16 fs16 <d fs a>16-.] r16 fs16[ d16 b16] \\
+\staff "2" <d,, d'>8.[ <d d'>16] <fs fs'>8[ <fs fs'>8] | %4
+
+\staff "1" r16 <g' a>16[ <g a>16 <g a>16] r16 <fs cs'>16[ fs'16-> <fs, cs'>16] \\
+\staff "2" <a, a'>8.[ <g' a cs>16] <as, as'>8[ <fs' as e'>8] | %5
+
+\staff "1" e'16->[ fs,16 b16 <fs b d>16] r16 cs'16[ e16 d16] \\
+\staff "2" <b, b'>8.[ <fs' b d>16] <fs b d>8[ <fs b d>8] | %6
+
+\staff "1" cs'16->[ cs,16 fs16 <cs fs a cs>16] r16 <b es gs>16[ b'16 a16] \\
+\staff "2" cs,,8.[ cs'16] cs,8.[ cs'16] | %7
+
+\staff "1" fs16->[ a,16 cs16 <a cs fs>16] r16 fs'16[ g16 gs16] \\
+\staff "2" fs,,,8.[ fs'16] fs,4 | %8
+
+\staff "1" r16 <g' a>16[ <g a>16 <g a>16] r16 <g cs>16[ fs'16-> <g, cs>16] \\
+\staff "2" <a, a'>8.[ <g' a cs>16] cs,8[ <g' a cs>8] | %9
+
+\staff "1" e'16->[ fs,16 a16 <fs a d>16-.] r16 <d gs>16[ cs'16-> <d, gs>16] \\
+\staff "2" d,8.[ <fs a d>16] <f, f'>8[ <f f'>8] | %10
+
+\staff "1" b'16->[ cs,16 g'16 <cs, g' a>16-.] r16 <cs g'>16[ cs'16-> <cs, g'>16] \\
+\staff "2" <e,, e'>8.[ <e e'>16] <a, a'>8[ <a a'>8] | %11
+
+\staff "1" b'16[ d,16 fs16 <d fs a>16-.] r16 fs16[ d16 b16] \\
+\staff "2" <d,, d'>8.[ <d d'>16] <fs fs'>8[ <fs fs'>8] | %12
+
+\staff "1" r16 <g' a>16[ <g a>16 <g a>16] r16 <fs cs'>16[ fs'16-> <fs, cs'>16] \\
+\staff "2" <a, a'>8.[ <g' a cs>16] <as, as'>8[ <fs' as e'>8] | %13
+
+\staff "1" e'16->[ fs,16 b16 <fs b d>16] r16 <d f gs>16[ cs'16 <d, f gs>16] \\
+\staff "2" <b, b'>8.[ <fs' b d>16] <bf, f' gs>8[ <bf f' gs>8] | %14
+
+\staff "1" b'16->[ d,16 fs16 <d fs a>16] r16 <g, cs>16[ fs'16-> e16] \\
+\staff "2" <a, fs' a>8.[ <a fs' a>16] a,8[ a'8] | %15
+
+\staff "1" d16->[ fs,16 a16 <fs a d>16] r16 fs'16[ g16 gs16] \\
+\staff "2" d,,8.[ a16] d4 | %16

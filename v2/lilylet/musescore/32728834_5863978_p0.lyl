@@ -1,0 +1,10 @@
+[staves ""]
+[title "MuseScore SVG import"]
+
+\key ef \major \numericTimeSignature \time 4/4 \clef "bass" ef,,8[ ef'8 ef,8 ef'8] gf,8[ gf'8 af,8 af'8] | %1
+
+ef,,8[ ef'8 ef,8 ef'8] gf,8[ gf'8 af,8 af'8] | %2
+
+ef,,8[ ef'8 ef,8 ef'8] gf,8[ gf'8 af,8 af'8] | %3
+
+ef,,8[ ef'8 ef,8 ef'8] gf,8[ gf'8 af,8 af'8] | %4

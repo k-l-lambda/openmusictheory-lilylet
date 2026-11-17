@@ -1,0 +1,23 @@
+[staves ""]
+[title "MuseScore SVG import"]
+
+\key c \major \numericTimeSignature \time 12/4 \clef "bass" <fs,,, fs'>2. <f f'>2. <a a'>4 <b b'>4 <c c'>4 <b b'>4 <a a'>4 <b b'>4 \\\
+s\breve s1 | %1
+
+\clef "treble" <a' c ds a'>4 <b b'>4 <c c'>4 \grace { <b b'>16 <c c'>16 } <b f' b>4 <a a'>4 <b b'>4 <c e c'>4 <b e b'>4 <a e' a>4 <f a ds f>2. \\\
+\clef "bass" <a c ds>4 b4 c4 \grace { b16 c16 } <f, b>4 a4 b4 <c, e c'>4 <b e b'>4 <a e' a>4 <f' a ds>2. | %2
+
+\time 3/4 r8 <a' c ds a'>4 <b b'>4 <c c'>8~ \\\
+\stemUp r8 <a c ds>4 b4 c8~ \\
+\stemDown <fs,,, fs'>2. | %3
+
+<c' c'>8 \grace { <b b'>16 <c c'>16 } <b f' b>4 <a a'>4 <b b'>8~ \\\
+\stemUp c8 \grace { b16 c16 } <f, b>4 a4 b8~ \\
+\stemDown <f,,, f'>2. | %4
+
+<b' b'>8 <c e c'>4 <b e b'>4 <a e' a>8~ \\\
+\stemUp b8 <c, e c'>4 <b e b'>4 <a e' a>8~ \\
+\stemDown <a,, a'>4 <b b'>4 <c c'>4 | %5
+
+<a' e' a>8 <f a d f>2~ <f a d f>8 \\\
+<b,, b'>4 <a' e' a>8 <f' a d>2 <a,, a'>4 <b b'>4 r8 | %6

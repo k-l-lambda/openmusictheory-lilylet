@@ -1,0 +1,20 @@
+[staves ","]
+[title "MuseScore SVG import"]
+
+\key ef \major \numericTimeSignature \time 3/2 \clef "treble" \tempo 2 = 40 ef'2 d2 c4 d4 \\\
+\clef "bass" ef,2 bf2 f2 | %1
+
+ef'2 d2 c4 d4 \\\
+bf,2 ef2 bf2 | %2
+
+ef'2 d2 c4 d4 \\\
+f,,2 bf2 ef2 | %3
+
+ef'2 d2 c4 df4 \\\
+bf,2 f2 bf2 | %4
+
+d'2 df2 c2 \\\
+ef,2 bf2 f2 | %5
+
+c'1. \\\
+bf,2 ef2 bf2 | %6

@@ -1,0 +1,59 @@
+[staves "{-}"]
+[title "MuseScore SVG import"]
+
+\staff "1" \key e \major \numericTimeSignature \time 3/4 \clef "treble" <bs' ds>8 r16 <as cs>16 <bs ds>4 <cs e>4 \\
+\staff "2" \clef "bass" <gs ds' fs>4 <gs ds' fs>4 <cs e>4 | %1
+
+\staff "1" <bs' ds>8.[ <as cs>16] <bs ds>4 <cs e>4 \\
+\staff "2" <gs ds'>4 <gs ds'>4 <cs e>4 | %2
+
+\staff "1" <bs' ds>8[ <as cs>8] <bs ds>4 <cs e>4 \\
+\staff "2" <gs ds'>4 <gs ds'>4 <cs e>4 | %3
+
+\staff "1" <bs' ds>8[ <as cs>8] <bs ds>4 <cs e>4 \\
+\staff "2" <gs ds'>4 <gs ds'>4 <fss cs' e>4 | %4
+
+\staff "1" <bs' ds>8[ <as cs>8] <bs ds>4 <cs e>4 \\
+\staff "2" <gs ds'>4 <gs ds'>4 <g cs e>4 | %5
+
+\staff "1" \grace { ds'8 } <as cs>8.[ <gss bs>16] <as cs>4 <a c>4 \\
+\staff "2" <fs, cs' e>4 <fs cs' e>4 <f c' ef>4 | %6
+
+\staff "1" \grace { cs'8 } <gs b>8.[ <fss as>16] <gs b>4 <g bf>4 \\
+\staff "2" <e, b' d>4 <e b' d>4 <ef bf' df>4 | %7
+
+\staff "1" \grace { b'8 } <fs a>8.[ <es gs>16] <fs a>4 <f af>4 \\
+\staff "2" <d, a' c>4 <d a' c>4 <df af' cf>4 | %8
+
+\staff "1" \grace { a'8 } <e g>8.[ <ds fs>16] <e g>4 <ds fs>4 \\
+\staff "2" <c, g' bf>4 <c g' bf>4 <b fs' a>4 | %9
+
+\staff "1" \stemUp fs2 e8[ ds8] \\
+\staff "1" \stemDown cs2.-> \\
+\staff "2" \stemUp fs,2. \\
+\staff "2" \stemDown a,8.[ gs16] a4 ds,4 | %10
+
+\staff "1" \stemUp fs8.[ fs16] ds4 cs'4 \\
+\staff "1" \stemDown cs2. \\
+\staff "2" \stemUp fs,2.-> \\
+\staff "2" \stemDown a,8.[ gs16] a4 ds,4 | %11
+
+\staff "1" \stemUp fs2 e8[ ds8] \\
+\staff "1" \stemDown cs2. \\
+\staff "2" \stemUp fs,2.-> \\
+\staff "2" \stemDown a,8.[ gs16] a4 ds,4 | %12
+
+\staff "1" \stemUp fs8.[ fs16] ds4 ds'4 \\
+\staff "1" \stemDown cs2 s4 \\
+\staff "2" \stemUp fs,2-> r4 \\
+\staff "2" \stemDown a,8.[ gs16] a4 s4 | %13
+
+\staff "1" cs'8[ a8] fs4 ds4 \\
+\staff "2" s2 s4 | %14
+
+\staff "1" s2 s4 \\
+\staff "2" cs8[ a8] fs4 cs4 | %15
+
+\staff "1" s2 s4 \\
+\staff "2" \stemUp e,2.\fermata \\
+\staff "2" \stemDown <cs,, gs'>2.\fermata | %16

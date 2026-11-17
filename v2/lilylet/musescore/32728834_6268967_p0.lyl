@@ -1,0 +1,22 @@
+[staves ",{-}"]
+[title "MuseScore SVG import"]
+
+\key c \major \defaultTimeSignature \time 4/4 \clef "treble" e4 e8. e16 bf'4 r8 c,8 \\\
+\staff "1" \clef "treble" e4 e8.[ e16] <bf c e bf'>8[ <bf c e>8 <bf c e>8 <bf c>8] \\
+\staff "2" \clef "bass" \stemUp e,8[ <g bf c>8 <e g bf c>8 <g bf c>8] g4. e8 \\
+\staff "2" \stemDown <c,, c'>2 <g' c>2 | %1
+
+c4. a'8 a4 b8 c8 \\\
+\staff "1" c4. a'8 <a, a'>8[ <c f>8 <b b'>8 <c ef a c>8] \\
+\staff "2" \stemUp c,8[ <f a>8 <f a>8 a8] s2 \\
+\staff "2" \stemDown <f,,, f'>2 <f' f'>4 <fs fs'>4 | %2
+
+c'8[ b8 a8] g8 f8 d8 a8. b16 \\\
+\staff "1" <c e g c>8[ <b b'>8 <a a'>8 <g g'>8] s2 \\
+\staff "2" \stemUp s2 <f, b f'>8[ <d d'>8 <a a'>8 <b b'>8] \\
+\staff "2" \stemDown <g, c e g>2 g2 | %3
+
+c2 r2 \\\
+\staff "1" s1 \\
+\staff "2" \stemUp <e, c'>4 s4 r2 \\
+\staff "2" \stemDown <c,, c'>8[ <e' g>8 <e g>8 <e g>8] r2 | %4

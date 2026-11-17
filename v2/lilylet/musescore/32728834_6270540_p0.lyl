@@ -1,0 +1,26 @@
+[staves "{-}"]
+[title "MuseScore SVG import"]
+
+\staff "1" \key bf \major \numericTimeSignature \time 3/4 \clef "treble" f'4 r8 \tuplet 3/2 { f8[ g8] } \tuplet 3/2 { a8[ g8 f8] } \\
+\staff "2" \clef "treble" a4 <c ef f>4 <c ef f>4 | %1
+
+\staff "1" bf''16[ d16 g16 f16] ef16[ d16 c16 bf16] a16[ c16 bf16 g16] \\
+\staff "2" bf4 <d f>4 <d f>4 | %2
+
+\staff "1" f'4 r8 \tuplet 3/2 { f8[ g8] } \tuplet 3/2 { a8[ g8 f8] } \\
+\staff "2" a4 <c ef f>4 <c ef f>4 | %3
+
+\staff "1" \tuplet 3/2 { e''8[ g8 f8] } \tuplet 3/2 { cs8[ ef8 d8] } bf4 \\
+\staff "2" bf4 <d f>4 <d f>4 | %4
+
+\staff "1" b''4 r8 \tuplet 3/2 { b8[ c8] } \tuplet 3/2 { \grace { ef8 } d8[ c8 b8] } \\
+\staff "2" r4 <f af d>4 <f af d>4 | %5
+
+\staff "1" \tuplet 3/2 { d''8[ c8 c8] } r8 \tuplet 3/2 { g8[ a8] } \tuplet 3/2 { \grace { c8 } bf8[ a8 g8] } \\
+\staff "2" <ef g c>4 <e bf' df>4 r4 | %6
+
+\staff "1" \tuplet 3/2 { \grace { a''8 } g8[ f8 f8] } r8 \tuplet 3/2 { f8[ g8] } \tuplet 3/2 { \grace { bf8 } a8[ g8 f8] } \\
+\staff "2" <f bf d>4 <f c' ef>4 r4 | %7
+
+\staff "1" \tuplet 3/2 { bf''8[ d8 f,8] } \tuplet 3/2 { bf8[ d,8 f8] } bf,4 \\
+\staff "2" <bf' d>4 r2 | %8

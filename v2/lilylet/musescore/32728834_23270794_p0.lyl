@@ -1,0 +1,10 @@
+[staves ",{-}"]
+[title "MuseScore SVG import"]
+
+\key gf \major \defaultTimeSignature \time 4/4 \clef "treble" \tempo 4 = 80 f2.. ef8 \\\
+\staff "1" \clef "treble" <cf ef af cf>2 <bf d af' bf>4. <bf bf'>8 \\
+\staff "2" \clef "bass" \grace { bf,,8 } <bf' f' af>2 <bf, bf' f' af>2 | %1
+
+ef2 r2 \\\
+\staff "1" <ef g>2 <c c'>8[ <bf bf'>8 <af af'>8 <g g'>8] <bf d>2 <f f'>4 <f f'>8[ <bf bf'>8] \\
+\staff "2" ef,,8[ bf'8 ef8 bf8] af8[ bf8 a8 bf8] | %2

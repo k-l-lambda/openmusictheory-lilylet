@@ -1,0 +1,17 @@
+[staves "{-},{-}"]
+[title "MuseScore SVG import"]
+
+\staff "1" \key a \major \numericTimeSignature \time 3/4 \clef "treble" cs'16[ cs'16 fs,16 fs'16] gs16[ cs,16 a16 cs,16] gs''16[ b,16 gs16 b,16] \\
+\staff "2" \clef "bass" <cs a'>8[ <a fs'>8] <cs, fs ds'>4 <cs gs' es'>4 \\\
+\staff "1" \clef "treble" <cs cs'>8[ <fs fs'>8] <a cs a'>8 r8 <gs b gs'>8 r8 \\
+\staff "2" \clef "bass" r8 a8 <cs, fs ds'>8 r8 <cs gs' es'>8 r8 | %1
+
+\staff "1" fs''16[ a,16 fs16 a,16] r4 r4 \\
+\staff "2" <fs,, cs' a'>4 <a' fs'>4 r4 \\\
+\staff "1" <fs a fs'>8 r8 <fs, fs'>8 r16 <g' a cs es>16 <g a cs es>8.[ <fs d' fs>16] \\
+\staff "2" <fs,, cs' a'>8 r8 <fs, fs'>8 r16 <a a'>16 <a a'>8.[ <d d'>16] | %2
+
+\staff "1" \tuplet 3/2 { <d d'>8[ <fs fs'>8 <a a'>8] } <d d'>4 r4 \\
+\staff "2" \clef "treble" \tuplet 3/2 { d8[ fs8 a8] } d4 r4 \\\
+\staff "1" <fs d' fs>4 r4 r4 \\
+\staff "2" <d,, d'>4 r4 r4 | %3

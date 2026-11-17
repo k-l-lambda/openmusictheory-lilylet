@@ -1,0 +1,16 @@
+[staves ""]
+[title "MuseScore SVG import"]
+
+\key c \major \omit Score.TimeSignature \numericTimeSignature \time 12/4 \clef "treble" g4 bf4 d4 fs4 a4 c4 e4 gs4 b4 cs4 ef4 f4 | %1
+
+\time 20/4 <g bf d>1~ <d' fs a>1~ <a' c e>1~ <e' gs b>1 b'4 cs4 ef4 f4 | %2
+
+\time 12/4 a'4 bf4 e4 b4 fs4 d'4 f4 c4 g4 af4 df4 ef4 | %3
+
+<e a bf>4 <cf ff bf>4 <e fs b>4 <d fs b>4 <d f f>4 <c d f>4 <c f g>4 <c g' af>4 <df g af>4 <cs ds gs>4 <cs ds a'>4 <ef a bf>4 | %4
+
+a'4 d4 b4 e,4 cs'4 fs,4 gs4 ds'4 f4 bf,4 g'4 c,4 | %5
+
+<a' b d>4 <b d e>4 <b cs e>4 <cs e fs>4 <fs, gs cs>4 <ds fs gs>4 <ef f af>4 <ef f bf>4 <f g bf>4 <g bf c>4 <g a c>4 <a c d>4 | %6
+
+<a' b d e>1 <fs gs cs ds>1 <f g bf c>1 | %7

@@ -76,6 +76,7 @@ node --import tsx scripts/svg/svg-to-lilylet.ts musescore-svg/X_p0.svg [--report
 node --import tsx scripts/svg/inspect-measure.ts musescore-svg/X_p0.svg --mi 3   # events, voices+ticks, flags, lyl, tick validation
 node --import tsx scripts/svg/corpus-report.ts /tmp/omt-svg-corpus                # quality gate over all 453 first pages
 node --import tsx scripts/svg/batch-to-lilylet.ts --limit 453                    # ledger + drafts in /tmp/omt-musescore-svg-v2
+node --import tsx scripts/svg/publish-drafts.ts                                 # copy staging drafts to v2/lilylet/musescore/ + MANIFEST
 node --import tsx scripts/svg/learn-time-digits.ts [--write]                      # relearn digit fingerprints
 node --import tsx --test scripts/svg/*.test.ts
 ```

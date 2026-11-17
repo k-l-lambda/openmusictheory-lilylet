@@ -1,0 +1,6 @@
+[staves ""]
+[title "MuseScore SVG import"]
+
+\key c \major \numericTimeSignature \time 4/4 \clef "bass" <b, d f a>1 | %1
+
+<b, d f af>1 | %2

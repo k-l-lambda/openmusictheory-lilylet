@@ -1,0 +1,26 @@
+[staves ""]
+[title "MuseScore SVG import"]
+
+\key e \major \numericTimeSignature \time 4/4 \clef "bass" e,,4-. e4-. e4-. r16 fs'16-.[ fss16-. gs16~] | %1
+
+gs8[ e8-.] b8-. r16 cs16-. d16-.[ cs16-. d16-. cs16-.] d16-.[ e8.] | %2
+
+e,,4-. e4-. e4-. r16 fs'16-.[ fss16-. gs16~] | %3
+
+gs8[ a8-.] b8-. r16 cs16-. d16-.[ cs16-. b16-. a16-.] gs16[ e'8.] | %4
+
+a,4-. a4-. a4-. r16 b'16-.[ bs16-. cs16~] | %5
+
+cs8[ a8-.] e8-. r16 fs16-. g16-.[ fs16-. g16-. fs16-.] g16-.[ a8.] | %6
+
+a,4-. a4-. a4-. r16 b'16-.[ bs16-. cs16~] | %7
+
+cs8[ d8-.] e8-. r16 fs16-. g16-.[ fs16-. e16-. d16-.] cs16[ a'8.] | %8
+
+a,4-. a4-. a4-. r16 b'16-.[ bs16-. cs16~] | %9
+
+cs8[ a8-.] e8-. r16 fs16-. g16-.[ fs16-. g16-. fs16-.] g16-.[ a8.] | %10
+
+a,4-. a4-. a4-. r16 a16[ as16 b16->~] | %11
+
+b,2 r2 | %12

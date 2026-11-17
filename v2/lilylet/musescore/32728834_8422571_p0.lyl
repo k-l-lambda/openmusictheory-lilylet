@@ -1,0 +1,8 @@
+[staves ""]
+[title "MuseScore SVG import"]
+
+\key c \major \numericTimeSignature \time 6/8 \clef "treble" f8[ f8 f8] \tuplet 3/2 { f8[ f8] } | %1
+
+f4. f4. | %2
+
+\tuplet 3/2 { f8[ f8] } f16[ f16 f8 f8] \tuplet 3/2 { s4 s16 } | %3

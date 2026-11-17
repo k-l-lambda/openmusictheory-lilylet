@@ -1,0 +1,8 @@
+[staves ","]
+[title "MuseScore SVG import"]
+
+\key g \major \numericTimeSignature \time 4/4 \clef "treble_8" <b' d g>16 r16 r16 <b d g>16 r16 <d g b>16[ <d g b>8] <d g b>8-.[ <c e a>8-. <b d g>8-.] r8 \\\
+\clef "bass" g8[ g16 e16~] e16[ e16 d8] c8[ c8 d8 e8] | %1
+
+<b' d g>16 r16 r16 <b d g>16 r16 <d g b>16[ <d g b>16 <d g b>16] <d g b>8-.[ <c e a>8-. <b d g>8-.] r8 \\\
+g8[ g16 e16~] e16[ e16 d8] c8[ c8 d8 e8] | %2

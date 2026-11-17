@@ -1,0 +1,20 @@
+[staves "{-}"]
+[title "MuseScore SVG import"]
+
+\staff "1" \key c \major \numericTimeSignature \time 9/8 \clef "treble" \tempo "Prestissimo" 4. = 66 s1 s8 \\
+\staff "2" \clef "bass" \tuplet 9/8 { a,,16--[ as16 b16 as16-- b16 c16 b16-- c16 df16] } c16--[ cs16 d16 cs16-- d16 ef16 d16-- ds16 e16] ef16--[ d'16 cs'16 d,,16-- df'16 c'16 df,16-- c,16 b'16] | %1
+
+\staff "1" d16[ d16 df'16 d,16 df'16 c'16] s2 s4 \\
+\staff "2" as,,16--[ b16 c16 b16-- c16 df16 c16-- cs16 d16] cs16--[ d16 ef16 d16-- ds16 e16 ds16-- e16 f16] e16--[ ef'16 ef16] | %2
+
+\staff "1" b'16--[ c,16 e16 f'16-- fs,16] as16[ b'16-- c,16 e16] f'16--[ e,16 ef,16 d'16 df,16] s4 \\
+\staff "2" cs,16[ d,16-- ds'16 g16] gs,16--[ a'16 cs16 d,16-- ds'16] c,16[ b'16 bf,16 a,16] s4 s16 | %3
+
+\staff "1" r8 <cs' d>8 r8 <d' ef ff>8 r8 cs,,8 s4 s8 \\
+\staff "2" \stemUp b,8 r8 c'8 cs,,16--[ d16 ef16 d16-- ds16 e16 ds16-- e16 f16] e16--[ ef'16 d'16 ef,,16 d'16 cs'16 d,16 df,16 c'16] \\
+\staff "2" \stemDown as,,16--[ b16 c16 b16-- c16 df16 c16-- cs16 d16] s2 s16 | %4
+
+\staff "1" \stemUp r8 r8 r8 s2 s4 \\
+\staff "1" \stemDown <ds' e f>8 <ds' e f>8->[ ef,8] ef,16[ d'16 ef,16 d'16 df'16] s4 s8 s16 \\
+\staff "2" \stemUp <b, c df>8 r8 <cs' d ef>8 d,,16--[ ds16 e16 ds16-- e16 f16 e16-- f16 gf16] f16--[ e'16 ef'16 e,16] \\
+\staff "2" \stemDown b,,16--[ c16 df16 c16-- df16 d16 cs16-- d16 ef16] s2 s16 | %5

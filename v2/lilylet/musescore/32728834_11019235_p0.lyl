@@ -1,0 +1,14 @@
+[staves "{-}"]
+[title "MuseScore SVG import"]
+
+\staff "1" \key c \major \numericTimeSignature \time 9/16 \clef "treble" r8. <c' e>8.[ <c e>8.~] \\
+\staff "2" \clef "bass" c,32[ c'32 e32 e,32 c'32 e32 g,32 c32 e32] b32[ c32 e32 g,32 c32 e32 f,32 c'32 e32] e,32[ c'32 e32 d,32 c'32 e32 c,32 c'32 e32] | %1
+
+\staff "1" <c' e>8. <e c' e>8.[ <e c' e>8.] \\
+\staff "2" a,32[ c'32 e32 c,32 a'32 c32 e,32 a32 c32] gs32[ a32 c32 e,32 a32 c32 d,32 a'32 c32] c,32[ a'32 c32 b,32 a'32 c32 a,32 a'32 c32] | %2
+
+\staff "1" <e' c' e>8.[ <f d' f>8. <d b' d>8] \clef "bass" g,,,,32[ a32 b32] \\
+\staff "2" g,32[ g'32 c32 c,32 g'32 c32 e,32 g32 c32] g,32[ g'32 b32 b,32 g'32 b32 d,32 g32 b32] g,32[ d'32 g32 g,32 f'32 g32 g,32 a32 b32] | %3
+
+\staff "1" \clef "bass" c,,32[ e32 g32 c32 e32 g32 \clef "treble" c32 e32 g32] c32[ e32 g32 e32 g32 c32 e16] s32 \\
+\staff "2" s2 s16 | %4

@@ -1,0 +1,47 @@
+[staves ",,,,,"]
+[title "MuseScore SVG import"]
+
+\key c \major \defaultTimeSignature \time 4/4 \clef "bass" R1 \\\
+\clef "treble" r4 r8 f''16[ f16] f8[ d16 d16] d8[ bf16 bf16] \\\
+\clef "treble" r8 d16[ d16] d4:16 d2:16 \\\
+\clef "alto" r8 bf16[ bf16] bf4:16 bf2:16 \\\
+\clef "bass" r8 f,16[ f16] f4:16 f2:16 \\\
+\clef "alto" af4 r4 r2 | %1
+
+R1 \\\
+bf''8[ f16 f16] f8[ d16 d16] d8[ bf8 f8 d8] \\\
+d2:16 d2:16 \\\
+bf2:16 bf2:16 \\\
+f,2:16 f2:16 \\\
+R1 | %2
+
+\stemUp bf4. a8 bf4. a8 \\
+\stemDown bf,4. a8 bf4. a8 \\\
+bf4 r4 r2 \\\
+f2:16 f2:16 \\\
+d2:16 d2:16 \\\
+bf4:16 bf16[ bf16 a16 a16] bf4:16 bf16[ bf16 a16 a16] \\\
+R1 | %3
+
+\stemUp bf8[ a8 bf8 a8] bf8[ a8 bf8 b8] \\
+\stemDown bf,8[ a8 bf8 a8] bf8[ a8 bf8 b8] \\\
+R1 \\\
+f2:16 f4:16 f16[ f16 g16 g16] \\\
+d2:16 d2:16 \\\
+bf16[ bf16 a16 a16] bf16[ bf16 a16 a16] bf16[ bf16 a16 a16] bf16[ bf16 b16 b16] \\\
+R1 | %4
+
+\stemUp c4 r4 s2 \\
+\stemDown c,4 s4 r2 \\\
+r4 r8 g'''16[ g16] g8[ ef16 ef16] ef8[ c16 c16] \\\
+ef2:16 ef2:16 \\\
+c2:16 c2:16 \\\
+g2:16 g2:16 \\\
+b,8 r8 r4 r2 | %5
+
+R1 \\\
+c''8[ g16 g16] g8[ ef16 ef16] ef8[ c8 g8 ef8] \\\
+ef2:16 ef2:16 \\\
+c2:16 c2:16 \\\
+g2:16 g2:16 \\\
+R1 | %6

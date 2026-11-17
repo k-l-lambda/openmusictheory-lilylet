@@ -1,0 +1,6 @@
+[staves ""]
+[title "MuseScore SVG import"]
+
+\key c \major \numericTimeSignature \time 4/4 \clef "percussion" f'8[ f8] f8[ f8] f16[ f16 f16 f16] f16[ f16 f16 f16] | %1
+
+\time 4/8 f'16[ f16] f16[ f16] f16[ f16] f16[ f16] | %2

@@ -1,0 +1,30 @@
+[staves ""]
+[title "MuseScore SVG import"]
+
+\key c \major \numericTimeSignature \time 4/4 \clef "treble" \stemUp b'2 e2~ \\
+\stemDown g'1 | %1
+
+\stemUp e'4 d4 d2~ \\
+\stemDown f1 | %2
+
+\stemUp d'4 g,4 c2 \\
+\stemDown e1 | %3
+
+\stemUp c'4 b8[ a8] b2 \\
+\stemDown d1 | %4
+
+<c c'>1 | %5
+
+\stemUp b'2 e2~ \\
+\stemDown g'1 | %6
+
+\stemUp e'2 d2~ \\
+\stemDown f1 | %7
+
+\stemUp d'2 c2 \\
+\stemDown e1 | %8
+
+\stemUp c'2 b2 \\
+\stemDown d1 | %9
+
+<c c'>1 | %10

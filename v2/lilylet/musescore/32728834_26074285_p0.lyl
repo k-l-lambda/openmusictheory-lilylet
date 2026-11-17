@@ -1,0 +1,16 @@
+[staves ",,"]
+[title "MuseScore SVG import"]
+
+\key ef \major \numericTimeSignature \time 4/4 \clef "treble" \stemUp \tempo 4 = 55 af''16[ g16 f16 ef16] d8[ af'8] af8\trill[ g8] r8 g8 \\
+\stemDown f4 bf4 bf2 \\\
+\clef "treble" <bf' d>16[ <d f>16 <f af>16 <d f>16] <bf d>16[ <d f>16 <f af>16 <d f>16] <bf ef>16[ <ef g>16 <g bf>16 <ef g>16] <bf ef>16[ <ef g>16 <g bf>16 <ef g>16] \\\
+\clef "bass" bf,8[ bf8 bf8 bf8] ef8[ ef8 ef8 ef8] | %1
+
+c'8 c2 d16[ ef16] f8[ g16 af16] d,8 d2 ef16[ f16] g8[ af16 bf16] \\\
+<c' ef>16[ <ef af>16 <c ef>16 <ef af>16] <c f>16[ <f af>16 <c f>16 <f af>16] <d f>16[ <f bf>16 <d f>16 <f bf>16] <d g>16[ <g bf>16 <d g>16 <g bf>16] \\\
+af,8[ af8 af8 af8] bf8[ bf8 bf8 bf8] | %2
+
+\stemUp ef'8[ f16 g16] af8[ bf16 c16] d,4 r8 d16[ ef16] \\
+\stemDown ef2 f2 \\\
+<ef' g>16[ <g c>16 <ef g>16 <g c>16] <ef af>16[ <af c>16 <ef af>16 <af c>16] <bf, d>16[ <d f>16 <f bf>16 <d f>16] <bf d>16[ <d f>16 <f bf>16 <d f>16] \\\
+c,8[ c8 c8 c8] bf8[ bf8 bf8 bf8] | %3

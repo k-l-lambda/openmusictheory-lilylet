@@ -1,0 +1,34 @@
+[staves "{-}"]
+[title "MuseScore SVG import"]
+
+\staff "1" \key c \major \numericTimeSignature \time 6/8 \clef "treble" <b' d>8[ <a cs>8] <cs a'>8~ <cs a'>8[ <cs a'>8-- <cs a'>8--] \\
+\staff "2" \clef "bass" a,16[ e''16 a,16 e'16 cs16 e,16] ds,16[ fs''16 a,16 fs'16 cs16 ds,16] | %1
+
+\staff "1" \stemUp gs''8[ a8. gs16] \tuplet 3/2 { fs8 } \tuplet 3/2 { s16 } \tuplet 3/2 { fs16[ e16 fs16 gs16] } \tuplet 3/2 { s32 } r32 s32 \\
+\staff "1" \stemDown cs'4. \tuplet 3/2 { cs16[ ds16 cs16 bs8.] } <bs ds>32 s16 s32 \\
+\staff "2" gs,16[ fs''16 gs,16 fs'16 cs16 ds,16] gs,16[ fs''16 gs,16 fs'16 bs,16 ds,16] | %2
+
+\staff "1" \tuplet 9/8 { <ds' fs>8->~ } \tuplet 9/8 { s64 } \tuplet 9/8 { <ds fs>16[ <cs e>16] } r32 \tuplet 9/8 { <e cs'>32 } \tuplet 5/4 { <e cs'>16->[ <gs b>16] } r32 \tuplet 5/4 { <fs a>32 } \tuplet 3/2 { <e gs>16[ <gs, gs'>16 <a gs'>16] } \tuplet 3/2 { <as gs'>16[ <b gs'>16 <bs gs'>16] } \tuplet 5/4 { <cs gs'>32[ <css gs'>32 <ds gs>32 <e gs>32 <es gs>32] } \\
+\staff "2" gs,16[ e''16 gs,16 e'16 cs16 e,16] gs,,16[ e'''16 gs,16 e'16 cs16 e,16] | %3
+
+\staff "1" <fs' gs>8[ \grace { b8 } <fs a>8-> <fs gs>8] <fs ds'>16 r16 <e gs>8[ <ds gs>8] \\
+\staff "2" gs,16[ ds''16 fs,16 ds'16 bs16 ds,16] gs,,16[ ds'''16 fs,16 ds'16 bs16 ds,16] | %4
+
+\staff "1" \stemUp gs''4 fs8 r8 <ef gf>8-.[ <ef gf>8-.] \\
+\staff "1" \stemDown ds'4. s8 c8->[ cf8->] \\
+\staff "2" a,16[ ds'16 fs,16 ds'16 bs16 ds,16] a,16[ ef'''16 gf,16 ef'16 cf16 ef,16] | %5
+
+\staff "1" <bf' ef gf>8 \grace { gf'8 } gf'4~ gf16[ d16] \tuplet 3/2 { ef16[ a,16 bf16] } \tuplet 3/2 { f16[ gf16 d16] } \\
+\staff "2" bf,16[ ef'16 gf,16 ef'16 bf16 ef,16] bf,16[ ef''16 gf,16 ef'16 bf16 ef,16] | %6
+
+\staff "1" <bff' ef gf>8 \grace { gf'8 } gf'4~ gf16[ d16] \tuplet 3/2 { ef16[ af,16 bff16] } \tuplet 3/2 { f16[ gf16 d16] } \\
+\staff "2" cf,16[ ef'16 gf,16 ef'16 bff16 ef,16] cf,16[ ef''16 gf,16 ef'16 bff16 ef,16] | %7
+
+\staff "1" <a' ef' gf>8 \grace { gf'8 } gf'4 <a,, cs fs>8 \grace { fs'8 } fs'8[ <a,, c fs>8] \\
+\staff "2" <c, c>16[ ef'16 gf,16 ef'16 a,16 ef16] <cs cs>16[ cs'16 fs,16 a16] <d, d>16[ c'16] | %8
+
+\staff "1" \tuplet 5/4 { \tempo "pesante" fs''8[ gf16 f16 e16] } \tuplet 3/2 { gf,16[ ef'16 d16] } \tuplet 3/2 { df16[ ef,16 c'16] } \tuplet 3/2 { bf16[ a16 c,16] } \tuplet 3/2 { af'16[ g16 gf16] } \\
+\staff "2" fs,16[ a16] <ef ef>16[ c'16 gf16 af16] af,16 af4. gf''16[ af,16 gf'16 c,16 ef,16] | %9
+
+\staff "1" f'4. ef8[ df8. f,16] \\
+\staff "2" df,16[ f'16 af,16 f'16 df16 f,16] df16[ f'16 af,16 f'16 df16 f,16] | %10

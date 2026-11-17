@@ -1,0 +1,32 @@
+[staves ","]
+[title "MuseScore SVG import"]
+
+\key e \major \numericTimeSignature \time 4/4 \clef "treble_8" r4 as'8[ gs8] r2 \\\
+\clef "treble_8" <ds as' ds fs as>4 <ds as' ds>8 r8 <gs, ds' gs bs>4 <gs ds' gs bs ds>4 | %1
+
+r4 gs'8[ as8] r2 \\\
+<cs gs' cs e gs>4 <cs gs' cs>8 r8 <fs, cs' fs as>4 <fs cs' fs as cs>4 | %2
+
+r4 b'8[ gs8] fs8[ e8] r4 \\\
+<b fs' b d fs>4 <b fs' b>8 r8 <e, b' e gs>4 <e b' e gs b>4 | %3
+
+cs4 e4 gs8[ fs8 e8 cs8] \\\
+<a e' a cs>4 <a e' a cs e>4 <cs gs' cs e>2 | %4
+
+r4 as'8[ gs8] r2 \\\
+<ds as' ds fs as>4 <ds as' ds>8 r8 <gs, ds' gs bs>4 <gs ds' gs bs ds>4 | %5
+
+r4 gs'8[ as8] r2 \\\
+<cs gs' cs e gs>4 <cs gs' cs>8 r8 <fs, cs' fs as>4 <fs cs' fs as cs>4 | %6
+
+r4 b'8[ gs8] fs8[ e8] r4 \\\
+<b fs' b d fs>4 <b fs' b>8 r8 <e, b' e gs>4 <e b' e gs b>4 | %7
+
+r4. gs'8.[ fs16 e8] r4 \\\
+<a e' a cs>4 <a e' a cs e>4 <cs gs' cs e>2 | %8
+
+r4 b'8 gs4. fs16[ e8] r16 \\\
+<e, b' e gs>4 <e b' e gs>4 <a e' a cs>4 <a e' a cs e>4 | %9
+
+r4. gs'8.[ fs16 e8] r4 \\\
+e'8[ cs8 a8 e8] <cs gs' cs e>4 <cs gs' cs e>4 | %10

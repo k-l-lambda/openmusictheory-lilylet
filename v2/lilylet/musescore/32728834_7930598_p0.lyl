@@ -1,0 +1,18 @@
+[staves ""]
+[title "MuseScore SVG import"]
+
+\key c \major \defaultTimeSignature \time 4/4 \clef "treble" \tempo 4 = 72 f16--[ e16 fs8~] fs2.~ | %1
+
+\tuplet 3/2 { f16[ c8. fs8] } c4 g'2~ | %2
+
+g'2 r4 f16[ e16 fs8~] | %3
+
+f8[ g8~] \tuplet 3/2 { g4 cs,8 } g'4 \tuplet 3/2 { fs16[ g16] fs4~ } | %4
+
+f8 e4.~ \tuplet 3/2 { e4 cs4 g'4 } | %5
+
+r8 \tuplet 5/4 { cs8 g'4-- a4--~ } a4 bf4~ | %6
+
+b'2~ b4 \tuplet 3/2 { g4 } bf4 | %7
+
+g'8 bf4. c2 | %8
