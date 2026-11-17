@@ -1,5 +1,6 @@
 // Build data for the MuseScore SVG -> Lilylet review page.
-// Usage: node omr-review/build-musescore.mjs [--staging /tmp/omt-musescore-svg]
+// Usage: node omr-review/build-musescore.mjs [--staging DIR] [--legacy /tmp/omt-musescore-svg]
+// Default staging: /tmp/omt-musescore-svg-v2 (event-graph engine) when present, else the legacy one.
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
@@ -8,7 +9,10 @@ import { fileURLToPath } from "node:url";
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(HERE, "..");
 const args = process.argv.slice(2);
-const staging = path.resolve(args.includes("--staging") ? args[args.indexOf("--staging") + 1] : "/tmp/omt-musescore-svg");
+const opt = (name, fallback) => (args.includes(name) ? args[args.indexOf(name) + 1] : fallback);
+const staging = path.resolve(opt("--staging", fs.existsSync("/tmp/omt-musescore-svg-v2/manifest.json") ? "/tmp/omt-musescore-svg-v2" : "/tmp/omt-musescore-svg"));
+// Legacy (Starry-adapter) drafts are shown read-only for comparison when available.
+const legacy = path.resolve(opt("--legacy", "/tmp/omt-musescore-svg"));
 if (!staging || staging === ROOT) throw new Error("Invalid staging directory");
 const hash = (p) => crypto.createHash("sha256").update(fs.readFileSync(p)).digest("hex");
 const readJson = (p) => JSON.parse(fs.readFileSync(p, "utf8"));
@@ -22,16 +26,20 @@ if (!Array.isArray(ledger) || ledger.length !== 453) fail(`expected 453 ledger r
 const csv = fs.readFileSync(path.join(sourceRoot, "manifest.csv"), "utf8").trim().split(/\r?\n/).slice(1);
 const csvNames = new Set(csv.map((line) => line.split(",")[3]).filter(Boolean));
 if (csvNames.size !== 453) fail(`expected 453 CSV rows, got ${csvNames.size}`);
-const converterHash = crypto.createHash("sha256").update(
-  ["geometry.ts", "parser.ts", "layout.ts", "musescoreToStarry.ts", "svg-to-lilylet.ts"]
-    .map((name) => hash(path.join(ROOT, "scripts/svg", name))).join(":"),
-).digest("hex");
+const LEGACY_FILES = ["geometry.ts", "parser.ts", "layout.ts", "musescoreToStarry.ts", "svg-to-lilylet.ts"];
+const hashCache = new Map();
+const converterHashOf = (files) => {
+  const key = files.join(",");
+  if (!hashCache.has(key)) hashCache.set(key, crypto.createHash("sha256").update(files.map((name) => hash(path.join(ROOT, "scripts/svg", name))).join(":")).digest("hex"));
+  return hashCache.get(key);
+};
 const seen = new Set();
 const items = [];
 for (const row of ledger) {
   const name = row.source;
   if (typeof name !== "string" || !safeName(name) || !csvNames.has(name)) fail(`invalid or unknown source ${name}`);
-  if (row.converterHash !== converterHash) fail(`converter hash mismatch for ${name}: ledger ${row.converterHash}, current ${converterHash}`);
+  // A draft made by older converter code is still shown, but marked stale.
+  const stale = row.converterHash !== converterHashOf(row.converterFiles || LEGACY_FILES);
   if (seen.has(name)) fail(`duplicate source ${name}`);
   seen.add(name);
   const source = path.join(sourceRoot, name);
@@ -68,13 +76,20 @@ for (const row of ledger) {
     error: row.error || "",
     sourceHash: row.sourceHash,
     reviewedDraftHash: row.reviewedDraftHash || "",
+    stale,
+    engine: row.engine || "starry-legacy",
+    quality: row.quality || null,
+    legacyCode: (() => {
+      const p = path.join(legacy, "lyl", `${name.slice(0, -4)}.lyl`);
+      return legacy !== staging && fs.existsSync(p) ? fs.readFileSync(p, "utf8") : null;
+    })(),
   });
 }
 if (seen.size !== csvNames.size) fail(`ledger/CSV mismatch: ${seen.size} vs ${csvNames.size}`);
 
 // The manual transcription is an alternative review item, not a replacement for the automatic draft.
 const manualName = "32728834_5769529_p0.lyl";
-const manualPath = path.join(staging, "manual", manualName);
+const manualPath = [staging, legacy].map((dir) => path.join(dir, "manual", manualName)).find((p) => fs.existsSync(p)) || path.join(staging, "manual", manualName);
 if (fs.existsSync(manualPath)) {
   const sourceName = manualName.replace(/\.lyl$/, ".svg");
   if (!seen.has(sourceName)) fail(`manual source is not in ledger: ${sourceName}`);
@@ -101,8 +116,11 @@ const out = {
   generated: new Date().toISOString(),
   root: ROOT,
   scope: "MuseScore SVG first pages (_p0.svg); automatic drafts are not fidelity approvals",
+  staging,
   items,
 };
 fs.writeFileSync(path.join(HERE, "musescore-data.js"), `window.MUSESCORE_REVIEW = ${JSON.stringify(out)};\n`);
 const counts = (key, value) => items.filter((x) => x[key] === value).length;
-console.log(`musescore review: ${items.length} items (${counts("conversion", "draft")} drafts, ${counts("conversion", "failed")} conversion failures, ${counts("provenance", "manual")} manual); ${path.join(HERE, "musescore.html")}`);
+const grades = {};
+for (const x of items) if (x.quality) grades[x.quality.grade] = (grades[x.quality.grade] || 0) + 1;
+console.log(`musescore review: ${items.length} items from ${staging} (${counts("conversion", "draft")} drafts, ${counts("conversion", "failed")} conversion failures, ${counts("provenance", "manual")} manual, ${items.filter((x) => x.stale).length} stale; quality ${JSON.stringify(grades)}); ${path.join(HERE, "musescore.html")}`);

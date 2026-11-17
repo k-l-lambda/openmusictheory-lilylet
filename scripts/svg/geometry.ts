@@ -2,7 +2,8 @@
 export type Point = { x: number; y: number };
 export type Bounds = { left: number; top: number; right: number; bottom: number };
 export type Matrix = [number, number, number, number, number, number];
-export type Subpath = { start: Point; end: Point; bounds: Bounds; closed: boolean; commands: string[] };
+// `points` keeps transformed command endpoints (not curve extrema) for polygon-like glyphs such as beams.
+export type Subpath = { start: Point; end: Point; bounds: Bounds; closed: boolean; commands: string[]; points: Point[] };
 const identity: Matrix = [1, 0, 0, 1, 0, 0];
 export const apply = (m: Matrix, p: Point): Point => ({ x: m[0] * p.x + m[2] * p.y + m[4], y: m[1] * p.x + m[3] * p.y + m[5] });
 export const multiply = (a: Matrix, b: Matrix): Matrix => [
@@ -147,7 +148,7 @@ export function parsePath(d: string, transform: Matrix = identity): Subpath[] {
     switch (upper) {
       case 'M':
         next = point(v, 0, relative); start = next;
-        active = { start: apply(transform, next), end: apply(transform, next), bounds: { left: Infinity, top: Infinity, right: -Infinity, bottom: -Infinity }, closed: false, commands: [] };
+        active = { start: apply(transform, next), end: apply(transform, next), bounds: { left: Infinity, top: Infinity, right: -Infinity, bottom: -Infinity }, closed: false, commands: [], points: [apply(transform, next)] };
         out.push(active); mark(next); command = relative ? 'l' : 'L'; break;
       case 'L': next = point(v, 0, relative); mark(next); break;
       case 'H': next = { x: v[0] + (relative ? old.x : 0), y: old.y }; mark(next); break;
@@ -174,7 +175,7 @@ export function parsePath(d: string, transform: Matrix = identity): Subpath[] {
       }
       default: throw new Error(`Unsupported SVG path command: ${upper}`);
     }
-    active!.commands.push(upper); current = next!;
+    active!.commands.push(upper); active!.points.push(apply(transform, next!)); current = next!;
     if (!['C', 'S'].includes(upper)) c2 = undefined;
     if (!['Q', 'T'].includes(upper)) q1 = undefined;
     previous = upper;

@@ -105,7 +105,9 @@ export function recoverLayout(page: SvgPage): SystemGeometry[] {
     const upperSystem = [...systems].reverse().find(s => {
       const upper = s.staves[s.staves.length - 1];
       const distance = staff.lines[0] - upper.lines[upper.lines.length - 1];
-      if (distance < -spacing || distance >= 12 * spacing ||
+      // A barline physically spanning the gap joins staves into one system even across a wide
+      // gap (two pianos, an empty ossia); without one, staves are separate systems.
+      if (distance < -spacing || distance >= 30 * spacing ||
         Math.min(s.right, staff.right) - Math.max(s.left, staff.left) <= 10 * spacing) return false;
       return barSegments.some(bar => bar.bounds.top <= upper.lines[upper.lines.length - 1] + spacing &&
         bar.bounds.bottom >= staff.lines[0] - spacing &&

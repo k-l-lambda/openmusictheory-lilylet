@@ -11,6 +11,9 @@
     .tag-st-manual { background: var(--tag-hand-bg); color: var(--tag-hand-fg); }
     .tag-st-pass { background: var(--tag-none-bg); color: var(--tag-none-fg); }
     .tag-st-pending { background: var(--tag-none-bg); color: var(--tag-none-fg); }
+    .tag-st-consistent { background: var(--tag-none-bg); color: var(--tag-none-fg); }
+    .tag-st-flagged { background: transparent; color: var(--warn-fg); border: 1px solid currentColor; }
+    .tag-st-broken { background: transparent; color: var(--err-fg); border: 1px solid currentColor; }
     .tag-stale { background: transparent; color: var(--warn-fg); border: 1px solid currentColor; }
     .source-paper { flex-direction: column; align-items: stretch; }
     .source-paper img { width: 100%; max-height: 75vh; object-fit: contain; object-position: top center; }
@@ -39,6 +42,7 @@
       <label class="field"><span>转换</span><select id="conversion"><option value="">全部</option><option value="draft">有自动草稿</option><option value="failed">转换失败</option><option value="manual">手工版本</option></select></label>
       <label class="field"><span>审核</span><select id="review"><option value="">全部</option><option value="failed">失败</option><option value="pending">待审核</option><option value="manual">手工独立版</option></select></label>
       <label class="field"><span>检查</span><select id="checker"><option value="">全部</option><option value="pass">结构检查通过</option><option value="fail">结构检查失败</option><option value="not-run">未运行</option></select></label>
+      <label class="field"><span>质量</span><select id="grade"><option value="">全部</option><option value="consistent">自洽（小节时值与往返检查均通过）</option><option value="flagged">有标记的小节</option><option value="broken">往返检查失败</option></select></label>
       <label class="field"><span>来源</span><select id="provenance"><option value="">全部</option><option value="automatic">自动草稿</option><option value="manual">手工转写</option></select></label>
       <label class="field"><span>每页</span><select id="pageSize"><option>12</option><option selected>24</option><option>48</option></select></label>
     </form>
@@ -54,7 +58,7 @@
         <figure class="pane pane-orig"><figcaption>源 MuseScore SVG（第 0 页）</figcaption><div class="paper source-paper"><img loading="lazy" decoding="async"></div></figure>
         <figure class="pane pane-render"><figcaption><span class="cap-text">Lilylet 渲染</span><span class="copy-status" role="status" aria-live="polite"></span></figcaption><div class="paper render" aria-live="polite"></div></figure>
       </div>
-      <details class="more"><summary>详情</summary><div class="more-body"><p class="pages"></p><p class="notes"></p><p class="local-path"></p><pre class="code"></pre></div></details>
+      <details class="more"><summary>详情</summary><div class="more-body"><p class="pages"></p><p class="notes"></p><p class="local-path"></p><pre class="code"></pre><details class="legacy" hidden><summary>旧版（Starry 适配器）草稿，仅供对照</summary><pre class="legacy-code"></pre></details></div></details>
     </article>
   </template>
 </body>

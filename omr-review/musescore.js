@@ -5,7 +5,7 @@
   const $ = (id) => document.getElementById(id);
   const els = {
     meta: $("meta"), renderer: $("renderer"), list: $("list"), empty: $("empty"), pagination: $("pagination"),
-    q: $("q"), conversion: $("conversion"), review: $("review"), checker: $("checker"), provenance: $("provenance"), pageSize: $("pageSize"), tpl: $("card-tpl"),
+    q: $("q"), conversion: $("conversion"), review: $("review"), checker: $("checker"), grade: $("grade"), provenance: $("provenance"), pageSize: $("pageSize"), tpl: $("card-tpl"),
   };
   if (!DATA || !window.LilyletLib) {
     els.renderer.textContent = "缺少 musescore-data.js 或 Lilylet bundle：请先运行 npm run omr-review-musescore";
@@ -105,6 +105,11 @@
     tags.append(tag("转换：" + item.conversion, statusClass(item.conversion)));
     tags.append(tag("审核：" + item.review, statusClass(item.review)));
     tags.append(tag("结构：" + item.checker, statusClass(item.checker)));
+    if (item.quality) {
+      const q = item.quality;
+      tags.append(tag({ consistent: "自洽", flagged: "有标记", broken: "往返失败" }[q.grade] || q.grade, q.grade));
+      tags.append(tag(`一致小节 ${q.fineMeasures}/${q.measures}`, q.fineMeasures === q.measures ? "pass" : "flagged"));
+    }
     if (item.rendered) tags.append(tag("已有批量渲染", "pass"));
     if (item.stale) tags.append(tag("草稿哈希不一致", "stale"));
     const sourceImg = card.querySelector(".source-paper img"); sourceImg.src = toUrl(item.source); sourceImg.alt = "MuseScore 源 SVG：" + item.name;
@@ -117,7 +122,12 @@
         b.onclick = () => { b.disabled = true; b.textContent = "渲染中…"; queue.unshift(card); pump(); }; box.appendChild(b);
       } else observe.observe(card);
     }
-    const notes = card.querySelector(".notes"); notes.textContent = [item.reviewNotes, item.error].filter(Boolean).join("\n");
+    const qualityNotes = item.quality ? [
+      Object.keys(item.quality.flags || {}).length ? "小节标记：" + Object.entries(item.quality.flags).map(([k, v]) => `${k}×${v}`).join("，") : "",
+      item.quality.unrepresented && item.quality.unrepresented.length ? "未转写的元素类别：" + item.quality.unrepresented.join("、") : "",
+    ] : [];
+    const notes = card.querySelector(".notes"); notes.textContent = [item.reviewNotes, item.error, ...qualityNotes].filter(Boolean).join("\n");
+    if (item.legacyCode) { const l = card.querySelector(".legacy"); l.hidden = false; l.querySelector(".legacy-code").textContent = item.legacyCode; }
     const details = card.querySelector(".local-path"); details.textContent = `源哈希：${item.sourceHash}` + (item.reviewedDraftHash ? `\n草稿哈希：${item.reviewedDraftHash}` : "");
     if (item.draftLocal) addCopy(details, "复制草稿本地路径", item.draftLocal);
     addCopy(details, "复制源文件本地路径", pathForSource(item.source));
@@ -127,7 +137,7 @@
   const pathForSource = (source) => source ? `${DATA.root}/${source}` : "";
   const filtered = () => {
     const q = els.q.value.trim().toLowerCase();
-    return DATA.items.filter((x) => (!q || [x.name, x.source, x.reviewNotes, x.error].join(" ").toLowerCase().includes(q)) && (!els.conversion.value || x.conversion === els.conversion.value) && (!els.review.value || x.review === els.review.value) && (!els.checker.value || x.checker === els.checker.value) && (!els.provenance.value || x.provenance === els.provenance.value));
+    return DATA.items.filter((x) => (!q || [x.name, x.source, x.reviewNotes, x.error].join(" ").toLowerCase().includes(q)) && (!els.conversion.value || x.conversion === els.conversion.value) && (!els.review.value || x.review === els.review.value) && (!els.checker.value || x.checker === els.checker.value) && (!els.grade.value || (x.quality && x.quality.grade === els.grade.value)) && (!els.provenance.value || x.provenance === els.provenance.value));
   };
   const redraw = () => {
     queue = []; cards.forEach((c) => { c._retired = true; observe.unobserve(c); releaseUrls(c); });
@@ -138,8 +148,8 @@
     const next = document.createElement("button"); next.type = "button"; next.textContent = "下一页"; next.disabled = page >= pages; next.onclick = () => { page++; redraw(); window.scrollTo(0, 0); };
     const label = document.createElement("span"); label.textContent = `${page} / ${pages} · ${all.length} 条`;
     els.pagination.append(prev, label, next);
-    els.meta.textContent = `显示 ${shown.length} / ${all.length} 条（总计 ${DATA.items.length}：自动条目 ${DATA.items.filter((x) => x.provenance === "automatic").length}，其中草稿 ${DATA.items.filter((x) => x.conversion === "draft").length}，手工版本 ${DATA.items.filter((x) => x.provenance === "manual").length}） · 仅限 _p0.svg；审核失败不代表结构检查失败`;
+    els.meta.textContent = `显示 ${shown.length} / ${all.length} 条（总计 ${DATA.items.length}：自动条目 ${DATA.items.filter((x) => x.provenance === "automatic").length}，其中草稿 ${DATA.items.filter((x) => x.conversion === "draft").length}，手工版本 ${DATA.items.filter((x) => x.provenance === "manual").length}） · 仅限 _p0.svg；“自洽”只表示时值与往返检查一致，不代表与原图相符`;
   };
-  for (const id of ["q", "conversion", "review", "checker", "provenance", "pageSize"]) els[id].addEventListener(id === "q" ? "input" : "change", () => { page = 1; redraw(); });
+  for (const id of ["q", "conversion", "review", "checker", "grade", "provenance", "pageSize"]) els[id].addEventListener(id === "q" ? "input" : "change", () => { page = 1; redraw(); });
   redraw();
 })();

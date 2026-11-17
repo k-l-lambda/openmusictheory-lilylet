@@ -6,7 +6,10 @@
     "comparison": "vite --config comparison/vite.config.ts",
     "build:comparison": "vite build --config comparison/vite.config.ts",
     "omr-review": "node omr-review/build.mjs",
-    "omr-review-musescore": "node omr-review/build.mjs && node omr-review/build-musescore.mjs"
+    "omr-review-musescore": "node omr-review/build.mjs && node omr-review/build-musescore.mjs",
+    "svg-to-lilylet": "node --import tsx scripts/svg/svg-to-lilylet.ts",
+    "svg-corpus-report": "node --import tsx scripts/svg/corpus-report.ts",
+    "test:svg": "node --import tsx --test scripts/svg/*.test.ts"
   },
   "devDependencies": {
     "katex": "0.16.22",
