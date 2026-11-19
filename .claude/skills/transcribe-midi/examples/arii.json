@@ -1,0 +1,544 @@
+{
+  "parts": [
+    {
+      "id": "vib",
+      "name": "Vibraphone",
+      "channel": 2,
+      "program": 11,
+      "staffs": [
+        {
+          "id": "vib",
+          "clef": "treble"
+        }
+      ]
+    },
+    {
+      "id": "pno",
+      "name": "Piano",
+      "channel": 0,
+      "program": 0,
+      "staffs": [
+        {
+          "id": "pr",
+          "clef": "treble"
+        },
+        {
+          "id": "pl",
+          "clef": "bass"
+        }
+      ]
+    },
+    {
+      "id": "hp",
+      "name": "Harp",
+      "channel": 3,
+      "program": 46,
+      "staffs": [
+        {
+          "id": "hp",
+          "clef": "treble"
+        }
+      ]
+    },
+    {
+      "id": "str",
+      "name": "Tremolo Strings",
+      "channel": 1,
+      "program": 44,
+      "staffs": [
+        {
+          "id": "str",
+          "clef": "treble"
+        }
+      ]
+    },
+    {
+      "id": "dr",
+      "name": "Drums",
+      "channel": 9,
+      "program": 0,
+      "staffs": [
+        {
+          "id": "dr",
+          "clef": "percussion"
+        }
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "track": 3,
+      "part": "vib"
+    },
+    {
+      "track": 2,
+      "part": "str"
+    },
+    {
+      "track": 4,
+      "part": "dr"
+    },
+    {
+      "track": 1,
+      "startTick": 296,
+      "endTick": 5769,
+      "part": "hp"
+    },
+    {
+      "track": 1,
+      "startTick": 15632,
+      "endTick": 25909,
+      "part": "hp"
+    },
+    {
+      "track": 1,
+      "noteIds": [
+        "t1n425"
+      ],
+      "part": "pno"
+    },
+    {
+      "track": 1,
+      "startTick": 45190,
+      "endTick": 47877,
+      "part": "hp",
+      "fallback": true
+    },
+    {
+      "part": "pno",
+      "track": 1,
+      "fallback": true
+    }
+  ],
+  "notation": {
+    "unit": 16,
+    "grid": 2,
+    "simultaneityTicks": 12,
+    "voicePolicy": "explicit",
+    "tiePolicy": "same-note-only",
+    "tempoBpm": 80
+  },
+  "bars": {
+    "bars": [
+      {
+        "bar": 1,
+        "startTick": 296,
+        "endTick": 1604,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 2,
+        "startTick": 1604,
+        "endTick": 2901,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 3,
+        "startTick": 2901,
+        "endTick": 4461,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4,
+        "landmarks": [
+          [
+            4070,
+            56
+          ]
+        ]
+      },
+      {
+        "bar": 4,
+        "startTick": 4461,
+        "endTick": 5769,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 5,
+        "startTick": 5769,
+        "endTick": 7175,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 6,
+        "startTick": 7175,
+        "endTick": 8442,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 7,
+        "startTick": 8442,
+        "endTick": 9776,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 8,
+        "startTick": 9776,
+        "endTick": 11059,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 9,
+        "startTick": 11059,
+        "endTick": 12353,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 10,
+        "startTick": 12353,
+        "endTick": 13674,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 11,
+        "startTick": 13674,
+        "endTick": 14963,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 12,
+        "startTick": 14963,
+        "endTick": 16313,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 13,
+        "startTick": 16313,
+        "endTick": 17625,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 14,
+        "startTick": 17625,
+        "endTick": 18912,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 15,
+        "startTick": 18912,
+        "endTick": 20180,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 16,
+        "startTick": 20180,
+        "endTick": 21440,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 17,
+        "startTick": 21440,
+        "endTick": 22726,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 18,
+        "startTick": 22726,
+        "endTick": 23983,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 19,
+        "startTick": 23983,
+        "endTick": 25268,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 20,
+        "startTick": 25268,
+        "endTick": 26619,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 21,
+        "startTick": 26619,
+        "endTick": 27915,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 22,
+        "startTick": 27915,
+        "endTick": 29206,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 23,
+        "startTick": 29206,
+        "endTick": 30513,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 24,
+        "startTick": 30513,
+        "endTick": 31808,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 25,
+        "startTick": 31808,
+        "endTick": 33104,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 26,
+        "startTick": 33104,
+        "endTick": 34409,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 27,
+        "startTick": 34409,
+        "endTick": 35723,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 28,
+        "startTick": 35723,
+        "endTick": 37056,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 29,
+        "startTick": 37056,
+        "endTick": 38370,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 30,
+        "startTick": 38370,
+        "endTick": 39691,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 31,
+        "startTick": 39691,
+        "endTick": 41059,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 32,
+        "startTick": 41059,
+        "endTick": 42499,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 33,
+        "startTick": 42499,
+        "endTick": 43845,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 34,
+        "startTick": 43845,
+        "endTick": 45190,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 35,
+        "startTick": 45190,
+        "endTick": 46504,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 36,
+        "startTick": 46504,
+        "endTick": 47877,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 37,
+        "startTick": 47877,
+        "endTick": 49148,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 38,
+        "startTick": 49148,
+        "endTick": 50448,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 39,
+        "startTick": 50448,
+        "endTick": 51789,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 40,
+        "startTick": 51789,
+        "endTick": 53202,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      },
+      {
+        "bar": 41,
+        "startTick": 53202,
+        "endTick": 54538,
+        "confidence": "inferred",
+        "reason": "Motif/bass arrival; not independently marked.",
+        "units": 64,
+        "n": 4,
+        "d": 4
+      }
+    ]
+  },
+  "verification": {
+    "onsetToleranceQuarter": 0.0625
+  }
+}

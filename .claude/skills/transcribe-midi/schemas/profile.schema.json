@@ -1,0 +1,293 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MIDI to Lilylet profile",
+  "type": "object",
+  "required": [
+    "parts",
+    "routes",
+    "notation"
+  ],
+  "properties": {
+    "source": {
+      "type": "object",
+      "properties": {
+        "track": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "channel": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 15
+        },
+        "program": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 127
+        }
+      }
+    },
+    "bars": {
+      "type": "object",
+      "required": [
+        "bars"
+      ],
+      "properties": {
+        "bars": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/bar"
+          }
+        }
+      }
+    },
+    "parts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/part"
+      }
+    },
+    "routes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/route"
+      }
+    },
+    "notation": {
+      "type": "object",
+      "required": [
+        "unit",
+        "grid",
+        "simultaneityTicks"
+      ],
+      "properties": {
+        "unit": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "grid": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "simultaneityTicks": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "voicePolicy": {
+          "type": "string"
+        },
+        "tiePolicy": {
+          "type": "string"
+        },
+        "tempoBpm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "properties": {
+        "onsetToleranceQuarter": {
+          "type": "number",
+          "minimum": 0
+        },
+        "durationToleranceQuarter": {
+          "type": "number",
+          "minimum": 0
+        }
+      }
+    }
+  },
+  "$defs": {
+    "bar": {
+      "type": "object",
+      "required": [
+        "bar",
+        "startTick",
+        "endTick"
+      ],
+      "properties": {
+        "bar": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "startTick": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "endTick": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "confidence": {},
+        "reason": {
+          "type": "string"
+        },
+        "unit": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "landmarks": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "prefixItems": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "number"
+              }
+            ],
+            "minItems": 2,
+            "maxItems": 2
+          }
+        },
+        "n": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "d": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "units": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "grid": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "part": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "staffs"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_-]+$"
+        },
+        "name": {
+          "type": "string"
+        },
+        "staffs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "clef": {
+                "type": "string"
+              },
+              "ottava": {
+                "type": "integer"
+              },
+              "stem": {
+                "enum": [
+                  "up",
+                  "down"
+                ]
+              }
+            }
+          }
+        },
+        "program": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 127
+        },
+        "channel": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 15
+        }
+      }
+    },
+    "route": {
+      "type": "object",
+      "required": [
+        "part"
+      ],
+      "properties": {
+        "part": {
+          "type": "string"
+        },
+        "track": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "channel": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 15
+        },
+        "program": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 127
+        },
+        "startTick": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "endTick": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "pitchMin": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 127
+        },
+        "pitchMax": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 127
+        },
+        "noteIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "fallback": {
+          "type": "boolean"
+        },
+        "staff": {
+          "oneOf": [
+            {
+              "type": "integer",
+              "minimum": 1
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "voice": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "grid": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    }
+  }
+}
